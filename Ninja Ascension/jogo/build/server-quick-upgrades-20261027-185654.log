@@ -1,0 +1,122 @@
+[HOST_SERVER][18:56:54] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][18:56:54] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][18:56:55] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:00] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:01] POST path=/iniServer?nr_transport=text-v1 bytes=58 primeira-linha=0
+[HOST_SERVER][18:57:01] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][18:57:06] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:12] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:18] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:24] ERRO unwrap path=/iniServer len=152 header=e22a3f7c5258f488 swapped=5258f488e22a3f7c: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][18:57:30] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:36] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:42] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:48] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:57:54] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:00] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:06] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:12] ERRO unwrap path=/iniServer len=24 header=002f0b2f967a4720 swapped=967a4720002f0b2f: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:18] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:24] ERRO unwrap path=/iniServer len=152 header=e22a3f7c5258f488 swapped=5258f488e22a3f7c: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][18:58:30] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:36] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:42] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:48] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:58:55] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:01] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:07] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:13] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:19] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:25] ERRO unwrap path=/iniServer len=152 header=e22a3f7c5258f488 swapped=5258f488e22a3f7c: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][18:59:31] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:37] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:43] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:49] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:59:55] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:01] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:07] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:13] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:19] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:25] ERRO unwrap path=/iniServer len=152 header=e22a3f7c5258f488 swapped=5258f488e22a3f7c: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][19:00:31] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:37] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:43] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:49] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:00:55] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:01] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:07] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:13] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:19] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:25] ERRO unwrap path=/iniServer len=152 header=e22a3f7c5258f488 swapped=5258f488e22a3f7c: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][19:01:31] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:37] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:43] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:49] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:01:55] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:02:02] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:02:08] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:02:14] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:04:09] ERRO unwrap path=/iniServer len=32 header=9ca9613b3ba5af02 swapped=3ba5af029ca9613b: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][19:06:51] POST path=/iniServer?nr_transport=text-v1 bytes=175 primeira-linha=0
+[HOST_SERVER][19:06:51] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][19:06:55] POST path=/iniServer?nr_transport=text-v1 bytes=143 primeira-linha=1
+[HOST_SERVER][19:06:55] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][19:06:55] cmd=search_user_platform seq=1 -> status=0 (24 chars)
+[HOST_SERVER][19:07:19] POST path=/iniServer?nr_transport=text-v1 bytes=169 primeira-linha=2
+[HOST_SERVER][19:07:19] login ok conta=ItachiBR sessao='aZ6...(43)' perfil_user_id=2
+[HOST_SERVER][19:07:19] cmd=platform_user_login seq=2 -> status=0 (109 chars)
+[HOST_SERVER][19:07:19] POST path=/iniServer?s=aZ6LsoGfYj2MppVLOYiUOLUhdfMADEAaj7i4k0EZGnc&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][19:07:19] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][19:07:20] POST path=/iniServer?s=aZ6LsoGfYj2MppVLOYiUOLUhdfMADEAaj7i4k0EZGnc&nr_transport=text-v1 bytes=49 primeira-linha=4
+[HOST_SERVER][19:07:20] vali_register conta=ItachiBR sessao='aZ6...(43)'
+[HOST_SERVER][19:07:20] cmd=vali_register seq=4 -> status=0 (36 chars)
+[HOST_SERVER][19:07:21] POST path=/iniServer?s=aZ6LsoGfYj2MppVLOYiUOLUhdfMADEAaj7i4k0EZGnc&nr_transport=text-v1 bytes=132 primeira-linha=5
+[HOST_SERVER][19:07:21] get_random_name indice=0 -> Kage_Shogun
+[HOST_SERVER][19:07:21] cmd=get_random_name seq=5 -> status=0 (34 chars)
+[HOST_SERVER][19:07:21] POST path=/iniServer?s=aZ6LsoGfYj2MppVLOYiUOLUhdfMADEAaj7i4k0EZGnc&nr_transport=text-v1 bytes=199 primeira-linha=6
+[HOST_SERVER][19:07:21] register conta=ItachiBR user_id=2 apelido=Kage_Shogun
+[HOST_SERVER][19:07:21] cmd=register seq=6 -> status=0 (16 chars)
+[HOST_SERVER][19:07:21] POST path=/iniServer?s=aZ6LsoGfYj2MppVLOYiUOLUhdfMADEAaj7i4k0EZGnc&nr_transport=text-v1 bytes=267 primeira-linha=7
+[HOST_SERVER][19:07:21] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][19:07:21] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][19:07:21] login_init conta=RenegadoBR user_id=2 sessao='aZ6...(43)'
+[HOST_SERVER][19:07:21] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][19:07:21] cmd=login_init seq=7 -> status=0 (1210870 chars)
+[HOST_SERVER][19:08:04] POST path=/iniServer?nr_transport=text-v1 bytes=181 primeira-linha=0
+[HOST_SERVER][19:08:04] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][19:08:07] POST path=/iniServer?nr_transport=text-v1 bytes=209 primeira-linha=1
+[HOST_SERVER][19:08:07] login ok conta=ItachiBR sessao='d5S...(43)' perfil_user_id=2
+[HOST_SERVER][19:08:07] cmd=platform_user_login seq=1 -> status=0 (109 chars)
+[HOST_SERVER][19:08:07] POST path=/iniServer?s=d5SOKITKsuCUU5MJIvcDnizi7g6_wjmbfL09wU6DKkA&nr_transport=text-v1 bytes=143 primeira-linha=2
+[HOST_SERVER][19:08:07] cmd=search_user_platform seq=2 -> status=0 (110 chars)
+[HOST_SERVER][19:08:07] POST path=/iniServer?s=d5SOKITKsuCUU5MJIvcDnizi7g6_wjmbfL09wU6DKkA&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][19:08:07] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][19:08:12] POST path=/iniServer?s=d5SOKITKsuCUU5MJIvcDnizi7g6_wjmbfL09wU6DKkA&nr_transport=text-v1 bytes=169 primeira-linha=4
+[HOST_SERVER][19:08:12] login ok conta=ItachiBR sessao='DG0...(43)' perfil_user_id=2
+[HOST_SERVER][19:08:12] cmd=platform_user_login seq=4 -> status=0 (109 chars)
+[HOST_SERVER][19:08:13] POST path=/iniServer?s=DG0eaMERBJsv4b0-4zOp3K4533L58Pp-PLYIrRUcgnc&nr_transport=text-v1 bytes=181 primeira-linha=5
+[HOST_SERVER][19:08:13] cmd=new_get_server_list seq=5 -> status=0 (86 chars)
+[HOST_SERVER][19:08:13] POST path=/iniServer?s=DG0eaMERBJsv4b0-4zOp3K4533L58Pp-PLYIrRUcgnc&nr_transport=text-v1 bytes=49 primeira-linha=6
+[HOST_SERVER][19:08:13] vali_register conta=ItachiBR sessao='DG0...(43)'
+[HOST_SERVER][19:08:13] cmd=vali_register seq=6 -> status=0 (36 chars)
+[HOST_SERVER][19:08:14] POST path=/iniServer?s=DG0eaMERBJsv4b0-4zOp3K4533L58Pp-PLYIrRUcgnc&nr_transport=text-v1 bytes=132 primeira-linha=7
+[HOST_SERVER][19:08:14] get_random_name indice=0 -> Ryu_Ninja
+[HOST_SERVER][19:08:14] cmd=get_random_name seq=7 -> status=0 (32 chars)
+[HOST_SERVER][19:08:14] POST path=/iniServer?s=DG0eaMERBJsv4b0-4zOp3K4533L58Pp-PLYIrRUcgnc&nr_transport=text-v1 bytes=197 primeira-linha=8
+[HOST_SERVER][19:08:14] register conta=ItachiBR user_id=2 apelido=Ryu_Ninja
+[HOST_SERVER][19:08:14] cmd=register seq=8 -> status=0 (16 chars)
+[HOST_SERVER][19:08:14] POST path=/iniServer?s=DG0eaMERBJsv4b0-4zOp3K4533L58Pp-PLYIrRUcgnc&nr_transport=text-v1 bytes=267 primeira-linha=9
+[HOST_SERVER][19:08:14] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][19:08:14] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][19:08:14] login_init conta=RenegadoBR user_id=2 sessao='DG0...(43)'
+[HOST_SERVER][19:08:14] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][19:08:14] cmd=login_init seq=9 -> status=0 (1210870 chars)
+[HOST_SERVER][19:10:15] POST path=/iniServer?nr_transport=text-v1 bytes=181 primeira-linha=0
+[HOST_SERVER][19:10:15] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][19:10:17] POST path=/iniServer?nr_transport=text-v1 bytes=209 primeira-linha=1
+[HOST_SERVER][19:10:17] login ok conta=ItachiBR sessao='KaJ...(43)' perfil_user_id=2
+[HOST_SERVER][19:10:17] cmd=platform_user_login seq=1 -> status=0 (109 chars)
+[HOST_SERVER][19:10:18] POST path=/iniServer?s=KaJe-xnYE04_vrlGh7Rz_lZnIWLWWRY7-JXCXCxrIJc&nr_transport=text-v1 bytes=143 primeira-linha=2
+[HOST_SERVER][19:10:18] cmd=search_user_platform seq=2 -> status=0 (110 chars)
+[HOST_SERVER][19:10:18] POST path=/iniServer?s=KaJe-xnYE04_vrlGh7Rz_lZnIWLWWRY7-JXCXCxrIJc&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][19:10:18] cmd=new_get_server_list seq=3 -> status=0 (86 chars)

@@ -1,0 +1,142 @@
+[HOST_SERVER][19:36:43] recusa cmd=artifact_culture seq=7 motivo=itens_insuficientes
+[HOST_SERVER][19:36:43] cmd=artifact_culture seq=7 -> status=-1 (41 chars)
+[HOST_SERVER][19:36:43] recusa cmd=artifact_culture seq=7 motivo=xamanismo_bloqueado
+[HOST_SERVER][19:36:43] cmd=artifact_culture seq=7 -> status=-1 (41 chars)
+[HOST_SERVER][19:36:43] recusa cmd=artifact_unlock seq=7 motivo=conquistas_do_xamanismo_incompletas
+[HOST_SERVER][19:36:43] cmd=artifact_unlock seq=7 -> status=-1 (56 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|1
+[HOST_SERVER][19:36:43] cmd=artifact_culture seq=7 -> status=0 (76 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1
+[HOST_SERVER][19:36:43] cmd=artifact_confirm seq=7 -> status=0 (1666 chars)
+[HOST_SERVER][19:36:43] recusa cmd=artifact_confirm seq=7 motivo=nenhuma_pratica_pendente
+[HOST_SERVER][19:36:43] cmd=artifact_confirm seq=7 -> status=-1 (46 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_culture conta=1 pedido=1|1|10
+[HOST_SERVER][19:36:43] cmd=artifact_culture seq=7 -> status=0 (207 chars)
+[HOST_SERVER][19:36:43] cmd=artifact_culture seq=7 -> status=0 (207 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|3,7
+[HOST_SERVER][19:36:43] cmd=artifact_confirm seq=7 -> status=0 (1679 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_culture conta=1 pedido=1|0|1
+[HOST_SERVER][19:36:43] cmd=artifact_culture seq=7 -> status=0 (67 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|-1|1
+[HOST_SERVER][19:36:43] cmd=artifact_confirm seq=7 -> status=0 (277 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:43] cmd=artifact_culture seq=7 -> status=0 (221 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:43] cmd=artifact_confirm seq=7 -> status=0 (1696 chars)
+[HOST_SERVER][19:36:43] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:43] cmd=artifact_culture seq=7 -> status=0 (214 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=0 (1699 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=0 (216 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=0 (1713 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=0 (215 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=0 (1701 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=0 (226 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=0 (1715 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=0 (217 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=0 (1715 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=0 (216 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=0 (1702 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=0 (213 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=0 (1702 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=0 (221 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_confirm conta=1 pedido=1|0|1,2,3,4,5,6,7,8,9,10
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=0 (1714 chars)
+[HOST_SERVER][19:36:44] XAMANISMO cmd=artifact_culture conta=1 pedido=1|2|10
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=0 (198 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_culture seq=7 motivo=gold_insuficiente
+[HOST_SERVER][19:36:44] cmd=artifact_culture seq=7 -> status=-1 (39 chars)
+[HOST_SERVER][19:36:44] recusa cmd=artifact_confirm seq=7 motivo=escolha_invalida
+[HOST_SERVER][19:36:44] cmd=artifact_confirm seq=7 -> status=-1 (38 chars)
+XAMANISMO_PASSED practice(cost items/gold, pending until confirm), choose some, cancel, retry, limits, locked/unlock refused, combat, login

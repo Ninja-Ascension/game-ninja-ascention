@@ -1,0 +1,20 @@
+[HOST_SERVER][15:13:47] cmd=power_swallow seq=9 -> status=0 (68 chars)
+    resposta: '9 power_swallow 0 194 0 0 0,9:00:00|0,12:00:00|0,18:00:00|0,21:00:00'
+  ok    status 0 -> 9 power_swallow 0 194 0 0 0,9:00:00|0,12:00:00|0,18:00:00|0,21:00:00
+  ok    nao e mais pendencia
+  ok    envia o codigo do parser 194 -> ['194']
+  ok    tres tokens (enger, time, info) -> 3
+  ok    _add_enger numerico -> '0'
+  ok    _add_enger_time numerico -> '0'
+  ok    _add_enger_info nao vazio -> '0,9:00:00|0,12:00:00|0,18:00:00|0,21:00:00'
+  ok    quatro periodos -> ['0,9:00:00', '0,12:00:00', '0,18:00:00', '0,21:00:00']
+  ok    cada periodo tem estado,hora -> ['0,9:00:00', '0,12:00:00', '0,18:00:00', '0,21:00:00']
+  ok    estado 0 (nao resgatado) -> ['0,9:00:00', '0,12:00:00', '0,18:00:00', '0,21:00:00']
+[HOST_SERVER][15:13:47] cmd=draw_endurance_init seq=10 -> status=0 (32 chars)
+    resposta: '10 draw_endurance_init 0 199 0 0'
+  ok    endurance: status 0 -> 10 draw_endurance_init 0 199 0 0
+  ok    endurance: nao e pendencia
+  ok    endurance: parser 199 -> ['199']
+  ok    endurance: dois tokens -> ['0', '0']
+
+ENERGIA_PASSED power_swallow 194 preenche _add_enger_info (Home nao quebra)

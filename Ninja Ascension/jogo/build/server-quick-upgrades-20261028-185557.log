@@ -1,0 +1,696 @@
+[HOST_SERVER][18:55:58] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][18:55:58] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][19:04:13] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][19:04:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/landscape/FightRole.lua de 45.177.105.186
+[HOST_SERVER][19:04:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cells/arena/arena_ladder_seat_cell.lua de 45.177.105.186
+[HOST_SERVER][19:04:14] ATUALIZACAO GET /atualizacao/arquivos/port/lua/arena_replay.lua de 45.177.105.186
+[HOST_SERVER][19:04:19] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][19:04:19] login ok conta=ItachiBR sessao='eAZ...(43)' perfil_user_id=2
+[HOST_SERVER][19:04:19] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][19:04:19] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=48 primeira-linha=1
+[HOST_SERVER][19:04:19] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][19:04:19] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=80 primeira-linha=2
+[HOST_SERVER][19:04:19] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][19:04:21] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=56 primeira-linha=3
+[HOST_SERVER][19:04:21] vali_register conta=ItachiBR sessao='eAZ...(43)'
+[HOST_SERVER][19:04:21] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][19:04:21] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=152 primeira-linha=4
+[HOST_SERVER][19:04:21] login_init: 394 itens no inventario da conta 62
+[HOST_SERVER][19:04:21] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][19:04:21] login_init conta=RenegadoBR user_id=2 sessao='eAZ...(43)'
+[HOST_SERVER][19:04:24] LOGIN_LAYOUT prefix=90 items=394 separate_characters=136
+[HOST_SERVER][19:04:28] cmd=login_init seq=4 -> status=0 (256184 chars)
+[HOST_SERVER][19:04:32] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=32 primeira-linha=4
+[HOST_SERVER][19:04:32] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][19:04:36] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=32 primeira-linha=4
+[HOST_SERVER][19:04:36] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][19:04:36] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=40 primeira-linha=4
+[HOST_SERVER][19:04:36] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][19:04:36] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=32 primeira-linha=4
+[HOST_SERVER][19:04:36] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][19:04:36] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=40 primeira-linha=4
+[HOST_SERVER][19:04:36] cmd=draw_endurance_init seq=4 -> status=0 (31 chars)
+[HOST_SERVER][19:04:36] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=56 primeira-linha=4
+[HOST_SERVER][19:04:36] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][19:04:36] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=32 primeira-linha=4
+[HOST_SERVER][19:04:36] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][19:04:39] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=48 primeira-linha=4
+[HOST_SERVER][19:04:39] cmd=battlefield_report_get seq=4 -> status=0 (102 chars)
+[HOST_SERVER][19:04:39] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=32 primeira-linha=4
+[HOST_SERVER][19:04:43] cmd=arena_init seq=4 -> status=0 (2040 chars)
+[HOST_SERVER][19:04:51] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=40 primeira-linha=4
+[HOST_SERVER][19:04:53] cmd=buy_arena_launch_count seq=4 -> status=0 (2052 chars)
+[HOST_SERVER][19:04:54] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=32 primeira-linha=4
+[HOST_SERVER][19:04:54] cmd=arena_launch seq=4 -> status=0 (4962 chars)
+[HOST_SERVER][19:04:57] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=24 primeira-linha=4
+[HOST_SERVER][19:04:57] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][19:05:57] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=6456 primeira-linha=4
+[HOST_SERVER][19:05:57] ARENA_ARCHIVE conta=62 match=6e56e9a84a6241bea3d0302341a42c75 formato=2 eventos=19
+[HOST_SERVER][19:05:57] ARENA_RESULT conta=62 match=6e56e9a84a6241bea3d0302341a42c75 pontos=2
+[HOST_SERVER][19:05:59] cmd=arena_launch seq=4 -> status=0 (2042 chars)
+[HOST_SERVER][19:06:04] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=48 primeira-linha=4
+[HOST_SERVER][19:06:04] cmd=battlefield_report_get seq=4 -> status=0 (173 chars)
+[HOST_SERVER][19:06:04] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=32 primeira-linha=4
+[HOST_SERVER][19:06:08] cmd=arena_init seq=4 -> status=0 (2040 chars)
+[HOST_SERVER][19:06:11] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=64 primeira-linha=4
+[HOST_SERVER][19:06:11] recusa cmd=battlefield_report_battle_info_get seq=4 motivo=eventos_armazenados_reproducao_pendente
+[HOST_SERVER][19:06:11] cmd=battlefield_report_battle_info_get seq=4 -> status=-1 (79 chars)
+[HOST_SERVER][19:06:27] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=48 primeira-linha=4
+[HOST_SERVER][19:06:30] cmd=draw_arena_score_reward seq=4 -> status=0 (8929 chars)
+[HOST_SERVER][19:06:42] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=32 primeira-linha=4
+[HOST_SERVER][19:06:42] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][19:08:04] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=24 primeira-linha=4
+[HOST_SERVER][19:08:04] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][19:12:48] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=24 primeira-linha=4
+[HOST_SERVER][19:12:48] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][19:14:48] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=24 primeira-linha=4
+[HOST_SERVER][19:14:48] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][19:16:49] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=24 primeira-linha=4
+[HOST_SERVER][19:16:49] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][19:17:20] ATUALIZACAO GET /atualizacao/manifesto.json de 187.19.132.4
+[HOST_SERVER][19:17:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/configs/app.config de 187.19.132.4
+[HOST_SERVER][19:17:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/configs/res/config.lua de 187.19.132.4
+[HOST_SERVER][19:17:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:17:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/configs/activity_config.txt de 187.19.132.4
+[HOST_SERVER][19:17:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/configs/ship_config.txt de 187.19.132.4
+[HOST_SERVER][19:17:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/arena_shop_info.txt de 187.19.132.4
+[HOST_SERVER][19:17:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/card_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/christmas_mall.txt de 187.19.132.4
+[HOST_SERVER][19:17:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/constellation_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/daily_mission_param.txt de 187.19.132.4
+[HOST_SERVER][19:17:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/egg_ball_achievement_task.txt de 187.19.132.4
+[HOST_SERVER][19:17:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/equipment_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/face_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/fate_relationship_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/function_param.txt de 187.19.132.4
+[HOST_SERVER][19:17:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/glories_shop_info.txt de 187.19.132.4
+[HOST_SERVER][19:17:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/mega_ship.txt de 187.19.132.4
+[HOST_SERVER][19:17:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/mystical_shop_info.txt de 187.19.132.4
+[HOST_SERVER][19:17:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/prop_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/role_rescue_shop.txt de 187.19.132.4
+[HOST_SERVER][19:17:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/scene_reward_ex.txt de 187.19.132.4
+[HOST_SERVER][19:17:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/ship_evo_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/ship_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/ship_silk_bag_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/ship_spirit_group.txt de 187.19.132.4
+[HOST_SERVER][19:17:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/skill_influence.txt de 187.19.132.4
+[HOST_SERVER][19:17:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/skill_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/talent_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/title_param.txt de 187.19.132.4
+[HOST_SERVER][19:17:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/top_up_goods.txt de 187.19.132.4
+[HOST_SERVER][19:17:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/word_mould.txt de 187.19.132.4
+[HOST_SERVER][19:17:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1512731.atlas de 187.19.132.4
+[HOST_SERVER][19:17:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1512731.json de 187.19.132.4
+[HOST_SERVER][19:17:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1512731.png de 187.19.132.4
+[HOST_SERVER][19:17:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514131.atlas de 187.19.132.4
+[HOST_SERVER][19:17:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514131.json de 187.19.132.4
+[HOST_SERVER][19:17:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514131.png de 187.19.132.4
+[HOST_SERVER][19:17:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514631.atlas de 187.19.132.4
+[HOST_SERVER][19:17:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514631.json de 187.19.132.4
+[HOST_SERVER][19:17:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514631.png de 187.19.132.4
+[HOST_SERVER][19:17:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514931.atlas de 187.19.132.4
+[HOST_SERVER][19:17:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514931.json de 187.19.132.4
+[HOST_SERVER][19:17:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514931.png de 187.19.132.4
+[HOST_SERVER][19:17:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1515031.atlas de 187.19.132.4
+[HOST_SERVER][19:17:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1515031.json de 187.19.132.4
+[HOST_SERVER][19:17:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1515031.png de 187.19.132.4
+[HOST_SERVER][19:17:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516531.atlas de 187.19.132.4
+[HOST_SERVER][19:17:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516531.json de 187.19.132.4
+[HOST_SERVER][19:17:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516531.png de 187.19.132.4
+[HOST_SERVER][19:17:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516831.atlas de 187.19.132.4
+[HOST_SERVER][19:17:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516831.json de 187.19.132.4
+[HOST_SERVER][19:17:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516831.png de 187.19.132.4
+[HOST_SERVER][19:17:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512711.atlas de 187.19.132.4
+[HOST_SERVER][19:17:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512711.json de 187.19.132.4
+[HOST_SERVER][19:17:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512711.png de 187.19.132.4
+[HOST_SERVER][19:17:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512721.atlas de 187.19.132.4
+[HOST_SERVER][19:17:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512721.json de 187.19.132.4
+[HOST_SERVER][19:17:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512721.png de 187.19.132.4
+[HOST_SERVER][19:17:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512731.atlas de 187.19.132.4
+[HOST_SERVER][19:17:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512731.json de 187.19.132.4
+[HOST_SERVER][19:17:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512731.png de 187.19.132.4
+[HOST_SERVER][19:17:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514111.atlas de 187.19.132.4
+[HOST_SERVER][19:17:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514111.json de 187.19.132.4
+[HOST_SERVER][19:17:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514111.png de 187.19.132.4
+[HOST_SERVER][19:17:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514121.atlas de 187.19.132.4
+[HOST_SERVER][19:17:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514121.json de 187.19.132.4
+[HOST_SERVER][19:17:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514121.png de 187.19.132.4
+[HOST_SERVER][19:17:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514131.atlas de 187.19.132.4
+[HOST_SERVER][19:17:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514131.json de 187.19.132.4
+[HOST_SERVER][19:17:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514131.png de 187.19.132.4
+[HOST_SERVER][19:17:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514611.atlas de 187.19.132.4
+[HOST_SERVER][19:17:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514611.json de 187.19.132.4
+[HOST_SERVER][19:17:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514611.png de 187.19.132.4
+[HOST_SERVER][19:17:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514621.atlas de 187.19.132.4
+[HOST_SERVER][19:17:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514621.json de 187.19.132.4
+[HOST_SERVER][19:17:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514621.png de 187.19.132.4
+[HOST_SERVER][19:17:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514631.atlas de 187.19.132.4
+[HOST_SERVER][19:17:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514631.json de 187.19.132.4
+[HOST_SERVER][19:17:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514631.png de 187.19.132.4
+[HOST_SERVER][19:17:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514911.atlas de 187.19.132.4
+[HOST_SERVER][19:17:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514911.json de 187.19.132.4
+[HOST_SERVER][19:17:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514911.png de 187.19.132.4
+[HOST_SERVER][19:17:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514921.atlas de 187.19.132.4
+[HOST_SERVER][19:17:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514921.json de 187.19.132.4
+[HOST_SERVER][19:17:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514921.png de 187.19.132.4
+[HOST_SERVER][19:17:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514931.atlas de 187.19.132.4
+[HOST_SERVER][19:17:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514931.json de 187.19.132.4
+[HOST_SERVER][19:17:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514931.png de 187.19.132.4
+[HOST_SERVER][19:17:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515011.atlas de 187.19.132.4
+[HOST_SERVER][19:17:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515011.json de 187.19.132.4
+[HOST_SERVER][19:17:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515011.png de 187.19.132.4
+[HOST_SERVER][19:17:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515021.atlas de 187.19.132.4
+[HOST_SERVER][19:17:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515021.json de 187.19.132.4
+[HOST_SERVER][19:17:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515021.png de 187.19.132.4
+[HOST_SERVER][19:17:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515031.atlas de 187.19.132.4
+[HOST_SERVER][19:17:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515031.json de 187.19.132.4
+[HOST_SERVER][19:17:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515031.png de 187.19.132.4
+[HOST_SERVER][19:17:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516511.atlas de 187.19.132.4
+[HOST_SERVER][19:17:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516511.json de 187.19.132.4
+[HOST_SERVER][19:17:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516511.png de 187.19.132.4
+[HOST_SERVER][19:17:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516521.atlas de 187.19.132.4
+[HOST_SERVER][19:17:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516521.json de 187.19.132.4
+[HOST_SERVER][19:17:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516521.png de 187.19.132.4
+[HOST_SERVER][19:17:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516531.atlas de 187.19.132.4
+[HOST_SERVER][19:17:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516531.json de 187.19.132.4
+[HOST_SERVER][19:17:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516531.png de 187.19.132.4
+[HOST_SERVER][19:17:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516811.atlas de 187.19.132.4
+[HOST_SERVER][19:17:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516811.json de 187.19.132.4
+[HOST_SERVER][19:17:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516811.png de 187.19.132.4
+[HOST_SERVER][19:17:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516821.atlas de 187.19.132.4
+[HOST_SERVER][19:17:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516821.json de 187.19.132.4
+[HOST_SERVER][19:17:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516821.png de 187.19.132.4
+[HOST_SERVER][19:17:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516831.atlas de 187.19.132.4
+[HOST_SERVER][19:17:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516831.json de 187.19.132.4
+[HOST_SERVER][19:17:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516831.png de 187.19.132.4
+[HOST_SERVER][19:17:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_vacio.atlas de 187.19.132.4
+[HOST_SERVER][19:17:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_vacio.json de 187.19.132.4
+[HOST_SERVER][19:17:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_vacio.png de 187.19.132.4
+[HOST_SERVER][19:17:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_512701.png de 187.19.132.4
+[HOST_SERVER][19:17:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_514101.png de 187.19.132.4
+[HOST_SERVER][19:17:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_514601.png de 187.19.132.4
+[HOST_SERVER][19:17:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_514901.png de 187.19.132.4
+[HOST_SERVER][19:17:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_515001.png de 187.19.132.4
+[HOST_SERVER][19:17:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_516501.png de 187.19.132.4
+[HOST_SERVER][19:17:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_516801.png de 187.19.132.4
+[HOST_SERVER][19:17:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_512701.png de 187.19.132.4
+[HOST_SERVER][19:17:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_514101.png de 187.19.132.4
+[HOST_SERVER][19:17:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_514601.png de 187.19.132.4
+[HOST_SERVER][19:17:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_514901.png de 187.19.132.4
+[HOST_SERVER][19:17:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_515001.png de 187.19.132.4
+[HOST_SERVER][19:17:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_516501.png de 187.19.132.4
+[HOST_SERVER][19:17:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_516801.png de 187.19.132.4
+[HOST_SERVER][19:17:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/gamesatart_bg.png de 187.19.132.4
+[HOST_SERVER][19:17:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/home_bg_1.png de 187.19.132.4
+[HOST_SERVER][19:17:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/home_bg_halloween.png de 187.19.132.4
+[HOST_SERVER][19:17:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/update_bg.png de 187.19.132.4
+[HOST_SERVER][19:18:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/update_bg_halloween.png de 187.19.132.4
+[HOST_SERVER][19:18:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_3.atlas de 187.19.132.4
+[HOST_SERVER][19:18:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_3.json de 187.19.132.4
+[HOST_SERVER][19:18:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_3.png de 187.19.132.4
+[HOST_SERVER][19:18:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_32.png de 187.19.132.4
+[HOST_SERVER][19:18:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_33.png de 187.19.132.4
+[HOST_SERVER][19:18:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_34.png de 187.19.132.4
+[HOST_SERVER][19:18:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_35.png de 187.19.132.4
+[HOST_SERVER][19:18:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_4.atlas de 187.19.132.4
+[HOST_SERVER][19:18:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_4.json de 187.19.132.4
+[HOST_SERVER][19:18:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_4.png de 187.19.132.4
+[HOST_SERVER][19:18:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_42.png de 187.19.132.4
+[HOST_SERVER][19:18:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_43.png de 187.19.132.4
+[HOST_SERVER][19:18:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_44.png de 187.19.132.4
+[HOST_SERVER][19:18:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_45.png de 187.19.132.4
+[HOST_SERVER][19:18:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_5.atlas de 187.19.132.4
+[HOST_SERVER][19:18:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_5.json de 187.19.132.4
+[HOST_SERVER][19:18:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_5.png de 187.19.132.4
+[HOST_SERVER][19:18:08] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_52.png de 187.19.132.4
+[HOST_SERVER][19:18:08] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_53.png de 187.19.132.4
+[HOST_SERVER][19:18:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_54.png de 187.19.132.4
+[HOST_SERVER][19:18:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_55.png de 187.19.132.4
+[HOST_SERVER][19:18:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_6.atlas de 187.19.132.4
+[HOST_SERVER][19:18:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_6.json de 187.19.132.4
+[HOST_SERVER][19:18:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_6.png de 187.19.132.4
+[HOST_SERVER][19:18:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_62.png de 187.19.132.4
+[HOST_SERVER][19:18:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_63.png de 187.19.132.4
+[HOST_SERVER][19:18:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_64.png de 187.19.132.4
+[HOST_SERVER][19:18:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_65.png de 187.19.132.4
+[HOST_SERVER][19:18:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_7.atlas de 187.19.132.4
+[HOST_SERVER][19:18:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_7.json de 187.19.132.4
+[HOST_SERVER][19:18:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_7.png de 187.19.132.4
+[HOST_SERVER][19:18:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_72.png de 187.19.132.4
+[HOST_SERVER][19:18:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_73.png de 187.19.132.4
+[HOST_SERVER][19:18:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_74.png de 187.19.132.4
+[HOST_SERVER][19:18:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_75.png de 187.19.132.4
+[HOST_SERVER][19:18:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_3/effect_hunkabiaoqian_3.atlas de 187.19.132.4
+[HOST_SERVER][19:18:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_3/effect_hunkabiaoqian_3.json de 187.19.132.4
+[HOST_SERVER][19:18:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_3/effect_hunkabiaoqian_3.png de 187.19.132.4
+[HOST_SERVER][19:18:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_4/effect_hunkabiaoqian_4.atlas de 187.19.132.4
+[HOST_SERVER][19:18:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_4/effect_hunkabiaoqian_4.json de 187.19.132.4
+[HOST_SERVER][19:18:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_4/effect_hunkabiaoqian_4.png de 187.19.132.4
+[HOST_SERVER][19:18:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_5/effect_hunkabiaoqian_5.atlas de 187.19.132.4
+[HOST_SERVER][19:18:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_5/effect_hunkabiaoqian_5.json de 187.19.132.4
+[HOST_SERVER][19:18:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_5/effect_hunkabiaoqian_5.png de 187.19.132.4
+[HOST_SERVER][19:18:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_6/effect_hunkabiaoqian_6.atlas de 187.19.132.4
+[HOST_SERVER][19:18:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_6/effect_hunkabiaoqian_6.json de 187.19.132.4
+[HOST_SERVER][19:18:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_6/effect_hunkabiaoqian_6.png de 187.19.132.4
+[HOST_SERVER][19:18:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_7/effect_hunkabiaoqian_7.atlas de 187.19.132.4
+[HOST_SERVER][19:18:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_7/effect_hunkabiaoqian_7.json de 187.19.132.4
+[HOST_SERVER][19:18:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_7/effect_hunkabiaoqian_7.png de 187.19.132.4
+[HOST_SERVER][19:18:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_3/effect_xdxiaobiaoqian_3.atlas de 187.19.132.4
+[HOST_SERVER][19:18:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_3/effect_xdxiaobiaoqian_3.json de 187.19.132.4
+[HOST_SERVER][19:18:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_3/effect_xdxiaobiaoqian_3.png de 187.19.132.4
+[HOST_SERVER][19:18:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_4/effect_xdxiaobiaoqian_4.atlas de 187.19.132.4
+[HOST_SERVER][19:18:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_4/effect_xdxiaobiaoqian_4.json de 187.19.132.4
+[HOST_SERVER][19:18:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_4/effect_xdxiaobiaoqian_4.png de 187.19.132.4
+[HOST_SERVER][19:18:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_5/effect_xdxiaobiaoqian_5.atlas de 187.19.132.4
+[HOST_SERVER][19:18:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_5/effect_xdxiaobiaoqian_5.json de 187.19.132.4
+[HOST_SERVER][19:18:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_5/effect_xdxiaobiaoqian_5.png de 187.19.132.4
+[HOST_SERVER][19:18:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_6/effect_xdxiaobiaoqian_6.atlas de 187.19.132.4
+[HOST_SERVER][19:18:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_6/effect_xdxiaobiaoqian_6.json de 187.19.132.4
+[HOST_SERVER][19:18:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_6/effect_xdxiaobiaoqian_6.png de 187.19.132.4
+[HOST_SERVER][19:18:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_7/effect_xdxiaobiaoqian_7.atlas de 187.19.132.4
+[HOST_SERVER][19:18:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_7/effect_xdxiaobiaoqian_7.json de 187.19.132.4
+[HOST_SERVER][19:18:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_7/effect_xdxiaobiaoqian_7.png de 187.19.132.4
+[HOST_SERVER][19:18:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1512701.png de 187.19.132.4
+[HOST_SERVER][19:18:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1514101.png de 187.19.132.4
+[HOST_SERVER][19:18:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1514601.png de 187.19.132.4
+[HOST_SERVER][19:18:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1514901.png de 187.19.132.4
+[HOST_SERVER][19:18:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1515001.png de 187.19.132.4
+[HOST_SERVER][19:18:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1516501.png de 187.19.132.4
+[HOST_SERVER][19:18:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1516801.png de 187.19.132.4
+[HOST_SERVER][19:18:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2512701.png de 187.19.132.4
+[HOST_SERVER][19:18:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2514101.png de 187.19.132.4
+[HOST_SERVER][19:18:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2514601.png de 187.19.132.4
+[HOST_SERVER][19:18:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2514901.png de 187.19.132.4
+[HOST_SERVER][19:18:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2515001.png de 187.19.132.4
+[HOST_SERVER][19:18:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2516501.png de 187.19.132.4
+[HOST_SERVER][19:18:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2516801.png de 187.19.132.4
+[HOST_SERVER][19:18:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_512701.png de 187.19.132.4
+[HOST_SERVER][19:18:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_514101.png de 187.19.132.4
+[HOST_SERVER][19:18:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_514601.png de 187.19.132.4
+[HOST_SERVER][19:18:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_514901.png de 187.19.132.4
+[HOST_SERVER][19:18:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_515001.png de 187.19.132.4
+[HOST_SERVER][19:18:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_516501.png de 187.19.132.4
+[HOST_SERVER][19:18:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_516801.png de 187.19.132.4
+[HOST_SERVER][19:18:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_512701.png de 187.19.132.4
+[HOST_SERVER][19:18:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_514101.png de 187.19.132.4
+[HOST_SERVER][19:18:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_514601.png de 187.19.132.4
+[HOST_SERVER][19:18:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_514901.png de 187.19.132.4
+[HOST_SERVER][19:18:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_515001.png de 187.19.132.4
+[HOST_SERVER][19:18:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_516501.png de 187.19.132.4
+[HOST_SERVER][19:18:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_516801.png de 187.19.132.4
+[HOST_SERVER][19:18:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_512721.png de 187.19.132.4
+[HOST_SERVER][19:18:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_512731.png de 187.19.132.4
+[HOST_SERVER][19:18:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_512741.png de 187.19.132.4
+[HOST_SERVER][19:18:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_512742.png de 187.19.132.4
+[HOST_SERVER][19:18:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514121.png de 187.19.132.4
+[HOST_SERVER][19:18:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514131.png de 187.19.132.4
+[HOST_SERVER][19:18:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514141.png de 187.19.132.4
+[HOST_SERVER][19:18:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514142.png de 187.19.132.4
+[HOST_SERVER][19:18:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514621.png de 187.19.132.4
+[HOST_SERVER][19:18:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514631.png de 187.19.132.4
+[HOST_SERVER][19:18:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514641.png de 187.19.132.4
+[HOST_SERVER][19:18:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514642.png de 187.19.132.4
+[HOST_SERVER][19:18:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514643.png de 187.19.132.4
+[HOST_SERVER][19:18:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514921.png de 187.19.132.4
+[HOST_SERVER][19:18:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514931.png de 187.19.132.4
+[HOST_SERVER][19:18:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514941.png de 187.19.132.4
+[HOST_SERVER][19:18:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514942.png de 187.19.132.4
+[HOST_SERVER][19:18:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_515021.png de 187.19.132.4
+[HOST_SERVER][19:18:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_515031.png de 187.19.132.4
+[HOST_SERVER][19:18:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_515041.png de 187.19.132.4
+[HOST_SERVER][19:18:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_515042.png de 187.19.132.4
+[HOST_SERVER][19:18:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516521.png de 187.19.132.4
+[HOST_SERVER][19:18:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516531.png de 187.19.132.4
+[HOST_SERVER][19:18:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516541.png de 187.19.132.4
+[HOST_SERVER][19:18:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516542.png de 187.19.132.4
+[HOST_SERVER][19:18:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516821.png de 187.19.132.4
+[HOST_SERVER][19:18:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516831.png de 187.19.132.4
+[HOST_SERVER][19:18:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516841.png de 187.19.132.4
+[HOST_SERVER][19:18:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516842.png de 187.19.132.4
+[HOST_SERVER][19:18:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/PHB_res/phn_btn_tab_7_1.png de 187.19.132.4
+[HOST_SERVER][19:18:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/PHB_res/phn_btn_tab_7_2.png de 187.19.132.4
+[HOST_SERVER][19:18:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/data/mould/word_mould.txt de 187.19.132.4
+[HOST_SERVER][19:18:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:50] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=24 primeira-linha=4
+[HOST_SERVER][19:18:50] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][19:18:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:18:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:18:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:18:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:18:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:18:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:18:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:18:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:18:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_CN/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/data/EggPromRecharge.lua de 187.19.132.4
+[HOST_SERVER][19:18:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_512701.png de 187.19.132.4
+[HOST_SERVER][19:18:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_514101.png de 187.19.132.4
+[HOST_SERVER][19:18:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_514601.png de 187.19.132.4
+[HOST_SERVER][19:18:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_514901.png de 187.19.132.4
+[HOST_SERVER][19:18:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_515001.png de 187.19.132.4
+[HOST_SERVER][19:18:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_516501.png de 187.19.132.4
+[HOST_SERVER][19:18:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_516801.png de 187.19.132.4
+[HOST_SERVER][19:18:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_31/effect_31.ExportJson de 187.19.132.4
+[HOST_SERVER][19:18:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_31/effect_310.plist de 187.19.132.4
+[HOST_SERVER][19:18:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_32_1/effect_32_1.ExportJson de 187.19.132.4
+[HOST_SERVER][19:18:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_32_1/effect_32_10.plist de 187.19.132.4
+[HOST_SERVER][19:18:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_achievement/effect_achievement.ExportJson de 187.19.132.4
+[HOST_SERVER][19:18:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_achievement/effect_achievement0.plist de 187.19.132.4
+[HOST_SERVER][19:18:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_achievement_1/effect_achievement_1.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_achievement_1/effect_achievement_10.plist de 187.19.132.4
+[HOST_SERVER][19:19:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_adv_gameover/effect_adv_gameover.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_adv_gameover/effect_adv_gameover0.plist de 187.19.132.4
+[HOST_SERVER][19:19:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_adv_wanmei/effect_adv_wanmei.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_adv_wanmei/effect_adv_wanmei0.plist de 187.19.132.4
+[HOST_SERVER][19:19:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_home_activty_1/effect_home_activty_1.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_quality_box_1/effect_quality_box_1.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_skill_on/effect_skill_on.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_skill_on/effect_skill_on0.plist de 187.19.132.4
+[HOST_SERVER][19:19:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_super_skill_on/effect_super_skill_on.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_super_skill_on/effect_super_skill_on0.plist de 187.19.132.4
+[HOST_SERVER][19:19:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_tiaoguojuqing/effect_tiaoguojuqing.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_tiaoguojuqing/effect_tiaoguojuqing0.plist de 187.19.132.4
+[HOST_SERVER][19:19:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effice_equ_qh/effice_equ_qh.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effice_equ_qh/effice_equ_qh0.plist de 187.19.132.4
+[HOST_SERVER][19:19:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effice_zidong/effice_zidong.ExportJson de 187.19.132.4
+[HOST_SERVER][19:19:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_101.png de 187.19.132.4
+[HOST_SERVER][19:19:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_102.png de 187.19.132.4
+[HOST_SERVER][19:19:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_103.png de 187.19.132.4
+[HOST_SERVER][19:19:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_104.png de 187.19.132.4
+[HOST_SERVER][19:19:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_105.png de 187.19.132.4
+[HOST_SERVER][19:19:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_106.png de 187.19.132.4
+[HOST_SERVER][19:19:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_107.png de 187.19.132.4
+[HOST_SERVER][19:19:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_108.png de 187.19.132.4
+[HOST_SERVER][19:19:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512721.atlas de 187.19.132.4
+[HOST_SERVER][19:19:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512721.json de 187.19.132.4
+[HOST_SERVER][19:19:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512721_action.png de 187.19.132.4
+[HOST_SERVER][19:19:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512731.atlas de 187.19.132.4
+[HOST_SERVER][19:19:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512731.json de 187.19.132.4
+[HOST_SERVER][19:19:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512731_action.png de 187.19.132.4
+[HOST_SERVER][19:19:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514121.atlas de 187.19.132.4
+[HOST_SERVER][19:19:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514121.json de 187.19.132.4
+[HOST_SERVER][19:19:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514121_action.png de 187.19.132.4
+[HOST_SERVER][19:19:08] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514121_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122.atlas de 187.19.132.4
+[HOST_SERVER][19:19:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122.json de 187.19.132.4
+[HOST_SERVER][19:19:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122_action.png de 187.19.132.4
+[HOST_SERVER][19:19:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122_action_3.png de 187.19.132.4
+[HOST_SERVER][19:19:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122_action_4.png de 187.19.132.4
+[HOST_SERVER][19:19:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514131.atlas de 187.19.132.4
+[HOST_SERVER][19:19:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514131.json de 187.19.132.4
+[HOST_SERVER][19:19:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611.atlas de 187.19.132.4
+[HOST_SERVER][19:19:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611.json de 187.19.132.4
+[HOST_SERVER][19:19:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611_action.png de 187.19.132.4
+[HOST_SERVER][19:19:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611_action_3.png de 187.19.132.4
+[HOST_SERVER][19:19:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631.atlas de 187.19.132.4
+[HOST_SERVER][19:19:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631.json de 187.19.132.4
+[HOST_SERVER][19:19:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631_action.png de 187.19.132.4
+[HOST_SERVER][19:19:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631_action_3.png de 187.19.132.4
+[HOST_SERVER][19:19:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514632.atlas de 187.19.132.4
+[HOST_SERVER][19:19:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514632.json de 187.19.132.4
+[HOST_SERVER][19:19:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514632_action.png de 187.19.132.4
+[HOST_SERVER][19:19:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514632_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514911.atlas de 187.19.132.4
+[HOST_SERVER][19:19:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514911.json de 187.19.132.4
+[HOST_SERVER][19:19:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514911_action.png de 187.19.132.4
+[HOST_SERVER][19:19:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514911_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514921.atlas de 187.19.132.4
+[HOST_SERVER][19:19:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514921.json de 187.19.132.4
+[HOST_SERVER][19:19:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514921_action.png de 187.19.132.4
+[HOST_SERVER][19:19:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514931.atlas de 187.19.132.4
+[HOST_SERVER][19:19:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514931.json de 187.19.132.4
+[HOST_SERVER][19:19:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514932.atlas de 187.19.132.4
+[HOST_SERVER][19:19:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514932.json de 187.19.132.4
+[HOST_SERVER][19:19:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515021.atlas de 187.19.132.4
+[HOST_SERVER][19:19:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515021.json de 187.19.132.4
+[HOST_SERVER][19:19:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515021_action.png de 187.19.132.4
+[HOST_SERVER][19:19:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515021_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031.atlas de 187.19.132.4
+[HOST_SERVER][19:19:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031.json de 187.19.132.4
+[HOST_SERVER][19:19:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031_action.png de 187.19.132.4
+[HOST_SERVER][19:19:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031_action_3.png de 187.19.132.4
+[HOST_SERVER][19:19:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515032.atlas de 187.19.132.4
+[HOST_SERVER][19:19:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515032.json de 187.19.132.4
+[HOST_SERVER][19:19:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515032_action.png de 187.19.132.4
+[HOST_SERVER][19:19:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516511.atlas de 187.19.132.4
+[HOST_SERVER][19:19:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516511.json de 187.19.132.4
+[HOST_SERVER][19:19:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516511_action.png de 187.19.132.4
+[HOST_SERVER][19:19:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516521.atlas de 187.19.132.4
+[HOST_SERVER][19:19:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516521.json de 187.19.132.4
+[HOST_SERVER][19:19:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516521_action.png de 187.19.132.4
+[HOST_SERVER][19:19:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516531.atlas de 187.19.132.4
+[HOST_SERVER][19:19:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516531.json de 187.19.132.4
+[HOST_SERVER][19:19:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516531_action.png de 187.19.132.4
+[HOST_SERVER][19:19:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516531_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516532.atlas de 187.19.132.4
+[HOST_SERVER][19:19:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516532.json de 187.19.132.4
+[HOST_SERVER][19:19:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516821.atlas de 187.19.132.4
+[HOST_SERVER][19:19:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516821.json de 187.19.132.4
+[HOST_SERVER][19:19:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516821_action.png de 187.19.132.4
+[HOST_SERVER][19:19:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516821_action_2.png de 187.19.132.4
+[HOST_SERVER][19:19:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701.atlas de 187.19.132.4
+[HOST_SERVER][19:19:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701.json de 187.19.132.4
+[HOST_SERVER][19:19:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_action1.png de 187.19.132.4
+[HOST_SERVER][19:19:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_action2.png de 187.19.132.4
+[HOST_SERVER][19:19:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_action9.png de 187.19.132.4
+[HOST_SERVER][19:19:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_hurt.png de 187.19.132.4
+[HOST_SERVER][19:19:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_run.png de 187.19.132.4
+[HOST_SERVER][19:19:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_stand2.png de 187.19.132.4
+[HOST_SERVER][19:19:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101.atlas de 187.19.132.4
+[HOST_SERVER][19:19:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101.json de 187.19.132.4
+[HOST_SERVER][19:19:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_action1.png de 187.19.132.4
+[HOST_SERVER][19:19:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_action2.png de 187.19.132.4
+[HOST_SERVER][19:20:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_hurt.png de 187.19.132.4
+[HOST_SERVER][19:20:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_run.png de 187.19.132.4
+[HOST_SERVER][19:20:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_stand2.png de 187.19.132.4
+[HOST_SERVER][19:20:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601.atlas de 187.19.132.4
+[HOST_SERVER][19:20:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601.json de 187.19.132.4
+[HOST_SERVER][19:20:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_action1.png de 187.19.132.4
+[HOST_SERVER][19:20:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_action2.png de 187.19.132.4
+[HOST_SERVER][19:20:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_action4.png de 187.19.132.4
+[HOST_SERVER][19:20:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_hurt.png de 187.19.132.4
+[HOST_SERVER][19:20:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_run.png de 187.19.132.4
+[HOST_SERVER][19:20:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901.atlas de 187.19.132.4
+[HOST_SERVER][19:20:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901.json de 187.19.132.4
+[HOST_SERVER][19:20:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_action1.png de 187.19.132.4
+[HOST_SERVER][19:20:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_action2.png de 187.19.132.4
+[HOST_SERVER][19:20:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_action9.png de 187.19.132.4
+[HOST_SERVER][19:20:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_hurt.png de 187.19.132.4
+[HOST_SERVER][19:20:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_run.png de 187.19.132.4
+[HOST_SERVER][19:20:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_stand2.png de 187.19.132.4
+[HOST_SERVER][19:20:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001.atlas de 187.19.132.4
+[HOST_SERVER][19:20:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001.json de 187.19.132.4
+[HOST_SERVER][19:20:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_action1.png de 187.19.132.4
+[HOST_SERVER][19:20:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_action2.png de 187.19.132.4
+[HOST_SERVER][19:20:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_hurt.png de 187.19.132.4
+[HOST_SERVER][19:20:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_run.png de 187.19.132.4
+[HOST_SERVER][19:20:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_stand2.png de 187.19.132.4
+[HOST_SERVER][19:20:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501.atlas de 187.19.132.4
+[HOST_SERVER][19:20:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501.json de 187.19.132.4
+[HOST_SERVER][19:20:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_action1.png de 187.19.132.4
+[HOST_SERVER][19:20:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_action2.png de 187.19.132.4
+[HOST_SERVER][19:20:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_action2_2.png de 187.19.132.4
+[HOST_SERVER][19:20:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_action3.png de 187.19.132.4
+[HOST_SERVER][19:20:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_hurt.png de 187.19.132.4
+[HOST_SERVER][19:20:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_run.png de 187.19.132.4
+[HOST_SERVER][19:20:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_stand2.png de 187.19.132.4
+[HOST_SERVER][19:20:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801.atlas de 187.19.132.4
+[HOST_SERVER][19:20:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801.json de 187.19.132.4
+[HOST_SERVER][19:20:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_action1.png de 187.19.132.4
+[HOST_SERVER][19:20:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_action2.png de 187.19.132.4
+[HOST_SERVER][19:20:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_action3.png de 187.19.132.4
+[HOST_SERVER][19:20:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_hurt.png de 187.19.132.4
+[HOST_SERVER][19:20:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_run.png de 187.19.132.4
+[HOST_SERVER][19:20:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_stand2.png de 187.19.132.4
+[HOST_SERVER][19:20:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/SmArenaBattleReward.lua de 187.19.132.4
+[HOST_SERVER][19:20:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/fight/Fight.lua de 187.19.132.4
+[HOST_SERVER][19:20:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/fight/FightUI.lua de 187.19.132.4
+[HOST_SERVER][19:20:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/landscape/FightRole.lua de 187.19.132.4
+[HOST_SERVER][19:20:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/report/BattleObject.lua de 187.19.132.4
+[HOST_SERVER][19:20:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/cells/ship/ship_icon_cell.lua de 187.19.132.4
+[HOST_SERVER][19:20:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/cells/ship/sm_ship_seat_cell.lua de 187.19.132.4
+[HOST_SERVER][19:20:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/formation/mega/MegaSmallTree.lua de 187.19.132.4
+[HOST_SERVER][19:20:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 187.19.132.4
+[HOST_SERVER][19:20:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/HomeHero.lua de 187.19.132.4
+[HOST_SERVER][19:20:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/activity/event_banner/FuryEventBanner.lua de 187.19.132.4
+[HOST_SERVER][19:20:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/activity/server_recharge_rank/FuryServerRechargeRank.lua de 187.19.132.4
+[HOST_SERVER][19:20:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/furytower/FuryModePass.lua de 187.19.132.4
+[HOST_SERVER][19:20:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cells/arena/arena_ladder_seat_cell.lua de 187.19.132.4
+[HOST_SERVER][19:20:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cells/arena/arena_war_report_seat_cell.lua de 187.19.132.4
+[HOST_SERVER][19:20:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/artifact/SmCultivateArtifactInfo.lua de 187.19.132.4
+[HOST_SERVER][19:20:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/roleBiography/RoleBiographyChapter.lua de 187.19.132.4
+[HOST_SERVER][19:20:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/roleBiography/RoleBiographyDivine.lua de 187.19.132.4
+[HOST_SERVER][19:20:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/soulward/SoulWardingWindow.lua de 187.19.132.4
+[HOST_SERVER][19:20:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/player/SmPlayerSystemSetPage.lua de 187.19.132.4
+[HOST_SERVER][19:20:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/SmShopPropBuyListView.lua de 187.19.132.4
+[HOST_SERVER][19:20:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/SmShopTab.lua de 187.19.132.4
+[HOST_SERVER][19:20:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/system/FuryProgressRank.lua de 187.19.132.4
+[HOST_SERVER][19:20:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/login/Manager/AccountSysFloatingWindow.lua de 187.19.132.4
+[HOST_SERVER][19:20:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/login/Manager/AccountSysManager.lua de 187.19.132.4
+[HOST_SERVER][19:20:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/notification/push_notification_shop.lua de 187.19.132.4
+[HOST_SERVER][19:20:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/notification/push_notification_sm_hero_develop.lua de 187.19.132.4
+[HOST_SERVER][19:20:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/operation/platformSDKAccess/platformSDKAccessType_36.lua de 187.19.132.4
+[HOST_SERVER][19:20:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/packs/FightSpirit/FightSpiritHandle.lua de 187.19.132.4
+[HOST_SERVER][19:20:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/packs/hero/SmAutoUpgrade.lua de 187.19.132.4
+[HOST_SERVER][19:20:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/packs/hero/SmRoleStrengthenTabUpProduct.lua de 187.19.132.4
+[HOST_SERVER][19:20:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParserCopy.lua de 187.19.132.4
+[HOST_SERVER][19:20:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParserCopyEx.lua de 187.19.132.4
+[HOST_SERVER][19:20:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParserCopyExx.lua de 187.19.132.4
+[HOST_SERVER][19:20:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/red_alert_time/utils/combatEffectivenessUp.lua de 187.19.132.4
+[HOST_SERVER][19:20:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/reward/DrawRareReward.lua de 187.19.132.4
+[HOST_SERVER][19:20:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/utils/FuryHelpPopup.lua de 187.19.132.4
+[HOST_SERVER][19:20:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/cocos/cocos2d/json.lua de 187.19.132.4
+[HOST_SERVER][19:20:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/frameworks/app.lua de 187.19.132.4
+[HOST_SERVER][19:20:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/frameworks/network/NetworkAdaptor.lua de 187.19.132.4
+[HOST_SERVER][19:20:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/frameworks/network/NetworkProtocol.lua de 187.19.132.4
+[HOST_SERVER][19:20:42] ATUALIZACAO GET /atualizacao/arquivos/DIAGNOSTICO.cmd de 187.19.132.4
+[HOST_SERVER][19:20:42] ATUALIZACAO GET /atualizacao/arquivos/Ninja%20Revolution.exe de 187.19.132.4
+[HOST_SERVER][19:20:43] ATUALIZACAO GET /atualizacao/arquivos/build/windows-probe-native/bin/NinjaResourceProbe/Debug/NinjaResourceProbe.exe de 187.19.132.4
+[HOST_SERVER][19:20:46] ATUALIZACAO GET /atualizacao/arquivos/port/lua/account_ui.lua de 187.19.132.4
+[HOST_SERVER][19:20:47] ATUALIZACAO GET /atualizacao/arquivos/port/lua/arena_replay.lua de 187.19.132.4
+[HOST_SERVER][19:20:47] ATUALIZACAO GET /atualizacao/arquivos/port/lua/boot_map.lua de 187.19.132.4
+[HOST_SERVER][19:20:47] ATUALIZACAO GET /atualizacao/arquivos/port/lua/desktop_layout.lua de 187.19.132.4
+[HOST_SERVER][19:20:48] ATUALIZACAO GET /atualizacao/arquivos/port/lua/fast_json.lua de 187.19.132.4
+[HOST_SERVER][19:20:48] ATUALIZACAO GET /atualizacao/arquivos/port/lua/hero_ui_compat.lua de 187.19.132.4
+[HOST_SERVER][19:20:48] ATUALIZACAO GET /atualizacao/arquivos/port/lua/home_hero_base_effect.lua de 187.19.132.4
+[HOST_SERVER][19:20:48] ATUALIZACAO GET /atualizacao/arquivos/port/lua/host_logo.lua de 187.19.132.4
+[HOST_SERVER][19:20:48] ATUALIZACAO GET /atualizacao/arquivos/port/lua/menu_boot_probe.lua de 187.19.132.4
+[HOST_SERVER][19:20:49] ATUALIZACAO GET /atualizacao/arquivos/port/lua/mobile_boot.lua de 187.19.132.4
+[HOST_SERVER][19:20:49] ATUALIZACAO GET /atualizacao/arquivos/port/lua/native_spine.lua de 187.19.132.4
+[HOST_SERVER][19:20:49] ATUALIZACAO GET /atualizacao/arquivos/port/lua/profile_parser_dependencies.lua de 187.19.132.4
+[HOST_SERVER][19:20:49] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_visible_hero.lua de 187.19.132.4
+[HOST_SERVER][19:20:50] ATUALIZACAO GET /atualizacao/arquivos/port/lua/saga_layout.lua de 187.19.132.4
+[HOST_SERVER][19:20:50] ATUALIZACAO GET /atualizacao/arquivos/port/lua/shop_local.lua de 187.19.132.4
+[HOST_SERVER][19:20:50] ATUALIZACAO GET /atualizacao/arquivos/port/lua/texture_async_compat.lua de 187.19.132.4
+[HOST_SERVER][19:20:50] ATUALIZACAO GET /atualizacao/arquivos/port/lua/tutorial_disabled.lua de 187.19.132.4
+[HOST_SERVER][19:20:51] ATUALIZACAO GET /atualizacao/arquivos/port/resources/game-icon.png de 187.19.132.4
+[HOST_SERVER][19:20:51] POST path=/iniServer?s=eAZYeTtbLAvV7OYHO6kaz9O0_YL_FyM92rLcPqeG0fQ bytes=24 primeira-linha=4
+[HOST_SERVER][19:20:51] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][19:20:51] ATUALIZACAO GET /atualizacao/manifesto.json de 187.19.132.4
+[HOST_SERVER][19:20:52] ATUALIZACAO GET /atualizacao/arquivos/NinjaAscension.exe de 187.19.132.4
+[HOST_SERVER][19:20:53] ATUALIZACAO GET /atualizacao/manifesto.json de 187.19.132.4
+[HOST_SERVER][19:21:00] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][19:21:00] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][19:21:00] cmd=search_user_platform seq=0 -> status=0 (24 chars)
+[HOST_SERVER][19:21:08] POST path=/iniServer bytes=72 primeira-linha=1
+[HOST_SERVER][19:21:08] conta criada id=71 nome=hpb...
+[HOST_SERVER][19:21:08] cmd=platform_user_register seq=1 -> status=0 (43 chars)
+[HOST_SERVER][19:21:08] POST path=/iniServer bytes=72 primeira-linha=2
+[HOST_SERVER][19:21:08] login ok conta=hpb471204059 sessao='TCP...(43)' perfil_user_id=11
+[HOST_SERVER][19:21:08] cmd=platform_user_login seq=2 -> status=0 (113 chars)
+[HOST_SERVER][19:21:08] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=80 primeira-linha=3
+[HOST_SERVER][19:21:08] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][19:21:10] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=64 primeira-linha=4
+[HOST_SERVER][19:21:10] vali_register conta=hpb471204059 sessao='TCP...(43)'
+[HOST_SERVER][19:21:10] cmd=vali_register seq=4 -> status=0 (40 chars)
+[HOST_SERVER][19:21:10] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=152 primeira-linha=5
+[HOST_SERVER][19:21:10] login_init: 0 itens no inventario da conta 71
+[HOST_SERVER][19:21:10] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][19:21:10] login_init conta=hpb471204059 user_id=11 sessao='TCP...(43)'
+[HOST_SERVER][19:21:10] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][19:21:10] cmd=login_init seq=5 -> status=0 (45162 chars)
+[HOST_SERVER][19:21:11] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=40 primeira-linha=5
+[HOST_SERVER][19:21:11] cmd=user_create_time seq=5 -> status=0 (36 chars)
+[HOST_SERVER][19:21:15] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=40 primeira-linha=5
+[HOST_SERVER][19:21:15] cmd=ship_purify_init seq=5 -> status=0 (20 chars)
+[HOST_SERVER][19:21:15] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=40 primeira-linha=5
+[HOST_SERVER][19:21:15] cmd=email_init seq=5 -> status=0 (14 chars)
+[HOST_SERVER][19:21:15] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=32 primeira-linha=5
+[HOST_SERVER][19:21:15] cmd=union_init seq=5 -> status=0 (47 chars)
+[HOST_SERVER][19:21:15] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=40 primeira-linha=5
+[HOST_SERVER][19:21:15] cmd=draw_endurance_init seq=5 -> status=0 (31 chars)
+[HOST_SERVER][19:21:15] POST path=/iniServer?s=TCPReSyy53YIo-XTcOpZ59iKc8hk9CZs5iC50sfyOzg bytes=56 primeira-linha=5
+[HOST_SERVER][19:21:15] cmd=get_web_recharge_state seq=5 -> status=0 (34 chars)

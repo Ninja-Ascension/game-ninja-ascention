@@ -1,0 +1,23 @@
+----------------------------------------
+Exception occurred during processing of request from ('45.177.105.186', 49581)
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Program Files\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Program Files\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\Administrator\Desktop\Ninja Ascension\jogo\port\server\local_server.py", line 1440, in do_POST
+    self.end_headers()
+  File "C:\Program Files\Python312\Lib\http\server.py", line 538, in end_headers
+    self.flush_headers()
+  File "C:\Program Files\Python312\Lib\http\server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "C:\Program Files\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+----------------------------------------

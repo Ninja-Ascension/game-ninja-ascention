@@ -1,0 +1,62 @@
+[HOST_SERVER][14:44:39] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][14:44:39] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][14:44:42] POST path=/iniServer?s=QfaIe6l-dDn6XKHjYsV6-ZMr3GKbN9QyUoHiiiNIUKA bytes=24 primeira-linha=4
+[HOST_SERVER][14:44:42] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][14:46:17] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][14:46:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/SmShopTab.lua de 45.177.105.186
+[HOST_SERVER][14:46:23] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][14:46:23] login ok conta=ItachiBR sessao='DB-...(43)' perfil_user_id=2
+[HOST_SERVER][14:46:23] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][14:46:23] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=48 primeira-linha=1
+[HOST_SERVER][14:46:23] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][14:46:23] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=80 primeira-linha=2
+[HOST_SERVER][14:46:23] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][14:47:43] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=56 primeira-linha=3
+[HOST_SERVER][14:47:43] vali_register conta=ItachiBR sessao='DB-...(43)'
+[HOST_SERVER][14:47:43] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][14:47:43] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=152 primeira-linha=4
+[HOST_SERVER][14:47:43] login_init: 391 itens no inventario da conta 62
+[HOST_SERVER][14:47:43] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][14:47:43] login_init conta=RenegadoBR user_id=2 sessao='DB-...(43)'
+[HOST_SERVER][14:47:46] LOGIN_LAYOUT prefix=90 items=391 separate_characters=136
+[HOST_SERVER][14:47:49] cmd=login_init seq=4 -> status=0 (256002 chars)
+[HOST_SERVER][14:47:54] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=32 primeira-linha=4
+[HOST_SERVER][14:47:54] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][14:47:58] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=32 primeira-linha=4
+[HOST_SERVER][14:47:58] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][14:47:58] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=40 primeira-linha=4
+[HOST_SERVER][14:47:58] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][14:47:58] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=32 primeira-linha=4
+[HOST_SERVER][14:47:58] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][14:47:58] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=40 primeira-linha=4
+[HOST_SERVER][14:47:58] cmd=draw_endurance_init seq=4 -> status=0 (31 chars)
+[HOST_SERVER][14:47:58] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=56 primeira-linha=4
+[HOST_SERVER][14:47:58] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][14:47:58] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=32 primeira-linha=4
+[HOST_SERVER][14:47:58] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][14:48:05] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=32 primeira-linha=4
+[HOST_SERVER][14:48:05] cmd=glories_shop_init seq=4 -> status=0 (425 chars)
+[HOST_SERVER][14:48:28] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=32 primeira-linha=4
+[HOST_SERVER][14:48:28] cmd=union_shop_init seq=4 -> status=0 (363 chars)
+[HOST_SERVER][14:48:30] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=40 primeira-linha=4
+[HOST_SERVER][14:48:30] cmd=arena_shop_init seq=4 -> status=0 (360 chars)
+[HOST_SERVER][14:48:33] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=32 primeira-linha=4
+[HOST_SERVER][14:48:33] cmd=secret_shop_init seq=4 -> status=0 (210 chars)
+[HOST_SERVER][14:49:57] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=24 primeira-linha=4
+[HOST_SERVER][14:49:57] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][14:51:58] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=24 primeira-linha=4
+[HOST_SERVER][14:51:58] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][14:53:59] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=24 primeira-linha=4
+[HOST_SERVER][14:53:59] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][14:56:00] POST path=/iniServer?s=DB-6DDYltA6jlTZbHqIykVD9M9IC0-SdmdWGxuQlgZM bytes=24 primeira-linha=4
+[HOST_SERVER][14:56:00] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][14:58:16] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][14:58:16] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][14:58:20] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][14:58:20] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][14:58:20] cmd=search_user_platform seq=0 -> status=0 (24 chars)
+[HOST_SERVER][14:59:04] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][14:59:04] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][14:59:08] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][14:59:08] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][14:59:08] cmd=search_user_platform seq=0 -> status=0 (24 chars)

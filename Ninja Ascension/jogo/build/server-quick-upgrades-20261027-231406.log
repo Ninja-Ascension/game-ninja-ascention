@@ -1,0 +1,114 @@
+[HOST_SERVER][23:14:07] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][23:14:07] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][23:15:11] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][23:15:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/HomeHero.lua de 45.177.105.186
+[HOST_SERVER][23:15:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/notification/push_notification_sm_hero_develop.lua de 45.177.105.186
+[HOST_SERVER][23:15:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParserCopyEx.lua de 45.177.105.186
+[HOST_SERVER][23:15:12] ATUALIZACAO GET /atualizacao/arquivos/port/lua/home_hero_base_effect.lua de 45.177.105.186
+[HOST_SERVER][23:15:12] ATUALIZACAO GET /atualizacao/arquivos/port/lua/host_logo.lua de 45.177.105.186
+[HOST_SERVER][23:15:17] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][23:15:17] login ok conta=ItachiBR sessao='Ksr...(43)' perfil_user_id=2
+[HOST_SERVER][23:15:17] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][23:15:17] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=48 primeira-linha=1
+[HOST_SERVER][23:15:17] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][23:15:18] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=80 primeira-linha=2
+[HOST_SERVER][23:15:18] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][23:15:24] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=56 primeira-linha=3
+[HOST_SERVER][23:15:24] vali_register conta=ItachiBR sessao='Ksr...(43)'
+[HOST_SERVER][23:15:24] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][23:15:24] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=152 primeira-linha=4
+[HOST_SERVER][23:15:24] login_init: 357 itens no inventario da conta 62
+[HOST_SERVER][23:15:24] login_init: enviando 32 personagem(ns) no login
+[HOST_SERVER][23:15:24] login_init conta=RenegadoBR user_id=2 sessao='Ksr...(43)'
+[HOST_SERVER][23:15:24] LOGIN_LAYOUT prefix=90 items=357 separate_characters=32
+[HOST_SERVER][23:15:24] cmd=login_init seq=4 -> status=0 (93676 chars)
+[HOST_SERVER][23:15:25] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=32 primeira-linha=4
+[HOST_SERVER][23:15:25] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][23:15:29] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=32 primeira-linha=4
+[HOST_SERVER][23:15:29] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][23:15:29] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=40 primeira-linha=4
+[HOST_SERVER][23:15:29] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][23:15:29] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=32 primeira-linha=4
+[HOST_SERVER][23:15:29] cmd=union_init seq=4 -> status=0 (163 chars)
+[HOST_SERVER][23:15:29] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=40 primeira-linha=4
+[HOST_SERVER][23:15:29] cmd=draw_endurance_init seq=4 -> status=0 (31 chars)
+[HOST_SERVER][23:15:30] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=56 primeira-linha=4
+[HOST_SERVER][23:15:30] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][23:15:30] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=32 primeira-linha=4
+[HOST_SERVER][23:15:30] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][23:15:52] POST path=/iniServer?s=4fW5X8LdTv84e8uOWni5nPXOd2qYXHqjry2JrwAiZJ4&nr_transport=text-v1 bytes=16 primeira-linha=5
+[HOST_SERVER][23:15:52] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][23:17:29] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=24 primeira-linha=4
+[HOST_SERVER][23:17:29] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][23:17:53] POST path=/iniServer?s=4fW5X8LdTv84e8uOWni5nPXOd2qYXHqjry2JrwAiZJ4&nr_transport=text-v1 bytes=16 primeira-linha=5
+[HOST_SERVER][23:17:53] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][23:19:30] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=24 primeira-linha=4
+[HOST_SERVER][23:19:30] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][23:19:54] POST path=/iniServer?s=4fW5X8LdTv84e8uOWni5nPXOd2qYXHqjry2JrwAiZJ4&nr_transport=text-v1 bytes=16 primeira-linha=5
+[HOST_SERVER][23:19:54] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][23:21:31] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=24 primeira-linha=4
+[HOST_SERVER][23:21:31] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][23:21:55] POST path=/iniServer?s=4fW5X8LdTv84e8uOWni5nPXOd2qYXHqjry2JrwAiZJ4&nr_transport=text-v1 bytes=16 primeira-linha=5
+[HOST_SERVER][23:21:55] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][23:23:32] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=24 primeira-linha=4
+[HOST_SERVER][23:23:32] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][23:23:56] POST path=/iniServer?s=4fW5X8LdTv84e8uOWni5nPXOd2qYXHqjry2JrwAiZJ4&nr_transport=text-v1 bytes=16 primeira-linha=5
+[HOST_SERVER][23:23:56] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][23:25:33] POST path=/iniServer?s=KsrTI8VVn9BQhUAaQKQGqDF20iWRecjCXiFc3ILU8LY bytes=24 primeira-linha=4
+[HOST_SERVER][23:25:33] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][23:25:53] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][23:25:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/HomeHero.lua de 45.177.105.186
+[HOST_SERVER][23:25:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/notification/push_notification_sm_hero_develop.lua de 45.177.105.186
+[HOST_SERVER][23:25:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParserCopyEx.lua de 45.177.105.186
+[HOST_SERVER][23:25:55] ATUALIZACAO GET /atualizacao/arquivos/port/lua/home_hero_base_effect.lua de 45.177.105.186
+[HOST_SERVER][23:25:55] ATUALIZACAO GET /atualizacao/arquivos/port/lua/host_logo.lua de 45.177.105.186
+[HOST_SERVER][23:25:56] POST path=/iniServer?nr_transport=text-v1 bytes=181 primeira-linha=0
+[HOST_SERVER][23:25:56] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][23:26:01] POST path=/iniServer?nr_transport=text-v1 bytes=209 primeira-linha=1
+[HOST_SERVER][23:26:01] login ok conta=ItachiBR sessao='vSc...(43)' perfil_user_id=2
+[HOST_SERVER][23:26:01] cmd=platform_user_login seq=1 -> status=0 (109 chars)
+[HOST_SERVER][23:26:01] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=143 primeira-linha=2
+[HOST_SERVER][23:26:01] cmd=search_user_platform seq=2 -> status=0 (110 chars)
+[HOST_SERVER][23:26:01] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][23:26:01] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][23:26:04] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][23:26:08] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=49 primeira-linha=4
+[HOST_SERVER][23:26:08] vali_register conta=ItachiBR sessao='vSc...(43)'
+[HOST_SERVER][23:26:08] cmd=vali_register seq=4 -> status=0 (36 chars)
+[HOST_SERVER][23:26:08] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=267 primeira-linha=5
+[HOST_SERVER][23:26:08] login_init: 357 itens no inventario da conta 62
+[HOST_SERVER][23:26:08] login_init: enviando 32 personagem(ns) no login
+[HOST_SERVER][23:26:08] login_init conta=RenegadoBR user_id=2 sessao='vSc...(43)'
+[HOST_SERVER][23:26:08] LOGIN_LAYOUT prefix=90 items=357 separate_characters=32
+[HOST_SERVER][23:26:08] cmd=login_init seq=5 -> status=0 (93676 chars)
+[HOST_SERVER][23:26:14] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=24 primeira-linha=5
+[HOST_SERVER][23:26:14] cmd=user_create_time seq=5 -> status=0 (36 chars)
+[HOST_SERVER][23:26:21] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=24 primeira-linha=5
+[HOST_SERVER][23:26:21] cmd=ship_purify_init seq=5 -> status=0 (20 chars)
+[HOST_SERVER][23:26:22] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=27 primeira-linha=5
+[HOST_SERVER][23:26:22] cmd=email_init seq=5 -> status=0 (14 chars)
+[HOST_SERVER][23:26:22] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=18 primeira-linha=5
+[HOST_SERVER][23:26:22] cmd=union_init seq=5 -> status=0 (163 chars)
+[HOST_SERVER][23:26:22] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=25 primeira-linha=5
+[HOST_SERVER][23:26:22] cmd=draw_endurance_init seq=5 -> status=0 (31 chars)
+[HOST_SERVER][23:26:22] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=41 primeira-linha=5
+[HOST_SERVER][23:26:22] cmd=get_web_recharge_state seq=5 -> status=0 (34 chars)
+[HOST_SERVER][23:26:22] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=24 primeira-linha=5
+[HOST_SERVER][23:26:22] cmd=ship_purify_init seq=5 -> status=0 (20 chars)
+[HOST_SERVER][23:28:19] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=16 primeira-linha=5
+[HOST_SERVER][23:28:19] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][23:30:20] POST path=/iniServer?s=vScYQ8tRtz3z42njKYC3fIMMF6DOyWUYCMLdy_-Dkfg&nr_transport=text-v1 bytes=16 primeira-linha=5
+[HOST_SERVER][23:30:20] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][23:30:36] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][23:30:36] login ok conta=ItachiBR sessao='d4r...(43)' perfil_user_id=2
+[HOST_SERVER][23:30:36] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][23:31:05] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][23:31:05] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][23:31:09] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][23:31:09] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][23:31:09] cmd=search_user_platform seq=0 -> status=0 (24 chars)
+[HOST_SERVER][23:31:22] POST path=/iniServer?nr_transport=text-v1 bytes=177 primeira-linha=0
+[HOST_SERVER][23:31:22] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][23:31:26] POST path=/iniServer?nr_transport=text-v1 bytes=145 primeira-linha=1
+[HOST_SERVER][23:31:26] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][23:31:26] cmd=search_user_platform seq=1 -> status=0 (24 chars)

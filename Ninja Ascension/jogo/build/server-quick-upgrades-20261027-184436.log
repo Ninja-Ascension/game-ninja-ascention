@@ -1,0 +1,16 @@
+[HOST_SERVER][18:44:37] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][18:44:37] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][18:52:10] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:52:16] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:52:22] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:52:28] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:52:34] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:52:40] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:52:46] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:52:52] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:52:59] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:53:05] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:53:11] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:53:17] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:53:23] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][18:53:29] ERRO unwrap path=/iniServer len=152: Error -3 while decompressing data: incorrect header check

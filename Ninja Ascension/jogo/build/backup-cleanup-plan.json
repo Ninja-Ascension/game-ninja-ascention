@@ -1,0 +1,25 @@
+{
+  "keep": [
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-destiny-20261028-014922-496398.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-pedras-bestas-20261028-014337-870263.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-recarga-bestas-20261028-014244-898982.sqlite3"
+  ],
+  "remove": [
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-marcas-saga-20261028-013136-728791.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-marcas-saga-20261028-013128-968852.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-catalogo-individual-20261028-012710-861417.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-anel-livro-20261028-012545-162364.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-sculpt-novas-20261028-011800.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-sculpt-tudo-20261028-011124.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-sculpture-20261028-010706.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-mudras-20261028-010628.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-onigiri-20261028-010331.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-nivel200-20261028-010136.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-sasuke-rinne-20261028-005831.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-itens-arma-20261028-005607.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-limpar-bag-20261028-002755.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-20261028-002420.sqlite3",
+    "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-20261027-235100.sqlite3"
+  ],
+  "bytes": 153645056
+}

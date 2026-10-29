@@ -1,0 +1,46 @@
+[HOST_SERVER][13:49:02] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][13:49:02] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][13:50:45] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][13:50:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/packs/FightSpirit/FightSpiritHandle.lua de 45.177.105.186
+[HOST_SERVER][13:50:55] ATUALIZACAO GET /atualizacao/arquivos/port/lua/shop_local.lua de 45.177.105.186
+[HOST_SERVER][13:51:03] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][13:51:03] login ok conta=ItachiBR sessao='g4C...(43)' perfil_user_id=2
+[HOST_SERVER][13:51:03] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][13:51:03] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=48 primeira-linha=1
+[HOST_SERVER][13:51:03] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][13:51:03] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=80 primeira-linha=2
+[HOST_SERVER][13:51:03] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][13:51:04] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=56 primeira-linha=3
+[HOST_SERVER][13:51:04] vali_register conta=ItachiBR sessao='g4C...(43)'
+[HOST_SERVER][13:51:04] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][13:51:04] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=144 primeira-linha=4
+[HOST_SERVER][13:51:04] login_init: 381 itens no inventario da conta 62
+[HOST_SERVER][13:51:04] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][13:51:04] login_init conta=RenegadoBR user_id=2 sessao='g4C...(43)'
+[HOST_SERVER][13:51:07] LOGIN_LAYOUT prefix=90 items=381 separate_characters=136
+[HOST_SERVER][13:51:10] cmd=login_init seq=4 -> status=0 (255535 chars)
+[HOST_SERVER][13:51:15] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=32 primeira-linha=4
+[HOST_SERVER][13:51:15] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][13:51:22] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=32 primeira-linha=4
+[HOST_SERVER][13:51:22] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][13:51:22] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=40 primeira-linha=4
+[HOST_SERVER][13:51:22] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][13:51:22] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=32 primeira-linha=4
+[HOST_SERVER][13:51:22] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][13:51:22] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=40 primeira-linha=4
+[HOST_SERVER][13:51:22] cmd=draw_endurance_init seq=4 -> status=0 (31 chars)
+[HOST_SERVER][13:51:22] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=56 primeira-linha=4
+[HOST_SERVER][13:51:22] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][13:51:22] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=32 primeira-linha=4
+[HOST_SERVER][13:51:22] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][13:52:00] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=80 primeira-linha=4
+[HOST_SERVER][13:52:00] cmd=fight_spirit_change seq=4 -> status=0 (380 chars)
+[HOST_SERVER][13:52:38] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=64 primeira-linha=4
+[HOST_SERVER][13:52:38] recusa cmd=mega_level_up seq=4 motivo=materiais_insuficientes
+[HOST_SERVER][13:52:38] cmd=mega_level_up seq=4 -> status=-1 (42 chars)
+[HOST_SERVER][13:53:20] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=24 primeira-linha=4
+[HOST_SERVER][13:53:20] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][13:55:21] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=24 primeira-linha=4
+[HOST_SERVER][13:55:21] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][13:57:22] POST path=/iniServer?s=g4C08FI7i7yV6ZBbZlq3xeg_wMBmp1HKxhq4t4Y4uS4 bytes=24 primeira-linha=4
+[HOST_SERVER][13:57:22] cmd=keep_alive seq=4 -> status=0 (14 chars)

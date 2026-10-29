@@ -1,0 +1,1 @@
+PASSED: original close terminal once per accept; completed reward closes once; Lua 5.1 valid.

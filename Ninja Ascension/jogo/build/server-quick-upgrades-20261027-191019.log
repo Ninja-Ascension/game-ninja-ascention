@@ -1,0 +1,90 @@
+[HOST_SERVER][19:10:20] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][19:10:20] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][19:10:27] POST path=/iniServer?s=KaJe-xnYE04_vrlGh7Rz_lZnIWLWWRY7-JXCXCxrIJc&nr_transport=text-v1 bytes=169 primeira-linha=4
+[HOST_SERVER][19:10:27] login ok conta=ItachiBR sessao='nY4...(43)' perfil_user_id=2
+[HOST_SERVER][19:10:27] cmd=platform_user_login seq=4 -> status=0 (109 chars)
+[HOST_SERVER][19:10:27] POST path=/iniServer?s=nY4_M9M0LNxOI7NVlpsGOY3qDSQdB7NU62d-u1FiWJA&nr_transport=text-v1 bytes=181 primeira-linha=5
+[HOST_SERVER][19:10:27] cmd=new_get_server_list seq=5 -> status=0 (86 chars)
+[HOST_SERVER][19:10:28] POST path=/iniServer?s=nY4_M9M0LNxOI7NVlpsGOY3qDSQdB7NU62d-u1FiWJA&nr_transport=text-v1 bytes=49 primeira-linha=6
+[HOST_SERVER][19:10:28] vali_register conta=ItachiBR sessao='nY4...(43)'
+[HOST_SERVER][19:10:28] cmd=vali_register seq=6 -> status=0 (36 chars)
+[HOST_SERVER][19:10:28] POST path=/iniServer?s=nY4_M9M0LNxOI7NVlpsGOY3qDSQdB7NU62d-u1FiWJA&nr_transport=text-v1 bytes=267 primeira-linha=7
+[HOST_SERVER][19:10:28] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][19:10:28] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][19:10:28] login_init conta=RenegadoBR user_id=2 sessao='nY4...(43)'
+[HOST_SERVER][19:10:28] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][19:10:29] cmd=login_init seq=7 -> status=0 (1210872 chars)
+[HOST_SERVER][19:10:44] POST path=/iniServer?nr_transport=text-v1 bytes=181 primeira-linha=0
+[HOST_SERVER][19:10:44] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][19:10:47] POST path=/iniServer?nr_transport=text-v1 bytes=209 primeira-linha=1
+[HOST_SERVER][19:10:47] login ok conta=ItachiBR sessao='w8u...(43)' perfil_user_id=2
+[HOST_SERVER][19:10:47] cmd=platform_user_login seq=1 -> status=0 (109 chars)
+[HOST_SERVER][19:10:47] POST path=/iniServer?s=w8upW8Sj2akZ5fADNPLgGwp2UK3BhdVaZlyxgyxy1Mc&nr_transport=text-v1 bytes=143 primeira-linha=2
+[HOST_SERVER][19:10:47] cmd=search_user_platform seq=2 -> status=0 (110 chars)
+[HOST_SERVER][19:10:47] POST path=/iniServer?s=w8upW8Sj2akZ5fADNPLgGwp2UK3BhdVaZlyxgyxy1Mc&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][19:10:47] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][19:10:52] POST path=/iniServer?s=w8upW8Sj2akZ5fADNPLgGwp2UK3BhdVaZlyxgyxy1Mc&nr_transport=text-v1 bytes=169 primeira-linha=4
+[HOST_SERVER][19:10:53] login ok conta=ItachiBR sessao='1An...(43)' perfil_user_id=2
+[HOST_SERVER][19:10:53] cmd=platform_user_login seq=4 -> status=0 (109 chars)
+[HOST_SERVER][19:10:53] POST path=/iniServer?s=1AnPsx6HLoA7umW6rBKH6t_R-xCeJQ-tVIP3W0g6Umg&nr_transport=text-v1 bytes=181 primeira-linha=5
+[HOST_SERVER][19:10:53] cmd=new_get_server_list seq=5 -> status=0 (86 chars)
+[HOST_SERVER][19:10:54] POST path=/iniServer?s=1AnPsx6HLoA7umW6rBKH6t_R-xCeJQ-tVIP3W0g6Umg&nr_transport=text-v1 bytes=49 primeira-linha=6
+[HOST_SERVER][19:10:54] vali_register conta=ItachiBR sessao='1An...(43)'
+[HOST_SERVER][19:10:54] cmd=vali_register seq=6 -> status=0 (36 chars)
+[HOST_SERVER][19:10:54] POST path=/iniServer?s=1AnPsx6HLoA7umW6rBKH6t_R-xCeJQ-tVIP3W0g6Umg&nr_transport=text-v1 bytes=267 primeira-linha=7
+[HOST_SERVER][19:10:54] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][19:10:54] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][19:10:54] login_init conta=RenegadoBR user_id=2 sessao='1An...(43)'
+[HOST_SERVER][19:10:54] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][19:10:54] cmd=login_init seq=7 -> status=0 (1210872 chars)
+[HOST_SERVER][19:11:25] POST path=/iniServer?nr_transport=text-v1 bytes=181 primeira-linha=0
+[HOST_SERVER][19:11:25] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][19:11:28] POST path=/iniServer?nr_transport=text-v1 bytes=209 primeira-linha=1
+[HOST_SERVER][19:11:28] login ok conta=ItachiBR sessao='S4U...(43)' perfil_user_id=2
+[HOST_SERVER][19:11:28] cmd=platform_user_login seq=1 -> status=0 (109 chars)
+[HOST_SERVER][19:11:28] POST path=/iniServer?s=S4UlquvOiXgqjEhV9Ghu3rXooBd4BawkcuVQcT2-bAc&nr_transport=text-v1 bytes=143 primeira-linha=2
+[HOST_SERVER][19:11:28] cmd=search_user_platform seq=2 -> status=0 (110 chars)
+[HOST_SERVER][19:11:28] POST path=/iniServer?s=S4UlquvOiXgqjEhV9Ghu3rXooBd4BawkcuVQcT2-bAc&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][19:11:28] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][19:11:33] POST path=/iniServer?s=S4UlquvOiXgqjEhV9Ghu3rXooBd4BawkcuVQcT2-bAc&nr_transport=text-v1 bytes=169 primeira-linha=4
+[HOST_SERVER][19:11:33] login ok conta=ItachiBR sessao='Dj8...(43)' perfil_user_id=2
+[HOST_SERVER][19:11:33] cmd=platform_user_login seq=4 -> status=0 (109 chars)
+[HOST_SERVER][19:11:33] POST path=/iniServer?s=Dj8QHFunsTtnVFoP27uNy2TXEyFvak5Y3LD2apfzTaE&nr_transport=text-v1 bytes=181 primeira-linha=5
+[HOST_SERVER][19:11:33] cmd=new_get_server_list seq=5 -> status=0 (86 chars)
+[HOST_SERVER][19:11:34] POST path=/iniServer?s=Dj8QHFunsTtnVFoP27uNy2TXEyFvak5Y3LD2apfzTaE&nr_transport=text-v1 bytes=49 primeira-linha=6
+[HOST_SERVER][19:11:34] vali_register conta=ItachiBR sessao='Dj8...(43)'
+[HOST_SERVER][19:11:34] cmd=vali_register seq=6 -> status=0 (36 chars)
+[HOST_SERVER][19:11:34] POST path=/iniServer?s=Dj8QHFunsTtnVFoP27uNy2TXEyFvak5Y3LD2apfzTaE&nr_transport=text-v1 bytes=267 primeira-linha=7
+[HOST_SERVER][19:11:34] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][19:11:34] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][19:11:34] login_init conta=RenegadoBR user_id=2 sessao='Dj8...(43)'
+[HOST_SERVER][19:11:35] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][19:11:35] cmd=login_init seq=7 -> status=0 (1210872 chars)
+[HOST_SERVER][19:12:17] POST path=/iniServer?nr_transport=text-v1 bytes=181 primeira-linha=0
+[HOST_SERVER][19:12:17] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][19:12:20] POST path=/iniServer?nr_transport=text-v1 bytes=209 primeira-linha=1
+[HOST_SERVER][19:12:20] login ok conta=ItachiBR sessao='4Fx...(43)' perfil_user_id=2
+[HOST_SERVER][19:12:20] cmd=platform_user_login seq=1 -> status=0 (109 chars)
+[HOST_SERVER][19:12:21] POST path=/iniServer?s=4FxxqINmpx7HWsqnc5OxArkmT5yTG-E1fDXJ7ZL8jdA&nr_transport=text-v1 bytes=143 primeira-linha=2
+[HOST_SERVER][19:12:21] cmd=search_user_platform seq=2 -> status=0 (110 chars)
+[HOST_SERVER][19:12:21] POST path=/iniServer?s=4FxxqINmpx7HWsqnc5OxArkmT5yTG-E1fDXJ7ZL8jdA&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][19:12:21] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][19:12:29] POST path=/iniServer?s=4FxxqINmpx7HWsqnc5OxArkmT5yTG-E1fDXJ7ZL8jdA&nr_transport=text-v1 bytes=169 primeira-linha=4
+[HOST_SERVER][19:12:29] login ok conta=ItachiBR sessao='Gn8...(43)' perfil_user_id=2
+[HOST_SERVER][19:12:29] cmd=platform_user_login seq=4 -> status=0 (109 chars)
+[HOST_SERVER][19:12:30] POST path=/iniServer?s=Gn88WffRowuqWItZYiw6gUNoDJ5gHQt_FvYpyBPwZyU&nr_transport=text-v1 bytes=181 primeira-linha=5
+[HOST_SERVER][19:12:30] cmd=new_get_server_list seq=5 -> status=0 (86 chars)
+[HOST_SERVER][19:12:30] POST path=/iniServer?s=Gn88WffRowuqWItZYiw6gUNoDJ5gHQt_FvYpyBPwZyU&nr_transport=text-v1 bytes=49 primeira-linha=6
+[HOST_SERVER][19:12:30] vali_register conta=ItachiBR sessao='Gn8...(43)'
+[HOST_SERVER][19:12:30] cmd=vali_register seq=6 -> status=0 (36 chars)
+[HOST_SERVER][19:12:30] POST path=/iniServer?s=Gn88WffRowuqWItZYiw6gUNoDJ5gHQt_FvYpyBPwZyU&nr_transport=text-v1 bytes=267 primeira-linha=7
+[HOST_SERVER][19:12:30] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][19:12:30] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][19:12:30] login_init conta=RenegadoBR user_id=2 sessao='Gn8...(43)'
+[HOST_SERVER][19:12:30] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][19:12:31] cmd=login_init seq=7 -> status=0 (1210872 chars)
+[HOST_SERVER][19:13:41] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][19:13:41] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][19:13:45] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][19:13:45] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][19:13:45] cmd=search_user_platform seq=0 -> status=0 (24 chars)

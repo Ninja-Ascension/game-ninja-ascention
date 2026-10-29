@@ -1,0 +1,796 @@
+[HOST_SERVER][15:43:30] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][15:43:30] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][15:57:35] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=56 primeira-linha=3
+[HOST_SERVER][15:57:35] vali_register conta=ItachiBR sessao='9h9...(43)'
+[HOST_SERVER][15:57:35] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][15:57:35] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=32 primeira-linha=4
+[HOST_SERVER][15:57:35] get_random_name indice=0 -> Tora_Ronin
+[HOST_SERVER][15:57:35] cmd=get_random_name seq=4 -> status=0 (33 chars)
+[HOST_SERVER][15:57:35] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=88 primeira-linha=5
+[HOST_SERVER][15:57:35] register conta=ItachiBR user_id=2 apelido=Tora_Ronin
+[HOST_SERVER][15:57:35] cmd=register seq=5 -> status=0 (16 chars)
+[HOST_SERVER][15:57:35] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=144 primeira-linha=6
+[HOST_SERVER][15:57:35] login_init: 341 itens no inventario da conta 62
+[HOST_SERVER][15:57:35] login_init: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:57:35] login_init conta=RenegadoBR user_id=2 sessao='9h9...(43)'
+[HOST_SERVER][15:57:36] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:57:36] cmd=login_init seq=6 -> status=0 (82402 chars)
+[HOST_SERVER][15:57:37] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=40 primeira-linha=6
+[HOST_SERVER][15:57:37] cmd=draw_endurance_init seq=6 -> status=0 (31 chars)
+[HOST_SERVER][15:57:37] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=32 primeira-linha=6
+[HOST_SERVER][15:57:37] cmd=ship_purify_init seq=6 -> status=0 (20 chars)
+[HOST_SERVER][15:57:38] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=56 primeira-linha=6
+[HOST_SERVER][15:57:38] cmd=get_web_recharge_state seq=6 -> status=0 (34 chars)
+[HOST_SERVER][15:57:47] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=40 primeira-linha=6
+[HOST_SERVER][15:57:47] cmd=combine_ship_init seq=6 -> status=0 (15364 chars)
+[HOST_SERVER][15:57:49] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=32 primeira-linha=6
+[HOST_SERVER][15:57:49] cmd=biographies_init seq=6 -> status=0 (15363 chars)
+[HOST_SERVER][15:57:49] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=480 primeira-linha=6
+[HOST_SERVER][15:57:49] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...digital/cultivate/roleBiography/RoleBiographyChapter.lua:377: attempt to index field 'Text' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:391: in function '__index' | 	...digital/cultivate/roleBiography/RoleBiographyChapter.lua:377: in function 'updateAchievementUI' | 	...digital/cultivate/roleBiography/RoleBiographyChapter.lua:324: in function 'updateUI' | 	...digital/cultivate/roleBiography/RoleBiographyChapter.lua:448: in function 'onUpdateDraw' | 	...digital/cultivate/roleBiography/RoleBiographyC
+[HOST_SERVER][15:57:49] cmd=record_crash seq=6 -> status=0 (16 chars)
+[HOST_SERVER][15:57:57] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=448 primeira-linha=6
+[HOST_SERVER][15:57:57] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:378: attempt to index field 'Text_gm10' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:391: in function '__index' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:378: in function 'updateNormalUI' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:307: in function 'updateUI' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:573: in function 'onUpdateDraw' | 	..._digital/cultivate/roleBiography/RoleBiography
+[HOST_SERVER][15:57:57] cmd=record_crash seq=6 -> status=0 (16 chars)
+[HOST_SERVER][15:57:57] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=448 primeira-linha=6
+[HOST_SERVER][15:57:57] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:378: attempt to index field 'Text_gm10' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:391: in function '__index' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:378: in function 'updateNormalUI' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:307: in function 'updateUI' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:573: in function 'onUpdateDraw' | 	..._digital/cultivate/roleBiography/RoleBiography
+[HOST_SERVER][15:57:57] cmd=record_crash seq=6 -> status=0 (16 chars)
+[HOST_SERVER][15:58:05] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=64 primeira-linha=6
+[HOST_SERVER][15:58:05] SAGA cmd=biographies_buy_prop conta=62 pedido=0|1|1
+[HOST_SERVER][15:58:05] cmd=biographies_buy_prop seq=6 -> status=0 (23682 chars)
+[HOST_SERVER][15:58:05] POST path=/iniServer?s=9h9vOngNp_xArOUC9gUlHos_FO4joGGoEk8U-4Wma4w bytes=312 primeira-linha=6
+[HOST_SERVER][15:58:05] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:378: attempt to index field 'Text_gm10' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:391: in function '__index' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:378: in function 'updateNormalUI' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:307: in function 'updateUI' | 	..._digital/cultivate/roleBiography/RoleBiographyDivine.lua:242: in function 'excute' | 	...digital/cultivate/roleBiography/RoleBiographyBuyProp
+[HOST_SERVER][15:58:05] cmd=record_crash seq=6 -> status=0 (16 chars)
+[HOST_SERVER][15:58:31] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][15:58:31] login ok conta=ItachiBR sessao='75i...(43)' perfil_user_id=2
+[HOST_SERVER][15:58:31] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][15:58:31] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=48 primeira-linha=1
+[HOST_SERVER][15:58:31] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][15:58:31] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=80 primeira-linha=2
+[HOST_SERVER][15:58:31] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][15:59:02] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=56 primeira-linha=3
+[HOST_SERVER][15:59:02] vali_register conta=ItachiBR sessao='75i...(43)'
+[HOST_SERVER][15:59:02] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][15:59:03] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=32 primeira-linha=4
+[HOST_SERVER][15:59:03] get_random_name indice=0 -> Sora_Ronin
+[HOST_SERVER][15:59:03] cmd=get_random_name seq=4 -> status=0 (33 chars)
+[HOST_SERVER][15:59:03] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=88 primeira-linha=5
+[HOST_SERVER][15:59:03] register conta=ItachiBR user_id=2 apelido=Sora_Ronin
+[HOST_SERVER][15:59:03] cmd=register seq=5 -> status=0 (16 chars)
+[HOST_SERVER][15:59:03] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=152 primeira-linha=6
+[HOST_SERVER][15:59:03] login_init: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:03] login_init: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:03] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:03] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:03] cmd=login_init seq=6 -> status=0 (82402 chars)
+[HOST_SERVER][15:59:05] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:05] cmd=draw_endurance_init seq=6 -> status=0 (31 chars)
+[HOST_SERVER][15:59:05] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=32 primeira-linha=6
+[HOST_SERVER][15:59:05] cmd=ship_purify_init seq=6 -> status=0 (20 chars)
+[HOST_SERVER][15:59:05] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=56 primeira-linha=6
+[HOST_SERVER][15:59:05] cmd=get_web_recharge_state seq=6 -> status=0 (34 chars)
+[HOST_SERVER][15:59:12] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:12] cmd=daily_mission_init seq=6 -> status=0 (5149 chars)
+[HOST_SERVER][15:59:15] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:15] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:15] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:15] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:15] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:15] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:16] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:16] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:16] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:16] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:16] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:16] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:16] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:16] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:16] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:16] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:17] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:17] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:17] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:17] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:17] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:17] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:17] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:17] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:17] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:17] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:17] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:17] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:17] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:17] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:17] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:18] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:18] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:18] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:18] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:18] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:18] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:18] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:18] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:18] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:21] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:21] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:21] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:21] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:21] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:21] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:21] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:21] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:21] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:21] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:21] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:21] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:21] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:21] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:21] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:22] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:22] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:22] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:22] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:22] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:22] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:22] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:22] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:22] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:23] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:23] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:23] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:23] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:23] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:23] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:23] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:23] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:23] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:23] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:23] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:23] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:23] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:23] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:23] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:24] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:24] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:24] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:24] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:24] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:24] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:24] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:24] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:24] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:25] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:25] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:25] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:25] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:25] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:25] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:25] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:25] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:25] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:25] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:25] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:25] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:25] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:25] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:26] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:26] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:26] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:26] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:26] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:26] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:26] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:26] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:26] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:26] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:27] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:27] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:27] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:27] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:27] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:27] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:27] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:27] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:27] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:27] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:27] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=32 primeira-linha=6
+[HOST_SERVER][15:59:27] cmd=biographies_init seq=6 -> status=0 (15363 chars)
+[HOST_SERVER][15:59:28] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:28] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:28] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:28] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:28] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:28] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:28] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:28] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:28] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:28] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:28] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:28] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:28] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:29] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:29] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:29] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:29] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:29] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:29] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:29] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:29] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:29] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:30] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:30] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:30] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:30] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:30] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:30] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:30] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:30] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:30] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:30] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:30] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:30] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:30] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:30] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:30] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:31] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:31] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:31] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:31] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:31] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:31] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:31] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:31] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:31] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:32] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:32] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:32] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:32] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:32] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:32] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:32] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:32] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:32] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:32] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:32] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:32] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:32] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:32] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:32] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:33] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:33] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:33] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:33] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:33] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:33] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:33] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:33] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:33] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:33] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:33] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:34] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:34] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:34] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:34] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:34] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:34] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:34] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:34] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:34] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:34] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:34] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:34] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:34] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:35] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:35] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:35] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:35] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:35] login_init_again: 341 itens no inventario da conta 62
+[HOST_SERVER][15:59:35] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:35] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:35] LOGIN_LAYOUT prefix=90 items=341 separate_characters=29
+[HOST_SERVER][15:59:35] cmd=login_init_again seq=6 -> status=0 (82408 chars)
+[HOST_SERVER][15:59:35] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:35] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:36] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=64 primeira-linha=6
+[HOST_SERVER][15:59:36] SAGA cmd=biographies_draw conta=62 pedido=1|10
+[HOST_SERVER][15:59:36] cmd=biographies_draw seq=6 -> status=0 (24414 chars)
+[HOST_SERVER][15:59:37] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:37] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:37] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:37] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:37] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:37] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:37] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:37] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:37] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:37] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:37] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:37] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:37] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:38] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:38] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:38] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:38] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:38] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:38] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:38] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:38] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:38] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:39] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:39] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:39] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:39] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:39] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:39] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:39] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:39] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:39] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:39] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:39] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:39] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:39] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:39] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:39] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:40] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:40] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:40] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:40] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:40] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:40] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:40] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:40] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:40] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:41] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:41] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:41] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:41] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:41] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:41] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:41] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:41] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:41] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:41] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:41] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:41] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:41] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:41] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:41] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:42] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:42] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:42] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:42] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:42] login_init_again: 342 itens no inventario da conta 62
+[HOST_SERVER][15:59:42] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:42] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:42] LOGIN_LAYOUT prefix=90 items=342 separate_characters=29
+[HOST_SERVER][15:59:42] cmd=login_init_again seq=6 -> status=0 (82452 chars)
+[HOST_SERVER][15:59:43] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:43] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:43] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=72 primeira-linha=6
+[HOST_SERVER][15:59:43] SAGA cmd=biographies_get_extra_reward conta=62 pedido=
+[HOST_SERVER][15:59:43] cmd=biographies_get_extra_reward seq=6 -> status=0 (23859 chars)
+[HOST_SERVER][15:59:43] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:43] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:43] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:43] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:43] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:43] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:43] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:43] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:44] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:44] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:44] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:44] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:44] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:44] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:44] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:44] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:44] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:44] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:44] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:44] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:44] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:44] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:45] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:45] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:45] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:45] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:45] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:45] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:45] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:45] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:45] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:45] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:45] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:45] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:46] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:46] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:46] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:46] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:46] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:46] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:46] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:46] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:46] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:46] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:46] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:46] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:47] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:47] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:47] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:47] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:47] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:47] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:47] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:47] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:47] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:47] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:48] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:48] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:48] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:48] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:48] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:48] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:48] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:48] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:48] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:48] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:48] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:48] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:48] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:48] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:49] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:49] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:49] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:49] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:49] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:49] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:49] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:49] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:49] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:49] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:49] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:49] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:49] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:49] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:50] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:50] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:50] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:50] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:50] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:50] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:50] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:50] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:50] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:50] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:51] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:51] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:51] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:51] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:51] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:51] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:51] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:51] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:51] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:51] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:51] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:51] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:51] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:51] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:52] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:52] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:52] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:52] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:52] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:52] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:52] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:52] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:52] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:52] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:53] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:53] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:53] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:53] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:53] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:53] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:53] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:53] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][15:59:53] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=40 primeira-linha=6
+[HOST_SERVER][15:59:53] [PENDENTE] cmd=draw_achieve_reward seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][15:59:53] POST path=/iniServer?s=75ilFlzDxbhgisiqMkqNp8rMsbZI3JoBGYMFapOhsSo bytes=120 primeira-linha=6
+[HOST_SERVER][15:59:53] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][15:59:53] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][15:59:53] login_init conta=RenegadoBR user_id=2 sessao='75i...(43)'
+[HOST_SERVER][15:59:54] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][15:59:54] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:00:01] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][16:00:01] login ok conta=ItachiBR sessao='w6M...(43)' perfil_user_id=2
+[HOST_SERVER][16:00:01] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][16:00:01] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=48 primeira-linha=1
+[HOST_SERVER][16:00:01] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][16:00:01] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=80 primeira-linha=2
+[HOST_SERVER][16:00:01] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][16:00:45] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=56 primeira-linha=3
+[HOST_SERVER][16:00:45] vali_register conta=ItachiBR sessao='w6M...(43)'
+[HOST_SERVER][16:00:45] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][16:00:45] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=32 primeira-linha=4
+[HOST_SERVER][16:00:45] get_random_name indice=0 -> Kaze_Shogun
+[HOST_SERVER][16:00:45] cmd=get_random_name seq=4 -> status=0 (34 chars)
+[HOST_SERVER][16:00:45] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=88 primeira-linha=5
+[HOST_SERVER][16:00:45] register conta=ItachiBR user_id=2 apelido=Kaze_Shogun
+[HOST_SERVER][16:00:45] cmd=register seq=5 -> status=0 (16 chars)
+[HOST_SERVER][16:00:45] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=152 primeira-linha=6
+[HOST_SERVER][16:00:45] login_init: 343 itens no inventario da conta 62
+[HOST_SERVER][16:00:45] login_init: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:00:45] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:00:46] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:00:46] cmd=login_init seq=6 -> status=0 (82490 chars)
+[HOST_SERVER][16:00:47] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:00:47] cmd=draw_endurance_init seq=6 -> status=0 (31 chars)
+[HOST_SERVER][16:00:47] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=32 primeira-linha=6
+[HOST_SERVER][16:00:47] cmd=ship_purify_init seq=6 -> status=0 (20 chars)
+[HOST_SERVER][16:00:48] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=56 primeira-linha=6
+[HOST_SERVER][16:00:48] cmd=get_web_recharge_state seq=6 -> status=0 (34 chars)
+[HOST_SERVER][16:00:58] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:00:58] cmd=daily_mission_init seq=6 -> status=0 (5149 chars)
+[HOST_SERVER][16:02:47] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=24 primeira-linha=6
+[HOST_SERVER][16:02:47] cmd=keep_alive seq=6 -> status=0 (14 chars)
+[HOST_SERVER][16:02:53] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:53] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:53] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:53] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:53] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:53] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:53] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:53] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:54] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:54] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:54] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:54] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:54] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:54] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:54] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:54] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:54] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:54] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:54] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:54] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:54] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:54] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:54] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:55] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:55] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:55] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:55] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:55] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:55] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:55] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:55] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:55] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:56] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:56] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:56] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:56] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:56] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:56] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:56] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:56] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:56] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:56] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:56] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:56] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:56] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:56] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:56] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:57] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:57] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:57] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:57] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:57] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:57] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:57] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:57] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:57] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:58] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:58] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:58] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:58] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:58] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:58] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:58] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:58] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:58] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:58] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:58] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:58] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:58] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:58] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:58] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:59] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:02:59] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:02:59] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:02:59] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:02:59] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:02:59] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:02:59] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:02:59] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:02:59] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:00] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:00] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:00] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:00] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:00] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:00] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:00] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:00] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:00] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:00] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:00] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:00] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:00] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:00] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:00] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:01] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:01] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:01] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:01] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:01] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:01] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:01] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:01] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:01] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:01] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:01] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:02] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:02] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:02] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:02] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:02] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:02] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:02] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:02] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:02] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:02] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:02] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:02] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:02] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:02] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:03] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:03] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:03] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:03] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:03] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:03] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:03] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:03] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:03] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:03] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:03] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:03] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:03] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:03] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:04] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:04] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:04] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:04] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:04] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:04] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:04] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:04] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:04] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:04] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:04] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:04] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:05] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:05] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:05] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:05] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:05] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:05] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:05] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:05] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:05] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:05] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:05] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:05] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:06] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:06] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:06] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:06] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:06] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:06] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:06] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:06] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:06] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:06] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:07] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:07] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:07] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:07] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:07] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:07] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:07] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:07] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:08] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:08] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:08] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:08] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:08] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:08] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:08] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:08] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:08] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:08] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:08] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:08] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:08] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:08] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:09] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:09] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:09] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:09] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:10] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:10] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:10] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:10] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:10] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:10] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:11] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:11] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:11] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:11] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:11] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:11] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:11] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:11] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:12] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:12] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:12] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:12] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:12] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:12] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:12] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:12] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:12] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:12] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:12] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:12] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:12] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:12] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:12] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:13] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:13] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:13] [PENDENTE] cmd=prop_use seq=6 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][16:03:13] POST path=/iniServer?s=w6MDZBBUz6EZT93peHSdleZ8LPDtJQHt08WLl6Z3Qzg bytes=120 primeira-linha=6
+[HOST_SERVER][16:03:13] login_init_again: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:13] login_init_again: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:13] login_init conta=RenegadoBR user_id=2 sessao='w6M...(43)'
+[HOST_SERVER][16:03:13] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:13] cmd=login_init_again seq=6 -> status=0 (82496 chars)
+[HOST_SERVER][16:03:24] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][16:03:24] login ok conta=ItachiBR sessao='SgV...(43)' perfil_user_id=2
+[HOST_SERVER][16:03:24] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][16:03:24] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=48 primeira-linha=1
+[HOST_SERVER][16:03:24] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][16:03:24] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=80 primeira-linha=2
+[HOST_SERVER][16:03:24] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][16:03:25] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=56 primeira-linha=3
+[HOST_SERVER][16:03:25] vali_register conta=ItachiBR sessao='SgV...(43)'
+[HOST_SERVER][16:03:25] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][16:03:26] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=32 primeira-linha=4
+[HOST_SERVER][16:03:26] get_random_name indice=0 -> Shinobi_Shogun
+[HOST_SERVER][16:03:26] cmd=get_random_name seq=4 -> status=0 (37 chars)
+[HOST_SERVER][16:03:26] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=96 primeira-linha=5
+[HOST_SERVER][16:03:26] register conta=ItachiBR user_id=2 apelido=Shinobi_Shogun
+[HOST_SERVER][16:03:26] cmd=register seq=5 -> status=0 (16 chars)
+[HOST_SERVER][16:03:26] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=144 primeira-linha=6
+[HOST_SERVER][16:03:26] login_init: 343 itens no inventario da conta 62
+[HOST_SERVER][16:03:26] login_init: enviando 29 personagem(ns) no login
+[HOST_SERVER][16:03:26] login_init conta=RenegadoBR user_id=2 sessao='SgV...(43)'
+[HOST_SERVER][16:03:26] LOGIN_LAYOUT prefix=90 items=343 separate_characters=29
+[HOST_SERVER][16:03:26] cmd=login_init seq=6 -> status=0 (82490 chars)
+[HOST_SERVER][16:03:28] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=40 primeira-linha=6
+[HOST_SERVER][16:03:28] cmd=draw_endurance_init seq=6 -> status=0 (31 chars)
+[HOST_SERVER][16:03:28] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=32 primeira-linha=6
+[HOST_SERVER][16:03:28] cmd=ship_purify_init seq=6 -> status=0 (20 chars)
+[HOST_SERVER][16:03:28] POST path=/iniServer?s=SgVc1idxy1jQLC1w0w4RWwZf7Jga6s72yVHGbgUve0g bytes=56 primeira-linha=6
+[HOST_SERVER][16:03:28] cmd=get_web_recharge_state seq=6 -> status=0 (34 chars)

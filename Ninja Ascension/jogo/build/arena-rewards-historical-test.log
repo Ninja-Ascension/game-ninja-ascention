@@ -1,0 +1,5 @@
+[HOST_SERVER][17:54:03] ARENA_RESULT conta=1 match=match-once pontos=2
+[HOST_SERVER][17:54:03] recusa cmd=battlefield_report_battle_info_get seq=10 motivo=dados_historicos_de_replay_nao_disponiveis
+[HOST_SERVER][17:54:03] ARENA_RESULT conta=1 match=062441bd7a6e429ca51c02a9dda016e3 pontos=1
+[HOST_SERVER][17:54:03] recusa cmd=battlefield_report_battle_info_get seq=10 motivo=relatorio_de_arena_inexistente
+ARENA_REWARDS_PASSED original score reward and match settlement are once-only
