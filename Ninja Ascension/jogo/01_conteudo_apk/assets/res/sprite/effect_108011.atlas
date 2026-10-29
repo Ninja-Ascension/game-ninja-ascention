@@ -1,0 +1,139 @@
+
+effect_108011.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baidi
+  rotate: false
+  xy: 228, 795
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+pg/911_1
+  rotate: false
+  xy: 2, 704
+  size: 224, 95
+  orig: 224, 95
+  offset: 0, 0
+  index: -1
+pg/911_2
+  rotate: false
+  xy: 255, 828
+  size: 224, 95
+  orig: 224, 95
+  offset: 0, 0
+  index: -1
+pg/911_3
+  rotate: false
+  xy: 484, 926
+  size: 224, 95
+  orig: 224, 95
+  offset: 0, 0
+  index: -1
+pg/911_4
+  rotate: false
+  xy: 710, 927
+  size: 224, 94
+  orig: 224, 95
+  offset: 0, 0
+  index: -1
+pg/911_5
+  rotate: false
+  xy: 2, 607
+  size: 224, 95
+  orig: 224, 95
+  offset: 0, 0
+  index: -1
+pg/n1
+  rotate: false
+  xy: 2, 532
+  size: 204, 73
+  orig: 275, 133
+  offset: 42, 15
+  index: -1
+pg/n2
+  rotate: false
+  xy: 2, 801
+  size: 251, 105
+  orig: 275, 133
+  offset: 0, 13
+  index: -1
+pg/n3
+  rotate: false
+  xy: 2, 908
+  size: 251, 113
+  orig: 275, 133
+  offset: 0, 12
+  index: -1
+pg/n4
+  rotate: false
+  xy: 255, 925
+  size: 227, 96
+  orig: 275, 133
+  offset: 21, 15
+  index: -1
+pg/nib1
+  rotate: false
+  xy: 129, 377
+  size: 45, 48
+  orig: 92, 106
+  offset: 30, 3
+  index: -1
+pg/nib2
+  rotate: true
+  xy: 2, 10
+  size: 79, 94
+  orig: 92, 106
+  offset: 6, 5
+  index: -1
+pg/nib3
+  rotate: false
+  xy: 936, 921
+  size: 85, 100
+  orig: 92, 106
+  offset: 4, 3
+  index: -1
+pg/nib4
+  rotate: false
+  xy: 125, 427
+  size: 89, 103
+  orig: 92, 106
+  offset: 2, 2
+  index: -1
+pg/nib5
+  rotate: false
+  xy: 2, 314
+  size: 92, 106
+  orig: 92, 106
+  offset: 0, 0
+  index: -1
+pg/zhan0
+  rotate: false
+  xy: 96, 355
+  size: 31, 65
+  orig: 122, 120
+  offset: 0, 14
+  index: -1
+pg/zhan1
+  rotate: false
+  xy: 2, 422
+  size: 121, 108
+  orig: 122, 120
+  offset: 1, 1
+  index: -1
+pg/zhan2
+  rotate: false
+  xy: 2, 192
+  size: 75, 120
+  orig: 122, 120
+  offset: 47, 0
+  index: -1
+pg/zhan3
+  rotate: false
+  xy: 2, 91
+  size: 98, 99
+  orig: 122, 120
+  offset: 22, 21
+  index: -1

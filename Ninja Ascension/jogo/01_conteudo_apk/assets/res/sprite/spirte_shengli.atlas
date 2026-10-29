@@ -1,0 +1,76 @@
+
+spirte_shengli.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+VICTORY
+  rotate: false
+  xy: 2, 344
+  size: 333, 165
+  orig: 334, 207
+  offset: 0, 30
+  index: -1
+gq
+  rotate: false
+  xy: 337, 371
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 257, 151
+  size: 191, 191
+  orig: 191, 191
+  offset: 0, 0
+  index: -1
+huoy_0
+  rotate: false
+  xy: 36, 77
+  size: 18, 18
+  orig: 33, 31
+  offset: 7, 6
+  index: -1
+huoy_1
+  rotate: true
+  xy: 337, 345
+  size: 24, 31
+  orig: 33, 31
+  offset: 5, 0
+  index: -1
+huoy_2
+  rotate: false
+  xy: 257, 120
+  size: 27, 29
+  orig: 33, 31
+  offset: 3, 1
+  index: -1
+huoy_3
+  rotate: false
+  xy: 2, 40
+  size: 30, 26
+  orig: 33, 31
+  offset: 2, 4
+  index: -1
+huoy_4
+  rotate: false
+  xy: 2, 68
+  size: 32, 27
+  orig: 33, 31
+  offset: 0, 3
+  index: -1
+huoy_5
+  rotate: false
+  xy: 477, 482
+  size: 32, 27
+  orig: 33, 31
+  offset: 1, 3
+  index: -1
+shexian_0001
+  rotate: false
+  xy: 2, 97
+  size: 253, 245
+  orig: 253, 245
+  offset: 0, 0
+  index: -1
