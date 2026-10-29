@@ -1,0 +1,55 @@
+
+effice_776.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiaxue/g1
+  rotate: false
+  xy: 2, 27
+  size: 71, 103
+  orig: 71, 108
+  offset: 0, 0
+  index: -1
+jiaxue/g2
+  rotate: false
+  xy: 75, 135
+  size: 71, 103
+  orig: 71, 108
+  offset: 0, 0
+  index: -1
+jiaxue/g3
+  rotate: false
+  xy: 2, 132
+  size: 71, 106
+  orig: 71, 108
+  offset: 0, 0
+  index: -1
+jiaxue/g4
+  rotate: false
+  xy: 75, 34
+  size: 71, 99
+  orig: 71, 108
+  offset: 0, 0
+  index: -1
+jiaxue/g5
+  rotate: false
+  xy: 148, 139
+  size: 71, 99
+  orig: 71, 108
+  offset: 0, 0
+  index: -1
+jiaxue/gs
+  rotate: false
+  xy: 148, 60
+  size: 7, 77
+  orig: 7, 77
+  offset: 0, 0
+  index: -1
+jiaxue/jh
+  rotate: false
+  xy: 2, 2
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1

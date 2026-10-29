@@ -1,0 +1,20 @@
+
+effice_1102631.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/guangxiao/shi1
+  rotate: false
+  xy: 2, 6
+  size: 233, 109
+  orig: 233, 109
+  offset: 0, 0
+  index: -1
+image/heidian
+  rotate: false
+  xy: 2, 2
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
