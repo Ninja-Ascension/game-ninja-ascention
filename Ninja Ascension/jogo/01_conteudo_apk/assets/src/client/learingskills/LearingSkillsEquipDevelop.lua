@@ -1,0 +1,300 @@
+-- -- ----------------------------------------------------------------------------------------------------
+-- -- 说明：偷师学艺
+-- -- 创建时间	2015-11-25
+-- -- 作者：yanghan
+-- -- 修改记录：
+-- -- 最后修改人：
+-- -------------------------------------------------------------------------------------------------------
+
+-- LearingSkillsEquipDevelop = class("LearingSkillsEquipDevelopClass", Window)
+-- app.load("client.learingskills.cells.learing_change_list_cell")
+-- app.load("client.learingskills.LearingListviewEquipDragons")
+-- app.load("client.learingskills.LearingListviewEquipDemons")
+-- app.load("client.learingskills.LearingListviewEquipHeroes")
+-- app.load("client.learingskills.LearingListviewEquipLotus")
+-- local learing_skills_equip_develop_open_terminal = {
+--     _name = "learing_skills_equip_develop_open",
+--     _init = function (terminal)
+        
+--     end,
+--     _inited = false,
+--     _instance = self,
+--     _state = 0,
+--     _invoke = function(terminal, instance, params)
+--         state_machine.lock("learing_skills_equip_develop_open")
+--         local _LearingDevelop = LearingSkillsEquipDevelop:new()
+--         _LearingDevelop:init()
+--         fwin:open(_LearingDevelop,fwin._ui)
+--         return true
+--     end,
+--     _terminal = nil,
+--     _terminals = nil
+-- }
+
+-- state_machine.add(learing_skills_equip_develop_open_terminal)
+-- state_machine.init()
+-- function LearingSkillsEquipDevelop:ctor()
+--     self.super:ctor()
+-- 	self.roots = {}
+--     self.listviews = {
+--         dragons = nil, --龙虎
+--         demons = nil, --罗刹
+--         heroes = nil, --白莲
+--         lotus = nil -- 群英
+--         }
+--     -- Initialize EmailManager page state machine.
+--     local function init_learing_skills_equip_develop_terminal()
+
+--         local learing_skills_develop_equip_manager_terminal = {
+--         _name = "learing_skills_develop_equip_manager",
+--         _init = function (terminal)
+            
+--         end,
+--         _inited = false,
+--         _instance = self,
+--         _state = 0,
+--         _invoke = function(terminal, instance, params)
+--             if terminal.last_terminal_name ~= params._datas.next_terminal_name then
+--                 -- hide child window
+--                 for i, v in pairs(instance.listviews) do
+--                     if v ~= nil then
+--                         v:setVisible(false)
+--                     end
+--                 end
+                
+--                 terminal.last_terminal_name = params._datas.next_terminal_name
+--                 state_machine.excute(params._datas.next_terminal_name, 0, params)
+--             end 
+--             -- set select ui button is highlighted
+--             if terminal.select_button ~= nil and terminal.select_button.setHighlighted ~= nil then
+--                 terminal.select_button:setHighlighted(false)
+--                 terminal.select_button:setTouchEnabled(true)
+--             end
+--             terminal.page_name = params._datas.but_image
+--             if terminal.select_button == nil and params._datas.current_button_name ~= nil then
+--                 terminal.select_button = ccui.Helper:seekWidgetByName(instance.roots[1], params._datas.current_button_name)
+--             else
+--                 terminal.select_button = params
+--             end
+--             if terminal.select_button ~= nil and terminal.select_button.setHighlighted ~= nil then
+--                 terminal.select_button:setHighlighted(true)
+--                 terminal.select_button:setTouchEnabled(false)
+--             end
+--             return true
+--         end,
+--         _terminal = nil,
+--         _terminals = nil
+--         }
+--         --关闭界面
+--         local learing_skills_develop_equip_close_terminal = {
+--             _name = "learing_skills_develop_equip_close",
+--             _init = function (terminal)
+                
+--             end,
+--             _inited = false,
+--             _instance = self,
+--             _state = 0,
+--             _invoke = function(terminal, instance, params)
+--                 for i , v in pairs(instance.listviews) do
+--                     if v ~= nil then
+--                         fwin:close(v)
+--                     end
+--                 end
+--                 fwin:close(instance)
+--                 -- state_machine.excute("menu_back_home_page", 0, "") 
+--                 -- state_machine.excute("menu_clean_page_state", 0, "")
+--                 return true
+--             end,
+--             _terminal = nil,
+--             _terminals = nil
+--         }
+
+--         local learing_skills_develop_equip_open_dragons_terminal = {
+--             _name = "learing_skills_develop_equip_open_dragons",
+--             _init = function (terminal)
+                
+--             end,
+--             _inited = false,
+--             _instance = self,
+--             _state = 0,
+--             _invoke = function(terminal, instance, params)
+--                 if instance.listviews.dragons == nil then
+--                     instance.listviews.dragons = LearingListviewEquipDragons:new()
+--                     instance.listviews.dragons:init()
+--                     fwin:open(instance.listviews.dragons,fwin._windows)
+--                 end
+--                 instance.listviews.dragons:setVisible(true)
+--                 return true
+--             end,
+--             _terminal = nil,
+--             _terminals = nil
+--         }
+--         state_machine.init()
+
+--         local learing_skills_develop_equip_open_demons_terminal = {
+--             _name = "learing_skills_develop_equip_open_demons",
+--             _init = function (terminal)
+                
+--             end,
+--             _inited = false,
+--             _instance = self,
+--             _state = 0,
+--             _invoke = function(terminal, instance, params)
+--                 if instance.listviews.demons == nil then
+--                     instance.listviews.demons = LearingListviewEquipDemons:new()
+--                     instance.listviews.demons:init()
+--                     fwin:open(instance.listviews.demons,fwin._windows)
+--                 end
+--                 instance.listviews.demons:setVisible(true)            
+--                 return true
+--             end,
+--             _terminal = nil,
+--             _terminals = nil
+--         }
+
+--         local learing_skills_develop_equip_open_heroes_terminal = {
+--             _name = "learing_skills_develop_equip_open_heroes",
+--             _init = function (terminal)
+                
+--             end,
+--             _inited = false,
+--             _instance = self,
+--             _state = 0,
+--             _invoke = function(terminal, instance, params)
+--                 if instance.listviews.heroes == nil then
+--                     instance.listviews.heroes = LearingListviewEquipHeroes:new()
+--                     instance.listviews.heroes:init()
+--                     fwin:open(instance.listviews.heroes,fwin._windows)
+--                 end
+--                 instance.listviews.heroes:setVisible(true)            
+--                 return true
+--             end,
+--             _terminal = nil,
+--             _terminals = nil
+--         }
+--         local learing_skills_develop_equip_open_lotus_terminal = {
+--             _name = "learing_skills_develop_equip_open_lotus",
+--             _init = function (terminal)
+                
+--             end,
+--             _inited = false,
+--             _instance = self,
+--             _state = 0,
+--             _invoke = function(terminal, instance, params)
+--                 if instance.listviews.lotus == nil then
+--                     instance.listviews.lotus = LearingListviewEquipLotus:new()
+--                     instance.listviews.lotus:init()
+--                     fwin:open(instance.listviews.lotus,fwin._windows)
+--                 end
+--                 instance.listviews.lotus:setVisible(true)
+--                 return true
+--             end,
+--             _terminal = nil,
+--             _terminals = nil
+--         }
+        
+--         state_machine.add(learing_skills_develop_equip_manager_terminal)
+--         state_machine.add(learing_skills_develop_equip_close_terminal)
+--         state_machine.add(learing_skills_develop_equip_open_dragons_terminal)
+--         state_machine.add(learing_skills_develop_equip_open_demons_terminal)
+--         state_machine.add(learing_skills_develop_equip_open_heroes_terminal)
+--         state_machine.add(learing_skills_develop_equip_open_lotus_terminal)
+--         state_machine.init()
+--     end
+--     -- call func init hom state machine.
+--     init_learing_skills_equip_develop_terminal()
+-- end
+
+-- function LearingSkillsEquipDevelop:onInit()
+-- 	local csbItem = csb.createNode("skills/skills_list.csb")
+-- 	local root = csbItem:getChildByName("root")
+-- 	table.insert(self.roots,root)
+--     self:addChild(csbItem)
+
+
+--     fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_skills_back"), nil, 
+--     {
+--         terminal_name = "learing_skills_develop_equip_close", 
+--         terminal_state = 0,
+--         isPressedActionEnabled = true
+--     }, 
+--     nil, 0)
+-- 	--龙虎
+--     fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_zy_lognhumen"), nil, 
+--     {
+--         terminal_name = "learing_skills_develop_equip_manager",     
+--         next_terminal_name = "learing_skills_develop_equip_open_dragons", 
+--         current_button_name = "Button_zy_lognhumen",   
+--         but_image = "",     
+--         terminal_state = 0, 
+--         isPressedActionEnabled = false
+--     }, 
+--     nil, 0)
+--     --罗刹
+--     fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_zy_luochajiao"), nil, 
+--     {
+--         terminal_name = "learing_skills_develop_equip_manager",     
+--         next_terminal_name = "learing_skills_develop_equip_open_demons", 
+--         current_button_name = "Button_zy_luochajiao",   
+--         but_image = "",     
+--         terminal_state = 0, 
+--         isPressedActionEnabled = false
+--     }, 
+--     nil, 0)
+--     --白莲
+--     fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_zy_bailianjiao"), nil, 
+--     {
+--         terminal_name = "learing_skills_develop_equip_manager",     
+--         next_terminal_name = "learing_skills_develop_equip_open_lotus", 
+--         current_button_name = "Button_zy_bailianjiao",   
+--         but_image = "",     
+--         terminal_state = 0, 
+--         isPressedActionEnabled = false
+--     }, 
+--     nil, 0)   
+--     --群英 
+--     fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_zy_qunyinghui"), nil, 
+--     {
+--         terminal_name = "learing_skills_develop_equip_manager",     
+--         next_terminal_name = "learing_skills_develop_equip_open_heroes", 
+--         current_button_name = "Button_zy_lognhumen",   
+--         but_image = "",     
+--         terminal_state = 0, 
+--         isPressedActionEnabled = false
+--     }, 
+--     nil, 0)    
+--     self:onUpdateDraw()
+-- end
+
+
+-- function LearingSkillsEquipDevelop:onUpdateDraw()
+
+--     state_machine.excute("learing_skills_develop_equip_manager",0,{
+--         _datas =
+--            {
+--             terminal_name = "learing_skills_develop_equip_manager",     
+--             next_terminal_name = "learing_skills_develop_equip_open_dragons", 
+--             current_button_name = "Button_zy_lognhumen",   
+--             but_image = "",     
+--             terminal_state = 0, 
+--             isPressedActionEnabled = false
+
+--             }
+--     })
+-- 	state_machine.unlock("learing_skills_equip_develop_open")
+-- end
+-- function LearingSkillsEquipDevelop:init()
+-- 	self:onInit()
+-- end
+-- function LearingSkillsEquipDevelop:onEnterTransitionFinish()
+
+-- end
+
+-- function LearingSkillsEquipDevelop:onExit() 
+--     state_machine.remove("learing_skills_develop_equip_manager")
+--     state_machine.remove("learing_skills_develop_equip_close")
+--     state_machine.remove("learing_skills_develop_equip_open_dragons")
+--     state_machine.remove("learing_skills_develop_equip_open_demons")
+--     state_machine.remove("learing_skills_develop_equip_open_heroes")
+--     state_machine.remove("learing_skills_develop_equip_open_lotus")
+-- end
