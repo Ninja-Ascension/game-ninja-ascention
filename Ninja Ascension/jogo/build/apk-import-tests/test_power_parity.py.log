@@ -1,0 +1,9 @@
+[HOST_SERVER][02:02:37] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][02:02:37] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][02:02:37] login_init conta=power_a user_id=1 sessao='GVG...(43)'
+[HOST_SERVER][02:02:37] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][02:02:37] login_init: 0 itens no inventario da conta 2
+[HOST_SERVER][02:02:37] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][02:02:37] login_init conta=power_b user_id=2 sessao='MQG...(43)'
+[HOST_SERVER][02:02:37] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+POWER_PARITY_PASSED 12 original Lua formula vectors; ranking, strongest ninja and formation sum agree
