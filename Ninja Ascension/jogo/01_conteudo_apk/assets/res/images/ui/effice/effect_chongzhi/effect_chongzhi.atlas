@@ -1,0 +1,48 @@
+
+effect_chongzhi.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 172, 89
+  size: 37, 20
+  orig: 39, 22
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 74, 51
+  size: 63, 58
+  orig: 65, 60
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 2, 39
+  size: 70, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+4
+  rotate: false
+  xy: 2, 2
+  size: 34, 35
+  orig: 45, 42
+  offset: 5, 2
+  index: -1
+TX_A_sj_0039
+  rotate: false
+  xy: 38, 11
+  size: 26, 26
+  orig: 30, 28
+  offset: 2, 1
+  index: -1
+yx
+  rotate: false
+  xy: 139, 76
+  size: 31, 33
+  orig: 33, 33
+  offset: 2, 0
+  index: -1

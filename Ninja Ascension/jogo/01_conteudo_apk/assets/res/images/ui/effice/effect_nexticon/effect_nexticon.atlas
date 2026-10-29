@@ -1,0 +1,20 @@
+
+effect_nexticon.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_1
+  rotate: true
+  xy: 2, 2
+  size: 138, 54
+  orig: 138, 55
+  offset: 0, 0
+  index: -1
+y2
+  rotate: false
+  xy: 2, 142
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1

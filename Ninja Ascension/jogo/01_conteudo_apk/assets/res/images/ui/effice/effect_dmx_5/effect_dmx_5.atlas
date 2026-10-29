@@ -1,0 +1,27 @@
+
+effect_dmx_5.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+5
+  rotate: false
+  xy: 2, 2
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+paopao
+  rotate: false
+  xy: 124, 31
+  size: 79, 73
+  orig: 79, 73
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 42
+  size: 120, 62
+  orig: 120, 62
+  offset: 0, 0
+  index: -1

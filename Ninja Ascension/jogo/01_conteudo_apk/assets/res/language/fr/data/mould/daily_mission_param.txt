@@ -1,0 +1,49 @@
+1	Récupérer EXP	EXP quotidienne	3002	25	1	8-0,90!6-68,6	1	999	-1	0	-1
+2	Amélioration de Ninja	Améliorer 3 Ninjas	4003	9	3	8-0,60!1-0,6000	1	999	285	0	-1
+3	Progression de Ninja	Faire progresser un Ninja 1X	4003	27	1	8-0,60!1-0,6000	1	999	286	0	-1
+4	Compétence +	Améliorer une compétence 3X	4003	28	3	8-0,60!1-0,6000	1	999	287	0	-1
+5	Grand combattant	Défier le donjon principal 10X	4003	0	10	8-0,250!1-0,8000	1	999	288	0	-1
+6	Défi d'élite	Défier le donjon d'élite 3X	4003	24	3	8-0,250!1-0,8000	1	999	289	0	-1
+7	Grand combattant II	Défier le Grand Shinobi 1X	4003	29	1	8-0,100!1-0,6000	1	999	290	0	-1
+8	Recruter un Ninja	Recruter 1X	4003	15	1	8-0,100!1-0,12000	1	999	291	0	-1
+9	Arbre à Ryo	Secouer 1X	4003	30	1	8-0,100!1-0,6000	1	999	292	0	-1
+10	Achat de Vigueur	Achat de Vigueur 1X	4003	31	1	8-0,100!1-0,6000	1	999	293	0	-1
+11	Remise sur dépenses	300 Or dépensés dans la journée	4001	26	300	8-0,180!1-0,50000	1	999	-1	0	-1
+12	Combat d'Arène	Combat d'Arène 3X	4003	4	3	8-0,200!1-0,10000	1	999	297	0	-1
+13	Épreuve ninja	Épreuve ninja 1X	4003	32	1	8-0,200!6-2327,1!1-0,10000	24	999	298	0	-1
+14	Armée de Zetsu blanc	Défier l'armée de Zetsu blanc 1X	4003	33	1	8-0,20!6-2382,2	32	999	299	0	-1
+15	Don au clan	Don au clan 1X	4013	34	1	1-0,2000!28-0,60	1	999	300	0	-1
+16	Clé de coffre d'armes	Obtenir une clé de coffre d'armes	3041	25	1	6-240,1	1	999	367	0	-1
+17	Points de Talent	Obtenir des points de Talent	4008	25	1	34-0,1	1	999	368	0	-1
+18	Contrat de chaman 	Obtenir un contrat de chaman 	3001	25	1	6-242,20	1	999	369	0	-1
+19	Fragments-X	Obtenir des Fragments-X 	3043	25	1	6-1000,1	1	999	370	0	-1
+20	Fragments-X	Obtenir des Fragments-X 	3146	25	1	6-1000,2	1	999	371	0	-1
+21	Grande remise	880 Or dépensés au total	4001	26	880	8-0,180!2-0,100	1	999	366	0	-1
+22	Cadeau en ligne	En ligne pour récupérer	3156	25	1	63-0,10	1	999	-1	1	-1
+23	En ligne cumulé	Temps en ligne cumulé	3156	35	30	63-0,5	1	999	-1	1	24
+24	En ligne cumulé	Temps en ligne cumulé	3156	35	60	63-0,10	1	999	-1	1	-1
+25	Cadeau de Vigueur	Envoyez de la Vigueur à vos amis 	4005	36	1	63-0,5	1	999	377	1	-1
+26	Consommation de Vigueur	Vigueur consommée	4005	37	120	63-0,5	1	999	378	1	27
+27	Consommation de Vigueur	Vigueur consommée	4005	37	360	63-0,10	1	999	378	1	-1
+28	Coffre d'épreuve	Ouvrir un coffre de l'Épreuve ninja	3145	38	4	63-0,5	1	999	379	1	29
+29	Coffre d'épreuve	Ouvrir un coffre de l'Épreuve ninja	3145	38	8	63-0,5	1	999	379	1	30
+30	Coffre d'épreuve	Ouvrir un coffre de l'Épreuve ninja	3145	38	12	63-0,10	1	999	379	1	-1
+31	Obtenir des Ryo	Ryo obtenus	4002	39	1000000	63-0,5	1	999	380	1	32
+32	Obtenir des Ryo	Ryo obtenus	4002	39	2000000	63-0,10	1	999	380	1	-1
+33	Amélioration des Signes	Amélioration des Signes	3144	40	1	63-0,5	50	999	381	1	34
+34	Amélioration des Signes	Amélioration des Signes	3144	40	10	63-0,5	50	999	381	1	-1
+35	Envoyer un cadeau	Envoyer un cadeau en esprit d'équipe	3036	41	1	63-0,5	1	999	382	1	36
+36	Envoyer un cadeau	Envoyer un cadeau en esprit d'équipe	3036	41	10	63-0,10	1	999	382	1	-1
+37	Aider un membre	Aider un membre du clan dans la salle d'entraînement	4003	42	1	63-0,5	1	999	383	1	-1
+38	Pratique chamanique	Pratique chamanique	3043	43	3	63-0,5	1	999	384	1	39
+39	Pratique chamanique	Pratique chamanique	3043	43	10	63-0,10	1	999	384	1	-1
+40	Coffre d'Arme	Ouvrir un coffre d'armes	3024	44	1	63-0,5	1	999	385	1	41
+41	Coffre d'Arme	Ouvrir un coffre d'armes	3024	44	10	63-0,10	1	999	385	1	-1
+42	Victoires en Arène	Victoires en Arène	4004	45	1	63-0,5	1	999	386	1	-1
+43	Vénération d'Arène 	Vénération d'Arène 	4004	46	1	63-0,5	1	999	387	1	-1
+44	Boutique secrète	Acheter dans la boutique secrète	3160	47	1	63-0,5	25	999	388	1	45
+45	Boutique secrète	Acheter dans la boutique secrète	3160	47	3	63-0,5	25	999	388	1	-1
+46	Partager avec vos amis	Partager 1X par jour	4003	48	1	8-0,60!6-359,1	999	999	365	0	-1
+47	Tirer des Signes avec des Ryo	Tirer une fois des Signes avec des Ryo chaque jour	4067	49	1	8-0,60!67-0,50	42	999	373	0	-1
+48	Armée de Zetsu blanc	Défier l'armée de Zetsu blanc 3X	4003	33	3	8-0,20!6-2383,4	28	999	299	0	-1
+49	Il est poli de regarder une pub	Pub regardée avec succès	4003	50	1	8-0,20!6-2383,4	20	999	600	0	-1

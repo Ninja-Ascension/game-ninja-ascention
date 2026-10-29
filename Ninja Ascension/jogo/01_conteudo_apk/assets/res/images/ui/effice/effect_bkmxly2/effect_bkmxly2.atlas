@@ -1,0 +1,97 @@
+
+effect_bkmxly2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuang1
+  rotate: false
+  xy: 2, 367
+  size: 72, 72
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+shuang10
+  rotate: false
+  xy: 76, 292
+  size: 71, 73
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+shuang11
+  rotate: true
+  xy: 298, 372
+  size: 67, 72
+  orig: 72, 73
+  offset: 2, 0
+  index: -1
+shuang12
+  rotate: false
+  xy: 2, 2
+  size: 67, 72
+  orig: 72, 73
+  offset: 3, 0
+  index: -1
+shuang13
+  rotate: false
+  xy: 76, 218
+  size: 70, 72
+  orig: 72, 73
+  offset: 1, 1
+  index: -1
+shuang2
+  rotate: false
+  xy: 2, 293
+  size: 72, 72
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+shuang3
+  rotate: false
+  xy: 224, 370
+  size: 72, 69
+  orig: 72, 73
+  offset: 0, 1
+  index: -1
+shuang4
+  rotate: false
+  xy: 2, 76
+  size: 72, 68
+  orig: 72, 73
+  offset: 0, 3
+  index: -1
+shuang5
+  rotate: true
+  xy: 76, 144
+  size: 72, 67
+  orig: 72, 73
+  offset: 0, 2
+  index: -1
+shuang6
+  rotate: false
+  xy: 150, 368
+  size: 72, 71
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+shuang7
+  rotate: false
+  xy: 2, 146
+  size: 72, 71
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+shuang8
+  rotate: false
+  xy: 76, 367
+  size: 72, 72
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+shuang9
+  rotate: false
+  xy: 2, 219
+  size: 72, 72
+  orig: 72, 73
+  offset: 0, 0
+  index: -1

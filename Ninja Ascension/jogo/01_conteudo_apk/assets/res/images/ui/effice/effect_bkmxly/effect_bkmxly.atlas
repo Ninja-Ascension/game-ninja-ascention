@@ -1,0 +1,20 @@
+
+effect_bkmxly.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baise
+  rotate: false
+  xy: 2, 703
+  size: 128, 93
+  orig: 128, 93
+  offset: 0, 0
+  index: -1
+baitiao
+  rotate: false
+  xy: 2, 798
+  size: 889, 93
+  orig: 889, 93
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,28 @@
+{
+"skeleton": { "hash": "AozlvhempFhjufkgp6yNS5o3ixc", "spine": "2.1.27", "width": 1624, "height": 640, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "role", "bone": "root", "attachment": "role" }
+],
+"skins": {
+	"default": {
+		"role": {
+			"role": { "width": 1624, "height": 640 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"role": {
+				"attachment": [
+					{ "time": 0, "name": "role" },
+					{ "time": 1, "name": "role" }
+				]
+			}
+		}
+	}
+}
+}

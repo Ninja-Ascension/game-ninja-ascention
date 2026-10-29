@@ -1,0 +1,125 @@
+
+effect_groupbuyicon.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+533-1
+  rotate: false
+  xy: 184, 405
+  size: 88, 96
+  orig: 102, 102
+  offset: 8, 3
+  index: -1
+533-10
+  rotate: true
+  xy: 274, 314
+  size: 90, 89
+  orig: 102, 102
+  offset: 7, 3
+  index: -1
+533-11
+  rotate: false
+  xy: 274, 406
+  size: 89, 95
+  orig: 102, 102
+  offset: 8, 3
+  index: -1
+533-12
+  rotate: false
+  xy: 2, 201
+  size: 85, 99
+  orig: 102, 102
+  offset: 10, 3
+  index: -1
+533-13
+  rotate: true
+  xy: 365, 416
+  size: 85, 99
+  orig: 102, 102
+  offset: 10, 3
+  index: -1
+533-14
+  rotate: false
+  xy: 2, 100
+  size: 85, 99
+  orig: 102, 102
+  offset: 10, 3
+  index: -1
+533-15
+  rotate: false
+  xy: 89, 205
+  size: 86, 95
+  orig: 102, 102
+  offset: 9, 3
+  index: -1
+533-16
+  rotate: false
+  xy: 89, 109
+  size: 87, 94
+  orig: 102, 102
+  offset: 9, 3
+  index: -1
+533-2
+  rotate: false
+  xy: 184, 309
+  size: 87, 94
+  orig: 102, 102
+  offset: 8, 3
+  index: -1
+533-3
+  rotate: false
+  xy: 2, 402
+  size: 87, 99
+  orig: 102, 102
+  offset: 8, 3
+  index: -1
+533-4
+  rotate: false
+  xy: 2, 302
+  size: 87, 98
+  orig: 102, 102
+  offset: 8, 3
+  index: -1
+533-5
+  rotate: false
+  xy: 2, 2
+  size: 87, 96
+  orig: 102, 102
+  offset: 8, 3
+  index: -1
+533-6
+  rotate: true
+  xy: 365, 327
+  size: 87, 96
+  orig: 102, 102
+  offset: 7, 3
+  index: -1
+533-7
+  rotate: true
+  xy: 365, 239
+  size: 86, 96
+  orig: 102, 102
+  offset: 7, 3
+  index: -1
+533-8
+  rotate: false
+  xy: 91, 406
+  size: 91, 95
+  orig: 102, 102
+  offset: 7, 3
+  index: -1
+533-9
+  rotate: false
+  xy: 91, 310
+  size: 91, 94
+  orig: 102, 102
+  offset: 7, 3
+  index: -1
+group_buy_icon
+  rotate: true
+  xy: 91, 20
+  size: 87, 68
+  orig: 92, 68
+  offset: 4, 0
+  index: -1

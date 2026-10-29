@@ -1,0 +1,62 @@
+
+effect_kdtxyjts.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/djj
+  rotate: false
+  xy: 2, 20
+  size: 209, 87
+  orig: 209, 87
+  offset: 0, 0
+  index: -1
+image/guang1
+  rotate: false
+  xy: 387, 2
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+image/hdian0
+  rotate: false
+  xy: 340, 60
+  size: 75, 47
+  orig: 75, 49
+  offset: 0, 0
+  index: -1
+image/hdian1
+  rotate: false
+  xy: 417, 66
+  size: 65, 41
+  orig: 75, 49
+  offset: 2, 2
+  index: -1
+image/hdian2
+  rotate: false
+  xy: 328, 17
+  size: 57, 41
+  orig: 75, 49
+  offset: 7, 3
+  index: -1
+image/hdian3
+  rotate: true
+  xy: 445, 10
+  size: 54, 39
+  orig: 75, 49
+  offset: 3, 10
+  index: -1
+image/wzz
+  rotate: false
+  xy: 213, 70
+  size: 125, 37
+  orig: 125, 37
+  offset: 0, 0
+  index: -1
+image/wzzh
+  rotate: false
+  xy: 213, 30
+  size: 113, 38
+  orig: 113, 38
+  offset: 0, 0
+  index: -1
