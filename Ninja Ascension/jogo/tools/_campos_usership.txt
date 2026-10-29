@@ -1,0 +1,199 @@
+  1	ship_id	linha 524
+  2	ship_template_id	linha 525
+  3	ship_base_template_id	linha 526
+  4	captain_type	linha 528
+  5	shipSpirit	linha 529
+  6	ship_fighting_spirit	linha 530
+  7	ship_skin_info	linha 531
+  8	ship_type	linha 532
+  9	captain_name	linha 533
+ 10	ship_name	linha 534
+ 11	ship_grade	linha 535
+ 12	ship_health	linha 536
+ 13	ship_courage	linha 537
+ 14	ship_intellect	linha 538
+ 15	ship_quick	linha 539
+ 16	<sem-nome>	linha 540
+ 17	property_values	linha 541
+ 18	ship_picture	linha 542
+ 19	hero_fight	linha 543
+ 20	ship_leader	linha 544
+ 21	ship_wisdom	linha 546
+ 22	skill_mould	linha 551
+ 23	skill_name	linha 552
+ 24	skill_describe	linha 553
+ 25	deadly_skill_mould	linha 554
+ 26	exprience	linha 557
+ 27	grade_need_exprience	linha 558
+ 28	ship_id	linha 572
+ 29	ship_template_id	linha 573
+ 30	ship_base_template_id	linha 574
+ 31	ship_place	linha 575
+ 32	captain_type	linha 576
+ 33	ship_type	linha 577
+ 34	captain_name	linha 578
+ 35	ship_name	linha 579
+ 36	ship_grade	linha 580
+ 37	ship_health	linha 581
+ 38	ship_courage	linha 582
+ 39	ship_intellect	linha 583
+ 40	ship_quick	linha 584
+ 41	ship_picture	linha 585
+ 42	hero_fight	linha 586
+ 43	ship_leader	linha 587
+ 44	ship_force	linha 588
+ 45	ship_wisdom	linha 589
+ 46	health_growup_type	linha 590
+ 47	courage_grade_type	linha 591
+ 48	intellect_grade_type	linha 592
+ 49	quick_grade_type	linha 593
+ 50	skill_mould	linha 594
+ 51	skill_name	linha 595
+ 52	skill_describe	linha 596
+ 53	deadly_skill_mould	linha 597
+ 54	deadly_skill_name	linha 598
+ 55	deadly_skill_describe	linha 599
+ 56	exprience	linha 600
+ 57	grade_need_exprience	linha 601
+ 58	train	linha 602
+ 59	train_endtime	linha 603
+ 60	ship_growup_exprience	linha 604
+ 61	equipment_strengthen_level	linha 621
+ 62	treasure_strengthen_level	linha 622
+ 63	ship_breakthrough_level	linha 623
+ 64	relationship_count	linha 704
+ 65	relationship_id	linha 708
+ 66	is_activited	linha 709
+ 67	talent_count	linha 714
+ 68	talent_id	linha 718
+ 69	is_activited	linha 719
+ 70	train_life	linha 727
+ 71	train_life_temp	linha 728
+ 72	train_attack	linha 729
+ 73	train_attack_temp	linha 730
+ 74	train_physical_defence	linha 731
+ 75	train_physical_defence_temp	linha 732
+ 76	train_skill_defence	linha 733
+ 77	train_skill_defence_temp	linha 734
+ 78	skill_level	linha 738
+ 79	skill_value	linha 739
+ 80	<sem-nome>	linha 753
+ 81	awakenstates	linha 754
+ 82	combLockState	linha 755
+ 83	combUpLockState	linha 756
+ 84	speed	linha 761
+ 85	defence	linha 762
+ 86	avd	linha 763
+ 87	authority	linha 764
+ 88	agreementStates	linha 765
+ 89	have_formetion_number	linha 794
+ 90	<sem-nome>	linha 802
+ 91	<sem-nome>	linha 819
+ 92	_zstring	linha 829
+ 93	user_accumulate_buy_god	linha 966
+ 94	user_accumulate_camp_god	linha 967
+ 95	user_sliver	linha 1020
+ 96	ship_id	linha 1025
+ 97	ship_template_id	linha 1026
+ 98	ship_base_template_id	linha 1027
+ 99	ship_place	linha 1028
+100	captain_type	linha 1029
+101	shipSpirit	linha 1030
+102	ship_fighting_spirit	linha 1031
+103	ship_skin_info	linha 1032
+104	ship_type	linha 1033
+105	captain_name	linha 1034
+106	ship_name	linha 1035
+107	ship_grade	linha 1036
+108	ship_health	linha 1037
+109	ship_courage	linha 1038
+110	ship_intellect	linha 1039
+111	ship_quick	linha 1040
+112	<sem-nome>	linha 1041
+113	property_values	linha 1042
+114	ship_picture	linha 1043
+115	hero_fight	linha 1044
+116	ship_leader	linha 1045
+117	ship_force	linha 1046
+118	ship_wisdom	linha 1047
+119	health_growup_type	linha 1048
+120	courage_grade_type	linha 1049
+121	intellect_grade_type	linha 1050
+122	quick_grade_type	linha 1051
+123	skill_mould	linha 1052
+124	skill_name	linha 1053
+125	skill_describe	linha 1054
+126	deadly_skill_mould	linha 1055
+127	deadly_skill_name	linha 1056
+128	deadly_skill_describe	linha 1057
+129	exprience	linha 1058
+130	grade_need_exprience	linha 1059
+131	train	linha 1060
+132	train_endtime	linha 1061
+133	ship_growup_exprience	linha 1062
+134	ship_id	linha 1080
+135	ship_template_id	linha 1081
+136	ship_base_template_id	linha 1082
+137	ship_place	linha 1083
+138	captain_type	linha 1084
+139	ship_type	linha 1085
+140	captain_name	linha 1086
+141	ship_name	linha 1087
+142	ship_grade	linha 1088
+143	ship_health	linha 1089
+144	ship_courage	linha 1090
+145	ship_intellect	linha 1091
+146	ship_quick	linha 1092
+147	ship_picture	linha 1093
+148	hero_fight	linha 1094
+149	ship_leader	linha 1095
+150	ship_force	linha 1096
+151	ship_wisdom	linha 1097
+152	health_growup_type	linha 1098
+153	courage_grade_type	linha 1099
+154	intellect_grade_type	linha 1100
+155	quick_grade_type	linha 1101
+156	skill_mould	linha 1102
+157	skill_name	linha 1103
+158	skill_describe	linha 1104
+159	deadly_skill_mould	linha 1105
+160	deadly_skill_name	linha 1106
+161	deadly_skill_describe	linha 1107
+162	exprience	linha 1108
+163	grade_need_exprience	linha 1109
+164	train	linha 1110
+165	train_endtime	linha 1111
+166	ship_growup_exprience	linha 1112
+167	battery_id	linha 1129
+168	user_equiment_template	linha 1134
+169	user_equiment_name	linha 1135
+170	sell_price	linha 1136
+171	user_equiment_influence_type	linha 1137
+172	equipment_type	linha 1138
+173	user_equiment_ability	linha 1139
+174	user_equiment_grade	linha 1140
+175	user_equiment_growup_grade	linha 1141
+176	growup_value	linha 1142
+177	adorn_need_ship	linha 1143
+178	equiment_picture	linha 1144
+179	equiment_track_remark	linha 1145
+180	equiment_track_scene	linha 1146
+181	equiment_track_npc	linha 1147
+182	equiment_track_npc_index	linha 1148
+183	relationship_count	linha 1162
+184	relationship_id	linha 1166
+185	is_activited	linha 1167
+186	talent_count	linha 1172
+187	talent_id	linha 1176
+188	is_activited	linha 1177
+189	cart_describe	linha 1182
+190	train_life	linha 1185
+191	train_life_temp	linha 1186
+192	train_attack	linha 1187
+193	train_attack_temp	linha 1188
+194	train_physical_defence	linha 1189
+195	train_physical_defence_temp	linha 1190
+196	train_skill_defence	linha 1191
+197	train_skill_defence_temp	linha 1192
+198	skill_level	linha 1196
+199	skill_value	linha 1197
