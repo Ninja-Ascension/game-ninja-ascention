@@ -1,0 +1,9 @@
+{
+  "manifest_files": 51080,
+  "database_integrity": "ok",
+  "database_tables": 45,
+  "executable_sha256": "30a6e32f739e65613f697b55d15495de816ea49ce0c478e1382cd9caf5bbbb36",
+  "portable_root": "E:\\[code]\\nk\\VPS_WINDOWS_20261026_230416\\jogo",
+  "initial_boot": "passed",
+  "limits": "Smoke test only; does not validate all gameplay or a clean Windows VPS environment."
+}

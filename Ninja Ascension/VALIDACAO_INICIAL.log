@@ -1,0 +1,255 @@
+
+{
+	supports_ASTC: false
+	glsl: OpenGL ES GLSL ES 3.00 (ANGLE 2.1.21145 git hash: dfa3a3070f78)
+	max_samples_allowed: 0
+	axmol.build_type: DEBUG
+	supports_OES_depth24: true
+	axmol.version: axmol-2.11.5-6c0dce6
+	supports_ETC2: true
+	max_texture_size: 16384
+	vendor: Google Inc. (AMD)
+	supports_BGRA8888: false
+	supports_ETC1: false
+	max_vertex_attributes: 16
+	supports_NPOT: true
+	supports_vertex_array_object: false
+	supports_ATITC: false
+	supports_PVRTC: false
+	axmol.compiled_with_gl_state_cache: true
+	max_texture_units: 32
+	supports_discard_framebuffer: true
+	supports_S3TC: false
+	axmol.simd: SSE41
+	version: OpenGL ES 3.0.0 (ANGLE 2.1.21145 git hash: dfa3a3070f78)
+	supports_OES_map_buffer: true
+	supports_OES_packed_depth_stencil: true
+	renderer: ANGLE (AMD, AMD Radeon RX 5500 XT Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.21045.16010)
+	axmol.compiled_with_profiler: false
+}
+
+
+fullPathForFilename: No file found at __missing_probe_file__. Possible missing file.
+[LUA-print] LUA_CONTRACT_PASSED	LuaJIT 2.1.1765228720	1188
+Loading shader: 3 positionUColor_vs, positionColor_fs ...
+Loading shader: 5 positionTextureColor_vs, positionTextureColor_fs ...
+Loading shader: 7 positionTextureColor_vs, label_normal_fs ...
+fullPathForFilename: No file found at Default/DemoPlayer.ExportJson. Possible missing file.
+fullPathForFilename: No file found at images/ui/login/button_gongguang.png. Possible missing file.
+fullPathForFilename: No file found at images/ui/login/button_gongguang.png. Possible missing file.
+fullPathForFilename: No file found at images/ui/login/button_gongguang.png. Possible missing file.
+fullPathForFilename: No file found at images/ui/login/fangchenmi.png. Possible missing file.
+fullPathForFilename: No file found at images/ui/login/fangchenmi.png. Possible missing file.
+fullPathForFilename: No file found at images/ui/login/fangchenmi.png. Possible missing file.
+Loading shader: 14083428975563509810 custom/imgui_sprite_vs, positionTextureColor_fs ...
+[LUA-print] BOOT_MAP_BEGIN	Lua 5.1	LuaJIT 2.1.1765228720	.\?.lua;E:\[code]\nk\VPS_WINDOWS_20261026_230416\jogo\build\windows-probe-native\bin\NinjaResourceProbe\Debug\lua\?.lua;
+[LUA-print] BOOT_MAP_INFO	root=E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo	platform=1 PLATFORM_OS_WINDOWS=nil
+[LUA-print] BOOT_MAP_STEP	0.arch	OK	
+[LUA-print] BOOT_MAP_STEP	0b.searcher_installed	OK	absolute-root searcher at loaders[2]
+[LUA-print] BOOT_MAP_STEP	0b.require_after_searcher	OK	true
+[LUA-print] HOST_NATIVE_SPINE adapter installed; invisible fallback disabled
+[LUA-print] BOOT_MAP_SHIM_USED ccui.Helper.seekWidgetByName alias Button_gonggao->Button_gonggao_pr1, Panel_5322->Panel_5322_pr2
+[LUA-print] BOOT_MAP_STEP	0c.engine_gap_shims	OK	Director.getOpenGLView->getRenderView; Image.setPVRImagesHavePremultipliedAlpha->no-op; Director.setDisplayStats->no-op; socketevent stubbed (inert offline, unknown API fails loudly); cc.GLProgramCache inert (getGLProgram returns nil); ccexp.AudioEngine inert (AudioUtil window sound no-op); cc.SimpleAudioEngine inert (AudioUtil.playBgm crash); sp.SkeletonRenderer.clear inert (FightLoading black screen); sp.SkeletonAnimation native Spine 2.1 renderer; seekWidgetByName alias Button_gonggao->_pr1, Panel_5322->Panel_5322_pr2
+[LUA-print] BOOT_MAP_STEP	0c.engine_gap_shims	OK	
+[LUA-print] BOOT_MAP_STEP	1.cocos_init	OK	true
+[LUA-print] BOOT_MAP_STEP	1.cocos_init_detail	OK	framework requires inside cocos/init.lua succeeded
+[LUA-print] BOOT_MAP_STEP	2.app_lua	OK	table: 0x01e3df8e1c90
+[LUA-print] BOOT_MAP_SHIM_USED Image.setPVRImagesHavePremultipliedAlpha (no-op)
+[LUA-print] BOOT_MAP_SHIM_USED Director.setDisplayStats (no-op)
+fullPathForFilename: No file found at .\socket/core.lua. Possible missing file.
+can not get file data of E:\[code]\nk\VPS_WINDOWS_20261026_230416\jogo\build\windows-probe-native\bin\NinjaResourceProbe\Debug\lua\socket/core\init.lua
+fullPathForFilename: No file found at .\socket/core.lua. Possible missing file.
+can not get file data of E:\[code]\nk\VPS_WINDOWS_20261026_230416\jogo\build\windows-probe-native\bin\NinjaResourceProbe\Debug\lua\socket/core\init.lua
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/login/jinruyouxi.png" rc=2 id=0x1e3d4429de0 146 x 42 @ 32 bpp => 23 KB
+"/white-texture" rc=16 id=0x1e3d442adb0 2 x 2 @ 32 bpp => 0 KB
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/bg/gamesatart_bg.png" rc=2 id=0x1e3d4428730 1624 x 640 @ 32 bpp => 4060 KB
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/bar/bar_levelup.png" rc=2 id=0x1e3d4429230 372 x 60 @ 32 bpp => 87 KB
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/sprite/spirte_102101.png" rc=2 id=0x1e3d4a9c960 1024 x 1024 @ 32 bpp => 4096 KB
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/login/btn-middle-red.png" rc=4 id=0x1e3d4428470 276 x 80 @ 32 bpp => 86 KB
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/button/btn.png" rc=3 id=0x1e3d442a6d0 131 x 51 @ 32 bpp => 26 KB
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/fonts/arena_fighting_0.png" rc=2 id=0x1e3d4a9d0f0 256 x 64 @ 32 bpp => 64 KB
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/login/dljm_16.png" rc=2 id=0x1e3d4429ff0 496 x 58 @ 32 bpp => 112 KB
+"E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/Default/ImageFile.png" rc=2 id=0x1e3d4a9c750 46 x 46 @ 32 bpp => 8 KB
+TextureCache dumpDebugInfo: 10 textures, for 8564 KB (8.36 MB)
+
+
+[LUA-print] BOOT_MAP_STEP	3.app_create	OK	
+[LUA-print] launch game, show game logo.
+fullPathForFilename: No file found at data/mould/sound_effect_param.txt. Possible missing file.
+[LUA-print] BOOT_MAP_STEP	4.client_launch	FAIL	compatibility.lua:10: dms_load file missing: data/mould/sound_effect_param.txt
+stack traceback:
+	[C]: in function 'assert'
+	compatibility.lua:10: in function 'dms_load'
+	...apk/assets/src/frameworks/external/utils/local_datas.lua:39: in function 'load'
+	...16/jogo/01_conteudo_apk/assets/src/client/login/logo.lua:12: in function 'ctor'
+	...jogo/01_conteudo_apk/assets/src/cocos/cocos2d/extern.lua:68: in function <...jogo/01_conteudo_apk/assets/src/cocos/cocos2d/extern.lua:61>
+	[C]: in function 'require'
+	...30416/jogo/01_conteudo_apk/assets/src/frameworks/app.lua:459: in function 'load'
+	...230416/jogo/01_conteudo_apk/assets/src/client/launch.lua:8: in function 'excute'
+	...230416/jogo/01_conteudo_apk/assets/src/client/launch.lua:16: in main chunk
+	[C]: in function 'require'
+	...30416/jogo/01_conteudo_apk/assets/src/frameworks/app.lua:459: in function 'load'
+	boot_map.lua:556: in function <boot_map.lua:556>
+	[C]: in function 'xpcall'
+	boot_map.lua:24: in function 'tryload'
+	boot_map.lua:556: in main chunk
+[LUA-print] BOOT_MAP_STEP	3b.offline_send_fence	OK	failed sends reach the pump's ERROR path (dialog->drop)
+[LUA-print] BOOT_MAP_STEP	3b.offline_send_fence	OK	
+[LUA-print] BOOT_MAP_STEP	3b2.url_redirect	OK	url http://104.251.218.95:18080/iniServer -> http://127.0.0.1:18080/iniServer
+[LUA-print] BOOT_MAP_STEP	3b2.url_redirect	OK	urlForAnnounce http://104.251.218.95:18080/iniServer -> http://127.0.0.1:18080/iniServer
+[LUA-print] BOOT_MAP_STEP	3b2.url_redirect	OK	
+[LUA-print] BOOT_MAP_STEP	3b2b.reassert_local_urls	OK	pronto
+[LUA-print] BOOT_MAP_STEP	3b2b.reassert_local_urls	OK	
+[LUA-print] HOST_START_TRACE terminais registrados (7): launch_logo,notification_center_register,notification_center_remove,notification_center_remove_widget,notification_center_update,open_exit_game_view,platform_handle_platform_request
+[LUA-print] HOST_START_TRACE terminal login_vali_register ainda nao existe
+[LUA] ADD script schedule: 3, entryID: 1
+[LUA-print] HOST_LOCAL_SDK Mission.lua carregado (executeMissionExt pronta)
+[LUA-print] HOST_RECONNECT guarda instalada
+fullPathForFilename: No file found at data/npc.txt. Possible missing file.
+[LUA-print] HOST_TABELAS pendente: data/npc.txt (compatibility.lua:10: dms_load file missing: data/npc.txt)
+fullPathForFilename: No file found at data/word_mould.txt. Possible missing file.
+[LUA-print] HOST_TABELAS pendente: data/word_mould.txt (compatibility.lua:10: dms_load file missing: data/word_mould.txt)
+fullPathForFilename: No file found at effect/duration.txt. Possible missing file.
+[LUA-print] HOST_TABELAS_BATALHA pendente: effect/duration.txt (compatibility.lua:10: dms_load file missing: effect/duration.txt)
+fullPathForFilename: No file found at effect/durationmt.txt. Possible missing file.
+[LUA-print] HOST_TABELAS_BATALHA pendente: effect/durationmt.txt (compatibility.lua:10: dms_load file missing: effect/durationmt.txt)
+[LUA] ADD script schedule: 4, entryID: 2
+[LUA-print] HOST_JANELA sonda instalada
+[LUA] ADD script schedule: 5, entryID: 3
+[LUA-print] HOST_LOCAL_SDK instalado (síntese 130/11 sem convidado + traçado)
+[LUA-print] BOOT_MAP_STEP	3b3.local_sdk_guest	OK	adapter armed (flag local_sdk_adapter gates it)
+[LUA-print] BOOT_MAP_STEP	3b3.local_sdk_guest	OK	
+[LUA] ADD script schedule: 6, entryID: 4
+[LUA-print] BOOT_MAP_STEP	3b4.account_ui	OK	adapter armed (opens the original account window)
+[LUA-print] BOOT_MAP_STEP	3b4.account_ui	OK	
+fullPathForFilename: No file found at cocostudio/utils/time_ing.csb. Possible missing file.
+[LUA-print] HOST_CSB createNode utils/time_ing.csb existe=false
+fullPathForFilename: No file found at cocostudio/utils/time_ing.csb. Possible missing file.
+[LUA-print] [csb] FALTA EL FICHERO: cocostudio/utils/time_ing.csb
+[LUA-print] HOST_CSB createNode OK utils/time_ing.csb -> node
+[LUA-print] BOOT_MAP_STEP	3c.network_views	OK	
+[LUA-print] BOOT_MAP_STEP	3d.network_view_trace	OK	
+[LUA-print] BOOT_MAP_STEP	5.logo_load_only	FAIL	...30416/jogo/01_conteudo_apk/assets/src/frameworks/app.lua:459: loop or previous error loading module 'client.login.logo'
+stack traceback:
+	[C]: in function 'require'
+	...30416/jogo/01_conteudo_apk/assets/src/frameworks/app.lua:459: in function 'load'
+	boot_map.lua:755: in function <boot_map.lua:754>
+	[C]: in function 'xpcall'
+	boot_map.lua:24: in function 'tryload'
+	boot_map.lua:754: in main chunk
+[LUA-print] HOST_DATA_PATHS ativo (data/*.txt -> data/mould/*.txt quando o arquivo existe lá)
+[LUA-print] BOOT_MAP_STEP	5b.loader_globals	OK	
+[LUA-print] HOST_ENGINE_SHADER_PATH protected E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/build/windows-probe-native/runtime/axslc
+[LUA-print] INSTALAR texture_async_compat instalado
+[LUA-print] INSTALAR window_update_lifetime instalado
+[LUA-print] INSTALAR aplicadas agora: 2 de 5 (as demais esperam a classe carregar)
+[LUA-print] HOST_PVE_READY aliases/execute armed; waiting for LDuplicateWindow
+[LUA] ADD script schedule: 7, entryID: 5
+[LUA-print] BOOT_MAP_STEP	6.restore_probe_paths	FAIL	...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'pairs'
+	...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: in function 'find_parser'
+	...PS_WINDOWS_20261026_230416/jogo/port/lua/quest_local.lua:3: in function 'install'
+	...NDOWS_20261026_230416/jogo/port/lua/battle_lifecycle.lua:211: in function 'install'
+	...NDOWS_20261026_230416/jogo/port/lua/battle_lifecycle.lua:232: in function 'armar'
+	boot_map.lua:788: in function <boot_map.lua:775>
+	[C]: in function 'xpcall'
+	boot_map.lua:24: in function 'tryload'
+	boot_map.lua:775: in main chunk
+[LUA-print] BOOT_MAP_END
+[LUA-print] HOST_LOGO_BEFORE	false
+[LUA-print] HOST_LOGO_SCENE_IS_FWIN	false
+[LUA-print] HOST_LOGO_CTOR_FAILED ...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'pairs'
+	...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: in function 'find_parser'
+	...PS_WINDOWS_20261026_230416/jogo/port/lua/quest_local.lua:3: in function 'install'
+	...NDOWS_20261026_230416/jogo/port/lua/battle_lifecycle.lua:211: in function 'install'
+	...NDOWS_20261026_230416/jogo/port/lua/battle_lifecycle.lua:230: in function 'load'
+	...16/jogo/01_conteudo_apk/assets/src/client/login/logo.lua:10: in function 'ctor'
+	...jogo/01_conteudo_apk/assets/src/cocos/cocos2d/extern.lua:68: in function 'new'
+	host_logo.lua:39: in function <host_logo.lua:38>
+	[C]: in function 'xpcall'
+	host_logo.lua:38: in function <host_logo.lua:8>
+	[C]: in function 'xpcall'
+	host_logo.lua:8: in main chunk
+[LUA-print] HOST_LOGO_RESULT	false	host_logo.lua:43: Logo ctor failed: ...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'pairs'
+	...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: in function 'find_parser'
+	...PS_WINDOWS_20261026_230416/jogo/port/lua/quest_local.lua:3: in function 'install'
+	...NDOWS_20261026_230416/jogo/port/lua/battle_lifecycle.lua:211: in function 'install'
+	...NDOWS_20261026_230416/jogo/port/lua/battle_lifecycle.lua:230: in function 'load'
+	...16/jogo/01_conteudo_apk/assets/src/client/login/logo.lua:10: in function 'ctor'
+	...jogo/01_conteudo_apk/assets/src/cocos/cocos2d/extern.lua:68: in function 'new'
+	host_logo.lua:39: in function <host_logo.lua:38>
+	[C]: in function 'xpcall'
+	host_logo.lua:38: in function <host_logo.lua:8>
+	[C]: in function 'xpcall'
+	host_logo.lua:8: in main chunk
+stack traceback:
+	[C]: in function 'error'
+	host_logo.lua:43: in function <host_logo.lua:8>
+	[C]: in function 'xpcall'
+	host_logo.lua:8: in main chunk
+[LUA-print] HOST_LOGO_RECHECK logo=self-exited
+[LUA] ADD script schedule: 10, entryID: 6
+[LUA-print] HOST_LOGIN_SCHEDULED delay=4.0 (logo waitTime=3) retry=once-per-fail-then-stop
+[LUA] ADD script schedule: 11, entryID: 7
+In the constructor of HttpClient!
+[LUA-print] HOST_WINDOW_CENSUS swapped 
+[LUA-print] HOST_SONDA_ESTADO t=1 MissionClass=table FightModule=nil FightLoadingCell=nil eventos=nil fight=nil loading=nil
+fullPathForFilename: No file found at data/npc.txt. Possible missing file.
+[LUA-print] HOST_TABELAS data/npc.txt carregado (3000 linhas)
+fullPathForFilename: No file found at data/word_mould.txt. Possible missing file.
+[LUA-print] HOST_TABELAS data/word_mould.txt carregado (16807 linhas)
+[LUA-print] HOST_TABELAS word_mould formatado por coluna 2
+[LUA-print] HOST_MODULOS pendente: client.mission.tuition.TuitionController (...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: bad argument #1 to 'pairs' (table expected, got nil))
+[LUA-print] HOST_MODULOS pendente: client.battle.BattleScene (...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: bad argument #1 to 'pairs' (table expected, got nil))
+[LUA-print] HOST_MODULOS pendente: client.battle.logics.attack_logic (...udo_apk/assets/src/client/battle/logics/attack_logic.lua:98: attempt to call global 'CC_CONTENT_SCALE_FACTOR' (a nil value))
+[LUA-print] HOST_SONDA_NPC dms['npc'] ok linhas=3000 || dms.string(npc,1196,2) -> string=1 || zstring.split -> table=table: 0x01e3e0434390 ||   parte[1]=string=1 num=number=1 ||     dms.element(word_mould,1) -> table=table: 0x01e3dfe551a0 ||     word_info[3] -> string=Tsunade 
+[LUA] DEL script schedule 4, entryID: 2
+[LUA] Remove event handler: 4
+[LUA-print] HOST_ACCOUNT_UI login automatico desativado: o jogo comeca na tela de conta
+[LUA-print] HOST_ACCOUNT_UI trava de envios duplicados ativa (9001/9002)
+[LUA-print] HOST_XHR_PROTOCOL_TEST status=0 (server local nao esta ligado)
+[LUA-print] HOST_LOGIN_OPEN_BEGIN
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/login/jinruyouxi.png
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/bg/gamesatart_bg.png
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/bar/bar_levelup.png
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/sprite/spirte_102101.png
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/login/btn-middle-red.png
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/button/btn.png
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/fonts/arena_fighting_0.png
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/images/ui/login/dljm_16.png
+TextureCache: removing unused texture: E:/[code]/nk/VPS_WINDOWS_20261026_230416/jogo/01_conteudo_apk/assets/res/Default/ImageFile.png
+"/white-texture" rc=5 id=0x1e3d442adb0 2 x 2 @ 32 bpp => 0 KB
+TextureCache dumpDebugInfo: 1 textures, for 0 KB (0.00 MB)
+
+
+[LUA-print] HOST_LOGIN_OPEN_FAILED ...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: bad argument #1 to 'pairs' (table expected, got nil)
+stack traceback:
+	[C]: in function 'pairs'
+	...do_apk/assets/src/frameworks/network/NetworkProtocol.lua:29: in function 'find_parser'
+	...PS_WINDOWS_20261026_230416/jogo/port/lua/quest_local.lua:3: in function 'install'
+	...NDOWS_20261026_230416/jogo/port/lua/battle_lifecycle.lua:211: in function 'install'
+	...NDOWS_20261026_230416/jogo/port/lua/battle_lifecycle.lua:230: in function 'load'
+	[string "..."]:71: in function <[string "..."]:63>
+	[C]: in function 'xpcall'
+	[string "..."]:63: in function <[string "..."]:60>
+[LUA] DEL script schedule 10, entryID: 6
+[LUA] Remove event handler: 10
+[LUA-print] HOST_SONDA_ESTADO t=51 MissionClass=table FightModule=nil FightLoadingCell=nil eventos=nil fight=nil loading=nil
+[LUA-print] HOST_WINDOW_CENSUS live 
+[LUA-print] HOST_SONDA_ESTADO t=101 MissionClass=table FightModule=nil FightLoadingCell=nil eventos=nil fight=nil loading=nil
+
+HOST_PROTO_NATIVES registered; mode0 OK
+HOST_PROTO_DEFLATE c=24 roundtrip OK
+HOST_PROTO_EXPANSION_PASSED: 128KiB repeated response, padding and truncation
+REAL_CHAIN_AUTO_ARMED mode=pure-game boot@tick1 logo@tick3 check@tick4
+RESOURCE_PROBE_STARTED; pure game mode (probe shell behind NR_PROBE_PROBE_UI/NR_PROBE_TEST_MODE)
+REAL_CHAIN_BOOT_OK
+HOST_LOGO_SCRIPT_FAILED ret=0
+HOST_XHR_ATTEMPT url=http://127.0.0.1:18080/iniServer bytes=72 timeout=30.0
+REAL_CHAIN_CHECK ret=0
+HOST_XHR_DONE status=0 bytes=0
