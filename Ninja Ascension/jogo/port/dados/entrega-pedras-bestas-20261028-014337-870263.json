@@ -1,0 +1,33 @@
+{
+  "account": "RenegadoBR",
+  "backup": "jogo\\port\\dados\\contas-backup-antes-pedras-bestas-20261028-014337-870263.sqlite3",
+  "beasts": [
+    {
+      "beast": 3,
+      "stage": 0,
+      "maximum": 5
+    },
+    {
+      "beast": 4,
+      "stage": 0,
+      "maximum": 5
+    }
+  ],
+  "stones": {
+    "2325": {
+      "needed": 50101,
+      "existing": 0,
+      "added": 50101
+    },
+    "2326": {
+      "needed": 4863,
+      "existing": 0,
+      "added": 4863
+    },
+    "2327": {
+      "needed": 2585,
+      "existing": 0,
+      "added": 2585
+    }
+  }
+}

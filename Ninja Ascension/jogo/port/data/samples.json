@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "purpose": "M1 isolated resource probe, not recovered offline gameplay",
+  "csb": "cocostudio/login/login.csb",
+  "character": "sprite/spirte_102101.json",
+  "atlas": "sprite/spirte_102101.atlas",
+  "animation": "00_daiji",
+  "animations": [
+    "00_daiji",
+    "01_qianchong",
+    "02_huichong",
+    "03_beiji",
+    "04_kbeiji",
+    "05_xuanyun",
+    "06_siwang",
+    "07_pugong",
+    "08_jineng",
+    "11_xialuo",
+    "13_jueji",
+    "28_ddsiwang",
+    "29_daodi",
+    "30_dingdian",
+    "31_xia"
+  ],
+  "audio": "music/background/background_1.mp3",
+  "font": "fonts/arena_fighting.fnt",
+  "timeline": "cocostudio/login/logo.csb",
+  "files": [
+    {
+      "path": "cocostudio/login/login.csb",
+      "sha256": "514d43c98b68b3acf41175bfd113218fe047446e0a85f7a76d549a45c5e3066d",
+      "bytes": 10140
+    },
+    {
+      "path": "cocostudio/login/logo.csb",
+      "sha256": "3fa916c21380006759a2e7da0c17b40195fc5090518f0bab2802722e05918b9b",
+      "bytes": 3660
+    },
+    {
+      "path": "fonts/arena_fighting.fnt",
+      "sha256": "cae9fc31cd6c589949d59a5746b7ddde0d3f702af7b561afd9be1708de79dfd5",
+      "bytes": 1563
+    },
+    {
+      "path": "fonts/arena_fighting_0.png",
+      "sha256": "8f57a60621d9b2294aae0c173d4a79dc18d7a29aea971d579485dc9ed2f6c1bc",
+      "bytes": 1559
+    },
+    {
+      "path": "music/background/background_1.mp3",
+      "sha256": "eb7936781ca72920fe1ebe97ab74820bf9f27a9ed1422f6ad2cc1e515749620c",
+      "bytes": 499256
+    },
+    {
+      "path": "sprite/spirte_102101.atlas",
+      "sha256": "aa74d4892b101ba98a1c5faece0ccc50e29663fe023cd5a696161d96092a95e9",
+      "bytes": 11772
+    },
+    {
+      "path": "sprite/spirte_102101.json",
+      "sha256": "9d52f2e19db1182de9ad306d5cc4ea9af9a336cb1c403fc9817761ca44de43f6",
+      "bytes": 246791
+    },
+    {
+      "path": "sprite/spirte_102101.png",
+      "sha256": "4d24ab1920f77023d6eaa11355a0965b297bb1a330b0392a6c704d3c7f060958",
+      "bytes": 760673
+    },
+    {
+      "path": "sprite/spirte_1021012.png",
+      "sha256": "7844ca070309580527d1662c471876231bc975be852c0a56d380baf3a73a9a07",
+      "bytes": 936507
+    },
+    {
+      "path": "sprite/spirte_1021013.png",
+      "sha256": "d4f563455a219ebaa5a80a36703b551c22561ab5ce859c838a44f3e94470cf5c",
+      "bytes": 324608
+    }
+  ]
+}

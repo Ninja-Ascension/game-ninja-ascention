@@ -1,0 +1,169 @@
+# DADOS MÍNIMOS ROTULADOS — Fase 2 (permissão única do usuário: "Aprovado — tudo")
+# Regra: TODO valor inventado fica listado aqui, um por linha, com a justificativa.
+# Fontes preferidas de respostas = arquivos originais do acervo; só o que o acervo
+# não traz vira entrada neste arquivo.
+
+1 servidor: nome "Local" | link 127.0.0.1:18080 | server_type 1 | update_state 0
+  (parser 58 / ProtocolParserCopy.lua:3468; server_code e server_flag ficam nil
+   de propósito — o nome não usa o formato nome|code|flag)
+
+2) ACK NEUTRO — SOMENTE para a lista explícita SEM_OPERACAO
+   (port/server/local_server.py): record_crash, keep_alive, email_init,
+   union_init. Justificativa medida de cada um:
+   - record_crash (89): reporta o crash anterior; não há coletor local.
+   - keep_alive (68): o cliente só conta a batida.
+   - email_init (49): o callback do acervo é VAZIO
+     (LoginLoading.lua:650-653, responseInitCallback) e não existe parser
+     S2C 49 em ProtocolParser.lua.
+   - union_init (127): idem, callback só age sobre dados que o servidor
+     local não tem (LoginLoading.lua:654-666); sem parser S2C 127.
+   ACK neutro = "seq cmd 0" (status 0 SEM código de parser): a bomba sai no
+   break de NetworkProtocol.lua:145-148 e o callback dispara
+   RESPONSE_SUCCESS, sem diálogo de rede.
+   QUALQUER OUTRO comando não implementado responde status -3
+   "nao_implementado" e é registrado como [PENDENTE] no server.log — não se
+   esconde buraco com sucesso genérico (prioridade 4).
+
+3) login_init (parser 3, ProtocolParserCopy.lua:72-1014, projeto 27/l_naruto):
+   - user_id  = PERFIL DA CONTA da sessão que fez o pedido (token 16).
+     Não é mais o valor fixo "1".
+   - user_name = PERFIL DA CONTA autenticada (token 18). O rótulo
+     "Convidado" foi REMOVIDO: sem sessão válida o comando é recusado
+     (status -1 "sem_sessao_valida"), nunca servido com perfil de ninguém.
+   - system_notice = "-" (placeholder de texto puro; sem anunciante)
+   - user_grade = 1, todo o resto de recursos/moedas/bolsas/contadores = 0
+     (perfil zerado; bolsas e listas de amigos/props/equips/navios/
+     formações com contador 0 = estados vazios REAIS, não dados fakeados)
+   - npc_state/attack/buy = listas de zeros com o formato literal que o
+     próprio comentário do código pede
+   - system_time/created_time: relógio local (factual, não inventado)
+
+04) user_create_time: instante presente (ms) — conta criada agora.
+
+05) vali_register (parser 57, register_type 2): NÃO cria sessão convidada.
+    platform_account vem do pedido (login.lua:706/708/745: conta, número do
+    servidor, plataforma, tipo), e o servidor passa a exigir uma SESSÃO
+    VÁLIDA DA MESMA CONTA (item 09). Conta que só existe no banco, sem
+    sessão, é RECUSADA: existir não comprova autenticação. Recusa = status
+    -1 "conta_nao_autenticada". platform_id da resposta leva o id real da
+    conta (antes ia "1" fixo). Os campos de nick/senha do parser 57
+    continuam sendo os padrões literais do acervo (o perfil real chega no
+    login_init).
+
+06) new_get_server_list (parser 58): ordem dos campos cravada em
+    ProtocolParserCopy.lua:3469-3513 — serverCount; por servidor:
+    number, name, link, type, update_state (+1 token "server_update"
+    SOMENTE se update_state==1; enviamos 0). name sem "|" => code/flag
+    nil (parse tolera); "Local" não é só dígitos => nome intacto.
+    server_link=URL completo porque no Windows o NetworkManager não
+    prefixa http:// (NetworkManager.lua:165-181).
+
+07) Sistema de conta próprio (config_operation.AccountManager = true):
+    - search_user_platform (C2S 3, login.lua:1754, na carga da janela de
+      login) -> parser 327 (m_sUin, token, pkg, create_time); a resposta
+      faz o parser excutar login_get_server_list e abrir AccountSysManager
+      quando "platform_account_Automatic_login" está vazio (janela de
+      conta original do jogo).
+    - platform_user_login (C2S 9002, AccountSysManager:161) -> parser 327
+      com a conta autenticada e uma SESSÃO INDIVIDUAL (ver item 09).
+    - platform_user_register (C2S 9001, AccountSysRegister:104) -> parser
+      326 (m_sUin; registra user_platform).
+    Com m_sUin preenchido, fury_sdk_local_listo (login.lua:16) marca o SDK
+    t4-quick como pronto e o START segue: vali_register -> login_init.
+
+08) Síntese dos callbacks do SDK no desktop (port/lua/local_sdk_guest.lua):
+    no Windows o handlePlatformRequest do acervo TERMINA CEDO
+    (ThirdpartySupporter.lua:2183-2187 -> return), então o adaptador t4
+    local (2195-2207) é código morto e os flags m_sdk_init_success /
+    m_sdk_login_success não viram true: o GAME START morre silencioso em
+    login.lua:433-439. handlePlatformResponse é um LOCAL do chunk
+    (ThirdpartySupporter.lua:346-348), inacessível de fora; por isso o
+    adaptador replica o EFEITO dos dois branches:
+    - ENTERED_THE_GAME(130): m_sdk_init_success = true +
+      excute("platform_manager_sdk_init_success")     (502-509)
+    - LOGIN(10): m_loading_start, m_sdk_login_success = true +
+      excute("platform_manager_login_success") + excute("login_get_server_list")
+      (513-525; os fwin:close de ConnectingView/... ficam de fora porque
+      não existem na pré-conexão desktop)
+    NÃO há conta de convidado automática: sem conta autenticada o LOGIN do
+    SDK é ADIADO (sintetizarLoginSucesso devolve false e imprime
+    "login adiado"), então o jogo não entra com m_sUin inventado.
+
+09) Contas reais (port/server/contas.py) — ADAPTAÇÃO DOCUMENTADA:
+    O acervo espera do servidor apenas os parsers 326/327; o que está por
+    trás deles é nosso. Contrato mantido:
+    - pedido 9001: usuario \r\n senha \r\n confirmacao \r\n <PackageName>
+      (AccountSysRegister.lua:64-74) -> 326 com o nome da conta.
+    - pedido 9002: usuario \r\n segredo \r\n <PackageName>
+      (AccountSysManager.lua:150-161); segredo = senha em texto OU
+      "@tk1:<token>" quando o cliente reusa a sessão lembrada
+      (account_sys_login_secret, AccountSysManager.lua:60-70) -> 327.
+    - 327 devolve: m_sUin, userLoginToken, userLoginPackageName,
+      userAccountCreateTime (ProtocolParser.lua:1193-1208).
+    Regras de armazenamento (nossas, não inventadas no protocolo):
+    - SQLite em port/dados/contas.sqlite3 (fora dos recursos originais).
+    - senha: PBKDF2-HMAC-SHA256, salt de 16 bytes por conta, 200000
+      iterações, formato "pbkdf2_sha256$iter$salt_b64$hash_b64".
+      Nunca texto puro, nunca reversível.
+    - token de sessão: 32 bytes de os.urandom em base64url = 43 chars, que
+      é exatamente o formato exigido por account_sys_valid_token
+      (AccountSysManager.lua:38-41). Sessões ficam na tabela sessoes e são
+      revogadas no logout.
+    - unicidade do nome: normalizado para minúsculas e sem espaços nas
+      pontas (a coluna `nome` é UNIQUE); o nome exibido é o digitado.
+    - validação: nome 3..20 [A-Za-z0-9_.-]; senha 6..32 sem espaço/|/CR/LF
+      (quebram o protocolo, que separa campos por CRLF).
+    - recusa de conta: status -1 + mensagem (NetworkProtocol.lua:184 abre a
+      caixa de erro do cliente). Comandos fora da lista SEM_OPERACAO (item 2)
+      respondem status -3 "nao_implementado", nunca sucesso genérico.
+    - vali_register e login_init exigem SESSÃO da própria conta (item 09).
+      Conta desconhecida, sessão ausente, inválida, expirada ou revogada ->
+      status -1. Existir no banco não basta.
+    - perfil: tabela perfis (conta_id -> user_id, user_name), criado na
+      primeira entrada; user_id/user_name do login_init vêm dele, então
+      contas diferentes ficam isoladas.
+
+10) VÍNCULO SESSÃO / CONTA / PERFIL (prioridade 2) — ADAPTAÇÃO DOCUMENTADA:
+    A identidade de CADA pedido vem do próprio pedido, aproveitando campos
+    que o acervo JÁ envia (nenhum campo novo inventado no protocolo):
+    - command_login_init (ProtocolCommanderCopy.lua:100-129) manda, nesta
+      ordem, no corpo: versão, idioma, param_list, userLoginPackageName,
+      userLoginToken, getPlatformParam(), m_sUin, m_sSessionId.
+      userLoginToken é global preenchida pelo parser 327
+      (ProtocolParser.lua:1197), então o token da sessão viaja em todo
+      login_init seguinte.
+    - vali_register manda platform_account no corpo (login.lua:706/708/745).
+    O servidor procura a conta e o token nesses campos
+    (_identidade_do_pedido) e valida com Banco.sessao_de(token, conta):
+      * token inválido/desconhecido/sintaticamente errado -> sessao_invalida
+      * token vencido -> sessao_expirada (a linha é apagada)
+      * token de OUTRA conta -> sessao_de_outra_conta
+    Regra de ouro: uma conta NUNCA recebe o perfil de outra.
+    Fallback de conexão (_sessao_da_conexao): só quando o pedido não traz
+    token — o C2S 3 (search_user_platform) não leva credencial nenhuma. É a
+    última 327 emitida por esta instância local e é SEMPRE revalidada no
+    banco (token revogado/expirado deixa de valer). O antigo
+    _token_lembrado global, que atravessava contas, foi removido.
+    - Rotação: login com "@tk1:<token>" revoga a sessão antiga e emite uma
+      nova, então um token vazado não vale para sempre.
+    - Logout: o acervo não tem comando HTTP de logout (LOGOUT é mensagem de
+      SDK, ThirdpartySupporter.lua:23). O adaptador cliente manda
+      local_logout (C2S 990001, extensão declarada aqui), que revoga a
+      sessão e limpa m_sUin/userLoginToken/_ED.user_platform no cliente.
+    - Log: nunca imprime senha nem token completo (só 3 chars + tamanho).
+    - Banco existente é preservado: nenhuma migração destrutiva; as tabelas
+      são criadas com IF NOT EXISTS e contas/perfis já gravados ficam como
+      estão.
+
+11) get_system_notice (C2S 66 -> parser 999, ProtocolParserCopyEx.lua:4-7):
+    O parser lê UM campo, a string do anúncio (_ED.system_notice_ex). O
+    formato de item do acervo está em AnnouncePage.lua:166. Limite medido:
+    o cliente abre a AnnouncePage por a resposta ter voltado
+    (RESPONSE_SUCCESS = HTTP 200, NetworkAdaptor.lua:596), NÃO pelo status
+    nem pelo conteúdo — qualquer resposta abre a janela; vazio abriria uma
+    janela VAZIA sobre o login. Por isso o servidor devolve um anúncio real
+    e curto (texto do modo local, não é dado de jogo) e o ACK genérico não
+    é usado aqui. Não inventa gameplay: é só um aviso de texto.
+
+
+

@@ -1,0 +1,68 @@
+{
+  "account": "RenegadoBR",
+  "ninjas": 136,
+  "main": [
+    {
+      "ship": 1006200366,
+      "mould": 366,
+      "souls": [
+        "30",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "ship": 1006200368,
+      "mould": 368,
+      "souls": [
+        "31",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "ship": 1006200375,
+      "mould": 375,
+      "souls": [
+        "33",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "ship": 1006200382,
+      "mould": 382,
+      "souls": [
+        "31",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "ship": 1006200383,
+      "mould": 383,
+      "souls": [
+        "35",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "ship": 1006200385,
+      "mould": 385,
+      "souls": [
+        "35",
+        "14",
+        "15",
+        "16"
+      ]
+    }
+  ],
+  "mudras_created": 2412,
+  "backup": "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\port\\dados\\contas-backup-antes-full-renegado-20261028-015836-411693.sqlite3"
+}
