@@ -1,0 +1,637 @@
+spirte_514601_action1.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action1/action1/0_00003
+  rotate: false
+  xy: 1926, 307
+  size: 117, 199
+  orig: 1200, 800
+  offset: 380, 277
+  index: -1
+action1/action1/0_00004
+  rotate: true
+  xy: 584, 10
+  size: 128, 215
+  orig: 1200, 800
+  offset: 372, 277
+  index: -1
+action1/action1/0_00005
+  rotate: true
+  xy: 389, 46
+  size: 157, 193
+  orig: 1200, 800
+  offset: 339, 277
+  index: -1
+action1/action1/0_00006
+  rotate: true
+  xy: 1536, 344
+  size: 162, 194
+  orig: 1200, 800
+  offset: 338, 277
+  index: -1
+action1/action1/0_00007
+  rotate: true
+  xy: 1334, 349
+  size: 157, 200
+  orig: 1200, 800
+  offset: 343, 277
+  index: -1
+action1/action1/0_00008
+  rotate: true
+  xy: 1732, 341
+  size: 165, 192
+  orig: 1200, 800
+  offset: 336, 276
+  index: -1
+action1/action1/0_00009
+  rotate: true
+  xy: 198, 16
+  size: 167, 189
+  orig: 1200, 800
+  offset: 336, 276
+  index: -1
+action1/action1/0_00010
+  rotate: false
+  xy: 1331, 288
+  size: 173, 59
+  orig: 1200, 800
+  offset: 338, 299
+  index: -1
+action1/action1/0_00011
+  rotate: false
+  xy: 584, 140
+  size: 188, 63
+  orig: 1200, 800
+  offset: 330, 303
+  index: -1
+action1/action1/0_00012
+  rotate: false
+  xy: 801, 24
+  size: 188, 47
+  orig: 1200, 800
+  offset: 330, 320
+  index: -1
+action1/action1/0_00013
+  rotate: false
+  xy: 389, 30
+  size: 191, 14
+  orig: 1200, 800
+  offset: 328, 339
+  index: -1
+action1/action1/1/0_00024
+  rotate: true
+  xy: 1109, 360
+  size: 146, 223
+  orig: 1200, 800
+  offset: 348, 291
+  index: -1
+action1/action1/1/0_00025
+  rotate: true
+  xy: 2, 2
+  size: 181, 194
+  orig: 1200, 800
+  offset: 362, 277
+  index: -1
+action1/action1/1/0_00026
+  rotate: true
+  xy: 801, 73
+  size: 129, 206
+  orig: 1200, 800
+  offset: 373, 278
+  index: -1
+action1/action1/1/0_00027
+  rotate: true
+  xy: 1109, 237
+  size: 121, 220
+  orig: 1200, 800
+  offset: 381, 278
+  index: -1
+action1/action1/1/0_00028
+  rotate: true
+  xy: 786, 204
+  size: 123, 222
+  orig: 1200, 800
+  offset: 385, 278
+  index: -1
+action1/action1/1/0_00029
+  rotate: true
+  xy: 1331, 176
+  size: 110, 229
+  orig: 1200, 800
+  offset: 387, 278
+  index: -1
+action1/feileishen/11
+  rotate: false
+  xy: 786, 329
+  size: 321, 177
+  orig: 321, 321
+  offset: 0, 67
+  index: -1
+action1/feileishen/12
+  rotate: false
+  xy: 2, 185
+  size: 298, 321
+  orig: 321, 321
+  offset: 7, 0
+  index: -1
+action1/feileishen/13
+  rotate: false
+  xy: 302, 205
+  size: 240, 301
+  orig: 321, 321
+  offset: 65, 17
+  index: -1
+action1/feileishen/14
+  rotate: false
+  xy: 544, 205
+  size: 240, 301
+  orig: 321, 321
+  offset: 65, 17
+  index: -1
+
+spirte_514601_action2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action2/action2/0_00000
+  rotate: false
+  xy: 395, 462
+  size: 113, 215
+  orig: 1400, 800
+  offset: 487, 278
+  index: -1
+action2/action2/0_00002
+  rotate: true
+  xy: 227, 14
+  size: 128, 179
+  orig: 1400, 800
+  offset: 471, 277
+  index: -1
+action2/action2/0_00003
+  rotate: false
+  xy: 1002, 457
+  size: 159, 187
+  orig: 1400, 800
+  offset: 442, 277
+  index: -1
+action2/action2/0_00005
+  rotate: true
+  xy: 1166, 762
+  size: 218, 242
+  orig: 1400, 800
+  offset: 447, 296
+  index: -1
+action2/action2/0_00006
+  rotate: false
+  xy: 1651, 756
+  size: 207, 224
+  orig: 1400, 800
+  offset: 439, 300
+  index: -1
+action2/action2/0_00008
+  rotate: true
+  xy: 544, 565
+  size: 193, 235
+  orig: 1400, 800
+  offset: 437, 302
+  index: -1
+action2/action2/0_00009
+  rotate: false
+  xy: 1410, 751
+  size: 239, 229
+  orig: 1400, 800
+  offset: 480, 322
+  index: -1
+action2/action2/0_00011
+  rotate: false
+  xy: 544, 760
+  size: 297, 220
+  orig: 1400, 800
+  offset: 438, 335
+  index: -1
+action2/action2/0_00012
+  rotate: true
+  xy: 2, 43
+  size: 311, 223
+  orig: 1400, 800
+  offset: 430, 336
+  index: -1
+action2/action2/0_00014
+  rotate: true
+  xy: 843, 646
+  size: 155, 219
+  orig: 1400, 800
+  offset: 415, 336
+  index: -1
+action2/action2/0_00015
+  rotate: true
+  xy: 781, 493
+  size: 151, 219
+  orig: 1400, 800
+  offset: 418, 336
+  index: -1
+action2/action2/0_00017
+  rotate: true
+  xy: 510, 414
+  size: 149, 233
+  orig: 1400, 800
+  offset: 418, 335
+  index: -1
+action2/action2/0_00018
+  rotate: false
+  xy: 244, 422
+  size: 149, 235
+  orig: 1400, 800
+  offset: 418, 335
+  index: -1
+action2/action2/0_00019
+  rotate: true
+  xy: 745, 324
+  size: 167, 214
+  orig: 1400, 800
+  offset: 453, 279
+  index: -1
+action2/action2/0_00020
+  rotate: false
+  xy: 1860, 768
+  size: 181, 212
+  orig: 1400, 800
+  offset: 445, 276
+  index: -1
+action2/action2/0_00022
+  rotate: true
+  xy: 1163, 398
+  size: 162, 197
+  orig: 1400, 800
+  offset: 448, 276
+  index: -1
+action2/action2/0_00024
+  rotate: false
+  xy: 1545, 569
+  size: 178, 180
+  orig: 1400, 800
+  offset: 444, 276
+  index: -1
+action2/action2/0_00026
+  rotate: true
+  xy: 1350, 568
+  size: 181, 193
+  orig: 1400, 800
+  offset: 445, 277
+  index: -1
+action2/action2/0_00028
+  rotate: false
+  xy: 1163, 562
+  size: 185, 198
+  orig: 1400, 800
+  offset: 426, 277
+  index: -1
+action2/action2/0_00029
+  rotate: false
+  xy: 408, 2
+  size: 189, 200
+  orig: 1400, 800
+  offset: 427, 277
+  index: -1
+action2/action2/0_00030
+  rotate: false
+  xy: 1359, 224
+  size: 188, 166
+  orig: 1400, 800
+  offset: 689, 276
+  index: -1
+action2/action2/0_00031
+  rotate: false
+  xy: 1362, 392
+  size: 189, 174
+  orig: 1400, 800
+  offset: 689, 276
+  index: -1
+action2/action2/0_00032
+  rotate: false
+  xy: 961, 263
+  size: 199, 192
+  orig: 1400, 800
+  offset: 690, 276
+  index: -1
+action2/action2/0_00033
+  rotate: false
+  xy: 227, 144
+  size: 177, 210
+  orig: 1400, 800
+  offset: 702, 276
+  index: -1
+action2/action2/0_00034
+  rotate: false
+  xy: 1553, 389
+  size: 176, 178
+  orig: 1400, 800
+  offset: 703, 276
+  index: -1
+action2/action2/0_00035
+  rotate: true
+  xy: 1162, 221
+  size: 175, 195
+  orig: 1400, 800
+  offset: 703, 276
+  index: -1
+action2/action2/0_00036
+  rotate: false
+  xy: 406, 204
+  size: 188, 208
+  orig: 1400, 800
+  offset: 689, 276
+  index: -1
+action2/feileishen/11
+  rotate: false
+  xy: 843, 803
+  size: 321, 177
+  orig: 321, 321
+  offset: 0, 67
+  index: -1
+action2/feileishen/12
+  rotate: false
+  xy: 2, 659
+  size: 298, 321
+  orig: 321, 321
+  offset: 7, 0
+  index: -1
+action2/feileishen/13
+  rotate: false
+  xy: 2, 356
+  size: 240, 301
+  orig: 321, 321
+  offset: 65, 17
+  index: -1
+action2/feileishen/14
+  rotate: false
+  xy: 302, 679
+  size: 240, 301
+  orig: 321, 321
+  offset: 65, 17
+  index: -1
+
+spirte_514601_action4.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action4/images/stand/0_00000
+  rotate: false
+  xy: 1011, 37
+  size: 113, 204
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+action4/images/stand/0_00001
+  rotate: false
+  xy: 785, 26
+  size: 111, 215
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+action4/images/stand/0_00002
+  rotate: false
+  xy: 337, 13
+  size: 111, 228
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+action4/images/stand/0_00003
+  rotate: false
+  xy: 898, 29
+  size: 111, 212
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+action4/images/stand/0_00004
+  rotate: false
+  xy: 673, 21
+  size: 110, 220
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+action4/images/stand/0_00005
+  rotate: false
+  xy: 2, 2
+  size: 109, 239
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+action4/images/stand/0_00006
+  rotate: false
+  xy: 562, 19
+  size: 109, 222
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+action4/images/stand/0_00007
+  rotate: false
+  xy: 113, 6
+  size: 109, 235
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+action4/images/stand/0_00008
+  rotate: false
+  xy: 450, 14
+  size: 110, 227
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+action4/images/stand/0_00009
+  rotate: false
+  xy: 224, 10
+  size: 111, 231
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+stand2/images/stand/0_00000
+  rotate: false
+  xy: 1011, 37
+  size: 113, 204
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+stand2/images/stand/0_00001
+  rotate: false
+  xy: 785, 26
+  size: 111, 215
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+stand2/images/stand/0_00002
+  rotate: false
+  xy: 337, 13
+  size: 111, 228
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+stand2/images/stand/0_00003
+  rotate: false
+  xy: 898, 29
+  size: 111, 212
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+stand2/images/stand/0_00004
+  rotate: false
+  xy: 673, 21
+  size: 110, 220
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+stand2/images/stand/0_00005
+  rotate: false
+  xy: 2, 2
+  size: 109, 239
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+stand2/images/stand/0_00006
+  rotate: false
+  xy: 562, 19
+  size: 109, 222
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+stand2/images/stand/0_00007
+  rotate: false
+  xy: 113, 6
+  size: 109, 235
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+stand2/images/stand/0_00008
+  rotate: false
+  xy: 450, 14
+  size: 110, 227
+  orig: 600, 400
+  offset: 88, 78
+  index: -1
+stand2/images/stand/0_00009
+  rotate: false
+  xy: 224, 10
+  size: 111, 231
+  orig: 600, 400
+  offset: 87, 78
+  index: -1
+
+spirte_514601_hurt.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hurt/hurt/0_00000
+  rotate: true
+  xy: 956, 49
+  size: 190, 246
+  orig: 600, 400
+  offset: 70, 71
+  index: -1
+hurt/hurt/0_00001
+  rotate: true
+  xy: 725, 15
+  size: 224, 229
+  orig: 600, 400
+  offset: 21, 67
+  index: -1
+hurt/hurt/0_00002
+  rotate: false
+  xy: 2, 2
+  size: 247, 237
+  orig: 600, 400
+  offset: 14, 76
+  index: -1
+hurt/hurt/0_00003
+  rotate: false
+  xy: 251, 12
+  size: 239, 227
+  orig: 600, 400
+  offset: 12, 78
+  index: -1
+hurt/hurt/0_00004
+  rotate: true
+  xy: 492, 14
+  size: 225, 231
+  orig: 600, 400
+  offset: 17, 78
+  index: -1
+
+spirte_514601_run.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+run/run/0_00000
+  rotate: false
+  xy: 1311, 38
+  size: 186, 165
+  orig: 600, 400
+  offset: 33, 78
+  index: -1
+run/run/0_00001
+  rotate: false
+  xy: 554, 21
+  size: 186, 182
+  orig: 600, 400
+  offset: 31, 73
+  index: -1
+run/run/0_00002
+  rotate: false
+  xy: 2, 2
+  size: 180, 201
+  orig: 600, 400
+  offset: 35, 58
+  index: -1
+run/run/0_00003
+  rotate: true
+  xy: 742, 24
+  size: 179, 186
+  orig: 600, 400
+  offset: 38, 73
+  index: -1
+run/run/0_00004
+  rotate: false
+  xy: 1120, 39
+  size: 189, 164
+  orig: 600, 400
+  offset: 30, 78
+  index: -1
+run/run/0_00005
+  rotate: false
+  xy: 369, 14
+  size: 183, 189
+  orig: 600, 400
+  offset: 34, 56
+  index: -1
+run/run/0_00006
+  rotate: false
+  xy: 184, 11
+  size: 183, 192
+  orig: 600, 400
+  offset: 33, 53
+  index: -1
+run/run/0_00007
+  rotate: true
+  xy: 930, 31
+  size: 172, 188
+  orig: 600, 400
+  offset: 45, 75
+  index: -1
+
+spirte_1022052.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sombra
+  rotate: false
+  xy: 830, 939
+  size: 140, 72
+  orig: 140, 72
+  offset: 0, 0
+  index: -1

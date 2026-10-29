@@ -1,0 +1,90 @@
+
+sprite_niudanji.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/000
+  rotate: false
+  xy: 627, 754
+  size: 93, 39
+  orig: 93, 39
+  offset: 0, 0
+  index: -1
+images/123
+  rotate: false
+  xy: 2, 150
+  size: 205, 207
+  orig: 205, 207
+  offset: 0, 0
+  index: -1
+images/2333333
+  rotate: false
+  xy: 2, 359
+  size: 529, 369
+  orig: 529, 369
+  offset: 0, 0
+  index: -1
+images/456
+  rotate: false
+  xy: 845, 858
+  size: 153, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+images/789
+  rotate: false
+  xy: 209, 211
+  size: 112, 127
+  orig: 112, 127
+  offset: 0, 0
+  index: -1
+images/biankuang
+  rotate: true
+  xy: 209, 340
+  size: 17, 284
+  orig: 17, 284
+  offset: 0, 0
+  index: -1
+images/bu
+  rotate: false
+  xy: 2, 730
+  size: 623, 282
+  orig: 623, 282
+  offset: 0, 0
+  index: -1
+images/heidian
+  rotate: false
+  xy: 533, 411
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+images/juanzhou
+  rotate: false
+  xy: 533, 415
+  size: 73, 313
+  orig: 73, 313
+  offset: 0, 0
+  index: -1
+images/tex_328
+  rotate: false
+  xy: 627, 795
+  size: 216, 217
+  orig: 256, 256
+  offset: 19, 16
+  index: -1
+images/tex_509_scl
+  rotate: false
+  xy: 2, 2
+  size: 146, 146
+  orig: 154, 154
+  offset: 4, 4
+  index: -1
+images/tex_513_scl_1 #4315436
+  rotate: false
+  xy: 323, 233
+  size: 105, 105
+  orig: 128, 128
+  offset: 11, 12
+  index: -1

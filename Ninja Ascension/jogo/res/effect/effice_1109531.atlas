@@ -1,0 +1,103 @@
+
+effice_1109531.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TX/2
+  rotate: false
+  xy: 2, 791
+  size: 1734, 1251
+  orig: 1748, 1255
+  offset: 6, 0
+  index: -1
+TX/bofa
+  rotate: false
+  xy: 1083, 153
+  size: 190, 74
+  orig: 192, 76
+  offset: 1, 1
+  index: -1
+TX/datou
+  rotate: false
+  xy: 1738, 1520
+  size: 235, 286
+  orig: 237, 287
+  offset: 1, 1
+  index: -1
+TX/diaozhui
+  rotate: true
+  xy: 2, 2
+  size: 59, 79
+  orig: 61, 81
+  offset: 1, 1
+  index: -1
+TX/houfa
+  rotate: false
+  xy: 1738, 1808
+  size: 304, 234
+  orig: 306, 236
+  offset: 1, 1
+  index: -1
+TX/qianfa1
+  rotate: false
+  xy: 1738, 1353
+  size: 146, 165
+  orig: 148, 167
+  offset: 1, 1
+  index: -1
+TX/qianfa2
+  rotate: true
+  xy: 914, 82
+  size: 145, 167
+  orig: 147, 169
+  offset: 1, 1
+  index: -1
+TX/shangshen
+  rotate: true
+  xy: 914, 229
+  size: 560, 910
+  orig: 562, 912
+  offset: 1, 1
+  index: -1
+TX/zuoxiuzi
+  rotate: true
+  xy: 2, 63
+  size: 726, 910
+  orig: 728, 912
+  offset: 1, 1
+  index: -1
+baidi
+  rotate: false
+  xy: 1975, 1802
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+heidian
+  rotate: false
+  xy: 2044, 2040
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+
+effice_11095312.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TX/3
+  rotate: false
+  xy: 2, 699
+  size: 1189, 1195
+  orig: 1189, 1195
+  offset: 0, 0
+  index: -1
+TX/youxiuzi
+  rotate: false
+  xy: 2, 2
+  size: 428, 695
+  orig: 430, 697
+  offset: 1, 1
+  index: -1

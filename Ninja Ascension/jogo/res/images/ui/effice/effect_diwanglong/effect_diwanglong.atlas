@@ -1,0 +1,118 @@
+
+effect_diwanglong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dat
+  rotate: false
+  xy: 2, 657
+  size: 422, 363
+  orig: 424, 365
+  offset: 1, 1
+  index: -1
+gh
+  rotate: false
+  xy: 308, 286
+  size: 85, 10
+  orig: 85, 10
+  offset: 0, 0
+  index: -1
+ht
+  rotate: false
+  xy: 426, 657
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+hx
+  rotate: false
+  xy: 463, 326
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+paiody1
+  rotate: false
+  xy: 426, 852
+  size: 444, 168
+  orig: 446, 170
+  offset: 1, 1
+  index: -1
+paiody2
+  rotate: true
+  xy: 308, 298
+  size: 357, 153
+  orig: 359, 155
+  offset: 1, 1
+  index: -1
+paiodz1
+  rotate: false
+  xy: 426, 682
+  size: 444, 168
+  orig: 446, 170
+  offset: 1, 1
+  index: -1
+paiodz2
+  rotate: false
+  xy: 463, 527
+  size: 357, 153
+  orig: 359, 155
+  offset: 1, 1
+  index: -1
+shent
+  rotate: true
+  xy: 822, 540
+  size: 132, 157
+  orig: 134, 159
+  offset: 1, 1
+  index: -1
+shouby
+  rotate: false
+  xy: 872, 674
+  size: 141, 141
+  orig: 143, 143
+  offset: 1, 1
+  index: -1
+shoubz
+  rotate: true
+  xy: 888, 389
+  size: 149, 114
+  orig: 151, 116
+  offset: 1, 1
+  index: -1
+shouy
+  rotate: false
+  xy: 872, 817
+  size: 146, 203
+  orig: 148, 205
+  offset: 1, 1
+  index: -1
+shouz
+  rotate: true
+  xy: 717, 331
+  size: 194, 169
+  orig: 196, 171
+  offset: 1, 1
+  index: -1
+tou
+  rotate: false
+  xy: 2, 215
+  size: 304, 440
+  orig: 306, 442
+  offset: 1, 1
+  index: -1
+tuiy
+  rotate: true
+  xy: 463, 341
+  size: 184, 252
+  orig: 186, 254
+  offset: 1, 1
+  index: -1
+tuiz
+  rotate: true
+  xy: 2, 2
+  size: 211, 309
+  orig: 213, 311
+  offset: 1, 1
+  index: -1

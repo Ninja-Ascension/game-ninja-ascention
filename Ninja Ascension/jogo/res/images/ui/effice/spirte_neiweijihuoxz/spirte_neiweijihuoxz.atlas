@@ -1,0 +1,13 @@
+
+spirte_neiweijihuoxz.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_evolution_01
+  rotate: false
+  xy: 2, 2
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1

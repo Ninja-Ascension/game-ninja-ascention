@@ -1,0 +1,76 @@
+
+effice_1150533.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/baidi
+  rotate: false
+  xy: 825, 927
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+image/heidian
+  rotate: false
+  xy: 1, 1
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+image/tx/tx_1
+  rotate: false
+  xy: 1, 701
+  size: 410, 230
+  orig: 410, 230
+  offset: 0, 0
+  index: -1
+image/tx/tx_2
+  rotate: false
+  xy: 1, 469
+  size: 410, 230
+  orig: 410, 230
+  offset: 0, 0
+  index: -1
+image/tx/tx_3
+  rotate: false
+  xy: 413, 701
+  size: 410, 230
+  orig: 410, 230
+  offset: 0, 0
+  index: -1
+image/tx/tx_4
+  rotate: false
+  xy: 1, 237
+  size: 410, 230
+  orig: 410, 230
+  offset: 0, 0
+  index: -1
+image/tx/tx_5
+  rotate: false
+  xy: 413, 469
+  size: 410, 230
+  orig: 410, 230
+  offset: 0, 0
+  index: -1
+image/tx/tx_6
+  rotate: false
+  xy: 1, 5
+  size: 410, 230
+  orig: 410, 230
+  offset: 0, 0
+  index: -1
+image/tx/tx_7
+  rotate: false
+  xy: 413, 237
+  size: 410, 230
+  orig: 410, 230
+  offset: 0, 0
+  index: -1
+image/tx/tx_8
+  rotate: false
+  xy: 413, 5
+  size: 410, 230
+  orig: 410, 230
+  offset: 0, 0
+  index: -1
