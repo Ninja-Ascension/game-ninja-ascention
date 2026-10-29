@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\ImGuiPresenter.cpp">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imgui.cpp">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imgui_demo.cpp">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imgui_draw.cpp">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imgui_tables.cpp">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Source Files\src\ImGui\misc\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\misc\freetype\imgui_freetype.cpp">
+      <Filter>Source Files\src\ImGui\misc\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\backends\imgui_impl_axmol.cpp">
+      <Filter>Source Files\src\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files\src\ImGui\backends</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\ImGuiPresenter.h">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imconfig.h">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imgui.h">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imgui_internal.h">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imstb_rectpack.h">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\imstb_textedit.h">
+      <Filter>Source Files\src\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\misc\cpp\imgui_stdlib.h">
+      <Filter>Source Files\src\ImGui\misc\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\misc\freetype\imgui_freetype.h">
+      <Filter>Source Files\src\ImGui\misc\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\backends\imgui_impl_axmol.h">
+      <Filter>Source Files\src\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\build\deps\axmol\extensions\ImGui\src\ImGui\backends\imgui_impl_glfw.h">
+      <Filter>Source Files\src\ImGui\backends</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="W:\build\deps\axmol\extensions\ImGui\shaders\imgui_sprite.vert">
+      <Filter>Source Files\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="W:\build\deps\axmol\extensions\ImGui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B7FD9DC9-4DD9-39A2-BD03-508C64B8C518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{B5A1DA3C-2E1D-3282-A9C3-7797DC3F0242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{0E3E556F-32CE-3DAF-B9C0-3A90F5D50050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui">
+      <UniqueIdentifier>{9424571E-EBE4-3698-A7BF-4B89EB3BF972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui\backends">
+      <UniqueIdentifier>{591ECC8D-2A24-3FA1-A78C-5428225FED7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui\misc">
+      <UniqueIdentifier>{73684CE5-45A2-30FD-B4F3-FD53190E14F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui\misc\cpp">
+      <UniqueIdentifier>{25035DD2-36CA-350F-99FF-08B3D93E470E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ImGui\misc\freetype">
+      <UniqueIdentifier>{86B378B8-B183-30CE-8EAB-9465C827B393}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

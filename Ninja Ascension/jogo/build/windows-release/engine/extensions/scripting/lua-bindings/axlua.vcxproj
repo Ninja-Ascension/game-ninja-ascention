@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AEA1565E-2EAF-3E82-94D3-FC1CDBF8A9DC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>axlua</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="W:\build\windows-release\engine\extensions\scripting\lua-bindings\axlua.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\build\windows-release\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">axlua.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">axlua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\build\windows-release\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">axlua.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">axlua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">W:\build\windows-release\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">axlua.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">axlua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\build\windows-release\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">axlua.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">axlua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "W:/build/deps/axmol/3rdparty/lua/luajit/_x/include" /external:I "W:/build/deps/axmol/3rdparty/zlib/_x/include" /external:I "W:/build/deps/axmol/3rdparty/jpeg-turbo/_x/include" /external:I "W:/build/deps/axmol/3rdparty/openssl/_x/include" /external:I "W:/build/deps/axmol/3rdparty/curl/_x/include" /external:I "W:/build/deps/axmol/3rdparty/opus/_x/include" /Zc:char8_t- /utf-8 /bigobj /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Debug";</PreprocessorDefinitions>
+      <IncludePaths>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8 /bigobj /MP /Zm2000</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>W:\build\deps\axmol\3rdparty\;W:\build\deps\axmol\3rdparty\lua\;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni\;W:\build\deps\axmol\extensions\spine\runtime\include\;W:\build\deps\axmol\extensions\spine\src\;W:\build\deps\axmol\extensions\cocostudio\src\;W:\build\deps\axmol\extensions\fairygui\src\;W:\build\deps\axmol\extensions\fairygui\src\fairygui\;W:\build\deps\axmol\extensions\Particle3D\src\;W:\build\deps\axmol\3rdparty\lua\tolua\.\;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.\;W:\build\deps\axmol\;W:\build\deps\axmol\extensions\scripting\;W:\build\deps\axmol\core\;W:\build\deps\axmol\core\platform\;W:\build\deps\axmol\core\base\;W:\build\deps\axmol\core\audio\;W:\build\deps\axmol\core\platform\win32\;W:\build\deps\axmol\3rdparty\robin-map\include\;W:\build\deps\axmol\3rdparty\freetype\include\;W:\build\deps\axmol\3rdparty\openal\;W:\build\deps\axmol\3rdparty\glfw\include\GLFW\;W:\build\deps\axmol\3rdparty\fmt\include\;W:\build\deps\axmol\3rdparty\websocket-parser\;W:\build\deps\axmol\3rdparty\png\;W:\build\deps\axmol\3rdparty\box2d\include\;W:\build\deps\axmol\3rdparty\chipmunk\include\;W:\build\windows-release\engine\3rdparty\freetype\include\;W:\build\deps\axmol\3rdparty\recast\..\;W:\build\deps\axmol\3rdparty\bullet\.\;W:\build\deps\axmol\3rdparty\webp\src\webp\;W:\build\deps\axmol\3rdparty\pugixml\;W:\build\deps\axmol\3rdparty\xxhash\.\;W:\build\deps\axmol\3rdparty\fastlz\;W:\build\deps\axmol\3rdparty\clipper2\include\;W:\build\deps\axmol\3rdparty\ConvertUTF\.\;W:\build\deps\axmol\3rdparty\poly2tri\..\;W:\build\deps\axmol\3rdparty\astcenc\..\;W:\build\deps\axmol\3rdparty\openal\include\;W:\build\deps\axmol\3rdparty\openal\include\AL\;W:\build\deps\axmol\3rdparty\ogg\include\;W:\build\deps\axmol\3rdparty\opus\_x\include\opus\;W:\build\deps\axmol\3rdparty\glad\include\;W:\build\deps\axmol\3rdparty\glfw\include\;W:\build\deps\axmol\3rdparty\unzip\;W:\build\deps\axmol\3rdparty\llhttp\include\;W:\build\deps\axmol\3rdparty\yasio\;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include\;W:\build\deps\axmol\3rdparty\zlib\_x\include\;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include\;W:\build\deps\axmol\3rdparty\openssl\_x\include\;W:\build\deps\axmol\3rdparty\curl\_x\include\;W:\build\deps\axmol\3rdparty\opus\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /bigobj /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;_AX_DEBUG=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Debug";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "W:/build/deps/axmol/3rdparty/lua/luajit/_x/include" /external:I "W:/build/deps/axmol/3rdparty/zlib/_x/include" /external:I "W:/build/deps/axmol/3rdparty/jpeg-turbo/_x/include" /external:I "W:/build/deps/axmol/3rdparty/openssl/_x/include" /external:I "W:/build/deps/axmol/3rdparty/curl/_x/include" /external:I "W:/build/deps/axmol/3rdparty/opus/_x/include" /Zc:char8_t- /utf-8 /bigobj /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+      <IncludePaths>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8 /bigobj /MP /Zm2000</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>W:\build\deps\axmol\3rdparty\;W:\build\deps\axmol\3rdparty\lua\;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni\;W:\build\deps\axmol\extensions\spine\runtime\include\;W:\build\deps\axmol\extensions\spine\src\;W:\build\deps\axmol\extensions\cocostudio\src\;W:\build\deps\axmol\extensions\fairygui\src\;W:\build\deps\axmol\extensions\fairygui\src\fairygui\;W:\build\deps\axmol\extensions\Particle3D\src\;W:\build\deps\axmol\3rdparty\lua\tolua\.\;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.\;W:\build\deps\axmol\;W:\build\deps\axmol\extensions\scripting\;W:\build\deps\axmol\core\;W:\build\deps\axmol\core\platform\;W:\build\deps\axmol\core\base\;W:\build\deps\axmol\core\audio\;W:\build\deps\axmol\core\platform\win32\;W:\build\deps\axmol\3rdparty\robin-map\include\;W:\build\deps\axmol\3rdparty\freetype\include\;W:\build\deps\axmol\3rdparty\openal\;W:\build\deps\axmol\3rdparty\glfw\include\GLFW\;W:\build\deps\axmol\3rdparty\fmt\include\;W:\build\deps\axmol\3rdparty\websocket-parser\;W:\build\deps\axmol\3rdparty\png\;W:\build\deps\axmol\3rdparty\box2d\include\;W:\build\deps\axmol\3rdparty\chipmunk\include\;W:\build\windows-release\engine\3rdparty\freetype\include\;W:\build\deps\axmol\3rdparty\recast\..\;W:\build\deps\axmol\3rdparty\bullet\.\;W:\build\deps\axmol\3rdparty\webp\src\webp\;W:\build\deps\axmol\3rdparty\pugixml\;W:\build\deps\axmol\3rdparty\xxhash\.\;W:\build\deps\axmol\3rdparty\fastlz\;W:\build\deps\axmol\3rdparty\clipper2\include\;W:\build\deps\axmol\3rdparty\ConvertUTF\.\;W:\build\deps\axmol\3rdparty\poly2tri\..\;W:\build\deps\axmol\3rdparty\astcenc\..\;W:\build\deps\axmol\3rdparty\openal\include\;W:\build\deps\axmol\3rdparty\openal\include\AL\;W:\build\deps\axmol\3rdparty\ogg\include\;W:\build\deps\axmol\3rdparty\opus\_x\include\opus\;W:\build\deps\axmol\3rdparty\glad\include\;W:\build\deps\axmol\3rdparty\glfw\include\;W:\build\deps\axmol\3rdparty\unzip\;W:\build\deps\axmol\3rdparty\llhttp\include\;W:\build\deps\axmol\3rdparty\yasio\;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include\;W:\build\deps\axmol\3rdparty\zlib\_x\include\;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include\;W:\build\deps\axmol\3rdparty\openssl\_x\include\;W:\build\deps\axmol\3rdparty\curl\_x\include\;W:\build\deps\axmol\3rdparty\opus\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /bigobj /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "W:/build/deps/axmol/3rdparty/lua/luajit/_x/include" /external:I "W:/build/deps/axmol/3rdparty/zlib/_x/include" /external:I "W:/build/deps/axmol/3rdparty/jpeg-turbo/_x/include" /external:I "W:/build/deps/axmol/3rdparty/openssl/_x/include" /external:I "W:/build/deps/axmol/3rdparty/curl/_x/include" /external:I "W:/build/deps/axmol/3rdparty/opus/_x/include" /Zc:char8_t- /utf-8 /bigobj /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="MinSizeRel";</PreprocessorDefinitions>
+      <IncludePaths>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8 /bigobj /MP /Zm2000</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>W:\build\deps\axmol\3rdparty\;W:\build\deps\axmol\3rdparty\lua\;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni\;W:\build\deps\axmol\extensions\spine\runtime\include\;W:\build\deps\axmol\extensions\spine\src\;W:\build\deps\axmol\extensions\cocostudio\src\;W:\build\deps\axmol\extensions\fairygui\src\;W:\build\deps\axmol\extensions\fairygui\src\fairygui\;W:\build\deps\axmol\extensions\Particle3D\src\;W:\build\deps\axmol\3rdparty\lua\tolua\.\;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.\;W:\build\deps\axmol\;W:\build\deps\axmol\extensions\scripting\;W:\build\deps\axmol\core\;W:\build\deps\axmol\core\platform\;W:\build\deps\axmol\core\base\;W:\build\deps\axmol\core\audio\;W:\build\deps\axmol\core\platform\win32\;W:\build\deps\axmol\3rdparty\robin-map\include\;W:\build\deps\axmol\3rdparty\freetype\include\;W:\build\deps\axmol\3rdparty\openal\;W:\build\deps\axmol\3rdparty\glfw\include\GLFW\;W:\build\deps\axmol\3rdparty\fmt\include\;W:\build\deps\axmol\3rdparty\websocket-parser\;W:\build\deps\axmol\3rdparty\png\;W:\build\deps\axmol\3rdparty\box2d\include\;W:\build\deps\axmol\3rdparty\chipmunk\include\;W:\build\windows-release\engine\3rdparty\freetype\include\;W:\build\deps\axmol\3rdparty\recast\..\;W:\build\deps\axmol\3rdparty\bullet\.\;W:\build\deps\axmol\3rdparty\webp\src\webp\;W:\build\deps\axmol\3rdparty\pugixml\;W:\build\deps\axmol\3rdparty\xxhash\.\;W:\build\deps\axmol\3rdparty\fastlz\;W:\build\deps\axmol\3rdparty\clipper2\include\;W:\build\deps\axmol\3rdparty\ConvertUTF\.\;W:\build\deps\axmol\3rdparty\poly2tri\..\;W:\build\deps\axmol\3rdparty\astcenc\..\;W:\build\deps\axmol\3rdparty\openal\include\;W:\build\deps\axmol\3rdparty\openal\include\AL\;W:\build\deps\axmol\3rdparty\ogg\include\;W:\build\deps\axmol\3rdparty\opus\_x\include\opus\;W:\build\deps\axmol\3rdparty\glad\include\;W:\build\deps\axmol\3rdparty\glfw\include\;W:\build\deps\axmol\3rdparty\unzip\;W:\build\deps\axmol\3rdparty\llhttp\include\;W:\build\deps\axmol\3rdparty\yasio\;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include\;W:\build\deps\axmol\3rdparty\zlib\_x\include\;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include\;W:\build\deps\axmol\3rdparty\openssl\_x\include\;W:\build\deps\axmol\3rdparty\curl\_x\include\;W:\build\deps\axmol\3rdparty\opus\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /bigobj /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="MinSizeRel";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "W:/build/deps/axmol/3rdparty/lua/luajit/_x/include" /external:I "W:/build/deps/axmol/3rdparty/zlib/_x/include" /external:I "W:/build/deps/axmol/3rdparty/jpeg-turbo/_x/include" /external:I "W:/build/deps/axmol/3rdparty/openssl/_x/include" /external:I "W:/build/deps/axmol/3rdparty/curl/_x/include" /external:I "W:/build/deps/axmol/3rdparty/opus/_x/include" /Zc:char8_t- /utf-8 /bigobj /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="RelWithDebInfo";</PreprocessorDefinitions>
+      <IncludePaths>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8 /bigobj /MP /Zm2000</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>W:\build\deps\axmol\3rdparty\;W:\build\deps\axmol\3rdparty\lua\;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni\;W:\build\deps\axmol\extensions\spine\runtime\include\;W:\build\deps\axmol\extensions\spine\src\;W:\build\deps\axmol\extensions\cocostudio\src\;W:\build\deps\axmol\extensions\fairygui\src\;W:\build\deps\axmol\extensions\fairygui\src\fairygui\;W:\build\deps\axmol\extensions\Particle3D\src\;W:\build\deps\axmol\3rdparty\lua\tolua\.\;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.\;W:\build\deps\axmol\;W:\build\deps\axmol\extensions\scripting\;W:\build\deps\axmol\core\;W:\build\deps\axmol\core\platform\;W:\build\deps\axmol\core\base\;W:\build\deps\axmol\core\audio\;W:\build\deps\axmol\core\platform\win32\;W:\build\deps\axmol\3rdparty\robin-map\include\;W:\build\deps\axmol\3rdparty\freetype\include\;W:\build\deps\axmol\3rdparty\openal\;W:\build\deps\axmol\3rdparty\glfw\include\GLFW\;W:\build\deps\axmol\3rdparty\fmt\include\;W:\build\deps\axmol\3rdparty\websocket-parser\;W:\build\deps\axmol\3rdparty\png\;W:\build\deps\axmol\3rdparty\box2d\include\;W:\build\deps\axmol\3rdparty\chipmunk\include\;W:\build\windows-release\engine\3rdparty\freetype\include\;W:\build\deps\axmol\3rdparty\recast\..\;W:\build\deps\axmol\3rdparty\bullet\.\;W:\build\deps\axmol\3rdparty\webp\src\webp\;W:\build\deps\axmol\3rdparty\pugixml\;W:\build\deps\axmol\3rdparty\xxhash\.\;W:\build\deps\axmol\3rdparty\fastlz\;W:\build\deps\axmol\3rdparty\clipper2\include\;W:\build\deps\axmol\3rdparty\ConvertUTF\.\;W:\build\deps\axmol\3rdparty\poly2tri\..\;W:\build\deps\axmol\3rdparty\astcenc\..\;W:\build\deps\axmol\3rdparty\openal\include\;W:\build\deps\axmol\3rdparty\openal\include\AL\;W:\build\deps\axmol\3rdparty\ogg\include\;W:\build\deps\axmol\3rdparty\opus\_x\include\opus\;W:\build\deps\axmol\3rdparty\glad\include\;W:\build\deps\axmol\3rdparty\glfw\include\;W:\build\deps\axmol\3rdparty\unzip\;W:\build\deps\axmol\3rdparty\llhttp\include\;W:\build\deps\axmol\3rdparty\yasio\;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include\;W:\build\deps\axmol\3rdparty\zlib\_x\include\;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include\;W:\build\deps\axmol\3rdparty\openssl\_x\include\;W:\build\deps\axmol\3rdparty\curl\_x\include\;W:\build\deps\axmol\3rdparty\opus\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /bigobj /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="RelWithDebInfo";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\build\deps\axmol\3rdparty;W:\build\deps\axmol\3rdparty\lua;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android;W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\android\jni;W:\build\deps\axmol\extensions\spine\runtime\include;W:\build\deps\axmol\extensions\spine\src;W:\build\deps\axmol\extensions\cocostudio\src;W:\build\deps\axmol\extensions\fairygui\src;W:\build\deps\axmol\extensions\fairygui\src\fairygui;W:\build\deps\axmol\extensions\Particle3D\src;W:\build\deps\axmol\3rdparty\lua\tolua\.;W:\build\deps\axmol\3rdparty\lua\lua-cjson\.;W:\build\deps\axmol;W:\build\deps\axmol\extensions\scripting;W:\build\deps\axmol\core;W:\build\deps\axmol\core\platform;W:\build\deps\axmol\core\base;W:\build\deps\axmol\core\audio;W:\build\deps\axmol\core\platform\win32;W:\build\deps\axmol\3rdparty\robin-map\include;W:\build\deps\axmol\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\openal;W:\build\deps\axmol\3rdparty\glfw\include\GLFW;W:\build\deps\axmol\3rdparty\fmt\include;W:\build\deps\axmol\3rdparty\websocket-parser;W:\build\deps\axmol\3rdparty\png;W:\build\deps\axmol\3rdparty\box2d\include;W:\build\deps\axmol\3rdparty\chipmunk\include;W:\build\windows-release\engine\3rdparty\freetype\include;W:\build\deps\axmol\3rdparty\recast\..;W:\build\deps\axmol\3rdparty\bullet\.;W:\build\deps\axmol\3rdparty\webp\src\webp;W:\build\deps\axmol\3rdparty\pugixml;W:\build\deps\axmol\3rdparty\xxhash\.;W:\build\deps\axmol\3rdparty\fastlz;W:\build\deps\axmol\3rdparty\clipper2\include;W:\build\deps\axmol\3rdparty\ConvertUTF\.;W:\build\deps\axmol\3rdparty\poly2tri\..;W:\build\deps\axmol\3rdparty\astcenc\..;W:\build\deps\axmol\3rdparty\openal\include;W:\build\deps\axmol\3rdparty\openal\include\AL;W:\build\deps\axmol\3rdparty\ogg\include;W:\build\deps\axmol\3rdparty\opus\_x\include\opus;W:\build\deps\axmol\3rdparty\glad\include;W:\build\deps\axmol\3rdparty\glfw\include;W:\build\deps\axmol\3rdparty\unzip;W:\build\deps\axmol\3rdparty\llhttp\include;W:\build\deps\axmol\3rdparty\yasio;W:\build\deps\axmol\3rdparty\lua\luajit\_x\include;W:\build\deps\axmol\3rdparty\zlib\_x\include;W:\build\deps\axmol\3rdparty\jpeg-turbo\_x\include;W:\build\deps\axmol\3rdparty\openssl\_x\include;W:\build\deps\axmol\3rdparty\curl\_x\include;W:\build\deps\axmol\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule W:/build/deps/axmol/extensions/scripting/lua-bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SW:/port -BW:/build/windows-release --check-stamp-file W:/build/windows-release/engine/extensions/scripting/lua-bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;W:\build\windows-release\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\build\windows-release\engine\extensions\scripting\lua-bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule W:/build/deps/axmol/extensions/scripting/lua-bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SW:/port -BW:/build/windows-release --check-stamp-file W:/build/windows-release/engine/extensions/scripting/lua-bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;W:\build\windows-release\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\build\windows-release\engine\extensions\scripting\lua-bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule W:/build/deps/axmol/extensions/scripting/lua-bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SW:/port -BW:/build/windows-release --check-stamp-file W:/build/windows-release/engine/extensions/scripting/lua-bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;W:\build\windows-release\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">W:\build\windows-release\engine\extensions\scripting\lua-bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule W:/build/deps/axmol/extensions/scripting/lua-bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SW:/port -BW:/build/windows-release --check-stamp-file W:/build/windows-release/engine/extensions/scripting/lua-bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;W:\build\windows-release\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\build\windows-release\engine\extensions\scripting\lua-bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaBridge.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaEngine.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaStack.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaValue.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\AxluaLoader.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaBasicConversions.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\lua_module_register.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\tolua_fix.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\ComponentLua.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\base\LuaScriptHandlerMgr.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\base\axlua_base_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\physics\axlua_physics_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\3d\axlua_3d_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\cocostudio\CustomGUIReader.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\cocostudio\axlua_cocostudio_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\cocostudio\lua-cocostudio-conversions.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\cocostudio\axlua_csloader_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\controller\axlua_controller_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\extension\axlua_extension_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\network\axlua_network_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\network\lua_xml_http_request.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\network\lua_downloader.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\network\lua_websocket.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\spine\axlua_spine_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\spine\LuaSkeletonAnimation.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\ui\axlua_ui_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\audioengine\axlua_audioengine_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\physics3d\axlua_physics3d_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\navmesh\axlua_navmesh_conversions.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\navmesh\axlua_navmesh_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\fairygui\axlua_fairygui_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\fairygui\axlua_fairygui_conversions.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\ui\axlua_video_manual.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_video_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_3d_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_base_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_controller_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_extension_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_physics_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_spine_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_studio_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_csloader_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_ui_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_audioengine_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_physics3d_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_navmesh_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_backend_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_fairygui_auto.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\3rdparty\yasio\yasio\bindings\lyasio.cpp" />
+    <ClCompile Include="W:\build\deps\axmol\3rdparty\yasio\yasio\bindings\yasio_axlua.cpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\ComponentLua.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\3d\axlua_3d_manual.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaStack.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaEngine.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\lua_module_register.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaBridge.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\extension\axlua_extension_manual.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaBasicConversions.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\spine\LuaSkeletonAnimation.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\platform\ios\LuaObjcBridge.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\network\axlua_network_manual.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\network\lua_xml_http_request.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\network\lua_downloader.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\audioengine\axlua_audioengine_manual.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\Lua-BindingsExport.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\tolua_fix.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\navmesh\axlua_navmesh_manual.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\navmesh\axlua_navmesh_conversions.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\base\LuaScriptHandlerMgr.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\base\axlua_base_manual.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\AxluaLoader.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\LuaValue.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\physics3d\axlua_physics3d_manual.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\cocostudio\lua-cocostudio-conversions.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\cocostudio\CustomGUIReader.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\ui\axlua_ui_manual.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\controller\axlua_controller_manual.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\fairygui\axlua_fairygui_manual.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\fairygui\axlua_fairygui_conversions.h" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_video_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\manual\ui\axlua_video_manual.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_audioengine_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_3d_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_controller_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_spine_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_studio_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_base_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_navmesh_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_csloader_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_physics3d_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_ui_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_physics_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_extension_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_backend_auto.hpp" />
+    <ClInclude Include="W:\build\deps\axmol\extensions\scripting\lua-bindings\auto\axlua_fairygui_auto.hpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="W:\build\windows-release\ZERO_CHECK.vcxproj">
+      <Project>{E8C7B0A9-CB44-3996-B33F-471F9B156E42}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{5FFE0DC8-75CA-31C7-90F8-9D6C7ECB3D56}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\openal\OpenAL.vcxproj">
+      <Project>{2CD00775-56DA-3EB9-8CD7-6BC3346AE6A3}</Project>
+      <Name>OpenAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\openal\alcommon.vcxproj">
+      <Project>{30B0B744-8D46-3665-A863-F06258601313}</Project>
+      <Name>alcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\astcenc\astcenc.vcxproj">
+      <Project>{92906C6C-EF34-38A1-B4AC-AAABD67C1D09}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\axmol\core\axmol.vcxproj">
+      <Project>{1608C2DD-BDB8-3951-92C8-C9903EE9480A}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\box2d\box2d.vcxproj">
+      <Project>{55070DDA-3C73-318E-88C7-276C0A9F64C7}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\bullet\bullet.vcxproj">
+      <Project>{1F4521C8-BED1-3A50-B280-CA7369F5FCF8}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{C7683C05-44F1-3FE9-A291-4801C5FEF6C7}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\clipper2\clipper2.vcxproj">
+      <Project>{E4ABAEF8-FD75-3D0A-B67F-A0D6ED7E4208}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\doctest\doctest.vcxproj">
+      <Project>{EE176EB3-8BA9-3073-A672-E04B28904B4A}</Project>
+      <Name>doctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\fastlz\fastlz.vcxproj">
+      <Project>{A80F9028-E075-35B3-B49F-50824B972F73}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\fmt\fmt.vcxproj">
+      <Project>{3AB4A2FC-5C6C-3D36-A24A-A579FDD4A456}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\freetype\freetype.vcxproj">
+      <Project>{318EE88B-2A38-32A5-9F33-F938E9F6A079}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\glad\glad.vcxproj">
+      <Project>{3E89B640-2505-3B1D-8AFF-A469615CEA51}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{B27E84FD-5820-3068-BAD4-7C36AA879F18}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\llhttp\llhttp.vcxproj">
+      <Project>{8FB7973A-D3E5-375A-9D54-D6E2D6CD0B2A}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\lua\lua-cjson\lua-cjson.vcxproj">
+      <Project>{6B865D47-DCBE-3BCE-B4E9-E7E0FE3A94DB}</Project>
+      <Name>lua-cjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\ogg\ogg.vcxproj">
+      <Project>{52F03BB2-9C10-3AD7-B490-77350276A2E2}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\png\png.vcxproj">
+      <Project>{2C300941-CCD4-39BB-901A-B0494369F1AF}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{79D26BD2-FF3A-308A-BD7C-F4E1BE0AA454}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\pugixml\pugixml.vcxproj">
+      <Project>{10C725B3-C6AE-3675-921F-A16144620FF3}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\recast\recast.vcxproj">
+      <Project>{6D55CEAA-3E72-3AB5-A066-759E335883A5}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\simdjson\simdjson.vcxproj">
+      <Project>{3C051E1F-D783-3359-851D-DF156DEA704B}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\lua\tolua\tolua.vcxproj">
+      <Project>{A3B7B9B8-BAE5-3273-BA85-14C3ACF2AC35}</Project>
+      <Name>tolua</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\unzip\unzip.vcxproj">
+      <Project>{770B19D9-EBAF-3AEA-8EC9-C1CB42A3DA1D}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\webp\webp.vcxproj">
+      <Project>{E8375052-A628-36F4-AC1A-5B47F9662D2A}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{CEE58B2D-33D7-3275-A15E-52736C9BF2E8}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\xxhash\xxhash.vcxproj">
+      <Project>{6CCF64D3-C836-34CE-9DEA-76B1E00DB697}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\yasio\yasio.vcxproj">
+      <Project>{472F7495-F691-3757-94EF-30436C8ED8FF}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,9 @@
+HOST_PROTO_NATIVES registered; mode0 OK
+HOST_PROTO_DEFLATE c=24 roundtrip OK
+HOST_PROTO_EXPANSION_PASSED: 128KiB repeated response, padding and truncation
+REAL_CHAIN_AUTO_ARMED mode=pure-game boot@tick1 logo@tick3 check@tick4
+RESOURCE_PROBE_STARTED; pure game mode (probe shell behind NR_PROBE_PROBE_UI/NR_PROBE_TEST_MODE)
+REAL_CHAIN_BOOT_OK
+HOST_LOGO_SCRIPT_FAILED ret=0
+REAL_CHAIN_CHECK ret=0
+PROBE_EXIT

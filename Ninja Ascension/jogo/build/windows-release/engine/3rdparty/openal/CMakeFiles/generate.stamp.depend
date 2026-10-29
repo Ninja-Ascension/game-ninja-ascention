@@ -1,0 +1,30 @@
+# CMake generation dependency list for this directory.
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckFunctionExists.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFiles.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckSourceCompiles.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckStructHasMember.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckSymbolExists.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindGit.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/FindPkgConfig.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/GNUInstallDirs.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
+C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in
+W:/build/deps/axmol/3rdparty/openal/CMakeLists.txt
+W:/build/deps/axmol/3rdparty/openal/cmake/FindJACK.cmake
+W:/build/deps/axmol/3rdparty/openal/cmake/FindOpenSL.cmake
+W:/build/deps/axmol/3rdparty/openal/cmake/FindPortAudio.cmake
+W:/build/deps/axmol/3rdparty/openal/cmake/FindPulseAudio.cmake
+W:/build/deps/axmol/3rdparty/openal/config.h.in
+W:/build/deps/axmol/3rdparty/openal/openal.pc.in
+W:/build/deps/axmol/3rdparty/openal/version.h.in
+W:/build/windows-release/CMakeFiles/cmake.verify_globs

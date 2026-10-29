@@ -1,0 +1,13 @@
+codigo=0xc0000005
+endereco=0x7ff611f06812
+pilha:
+  [0] 0x7ff611f06812 NinjaResourceProbe.exe+0x7f6812 cpSpatialIndexFree
+  [1] 0x7ff611f05943 NinjaResourceProbe.exe+0x7f5943 cpSpatialIndexFree
+  [2] 0x7ff611b32390 NinjaResourceProbe.exe+0x422390 cpConstraintGetMaxBias
+  [3] 0x7ff611b32480 NinjaResourceProbe.exe+0x422480 cpConstraintGetMaxBias
+  [4] 0x7ff611733daf NinjaResourceProbe.exe+0x23daf
+  [5] 0x7ff611b2e9be NinjaResourceProbe.exe+0x41e9be cpConstraintGetMaxBias
+  [6] 0x7ff611738b07 NinjaResourceProbe.exe+0x28b07
+  [7] 0x7ff611f2ad60 NinjaResourceProbe.exe+0x81ad60 llhttp_should_keep_alive
+  [8] 0x7ffafa9f4de0 KERNEL32.DLL+0x14de0 BaseThreadInitThunk
+  [9] 0x7ffafc61edab ntdll.dll+0x7edab RtlUserThreadStart

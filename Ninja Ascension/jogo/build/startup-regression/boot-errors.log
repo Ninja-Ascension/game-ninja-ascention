@@ -1,0 +1,14 @@
+6.restore_probe_paths
+...n/jogo/01_conteudo_apk/assets/src/cocos/cocos2d/json.lua:321: bad argument #2 to 'sub' (number expected, got string)
+stack traceback:
+	[C]: in function 'sub'
+	...n/jogo/01_conteudo_apk/assets/src/cocos/cocos2d/json.lua:321: in function 'decode_scanWhitespace'
+	...n/jogo/01_conteudo_apk/assets/src/cocos/cocos2d/json.lua:121: in function 'decode'
+	...ktop/Ninja Ascension/jogo/port/lua/tutorial_disabled.lua:18: in main chunk
+	[C]: in function 'require'
+	...sktop/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:191: in function 'install'
+	...sktop/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:232: in function 'armar'
+	boot_map.lua:840: in function <boot_map.lua:827>
+	[C]: in function 'xpcall'
+	boot_map.lua:24: in function 'tryload'
+	boot_map.lua:827: in main chunk

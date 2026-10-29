@@ -1,0 +1,18 @@
+ok=false
+host_logo.lua:43: Logo ctor failed: ...sktop/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:191: loop or previous error loading module 'tutorial_disabled'
+stack traceback:
+	[C]: in function 'require'
+	...sktop/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:191: in function 'install'
+	...sktop/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:230: in function 'load'
+	...on/jogo/01_conteudo_apk/assets/src/client/login/logo.lua:10: in function 'ctor'
+	...jogo/01_conteudo_apk/assets/src/cocos/cocos2d/extern.lua:68: in function 'new'
+	host_logo.lua:39: in function <host_logo.lua:38>
+	[C]: in function 'xpcall'
+	host_logo.lua:38: in function <host_logo.lua:8>
+	[C]: in function 'xpcall'
+	host_logo.lua:8: in main chunk
+stack traceback:
+	[C]: in function 'error'
+	host_logo.lua:43: in function <host_logo.lua:8>
+	[C]: in function 'xpcall'
+	host_logo.lua:8: in main chunk

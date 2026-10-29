@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="W:\port\native\ResourceProbe.cpp">
+      <Filter>Source Files\native</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\port\native\LayoutEditor.cpp">
+      <Filter>Source Files\native</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\port\native\LegacyCharacter.cpp">
+      <Filter>Source Files\native</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\port\native\LocalBattle.cpp">
+      <Filter>Source Files\native</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\port\native\protocol\NinjaProtoNatives.cpp">
+      <Filter>Source Files\native\protocol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="W:\port\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="W:\build\windows-release\NinjaAscension.rc">
+      <Filter>Source Files\..\build\windows-release</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B7FD9DC9-4DD9-39A2-BD03-508C64B8C518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..">
+      <UniqueIdentifier>{72C6A8BF-F758-30A8-AED7-E23BBB0E3FC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\build">
+      <UniqueIdentifier>{63E97551-3701-36D3-B527-608748607FF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\build\windows-release">
+      <UniqueIdentifier>{89C0BFF5-1614-370C-8767-A78BDB28CBE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\native">
+      <UniqueIdentifier>{51099AFD-3604-3D52-A408-8D9B6616E313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\native\protocol">
+      <UniqueIdentifier>{B1FA1232-C3F3-3852-A4F3-495260B63E57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
