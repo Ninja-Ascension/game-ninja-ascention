@@ -1,0 +1,441 @@
+spirte_514101_action1.png
+size: 1951,1075
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action1/images/attack/0_00000
+  rotate: false
+  xy: 1553, 46
+  size: 165, 182
+  orig: 700, 600
+  offset: 115, 99
+  index: -1
+action1/images/attack/0_00001
+  rotate: true
+  xy: 1445, 275
+  size: 184, 181
+  orig: 700, 600
+  offset: 106, 117
+  index: -1
+action1/images/attack/0_00002
+  rotate: false
+  xy: 1453, 461
+  size: 208, 216
+  orig: 700, 600
+  offset: 96, 117
+  index: -1
+action1/images/attack/0_00003
+  rotate: true
+  xy: 1720, 47
+  size: 181, 229
+  orig: 700, 600
+  offset: 111, 117
+  index: -1
+action1/images/attack/0_00004
+  rotate: false
+  xy: 1409, 6
+  size: 142, 235
+  orig: 700, 600
+  offset: 147, 117
+  index: -1
+action1/images/attack/0_00005
+  rotate: false
+  xy: 1191, 2
+  size: 216, 239
+  orig: 700, 600
+  offset: 157, 117
+  index: -1
+action1/images/attack/0_00006
+  rotate: false
+  xy: 1664, 827
+  size: 280, 246
+  orig: 700, 600
+  offset: 145, 117
+  index: -1
+action1/images/attack/0_00007
+  rotate: true
+  xy: 1191, 243
+  size: 301, 252
+  orig: 700, 600
+  offset: 137, 117
+  index: -1
+action1/images/attack/0_00008
+  rotate: false
+  xy: 1628, 230
+  size: 305, 229
+  orig: 700, 600
+  offset: 163, 117
+  index: -1
+action1/images/attack/0_00009
+  rotate: true
+  xy: 1664, 481
+  size: 344, 262
+  orig: 700, 600
+  offset: 176, 117
+  index: -1
+action1/images/attack/0_00010
+  rotate: true
+  xy: 1346, 679
+  size: 394, 316
+  orig: 700, 600
+  offset: 179, 117
+  index: -1
+action1/images/attack/0_00011
+  rotate: true
+  xy: 1022, 669
+  size: 404, 322
+  orig: 700, 600
+  offset: 175, 117
+  index: -1
+action1/images/attack/0_00012
+  rotate: true
+  xy: 2, 91
+  size: 406, 378
+  orig: 700, 600
+  offset: 174, 68
+  index: -1
+action1/images/attack/0_00013
+  rotate: true
+  xy: 803, 34
+  size: 503, 386
+  orig: 700, 600
+  offset: 77, 56
+  index: -1
+action1/images/attack/0_00014
+  rotate: true
+  xy: 500, 11
+  size: 520, 301
+  orig: 700, 600
+  offset: 63, 60
+  index: -1
+action1/images/attack/0_00015
+  rotate: true
+  xy: 2, 499
+  size: 574, 317
+  orig: 700, 600
+  offset: 45, 49
+  index: -1
+action1/images/attack/0_00016
+  rotate: true
+  xy: 321, 533
+  size: 540, 334
+  orig: 700, 600
+  offset: 35, 43
+  index: -1
+action1/images/attack/0_00017
+  rotate: true
+  xy: 657, 539
+  size: 534, 363
+  orig: 700, 600
+  offset: 39, 24
+  index: -1
+action1/images/attack/0_00018
+  rotate: true
+  xy: 1188, 546
+  size: 121, 263
+  orig: 700, 600
+  offset: 180, 117
+  index: -1
+action1/images/attack/0_00019
+  rotate: true
+  xy: 1022, 542
+  size: 125, 164
+  orig: 700, 600
+  offset: 180, 117
+  index: -1
+action1/images/attack/0_00020
+  rotate: true
+  xy: 2, 28
+  size: 61, 164
+  orig: 700, 600
+  offset: 180, 117
+  index: -1
+action1/images/attack/0_00021
+  rotate: true
+  xy: 168, 28
+  size: 61, 164
+  orig: 700, 600
+  offset: 180, 117
+  index: -1
+action1/images/attack/0_00022
+  rotate: true
+  xy: 334, 28
+  size: 61, 164
+  orig: 700, 600
+  offset: 180, 117
+  index: -1
+action1/images/attack/0_00023
+  rotate: false
+  xy: 382, 367
+  size: 113, 164
+  orig: 700, 600
+  offset: 150, 117
+  index: -1
+action1/images/attack/0_00024
+  rotate: false
+  xy: 382, 201
+  size: 113, 164
+  orig: 700, 600
+  offset: 150, 117
+  index: -1
+
+spirte_514101_action2.png
+size: 1318,170
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action2/images/action1/0_00000
+  rotate: false
+  xy: 2, 2
+  size: 113, 166
+  orig: 2000, 1500
+  offset: 622, 572
+  index: -1
+action2/images/action1/0_00001
+  rotate: false
+  xy: 232, 3
+  size: 112, 165
+  orig: 2000, 1500
+  offset: 623, 572
+  index: -1
+action2/images/action1/0_00002
+  rotate: false
+  xy: 688, 5
+  size: 112, 163
+  orig: 2000, 1500
+  offset: 623, 573
+  index: -1
+action2/images/action1/0_00003
+  rotate: false
+  xy: 1028, 6
+  size: 111, 162
+  orig: 2000, 1500
+  offset: 623, 574
+  index: -1
+action2/images/action1/0_00004
+  rotate: false
+  xy: 802, 5
+  size: 112, 163
+  orig: 2000, 1500
+  offset: 623, 573
+  index: -1
+action2/images/action1/0_00005
+  rotate: false
+  xy: 460, 4
+  size: 112, 164
+  orig: 2000, 1500
+  offset: 623, 572
+  index: -1
+action2/images/action1/0_00006
+  rotate: false
+  xy: 117, 4
+  size: 113, 164
+  orig: 2000, 1500
+  offset: 622, 572
+  index: -1
+action2/images/action1/0_00007
+  rotate: false
+  xy: 1253, 6
+  size: 63, 162
+  orig: 2000, 1500
+  offset: 651, 574
+  index: -1
+action2/images/action1/0_00008
+  rotate: false
+  xy: 916, 4
+  size: 110, 164
+  orig: 2000, 1500
+  offset: 624, 574
+  index: -1
+action2/images/action1/0_00009
+  rotate: false
+  xy: 1141, 5
+  size: 110, 163
+  orig: 2000, 1500
+  offset: 624, 574
+  index: -1
+action2/images/action1/0_00010
+  rotate: false
+  xy: 574, 4
+  size: 112, 164
+  orig: 2000, 1500
+  offset: 623, 573
+  index: -1
+action2/images/action1/0_00011
+  rotate: false
+  xy: 346, 3
+  size: 112, 165
+  orig: 2000, 1500
+  offset: 623, 572
+  index: -1
+
+spirte_514101_hurt.png
+size: 712,171
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hurt/images/hurt/sj_00000
+  rotate: false
+  xy: 118, 2
+  size: 113, 167
+  orig: 495, 440
+  offset: 46, 34
+  index: -1
+hurt/images/hurt/sj_00001
+  rotate: false
+  xy: 591, 15
+  size: 119, 154
+  orig: 495, 440
+  offset: 20, 37
+  index: -1
+hurt/images/hurt/sj_00002
+  rotate: false
+  xy: 350, 12
+  size: 120, 157
+  orig: 495, 440
+  offset: 19, 34
+  index: -1
+hurt/images/hurt/sj_00003
+  rotate: false
+  xy: 472, 10
+  size: 117, 159
+  orig: 495, 440
+  offset: 27, 30
+  index: -1
+hurt/images/hurt/sj_00004
+  rotate: false
+  xy: 233, 5
+  size: 115, 164
+  orig: 495, 440
+  offset: 35, 28
+  index: -1
+hurt/images/hurt/sj_00005
+  rotate: false
+  xy: 2, 2
+  size: 114, 167
+  orig: 495, 440
+  offset: 41, 31
+  index: -1
+
+spirte_514101_run.png
+size: 884,121
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+run/images/run/zdpb_00000
+  rotate: true
+  xy: 228, 5
+  size: 114, 110
+  orig: 396, 352
+  offset: 27, 30
+  index: -1
+run/images/run/zdpb_00001
+  rotate: true
+  xy: 669, 4
+  size: 115, 106
+  orig: 396, 352
+  offset: 28, 31
+  index: -1
+run/images/run/zdpb_00002
+  rotate: true
+  xy: 451, 3
+  size: 116, 107
+  orig: 396, 352
+  offset: 27, 32
+  index: -1
+run/images/run/zdpb_00003
+  rotate: true
+  xy: 117, 2
+  size: 117, 109
+  orig: 396, 352
+  offset: 25, 33
+  index: -1
+run/images/run/zdpb_00004
+  rotate: true
+  xy: 560, 4
+  size: 115, 107
+  orig: 396, 352
+  offset: 26, 33
+  index: -1
+run/images/run/zdpb_00005
+  rotate: true
+  xy: 777, 5
+  size: 114, 105
+  orig: 396, 352
+  offset: 28, 31
+  index: -1
+run/images/run/zdpb_00006
+  rotate: true
+  xy: 340, 4
+  size: 115, 109
+  orig: 396, 352
+  offset: 28, 30
+  index: -1
+run/images/run/zdpb_00007
+  rotate: true
+  xy: 2, 3
+  size: 116, 113
+  orig: 396, 352
+  offset: 26, 30
+  index: -1
+
+spirte_514101_stand2.png
+size: 686,168
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+stand2/images/stand2/zddj_00000
+  rotate: false
+  xy: 2, 2
+  size: 113, 164
+  orig: 495, 440
+  offset: 47, 37
+  index: -1
+stand2/images/stand2/zddj_00001
+  rotate: false
+  xy: 232, 2
+  size: 112, 164
+  orig: 495, 440
+  offset: 48, 37
+  index: -1
+stand2/images/stand2/zddj_00002
+  rotate: false
+  xy: 346, 2
+  size: 112, 164
+  orig: 495, 440
+  offset: 48, 37
+  index: -1
+stand2/images/stand2/zddj_00003
+  rotate: false
+  xy: 460, 2
+  size: 111, 164
+  orig: 495, 440
+  offset: 48, 37
+  index: -1
+stand2/images/stand2/zddj_00004
+  rotate: false
+  xy: 573, 2
+  size: 111, 164
+  orig: 495, 440
+  offset: 48, 37
+  index: -1
+stand2/images/stand2/zddj_00005
+  rotate: false
+  xy: 117, 2
+  size: 113, 164
+  orig: 495, 440
+  offset: 47, 37
+  index: -1
+
+spirte_1022052.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sombra
+  rotate: false
+  xy: 830, 939
+  size: 140, 72
+  orig: 140, 72
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,262 @@
+effect_514611_action.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action/action1/1/0_00010
+  rotate: false
+  xy: 2, 3210
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00011
+  rotate: false
+  xy: 2, 2408
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00012
+  rotate: false
+  xy: 1204, 3210
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00013
+  rotate: false
+  xy: 2, 1606
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00014
+  rotate: false
+  xy: 1204, 2408
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00015
+  rotate: false
+  xy: 2406, 3210
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00016
+  rotate: false
+  xy: 2, 804
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00017
+  rotate: false
+  xy: 1204, 1606
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00018
+  rotate: false
+  xy: 2406, 2408
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00019
+  rotate: false
+  xy: 2, 2
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00020
+  rotate: false
+  xy: 1204, 804
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00021
+  rotate: false
+  xy: 2406, 1606
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00022
+  rotate: false
+  xy: 1204, 2
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00023
+  rotate: false
+  xy: 2406, 804
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00024
+  rotate: false
+  xy: 2406, 2
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/feileishen/11
+  rotate: false
+  xy: 3608, 3689
+  size: 321, 321
+  orig: 321, 321
+  offset: 0, 0
+  index: -1
+action/feileishen/12
+  rotate: false
+  xy: 3608, 3366
+  size: 321, 321
+  orig: 321, 321
+  offset: 0, 0
+  index: -1
+action/feileishen/13
+  rotate: false
+  xy: 3608, 3043
+  size: 321, 321
+  orig: 321, 321
+  offset: 0, 0
+  index: -1
+action/feileishen/14
+  rotate: false
+  xy: 3608, 2720
+  size: 321, 321
+  orig: 321, 321
+  offset: 0, 0
+  index: -1
+
+effect_514611_action_2.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action/action1/1/0_00025
+  rotate: false
+  xy: 2, 3210
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00026
+  rotate: false
+  xy: 2, 2408
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00027
+  rotate: false
+  xy: 1204, 3210
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00028
+  rotate: false
+  xy: 2, 1606
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1/1/0_00029
+  rotate: false
+  xy: 1204, 2408
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00015
+  rotate: false
+  xy: 2406, 3210
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00016
+  rotate: false
+  xy: 2, 804
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00017
+  rotate: false
+  xy: 1204, 1606
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00018
+  rotate: false
+  xy: 2406, 2408
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00019
+  rotate: false
+  xy: 2, 2
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00020
+  rotate: false
+  xy: 1204, 804
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00021
+  rotate: false
+  xy: 2406, 1606
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00022
+  rotate: false
+  xy: 1204, 2
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00023
+  rotate: false
+  xy: 2406, 804
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+action/action1_hit/0_00024
+  rotate: false
+  xy: 2406, 2
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
+
+effect_514611_action_3.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+action/action1_hit/0_00025
+  rotate: false
+  xy: 2, 2
+  size: 1200, 800
+  orig: 1200, 800
+  offset: 0, 0
+  index: -1
