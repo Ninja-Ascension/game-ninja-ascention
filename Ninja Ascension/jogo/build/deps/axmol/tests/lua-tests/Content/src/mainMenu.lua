@@ -1,0 +1,247 @@
+require "helper"
+require "testResource"
+require "VisibleRect"
+
+require "AccelerometerTest/AccelerometerTest"
+require "ActionManagerTest/ActionManagerTest"
+require "ActionsEaseTest/ActionsEaseTest"
+require "ActionsProgressTest/ActionsProgressTest"
+require "ActionsTest/ActionsTest"
+require "AssetsManagerTest/AssetsManagerTest"
+require "AssetsManagerExTest/AssetsManagerExTest"
+require "BillBoardTest/BillBoardTest"
+require "BugsTest/BugsTest"
+require "Camera3DTest/Camera3DTest"
+require "ClickAndMoveTest/ClickAndMoveTest"
+require "ComponentTest/main"
+require "CurrentLanguageTest/CurrentLanguageTest"
+require "DownloaderTest/DownloaderTest"
+require "DrawNodeTest/DrawNodeTest"
+require "EffectsTest/EffectsTest"
+require "EffectsAdvancedTest/EffectsAdvancedTest"
+require "ExtensionTest/ExtensionTest"
+require "FileUtilsTest/FileUtilsTest"
+require "FontTest/FontTest"
+require "IntervalTest/IntervalTest"
+require "KeypadTest/KeypadTest"
+require "LabelTest/LabelTest"
+require "LayerTest/LayerTest"
+require "LightTest/LightTest"
+require "MenuTest/MenuTest"
+require "MotionStreakTest/MotionStreakTest"
+require "EventDispatcherTest/EventDispatcherTest"
+require "NodeTest/NodeTest"
+require "ParallaxTest/ParallaxTest"
+require "ParticleTest/ParticleTest"
+require "Particle3DTest/Particle3DTest"
+require "RenderTextureTest/RenderTextureTest"
+require "RotateWorldTest/RotateWorldTest"
+require "Sprite3DTest/Sprite3DTest"
+require "SpriteTest/SpriteTest"
+require "SceneTest/SceneTest"
+require "SpineTest/SpineTest"
+require "TerrainTest/TerrainTest"
+require "TextInputTest/TextInputTest"
+require "Texture2dTest/Texture2dTest"
+require "TileMapTest/TileMapTest"
+require "TouchesTest/TouchesTest"
+require "TransitionsTest/TransitionsTest"
+require "UserDefaultTest/UserDefaultTest"
+require "VibrateTest/VibrateTest"
+require "ZwoptexTest/ZwoptexTest"
+require "LuaBridgeTest/LuaBridgeTest"
+require "XMLHttpRequestTest/XMLHttpRequestTest"
+require "PhysicsTest/PhysicsTest"
+require "CaptureScreenTest/CaptureScreenTest"
+require "VideoPlayerTest/VideoPlayerTest"
+require "FastTiledMapTest/FastTiledMapTest"
+require "AudioEngineTest/AudioEngineTest"
+require "WebViewTest/WebViewTest"
+require "SpritePolygonTest/SpritePolygonTest"
+require "Physics3DTest/Physics3DTest"
+require "Scene3DTest/Scene3DTest"
+require "MaterialSystemTest/MaterialSystemTest"
+require "NavMeshTest/NavMeshTest"
+require "LuaLoaderTest/LuaLoaderTest"
+
+local LINE_SPACE = 40
+
+local CurPos = {x = 0, y = 0}
+local BeginPos = {x = 0, y = 0}
+
+local _allTests = {
+    { isSupported = true,  name = "Accelerometer"          , create_func=             AccelerometerMain  },
+    { isSupported = true,  name = "ActionManagerTest"      , create_func   =         ActionManagerTestMain  },
+    { isSupported = true,  name = "ActionsEaseTest"        , create_func   =           EaseActionsTest      },
+    { isSupported = true,  name = "ActionsProgressTest"    , create_func   =       ProgressActionsTest      },
+    { isSupported = true,  name = "ActionsTest"            , create_func   =               ActionsTest      },
+    { isSupported = true,  name = "AssetsManagerTest"      , create_func   =         AssetsManagerTestMain      },
+    { isSupported = true,  name = "AssetsManagerExTest"      , create_func   =         AssetsManagerExTestMain  },
+    { isSupported = true, name = "AudioEngineTest", create_func = AudioEngineTest},
+    { isSupported = true,  name = "BillBoardTest"           , create_func=              BillBoardTestMain},
+    { isSupported = true,  name = "BugsTest"               , create_func=              BugsTestMain      },
+    { isSupported = true,  name = "Camera3DTest"     ,        create_func=       Camera3DTestMain  },
+    { isSupported = true,  name = "CaptureScreenTest"       , create_func  =         CaptureScreenTestMain  },
+    { isSupported = true,  name = "ClickAndMoveTest"       , create_func   =          ClickAndMoveTest      },
+    { isSupported = true,  name = "ComponentTest"          , create_func   =         ComponentTestMain  },
+    { isSupported = true,  name = "CurrentLanguageTest"    , create_func   =   CurrentLanguageTestMain      },
+    { isSupported = true,  name = "DownloaderTest"         , create_func   =            DownloaderTestMain  },
+    { isSupported = true,  name = "DrawNodeTest"           , create_func   =        DrawNodeTest      },
+    { isSupported = true,  name = "EffectsTest"            , create_func   =               EffectsTest      },
+    { isSupported = true,  name = "EffectAdvancedTest"     , create_func   =        EffectAdvancedTestMain  },
+    { isSupported = true,  name = "ExtensionsTest"         , create_func   =        ExtensionsTestMain      },
+    { isSupported = true,  name = "FastTiledMapTest"       , create_func   =              FastTiledMapTestMain},
+    { isSupported = true,  name = "FileUtilsTest"          , create_func   =              FileUtilsTestMain},
+    { isSupported = true,  name = "FontTest"               , create_func   =              FontTestMain      },
+    { isSupported = true,  name = "IntervalTest"           , create_func   =              IntervalTestMain  },
+    { isSupported = true,  name = "KeypadTest"             , create_func=                KeypadTestMain  },
+    { isSupported = true,  name = "LabelTest"           , create_func   =                 LabelTestNew      },
+    { isSupported = true,  name = "LayerTest"              , create_func   =                 LayerTestMain  },
+    { isSupported = true,  name = "LightTest"              , create_func   =                 LightTestMain  },
+    { isSupported = true,  name = "LuaBridgeTest"          , create_func   =        LuaBridgeMainTest },
+    { isSupported = true,  name = "LuaLoaderTest"          , create_func   =        LuaLoaderMain },
+    { isSupported = true,  name = "MaterialSystemTest"     , create_func   =        MaterialSystemTest },
+    { isSupported = true,  name = "MenuTest"               , create_func   =                  MenuTestMain  },
+    { isSupported = true,  name = "MotionStreakTest"       , create_func   =          MotionStreakTest      },
+    { isSupported = true,  name = "NavMeshTest"            , create_func   =       NavMeshTest },
+    { isSupported = true,  name = "EventDispatcherTest"  , create_func   =       NewEventDispatcherTest },
+    { isSupported = true,  name = "NodeTest"               , create_func   =                  NodeTest },
+    { isSupported = true,  name = "ParallaxTest"           , create_func   =              ParallaxTestMain  },
+    { isSupported = true,  name = "ParticleTest"           , create_func   =              ParticleTest      },
+    { isSupported = true,  name = "Particle3D (PU)"        , create_func   =              Particle3DTest  },
+    { isSupported = true,  name = "PhysicsTest"            , create_func =          PhysicsTest  },
+    { isSupported = true,  name = "Physics3DTest"            , create_func =          Physics3DTest  },
+    { isSupported = true,  name = "RenderTextureTest"      , create_func   =         RenderTextureTestMain  },
+    { isSupported = true,  name = "RotateWorldTest"        , create_func   =           RotateWorldTest      },
+    { isSupported = true,  name = "SceneTest"              , create_func   =                 SceneTestMain  },
+    { isSupported = true,  name = "Scene3DTest"             , create_func=            Scene3DTestMain      },
+    { isSupported = true,  name = "SpineTest"              , create_func   =                 SpineTestMain  },
+    { isSupported = true,  name = "Sprite3DTest"           , create_func   =                Sprite3DTest    },
+    { isSupported = true,  name = "TerrainTest"           , create_func   =                TerrainTest  },
+    { isSupported = true,  name = "SpriteTest"             , create_func   =                SpriteTest      },
+    { isSupported = true,  name = "SpritePolygonTest"             , create_func   =         SpritePolygonTest      },
+    { isSupported = true,  name = "TextInputTest"          , create_func=             TextInputTestMain  },
+    { isSupported = true,  name = "Texture2DTest"          , create_func   =             Texture2dTestMain  },
+    { isSupported = true,  name = "TileMapTest"            , create_func   =               TileMapTestMain  },
+    { isSupported = true,  name = "TouchesTest"            , create_func   =               TouchesTest      },
+    { isSupported = true,  name = "TransitionsTest"        , create_func   =           TransitionsTest      },
+    { isSupported = true,  name = "UserDefaultTest"        , create_func=           UserDefaultTestMain  },
+    { isSupported = true,  name = "VideoPlayerTest"        , create_func=           VideoPlayerTestMain  },
+    { isSupported = true,  name = "WebViewTest"            , create_func=           WebViewTestMain  },
+    { isSupported = true,  name = "XMLHttpRequestTest"     , create_func   =        XMLHttpRequestTestMain  },
+    { isSupported = true,  name = "VibrateTest"            , create_func   =               VibrateTestMain  },
+    { isSupported = true,  name = "ZwoptexTest"            , create_func   =               ZwoptexTestMain  }
+}
+
+local TESTS_COUNT = #(_allTests)
+
+-- create scene
+local function CreateTestScene(nIdx)
+    ax.Director:getInstance():purgeCachedData()
+    local scene = _allTests[nIdx].create_func()
+    return scene
+end
+-- create menu
+function CreateTestMenu()
+    local menuLayer = ax.Layer:create()
+
+    local function closeCallback()
+        ax.Director:getInstance():endToLua()
+    end
+
+    local function menuCallback(tag)
+        print(tag)
+        local Idx = tag - 10000
+        local testScene = CreateTestScene(Idx)
+        if testScene then
+            ax.Director:getInstance():replaceScene(testScene)
+        end
+    end
+
+    -- add close menu
+    local s = ax.Director:getInstance():getWinSize()
+    local CloseItem = ax.MenuItemImage:create(s_pPathClose, s_pPathClose)
+    CloseItem:registerScriptTapHandler(closeCallback)
+    CloseItem:setAnchorPoint(1, 1)
+    CloseItem:setPosition(VisibleRect:rightTop())
+
+    local CloseMenu = ax.Menu:create()
+    CloseMenu:setPosition(0, 0)
+    CloseMenu:addChild(CloseItem)
+    menuLayer:addChild(CloseMenu)
+
+    local targetPlatform = ax.Application:getInstance():getTargetPlatform()
+
+    -- add menu items for tests
+    local MainMenu = ax.Menu:create()
+    local index = 0
+    local obj = nil
+    for index, obj in pairs(_allTests) do
+        local testLabel = ax.Label:createWithTTF(obj.name, s_arialPath, 24)
+        testLabel:setAnchorPoint(ax.p(0.5, 0.5))
+        local testMenuItem = ax.MenuItemLabel:create(testLabel)
+        if not obj.isSupported then
+            testMenuItem:setEnabled(false)
+        end
+
+        if obj.name == "WebViewTest"
+        or obj.name == "VibrateTest"
+        or obj.name == "VideoPlayerTest" then
+            if ax.PLATFORM_LINUX == targetPlatform then
+                testMenuItem:setEnabled(false)
+            end
+        end
+
+        if obj.name == "Physics3DTest" and nil == ax.Physics3DComponent then
+            testMenuItem:setEnabled(false)
+        end
+
+        if obj.name == "NavMeshTest" and nil == ax.NavMesh then
+            testMenuItem:setEnabled(false)
+        end
+
+        testMenuItem:registerScriptTapHandler(menuCallback)
+        testMenuItem:setPosition(ax.p(s.width / 2, (s.height - (index) * LINE_SPACE)))
+        MainMenu:addChild(testMenuItem, index + 10000, index + 10000)
+    end
+
+    MainMenu:setContentSize(ax.size(s.width, (TESTS_COUNT + 1) * (LINE_SPACE)))
+    MainMenu:setPosition(CurPos.x, CurPos.y)
+    menuLayer:addChild(MainMenu)
+
+    -- handling touch events
+    local function onTouchBegan(touch, event)
+        BeginPos = touch:getLocation()
+        -- CCTOUCHBEGAN event must return true
+        return true
+    end
+
+    local function onTouchMoved(touch, event)
+        local location = touch:getLocation()
+        local nMoveY = location.y - BeginPos.y
+        local curPosx, curPosy = MainMenu:getPosition()
+        local nextPosy = curPosy + nMoveY
+        local winSize = ax.Director:getInstance():getWinSize()
+        if nextPosy < 0 then
+            MainMenu:setPosition(0, 0)
+            return
+        end
+
+        if nextPosy > ((TESTS_COUNT + 1) * LINE_SPACE - winSize.height) then
+            MainMenu:setPosition(0, ((TESTS_COUNT + 1) * LINE_SPACE - winSize.height))
+            return
+        end
+
+        MainMenu:setPosition(curPosx, nextPosy)
+        BeginPos = {x = location.x, y = location.y}
+        CurPos = {x = curPosx, y = nextPosy}
+    end
+
+    local listener = ax.EventListenerTouchOneByOne:create()
+    listener:registerScriptHandler(onTouchBegan,ax.Handler.EVENT_TOUCH_BEGAN )
+    listener:registerScriptHandler(onTouchMoved,ax.Handler.EVENT_TOUCH_MOVED )
+    local eventDispatcher = menuLayer:getEventDispatcher()
+    eventDispatcher:addEventListenerWithSceneGraphPriority(listener, menuLayer)
+
+    return menuLayer
+end

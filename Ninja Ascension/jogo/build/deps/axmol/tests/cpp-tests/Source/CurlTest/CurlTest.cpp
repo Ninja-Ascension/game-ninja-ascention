@@ -1,0 +1,138 @@
+/****************************************************************************
+ Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.
+
+ https://axmol.dev/
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ ****************************************************************************/
+
+#if !defined(__EMSCRIPTEN__)
+
+#include "platform/PlatformConfig.h"
+#include "CurlTest.h"
+#include "stdio.h"
+#include "stdlib.h"
+#include "curl/curl.h"
+
+#include "base/format.h"
+
+using namespace ax;
+
+CurlTests::CurlTests()
+{
+    ADD_TEST_CASE(CurlTest);
+}
+
+CurlTest::CurlTest()
+{
+    auto label = Label::createWithTTF("Curl Test", "fonts/arial.ttf", 28);
+    addChild(label, 0);
+    label->setPosition(VisibleRect::center().x, VisibleRect::top().y - 50);
+
+    auto listener            = EventListenerTouchAllAtOnce::create();
+    listener->onTouchesEnded = AX_CALLBACK_2(CurlTest::onTouchesEnded, this);
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(listener, this);
+
+    // create a label to display the tip string
+    _label = Label::createWithTTF("Touch the screen to connect", "fonts/arial.ttf", 22);
+    _label->setPosition(VisibleRect::center());
+    addChild(_label, 0);
+
+    _label->retain();
+}
+
+struct MemoryStruct
+{
+    char* memory;
+    size_t size;
+};
+
+static size_t WriteMemoryCallback(void* contents, size_t size, size_t nmemb, void* userp)
+{
+    size_t realsize          = size * nmemb;
+    struct MemoryStruct* mem = (struct MemoryStruct*)userp;
+
+    mem->memory = (char*)realloc(mem->memory, mem->size + realsize + 1);
+    if (mem->memory == NULL)
+    {
+        /* out of memory! */
+        AXLOGE("not enough memory (realloc returned NULL)\n");
+        return 0;
+    }
+
+    memcpy(&(mem->memory[mem->size]), contents, realsize);
+    mem->size += realsize;
+    mem->memory[mem->size] = 0;
+
+    return realsize;
+}
+
+// the test code is
+// http://curl.haxx.se/mail/lib-2009-12/0071.html
+void CurlTest::onTouchesEnded(const std::vector<Touch*>& touches, Event* event)
+{
+    CURL* curl;
+    CURLcode res;
+    char buffer[10];
+
+    struct MemoryStruct chunk;
+
+    chunk.memory = (char*)malloc(1); /* will be grown as needed by the realloc above */
+    chunk.size   = 0;                /* no data at this point */
+
+    curl = curl_easy_init();
+    if (curl)
+    {
+        curl_easy_setopt(curl, CURLOPT_URL, "https://axmol.dev/");
+        // code from http://curl.haxx.se/libcurl/c/getinmemory.html
+        /* we pass our 'chunk' struct to the callback function */
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void*)&chunk);
+        // If we don't provide a write function for curl, it will receive error code 23 on windows.
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
+
+        // simple test, we just ignore ca cert
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+
+        res = curl_easy_perform(curl);
+        /* always cleanup */
+        curl_easy_cleanup(curl);
+        if (res == 0)
+        {
+            _label->setString(fmt::format("Connect successfully\nplease see console!"));
+            AXLOGI("reply data:{}", chunk.memory);
+        }
+        else
+        {
+            auto codeText = fmt::format_to_z(buffer, "code: {}", (int)res);
+            _label->setString(codeText);
+        }
+    }
+    else
+    {
+        _label->setString("no curl");
+    }
+}
+
+CurlTest::~CurlTest()
+{
+    _label->release();
+}
+
+#endif
