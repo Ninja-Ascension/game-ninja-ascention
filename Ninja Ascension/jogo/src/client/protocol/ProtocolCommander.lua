@@ -2260,6 +2260,8 @@ protocol_command = {
 	monthly_card_activate							=	{code = 9371, command = "monthly_card_activate",							command_fun = command_monthly_card_activate,							param_list=""},	-- 月卡重塑道具激活
 
 	guest_account_generate							=	{code = 9372, command = "guest_account_generate",							command_fun = command_guest_account_generate,							param_list=""},	-- 生成游客账号
+
+	tutorial_skip									=	{code = 9993, command = "tutorial_skip",								command_fun = command_tutorial_skip,								param_list=""},	-- 跳过教程选择
 }
 local protocol_command_count = table.getn(protocol_command)
 
