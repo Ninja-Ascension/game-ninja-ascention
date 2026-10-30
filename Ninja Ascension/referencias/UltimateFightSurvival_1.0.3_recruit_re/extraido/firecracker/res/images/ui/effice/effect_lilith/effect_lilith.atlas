@@ -1,0 +1,132 @@
+
+effect_lilith.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+erd
+  rotate: false
+  xy: 572, 335
+  size: 111, 103
+  orig: 111, 103
+  offset: 0, 0
+  index: -1
+hba
+  rotate: false
+  xy: 141, 20
+  size: 19, 13
+  orig: 19, 13
+  offset: 0, 0
+  index: -1
+hbb
+  rotate: false
+  xy: 827, 707
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+hbc
+  rotate: true
+  xy: 289, 36
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+jianm
+  rotate: true
+  xy: 2, 2
+  size: 184, 137
+  orig: 184, 137
+  offset: 0, 0
+  index: -1
+jianmxia
+  rotate: true
+  xy: 952, 949
+  size: 73, 40
+  orig: 73, 40
+  offset: 0, 0
+  index: -1
+mao
+  rotate: false
+  xy: 141, 35
+  size: 146, 151
+  orig: 146, 151
+  offset: 0, 0
+  index: -1
+mao1
+  rotate: false
+  xy: 2, 188
+  size: 328, 444
+  orig: 328, 444
+  offset: 0, 0
+  index: -1
+mao2
+  rotate: false
+  xy: 489, 137
+  size: 56, 35
+  orig: 56, 35
+  offset: 0, 0
+  index: -1
+piaod1
+  rotate: true
+  xy: 572, 440
+  size: 203, 125
+  orig: 203, 125
+  offset: 0, 0
+  index: -1
+piaod2
+  rotate: false
+  xy: 453, 645
+  size: 266, 77
+  orig: 266, 77
+  offset: 0, 0
+  index: -1
+piaod3
+  rotate: true
+  xy: 849, 729
+  size: 293, 101
+  orig: 293, 101
+  offset: 0, 0
+  index: -1
+shouy
+  rotate: false
+  xy: 332, 325
+  size: 238, 307
+  orig: 238, 307
+  offset: 0, 0
+  index: -1
+shouz
+  rotate: false
+  xy: 289, 49
+  size: 198, 123
+  orig: 198, 123
+  offset: 0, 0
+  index: -1
+ti
+  rotate: true
+  xy: 721, 638
+  size: 84, 104
+  orig: 84, 104
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 332, 174
+  size: 149, 227
+  orig: 149, 227
+  offset: 0, 0
+  index: -1
+tuiy
+  rotate: false
+  xy: 453, 724
+  size: 394, 298
+  orig: 394, 298
+  offset: 0, 0
+  index: -1
+tuiz
+  rotate: false
+  xy: 2, 634
+  size: 449, 388
+  orig: 449, 388
+  offset: 0, 0
+  index: -1
