@@ -172,6 +172,9 @@ function MailInBox:onUpdateDraw(index)
 			return false
 		end)
     else
+        -- O texto padrão do CSB mostra "Erro de código". Em uma caixa vazia,
+        -- apresentar um estado vazio de verdade, sem sugerir falha de protocolo.
+        Text_mail_not:setString("Nenhuma mensagem recebida")
         Text_mail_not:setVisible(true)
 	end
 	for j, w in pairs(inBoxInfo) do

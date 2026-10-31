@@ -504,10 +504,10 @@ function MailOtherInfo:onUpdateDraw(  )
             end
         end
 		
-		Text_mail_name:setString(self._mail_data.mail_title)     -- 标题
+		Text_mail_name:setString(zstring.exchangeFrom(self._mail_data.mail_title))     -- 标题
         Text_mail_name:setFontName(fontName)
         Text_mail_name:setFontSize(Text_mail_name:getFontSize())
-		mail_dec = self._mail_data.mail_dec
+		mail_dec = zstring.exchangeFrom(self._mail_data.mail_dec)
 	end
     Text_mail_time:setString(self:getTimeFormatYMDHMS(tonumber(self._mail_data.mail_date_time)/1000))    -- 时间
 	local Button_mail_delete = ccui.Helper:seekWidgetByName(root,"Button_mail_delete")

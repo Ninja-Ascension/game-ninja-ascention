@@ -16,7 +16,7 @@ function M.refresh(window)
     window.__recruit_balances[3]:setString(tostring(user.user_food or 0)..'/'..tostring(user.max_user_food or 0))
 end
 function M.apply(window)
-    if window.__recruit_lobby or __lua_project_id~=__lua_project_l_naruto then return end
+    if window.__recruit_lobby then return end
     local root=window.roots and window.roots[1]
     if not root then return end
     window.__recruit_lobby=true

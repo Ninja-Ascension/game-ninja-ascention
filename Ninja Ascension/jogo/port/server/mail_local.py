@@ -35,14 +35,22 @@ def install(server):
         return account,fields
 
     def profile(account):
-        row=db._conn.execute('''SELECT p.user_name, COALESCE(c.grade,1), COALESCE(v.grade,0)
+        row=db._conn.execute('''SELECT p.user_name, COALESCE(c.grade,1)
             FROM perfis p LEFT JOIN local_campaign c ON c.conta_id=p.conta_id
-            LEFT JOIN local_vip v ON v.conta_id=p.conta_id WHERE p.conta_id=?''',(account,)).fetchone()
-        return (row[0],int(row[1]),int(row[2])) if row else ('-',1,0)
+            WHERE p.conta_id=?''',(account,)).fetchone()
+        if not row:return ('-',1,0)
+        has_vip=db._conn.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='local_vip'").fetchone()
+        vip_row=db._conn.execute('SELECT grade FROM local_vip WHERE conta_id=?',(account,)).fetchone() if has_vip else None
+        return row[0],int(row[1]),int(vip_row[0]) if vip_row else 0
 
     def mail_init(seq,text):
         try:
-            account,fields=request(seq,text,1,1)
+            # The client sends user_id, mailbox selector, page, and page size.
+            account,fields=request(seq,text,4,4)
+            if not fields[1].lstrip('-').isdigit() or not fields[2].isdigit() or not fields[3].isdigit():
+                raise ValueError('pedido_de_email_invalido')
+            page_size=int(fields[3])
+            if not 1<=page_size<=100:raise ValueError('tamanho_de_pagina_invalido')
             unread=db._conn.execute('SELECT count(*) FROM local_mail WHERE recipient_id=? AND deleted_recipient=0 AND read_at=0',(account,)).fetchone()[0]
             return ' '.join([str(seq),'email_init','0','201',str(unread),'202','0'])
         except (server._contas.ErroConta,ValueError) as exc:

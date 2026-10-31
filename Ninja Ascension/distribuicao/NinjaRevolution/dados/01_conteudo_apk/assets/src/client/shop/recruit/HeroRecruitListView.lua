@@ -1302,6 +1302,9 @@ function HeroRecruitListView:onEnterTransitionFinish()
 		action:gotoFrameAndPlay(0, action:getDuration(), false)
 	end
 	csbShopRecruitList:runAction(action)
+	-- O hook global pode ser instalado depois da janela em alguns caminhos do PC.
+	-- Aplicar o cabeçalho aqui, depois de criar a raiz real da tela.
+	require("recruit_lobby").apply(self)
 
 	if __lua_project_id == __lua_project_gragon_tiger_gate
         -- or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
@@ -1868,6 +1871,7 @@ function HeroRecruitListView:onInit( parentParent )
     end
 
 	self:registerOnNoteUpdate(self, 1)
+	require("recruit_lobby").apply(self)
 end
 
 function HeroRecruitListView:close( ... )
