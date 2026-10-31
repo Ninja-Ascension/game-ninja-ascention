@@ -4,6 +4,12 @@
 
 HeroRecruitListView = class("HeroRecruitListViewClass", Window)
 
+local recruitRequestSerial = 0
+local function nextRecruitRequestId()
+	recruitRequestSerial = recruitRequestSerial + 1
+	return tostring(os.time()) .. ":" .. tostring(recruitRequestSerial) .. ":" .. tostring(math.random(1, 99999999))
+end
+
 
 app.load("client.shop.recruit.HeroRecruitGeneralView")
 app.load("client.shop.ShopUserInformation")
@@ -46,18 +52,18 @@ function HeroRecruitListView:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params)
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
                     if tonumber(params._datas.m_type) == 1 then
                         local Panel_ck_f_1 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_f_1")
                         local Panel_ck_b_1 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_b_1")
-                        if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
+                        if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
                         else
                             Animations_openCard(instance,Panel_ck_f_1,Panel_ck_b_1)
                         end
                     else
                         local Panel_ck_f_2 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_f_2")
                         local Panel_ck_b_2 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_b_2")
-                        if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
+                        if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
                         else
                             instance._isChangePage = not instance._isChangePage
                             instance.actions[1]:play("animation_close", false)
@@ -92,7 +98,7 @@ function HeroRecruitListView:ctor()
                 end
                 local m_type = tonumber(params._datas.m_type)
                 local m_index = tonumber(params._datas.m_index)
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                     or __lua_project_id == __lua_project_l_pokemon 
                     or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                     then
@@ -116,8 +122,14 @@ function HeroRecruitListView:ctor()
                 local function recruitCallBack(response)
                     if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
                         if response.node ~= nil and response.node.roots ~= nil then
+                            -- The legacy single-draw screen treats a missing ship ID as zero.
+                            -- Set that sentinel explicitly when the response contains an item,
+                            -- fragment, or Ryo so stale/default ninja details cannot be shown.
+                            if (m_type == 1 or m_type == 2) and _ED.recruit_success_ship_id == nil then
+                                _ED.recruit_success_ship_id = "0"
+                            end
                             if __lua_project_id == __lua_project_gragon_tiger_gate
-                                or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+                                or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                                 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                                 or __lua_project_id == __lua_project_red_alert 
                                 then
@@ -125,7 +137,7 @@ function HeroRecruitListView:ctor()
                                     fwin:close(fwin:find("HeroRecruitSuccessClass"))
                                 end
                             end
-                            if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+                            if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
                                 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                                 then
                                 getSceneReward(64)
@@ -137,7 +149,7 @@ function HeroRecruitListView:ctor()
                             state_machine.excute("menu_hide_event", 0, "menu_hide_event.")
                             -- smFightingChange()
                             if __lua_project_id == __lua_project_gragon_tiger_gate
-                                or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+                                or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                                 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                                 or __lua_project_id == __lua_project_red_alert 
                                 then
@@ -149,14 +161,14 @@ function HeroRecruitListView:ctor()
                     end
                     state_machine.unlock("hero_recruit_list_view_a_recruiting")
                     state_machine.unlock("hero_recruit_list_view_ten_recruiting")
-                    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+                    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
                         or __lua_project_id == __lua_project_l_pokemon 
                         or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                         then
                         _ED.prop_chest_store_recruiting = false
                     end
                 end      
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
                     or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                     then
                     _ED.new_prop_object = {}
@@ -171,7 +183,7 @@ function HeroRecruitListView:ctor()
                     protocol_command.draw_reward_main.param_list = req
                     NetworkManager:register(protocol_command.draw_reward_main.code, nil, nil, nil, instance, recruitCallBack, false, nil)
                 else
-                    protocol_command.ship_bounty.param_list = ""..m_type
+					protocol_command.ship_bounty.param_list = ""..m_type.."\r\n"..nextRecruitRequestId()
                     NetworkManager:register(protocol_command.ship_bounty.code, nil, nil, nil, instance, recruitCallBack, false, nil)
                 end
                 return true
@@ -201,7 +213,7 @@ function HeroRecruitListView:ctor()
 
                 local m_type = tonumber(params._datas.m_type)
                 local m_index = tonumber(params._datas.m_index)
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                     or __lua_project_id == __lua_project_l_pokemon 
                     or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                     then
@@ -235,7 +247,7 @@ function HeroRecruitListView:ctor()
                 local function tenrecruitCallBack(response)
                     if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
                         if response.node ~= nil and response.node.roots ~= nil then
-                            if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+                            if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
                                 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                                 then
                                 getSceneReward(64)
@@ -256,7 +268,7 @@ function HeroRecruitListView:ctor()
                                 state_machine.excute("menu_hide_event", 0, "menu_hide_event.")
                                 -- smFightingChange()
                                 if __lua_project_id == __lua_project_gragon_tiger_gate
-                                    or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+                                    or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                                     or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                                     or __lua_project_id == __lua_project_red_alert 
                                     then
@@ -269,14 +281,14 @@ function HeroRecruitListView:ctor()
                     end
                     state_machine.unlock("hero_recruit_list_view_a_recruiting")
                     state_machine.unlock("hero_recruit_list_view_ten_recruiting")
-                    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+                    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
                         or __lua_project_id == __lua_project_l_pokemon 
                         or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                         then
                         _ED.prop_chest_store_recruiting = false
                     end
                 end
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
                     or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                     then
                     _ED.new_prop_object = {}
@@ -291,7 +303,7 @@ function HeroRecruitListView:ctor()
                     protocol_command.draw_reward_main.param_list = req
                     NetworkManager:register(protocol_command.draw_reward_main.code, nil, nil, nil, instance, tenrecruitCallBack, false, nil)
                 else
-                     protocol_command.ship_batch_bounty.param_list =""..m_type
+				     protocol_command.ship_batch_bounty.param_list =""..m_type.."\r\n"..nextRecruitRequestId()
                     NetworkManager:register(protocol_command.ship_batch_bounty.code, nil, nil, nil, instance, tenrecruitCallBack, false, nil)
                 end
                 return true
@@ -310,10 +322,10 @@ function HeroRecruitListView:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params)
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
                     local Panel_ck_f_1 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_f_1")
                     local Panel_ck_b_1 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_b_1")
-                    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
+                    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
                     else
                         Animations_openCard(instance,Panel_ck_b_1,Panel_ck_f_1)
                     end
@@ -353,10 +365,10 @@ function HeroRecruitListView:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params)
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
                     local Panel_ck_f_2 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_f_2")
                     local Panel_ck_b_2 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_b_2")
-                    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
+                    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
                     else
                         instance._isChangePage = not instance._isChangePage
                         Animations_openCard(instance,Panel_ck_b_2,Panel_ck_f_2)
@@ -455,7 +467,7 @@ function HeroRecruitListView:ctor()
             _state = 0,
             _invoke = function(terminal, instance, params)
         	    if __lua_project_id == __lua_project_gragon_tiger_gate
-                    or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+                    or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                     or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                     or __lua_project_id == __lua_project_red_alert 
                     then
@@ -488,7 +500,7 @@ function HeroRecruitListView:ctor()
             _state = 0,
             _invoke = function(terminal, instance, params)
         	    if __lua_project_id == __lua_project_gragon_tiger_gate
-                    or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+                    or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                     or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                     or __lua_project_id == __lua_project_red_alert 
                     then
@@ -520,7 +532,7 @@ function HeroRecruitListView:ctor()
             _state = 0,
             _invoke = function(terminal, instance, params)
         	    if __lua_project_id == __lua_project_gragon_tiger_gate
-                    or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+                    or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                     or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                     or __lua_project_id == __lua_project_red_alert 
                     then
@@ -558,6 +570,25 @@ function HeroRecruitListView:ctor()
             _terminal = nil,
             _terminals = nil
         }
+
+        -- Fecha apenas a janela do Recruit quando ela foi aberta pela Home.
+        local hero_recruit_list_view_close_terminal = {
+            _name = "hero_recruit_list_view_close",
+            _init = function (terminal)
+            end,
+            _inited = false,
+            _instance = self,
+            _state = 0,
+            _invoke = function(terminal, instance, params)
+                local recruitWindow = fwin:find("HeroRecruitListViewClass")
+                if recruitWindow ~= nil then
+                    fwin:close(recruitWindow)
+                end
+                return true
+            end,
+            _terminal = nil,
+            _terminals = nil
+        }
         --
         local hero_recruit_list_view_chongzhi_terminal = {
             _name = "hero_recruit_list_view_chongzhi",
@@ -567,7 +598,7 @@ function HeroRecruitListView:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params)
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
                     or __lua_project_id == __lua_project_l_pokemon 
                     or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
                     then
@@ -691,6 +722,7 @@ function HeroRecruitListView:ctor()
 		state_machine.add(hero_recruit_shop_twopage_show_terminal)
 		state_machine.add(hero_recruit_shop_twopage_close_terminal)
 		state_machine.add(hero_recruit_list_view_back_terminal)
+        state_machine.add(hero_recruit_list_view_close_terminal)
 		state_machine.add(hero_recruit_list_action_show_terminal)
 		state_machine.add(hero_recruit_refreash_general_view_terminal)
         state_machine.add(hero_recruit_list_open_camp_terminal)
@@ -719,7 +751,7 @@ end
 function HeroRecruitListView:playActions( isShow )
 	local action = self.actions[1]
 	if isShow == true then
-        if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+        if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
             or __lua_project_id == __lua_project_l_pokemon 
             -- or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
             then
@@ -760,7 +792,7 @@ function HeroRecruitListView:onUpdateDrawOne(dt)
 			first_satus_string:setVisible(false)
 		end
 	end
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
         or __lua_project_id == __lua_project_l_pokemon 
         or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
         then
@@ -834,7 +866,7 @@ function HeroRecruitListView:onUpdateDrawOne(dt)
 	
 	local Text_time_1 = ccui.Helper:seekWidgetByName(Panel_35, "Text_518")	
 
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
         or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
         then
         local remainTime = (tonumber(_ED.free_info[1].next_free_time) or 0)/1000 - (os.time() - tonumber(_ED.free_info[1].free_start))--战将刷新时间
@@ -1217,11 +1249,36 @@ function HeroRecruitListView:updateDrawCamp(update_type)
 end
 
 function HeroRecruitListView:onEnterTransitionFinish()
+	-- Cenário de recrutamento extraído do APK de referência, atrás dos painéis.
+	local recruitBackdrop = cc.Sprite:create("images/ui/bg/shop_bg.png")
+	if recruitBackdrop ~= nil then
+		local windowSize = cc.Director:getInstance():getWinSize()
+		local imageSize = recruitBackdrop:getContentSize()
+		local scale = math.max(windowSize.width / imageSize.width, windowSize.height / imageSize.height)
+		recruitBackdrop:setScale(scale)
+		recruitBackdrop:setPosition(cc.p(windowSize.width / 2, windowSize.height / 2))
+		self:addChild(recruitBackdrop, -1)
+	end
 	state_machine.excute("hero_recruit_shop_twopage_open",0,"")
 	local csbShopRecruitList = csb.createNode("shop/shop.csb")
 	local root = csbShopRecruitList:getChildByName("root")
 	table.insert(self.roots, root)
 	self:addChild(csbShopRecruitList)
+	-- A cena original não inclui um X para a abertura direta pela Home.
+	local recruitCloseButton = ccui.Button:create("images/ui/button/button_close_1.png", "images/ui/button/button_close_1.png")
+	if recruitCloseButton ~= nil then
+		local windowSize = cc.Director:getInstance():getWinSize()
+		local buttonSize = recruitCloseButton:getContentSize()
+		recruitCloseButton:setScale(0.9)
+		recruitCloseButton:setPosition(cc.p(windowSize.width - buttonSize.width * 0.55, windowSize.height - buttonSize.height * 0.55))
+		self:addChild(recruitCloseButton, 1000)
+		fwin:addTouchEventListener(recruitCloseButton, nil,
+		{
+			terminal_name = "hero_recruit_list_view_close",
+			terminal_state = 0,
+			isPressedActionEnabled = true
+		}, nil, 0)
+	end
 	local action = csb.createTimeline("shop/shop.csb")
 	table.insert(self.actions,action)
 	if __lua_project_id == __lua_project_gragon_tiger_gate
@@ -1231,7 +1288,7 @@ function HeroRecruitListView:onEnterTransitionFinish()
         or __lua_project_id == __lua_project_rouge
         then
         action:play("window_open", false)
-    elseif __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+    elseif __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
         -- or __lua_project_id == __lua_project_l_naruto 
         then
         action:play("animation_open", false)
@@ -1243,7 +1300,7 @@ function HeroRecruitListView:onEnterTransitionFinish()
 	csbShopRecruitList:runAction(action)
 
 	if __lua_project_id == __lua_project_gragon_tiger_gate
-        -- or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+        -- or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
         -- or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
         or __lua_project_id == __lua_project_red_alert 
         then
@@ -1316,7 +1373,7 @@ function HeroRecruitListView:onEnterTransitionFinish()
 	-- Initialize ui widget callback
 	local SetPressedActionEnabled = true 
 	if __lua_project_id == __lua_project_gragon_tiger_gate
-        or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+        or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
         or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
         or __lua_project_id == __lua_project_red_alert 
         then
@@ -1337,7 +1394,7 @@ function HeroRecruitListView:onEnterTransitionFinish()
 	end
 	
 	if __lua_project_id == __lua_project_gragon_tiger_gate
-        or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+        or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
         or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
         or __lua_project_id == __lua_project_red_alert 
         then
@@ -1359,7 +1416,7 @@ function HeroRecruitListView:onEnterTransitionFinish()
 	nil, 0)
 	
     local pushNode = ccui.Helper:seekWidgetByName(root, "Button_15")
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
         or __lua_project_id == __lua_project_l_pokemon 
         or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
         then
@@ -1379,7 +1436,7 @@ function HeroRecruitListView:onEnterTransitionFinish()
 	nil, 0)
 
     local pushNode2 = ccui.Helper:seekWidgetByName(root, "Button_16")
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
         pushNode2 = ccui.Helper:seekWidgetByName(root, "Image_zhaomu_di_2") 
     end
 	state_machine.excute("push_notification_center_manager", 0, { _terminal_name = "push_notification_center_shop_large_building",
@@ -1432,7 +1489,7 @@ function HeroRecruitListView:onEnterTransitionFinish()
 		self:updateDrawCamp()
 	end
 
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
         or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
         then
         local Button_diji_back = ccui.Helper:seekWidgetByName(root,"Button_diji_back")
@@ -1562,7 +1619,7 @@ function HeroRecruitListView:onInit( parentParent )
 
 	self.parentParent = parentParent
 
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
         -- or __lua_project_id == __lua_project_l_naruto 
         then
         action:play("animation_open", false)
@@ -1661,7 +1718,7 @@ function HeroRecruitListView:onInit( parentParent )
 	}, 
 	nil, 0)
 
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
         or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
         then
         local Panel_diwanglong = ccui.Helper:seekWidgetByName(root, "Panel_diwanglong")
@@ -1823,6 +1880,7 @@ function HeroRecruitListView:onExit()
 	state_machine.remove("hero_recruit_shop_twopage_show")
 	state_machine.remove("hero_recruit_shop_twopage_close")
 	state_machine.remove("hero_recruit_list_view_back")
+	state_machine.remove("hero_recruit_list_view_close")
 	state_machine.remove("hero_recruit_list_action_show")
 	state_machine.remove("hero_recruit_refreash_general_view")
     state_machine.remove("hero_recruit_list_open_camp")

@@ -214,6 +214,12 @@ function M.armar()
         require('formation_empty_slots').install(rawget(_G,'HomeHero'))
         require('recruit_visible_hero').install(rawget(_G,'HeroRecruitSuccess'))
         require('recruit_visible_hero').installTen(rawget(_G,'HeroRecruitSuccessTen'))
+        local recruitResults=require('recruit_results')
+        require('recruit_lobby').install(rawget(_G,'HeroRecruitListView'))
+        recruitResults.install(rawget(_G,'HeroRecruitSuccess'),1,'hero_recruit_success_renturn_shop_page')
+        recruitResults.install(rawget(_G,'HeroRecruitSuccessTen'),10,'hero_recruit_success_ten_renturn_shop_page')
+        recruitResults.install(rawget(_G,'HeroRecruitLegacySuccess'),1,'hero_recruit_legacy_success_renturn_shop_page')
+        recruitResults.install(rawget(_G,'HeroRecruitLegacySuccessTen'),10,'hero_recruit_legacy_success_ten_renturn_shop_page')
         -- Pedido do jogador: as conversas entre personagens nao aparecem mais.
         -- A janela continua concluindo o evento (o tutorial segue avancando).
         require('esconder_dialogos').install(rawget(_G,'RoleDialogue'))

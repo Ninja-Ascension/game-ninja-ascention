@@ -570,6 +570,10 @@ local ok,err=xpcall(function()
     end
     app.load('client.login.LoginLoading')
     app.load('client.home.Menu')
+    if os.getenv('NR_PROBE_LEGACY_RECRUIT_UI')=='1' then
+        dofile(NR_PROBE_ROOT..(os.getenv('NR_PROBE_RECRUIT_RESULTS')=='1' and 'tools/probe_recruit_results.lua' or 'tools/probe_legacy_recruit.lua'))
+        return
+    end
     if os.getenv('NR_PROBE_NORMAL_RECRUIT')=='1' then
         NetworkManager.register=function() return false end
         local files=cc.FileUtils:getInstance()
@@ -996,6 +1000,10 @@ local ok,err=xpcall(function()
     end
 end,debug.traceback)
 print('MENU_BOOT_PROBE_RESULT '..tostring(ok)..' '..tostring(err))
+if os.getenv('NR_PROBE_LEGACY_RECRUIT_UI')=='1' then
+    local result=assert(io.open(NR_PROBE_ROOT..'build/legacy-recruit-native/result.txt','w'))
+    result:write(tostring(ok)..' '..tostring(err));result:close()
+end
 if os.getenv('NR_PROBE_QUICK_UPGRADES')=='1' or os.getenv('NR_PROBE_TREASURE')=='1' or os.getenv('NR_PROBE_EQUIPMENT_DEVELOPMENT')=='1' or os.getenv('NR_PROBE_SAGA_UI')=='1' then
     local name=os.getenv('NR_PROBE_SAGA_UI')=='1' and 'saga-ui' or (os.getenv('NR_PROBE_EQUIPMENT_DEVELOPMENT')=='1' and 'equipment-development' or (os.getenv('NR_PROBE_TREASURE')=='1' and 'treasure' or 'quick-upgrades'))
     local result=assert(io.open(NR_PROBE_ROOT..'build/'..name..'-native-result.txt','w'))

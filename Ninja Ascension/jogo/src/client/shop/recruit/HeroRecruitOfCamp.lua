@@ -305,7 +305,7 @@ function HeroRecruitOfCamp:sendOnceDraw( ... )
 	
     for i = 1,_ED.partner_bounty_get_num do
         local name = dms.string(dms["prop_mould"], _ED.partner_bounty_get_return_reward[i].reward_id, prop_mould.prop_name)
-        if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+        if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
             name = setThePropsIcon(_ED.partner_bounty_get_return_reward[i].reward_id)[2]
         end
         local number = _ED.partner_bounty_get_return_reward[i].reward_count
@@ -467,7 +467,7 @@ function HeroRecruitOfCamp:updateDraw(update_type)
     local shipIds = zstring.split(dms.atos(datas, partner_bounty.ship_mould),",")
 
     local shipname1 = nil
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
         --进化形象
         local evo_image = dms.string(dms["ship_mould"], tonumber(shipIds[1]), ship_mould.fitSkillTwo)
         local evo_info = zstring.split(evo_image, ",")
@@ -483,7 +483,7 @@ function HeroRecruitOfCamp:updateDraw(update_type)
     local shipnamecolor1 = cc.c3b(color_Type[colortype1+1][1],color_Type[colortype1+1][2],color_Type[colortype1+1][3])
     
     local shipname2 = nil
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
         --进化形象
         local evo_image = dms.string(dms["ship_mould"], tonumber(shipIds[2]), ship_mould.fitSkillTwo)
         local evo_info = zstring.split(evo_image, ",")

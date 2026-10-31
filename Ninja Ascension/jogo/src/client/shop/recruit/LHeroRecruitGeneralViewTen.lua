@@ -80,7 +80,7 @@ function LHeroRecruitGeneralViewTen:ctor()
 					local function recruitCallBack(response)
 						if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
 							if __lua_project_id == __lua_project_gragon_tiger_gate
-								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 								or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 								or __lua_project_id == __lua_project_red_alert 
 								then
@@ -168,7 +168,7 @@ function LHeroRecruitGeneralViewTen:ctor()
 					local function recruitCallBack(response)
 						if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
 							if __lua_project_id == __lua_project_gragon_tiger_gate
-								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 								or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 								or __lua_project_id == __lua_project_red_alert 
 								then
@@ -280,7 +280,7 @@ function LHeroRecruitGeneralViewTen:onUpdateDraw()
 		Panel_01:setVisible(true)
 		Panel_02:setVisible(false)
 		if __lua_project_id == __lua_project_gragon_tiger_gate
-			or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+			or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 			or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 			or __lua_project_id == __lua_project_red_alert 
 			then
@@ -327,7 +327,7 @@ function LHeroRecruitGeneralViewTen:onUpdateDraw()
 		Panel_01:setVisible(false)
 		Panel_02:setVisible(true)
 		if __lua_project_id == __lua_project_gragon_tiger_gate
-			or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+			or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 			or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 			or __lua_project_id == __lua_project_red_alert 
 			then
@@ -415,7 +415,7 @@ function LHeroRecruitGeneralViewTen:onEnterTransitionFinish()
 	-- 给各个金币框 赋值
 	local price = countActivityHeroDiscount()
 	if __lua_project_id == __lua_project_gragon_tiger_gate
-		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 		or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 		or __lua_project_id == __lua_project_red_alert 
 		then
@@ -438,7 +438,7 @@ function LHeroRecruitGeneralViewTen:onEnterTransitionFinish()
 	
 	
 	if __lua_project_id == __lua_project_gragon_tiger_gate
-		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 		or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 		or __lua_project_id == __lua_project_red_alert 
 		then
@@ -485,13 +485,13 @@ function LHeroRecruitGeneralViewTen:onEnterTransitionFinish()
 			local ship = drawShips[((index - 1) % nsCount) + 1]
 			local shipId = dms.atoi(ship,bounty_hero_param.prop_mould)			
 			if __lua_project_id == __lua_project_gragon_tiger_gate
-				or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+				or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 				or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 				or __lua_project_id == __lua_project_red_alert 
 				or __lua_project_id == __lua_project_legendary_game 
 				then			--龙虎门项目控制
 				local temp_bust_index = 0
-				if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+				if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
 					or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 					then
 					----------------------新的数码的形象------------------------
@@ -520,7 +520,7 @@ function LHeroRecruitGeneralViewTen:onEnterTransitionFinish()
 				if animationMode == 1 then
 					app.load("client.battle.fight.FightEnum")
 					local shipSpine = sp.spine_sprite(heroPanel, temp_bust_index, spineAnimations[_enum_animation_frame_index.animation_standby + 1], true, nil, nil, cc.p(0.5, 0))
-					if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+					if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
 						or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 						then
 				        shipSpine:setScaleX(-1)
@@ -534,7 +534,7 @@ function LHeroRecruitGeneralViewTen:onEnterTransitionFinish()
 				ccui.Helper:seekWidgetByName(_widget, heros1[curIndex]):setBackGroundImage(iconImage)
 			end
 			local shipData1 = nil
-			if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+			if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
 				or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 				then
 				--进化形象

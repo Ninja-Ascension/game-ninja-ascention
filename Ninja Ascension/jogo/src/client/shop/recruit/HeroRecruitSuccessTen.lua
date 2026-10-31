@@ -1251,6 +1251,7 @@ function HeroRecruitSuccessTen:openNewShowActionSpecialOver()
 				end
 			end
 			ccui.Helper:seekWidgetByName(root,"Panel_15"):setVisible(true)
+			self:finishLegacyRecruitment()
 			fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root,"Panel_15"), nil, {terminal_name = "hero_recruit_success_ten_renturn_shop_page", terminal_state = 0, touch_scale = true}, nil, 0)
 			if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
 				ccui.Helper:seekWidgetByName(root,"Panel_15"):setTouchEnabled(false)
@@ -1342,8 +1343,6 @@ function HeroRecruitSuccessTen:openNewShowActionSpecial()
 		local word_info = dms.element(dms["word_mould"], name_mould_id)
         local location = word_info[3]
 		Text_dingwei_m:setString(location)
-		local evo_image = dms.string(dms["ship_mould"], ship_id, ship_mould.fitSkillTwo)
-
 		-- DSC重塑
 		local Text_1 = ccui.Helper:seekWidgetByName(infoRoot, "Text_1")
 		local Panel_quality_hero = ccui.Helper:seekWidgetByName(infoRoot, "Panel_quality_hero")
@@ -1385,19 +1384,13 @@ function HeroRecruitSuccessTen:openNewShowActionSpecial()
             skill_icon:setPosition(cc.p(Panel_skill_icon:getContentSize().width/2,Panel_skill_icon:getContentSize().height/2))
             Panel_skill_icon:addChild(skill_icon)
         end
-        local skillNameId = dms.int(dms["talent_mould"], talentMouldid, talent_mould.talent_name)
-        local word_info = dms.element(dms["word_mould"], skillNameId)
-        local skillName = word_info[3]
-        skillName = skillDescriptionReplaceData(talentMouldid,ship_mould_id,1,1,false)
+        local skillName = skillDescriptionReplaceData(talentMouldid,ship_mould_id,1,1,false)
         local Text_skill_name = ccui.Helper:seekWidgetByName(infoRoot, "Text_skill_name")
         Text_skill_name:setString(skillName)
 
         --描述
 	    local Text_skill_infor = ccui.Helper:seekWidgetByName(infoRoot, "Text_skill_infor")
-	    local skill_describe_id = dms.string(dms["talent_mould"], talentMouldid, talent_mould.talent_describe)
-	    local word_info = dms.element(dms["word_mould"], skill_describe_id)
-	    local skill_describe = word_info[3]
-	    skill_describe = skillDescriptionReplaceData(talentMouldid,ship_mould_id,1,2,false)
+	    local skill_describe = skillDescriptionReplaceData(talentMouldid,ship_mould_id,1,2,false)
 	    Text_skill_infor:setString(skill_describe)
 
 	    --分享按钮显示
@@ -1704,6 +1697,36 @@ function HeroRecruitSuccessTen:showClosePanelUI(index)
 	end
 end
 
+-- The batch grid owns the screen after the last reveal. The CSB timelines
+-- also write visibility on detail panels, so clean them after that frame.
+function HeroRecruitSuccessTen:finishLegacyRecruitment()
+	if self.mIndex ~= 1 and self.mIndex ~= 2 then return end
+	local root = self.roots[1]
+	root:runAction(cc.CallFunc:create(function()
+		for index = 1, self.number do
+			local detail = ccui.Helper:seekWidgetByName(root, "Panel_show_hero_"..index)
+			if detail then
+				-- This parent also owns the final reward icon and name.
+				detail:setVisible(true)
+				local character = detail:getChildByName("ProjectNode_2")
+				if character then
+					character:setVisible(false)
+					character:stopAllActions()
+				end
+			end
+			local icon = ccui.Helper:seekWidgetByName(root, "Panel_head_icon_"..index)
+			if icon then icon:setVisible(true); icon:setOpacity(255) end
+			local name = ccui.Helper:seekWidgetByName(root, "Text_hero_name_"..index)
+			if name then name:setVisible(true); name:setOpacity(255) end
+		end
+		ccui.Helper:seekWidgetByName(root,"Panel_15"):setVisible(true)
+		local stage = ccui.Helper:seekWidgetByName(root, "Panel_come_on_the_stage")
+		local background = ccui.Helper:seekWidgetByName(root, "Image_shop_bg")
+		if stage then stage:setTouchEnabled(false) end
+		if background then background:setTouchEnabled(false) end
+	end))
+end
+
 function HeroRecruitSuccessTen:closePageEvent()
 	-- 关闭界面
 	local Image_shop_bg = ccui.Helper:seekWidgetByName(self.roots[1], "Image_shop_bg")
@@ -1950,8 +1973,19 @@ end
 function HeroRecruitSuccessTen:openNewShowAction()
 	local root = self.roots[1]
 	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+		if self.mIndex == 2 then
+			-- During Gold x10, show only the current reward. A full character
+			-- reveal takes over the screen; the complete grid returns at the end.
+			for index = 1, self.number do
+				local oldIcon = ccui.Helper:seekWidgetByName(root, "Panel_head_icon_"..index)
+				local oldName = ccui.Helper:seekWidgetByName(root, "Text_hero_name_"..index)
+				if oldIcon then oldIcon:setVisible(index == self.heroIndex) end
+				if oldName then oldName:setVisible(false) end
+			end
+		end
 		local heroImage = ccui.Helper:seekWidgetByName(root,"Panel_head_icon_"..self.heroIndex)
 		heroImage:removeAllChildren(true)
+		heroImage:setVisible(true)
 
 		local data = self.recruitment_data[tonumber(self.heroIndex)]
 
@@ -2317,6 +2351,7 @@ function HeroRecruitSuccessTen:openNewShowAction()
 								name:setColor(cc.c3b(color_Type[colortype + 1][1], color_Type[colortype + 1][2], color_Type[colortype + 1][3]))
 							end
 						end
+						name:setVisible(true)
 						self.heroIndex = self.heroIndex + 1
 						self:openNewShowAction()
 					else
@@ -2397,6 +2432,7 @@ function HeroRecruitSuccessTen:openNewShowAction()
 							end
 						end
 						ccui.Helper:seekWidgetByName(root,"Panel_15"):setVisible(true)
+						self:finishLegacyRecruitment()
 						fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root,"Panel_15"), nil, {terminal_name = "hero_recruit_success_ten_renturn_shop_page", terminal_state = 0}, nil, 0)
 						if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
 							ccui.Helper:seekWidgetByName(root,"Panel_15"):setTouchEnabled(false)
@@ -2422,6 +2458,10 @@ function HeroRecruitSuccessTen:openNewShowAction()
 		-- se lanza a mano con el frame final ya aplicado.
 		if self.bSpeedUp == true then
 			root:runAction(cc.CallFunc:create(function()
+				-- Acelera somente o resultado atual. Se deixar ligado antes do
+				-- evento abrir o próximo item, a cadeia inteira pula os efeitos
+				-- e as revelações do 10x se sobrepõem.
+				self.bSpeedUp = false
 				action:gotoFrameAndPause(action:getEndFrame())
 				action:setFrameEventCallFunc(onFrameEvent)
 				if heroOpenOver == false then
@@ -2975,18 +3015,36 @@ function HeroRecruitSuccessTen:ShowUI()
 			end
 		end
 
-		--随机打乱数组
-		local lists = self.recruitment_data
-		local lists_two = {}
-		RandFetch(lists_two,#lists,#lists,lists)
-		self.recruitment_data = lists_two
+		-- Keep normal Recruit results in the order returned by the server.
+		if self.mIndex ~= 1 and self.mIndex ~= 2 then
+			local lists = self.recruitment_data
+			local lists_two = {}
+			RandFetch(lists_two,#lists,#lists,lists)
+			self.recruitment_data = lists_two
+		end
 	end
 
 
 	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
 		or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 		then
-		if self.isplay ~= nil and self.isplay == true then
+		if self.mIndex == 1 then
+			-- Ryo x10 is shown as a persistent reward grid, with no ninja reveal.
+			local resultCount = math.min(self.number, #self.recruitment_data)
+			for index = 1, resultCount do
+				self.heroIndex = index
+				self:openNewShowAction()
+			end
+			if resultCount > 0 then
+				self.heroIndex = resultCount
+				self:finishLegacyRecruitment()
+				local acceptPanel = ccui.Helper:seekWidgetByName(csbHeroRecruitSuccessTen_root, "Panel_15")
+				fwin:addTouchEventListener(acceptPanel, nil, {
+					terminal_name = "hero_recruit_success_ten_renturn_shop_page",
+					terminal_state = 0,
+				}, nil, 0)
+			end
+		elseif self.isplay ~= nil and self.isplay == true then
 			playEffect(formatMusicFile("effect", 9983))
 			local function changeActionCallback( armatureBack ) 
 				ccui.Helper:seekWidgetByName(csbHeroRecruitSuccessTen_root,"Panel_yc"):setVisible(true)

@@ -650,95 +650,108 @@ function TrialTower:updateDrawBuffInfo()
         if addBuff[atype] == nil then
             addBuff[atype] = {}
             addBuff[atype].a_type = atype
-            addBuff[atype].a_value = avalue*num    
+            addBuff[atype].a_value = avalue*num
         else
-            addBuff[atype].a_value = addBuff[atype].a_value + avalue*num 
+            addBuff[atype].a_value = addBuff[atype].a_value + avalue*num
         end
-        
+
     end
     local Text_buff = ccui.Helper:seekWidgetByName(root, "Text_buff")
     Text_buff:removeAllChildren(true)
-    local m_height = 0 
-    local n_width = 0
+
+    -- 2026-10-13 (torre de prueba, lista de buffs): la caja crecia sin tope y se salia por arriba con
+    -- muchos buffs, y cada buff partia en dos renglones (170 px). Se mide cada linea para ensanchar la
+    -- caja (tope 320 px, crece hacia la izquierda: el borde derecho no se mueve) y se encaja la caja
+    -- dentro de la pantalla, bajo la barra superior; si ni asi cabe, se encoge. Todo se calcula desde
+    -- la geometria del .csb guardada la primera vez: esta funcion se llama otra vez al comprar un buff.
+    local lines = {}
     for i,v in pairs(addBuff) do
         m_index = m_index + 1
+        local value,name= getTrialtowerAdditionFormatValue(tonumber(v.a_type), tonumber(v.a_value))
+        table.insert(lines, tostring(skill_attributes_text_tips[tonumber(v.a_type)+1] or "")..tostring(value or ""))
     end
     if m_index == 0 then
-        local char_str = _new_interface_text[231]
+        table.insert(lines, tostring(_new_interface_text[231] or ""))
+    end
+
+    if self._buffViewBase == nil then
+        self._buffViewBase = {
+            x = Image_buff_view:getPositionX(),
+            y = Image_buff_view:getPositionY(),
+            w = Image_buff_view:getContentSize().width,
+            h = Image_buff_view:getContentSize().height,
+            textY = Text_buff:getPositionY(),
+            textW = Text_buff:getContentSize().width,
+        }
+    end
+    local base = self._buffViewBase
+    local fontName = Text_buff:getFontName()
+    local fontSize = Text_buff:getFontSize()
+
+    local richTextWidth = base.textW
+    if richTextWidth == 0 then
+        richTextWidth = fontSize * 6
+    end
+    for _, char_str in ipairs(lines) do
+        local probe = ccui.Text:create(char_str, fontName, fontSize)
+        richTextWidth = math.max(richTextWidth, probe:getContentSize().width + 8)
+    end
+    richTextWidth = math.min(richTextWidth, 320)
+
+    local m_height = 0
+    local n_width = 0
+    for _, char_str in ipairs(lines) do
         local _richText2 = ccui.RichText:create()
         _richText2:ignoreContentAdaptWithSize(false)
-
-        local richTextWidth = Text_buff:getContentSize().width-n_width
-        if richTextWidth == 0 then
-            richTextWidth = Text_buff:getFontSize() * 6
-        end
-
         _richText2:setContentSize(cc.size(richTextWidth,Text_buff:getContentSize().height))
         _richText2:setAnchorPoint(cc.p(0, 0))
-        local rt, count, text = draw.richTextCollectionMethod(_richText2, 
-            char_str, 
+        local rt, count, text = draw.richTextCollectionMethod(_richText2,
+            char_str,
             cc.c3b(255,255,255),
             cc.c3b(255,255,255),
-            0, 
-            0, 
-            Text_buff:getFontName(), 
-            Text_buff:getFontSize(),
+            0,
+            0,
+            fontName,
+            fontSize,
             the_color_of_the_fetters)
         _richText2:formatTextExt()
-        local rsize = _richText2:getContentSize()
         _richText2:setPosition(cc.p(n_width,0-m_height))
         Text_buff:addChild(_richText2)
 
-        local newHeight = 0
-        newHeight = _richText2:getContentSize().height
-        if newHeight > Text_buff:getContentSize().height then
-            newHeight = _richText2:getContentSize().height
-        else
+        local newHeight = _richText2:getContentSize().height
+        if newHeight < Text_buff:getContentSize().height then
             newHeight = Text_buff:getContentSize().height
         end
         m_height = m_height + newHeight
-    else
-        for i,v in pairs(addBuff) do
-            local value,name= getTrialtowerAdditionFormatValue(tonumber(v.a_type), tonumber(v.a_value))
-            local char_str = skill_attributes_text_tips[tonumber(v.a_type)+1]..value
-            local _richText2 = ccui.RichText:create()
-            _richText2:ignoreContentAdaptWithSize(false)
-
-            local richTextWidth = Text_buff:getContentSize().width-n_width
-            if richTextWidth == 0 then
-                richTextWidth = Text_buff:getFontSize() * 6
-            end
-        
-            _richText2:setContentSize(cc.size(richTextWidth,Text_buff:getContentSize().height))
-            _richText2:setAnchorPoint(cc.p(0, 0))
-            local rt, count, text = draw.richTextCollectionMethod(_richText2, 
-                char_str, 
-                cc.c3b(255,255,255),
-                cc.c3b(255,255,255),
-                0, 
-                0, 
-                Text_buff:getFontName(), 
-                Text_buff:getFontSize(),
-                the_color_of_the_fetters)
-            _richText2:formatTextExt()
-            local rsize = _richText2:getContentSize()
-            _richText2:setPosition(cc.p(n_width,0-m_height))
-            Text_buff:addChild(_richText2)
-
-            local newHeight = 0
-            newHeight = _richText2:getContentSize().height
-            if newHeight > Text_buff:getContentSize().height then
-                newHeight = _richText2:getContentSize().height
-            else
-                newHeight = Text_buff:getContentSize().height
-            end
-            m_height = m_height + newHeight
-        end
     end
 
-    local up = m_height - (Image_buff_view:getContentSize().height) + Text_buff:getFontSize()
-    Image_buff_view:setContentSize(cc.size(Image_buff_view:getContentSize().width,Image_buff_view:getContentSize().height + up))
-    Text_buff:setPositionY(Text_buff:getPositionY()+up)
+    local boxW = base.w + (richTextWidth - base.textW)
+    local boxH = m_height + fontSize
+    Image_buff_view:setContentSize(cc.size(boxW, boxH))
+    Text_buff:setPositionY(base.textY + (boxH - base.h))
+
+    -- encajar en pantalla: limites de la raiz (960x640 de diseno) pasados al espacio del padre
+    local anchor = Image_buff_view:getAnchorPoint()
+    local parent = Image_buff_view:getParent()
+    local limitTop = parent:convertToNodeSpace(root:convertToWorldSpace(cc.p(0, root:getContentSize().height - 60))).y
+    local limitBottom = parent:convertToNodeSpace(root:convertToWorldSpace(cc.p(0, 10))).y
+    local scale = 1
+    if boxH > limitTop - limitBottom then
+        scale = (limitTop - limitBottom) / boxH
+    end
+    Image_buff_view:setScale(scale)
+    local right = base.x + (1 - anchor.x) * base.w
+    local posX = right - (1 - anchor.x) * boxW * scale
+    local posY = base.y
+    local top = posY + (1 - anchor.y) * boxH * scale
+    if top > limitTop then
+        posY = posY - (top - limitTop)
+    end
+    local bottom = posY - anchor.y * boxH * scale
+    if bottom < limitBottom then
+        posY = posY + (limitBottom - bottom)
+    end
+    Image_buff_view:setPosition(cc.p(posX, posY))
 end
 
 function TrialTower:initDate()

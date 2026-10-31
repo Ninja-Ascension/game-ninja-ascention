@@ -969,6 +969,8 @@ def resposta_login_init(seq, texto="", nome_cmd="login_init"):
         ])
     log("login_init conta=%s user_id=%s sessao=%s"
         % (user_name, user_id, _mascarado(token)))
+    import legacy_recruit_local as _legacy_recruit_login
+    recruit_free_info = _legacy_recruit_login.login_tokens(BANCO, sessao['conta_id'])
     toks = [
         Z,                              # 1 server_review
         Z,                              # 2 user_force
@@ -1029,9 +1031,9 @@ def resposta_login_init(seq, texto="", nome_cmd="login_init"):
         Z,                              # 72 arena_number (contador)
         Z,                              # 73 login_and_exit
         Z, Z, Z, Z, Z,                  # 74-78
-        Z, Z, Z, Z,                     # 79-82
-        Z, Z, Z, Z, Z,                  # 83-87
-        Z, Z,                          # complete all nine free_info fields and friend counter
+        Z,                              # 79
+        *recruit_free_info,             # 80-88: original recruit free state (3 categories)
+        Z,                              # 89 friend_number
         str(len(itens)),                # 90 user_prop_number (native npos trace)
     ]
     # Measured using the original npos function: item count is read 90,
@@ -1534,6 +1536,8 @@ _player_level_local.install(sys.modules[__name__])
 # Mudra wraps ship_bounty/ship_batch_bounty, so it installs after shop_local.
 import mudra_local as _mudra_local
 _mudra_local.install(sys.modules[__name__])
+import legacy_recruit_local as _legacy_recruit_local
+_legacy_recruit_local.install(sys.modules[__name__])
 
 if __name__ == "__main__":
     # Windows: http.server liga allow_reuse_address=1 (SO_REUSEADDR), que

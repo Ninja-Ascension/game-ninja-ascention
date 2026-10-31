@@ -48,6 +48,11 @@ function AdditionSelect:ctor()
             _state = 0,
             _invoke = function(terminal, instance, params) 			
             	local buffData = zstring.split(dms.string(dms["three_kingdoms_config"], tonumber(_ED.integral_current_index), three_kingdoms_config.attribute_add_id), "|")
+				-- Segundo toque en cerrar cuando la respuesta ya subio el piso: la fila nueva no
+				-- tiene mejoras (buffData[2] nil). La primera peticion ya cierra la ventana.
+				if buffData[2] == nil then
+					return true
+				end
 				local buff_need = zstring.split(buffData[2],",")
 				local buff_info = zstring.split(buffData[1],",")
 				local needIndex = {}
@@ -115,9 +120,13 @@ function AdditionSelect:ctor()
 					end
 					return false
 				end)
-				local index = 0
 	            for i,v in pairs(instance.selectIndex) do
 	            	if tonumber(v.id) > 0 then
+	            		if buff_info == "" then
+	            			buff_info = tonumber(v.id)..":"..tonumber(v.shipid)
+	            		else
+	            			buff_info = buff_info .."|"..tonumber(v.id)..":"..tonumber(v.shipid)
+	            		end
 		            	local list = zstring.split( dms.string(dms["three_kingdoms_attribute"], v.id, three_kingdoms_attribute.attribute_value),",")
 		            	--战前处理的血量和怒气的加成
 		            	if tonumber(list[1]) == 4 or tonumber(list[1]) == 41 or tonumber(list[1]) == 999 then
@@ -166,14 +175,6 @@ function AdditionSelect:ctor()
 	            				_ED.user_try_ship_infos[""..v.shipid].maxHp = tonumber(_ED.user_try_ship_infos[""..v.shipid].maxHp) + tonumber(list[2])
 	            				_ED.user_try_ship_infos[""..v.shipid].newHp = tonumber(_ED.user_ship[""..v.shipid].ship_health)*(tonumber(_ED.user_try_ship_infos[""..v.shipid].maxHp)/100)
 		            		end
-		            	end
-	            	end
-	            	if tonumber(v.shipid) < 0 then
-	            		index = index + 1
-		            	if index == 1 then
-		            		buff_info = tonumber(v.id)..":"..tonumber(v.shipid)
-		            	else
-		            		buff_info = buff_info .."|"..tonumber(v.id)..":"..tonumber(v.shipid)
 		            	end
 	            	end
 	            end

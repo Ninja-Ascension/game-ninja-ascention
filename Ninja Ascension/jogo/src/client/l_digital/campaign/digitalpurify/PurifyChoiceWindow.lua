@@ -209,6 +209,18 @@ function PurifyChoiceWindow:onUpdateDraw()
     local picIndex = dms.int(dms["ship_evo_mould"], shipEvoMouldId, ship_evo_mould.form_id)
 
     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
+        -- O texto do painel grande deve coincidir com o da miniatura selecionada.
+        local name_mould_id = dms.int(dms["ship_evo_mould"], shipEvoMouldId, ship_evo_mould.name_index)
+        local shipName = dms.string(dms["word_mould"], name_mould_id, word_mould.text_info)
+        local selectedIndex = self._current_choice_team_index + 1
+        local selectedNameWidget = ccui.Helper:seekWidgetByName(root, "Text_digimon_name_" .. selectedIndex)
+        if selectedNameWidget ~= nil and selectedNameWidget:getString() ~= "" then
+            shipName = selectedNameWidget:getString()
+        end
+        local Text_digimon_name = ccui.Helper:seekWidgetByName(root, "Text_digimon_name")
+        if Text_digimon_name and shipName then
+            Text_digimon_name:setString(shipName)
+        end
         for i=1, 6 do
             local Panel_dh = ccui.Helper:seekWidgetByName(root, "Panel_dh_" .. i)
             Panel_dh:removeAllChildren(true)
@@ -240,6 +252,12 @@ function PurifyChoiceWindow:onUpdateDraw()
     else
         local name_mould_id = dms.int(dms["ship_evo_mould"], shipEvoMouldId, ship_evo_mould.name_index)
         local shipName = dms.string(dms["word_mould"], name_mould_id, word_mould.text_info)
+        local selectedIndex = self._current_choice_team_index + 1
+        local selectedPanel = ccui.Helper:seekWidgetByName(root, "Panel_digimon_icon_" .. selectedIndex)
+        local selectedNameWidget = selectedPanel and ccui.Helper:seekWidgetByName(selectedPanel, "Text_digimon_name")
+        if selectedNameWidget ~= nil and selectedNameWidget:getString() ~= "" then
+            shipName = selectedNameWidget:getString()
+        end
         local Text_digimon_name = ccui.Helper:seekWidgetByName(root, "Text_digimon_name")
         Text_digimon_name:setString(shipName)
 

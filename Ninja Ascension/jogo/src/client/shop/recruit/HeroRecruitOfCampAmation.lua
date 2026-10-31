@@ -165,7 +165,7 @@ function HeroRecruitOfCampAmation:initNpc()
 	local getPersonName = nil
 	local name_1 = nil
 	local name_2 = nil
-	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
 		--进化形象
 		local evo_image = dms.string(dms["ship_mould"], tonumber(ship_mould_table[1]), ship_mould.fitSkillTwo)
 		local evo_info = zstring.split(evo_image, ",")
@@ -178,7 +178,7 @@ function HeroRecruitOfCampAmation:initNpc()
 	else
 		name_1 = dms.string(dms["ship_mould"],tonumber(ship_mould_table[1]),ship_mould.captain_name)
 	end
-	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
 		--进化形象
 		local evo_image = dms.string(dms["ship_mould"], tonumber(ship_mould_table[2]), ship_mould.fitSkillTwo)
 		local evo_info = zstring.split(evo_image, ",")

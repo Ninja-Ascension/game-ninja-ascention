@@ -4,10 +4,27 @@
 
 HeroRecruitGeneralView = class("HeroRecruitGeneralViewClass", Window)
 
+local legacyRecruitRequestSerial = 0
+local function nextLegacyRecruitRequestId()
+	legacyRecruitRequestSerial = legacyRecruitRequestSerial + 1
+	-- Parser events append Ryo and item gains only while a recruit is in flight.
+	-- Clear stale reveal state so a 1x non-character draw cannot reuse a ninja.
+	_ED.new_prop_object = {}
+	_ED.new_reward_object = {}
+	_ED.recruit_success_ship_id = nil
+	_ED.prop_chest_store_recruiting = true
+	return tostring(os.time()) .. ":" .. tostring(legacyRecruitRequestSerial) .. ":" .. tostring(math.random(1, 99999999))
+end
+
+local function finishLegacyRecruitRequest()
+	-- All parser events have run by the time NetworkManager invokes the callback.
+	_ED.prop_chest_store_recruiting = false
+end
+
 function HeroRecruitGeneralView:ctor()
     self.super:ctor()
-	app.load("client.shop.recruit.HeroRecruitSuccess")
-	app.load("client.shop.recruit.HeroRecruitSuccessTen")
+	app.load("client.shop.recruit.HeroRecruitLegacySuccess")
+	app.load("client.shop.recruit.HeroRecruitLegacySuccessTen")
 	app.load("client.shop.recruit.HeroPurpleShow")
 	self.roots = {}
 	self.group = {}
@@ -79,10 +96,11 @@ function HeroRecruitGeneralView:ctor()
 				if TipDlg.drawStorageTipo() == false then
 					local herorIndex = params._datas._herorIndex --战将招募一次的索引
 					local function recruitCallBack(response)
+						finishLegacyRecruitRequest()
 						if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
 							if response.node ~= nil and response.node.roots ~= nil then
 								if __lua_project_id == __lua_project_gragon_tiger_gate
-									or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+									or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 									or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 									or __lua_project_id == __lua_project_red_alert 
 									then
@@ -95,7 +113,7 @@ function HeroRecruitGeneralView:ctor()
 								fwin:open(obj,fwin._view)
 								state_machine.excute("menu_hide_event", 0, "menu_hide_event.")
 								if __lua_project_id == __lua_project_gragon_tiger_gate
-									or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+									or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 									or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 									or __lua_project_id == __lua_project_red_alert 
 									then
@@ -108,12 +126,12 @@ function HeroRecruitGeneralView:ctor()
 					end
 					if herorIndex == 1 then--战将免费招募
 						if self.everyDayFreeTime > 0 or self.Heronumber > 0 and  self.Heronumber < 10 then
-							protocol_command.ship_bounty.param_list = ""..instance.pageIndex
+							protocol_command.ship_bounty.param_list = ""..instance.pageIndex.."\r\n"..nextLegacyRecruitRequestId()
 							NetworkManager:register(protocol_command.ship_bounty.code, nil, nil, nil, instance, recruitCallBack, false, nil)
 						end
 					elseif herorIndex == 2 then--战将令招募
 						if self.Heronumber > 0 then
-							protocol_command.ship_bounty.param_list = ""..instance.pageIndex
+							protocol_command.ship_bounty.param_list = ""..instance.pageIndex.."\r\n"..nextLegacyRecruitRequestId()
 							NetworkManager:register(protocol_command.ship_bounty.code, nil, nil, nil, instance, recruitCallBack, false, nil)
 						else
 							TipDlg.drawTextDailog(_string_piece_info[72])
@@ -139,15 +157,16 @@ function HeroRecruitGeneralView:ctor()
 				if TipDlg.drawStorageTipo() == false then
 					local herorIndex = params._datas._herorIndex
 					local function tenrecruitCallBack(response)
+						finishLegacyRecruitRequest()
 						if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
 							if response.node ~= nil and response.node.roots ~= nil then
 								local obj = HeroRecruitSuccessTen:new()
-								obj:setRanking(herorIndex,response.node.pageIndex)
+								obj:setRanking(herorIndex,response.node.pageIndex,true)
 								fwin:open(obj,fwin._view)
 								state_machine.excute("menu_hide_event", 0, "menu_hide_event.")
 								
 								if __lua_project_id == __lua_project_gragon_tiger_gate
-									or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+									or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 									or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 									or __lua_project_id == __lua_project_red_alert 
 									then
@@ -159,7 +178,7 @@ function HeroRecruitGeneralView:ctor()
 						end
 					end
 					if self.Heronumber >= 9 then
-						protocol_command.ship_batch_bounty.param_list =""..instance.pageIndex
+						protocol_command.ship_batch_bounty.param_list =""..instance.pageIndex.."\r\n"..nextLegacyRecruitRequestId()
 						NetworkManager:register(protocol_command.ship_batch_bounty.code, nil, nil, nil, instance, tenrecruitCallBack, false, nil)
 						
 					else
@@ -188,6 +207,7 @@ function HeroRecruitGeneralView:ctor()
 					-- local _goldNumber = tonumber(dms.string(dms["partner_bounty_param"],2,partner_bounty_param.spend_gold))
 					local price = countActivityHeroDiscount()
 					local function recruitCallBack(response)
+						finishLegacyRecruitRequest()
 						if (__lua_project_id == __lua_project_warship_girl_a 
 							or __lua_project_id == __lua_project_warship_girl_b 
 							or __lua_project_id == __lua_project_digimon_adventure 
@@ -200,7 +220,7 @@ function HeroRecruitGeneralView:ctor()
 						if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
 
 							if __lua_project_id == __lua_project_gragon_tiger_gate
-								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 								or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 								or __lua_project_id == __lua_project_red_alert 
 								then
@@ -209,11 +229,15 @@ function HeroRecruitGeneralView:ctor()
 								end
 							end
 							local obj = HeroRecruitSuccess:new()
-							obj:setRanking(herorIndex,instance.pageIndex)
+							local isNewGoldSingleCharacter = herorIndex == 5
+								and _ED.recruit_success_ship_id ~= nil
+								and zstring.tonumber(_ED.recruit_success_ship_id) ~= 0
+							local shouldPlayReveal = herorIndex ~= 5 or isNewGoldSingleCharacter
+							obj:setRanking(herorIndex,instance.pageIndex,shouldPlayReveal)
 							fwin:open(obj,fwin._view)
 							state_machine.excute("menu_hide_event", 0, "menu_hide_event.")
 							if __lua_project_id == __lua_project_gragon_tiger_gate
-								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 								or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 								or __lua_project_id == __lua_project_red_alert
 								 then
@@ -224,7 +248,7 @@ function HeroRecruitGeneralView:ctor()
 						end
 					end
 					if herorIndex == 4 then--神将免费招募
-						protocol_command.ship_bounty.param_list = ""..instance.pageIndex
+							protocol_command.ship_bounty.param_list = ""..instance.pageIndex.."\r\n"..nextLegacyRecruitRequestId()
 						NetworkManager:register(protocol_command.ship_bounty.code, nil, nil, nil, instance, recruitCallBack, false, nil)
 					elseif  herorIndex == 5 then--神将卡招募或者元宝招募
 						if self.HeronumberGod > 0 or tonumber(_ED.user_info.user_gold) >= price.one or self.pageState == 2 or self.pageState == 3 then
@@ -246,11 +270,11 @@ function HeroRecruitGeneralView:ctor()
 				            		state_machine.excute("use_diamond_confirm_tip_open", 0, {_datas={instance,nil,str1.."|"..str2 ,params}})
 				            		return
 				            	else
-				            		protocol_command.ship_bounty.param_list = ""..instance.pageIndex
+				            	protocol_command.ship_bounty.param_list = ""..instance.pageIndex.."\r\n"..nextLegacyRecruitRequestId()
 									NetworkManager:register(protocol_command.ship_bounty.code, nil, nil, nil, instance, recruitCallBack, false, nil)
 							    end
 							else
-								protocol_command.ship_bounty.param_list = ""..instance.pageIndex
+								protocol_command.ship_bounty.param_list = ""..instance.pageIndex.."\r\n"..nextLegacyRecruitRequestId()
 								NetworkManager:register(protocol_command.ship_bounty.code, nil, nil, nil, instance, recruitCallBack, false, nil)
 							end
 						else
@@ -278,6 +302,7 @@ function HeroRecruitGeneralView:ctor()
 					-- local _goldNumber = tonumber(dms.string(dms["partner_bounty_param"],4,partner_bounty_param.spend_gold))
 					local price = countActivityHeroDiscount()
 					local function recruitCallBack(response)
+						finishLegacyRecruitRequest()
 						if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
 							if (__lua_project_id == __lua_project_warship_girl_a 
 								or __lua_project_id == __lua_project_warship_girl_b 
@@ -290,12 +315,12 @@ function HeroRecruitGeneralView:ctor()
 							end
 							if response.node ~= nil and response.node.roots ~= nil then
 								local obj = HeroRecruitSuccessTen:new()
-								obj:setRanking(herorIndex,response.node.pageIndex)
+								obj:setRanking(herorIndex,response.node.pageIndex,true)
 								fwin:open(obj,fwin._view)
 								state_machine.excute("menu_hide_event", 0, "menu_hide_event.")
 								
 								if __lua_project_id == __lua_project_gragon_tiger_gate
-									or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+									or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 									or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 									or __lua_project_id == __lua_project_red_alert 
 									then
@@ -326,11 +351,11 @@ function HeroRecruitGeneralView:ctor()
 			            		state_machine.excute("use_diamond_confirm_tip_open", 0, {_datas={instance,nil,str1.."|"..str2 ,params}})
 			            		return
 			            	else
-			            		protocol_command.ship_batch_bounty.param_list = ""..instance.pageIndex
+				            	protocol_command.ship_batch_bounty.param_list = ""..instance.pageIndex.."\r\n"..nextLegacyRecruitRequestId()
 								NetworkManager:register(protocol_command.ship_batch_bounty.code, nil, nil, nil, instance, recruitCallBack, false, nil)
 						    end
 						else
-							protocol_command.ship_batch_bounty.param_list = ""..instance.pageIndex
+							protocol_command.ship_batch_bounty.param_list = ""..instance.pageIndex.."\r\n"..nextLegacyRecruitRequestId()
 							NetworkManager:register(protocol_command.ship_batch_bounty.code, nil, nil, nil, instance, recruitCallBack, false, nil)
 						end
 					else
@@ -407,7 +432,7 @@ function HeroRecruitGeneralView:onUpdateDraw()
 		Panel_01:setVisible(true)
 		Panel_02:setVisible(false)
 		if __lua_project_id == __lua_project_gragon_tiger_gate
-			or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+			or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 			or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 			or __lua_project_id == __lua_project_red_alert 
 			then
@@ -454,7 +479,7 @@ function HeroRecruitGeneralView:onUpdateDraw()
 		Panel_01:setVisible(false)
 		Panel_02:setVisible(true)
 		if __lua_project_id == __lua_project_gragon_tiger_gate
-			or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+			or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 			or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 			or __lua_project_id == __lua_project_red_alert 
 			then
@@ -555,7 +580,7 @@ function HeroRecruitGeneralView:onInit( ... )
 	-- 给各个金币框 赋值
 	local price = countActivityHeroDiscount()
 	if __lua_project_id == __lua_project_gragon_tiger_gate
-		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 		or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 		or __lua_project_id == __lua_project_red_alert 
 		then
@@ -566,7 +591,7 @@ function HeroRecruitGeneralView:onInit( ... )
 	ccui.Helper:seekWidgetByName(root, "Label_ptl"):setString(price.ten)
 	
 	if __lua_project_id == __lua_project_gragon_tiger_gate
-		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 		or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 		or __lua_project_id == __lua_project_red_alert 
 		then
@@ -586,7 +611,7 @@ function HeroRecruitGeneralView:onInit( ... )
 	
 	
 	if __lua_project_id == __lua_project_gragon_tiger_gate
-		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+		or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 		or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 		or __lua_project_id == __lua_project_red_alert 
 		then
@@ -633,13 +658,13 @@ function HeroRecruitGeneralView:onInit( ... )
 			local ship = drawShips[((index - 1) % nsCount) + 1]
 			local shipId = dms.atoi(ship,bounty_hero_param.prop_mould)			
 			if __lua_project_id == __lua_project_gragon_tiger_gate
-				or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+				or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
 				or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 				or __lua_project_id == __lua_project_red_alert 
 				or __lua_project_id == __lua_project_legendary_game 
 				then			--龙虎门项目控制
 				local temp_bust_index = 0
-				if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+				if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
 					or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 					then
 					----------------------新的数码的形象------------------------
@@ -668,7 +693,7 @@ function HeroRecruitGeneralView:onInit( ... )
 				if animationMode == 1 then
 					app.load("client.battle.fight.FightEnum")
 					local shipSpine = sp.spine_sprite(heroPanel, temp_bust_index, spineAnimations[_enum_animation_frame_index.animation_standby + 1], true, nil, nil, cc.p(0.5, 0))
-					if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+					if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
 						or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 						then
 				        shipSpine:setScaleX(-1)
@@ -682,7 +707,7 @@ function HeroRecruitGeneralView:onInit( ... )
 				ccui.Helper:seekWidgetByName(_widget, heros1[curIndex]):setBackGroundImage(iconImage)
 			end
 			local shipData1 = nil
-			if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
+			if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball 
 				or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 				then
 				--进化形象

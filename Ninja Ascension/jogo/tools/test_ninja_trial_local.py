@@ -50,12 +50,20 @@ with tempfile.TemporaryDirectory(prefix='ninja-trial-', dir=root / 'build') as f
 
         # The original floor 2 is a buff selection; the server stores the
         # configured attribute values, then unlocks floor 3.
-        buff = trial_request('three_kingdoms_launch', 54, 157, 0, 0, 0, 2,
-                   '100001:600,0,100', '1:-1|3:-1', '', 0)
-        assert ' three_kingdoms_launch 0 343 ' in buff and '1:-1,1|3:-1,1' in buff, buff
-        state = db._conn.execute('SELECT floor,buffs FROM local_ninja_trial WHERE conta_id=?',
+        # Floor 2 offers store IDs 1/3/6 for one star each. Attribute IDs are
+        # distinct from store IDs, and the client includes unselected sentinels.
+        buff_payload = ['54', '157', '0', '0', '0', '2',
+                        '100001:600,0,100', '1:-1|16:-1|35:-1|-1:-1', '', '0']
+        buff = trial_request('three_kingdoms_launch', *buff_payload)
+        assert ' three_kingdoms_launch 0 343 ' in buff and '1:-1,1|16:-1,1|35:-1,1' in buff, buff
+        state = db._conn.execute('SELECT floor,stars,history_stars,buffs FROM local_ninja_trial WHERE conta_id=?',
                                  (account,)).fetchone()
-        assert state[0] == 2 and state[1] == '1:-1,1|3:-1,1', tuple(state)
+        assert tuple(state) == (2, 0, 3, '1:-1,1|16:-1,1|35:-1,1'), tuple(state)
+        # A retry with a new sequence is the same purchase and must not spend twice.
+        buff_repeat = server.despacha('\r\n'.join(['8', 'three_kingdoms_launch', uid] + buff_payload))
+        assert buff_repeat.startswith('8 three_kingdoms_launch 0 343'), buff_repeat
+        assert db._conn.execute('SELECT stars FROM local_ninja_trial WHERE conta_id=?',
+                                (account,)).fetchone()[0] == 0
 
         # Clear original fight floor 3 and claim the configured floor 4 chest.
         current = buff.split()[buff.split().index('12558') + 7].split(',')
@@ -108,13 +116,15 @@ with tempfile.TemporaryDirectory(prefix='ninja-trial-', dir=root / 'build') as f
         # Original loss shape (floor=-1) is acknowledged without progress.
         loss = trial_request('three_kingdoms_launch', 54, 157, 0, 0, 1, -1,
                    '4001:25,0,25', '', '', 0)
-        assert ' 0 343 6 6 0 ' in loss and ' 4 0 -1 347 ' in loss, loss
+        # Three stars were spent on the floor-2 buffs, so the loss response
+        # reports the remaining three stars rather than the pre-spend total.
+        assert ' 0 343 3 3 0 ' in loss and ' 4 0 -1 347 ' in loss, loss
         treasure = re.search(r' 381 (\d+) 0(?:\s|$)', loss)
         assert treasure, loss
         state = db._conn.execute(
             'SELECT floor,stars FROM local_ninja_trial WHERE conta_id=?',
             (account,)).fetchone()
-        assert tuple(state) == (4, 6), state
+        assert tuple(state) == (4, 3), state
 
         db._conn.execute('UPDATE local_resources SET gold=5000 WHERE conta_id=?',(account,))
         treasure_id=treasure.group(1)
@@ -138,6 +148,9 @@ with tempfile.TemporaryDirectory(prefix='ninja-trial-', dir=root / 'build') as f
         server._sessao_conexao['token']=db.abrir_sessao(sweep_account)
         sweep_init=server.despacha('\r\n'.join(['60','three_kingdoms_init',sweep_uid]))
         assert '12558' in sweep_init, sweep_init
+        # This section tests the post-completion sweep path; seed that completed
+        # state in the temporary account rather than mutating a production row.
+        db._conn.execute('UPDATE local_ninja_trial SET completed_runs=1,vip_sweep=0,floor=0 WHERE conta_id=?',(sweep_account,))
         vip=10
         import dados_batalha as trial_data
         consume=trial_data.tabela('base_consume.txt')['66']

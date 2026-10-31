@@ -6,6 +6,55 @@
 -- 最后修改人：
 -------------------------------------------------------------------------------------------------------
 GuanQia = class("GuanQiaClass", Window)
+
+local function trialShipFightPower(ship)
+    return tonumber(ship and ship.hero_fight) or 0
+end
+
+local function normalizeTrialFormation()
+    local seen = {}
+    local changed = false
+    local requiredGrade = dms.int(dms["play_config"], 24, play_config.param)
+
+    if type(_ED.user_formetion_status) ~= "table" then
+        _ED.user_formetion_status = {}
+        changed = true
+    end
+    if type(_ED.formetion) ~= "table" then
+        _ED.formetion = {}
+        changed = true
+    end
+    if _ED.formetion[1] == nil then
+        _ED.formetion[1] = "0"
+        changed = true
+    end
+
+    for slot = 1, 6 do
+        local rawId = tonumber(_ED.user_formetion_status[slot])
+        local ship = rawId and rawId > 0 and _ED.user_ship[""..rawId] or nil
+        local trial = ship and _ED.user_try_ship_infos[""..ship.ship_id] or nil
+        local hp = trial and tonumber(trial.newHp) or (ship and tonumber(ship.ship_health)) or 0
+        local id = "0"
+
+        if ship ~= nil and hp > 0 and (tonumber(ship.ship_grade) or 0) >= requiredGrade
+            and not seen[tostring(ship.ship_id)] then
+            id = tostring(ship.ship_id)
+            seen[id] = true
+        end
+
+        if tostring(_ED.user_formetion_status[slot] or "0") ~= id
+            or tostring(_ED.formetion[slot + 1] or "0") ~= id then
+            changed = true
+        end
+        _ED.user_formetion_status[slot] = id
+        _ED.formetion[slot + 1] = id
+    end
+
+    if changed then
+        cc.UserDefault:getInstance():setStringForKey(getKey("trial_copy_formation_status_info"), zstring.concat(_ED.user_formetion_status, ","))
+        cc.UserDefault:getInstance():setStringForKey(getKey("trial_copy_formation_info"), zstring.concat(_ED.formetion, ","))
+    end
+end
     
 function GuanQia:ctor()
     self.super:ctor()
@@ -184,6 +233,7 @@ function GuanQia:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params)
+                print("[NINJA_TRIAL_TRACE][client] desafiar clicado indice="..tostring(params and params._datas and params._datas._pages))
                 for i,v in pairs(_ED.user_formetion_status) do
                     if tonumber(v) > 0 then
                         _ED.three_kingdoms_battle_index = tonumber(params._datas._pages)
@@ -239,11 +289,15 @@ end
 
 function GuanQia:onUpdateDraw()
 	local root = self.roots[1]
-	local Panel_2 = ccui.Helper:seekWidgetByName(root,"Panel_2")
 	for i=1, 3 do
-		local Sprite = Panel_2:getChildByName("Sprite_"..i)
-		local Panel_yc = Sprite:getChildByName("Panel_yc_"..i)
-		local Panel_emeny = Panel_yc:getChildByName("Panel_emeny_"..i)
+		local Sprite = ccui.Helper:seekWidgetByName(root,"Sprite_"..i)
+		local Panel_yc = ccui.Helper:seekWidgetByName(root,"Panel_yc_"..i)
+		local Panel_emeny = ccui.Helper:seekWidgetByName(root,"Panel_emeny_"..i)
+		if Sprite == nil or Panel_yc == nil or Panel_emeny == nil then
+			print("[NINJA_TRIAL_TRACE][client] render inimigo incompleto indice="..i
+				.." sprite="..tostring(Sprite ~= nil).." card="..tostring(Panel_yc ~= nil)
+				.." painel="..tostring(Panel_emeny ~= nil))
+		else
 		local maxStar = 0
 		local drawShip = 0
 		for j, v in pairs(self.ship_info[i]) do
@@ -254,10 +308,13 @@ function GuanQia:onUpdateDraw()
 			end
 		end
 
-        local temp_bust_index = drawShip
-        local armature_hero = sp.spine_sprite(Panel_emeny, temp_bust_index, spineAnimations[_enum_animation_frame_index.animation_standby + 1], true, nil, nil, cc.p(0.5, 0))
-        armature_hero.animationNameList = spineAnimations
-        sp.initArmature(armature_hero, true)
+		local temp_bust_index = drawShip
+		if tonumber(temp_bust_index) and tonumber(temp_bust_index) > 0 then
+			local armature_hero = sp.spine_sprite(Panel_emeny, temp_bust_index, spineAnimations[_enum_animation_frame_index.animation_standby + 1], true, nil, nil, cc.p(0.5, 0))
+			armature_hero.animationNameList = spineAnimations
+			sp.initArmature(armature_hero, true)
+		end
+		end
 	end
 
 end
@@ -488,28 +545,42 @@ function GuanQia:oneKeyFormationChange()
     -- state_machine.unlock("battle_ready_window_oen_key_formation_window")
 
     local nMaxCount = self:getFormationCount()
+    local candidateCount = 0
+    local rosterCount = 0
+    if type(_ED.user_ship) == "table" then
+        for _ in pairs(_ED.user_ship) do rosterCount = rosterCount + 1 end
+    end
+    print("[NINJA_TRIAL_TRACE][client] quick_formation inicio roster="..rosterCount)
 
     local function fightingCapacity(a,b)
-        local al = tonumber(a.hero_fight)
-        local bl = tonumber(b.hero_fight)
-        local result = false
-        if al > bl then
-            result = true
-        end
-        return result 
+        local al = trialShipFightPower(a)
+        local bl = trialShipFightPower(b)
+        if al ~= bl then return al > bl end
+        return tonumber(a.ship_id) < tonumber(b.ship_id)
     end
 
     local fightShipList = {}
     for i, ship in pairs(_ED.user_ship) do
-        if ship.ship_id ~= nil and nil ~= _ED.user_try_ship_infos[""..ship.ship_id] then
-        	if dms.int(dms["play_config"], 24, pirates_config.param) <= tonumber(ship.ship_grade) then
-                if tonumber(_ED.user_try_ship_infos[""..ship.ship_id].newHp) > 0 then
-    	            table.insert(fightShipList, ship) 
-                end
+	    if ship.ship_id ~= nil then
+	        local shipId = tostring(ship.ship_id)
+	        local trialInfo = _ED.user_try_ship_infos and _ED.user_try_ship_infos[shipId] or nil
+	        local remainingHp = trialInfo and tonumber(trialInfo.newHp)
+	            or tonumber(ship.ship_health) or 0
+	        if dms.int(dms["play_config"], 24, pirates_config.param) <= (tonumber(ship.ship_grade) or 0)
+	            and remainingHp > 0 then
+	            if trialInfo == nil then
+	                _ED.user_try_ship_infos = _ED.user_try_ship_infos or {}
+	                _ED.user_try_ship_infos[shipId] = {
+	                    newHp = remainingHp, maxHp = 100, newanger = 0, id = ship.ship_id
+	                }
+	            end
+	            table.insert(fightShipList, ship)
+	            candidateCount = candidateCount + 1
 	        end
         end
     end
     table.sort(fightShipList, fightingCapacity)
+    print("[NINJA_TRIAL_TRACE][client] quick_formation candidatos="..candidateCount)
 
     local str = ""
     for i = 1, 6 do
@@ -529,6 +600,13 @@ function GuanQia:oneKeyFormationChange()
     
     cc.UserDefault:getInstance():setStringForKey(getKey("trial_copy_formation_status_info"), zstring.concat(_ED.user_formetion_status, ","))
     cc.UserDefault:getInstance():setStringForKey(getKey("trial_copy_formation_info"), zstring.concat(_ED.formetion, ","))
+	local selectedCount = 0
+	for i=1, nMaxCount do
+	    if tonumber(_ED.user_formetion_status[i]) and tonumber(_ED.user_formetion_status[i]) > 0 then
+	        selectedCount = selectedCount + 1
+	    end
+	end
+	print("[NINJA_TRIAL_TRACE][client] quick_formation selecionados="..selectedCount)
 
     self:onUpdateDrawFormation()
 end
@@ -623,12 +701,35 @@ function GuanQia:initData()
     else
         _ED.user_formetion_status = zstring.split(trial_copy_formation_status_info, ",")
         _ED.formetion = zstring.split(trial_copy_formation_info, ",")
+        -- FURY_ALINEACION_LOCAL: la alineacion guardada en el telefono puede nombrar heroes que el rol ya no tiene (borrado de la beta): hueco vacio y se guarda limpia
+        local fury_stale = false
+        for i, v in pairs(_ED.user_formetion_status) do
+            if (tonumber(v) or 0) > 0 and _ED.user_ship[""..v] == nil then _ED.user_formetion_status[i] = "0"; fury_stale = true end
+        end
+        for i = 2, #_ED.formetion do
+            local v = _ED.formetion[i]
+            if (tonumber(v) or 0) > 0 and _ED.user_ship[""..v] == nil then _ED.formetion[i] = "0"; fury_stale = true end
+        end
+        if fury_stale then
+            cc.UserDefault:getInstance():setStringForKey(getKey("trial_copy_formation_status_info"), zstring.concat(_ED.user_formetion_status, ","))
+            cc.UserDefault:getInstance():setStringForKey(getKey("trial_copy_formation_info"), zstring.concat(_ED.formetion, ","))
+        end
+        -- FURY_ALINEACION_LOCAL fin
     end
+
+    normalizeTrialFormation()
 	
 end
 
 function GuanQia:setObjectInfo()
     local root = self.roots[1]
+    local function findTrialWidget(name)
+        local widget = ccui.Helper:seekWidgetByName(root, name)
+        if widget == nil then
+            print("[NINJA_TRIAL_TRACE][client] widget ausente="..name)
+        end
+        return widget
+    end
     local integral_Interval = zstring.split(dms.string(dms["play_config"], 23, play_config.param), "!")
     local intervalData = nil
     for i, v in pairs(integral_Interval) do
@@ -671,7 +772,9 @@ function GuanQia:setObjectInfo()
 
     local Panel_2 = ccui.Helper:seekWidgetByName(root,"Panel_2")
     --找到npc
+    print("[NINJA_TRIAL_TRACE][client] setObjectInfo npc_ids="..tostring(_ED.three_kingdoms_npc_formation_infos))
     local npcs = zstring.split(_ED.three_kingdoms_npc_formation_infos, ",")
+    print("[NINJA_TRIAL_TRACE][client] setObjectInfo total="..#npcs)
 
     local ratio = zstring.split(dms.string(dms["play_config"], 29, pirates_config.param),",")
 
@@ -713,6 +816,7 @@ function GuanQia:setObjectInfo()
         Panel_emeny:removeAllChildren(true)
         --找到npc的环境阵型
         local environment_formation1 = dms.string(dms["npc"], tonumber(npcs[i]), npc.environment_formation1)
+        print("[NINJA_TRIAL_TRACE][client] npc="..tostring(npcs[i]).." formacao="..tostring(environment_formation1))
         
         --通过环境阵型找到环境战船
         self.ship_info[i] = {}
@@ -722,7 +826,7 @@ function GuanQia:setObjectInfo()
         end
 
         --基础积分加成
-        local Text_jifen_plus = Panel_yc:getChildByName("Text_jifen_plus_"..i)
+        local Text_jifen_plus = findTrialWidget("Text_jifen_plus_"..i)
         local addition_data = zstring.split(dms.string(dms["play_config"], 32, play_config.param),"|")
         local addition_info = 0
         for j,v in pairs(addition_data) do
@@ -731,48 +835,59 @@ function GuanQia:setObjectInfo()
                 addition_info = tonumber(addition[2])
             end
         end
-        if addition_info == 0 then
-            Text_jifen_plus:setString("")
-        else
-            Text_jifen_plus:setString("+"..addition_info.."%")
+        if Text_jifen_plus ~= nil then
+            if addition_info == 0 then
+                Text_jifen_plus:setString("")
+            else
+                Text_jifen_plus:setString("+"..addition_info.."%")
+            end
         end
 
         --基础积分
-        local Text_jifen = Panel_yc:getChildByName("Text_jifen_"..i)
+        local Text_jifen = findTrialWidget("Text_jifen_"..i)
         local interval_info = zstring.split(intervalData[2], ",")
         local tolerance = zstring.split(intervalData[3], ",")
         --基础积分+（公差）*（第几次怪物层-1）
         local total_score = math.floor((tonumber(interval_info[i])+zstring.tonumber(tolerance[i])*math.floor(tonumber(_ED.integral_current_index)/2)))-- * (1 + addition_info/100))
-        Text_jifen:setString(total_score)
+        if Text_jifen ~= nil then Text_jifen:setString(total_score) end
         self.battle_integral_list[i] = {}
         self.battle_integral_list[i] = total_score
 
         --基础倍率
-        local Text_star_n = Panel_yc:getChildByName("Text_star_n_"..i)
-        if i==1 then
-            Text_star_n:setString("1")
-        elseif i==2 then
-            Text_star_n:setString("3")
-        else
-            Text_star_n:setString("5")
+        local Text_star_n = findTrialWidget("Text_star_n_"..i)
+        if Text_star_n ~= nil then
+            if i==1 then
+                Text_star_n:setString("1")
+            elseif i==2 then
+                Text_star_n:setString("3")
+            else
+                Text_star_n:setString("5")
+            end
         end
         --战力
-        local Text_fighting = Panel_yc:getChildByName("Text_fighting_"..i)
+        -- O CSB coloca este label em um nivel diferente em algumas variantes
+        -- de idioma; procurar a arvore inteira evita nil no setString abaixo.
+        local Text_fighting = findTrialWidget("Text_fighting_"..i)
         
         if fightShip < zstring.tonumber(dms.int(dms["play_config"], 78, play_config.param)) then
             fightShip = zstring.tonumber(dms.int(dms["play_config"], 78, play_config.param))
         end
+        local enemyFight
         if i == 1 then
-            Text_fighting:setString(math.ceil(fightShip*tonumber(self.info)))
-            table.insert(self.three_kingdoms_npc_fight, math.ceil(fightShip*tonumber(self.info)))
+            enemyFight = math.ceil(fightShip*tonumber(self.info))
         else
-            Text_fighting:setString(math.ceil(fightShip*tonumber(self.info)*tonumber(ratio[i-1])))
-            table.insert(self.three_kingdoms_npc_fight, math.ceil(fightShip*tonumber(self.info)*tonumber(ratio[i-1])))
+            enemyFight = math.ceil(fightShip*tonumber(self.info)*tonumber(ratio[i-1]))
+        end
+        table.insert(self.three_kingdoms_npc_fight, enemyFight)
+        if Text_fighting ~= nil then
+            Text_fighting:setString(enemyFight)
+        else
+            print("[NINJA_TRIAL_TRACE][client] widget Text_fighting_"..i.." ausente")
         end
         -- Text_fighting:setString(dms.int(dms["environment_formation"], environment_formation1, environment_formation.combat_force))
         
         --名称
-        local Text_name = Panel_yc:getChildByName("Text_name_"..i)
+        local Text_name = findTrialWidget("Text_name_"..i)
         if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
             local name_info = ""
             local name_data = zstring.split(dms.string(dms["npc"], tonumber(npcs[i]), npc.npc_name), "|")
@@ -780,9 +895,11 @@ function GuanQia:setObjectInfo()
                 local word_info = dms.element(dms["word_mould"], zstring.tonumber(v))
                 name_info = name_info..word_info[3]
             end
-            Text_name:setString(name_info)
+            if Text_name ~= nil then Text_name:setString(name_info) end
         else    
-            Text_name:setString(dms.string(dms["npc"], tonumber(npcs[i]), npc.npc_name))
+            if Text_name ~= nil then
+                Text_name:setString(dms.string(dms["npc"], tonumber(npcs[i]), npc.npc_name))
+            end
         end
     end
 end
@@ -879,14 +996,18 @@ function GuanQia:onEnterTransitionFinish()
 	local Panel_2 = ccui.Helper:seekWidgetByName(root,"Panel_2")
 	
 	for i=1, 3 do
-		local Sprite = Panel_2:getChildByName("Sprite_"..i)
-        fwin:addTouchEventListener(Sprite:getChildByName("Button_tz_"..i), nil, 
+        local challengeButton = ccui.Helper:seekWidgetByName(root, "Button_tz_"..i)
+        if challengeButton ~= nil then
+        fwin:addTouchEventListener(challengeButton, nil, 
         {
             terminal_name = "guan_qia_formation_change", 
             _pages = i,
             isPressedActionEnabled = true
         },
         nil,0)
+        else
+            print("[NINJA_TRIAL_TRACE][client] botao desafiar ausente indice="..i)
+        end
 	end
 end
 

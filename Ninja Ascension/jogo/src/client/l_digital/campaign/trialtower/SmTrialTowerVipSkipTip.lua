@@ -84,7 +84,21 @@ function SmTrialTowerVipSkipTip:updateDraw()
 	local root = self.roots[1]
 	local Text_floor = ccui.Helper:seekWidgetByName(root,"Text_floor")
     local jumpFloor = dms.int(dms["base_consume"], 66, base_consume.vip_0_value + tonumber(_ED.vip_grade))
-	Text_floor:setString(jumpFloor)
+	-- 19-oct (Quick Trial): el piso va DENTRO de la frase («%d» en Text_tip, en los 13 idiomas). Text_floor era un
+	-- rotulo suelto en una posicion fija que no cuadraba con el texto de ningun idioma (salia encima de otra palabra).
+	-- tools/i18n/parche_quick_trial_piso.py. Sin «%d» (maqueta vieja) se hace lo de antes.
+	local Text_tip = ccui.Helper:seekWidgetByName(root,"Text_tip")
+	local tip = Text_tip ~= nil and Text_tip:getString() or ""
+	if string.find(tip, "%d", 1, true) ~= nil then
+		Text_tip:setString((string.gsub(tip, "%%d", tostring(jumpFloor))))
+		Text_floor:setVisible(false)
+		local Text_tip_0 = ccui.Helper:seekWidgetByName(root,"Text_tip_0")
+		if Text_tip_0 ~= nil then
+			Text_tip_0:setVisible(false)
+		end
+	else
+		Text_floor:setString(jumpFloor)
+	end
 end
 
 function SmTrialTowerVipSkipTip:init(params)

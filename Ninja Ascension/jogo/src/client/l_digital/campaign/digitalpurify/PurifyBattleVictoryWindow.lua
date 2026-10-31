@@ -191,7 +191,10 @@ function PurifyBattleVictoryWindow:ctor()
                     end
                 end
                 state_machine.lock("purify_battle_victory_window_open_chest")
-                protocol_command.ship_purify_buy_battle_reward.param_list = ""
+                -- The original server distinguishes the free and paid chest
+                -- by the page; sending it lets the local server reject an
+                -- unsupported paid reward without charging or duplicating.
+                protocol_command.ship_purify_buy_battle_reward.param_list = tostring(page)
                 NetworkManager:register(protocol_command.ship_purify_buy_battle_reward.code, nil, nil, nil, instance, responseDigitalPurifyBuyChestCallback, false, nil)
                 return true
             end,

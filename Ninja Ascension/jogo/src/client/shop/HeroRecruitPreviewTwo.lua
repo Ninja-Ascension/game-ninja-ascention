@@ -28,7 +28,7 @@ function HeroRecruitPreviewTwo:onHeadDraw(id)
 	roots:removeFromParent(true)
 	local Panel_kuang = ccui.Helper:seekWidgetByName(roots, "Panel_kuang")
 	local Panel_head = ccui.Helper:seekWidgetByName(roots, "Panel_prop")
-	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
 		if Panel_head ~= nil then
 	        Panel_head:removeAllChildren(true)
 	        Panel_head:removeBackGroundImage()
@@ -48,7 +48,7 @@ function HeroRecruitPreviewTwo:onHeadDraw(id)
 	Panel_kuang:setBackGroundImage(quality_path)
 	Panel_head:setBackGroundImage(big_icon_path)
 	name:setColor(cc.c3b(color_Type[quality+1][1],color_Type[quality+1][2],color_Type[quality+1][3]))
-	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
 		--进化形象
 		local evo_image = dms.string(dms["ship_mould"], id, ship_mould.fitSkillTwo)
 		local evo_info = zstring.split(evo_image, ",")

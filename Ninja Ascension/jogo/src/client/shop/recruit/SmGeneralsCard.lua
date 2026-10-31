@@ -57,7 +57,7 @@ local share_click_on_terminal = {
             end
         end
 
-        if __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 then
+        if __lua_project_id == __lua_project_l_dragonball then
             if cc.Application:getInstance():getTargetPlatform() == cc.PLATFORM_OS_ANDROID then
                 handlePlatformRequest(0, CC_SHARE_REQUEST, _web_page_lz_share[2])
             else

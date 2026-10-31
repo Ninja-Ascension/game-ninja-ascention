@@ -32,6 +32,8 @@ COMANDOS = {
     'constellation_local': ['constellation_buy','constellation_exchange'],
     'artifact_local': ['artifact_unlock','artifact_culture','artifact_confirm'],
     'mudra_local': ['ship_metal_set','ship_metal_escalate','ship_metal_onekey_escalate','ship_metal_dissolve','draw_matrix_reward'],
+    # Must reload after mudra_local because Recruit wraps its bounty handlers.
+    'legacy_recruit_local': ['ship_bounty', 'ship_batch_bounty'],
     'index_local': ['user_card_info_activate','user_card_info_advance','user_card_info_rank'],
     'ninja_school_local': ['ship_talent_init','artifact_init','combine_ship_init','user_card_info_init','biographies_init','magical_animals_init','ship_spirit_init','ship_talent_level_up','ship_talent_reset','ship_spirit_level_up','ship_spirit_batch_level_up'],
     'hero_gates_local': ['mega_unblock','mega_level_up','mega_use_skill'],
@@ -61,7 +63,7 @@ COMANDOS = {
     'tutorial_campaign': [],
     'ninja_trial_local': ['three_kingdoms_init', 'three_kingdoms_launch', 'three_kingdoms_draw_score_reward', 'three_kingdoms_sweep', 'dignified_shop_buy', 'unparallel_purchase'],
     'worldboss_local': ['rebel_army_init'],
-    'purify_local': ['ship_purify_init'],
+    'purify_local': ['ship_purify_init', 'ship_purify_team_manager', 'ship_purify_team_launch', 'ship_purify_buy_battle_reward'],
     'dados_batalha': [],
     'quest_local': ['daily_mission_init','draw_daily_mission_reward','draw_liveness_reward'],
 }

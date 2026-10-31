@@ -1287,7 +1287,7 @@ function HeroRecruitSuccess:playOpeningAnimation(panel, changeActionCallback)
 			end
 		end
 
-		if zstring.tonumber(tempShipId) == 0 then
+		if zstring.tonumber(tempShipId) == 0 and self.mIndex ~= 1 and self.mIndex ~= 2 then
 			if _ED.new_reward_object and _ED.new_reward_object ~= nil and _ED.new_reward_object[1] and _ED.new_reward_object[1] ~= nil then
 				if tonumber(_ED.new_reward_object[1].m_type) == 6 then
 					local user_prop_template = _ED.user_prop["".._ED.new_reward_object[1].mould_id].user_prop_template
@@ -1422,7 +1422,7 @@ function HeroRecruitSuccess:ShowUI()
 		self:addChild(csbHeroRecruitSuccess)
 		table.insert(self.roots, ccui.Helper:seekWidgetByName(csbHeroRecruitSuccess_root, "Panel_23"):getChildByName("ProjectNode_1"):getChildByName("root"))
 		ccui.Helper:seekWidgetByName(self.roots[1], "Button_show"):setVisible(false)
-		if zstring.tonumber(_ED.recruit_success_ship_id) == 0 then
+			if zstring.tonumber(_ED.recruit_success_ship_id) == 0 and self.mIndex ~= 1 and self.mIndex ~= 2 then
 			if _ED.new_reward_object and _ED.new_reward_object ~= nil and _ED.new_reward_object[1] and _ED.new_reward_object[1] ~= nil then
 				if tonumber(_ED.new_reward_object[1].m_type) == 6 then
 					local user_prop_template = _ED.user_prop["".._ED.new_reward_object[1].mould_id].user_prop_template
@@ -2223,7 +2223,9 @@ function HeroRecruitSuccess:ShowUI()
 		local Panel_bg = ccui.Helper:seekWidgetByName(csbHeroRecruitSuccess_root,"Panel_bg")
 		Panel_bg:removeAllChildren(true)
 
-		if self.mIndex == 5 then
+		-- No Gold 1x, personagens novos usam a revelacao; duplicatas ficam
+		-- como fragmentos no painel de premio padrao, sem abrir card gigante.
+		if self.mIndex == 5 and self.isPlay == true then
             ccui.Helper:seekWidgetByName(csbHeroRecruitSuccess_root,"Panel_yc"):setVisible(true)
 			ccui.Helper:seekWidgetByName(csbHeroRecruitSuccess_root, "Panel_icon"):setVisible(false)
 			ccui.Helper:seekWidgetByName(csbHeroRecruitSuccess_root, "Text_name"):setVisible(false)
@@ -2238,6 +2240,12 @@ function HeroRecruitSuccess:ShowUI()
 
 			Panel_head_card:removeAllChildren(true)
 			Panel_head_card:setVisible(true)
+		-- A carta de personagem novo era desenhada no tamanho integral do
+		-- modelo e ocupava quase toda a tela. Centraliza e reduz apenas o
+		-- conteudo da carta; o efeito de revelacao continua sendo o original.
+		local resultRootSize = csbHeroRecruitSuccess_root:getContentSize()
+		Panel_head_card:setPosition(cc.p(resultRootSize.width * 0.5, resultRootSize.height * 0.5))
+		Panel_head_card:setScale(0.5)
 			-- state_machine.excute("sm_generals_card_open",0,{Panel_head_card,false,true,self.ship.ship_id,false})
 			state_machine.excute("sm_generals_card_open",0,{Panel_head_card,false,true,self.ship.ship_id,false,nil,self.ship.ship_template_id, self._showStar})
 			if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then

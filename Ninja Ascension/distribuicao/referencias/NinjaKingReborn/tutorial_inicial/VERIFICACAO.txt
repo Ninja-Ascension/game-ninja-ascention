@@ -1,0 +1,1 @@
+35 arquivos Lua compilados em memoria (Lua 5.1). Fluxos fazer/pular, bloqueio de clique repetido enquanto aguarda, erro e nova tentativa, e pedido de login apos sucesso verificados com rede simulada. Nenhum pedido real enviado. Recompensas e integracao com servidor nao implementadas nesta extracao.

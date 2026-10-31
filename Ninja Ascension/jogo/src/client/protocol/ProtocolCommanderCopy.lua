@@ -194,13 +194,23 @@ end
 -- -------------------------------------------------------------------------------------------------------
 -- command_ship_bounty 14
 -- -------------------------------------------------------------------------------------------------------
+local localRecruitRequestSerial = 0
+local function ensureLocalRecruitRequestId(paramList)
+	paramList = tostring(paramList or "")
+	if __lua_project_id == __lua_project_l_naruto and not string.find(paramList, "\r\n", 1, true) then
+		localRecruitRequestSerial = localRecruitRequestSerial + 1
+		paramList = paramList.."\r\n"..tostring(os.time())..":"..tostring(localRecruitRequestSerial)..":"..tostring(math.random(1, 99999999))
+	end
+	return paramList
+end
+
 function command_ship_bounty(str)
 	str = str.."\r\n"
 	str = str..protocol_command.ship_bounty.command
 	str = str.."\r\n"
 	str = str.._ED.user_info.user_id
 	str = str.."\r\n"
-	str = str..protocol_command.ship_bounty.param_list
+	str = str..ensureLocalRecruitRequestId(protocol_command.ship_bounty.param_list)
 	return str
 end
 
@@ -390,7 +400,7 @@ function command_ship_batch_bounty(str)
 	str = str.."\r\n"
 	str = str.._ED.user_info.user_id
 	str = str.."\r\n"
-	str = str..protocol_command.ship_batch_bounty.param_list
+	str = str..ensureLocalRecruitRequestId(protocol_command.ship_batch_bounty.param_list)
 	return str
 end
 
