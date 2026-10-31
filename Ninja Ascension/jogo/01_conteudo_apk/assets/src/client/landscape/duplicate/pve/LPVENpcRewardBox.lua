@@ -589,11 +589,50 @@ function LPVENpcRewardBox:onUpdateDrawEx()
 	local index = 1
 	local rewardInfoString = dms.string(dms["scene_reward_ex"], boxID, scene_reward_ex.show_reward)
 	local rewardInfoArr = zstring.split(rewardInfoString, "|")
+	local hasPreviewReward = false
+	for _, value in ipairs(rewardInfoArr) do
+		local info = zstring.split(value, ",")
+		if tonumber(info[3]) and tonumber(info[3]) > 0 then
+			hasPreviewReward = true
+			break
+		end
+	end
+	-- Algumas caixas mantêm show_reward como "-1,4,0", embora a recompensa
+	-- real esteja configurada no grupo de drop. Nesse caso, montar a prévia a
+	-- partir do próprio grupo evita a caixa vazia com quantidade zero.
+	if not hasPreviewReward then
+		local rewardGroups = dms.string(dms["scene_reward_ex"], boxID, scene_reward_ex.reward_prop)
+		local generated = {}
+		for _, groupSpec in ipairs(zstring.split(rewardGroups or "", "|")) do
+			local groupId = tonumber(zstring.split(groupSpec, ",")[1])
+			if groupId then
+				local rows = dms.searchs(dms["scene_reward_drop"], scene_reward_drop.library_group, groupId)
+				if rows and rows[1] then
+					local entries = zstring.split(dms.string(rows[1], scene_reward_drop.drop_group_data), "|")
+					for _, entry in ipairs(entries) do
+						local fields = zstring.split(entry, ",")
+						local rewardId = tonumber(fields[1])
+						local rewardType = tonumber(fields[2])
+						local amountRange = zstring.split(fields[3] or "", "-")
+						local amount = tonumber(amountRange[1])
+						if rewardId and rewardType and amount and amount > 0 then
+							table.insert(generated, string.format("%d,%d,%d", rewardId, rewardType, amount))
+						end
+					end
+				end
+			end
+		end
+		if #generated > 0 then rewardInfoArr = generated end
+	end
     for i, v in pairs(rewardInfoArr) do
         local info = zstring.split(v, ",")
-        local cell = state_machine.excute("sm_item_icon_cell_create",0,{0,{info[2],info[1],info[3]},true,true,false,true})
-        listViewAward:addChild(cell)
-        if info[2] == "6" then
+		local amount = tonumber(info[3]) or 0
+		local rewardId = tonumber(info[1])
+		local rewardType = tonumber(info[2])
+		if amount > 0 and rewardId and rewardType then
+		local cell = state_machine.excute("sm_item_icon_cell_create",0,{0,{info[2],info[1],info[3]},true,true,false,true})
+		listViewAward:addChild(cell)
+		if info[2] == "6" then
             -- local cell = PropIconCell:createCell()
             local reawrdID = tonumber(info[1])
             local rewardNum = tonumber(info[3])
@@ -659,6 +698,7 @@ function LPVENpcRewardBox:onUpdateDrawEx()
 		    end
         end
         rewardTotal = rewardTotal + 1
+		end
     end
 
 	--[[local rewardMoney = dms.int(dms["scene_reward"], boxID, scene_reward.reward_silver)

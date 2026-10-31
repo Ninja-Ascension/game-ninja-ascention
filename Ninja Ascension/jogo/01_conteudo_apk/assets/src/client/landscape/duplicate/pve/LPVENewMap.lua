@@ -471,7 +471,36 @@ function LPVENewMap:onUpdateDraw()
 		local Panel_new = ccui.Helper:seekWidgetByName(root, string.format("Panel_pve_new_%d",i))
 		Panel:removeAllChildren(true)
 		local PanelSprite = Panel_map:getChildByName(string.format("Sprite_pve_npc_%d",i))
-		PanelSprite:setTexture(string.format("images/ui/pve_sn/pve_map_icon_bg/npc_pic_%d.png",tempNpcIds[i]))
+		-- O acervo entregue não contém npc_pic_<id>.png; ao tentar carregar
+		-- esse caminho a imagem padrão do CSB (Tsunade) permanecia em todos os nós.
+		local npcId = tonumber(tempNpcIds[i])
+		if __lua_project_id == __lua_project_l_naruto then
+			local headPics = zstring.split(dms.string(dms["npc"], npcId, npc.head_pic), ",")
+			local headPic = tonumber(headPics[2] or headPics[1])
+			if headPic and cc.FileUtils:getInstance():isFileExist(string.format("images/ui/props/props_%d.png", headPic)) then
+				PanelSprite:setTexture(string.format("images/ui/props/props_%d.png", headPic))
+			end
+			local npcName = dms.string(dms["npc"], npcId, npc.npc_name)
+			local nameParts = zstring.split(npcName or "", "|")
+			local resolvedName = ""
+			for _, wordId in ipairs(nameParts) do
+				local word = dms.element(dms["word_mould"], zstring.tonumber(wordId))
+				if word and word[3] then resolvedName = resolvedName .. word[3] end
+			end
+			if resolvedName ~= "" then
+				local labelName = string.format("Text_npc_name_%d", i)
+				local previousLabel = Panel_map:getChildByName(labelName)
+				if previousLabel then previousLabel:removeFromParent() end
+				local label = ccui.Text:create(resolvedName, "Arial", 18)
+				label:setName(labelName)
+				label:setAnchorPoint(cc.p(0.5, 0))
+				label:setTextColor(cc.c3b(255, 255, 255))
+				label:enableOutline(cc.c4b(0, 0, 0, 255), 2)
+				local spritePos = PanelSprite:getPosition()
+				label:setPosition(cc.p(spritePos.x, spritePos.y + PanelSprite:getContentSize().height * 0.56))
+				Panel_map:addChild(label, 10)
+			end
+		end
 		if self.npcStates[i] ~= nil then
 
 			local pathId = dms.string(dms["pve_scene"], self.sceneID, pve_scene.scene_map_id)

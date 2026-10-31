@@ -6354,10 +6354,14 @@ function Home:onEnterTransitionFinish()
             end
             
             --装备碎片丢到包裹里了，所以包裹按钮 加上装备合成的推送
-            state_machine.excute("push_notification_center_manager", 0, { _terminal_name = "push_notification_center_equipment_warehouse_all",
-            _widget = ccui.Helper:seekWidgetByName(root, "Button_warehouse"),
-            _invoke = nil,
-            _interval = 0.5,})
+			-- A notificação de síntese ficava ancorada fora do botão Bag no layout
+			-- desktop do Naruto. Mantemos os avisos nos outros projetos.
+			if __lua_project_id ~= __lua_project_l_naruto then
+				state_machine.excute("push_notification_center_manager", 0, { _terminal_name = "push_notification_center_equipment_warehouse_all",
+				_widget = ccui.Helper:seekWidgetByName(root, "Button_warehouse"),
+				_invoke = nil,
+				_interval = 0.5,})
+			end
     		
     		--商城
     		fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_shop_0"), 		nil, 

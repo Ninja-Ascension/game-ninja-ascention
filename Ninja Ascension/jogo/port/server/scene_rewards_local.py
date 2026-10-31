@@ -243,62 +243,95 @@ def install(server):
 
             claimed_items=[]
             with db._lock, db._conn:
+                # Claim All cobre as recompensas por estrelas e os baús dos
+                # NPCs que já foram vencidos. O botão do cliente considera
+                # ambos; deixar os NPCs de fora mantinha o ponto vermelho ativo.
                 for scene_id,definition in scenes:
                     cleared=db._conn.execute(
                         'SELECT COUNT(*) FROM local_pve_clears WHERE conta_id=? AND scene=?',
                         (account,scene_id)).fetchone()[0]
-                    if not cleared:
-                        continue
-                    stars=db._conn.execute(
-                        'SELECT COALESCE(SUM(stars),0) FROM local_pve_clears WHERE conta_id=? AND scene=?',
-                        (account,scene_id)).fetchone()[0]
-                    reward_ids=definition[10].split(',')
-                    thresholds=definition[11].split(',')
-                    for index,reward_id in enumerate(reward_ids):
-                        if index>=len(thresholds) or stars<int(thresholds[index]):
-                            continue
-                        receipt=db._conn.execute(
-                            'SELECT 1 FROM local_scene_rewards WHERE conta_id=? AND scene=? AND chest=?',
-                            (account,scene_id,index)).fetchone()
-                        if receipt:
-                            continue
-                        reward=data.tabela('scene_reward.txt').get(reward_id)
-                        if not reward:
-                            raise ValueError('recompensa_indisponivel')
-                        if any(reward[i] not in ('','0','-1') for i in (8,10)):
-                            raise ValueError('bau_com_equipamento_ou_personagem_nao_suportado')
-
-                        currencies=list(map(int,reward[2:7]))
-                        items=[[-1,kind,amount] for kind,amount in enumerate(currencies,1) if amount>0]
-                        for entry in reward[7].split('|'):
-                            if entry in ('','0','-1'):
+                    if cleared:
+                        stars=db._conn.execute(
+                            'SELECT COALESCE(SUM(stars),0) FROM local_pve_clears WHERE conta_id=? AND scene=?',
+                            (account,scene_id)).fetchone()[0]
+                        reward_ids=definition[10].split(',')
+                        thresholds=definition[11].split(',')
+                        for index,reward_id in enumerate(reward_ids):
+                            if index>=len(thresholds) or stars<int(thresholds[index]):
                                 continue
-                            parts=entry.split(',')
-                            quantity,mould=int(parts[0]),int(parts[1])
-                            numerator,denominator=map(int,parts[2].split('/')) if len(parts)>2 else (1,1)
-                            if denominator<=0 or not 0<=numerator<=denominator:
-                                raise ValueError('probabilidade_invalida')
-                            if str(mould) not in data.tabela('prop_mould.txt'):
-                                raise ValueError('item_invalido')
-                            if secrets.randbelow(denominator)<numerator:
-                                items.append([mould,6,quantity])
+                            receipt=db._conn.execute(
+                                'SELECT 1 FROM local_scene_rewards WHERE conta_id=? AND scene=? AND chest=?',
+                                (account,scene_id,index)).fetchone()
+                            if receipt:
+                                continue
+                            reward=data.tabela('scene_reward.txt').get(reward_id)
+                            if not reward:
+                                raise ValueError('recompensa_indisponivel')
+                            if any(reward[i] not in ('','0','-1') for i in (8,10)):
+                                raise ValueError('bau_com_equipamento_ou_personagem_nao_suportado')
 
-                        db._conn.execute('INSERT OR IGNORE INTO local_campaign VALUES (?,1,0)',(account,))
-                        db._conn.execute('UPDATE local_campaign SET silver=silver+? WHERE conta_id=?',
-                                          (currencies[0],account))
-                        db._conn.execute('INSERT OR IGNORE INTO local_resources(conta_id) VALUES (?)',(account,))
-                        db._conn.execute(
-                            'UPDATE local_resources SET gold=gold+?,honour=honour+?,soul=soul+?,jade=jade+? WHERE conta_id=?',
-                            tuple(currencies[1:])+(account,))
-                        for mould,kind,quantity in items:
-                            if kind==6:
-                                db._conn.execute(
-                                    'INSERT INTO local_inventory VALUES (?,?,?,?) ON CONFLICT(conta_id,mould) DO UPDATE SET quantity=quantity+excluded.quantity',
-                                    (account,mould,account*1000000+mould,quantity))
-                        db._conn.execute(
-                            'INSERT INTO local_scene_rewards VALUES (?,?,?,?)',
-                            (account,scene_id,index,json.dumps(items)))
-                        claimed_items.extend(items)
+                            currencies=list(map(int,reward[2:7]))
+                            items=[[-1,kind,amount] for kind,amount in enumerate(currencies,1) if amount>0]
+                            for entry in reward[7].split('|'):
+                                if entry in ('','0','-1'):
+                                    continue
+                                parts=entry.split(',')
+                                quantity,mould=int(parts[0]),int(parts[1])
+                                numerator,denominator=map(int,parts[2].split('/')) if len(parts)>2 else (1,1)
+                                if denominator<=0 or not 0<=numerator<=denominator:
+                                    raise ValueError('probabilidade_invalida')
+                                if str(mould) not in data.tabela('prop_mould.txt'):
+                                    raise ValueError('item_invalido')
+                                if secrets.randbelow(denominator)<numerator:
+                                    items.append([mould,6,quantity])
+
+                            db._conn.execute('INSERT OR IGNORE INTO local_campaign VALUES (?,1,0)',(account,))
+                            db._conn.execute('UPDATE local_campaign SET silver=silver+? WHERE conta_id=?',
+                                              (currencies[0],account))
+                            db._conn.execute('INSERT OR IGNORE INTO local_resources(conta_id) VALUES (?)',(account,))
+                            db._conn.execute(
+                                'UPDATE local_resources SET gold=gold+?,honour=honour+?,soul=soul+?,jade=jade+? WHERE conta_id=?',
+                                tuple(currencies[1:])+(account,))
+                            for mould,kind,quantity in items:
+                                if kind==6:
+                                    db._conn.execute(
+                                        'INSERT INTO local_inventory VALUES (?,?,?,?) ON CONFLICT(conta_id,mould) DO UPDATE SET quantity=quantity+excluded.quantity',
+                                        (account,mould,account*1000000+mould,quantity))
+                            db._conn.execute(
+                                'INSERT INTO local_scene_rewards VALUES (?,?,?,?)',
+                                (account,scene_id,index,json.dumps(items)))
+                            claimed_items.extend(items)
+
+                    # scene column 18 lists NPCs, column 19 lists the normal
+                    # rewards and, where configured, the three-star rewards.
+                    npcs=[value for value in definition[17].split(',') if value.isdigit()]
+                    reward_layers=definition[18].split('|')
+                    for tier,layer in enumerate(reward_layers[:2]):
+                        if tier==1 and scene_type!=15:
+                            continue
+                        reward_ids=[value for value in layer.split(',') if value not in ('','-1')]
+                        if len(reward_ids)!=len(npcs):
+                            if npcs and reward_ids:
+                                raise ValueError('mapa_de_recompensa_invalido')
+                            continue
+                        for index,npc_text in enumerate(npcs):
+                            npc=int(npc_text);reward_id=reward_ids[index]
+                            clear=db._conn.execute(
+                                'SELECT stars FROM local_pve_clears WHERE conta_id=? AND scene=? AND npc=?',
+                                (account,scene_id,npc)).fetchone()
+                            if not clear or int(clear[0])<=0 or (tier==1 and int(clear[0])<3):
+                                continue
+                            receipt=db._conn.execute(
+                                'SELECT 1 FROM local_npc_chest_rewards WHERE conta_id=? AND scene=? AND npc=? AND tier=?',
+                                (account,scene_id,npc,tier)).fetchone()
+                            if receipt:
+                                continue
+                            items=_npc_reward_entries(reward_id)
+                            _apply_npc_reward(db,account,items)
+                            db._conn.execute(
+                                'INSERT INTO local_npc_chest_rewards VALUES (?,?,?,?,?)',
+                                (account,scene_id,npc,tier,json.dumps(items)))
+                            claimed_items.extend([list(item) for item in items])
 
                 silver=db._conn.execute('SELECT silver FROM local_campaign WHERE conta_id=?',(account,)).fetchone()
                 if silver is None:
@@ -307,6 +340,11 @@ def install(server):
                     'SELECT gold FROM local_resources WHERE conta_id=?',(account,)).fetchone()
                 gold=resources[0] if resources else 0
 
+            totals={}
+            for item in claimed_items:
+                key=(int(item[0]),int(item[1]))
+                totals[key]=totals.get(key,0)+int(item[2])
+            claimed_items=[[ident,kind,amount] for (ident,kind),amount in sorted(totals.items()) if amount>0]
             tokens=[str(seq),'one_key_draw_scene_reward','0','22',str(silver[0]),'25',str(gold)]
             tokens+=inventory_tokens(db,account)+scene_tokens(db,account)+['171','0',str(len(claimed_items))]
             for item in claimed_items:
