@@ -156,6 +156,10 @@ def install(server):
                     if any(fields[1:]):raise ValueError('pedido_invalido')
                     with db._lock,db._conn:return ' '.join([str(seq),command,'0']+offers_tokens(db,account))
                 expected=3 if count else 4
+                # Some installed clients append a transport ID after the
+                # screen's stable request ID. Keep the first ID for retries.
+                if len(fields)==expected+1 and all(re.fullmatch(r'[0-9A-Za-z:-]{1,100}',value) for value in fields[-2:]):
+                    fields=fields[:-1]
                 if len(fields)!=expected or not re.fullmatch(r'[0-9A-Za-z:-]{1,100}',fields[-1]):raise ValueError('pedido_invalido')
                 signature=command+':'+':'.join(fields[1:-1]);key=fields[-1]
                 with db._lock,db._conn:
@@ -209,3 +213,10 @@ def install(server):
             except (server._contas.ErroConta,ValueError,IndexError) as exc:return server.recusa(command,seq,str(exc))
         return run
     for command,count in [('ship_bounty',1),('ship_batch_bounty',10),('shop_frags_init',0),('shop_frags_exchange',0)]:server.MINIMOS[command]=handler(command,count)
+    # Hot reload can install Shop after its bounty wrappers. Restore the same
+    # dispatch chain used at normal startup: Shop -> Mudra -> Recruit.
+    import sys
+    for name in ('mudra_local','legacy_recruit_local'):
+        module=sys.modules.get(name)
+        if module is not None:
+            module.install(server)

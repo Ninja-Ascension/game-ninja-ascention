@@ -549,6 +549,11 @@ def execute(server, cmd, seq, text, fallback=None):
                 return fallback(seq, text)
         if not fields or fields[0] != str(db.perfil(account)['user_id']):
             raise ValueError('conta_do_mudra_invalida')
+        expected = {'ship_metal_set':6,'ship_metal_escalate':4,
+                    'ship_metal_onekey_escalate':5,'ship_metal_dissolve':3,
+                    'draw_matrix_reward':4}.get(cmd,3)
+        if len(fields)==expected+1 and all(re.fullmatch(r'[0-9A-Za-z:-]{1,100}',value) for value in fields[-2:]):
+            fields=fields[:-1]
         if not re.fullmatch(r'[0-9A-Za-z:-]{1,100}', fields[-1]):
             raise ValueError('identificador_de_pedido_invalido')
         key = fields[-1]; body = fields[:-1]; signature = cmd + '|' + '|'.join(body[1:])

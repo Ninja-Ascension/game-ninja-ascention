@@ -3,6 +3,13 @@
 -------------------------------------------------------------------------------------------------------
 LPVENewMap = class("LPVENewMapClass", Window)
 
+local function campaignSceneAllowed(sceneID)
+	local sceneType = dms.int(dms["pve_scene"], tonumber(sceneID), pve_scene.scene_type)
+	local limits = {[0] = 24, [1] = 74, [15] = 124}
+	local limit = limits[sceneType]
+	return limit == nil or tonumber(sceneID) <= limit
+end
+
 function LPVENewMap:ctor()
     self.super:ctor()
 	self.roots = {}
@@ -182,7 +189,7 @@ function LPVENewMap:ctor()
 				end
 				local open_scene_tab = zstring.split(open_scene_str , ",")
 				local next_sceneID = tonumber(open_scene_tab[1])
-				if next_sceneID == -1 then
+				if next_sceneID == -1 or not campaignSceneAllowed(next_sceneID) then
 	                state_machine.unlock("lduplicate_new_turn_right")
 	            	state_machine.unlock("lduplicate_new_turn_left")	
             		state_machine.unlock("lpvenpc_to_turn")
@@ -713,7 +720,7 @@ function LPVENewMap:checkTurnButtonState()
 	local open_scene_str =dms.string(dms["pve_scene"],tonumber(sceneID),pve_scene.open_scene) 
 	local open_scene_tab = zstring.split(open_scene_str , ",")
 	local next_sceneID = tonumber(open_scene_tab[1])
-	if next_sceneID == -1 or _ED.scene_current_state[next_sceneID] == "-1"  then
+	if next_sceneID == -1 or not campaignSceneAllowed(next_sceneID) or _ED.scene_current_state[next_sceneID] == "-1"  then
 		right_button:setVisible(false)
 	else
 		right_button:setVisible(true)

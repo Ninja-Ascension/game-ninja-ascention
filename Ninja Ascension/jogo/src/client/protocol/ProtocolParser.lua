@@ -2449,7 +2449,7 @@ end
 -- ---------------------------------------------------------------------------------------------------------
 function parse_update_scene_chest_draw_npc(interpreter,datas,pos,strDatas,list,count)
 	local drawNpcId = npos(list)
-	_ED.scene_draw_chest_npcs[drawNpcId] = 1
+	_ED.scene_draw_chest_npcs[tostring(drawNpcId)] = 1
 end
 -- ---------------------------------------------------------------------------------------------------------
 

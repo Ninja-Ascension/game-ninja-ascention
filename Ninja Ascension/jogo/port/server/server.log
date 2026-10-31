@@ -59896,3 +59896,867 @@
 [HOST_SERVER][15:50:13] cmd=keep_alive seq=4 -> status=0 (14 chars)
 [HOST_SERVER][15:50:19] POST path=/iniServer?s=8bKDMwxNlTvxow00y9Pel2K4eygPbqj3dAEPtVyHeaI bytes=40 primeira-linha=4
 [HOST_SERVER][15:50:19] cmd=user_card_info_init seq=4 -> status=0 (149055 chars)
+[HOST_SERVER][15:52:14] POST path=/iniServer?s=8bKDMwxNlTvxow00y9Pel2K4eygPbqj3dAEPtVyHeaI bytes=24 primeira-linha=4
+[HOST_SERVER][15:52:14] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][15:54:15] POST path=/iniServer?s=8bKDMwxNlTvxow00y9Pel2K4eygPbqj3dAEPtVyHeaI bytes=24 primeira-linha=4
+[HOST_SERVER][15:54:15] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][15:56:16] POST path=/iniServer?s=8bKDMwxNlTvxow00y9Pel2K4eygPbqj3dAEPtVyHeaI bytes=24 primeira-linha=4
+[HOST_SERVER][15:56:16] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][15:58:17] POST path=/iniServer?s=8bKDMwxNlTvxow00y9Pel2K4eygPbqj3dAEPtVyHeaI bytes=24 primeira-linha=4
+[HOST_SERVER][15:58:17] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:10:00] POST path=/iniServer?s=8bKDMwxNlTvxow00y9Pel2K4eygPbqj3dAEPtVyHeaI bytes=24 primeira-linha=4
+[HOST_SERVER][16:10:00] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:10:05] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][16:10:11] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][16:10:11] login ok conta=ItachiBR sessao='znr...(43)' perfil_user_id=2
+[HOST_SERVER][16:10:11] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][16:10:11] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=48 primeira-linha=1
+[HOST_SERVER][16:10:11] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][16:10:11] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=80 primeira-linha=2
+[HOST_SERVER][16:10:11] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][16:10:15] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=56 primeira-linha=3
+[HOST_SERVER][16:10:15] vali_register conta=ItachiBR sessao='znr...(43)'
+[HOST_SERVER][16:10:15] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][16:10:15] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=144 primeira-linha=4
+[HOST_SERVER][16:10:15] login_init: 492 itens no inventario da conta 62
+[HOST_SERVER][16:10:15] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][16:10:15] login_init conta=RenegadoBR user_id=2 sessao='znr...(43)'
+[HOST_SERVER][16:10:17] LOGIN_LAYOUT prefix=90 items=492 separate_characters=136
+[HOST_SERVER][16:10:19] cmd=login_init seq=4 -> status=0 (260675 chars)
+[HOST_SERVER][16:10:24] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=32 primeira-linha=4
+[HOST_SERVER][16:10:24] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][16:10:26] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=552 primeira-linha=4
+[HOST_SERVER][16:10:26] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:10:26] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:10:26] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=552 primeira-linha=4
+[HOST_SERVER][16:10:26] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:10:26] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:10:28] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=32 primeira-linha=4
+[HOST_SERVER][16:10:28] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][16:10:28] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=40 primeira-linha=4
+[HOST_SERVER][16:10:28] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][16:10:28] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=32 primeira-linha=4
+[HOST_SERVER][16:10:28] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][16:10:28] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=40 primeira-linha=4
+[HOST_SERVER][16:10:29] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][16:10:29] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=56 primeira-linha=4
+[HOST_SERVER][16:10:29] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][16:12:27] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:12:27] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:14:22] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=32 primeira-linha=4
+[HOST_SERVER][16:14:22] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][16:14:24] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=48 primeira-linha=4
+[HOST_SERVER][16:14:24] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][16:14:24] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][16:14:28] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=48 primeira-linha=4
+[HOST_SERVER][16:14:28] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12554 chars)
+[HOST_SERVER][16:14:28] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=272 primeira-linha=4
+[HOST_SERVER][16:14:28] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: .../src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua:86: attempt to concatenate local 'drawState' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__concat' | 	.../src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua:86: in function 'handler' | 	...udo_apk/assets/src/frameworks/network/NetworkManager.lua:76: in function 'poll' | 	...udo_apk/assets/src/frameworks/network/NetworkManager.lua:273: in function <...udo_apk/assets/src/frameworks/network/NetworkManager.lua:228>
+[HOST_SERVER][16:14:28] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:14:28] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:14:28] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:15:11] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=48 primeira-linha=4
+[HOST_SERVER][16:15:11] cmd=get_copy_clear_user_info seq=4 -> status=0 (36 chars)
+[HOST_SERVER][16:15:13] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=48 primeira-linha=4
+[HOST_SERVER][16:15:13] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12593 chars)
+[HOST_SERVER][16:15:46] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=48 primeira-linha=4
+[HOST_SERVER][16:15:46] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12593 chars)
+[HOST_SERVER][16:15:59] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=40 primeira-linha=4
+[HOST_SERVER][16:15:59] cmd=one_key_draw_scene_reward seq=4 -> status=0 (12553 chars)
+[HOST_SERVER][16:16:29] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:16:29] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:16:39] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=48 primeira-linha=4
+[HOST_SERVER][16:16:39] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][16:16:39] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][16:17:13] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=272 primeira-linha=4
+[HOST_SERVER][16:17:13] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...sets/src/client/landscape/duplicate/LDuplicateWindow.lua:2006: attempt to compare nil with number | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__lt' | 	...sets/src/client/landscape/duplicate/LDuplicateWindow.lua:2006: in function 'showEmMap' | 	...sets/src/client/landscape/duplicate/LDuplicateWindow.lua:946: in function 'excute' | 	...sets/src/client/landscape/duplicate/LDuplicateWindow.lua:635: in function 'excute' | 	...sets/src/client/landscape/duplicate/LDuplicateWindow.lua:1094: in function
+[HOST_SERVER][16:17:13] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:17:13] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=224 primeira-linha=4
+[HOST_SERVER][16:17:13] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...sets/src/client/landscape/duplicate/LDuplicateWindow.lua:2668: attempt to compare nil with number | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__lt' | 	...sets/src/client/landscape/duplicate/LDuplicateWindow.lua:2668: in function <...sets/src/client/landscape/duplicate/LDuplicateWindow.lua:2647>
+[HOST_SERVER][16:17:13] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:18:30] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:18:30] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:18:48] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=40 primeira-linha=4
+[HOST_SERVER][16:18:48] cmd=draw_scene_rewad seq=4 -> status=0 (12546 chars)
+[HOST_SERVER][16:20:31] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:20:31] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:22:32] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:22:32] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:22:41] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=40 primeira-linha=4
+[HOST_SERVER][16:22:41] cmd=daily_mission_init seq=4 -> status=0 (5166 chars)
+[HOST_SERVER][16:24:33] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:24:33] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:26:34] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:26:34] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:28:35] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=24 primeira-linha=4
+[HOST_SERVER][16:28:35] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:29:59] POST path=/iniServer?s=znr9tWI5RZ5slu35RS3hz1Pa3Stz5XiA8AERsY_1FIQ bytes=48 primeira-linha=4
+[HOST_SERVER][16:29:59] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][16:29:59] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][16:30:11] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][16:30:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 45.177.105.186
+[HOST_SERVER][16:30:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/illustration/Illustration.lua de 45.177.105.186
+[HOST_SERVER][16:30:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/LDuplicateWindow.lua de 45.177.105.186
+[HOST_SERVER][16:30:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/pve/LPVENewMap.lua de 45.177.105.186
+[HOST_SERVER][16:30:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua de 45.177.105.186
+[HOST_SERVER][16:30:18] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][16:30:18] login ok conta=ItachiBR sessao='IXE...(43)' perfil_user_id=2
+[HOST_SERVER][16:30:18] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][16:30:18] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=48 primeira-linha=1
+[HOST_SERVER][16:30:18] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][16:30:18] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=80 primeira-linha=2
+[HOST_SERVER][16:30:18] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][16:33:46] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=56 primeira-linha=3
+[HOST_SERVER][16:33:46] vali_register conta=ItachiBR sessao='IXE...(43)'
+[HOST_SERVER][16:33:46] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][16:33:46] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=152 primeira-linha=4
+[HOST_SERVER][16:33:46] login_init: 493 itens no inventario da conta 62
+[HOST_SERVER][16:33:46] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][16:33:46] login_init conta=RenegadoBR user_id=2 sessao='IXE...(43)'
+[HOST_SERVER][16:33:49] LOGIN_LAYOUT prefix=90 items=493 separate_characters=136
+[HOST_SERVER][16:33:51] cmd=login_init seq=4 -> status=0 (260737 chars)
+[HOST_SERVER][16:33:55] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=32 primeira-linha=4
+[HOST_SERVER][16:33:55] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][16:33:57] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=552 primeira-linha=4
+[HOST_SERVER][16:33:57] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:33:57] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:33:57] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=552 primeira-linha=4
+[HOST_SERVER][16:33:57] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:33:57] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:33:59] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=32 primeira-linha=4
+[HOST_SERVER][16:33:59] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][16:34:00] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=40 primeira-linha=4
+[HOST_SERVER][16:34:00] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][16:34:00] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=32 primeira-linha=4
+[HOST_SERVER][16:34:00] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][16:34:00] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=40 primeira-linha=4
+[HOST_SERVER][16:34:00] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][16:34:00] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=56 primeira-linha=4
+[HOST_SERVER][16:34:00] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][16:34:15] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=48 primeira-linha=4
+[HOST_SERVER][16:34:15] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][16:34:15] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][16:34:20] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=40 primeira-linha=4
+[HOST_SERVER][16:34:20] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12597 chars)
+[HOST_SERVER][16:34:20] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=272 primeira-linha=4
+[HOST_SERVER][16:34:20] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: .../src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua:86: attempt to concatenate local 'drawState' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__concat' | 	.../src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua:86: in function 'handler' | 	...udo_apk/assets/src/frameworks/network/NetworkManager.lua:76: in function 'poll' | 	...udo_apk/assets/src/frameworks/network/NetworkManager.lua:273: in function <...udo_apk/assets/src/frameworks/network/NetworkManager.lua:228>
+[HOST_SERVER][16:34:20] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:34:46] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=40 primeira-linha=4
+[HOST_SERVER][16:34:46] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12597 chars)
+[HOST_SERVER][16:34:47] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=40 primeira-linha=4
+[HOST_SERVER][16:34:47] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12597 chars)
+[HOST_SERVER][16:34:47] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=40 primeira-linha=4
+[HOST_SERVER][16:34:47] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12597 chars)
+[HOST_SERVER][16:35:59] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=24 primeira-linha=4
+[HOST_SERVER][16:35:59] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:38:00] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=24 primeira-linha=4
+[HOST_SERVER][16:38:00] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:40:01] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=24 primeira-linha=4
+[HOST_SERVER][16:40:01] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:40:40] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=48 primeira-linha=4
+[HOST_SERVER][16:40:40] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][16:40:40] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][16:40:43] POST path=/iniServer?s=IXEdO4pMib1nFqZFXbGX-wzV9PF95GoGveHun82aCAE bytes=48 primeira-linha=4
+[HOST_SERVER][16:40:43] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12601 chars)
+[HOST_SERVER][16:40:47] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][16:40:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua de 45.177.105.186
+[HOST_SERVER][16:40:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParser.lua de 45.177.105.186
+[HOST_SERVER][16:40:54] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][16:40:54] login ok conta=ItachiBR sessao='jPX...(43)' perfil_user_id=2
+[HOST_SERVER][16:40:54] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][16:40:54] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=48 primeira-linha=1
+[HOST_SERVER][16:40:54] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][16:40:54] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=80 primeira-linha=2
+[HOST_SERVER][16:40:54] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][16:40:56] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=56 primeira-linha=3
+[HOST_SERVER][16:40:56] vali_register conta=ItachiBR sessao='jPX...(43)'
+[HOST_SERVER][16:40:56] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][16:40:56] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=144 primeira-linha=4
+[HOST_SERVER][16:40:56] login_init: 493 itens no inventario da conta 62
+[HOST_SERVER][16:40:56] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][16:40:56] login_init conta=RenegadoBR user_id=2 sessao='jPX...(43)'
+[HOST_SERVER][16:40:59] LOGIN_LAYOUT prefix=90 items=493 separate_characters=136
+[HOST_SERVER][16:41:01] cmd=login_init seq=4 -> status=0 (260753 chars)
+[HOST_SERVER][16:41:06] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=32 primeira-linha=4
+[HOST_SERVER][16:41:06] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][16:41:08] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=552 primeira-linha=4
+[HOST_SERVER][16:41:08] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:41:08] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:41:08] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=552 primeira-linha=4
+[HOST_SERVER][16:41:08] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:41:08] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:41:10] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=32 primeira-linha=4
+[HOST_SERVER][16:41:10] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][16:41:10] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=40 primeira-linha=4
+[HOST_SERVER][16:41:10] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][16:41:10] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=32 primeira-linha=4
+[HOST_SERVER][16:41:10] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][16:41:11] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=40 primeira-linha=4
+[HOST_SERVER][16:41:11] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][16:41:11] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=56 primeira-linha=4
+[HOST_SERVER][16:41:11] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][16:42:26] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=48 primeira-linha=4
+[HOST_SERVER][16:42:26] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][16:42:26] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][16:42:32] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=48 primeira-linha=4
+[HOST_SERVER][16:42:32] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12605 chars)
+[HOST_SERVER][16:43:09] POST path=/iniServer?s=jPXmh8kzyrSqrhQlOiUrctwU2zrhRj8xY4p1Sh9_EOA bytes=24 primeira-linha=4
+[HOST_SERVER][16:43:09] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:44:37] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][16:44:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua de 45.177.105.186
+[HOST_SERVER][16:44:43] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][16:44:43] login ok conta=ItachiBR sessao='eTd...(43)' perfil_user_id=2
+[HOST_SERVER][16:44:43] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][16:44:43] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=48 primeira-linha=1
+[HOST_SERVER][16:44:43] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][16:44:43] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=80 primeira-linha=2
+[HOST_SERVER][16:44:43] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][16:45:17] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=56 primeira-linha=3
+[HOST_SERVER][16:45:17] vali_register conta=ItachiBR sessao='eTd...(43)'
+[HOST_SERVER][16:45:17] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][16:45:17] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=152 primeira-linha=4
+[HOST_SERVER][16:45:17] login_init: 493 itens no inventario da conta 62
+[HOST_SERVER][16:45:17] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][16:45:17] login_init conta=RenegadoBR user_id=2 sessao='eTd...(43)'
+[HOST_SERVER][16:45:19] LOGIN_LAYOUT prefix=90 items=493 separate_characters=136
+[HOST_SERVER][16:45:21] cmd=login_init seq=4 -> status=0 (260761 chars)
+[HOST_SERVER][16:45:26] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=32 primeira-linha=4
+[HOST_SERVER][16:45:26] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][16:45:28] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=552 primeira-linha=4
+[HOST_SERVER][16:45:28] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:45:28] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:45:28] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=552 primeira-linha=4
+[HOST_SERVER][16:45:28] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:45:28] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:45:30] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=32 primeira-linha=4
+[HOST_SERVER][16:45:30] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][16:45:30] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=40 primeira-linha=4
+[HOST_SERVER][16:45:30] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][16:45:30] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=32 primeira-linha=4
+[HOST_SERVER][16:45:30] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][16:45:30] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=40 primeira-linha=4
+[HOST_SERVER][16:45:31] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][16:45:31] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=56 primeira-linha=4
+[HOST_SERVER][16:45:31] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][16:45:36] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=48 primeira-linha=4
+[HOST_SERVER][16:45:36] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][16:45:36] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][16:45:42] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=48 primeira-linha=4
+[HOST_SERVER][16:45:42] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12609 chars)
+[HOST_SERVER][16:47:29] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=24 primeira-linha=4
+[HOST_SERVER][16:47:29] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:49:30] POST path=/iniServer?s=eTdG7oulhQjjoSuvXENU4GJFbjDHGLNdv0w-vNVB7oA bytes=24 primeira-linha=4
+[HOST_SERVER][16:49:30] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:50:19] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][16:50:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/reward/DrawRareReward.lua de 45.177.105.186
+[HOST_SERVER][16:50:24] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][16:50:24] login ok conta=ItachiBR sessao='_9Z...(43)' perfil_user_id=2
+[HOST_SERVER][16:50:24] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][16:50:25] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=48 primeira-linha=1
+[HOST_SERVER][16:50:25] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][16:50:25] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=80 primeira-linha=2
+[HOST_SERVER][16:50:25] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][16:51:15] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=56 primeira-linha=3
+[HOST_SERVER][16:51:15] vali_register conta=ItachiBR sessao='_9Z...(43)'
+[HOST_SERVER][16:51:15] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][16:51:15] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=152 primeira-linha=4
+[HOST_SERVER][16:51:15] login_init: 493 itens no inventario da conta 62
+[HOST_SERVER][16:51:15] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][16:51:15] login_init conta=RenegadoBR user_id=2 sessao='_9Z...(43)'
+[HOST_SERVER][16:51:17] LOGIN_LAYOUT prefix=90 items=493 separate_characters=136
+[HOST_SERVER][16:51:19] cmd=login_init seq=4 -> status=0 (260769 chars)
+[HOST_SERVER][16:51:23] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=32 primeira-linha=4
+[HOST_SERVER][16:51:23] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][16:51:25] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=552 primeira-linha=4
+[HOST_SERVER][16:51:25] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:51:25] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:51:25] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=552 primeira-linha=4
+[HOST_SERVER][16:51:25] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][16:51:25] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][16:51:28] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=32 primeira-linha=4
+[HOST_SERVER][16:51:28] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][16:51:28] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=40 primeira-linha=4
+[HOST_SERVER][16:51:28] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][16:51:28] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=32 primeira-linha=4
+[HOST_SERVER][16:51:28] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][16:51:28] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=40 primeira-linha=4
+[HOST_SERVER][16:51:28] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][16:51:28] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=56 primeira-linha=4
+[HOST_SERVER][16:51:28] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][16:53:27] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=24 primeira-linha=4
+[HOST_SERVER][16:53:27] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:55:28] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=24 primeira-linha=4
+[HOST_SERVER][16:55:28] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:55:57] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=48 primeira-linha=4
+[HOST_SERVER][16:55:57] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][16:55:57] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][16:56:03] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=40 primeira-linha=4
+[HOST_SERVER][16:56:03] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12613 chars)
+[HOST_SERVER][16:56:10] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=40 primeira-linha=4
+[HOST_SERVER][16:56:10] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12617 chars)
+[HOST_SERVER][16:57:29] POST path=/iniServer?s=_9ZmGXEsZ0xqPBNI57m4fFj7HPg4amzwp-kVShQF0N8 bytes=24 primeira-linha=4
+[HOST_SERVER][16:57:29] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][16:59:30] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][16:59:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/reward/DrawRareReward.lua de 45.177.105.186
+[HOST_SERVER][16:59:36] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][16:59:36] login ok conta=ItachiBR sessao='OT5...(43)' perfil_user_id=2
+[HOST_SERVER][16:59:36] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][16:59:36] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=48 primeira-linha=1
+[HOST_SERVER][16:59:36] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][16:59:36] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=80 primeira-linha=2
+[HOST_SERVER][16:59:36] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][17:03:43] POST path=/iniServer?nr_transport=text-v1 bytes=176 primeira-linha=0
+[HOST_SERVER][17:03:43] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][17:04:20] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=56 primeira-linha=3
+[HOST_SERVER][17:04:20] vali_register conta=ItachiBR sessao='OT5...(43)'
+[HOST_SERVER][17:04:20] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][17:04:20] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=144 primeira-linha=4
+[HOST_SERVER][17:04:20] login_init: 493 itens no inventario da conta 62
+[HOST_SERVER][17:04:20] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][17:04:20] login_init conta=RenegadoBR user_id=2 sessao='OT5...(43)'
+[HOST_SERVER][17:04:22] LOGIN_LAYOUT prefix=90 items=493 separate_characters=136
+[HOST_SERVER][17:04:25] cmd=login_init seq=4 -> status=0 (260785 chars)
+[HOST_SERVER][17:04:29] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=32 primeira-linha=4
+[HOST_SERVER][17:04:29] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][17:04:31] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=552 primeira-linha=4
+[HOST_SERVER][17:04:31] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][17:04:31] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:04:31] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=552 primeira-linha=4
+[HOST_SERVER][17:04:31] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][17:04:31] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:04:33] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=32 primeira-linha=4
+[HOST_SERVER][17:04:33] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][17:04:34] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=40 primeira-linha=4
+[HOST_SERVER][17:04:34] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][17:04:34] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=32 primeira-linha=4
+[HOST_SERVER][17:04:34] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][17:04:34] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=40 primeira-linha=4
+[HOST_SERVER][17:04:34] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][17:04:34] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=56 primeira-linha=4
+[HOST_SERVER][17:04:34] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][17:04:47] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=48 primeira-linha=4
+[HOST_SERVER][17:04:47] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][17:04:47] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][17:04:53] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=40 primeira-linha=4
+[HOST_SERVER][17:04:53] cmd=draw_scene_npc_rewad seq=4 -> status=0 (12621 chars)
+[HOST_SERVER][17:06:32] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=24 primeira-linha=4
+[HOST_SERVER][17:06:32] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][17:08:33] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=24 primeira-linha=4
+[HOST_SERVER][17:08:33] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][17:10:34] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=24 primeira-linha=4
+[HOST_SERVER][17:10:34] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][17:11:21] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=48 primeira-linha=4
+[HOST_SERVER][17:11:21] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][17:11:21] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][17:11:39] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=64 primeira-linha=4
+[HOST_SERVER][17:11:39] recusa cmd=ship_bounty seq=4 motivo=pedido_invalido
+[HOST_SERVER][17:11:39] cmd=ship_bounty seq=4 -> status=-1 (32 chars)
+[HOST_SERVER][17:11:40] POST path=/iniServer?s=OT5noydluRK29yY8pGeB0SKQBjTjhhpa9lupAv8viio bytes=72 primeira-linha=4
+[HOST_SERVER][17:11:40] recusa cmd=ship_batch_bounty seq=4 motivo=pedido_invalido
+[HOST_SERVER][17:11:40] cmd=ship_batch_bounty seq=4 -> status=-1 (38 chars)
+[HOST_SERVER][17:14:02] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][17:14:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua de 45.177.105.186
+[HOST_SERVER][17:14:08] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][17:14:08] login ok conta=ItachiBR sessao='N4B...(43)' perfil_user_id=2
+[HOST_SERVER][17:14:08] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][17:14:08] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=48 primeira-linha=1
+[HOST_SERVER][17:14:08] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][17:14:08] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=80 primeira-linha=2
+[HOST_SERVER][17:14:08] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][17:14:10] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=56 primeira-linha=3
+[HOST_SERVER][17:14:10] vali_register conta=ItachiBR sessao='N4B...(43)'
+[HOST_SERVER][17:14:10] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][17:14:10] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=152 primeira-linha=4
+[HOST_SERVER][17:14:10] login_init: 493 itens no inventario da conta 62
+[HOST_SERVER][17:14:10] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][17:14:10] login_init conta=RenegadoBR user_id=2 sessao='N4B...(43)'
+[HOST_SERVER][17:14:12] LOGIN_LAYOUT prefix=90 items=493 separate_characters=136
+[HOST_SERVER][17:14:15] cmd=login_init seq=4 -> status=0 (260793 chars)
+[HOST_SERVER][17:14:19] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=32 primeira-linha=4
+[HOST_SERVER][17:14:19] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][17:14:22] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=552 primeira-linha=4
+[HOST_SERVER][17:14:22] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][17:14:22] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:14:22] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=552 primeira-linha=4
+[HOST_SERVER][17:14:22] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: attempt to index local 'Button_add_strength_rec' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:181: in function 'onUpdateDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:298: in function 'initDraw' | 	...udo_apk/assets/src/client/activity/ActivityAddEnergy.lua:395: in function 'lazy' | 	...nteudo_apk/assets/src/client/activity/Acti
+[HOST_SERVER][17:14:22] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:14:23] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=32 primeira-linha=4
+[HOST_SERVER][17:14:23] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][17:14:24] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=40 primeira-linha=4
+[HOST_SERVER][17:14:24] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][17:14:24] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=32 primeira-linha=4
+[HOST_SERVER][17:14:24] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][17:14:24] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=40 primeira-linha=4
+[HOST_SERVER][17:14:24] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][17:14:24] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=56 primeira-linha=4
+[HOST_SERVER][17:14:24] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][17:14:31] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][17:14:31] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:14:31] login_init conta=shop_test user_id=1 sessao='BRd...(43)'
+[HOST_SERVER][17:14:31] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:14:31] cmd=ship_bounty seq=2 -> status=0 (167 chars)
+[HOST_SERVER][17:14:31] cmd=ship_bounty seq=2 -> status=0 (167 chars)
+[HOST_SERVER][17:14:31] recusa cmd=ship_batch_bounty seq=2 motivo=identificador_reutilizado
+[HOST_SERVER][17:14:31] cmd=ship_batch_bounty seq=2 -> status=-1 (48 chars)
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=-80
+[HOST_SERVER][17:14:31] cmd=ship_bounty seq=2 -> status=0 (182 chars)
+[HOST_SERVER][17:14:31] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=48 primeira-linha=4
+[HOST_SERVER][17:14:31] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][17:14:31] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=ship_batch_bounty conta=1 resultados=10 gold_delta=0
+[HOST_SERVER][17:14:31] cmd=ship_batch_bounty seq=2 -> status=0 (694 chars)
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=ship_batch_bounty conta=1 resultados=10 gold_delta=-680
+[HOST_SERVER][17:14:31] cmd=ship_batch_bounty seq=2 -> status=0 (803 chars)
+[HOST_SERVER][17:14:31] cmd=ship_batch_bounty seq=2 -> status=0 (803 chars)
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=-80
+[HOST_SERVER][17:14:31] cmd=ship_bounty seq=2 -> status=0 (408 chars)
+[HOST_SERVER][17:14:31] recusa cmd=ship_bounty seq=2 motivo=item_ausente
+[HOST_SERVER][17:14:31] cmd=ship_bounty seq=2 -> status=-1 (29 chars)
+[HOST_SERVER][17:14:31] recusa cmd=ship_batch_bounty seq=2 motivo=gold_insuficiente
+[HOST_SERVER][17:14:31] cmd=ship_batch_bounty seq=2 -> status=-1 (40 chars)
+[HOST_SERVER][17:14:31] cmd=shop_frags_init seq=2 -> status=0 (82 chars)
+[HOST_SERVER][17:14:31] cmd=shop_frags_init seq=2 -> status=0 (82 chars)
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=shop_frags_exchange conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:14:31] cmd=shop_frags_exchange seq=2 -> status=0 (470 chars)
+[HOST_SERVER][17:14:31] cmd=shop_frags_exchange seq=2 -> status=0 (470 chars)
+[HOST_SERVER][17:14:31] recusa cmd=shop_frags_exchange seq=2 motivo=quantidade_invalida
+[HOST_SERVER][17:14:31] cmd=shop_frags_exchange seq=2 -> status=-1 (44 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_init seq=2 -> status=0 (213 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_init seq=2 -> status=0 (213 chars)
+[HOST_SERVER][17:14:31] recusa cmd=secret_shop_init seq=2 motivo=pedido_invalido
+[HOST_SERVER][17:14:31] cmd=secret_shop_init seq=2 -> status=-1 (37 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_init seq=2 -> status=0 (213 chars)
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=secret_shop_exchange conta=1 slot=0
+[HOST_SERVER][17:14:31] cmd=secret_shop_exchange seq=2 -> status=0 (428 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_exchange seq=2 -> status=0 (428 chars)
+[HOST_SERVER][17:14:31] recusa cmd=secret_shop_exchange seq=2 motivo=estoque_esgotado
+[HOST_SERVER][17:14:31] cmd=secret_shop_exchange seq=2 -> status=-1 (42 chars)
+[HOST_SERVER][17:14:31] recusa cmd=secret_shop_exchange seq=2 motivo=oferta_ausente
+[HOST_SERVER][17:14:31] cmd=secret_shop_exchange seq=2 -> status=-1 (40 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_init seq=2 -> status=0 (213 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_init seq=2 -> status=0 (213 chars)
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=secret_shop_refresh conta=1 atualizacoes=1 gold_gasto=20
+[HOST_SERVER][17:14:31] cmd=secret_shop_refresh seq=2 -> status=0 (228 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_refresh seq=2 -> status=0 (228 chars)
+[HOST_SERVER][17:14:31] SHOP_LOCAL cmd=secret_shop_refresh conta=1 atualizacoes=2 gold_gasto=30
+[HOST_SERVER][17:14:31] cmd=secret_shop_refresh seq=2 -> status=0 (227 chars)
+[HOST_SERVER][17:14:31] recusa cmd=secret_shop_refresh seq=2 motivo=limite_de_atualizacoes
+[HOST_SERVER][17:14:31] cmd=secret_shop_refresh seq=2 -> status=-1 (47 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:14:31] recusa cmd=secret_shop_exchange seq=2 motivo=ryo_insuficiente
+[HOST_SERVER][17:14:31] cmd=secret_shop_exchange seq=2 -> status=-1 (42 chars)
+[HOST_SERVER][17:14:31] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:14:31] recusa cmd=secret_shop_refresh seq=2 motivo=gold_insuficiente
+[HOST_SERVER][17:14:31] cmd=secret_shop_refresh seq=2 -> status=-1 (42 chars)
+[HOST_SERVER][17:14:31] recusa cmd=secret_shop_exchange seq=2 motivo=loja_desatualizada_reabra_a_aba
+[HOST_SERVER][17:14:31] cmd=secret_shop_exchange seq=2 -> status=-1 (57 chars)
+[HOST_SERVER][17:14:31] login_init: 15 itens no inventario da conta 1
+[HOST_SERVER][17:14:31] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:14:31] login_init conta=shop_test user_id=1 sessao='BRd...(43)'
+[HOST_SERVER][17:14:31] LOGIN_LAYOUT prefix=90 items=15 separate_characters=3
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:14:32] cmd=ship_bounty seq=7 -> status=0 (1495 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:14:32] cmd=ship_bounty seq=7 -> status=0 (1494 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_batch_bounty conta=1 pedido=5
+[HOST_SERVER][17:14:32] cmd=ship_batch_bounty seq=7 -> status=0 (1861 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_batch_bounty conta=1 pedido=6
+[HOST_SERVER][17:14:32] cmd=ship_batch_bounty seq=7 -> status=0 (3472 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_batch_bounty conta=1 pedido=7
+[HOST_SERVER][17:14:32] cmd=ship_batch_bounty seq=7 -> status=0 (1897 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_bounty conta=1 pedido=5
+[HOST_SERVER][17:14:32] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:14:32] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:14:32] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:14:32] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:14:32] cmd=ship_bounty seq=7 -> status=0 (171 chars)
+[HOST_SERVER][17:14:32] recusa cmd=ship_metal_set seq=7 motivo=posicao_bloqueada
+[HOST_SERVER][17:14:32] cmd=ship_metal_set seq=7 -> status=-1 (37 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_metal_set conta=1 pedido=100013|1|1|300000004,1|300000002,2|
+[HOST_SERVER][17:14:32] cmd=ship_metal_set seq=7 -> status=0 (1832 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=draw_matrix_reward conta=1 pedido=100013|6,
+[HOST_SERVER][17:14:32] cmd=draw_matrix_reward seq=7 -> status=0 (1813 chars)
+[HOST_SERVER][17:14:32] recusa cmd=draw_matrix_reward seq=7 motivo=recompensa_indisponivel
+[HOST_SERVER][17:14:32] cmd=draw_matrix_reward seq=7 -> status=-1 (47 chars)
+[HOST_SERVER][17:14:32] recusa cmd=ship_metal_dissolve seq=7 motivo=peca_equipada
+[HOST_SERVER][17:14:32] cmd=ship_metal_dissolve seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000004|0
+[HOST_SERVER][17:14:32] cmd=ship_metal_escalate seq=7 -> status=0 (1478 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000004|1
+[HOST_SERVER][17:14:32] cmd=ship_metal_escalate seq=7 -> status=0 (1480 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000004|0
+[HOST_SERVER][17:14:32] cmd=ship_metal_escalate seq=7 -> status=0 (1484 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_metal_onekey_escalate conta=1 pedido=100013|1|30
+[HOST_SERVER][17:14:32] cmd=ship_metal_onekey_escalate seq=7 -> status=0 (1884 chars)
+[HOST_SERVER][17:14:32] MUDRA cmd=ship_metal_set conta=1 pedido=100013|1|2|-1
+[HOST_SERVER][17:14:32] cmd=ship_metal_set seq=7 -> status=0 (1800 chars)
+[HOST_SERVER][17:14:33] MUDRA cmd=ship_metal_dissolve conta=1 pedido=300000004,
+[HOST_SERVER][17:14:33] cmd=ship_metal_dissolve seq=7 -> status=0 (1480 chars)
+[HOST_SERVER][17:14:33] recusa cmd=ship_metal_dissolve seq=7 motivo=peca_nao_possuida
+[HOST_SERVER][17:14:33] cmd=ship_metal_dissolve seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][17:14:33] login_init: 1 itens no inventario da conta 1
+[HOST_SERVER][17:14:33] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:14:33] login_init conta=mudrateste user_id=1 sessao='hSs...(43)'
+[HOST_SERVER][17:14:33] LOGIN_LAYOUT prefix=90 items=1 separate_characters=3
+[HOST_SERVER][17:14:34] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=48 primeira-linha=4
+[HOST_SERVER][17:14:34] cmd=get_copy_clear_user_info seq=4 -> status=0 (36 chars)
+[HOST_SERVER][17:14:53] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=48 primeira-linha=4
+[HOST_SERVER][17:14:53] recusa cmd=ship_rebirth_init seq=4 motivo=pedido_de_renascimento_invalido
+[HOST_SERVER][17:14:53] cmd=ship_rebirth_init seq=4 -> status=-1 (54 chars)
+[HOST_SERVER][17:15:03] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][17:15:03] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:15:03] login_init conta=shop_test user_id=1 sessao='JZQ...(43)'
+[HOST_SERVER][17:15:03] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][17:15:03] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:15:03] cmd=ship_bounty seq=2 -> status=0 (167 chars)
+[HOST_SERVER][17:15:03] cmd=ship_bounty seq=2 -> status=0 (167 chars)
+[HOST_SERVER][17:15:03] recusa cmd=ship_batch_bounty seq=2 motivo=identificador_reutilizado
+[HOST_SERVER][17:15:03] cmd=ship_batch_bounty seq=2 -> status=-1 (48 chars)
+[HOST_SERVER][17:15:03] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=-80
+[HOST_SERVER][17:15:03] cmd=ship_bounty seq=2 -> status=0 (182 chars)
+[HOST_SERVER][17:15:03] SHOP_LOCAL cmd=ship_batch_bounty conta=1 resultados=10 gold_delta=0
+[HOST_SERVER][17:15:03] cmd=ship_batch_bounty seq=2 -> status=0 (694 chars)
+[HOST_SERVER][17:15:03] SHOP_LOCAL cmd=ship_batch_bounty conta=1 resultados=10 gold_delta=-680
+[HOST_SERVER][17:15:03] cmd=ship_batch_bounty seq=2 -> status=0 (796 chars)
+[HOST_SERVER][17:15:03] cmd=ship_batch_bounty seq=2 -> status=0 (796 chars)
+[HOST_SERVER][17:15:03] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=-80
+[HOST_SERVER][17:15:03] cmd=ship_bounty seq=2 -> status=0 (403 chars)
+[HOST_SERVER][17:15:03] recusa cmd=ship_bounty seq=2 motivo=item_ausente
+[HOST_SERVER][17:15:03] cmd=ship_bounty seq=2 -> status=-1 (29 chars)
+[HOST_SERVER][17:15:03] recusa cmd=ship_batch_bounty seq=2 motivo=gold_insuficiente
+[HOST_SERVER][17:15:03] cmd=ship_batch_bounty seq=2 -> status=-1 (40 chars)
+[HOST_SERVER][17:15:03] recusa cmd=shop_frags_init seq=2 motivo=pedido_invalido
+[HOST_SERVER][17:15:03] cmd=shop_frags_init seq=2 -> status=-1 (36 chars)
+[HOST_SERVER][17:15:22] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][17:15:22] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:15:22] login_init conta=shop_test user_id=1 sessao='NHU...(43)'
+[HOST_SERVER][17:15:22] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][17:15:22] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:15:22] cmd=ship_bounty seq=2 -> status=0 (167 chars)
+[HOST_SERVER][17:15:22] cmd=ship_bounty seq=2 -> status=0 (167 chars)
+[HOST_SERVER][17:15:22] recusa cmd=ship_batch_bounty seq=2 motivo=identificador_reutilizado
+[HOST_SERVER][17:15:22] cmd=ship_batch_bounty seq=2 -> status=-1 (48 chars)
+[HOST_SERVER][17:15:22] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=-80
+[HOST_SERVER][17:15:22] cmd=ship_bounty seq=2 -> status=0 (182 chars)
+[HOST_SERVER][17:15:22] SHOP_LOCAL cmd=ship_batch_bounty conta=1 resultados=10 gold_delta=0
+[HOST_SERVER][17:15:22] cmd=ship_batch_bounty seq=2 -> status=0 (664 chars)
+[HOST_SERVER][17:15:22] SHOP_LOCAL cmd=ship_batch_bounty conta=1 resultados=10 gold_delta=-680
+[HOST_SERVER][17:15:22] cmd=ship_batch_bounty seq=2 -> status=0 (758 chars)
+[HOST_SERVER][17:15:22] cmd=ship_batch_bounty seq=2 -> status=0 (758 chars)
+[HOST_SERVER][17:15:22] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=-80
+[HOST_SERVER][17:15:22] cmd=ship_bounty seq=2 -> status=0 (362 chars)
+[HOST_SERVER][17:15:22] recusa cmd=ship_bounty seq=2 motivo=item_ausente
+[HOST_SERVER][17:15:22] cmd=ship_bounty seq=2 -> status=-1 (29 chars)
+[HOST_SERVER][17:15:22] recusa cmd=ship_batch_bounty seq=2 motivo=gold_insuficiente
+[HOST_SERVER][17:15:22] cmd=ship_batch_bounty seq=2 -> status=-1 (40 chars)
+[HOST_SERVER][17:15:22] cmd=shop_frags_init seq=2 -> status=0 (82 chars)
+[HOST_SERVER][17:15:22] cmd=shop_frags_init seq=2 -> status=0 (82 chars)
+[HOST_SERVER][17:15:22] SHOP_LOCAL cmd=shop_frags_exchange conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:15:22] cmd=shop_frags_exchange seq=2 -> status=0 (424 chars)
+[HOST_SERVER][17:15:22] cmd=shop_frags_exchange seq=2 -> status=0 (424 chars)
+[HOST_SERVER][17:15:22] recusa cmd=shop_frags_exchange seq=2 motivo=quantidade_invalida
+[HOST_SERVER][17:15:22] cmd=shop_frags_exchange seq=2 -> status=-1 (44 chars)
+[HOST_SERVER][17:15:22] recusa cmd=secret_shop_init seq=2 motivo=pedido_invalido
+[HOST_SERVER][17:15:22] cmd=secret_shop_init seq=2 -> status=-1 (37 chars)
+[HOST_SERVER][17:15:35] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][17:15:35] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:15:35] login_init conta=shop_test user_id=1 sessao='Syz...(43)'
+[HOST_SERVER][17:15:35] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:15:35] cmd=ship_bounty seq=2 -> status=0 (167 chars)
+[HOST_SERVER][17:15:35] cmd=ship_bounty seq=2 -> status=0 (167 chars)
+[HOST_SERVER][17:15:35] recusa cmd=ship_batch_bounty seq=2 motivo=identificador_reutilizado
+[HOST_SERVER][17:15:35] cmd=ship_batch_bounty seq=2 -> status=-1 (48 chars)
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=-80
+[HOST_SERVER][17:15:35] cmd=ship_bounty seq=2 -> status=0 (182 chars)
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=ship_batch_bounty conta=1 resultados=10 gold_delta=0
+[HOST_SERVER][17:15:35] cmd=ship_batch_bounty seq=2 -> status=0 (691 chars)
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=ship_batch_bounty conta=1 resultados=10 gold_delta=-680
+[HOST_SERVER][17:15:35] cmd=ship_batch_bounty seq=2 -> status=0 (786 chars)
+[HOST_SERVER][17:15:35] cmd=ship_batch_bounty seq=2 -> status=0 (786 chars)
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=-80
+[HOST_SERVER][17:15:35] cmd=ship_bounty seq=2 -> status=0 (394 chars)
+[HOST_SERVER][17:15:35] recusa cmd=ship_bounty seq=2 motivo=item_ausente
+[HOST_SERVER][17:15:35] cmd=ship_bounty seq=2 -> status=-1 (29 chars)
+[HOST_SERVER][17:15:35] recusa cmd=ship_batch_bounty seq=2 motivo=gold_insuficiente
+[HOST_SERVER][17:15:35] cmd=ship_batch_bounty seq=2 -> status=-1 (40 chars)
+[HOST_SERVER][17:15:35] cmd=shop_frags_init seq=2 -> status=0 (82 chars)
+[HOST_SERVER][17:15:35] cmd=shop_frags_init seq=2 -> status=0 (82 chars)
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=shop_frags_exchange conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:15:35] cmd=shop_frags_exchange seq=2 -> status=0 (456 chars)
+[HOST_SERVER][17:15:35] cmd=shop_frags_exchange seq=2 -> status=0 (456 chars)
+[HOST_SERVER][17:15:35] recusa cmd=shop_frags_exchange seq=2 motivo=quantidade_invalida
+[HOST_SERVER][17:15:35] cmd=shop_frags_exchange seq=2 -> status=-1 (44 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:15:35] recusa cmd=secret_shop_init seq=2 motivo=pedido_invalido
+[HOST_SERVER][17:15:35] cmd=secret_shop_init seq=2 -> status=-1 (37 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=secret_shop_exchange conta=1 slot=0
+[HOST_SERVER][17:15:35] cmd=secret_shop_exchange seq=2 -> status=0 (414 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_exchange seq=2 -> status=0 (414 chars)
+[HOST_SERVER][17:15:35] recusa cmd=secret_shop_exchange seq=2 motivo=estoque_esgotado
+[HOST_SERVER][17:15:35] cmd=secret_shop_exchange seq=2 -> status=-1 (42 chars)
+[HOST_SERVER][17:15:35] recusa cmd=secret_shop_exchange seq=2 motivo=oferta_ausente
+[HOST_SERVER][17:15:35] cmd=secret_shop_exchange seq=2 -> status=-1 (40 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=secret_shop_refresh conta=1 atualizacoes=1 gold_gasto=20
+[HOST_SERVER][17:15:35] cmd=secret_shop_refresh seq=2 -> status=0 (226 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_refresh seq=2 -> status=0 (226 chars)
+[HOST_SERVER][17:15:35] SHOP_LOCAL cmd=secret_shop_refresh conta=1 atualizacoes=2 gold_gasto=30
+[HOST_SERVER][17:15:35] cmd=secret_shop_refresh seq=2 -> status=0 (227 chars)
+[HOST_SERVER][17:15:35] recusa cmd=secret_shop_refresh seq=2 motivo=limite_de_atualizacoes
+[HOST_SERVER][17:15:35] cmd=secret_shop_refresh seq=2 -> status=-1 (47 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:15:35] recusa cmd=secret_shop_exchange seq=2 motivo=ryo_insuficiente
+[HOST_SERVER][17:15:35] cmd=secret_shop_exchange seq=2 -> status=-1 (42 chars)
+[HOST_SERVER][17:15:35] cmd=secret_shop_init seq=2 -> status=0 (212 chars)
+[HOST_SERVER][17:15:35] recusa cmd=secret_shop_refresh seq=2 motivo=gold_insuficiente
+[HOST_SERVER][17:15:35] cmd=secret_shop_refresh seq=2 -> status=-1 (42 chars)
+[HOST_SERVER][17:15:35] recusa cmd=secret_shop_exchange seq=2 motivo=loja_desatualizada_reabra_a_aba
+[HOST_SERVER][17:15:35] cmd=secret_shop_exchange seq=2 -> status=-1 (57 chars)
+[HOST_SERVER][17:15:35] login_init: 14 itens no inventario da conta 1
+[HOST_SERVER][17:15:35] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:15:35] login_init conta=shop_test user_id=1 sessao='Syz...(43)'
+[HOST_SERVER][17:15:35] LOGIN_LAYOUT prefix=90 items=14 separate_characters=3
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:15:36] cmd=ship_bounty seq=7 -> status=0 (1495 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:15:36] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_batch_bounty conta=1 pedido=5
+[HOST_SERVER][17:15:36] cmd=ship_batch_bounty seq=7 -> status=0 (1878 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_batch_bounty conta=1 pedido=6
+[HOST_SERVER][17:15:36] cmd=ship_batch_bounty seq=7 -> status=0 (3474 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_batch_bounty conta=1 pedido=7
+[HOST_SERVER][17:15:36] cmd=ship_batch_bounty seq=7 -> status=0 (1872 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_bounty conta=1 pedido=5
+[HOST_SERVER][17:15:36] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:15:36] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:15:36] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:15:36] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:15:36] cmd=ship_bounty seq=7 -> status=0 (171 chars)
+[HOST_SERVER][17:15:36] recusa cmd=ship_metal_set seq=7 motivo=posicao_bloqueada
+[HOST_SERVER][17:15:36] cmd=ship_metal_set seq=7 -> status=-1 (37 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_metal_set conta=1 pedido=100013|1|1|300000003,1|300000026,2|
+[HOST_SERVER][17:15:36] cmd=ship_metal_set seq=7 -> status=0 (1832 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=draw_matrix_reward conta=1 pedido=100013|6,
+[HOST_SERVER][17:15:36] cmd=draw_matrix_reward seq=7 -> status=0 (1813 chars)
+[HOST_SERVER][17:15:36] recusa cmd=draw_matrix_reward seq=7 motivo=recompensa_indisponivel
+[HOST_SERVER][17:15:36] cmd=draw_matrix_reward seq=7 -> status=-1 (47 chars)
+[HOST_SERVER][17:15:36] recusa cmd=ship_metal_dissolve seq=7 motivo=peca_equipada
+[HOST_SERVER][17:15:36] cmd=ship_metal_dissolve seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000003|0
+[HOST_SERVER][17:15:36] cmd=ship_metal_escalate seq=7 -> status=0 (1478 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000003|1
+[HOST_SERVER][17:15:36] cmd=ship_metal_escalate seq=7 -> status=0 (1480 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000003|0
+[HOST_SERVER][17:15:36] cmd=ship_metal_escalate seq=7 -> status=0 (1484 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_metal_onekey_escalate conta=1 pedido=100013|1|30
+[HOST_SERVER][17:15:36] cmd=ship_metal_onekey_escalate seq=7 -> status=0 (1885 chars)
+[HOST_SERVER][17:15:36] MUDRA cmd=ship_metal_set conta=1 pedido=100013|1|2|-1
+[HOST_SERVER][17:15:36] cmd=ship_metal_set seq=7 -> status=0 (1800 chars)
+[HOST_SERVER][17:15:37] MUDRA cmd=ship_metal_dissolve conta=1 pedido=300000003,
+[HOST_SERVER][17:15:37] cmd=ship_metal_dissolve seq=7 -> status=0 (1480 chars)
+[HOST_SERVER][17:15:37] recusa cmd=ship_metal_dissolve seq=7 motivo=peca_nao_possuida
+[HOST_SERVER][17:15:37] cmd=ship_metal_dissolve seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][17:15:37] login_init: 1 itens no inventario da conta 1
+[HOST_SERVER][17:15:37] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:15:37] login_init conta=mudrateste user_id=1 sessao='nlI...(43)'
+[HOST_SERVER][17:15:37] LOGIN_LAYOUT prefix=90 items=1 separate_characters=3
+[HOST_SERVER][17:15:52] [CONTROLE] recarregar -> ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: initial_tutorial
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: tutorial_skip
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: achievements_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: mythical_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: saga_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: constellation_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: artifact_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: mudra_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: legacy_recruit_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: index_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: ninja_school_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: hero_gates_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: hero_stats_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: hero_development_local
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: hero_level_local
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: equipment_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: treasure_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: equipment_development_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: hero_quality_local
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: shop_special_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: shop_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: shop_general_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: normal_recruit
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: profile_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: online_reward_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: energia
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: mail_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: formacao_pesadelo
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: recruitment_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: hero_training_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: chat_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: tutorial_synthesis
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: scene_rewards_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: tutorial_campaign
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: ninja_trial_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: worldboss_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: purify_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: dados_batalha
+[HOST_SERVER][17:15:52] [CONTROLE] carregado: quest_local
+[HOST_SERVER][17:15:52] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] recarregar -> ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: initial_tutorial
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: tutorial_skip
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: achievements_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: mythical_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: saga_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: constellation_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: artifact_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: mudra_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: legacy_recruit_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: index_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: ninja_school_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: hero_gates_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: hero_stats_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: hero_development_local
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: hero_level_local
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: equipment_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: treasure_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: equipment_development_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: hero_quality_local
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: shop_special_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: shop_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: shop_general_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: normal_recruit
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: profile_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: online_reward_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: energia
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: mail_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: formacao_pesadelo
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: recruitment_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: hero_training_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: chat_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: tutorial_synthesis
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: scene_rewards_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: tutorial_campaign
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: ninja_trial_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: worldboss_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: purify_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: dados_batalha
+[HOST_SERVER][17:16:33] [CONTROLE] carregado: quest_local
+[HOST_SERVER][17:16:33] [CONTROLE] install() ok
+[HOST_SERVER][17:16:33] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:16:33] cmd=ship_bounty seq=7 -> status=0 (1495 chars)
+[HOST_SERVER][17:16:33] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:16:33] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:16:33] MUDRA cmd=ship_batch_bounty conta=1 pedido=5
+[HOST_SERVER][17:16:33] cmd=ship_batch_bounty seq=7 -> status=0 (1877 chars)
+[HOST_SERVER][17:16:33] MUDRA cmd=ship_batch_bounty conta=1 pedido=6
+[HOST_SERVER][17:16:33] cmd=ship_batch_bounty seq=7 -> status=0 (3471 chars)
+[HOST_SERVER][17:16:33] MUDRA cmd=ship_batch_bounty conta=1 pedido=7
+[HOST_SERVER][17:16:33] cmd=ship_batch_bounty seq=7 -> status=0 (1898 chars)
+[HOST_SERVER][17:16:33] MUDRA cmd=ship_bounty conta=1 pedido=5
+[HOST_SERVER][17:16:33] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:16:33] MUDRA cmd=ship_bounty conta=1 pedido=4
+[HOST_SERVER][17:16:33] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:16:33] cmd=ship_bounty seq=7 -> status=0 (1493 chars)
+[HOST_SERVER][17:16:33] SHOP_LOCAL cmd=ship_bounty conta=1 resultados=1 gold_delta=0
+[HOST_SERVER][17:16:33] cmd=ship_bounty seq=7 -> status=0 (171 chars)
+[HOST_SERVER][17:16:34] recusa cmd=ship_metal_set seq=7 motivo=posicao_bloqueada
+[HOST_SERVER][17:16:34] cmd=ship_metal_set seq=7 -> status=-1 (37 chars)
+[HOST_SERVER][17:16:34] MUDRA cmd=ship_metal_set conta=1 pedido=100013|1|1|300000001,1|300000005,2|
+[HOST_SERVER][17:16:34] cmd=ship_metal_set seq=7 -> status=0 (1831 chars)
+[HOST_SERVER][17:16:34] MUDRA cmd=draw_matrix_reward conta=1 pedido=100013|6,
+[HOST_SERVER][17:16:34] cmd=draw_matrix_reward seq=7 -> status=0 (1812 chars)
+[HOST_SERVER][17:16:34] recusa cmd=draw_matrix_reward seq=7 motivo=recompensa_indisponivel
+[HOST_SERVER][17:16:34] cmd=draw_matrix_reward seq=7 -> status=-1 (47 chars)
+[HOST_SERVER][17:16:34] recusa cmd=ship_metal_dissolve seq=7 motivo=peca_equipada
+[HOST_SERVER][17:16:34] cmd=ship_metal_dissolve seq=7 -> status=-1 (38 chars)
+[HOST_SERVER][17:16:34] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000001|0
+[HOST_SERVER][17:16:34] cmd=ship_metal_escalate seq=7 -> status=0 (1477 chars)
+[HOST_SERVER][17:16:34] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000001|1
+[HOST_SERVER][17:16:34] cmd=ship_metal_escalate seq=7 -> status=0 (1479 chars)
+[HOST_SERVER][17:16:34] MUDRA cmd=ship_metal_escalate conta=1 pedido=300000001|0
+[HOST_SERVER][17:16:34] cmd=ship_metal_escalate seq=7 -> status=0 (1483 chars)
+[HOST_SERVER][17:16:34] MUDRA cmd=ship_metal_onekey_escalate conta=1 pedido=100013|1|30
+[HOST_SERVER][17:16:34] cmd=ship_metal_onekey_escalate seq=7 -> status=0 (1884 chars)
+[HOST_SERVER][17:16:34] MUDRA cmd=ship_metal_set conta=1 pedido=100013|1|2|-1
+[HOST_SERVER][17:16:34] cmd=ship_metal_set seq=7 -> status=0 (1800 chars)
+[HOST_SERVER][17:16:34] MUDRA cmd=ship_metal_dissolve conta=1 pedido=300000001,
+[HOST_SERVER][17:16:34] cmd=ship_metal_dissolve seq=7 -> status=0 (1480 chars)
+[HOST_SERVER][17:16:34] recusa cmd=ship_metal_dissolve seq=7 motivo=peca_nao_possuida
+[HOST_SERVER][17:16:34] cmd=ship_metal_dissolve seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][17:16:34] login_init: 1 itens no inventario da conta 1
+[HOST_SERVER][17:16:34] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][17:16:34] login_init conta=mudrateste user_id=1 sessao='RQh...(43)'
+[HOST_SERVER][17:16:34] LOGIN_LAYOUT prefix=90 items=1 separate_characters=3
+[HOST_SERVER][17:16:55] POST path=/iniServer?s=N4BjRO6rcpKuaj7X2ycIhnu91z1zqEC_8y5CpXS4udA bytes=24 primeira-linha=4
+[HOST_SERVER][17:16:55] cmd=keep_alive seq=4 -> status=0 (14 chars)

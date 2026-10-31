@@ -15,6 +15,25 @@ GREAT_SHINOBI_DAILY = {
 }
 GREAT_SHINOBI_COOLDOWN_SECONDS = 10 * 60
 
+# The original campaign content available in the supplied reference ends at
+# chapter 24 for these three modes. Scene IDs are global and contiguous:
+# Main 1-50, Elite 51-100, Nightmare 101-150.
+CAMPAIGN_SCENE_LIMITS = {0: 24, 1: 74, 15: 124}
+
+
+def campaign_scene_allowed(scene, definition=None):
+    """Return whether a Main/Elite/Nightmare scene is within chapter 24."""
+    try:
+        scene = int(scene)
+        definition = definition or data.tabela('pve_scene.txt').get(str(scene))
+        if not definition:
+            return False
+        scene_type = int(definition[5])
+        limit = CAMPAIGN_SCENE_LIMITS.get(scene_type)
+        return limit is None or scene <= limit
+    except (IndexError, TypeError, ValueError):
+        return False
+
 
 def _daily_reset_day():
     # play_config's original UI says the daily reset occurs at 05:00 local.
@@ -179,6 +198,7 @@ def scene_tokens(db, account):
     states, stars = [], []
     for scene in ids:
         row = scenes[str(scene)]
+        allowed = campaign_scene_allowed(scene, row)
         groups = npc_groups(row)
         count = 0
         for group in groups:
@@ -196,9 +216,9 @@ def scene_tokens(db, account):
             return bool(required) and all(
                 any((prior,npc) in completed for npc in group)
                 for group in required if group)
-        unlocked = grade>=int(row[4]) and all(cleared(prior) for prior in previous)
+        unlocked = allowed and grade>=int(row[4]) and all(cleared(prior) for prior in previous)
         # Do not hide already persisted victories from an older local version.
-        unlocked = unlocked or count>0
+        unlocked = allowed and (unlocked or count>0)
         states.append(str(count if unlocked else -1))
         stars.append(str(sum(value for (s,_),value in completed.items() if s==scene)))
     normal_npcs=','.join(str(npc) for npc,tier in npc_claims if int(tier)==0) or '-1'
@@ -277,6 +297,8 @@ def install(server):
             account, lines=identity(text,'battle_result_start')
             if len(lines)<5: raise ValueError('batalha_invalida')
             scene,npc,difficulty=int(lines[2]),int(lines[3]),int(lines[4])
+            if not campaign_scene_allowed(scene):
+                raise ValueError('fase_fora_do_conteudo_disponivel')
             counter=GREAT_SHINOBI_DAILY.get(scene)
             if counter:
                 if remaining_great_shinobi(db,account,counter[0]) <= 0:
@@ -299,6 +321,8 @@ def install(server):
             if len(lines)<7: raise ValueError('resultado_incompleto')
             scene=int(lines[2]); npc=int(lines[3].split('-')[-1]); stars=int(lines[4]); difficulty=int(lines[5])
             if not 0<=stars<=3 or not 1<=difficulty<=3 or lines[6].strip()!='1': raise ValueError('resultado_invalido')
+            if not campaign_scene_allowed(scene):
+                raise ValueError('fase_fora_do_conteudo_disponivel')
             with db._lock:
                 pending=db._conn.execute('SELECT scene,npc,difficulty FROM local_battle_pending WHERE conta_id=?',(account,)).fetchone()
             repetido=False

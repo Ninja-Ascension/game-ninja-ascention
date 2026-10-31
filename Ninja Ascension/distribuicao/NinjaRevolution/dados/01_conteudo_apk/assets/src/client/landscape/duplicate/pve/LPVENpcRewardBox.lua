@@ -82,7 +82,11 @@ function LPVENpcRewardBox:ctor()
 								return
 							end
 						end
-						local drawState = _ED.scene_draw_chest_npcs[tostring(response.node.npcId)]
+						-- The successful request confirms this NPC chest was claimed.
+						-- Normalize the key: parser 374 may supply a numeric NPC ID.
+						local npcKey = tostring(response.node.npcId)
+						_ED.scene_draw_chest_npcs[npcKey] = 1
+						local drawState = 1
 						local sceneParam = "nc"..drawState
 						if missionIsOver() == false or executeMissionExt(mission_mould_tuition, touch_off_mission_touch_ui, ""..response.node.npcId, nil, true, sceneParam, true) == false then
 			    			
@@ -97,7 +101,11 @@ function LPVENpcRewardBox:ctor()
 							if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
 							or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 							then
-								getRewardWnd:init(7,nil,reworld_sorting)
+									-- NPC claims arrive in parser 171's scene reward bucket (0).
+									-- Render the actual server drops, not the preview's sorting filter.
+									local rewards = _ED.show_reward_list_group_ex and _ED.show_reward_list_group_ex[1]
+									print("[NPC_CHEST_REWARD] scene="..tostring(sceneId).." npc="..tostring(response.node.npcId).." count="..tostring(rewards and rewards.show_reward_item_count))
+									getRewardWnd:init(7,rewards)
 							else
 								getRewardWnd:init(7)
 							end
@@ -589,11 +597,50 @@ function LPVENpcRewardBox:onUpdateDrawEx()
 	local index = 1
 	local rewardInfoString = dms.string(dms["scene_reward_ex"], boxID, scene_reward_ex.show_reward)
 	local rewardInfoArr = zstring.split(rewardInfoString, "|")
+	local hasPreviewReward = false
+	for _, value in ipairs(rewardInfoArr) do
+		local info = zstring.split(value, ",")
+		if tonumber(info[3]) and tonumber(info[3]) > 0 then
+			hasPreviewReward = true
+			break
+		end
+	end
+	-- Algumas caixas mantêm show_reward como "-1,4,0", embora a recompensa
+	-- real esteja configurada no grupo de drop. Nesse caso, montar a prévia a
+	-- partir do próprio grupo evita a caixa vazia com quantidade zero.
+	if not hasPreviewReward then
+		local rewardGroups = dms.string(dms["scene_reward_ex"], boxID, scene_reward_ex.reward_prop)
+		local generated = {}
+		for _, groupSpec in ipairs(zstring.split(rewardGroups or "", "|")) do
+			local groupId = tonumber(zstring.split(groupSpec, ",")[1])
+			if groupId then
+				local rows = dms.searchs(dms["scene_reward_drop"], scene_reward_drop.library_group, groupId)
+				if rows and rows[1] then
+					local entries = zstring.split(dms.string(rows[1], scene_reward_drop.drop_group_data), "|")
+					for _, entry in ipairs(entries) do
+						local fields = zstring.split(entry, ",")
+						local rewardId = tonumber(fields[1])
+						local rewardType = tonumber(fields[2])
+						local amountRange = zstring.split(fields[3] or "", "-")
+						local amount = tonumber(amountRange[1])
+						if rewardId and rewardType and amount and amount > 0 then
+							table.insert(generated, string.format("%d,%d,%d", rewardId, rewardType, amount))
+						end
+					end
+				end
+			end
+		end
+		if #generated > 0 then rewardInfoArr = generated end
+	end
     for i, v in pairs(rewardInfoArr) do
         local info = zstring.split(v, ",")
-        local cell = state_machine.excute("sm_item_icon_cell_create",0,{0,{info[2],info[1],info[3]},true,true,false,true})
-        listViewAward:addChild(cell)
-        if info[2] == "6" then
+		local amount = tonumber(info[3]) or 0
+		local rewardId = tonumber(info[1])
+		local rewardType = tonumber(info[2])
+		if amount > 0 and rewardId and rewardType then
+		local cell = state_machine.excute("sm_item_icon_cell_create",0,{0,{info[2],info[1],info[3]},true,true,false,true})
+		listViewAward:addChild(cell)
+		if info[2] == "6" then
             -- local cell = PropIconCell:createCell()
             local reawrdID = tonumber(info[1])
             local rewardNum = tonumber(info[3])
@@ -659,6 +706,7 @@ function LPVENpcRewardBox:onUpdateDrawEx()
 		    end
         end
         rewardTotal = rewardTotal + 1
+		end
     end
 
 	--[[local rewardMoney = dms.int(dms["scene_reward"], boxID, scene_reward.reward_silver)

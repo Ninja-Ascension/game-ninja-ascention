@@ -82,7 +82,11 @@ function LPVENpcRewardBox:ctor()
 								return
 							end
 						end
-						local drawState = _ED.scene_draw_chest_npcs[tostring(response.node.npcId)]
+						-- The successful request confirms this NPC chest was claimed.
+						-- Normalize the key: parser 374 may supply a numeric NPC ID.
+						local npcKey = tostring(response.node.npcId)
+						_ED.scene_draw_chest_npcs[npcKey] = 1
+						local drawState = 1
 						local sceneParam = "nc"..drawState
 						if missionIsOver() == false or executeMissionExt(mission_mould_tuition, touch_off_mission_touch_ui, ""..response.node.npcId, nil, true, sceneParam, true) == false then
 			    			
@@ -97,7 +101,11 @@ function LPVENpcRewardBox:ctor()
 							if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
 							or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 							then
-								getRewardWnd:init(7,nil,reworld_sorting)
+									-- NPC claims arrive in parser 171's scene reward bucket (0).
+									-- Render the actual server drops, not the preview's sorting filter.
+									local rewards = _ED.show_reward_list_group_ex and _ED.show_reward_list_group_ex[1]
+									print("[NPC_CHEST_REWARD] scene="..tostring(sceneId).." npc="..tostring(response.node.npcId).." count="..tostring(rewards and rewards.show_reward_item_count))
+									getRewardWnd:init(7,rewards)
 							else
 								getRewardWnd:init(7)
 							end

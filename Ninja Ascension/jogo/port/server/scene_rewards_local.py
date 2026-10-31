@@ -2,7 +2,7 @@
 import json,secrets
 import dados_batalha as data
 from hero_training_local import inventory_tokens
-from tutorial_campaign import scene_tokens
+from tutorial_campaign import campaign_scene_allowed, scene_tokens
 
 def _draw_group(group_id):
     """Roll one original scene_reward_drop library group."""
@@ -127,6 +127,7 @@ def install(server):
             if len(lines)!=3 or lines[0]!=str(db.perfil(account)['user_id']):raise ValueError('perfil_invalido')
             scene,index=int(lines[1]),int(lines[2]);definition=data.tabela('pve_scene.txt').get(str(scene))
             if not definition:raise ValueError('cena_invalida')
+            if not campaign_scene_allowed(scene,definition):raise ValueError('fase_fora_do_conteudo_disponivel')
             rewards=definition[10].split(',');thresholds=definition[11].split(',')
             if not 0<=index<len(rewards) or index>=len(thresholds):raise ValueError('bau_invalido')
             reward=data.tabela('scene_reward.txt').get(rewards[index])
@@ -183,6 +184,7 @@ def install(server):
             tier=int(lines[3]) if len(lines)>3 else 0
             definition=data.tabela('pve_scene.txt').get(str(scene))
             if not definition:raise ValueError('cena_invalida')
+            if not campaign_scene_allowed(scene,definition):raise ValueError('fase_fora_do_conteudo_disponivel')
             scene_type=int(definition[5])
             if scene_type not in (0,1,15):raise ValueError('tipo_de_cena_nao_suportado')
             if tier not in ((0,1) if scene_type==15 else (0,)):
@@ -233,7 +235,7 @@ def install(server):
             scenes=[]
             for scene_id,definition in data.tabela('pve_scene.txt').items():
                 try:
-                    if int(definition[5])==scene_type:
+                    if int(definition[5])==scene_type and campaign_scene_allowed(scene_id,definition):
                         scenes.append((int(scene_id),definition))
                 except (ValueError,IndexError,TypeError):
                     continue

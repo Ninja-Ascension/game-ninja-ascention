@@ -109,6 +109,31 @@ end
 
 function DrawRareReward:onUpdateDraw(beginIndex, rewardInfo, drawMaxCount)
 	local root = self.roots[1]
+	if type(cc.nrSpineCommand) == 'function' then
+		-- Legacy Window cells are Nodes, not ListView custom Widgets in Axmol.
+		-- Place the actual response items directly in the reward panel.
+		if self._nativeRewardRow then self._nativeRewardRow:removeFromParent() end
+		local row = cc.Node:create()
+		root:addChild(row, 20)
+		self._nativeRewardRow = row
+		local items = rewardInfo.show_reward_list or {}
+		local last = math.min(#items, beginIndex + (drawMaxCount > 0 and drawMaxCount or #items) - 1)
+		local count = last - beginIndex + 1
+		local size = root:getContentSize()
+		local spacing = 150
+		for i = beginIndex, last do
+			local item = items[i]
+			local cell = state_machine.excute("sm_item_icon_cell_create", 0,
+				{0,{item.prop_type,item.prop_item,item.item_value},true,true,false,true})
+			if cell then
+				row:addChild(cell)
+				cell:setVisible(true)
+				cell:setPosition(cc.p(size.width/2 - count*spacing/2 + (i-beginIndex)*spacing, size.height/2 - 30))
+			end
+		end
+		self._draw_last_index = last + 1
+		return
+	end
 
     local nameCell = {
 		ccui.Helper:seekWidgetByName(root, "Text_956"),
@@ -880,7 +905,7 @@ function DrawRareReward:onUpdateDraw(beginIndex, rewardInfo, drawMaxCount)
 			v.roots[1]:setPositionX(v.roots[1]:getPositionX()+(x-tpx*#_tables)/2)
 			--print("xxxxxxxxxxxxxxxxxxxx:",v.roots[1]:getPositionX()+(x-tpx*rewardInfo.show_reward_item_count)/2)
 			
-			if drawMaxCount > 0 then
+			if drawMaxCount > 0 and type(cc.nrSpineCommand) ~= 'function' then
 				local t = 0.5 + 0.1 * (i - 1) + 0.001
 				v:runAction(cc.Sequence:create({cc.DelayTime:create(t), cc.CallFunc:create(function ( sender )
 					sender:setVisible(true)

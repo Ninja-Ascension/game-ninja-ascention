@@ -650,7 +650,9 @@ function Illustration:openUpLevelTip()
 	if canUpList and 0 ~= #canUpList then
 		state_machine.excute("illustration_tips_window_open",0,{type = 0, num = #canUpList, val = canUpList })
 	elseif table.nums(needProp) > 0 then
-		state_machine.excute("illustration_tips_window_open",0,{type = 1, num = needProp })
+		-- Não abrir a faixa flutuante de falta de pergaminhos no Index: ela
+		-- cobria o personagem e bloqueava os controles de ativação.
+		return
 	end
 	
 end
