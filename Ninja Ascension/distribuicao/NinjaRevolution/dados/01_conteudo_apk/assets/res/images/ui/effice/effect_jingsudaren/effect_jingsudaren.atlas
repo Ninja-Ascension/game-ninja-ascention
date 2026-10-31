@@ -1,0 +1,69 @@
+
+effect_jingsudaren.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Comepetition  Hero
+  rotate: false
+  xy: 168, 143
+  size: 89, 33
+  orig: 89, 33
+  offset: 0, 0
+  index: -1
+Comepetition  Hero 2
+  rotate: false
+  xy: 327, 376
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+Comepetition  Hero 3
+  rotate: false
+  xy: 2, 2
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+bishabaozha_0
+  rotate: false
+  xy: 327, 433
+  size: 75, 67
+  orig: 186, 150
+  offset: 74, 38
+  index: -1
+bishabaozha_1
+  rotate: false
+  xy: 176, 351
+  size: 149, 149
+  orig: 186, 150
+  offset: 37, 1
+  index: -1
+bishabaozha_2
+  rotate: false
+  xy: 2, 200
+  size: 164, 149
+  orig: 186, 150
+  offset: 22, 1
+  index: -1
+bishabaozha_3
+  rotate: false
+  xy: 2, 351
+  size: 172, 149
+  orig: 186, 150
+  offset: 7, 1
+  index: -1
+bishabaozha_4
+  rotate: false
+  xy: 2, 64
+  size: 164, 134
+  orig: 186, 150
+  offset: 0, 16
+  index: -1
+bishabaozha_5
+  rotate: true
+  xy: 168, 178
+  size: 171, 127
+  orig: 186, 150
+  offset: 0, 16
+  index: -1

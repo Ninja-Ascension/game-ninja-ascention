@@ -1,0 +1,13 @@
+
+effect_damaoxian.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zc_icon_32
+  rotate: false
+  xy: 2, 2
+  size: 85, 81
+  orig: 110, 84
+  offset: 14, 0
+  index: -1

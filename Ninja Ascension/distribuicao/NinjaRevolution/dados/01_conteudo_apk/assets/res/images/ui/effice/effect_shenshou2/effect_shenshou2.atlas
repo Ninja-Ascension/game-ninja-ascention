@@ -1,0 +1,62 @@
+
+effect_shenshou2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g
+  rotate: false
+  xy: 392, 315
+  size: 182, 183
+  orig: 182, 183
+  offset: 0, 0
+  index: -1
+q
+  rotate: false
+  xy: 2, 132
+  size: 388, 366
+  orig: 388, 366
+  offset: 0, 0
+  index: -1
+yr1
+  rotate: false
+  xy: 392, 159
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+yr2
+  rotate: true
+  xy: 145, 2
+  size: 128, 129
+  orig: 154, 154
+  offset: 12, 12
+  index: -1
+yr3
+  rotate: false
+  xy: 2, 3
+  size: 141, 127
+  orig: 154, 154
+  offset: 6, 13
+  index: -1
+yr4
+  rotate: false
+  xy: 576, 344
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+yr5
+  rotate: false
+  xy: 732, 344
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+yr6
+  rotate: true
+  xy: 888, 359
+  size: 139, 127
+  orig: 154, 154
+  offset: 7, 13
+  index: -1

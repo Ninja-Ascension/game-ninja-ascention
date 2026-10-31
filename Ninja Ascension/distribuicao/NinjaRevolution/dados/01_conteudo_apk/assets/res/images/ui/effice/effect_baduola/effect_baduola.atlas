@@ -1,0 +1,118 @@
+
+effect_baduola.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/1064-1
+  rotate: false
+  xy: 509, 631
+  size: 192, 188
+  orig: 192, 188
+  offset: 0, 0
+  index: -1
+gx/1064-10
+  rotate: false
+  xy: 509, 821
+  size: 192, 191
+  orig: 192, 191
+  offset: 0, 0
+  index: -1
+gx/1064-2
+  rotate: false
+  xy: 315, 436
+  size: 192, 189
+  orig: 192, 190
+  offset: 0, 1
+  index: -1
+gx/1064-3
+  rotate: false
+  xy: 703, 641
+  size: 181, 182
+  orig: 182, 182
+  offset: 1, 0
+  index: -1
+gx/1064-4
+  rotate: false
+  xy: 509, 443
+  size: 192, 186
+  orig: 192, 186
+  offset: 0, 0
+  index: -1
+gx/1064-5
+  rotate: false
+  xy: 703, 825
+  size: 192, 187
+  orig: 192, 188
+  offset: 0, 0
+  index: -1
+gx/1064-6
+  rotate: false
+  xy: 2, 195
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+gx/1064-7
+  rotate: false
+  xy: 315, 820
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+gx/1064-8
+  rotate: false
+  xy: 2, 2
+  size: 192, 191
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+gx/1064-9
+  rotate: false
+  xy: 315, 627
+  size: 192, 191
+  orig: 192, 192
+  offset: 0, 1
+  index: -1
+gx/niao_0
+  rotate: false
+  xy: 897, 976
+  size: 54, 36
+  orig: 90, 61
+  offset: 21, 0
+  index: -1
+gx/niao_1
+  rotate: false
+  xy: 196, 249
+  size: 47, 34
+  orig: 90, 61
+  offset: 26, 6
+  index: -1
+gx/niao_2
+  rotate: false
+  xy: 315, 397
+  size: 90, 37
+  orig: 90, 61
+  offset: 0, 24
+  index: -1
+gx/xlya
+  rotate: false
+  xy: 703, 476
+  size: 160, 163
+  orig: 169, 169
+  offset: 3, 3
+  index: -1
+gx/xlyb1
+  rotate: false
+  xy: 196, 285
+  size: 101, 102
+  orig: 169, 169
+  offset: 24, 37
+  index: -1
+yuzhiboyou
+  rotate: false
+  xy: 2, 389
+  size: 311, 623
+  orig: 311, 623
+  offset: 0, 0
+  index: -1

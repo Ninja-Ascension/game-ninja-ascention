@@ -1,0 +1,69 @@
+
+effect_illustration2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+k
+  rotate: false
+  xy: 385, 463
+  size: 117, 45
+  orig: 117, 45
+  offset: 0, 0
+  index: -1
+pic_ger_skill_01
+  rotate: false
+  xy: 2, 383
+  size: 126, 125
+  orig: 128, 128
+  offset: 2, 0
+  index: -1
+pic_ger_skill_02
+  rotate: false
+  xy: 2, 256
+  size: 126, 125
+  orig: 128, 128
+  offset: 2, 0
+  index: -1
+pic_ger_skill_03
+  rotate: false
+  xy: 2, 130
+  size: 126, 124
+  orig: 128, 128
+  offset: 2, 0
+  index: -1
+pic_ger_skill_04
+  rotate: false
+  xy: 257, 386
+  size: 126, 122
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+pic_ger_skill_05
+  rotate: false
+  xy: 130, 382
+  size: 125, 126
+  orig: 128, 128
+  offset: 3, 0
+  index: -1
+pic_ger_skill_06
+  rotate: false
+  xy: 130, 254
+  size: 123, 126
+  orig: 128, 128
+  offset: 4, 0
+  index: -1
+pic_ger_skill_07
+  rotate: false
+  xy: 2, 2
+  size: 121, 126
+  orig: 128, 128
+  offset: 5, 0
+  index: -1
+pic_ger_skill_08
+  rotate: true
+  xy: 130, 132
+  size: 120, 126
+  orig: 128, 128
+  offset: 6, 0
+  index: -1

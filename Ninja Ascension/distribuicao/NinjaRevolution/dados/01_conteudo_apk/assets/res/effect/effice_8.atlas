@@ -1,0 +1,13 @@
+
+effice_8.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+106
+  rotate: false
+  xy: 2, 2
+  size: 132, 148
+  orig: 144, 159
+  offset: 6, 5
+  index: -1
