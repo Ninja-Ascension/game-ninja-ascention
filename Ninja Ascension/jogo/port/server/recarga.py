@@ -57,6 +57,7 @@ COMANDOS = {
     'formacao_pesadelo': ['get_hard_copy_user_formation'],
     'recruitment_local': ['new_recruitment_system', 'formation_change'],
     'hero_training_local': ['ship_grow_up','ship_escalate','ship_awaken','ship_skill_level_up','ship_skill_level_up_one_key','ship_soul_level_up'],
+    'chat_local': ['send_message','refush_msg'],
     'tutorial_synthesis': ['prop_compound'],
     'scene_rewards_local': ['draw_scene_rewad', 'one_key_draw_scene_reward'],
     # tutorial_campaign ENVOLVE handle_battle_result_start do local_server

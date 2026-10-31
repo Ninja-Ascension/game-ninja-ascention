@@ -630,6 +630,13 @@ function ChatUnionPage:onEnterTransitionFinish()
     self:addChild(csbChatUnionPage)
     local root = csbChatUnionPage:getChildByName("root")
     table.insert(self.roots, root)
+
+    -- The emoji picker is part of the CSB but ships visible in the desktop
+    -- build. Start it closed there; Android keeps its original layout.
+    local isWindows = cc.Application:getInstance():getTargetPlatform() == cc.PLATFORM_OS_WINDOWS
+    local emojiPanel = ccui.Helper:seekWidgetByName(root, "Panel_6_8")
+    if isWindows and emojiPanel ~= nil then emojiPanel:setVisible(false) end
+    self.status = false
     
     
     local sendMessage = fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_chat_6_4_4"), nil, 
@@ -656,8 +663,15 @@ function ChatUnionPage:onEnterTransitionFinish()
         Button_5_2_2:addTouchEventListener(onOpenTouchEvent)
     end
     local roleName = ccui.Helper:seekWidgetByName(root, "TextField_1_2_2")
+    -- On Windows the CSB's static hint remains behind the native EditBox,
+    -- producing two overlapping placeholder strings.
+    local chatPlaceholder = _string_piece_info[342]
+    if isWindows then
+        roleName:setString("")
+        chatPlaceholder = "Digite sua mensagem..."
+    end
     if __lua_project_id == __lua_project_warship_girl_a or __lua_project_id == __lua_project_warship_girl_b then
-        draw:addEditBox(roleName, _string_piece_info[342], "effect/effice_1500.png", ccui.Helper:seekWidgetByName(root, "Button_chat_6_4_4"), 50, cc.KEYBOARD_RETURNTYPE_DONE)
+        draw:addEditBox(roleName, chatPlaceholder, "effect/effice_1500.png", ccui.Helper:seekWidgetByName(root, "Button_chat_6_4_4"), 50, cc.KEYBOARD_RETURNTYPE_DONE)
     elseif __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
         local max_input = zstring.split(dms.string(dms["mail_config"] , 3 , mail_config.param),",")
         if verifySupportLanguage(_lua_release_language_en) == true then
@@ -673,9 +687,9 @@ function ChatUnionPage:onEnterTransitionFinish()
         draw:addEditBox(roleName, string.format(_new_interface_text[66],self.max_input), "effect/effice_1500.png", ccui.Helper:seekWidgetByName(root, "Button_chat_6_4_4"), self.max_input, cc.KEYBOARD_RETURNTYPE_DONE, isRunChatAction)
     elseif __lua_project_id == __lua_project_digimon_adventure or __lua_project_id == __lua_project_pokemon 
         or __lua_project_id == __lua_project_rouge or __lua_project_id == __lua_project_yugioh then 
-        draw:addEditBox(roleName, _string_piece_info[342], "effect/effice_1500.png", ccui.Helper:seekWidgetByName(root, "Button_chat_6_4_4"), 37, cc.KEYBOARD_RETURNTYPE_DONE)
+        draw:addEditBox(roleName, chatPlaceholder, "effect/effice_1500.png", ccui.Helper:seekWidgetByName(root, "Button_chat_6_4_4"), 37, cc.KEYBOARD_RETURNTYPE_DONE)
     else
-        draw:addEditBox(roleName, _string_piece_info[342], "effect/effice_1500.png", ccui.Helper:seekWidgetByName(root, "Button_chat_6_4_4"), 120, cc.KEYBOARD_RETURNTYPE_DONE)
+        draw:addEditBox(roleName, chatPlaceholder, "effect/effice_1500.png", ccui.Helper:seekWidgetByName(root, "Button_chat_6_4_4"), 120, cc.KEYBOARD_RETURNTYPE_DONE)
     end 
     local function responseSendMessage2Callback(response)
         if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
