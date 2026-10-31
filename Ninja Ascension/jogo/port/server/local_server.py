@@ -1556,6 +1556,8 @@ import legacy_recruit_local as _legacy_recruit_local
 _legacy_recruit_local.install(sys.modules[__name__])
 import chat_local as _chat_local
 _chat_local.install(sys.modules[__name__])
+import events_local as _events_local
+_events_local.install(sys.modules[__name__])
 
 if __name__ == "__main__":
     # Windows: http.server liga allow_reuse_address=1 (SO_REUSEADDR), que

@@ -1,0 +1,52 @@
+[HOST_SERVER][19:11:48] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][19:11:48] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][19:12:44] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=40 primeira-linha=99
+[HOST_SERVER][19:12:44] cmd=local_event_init seq=99 -> status=0 (9470 chars)
+[HOST_SERVER][19:12:44] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=40 primeira-linha=99
+[HOST_SERVER][19:12:44] cmd=local_event_init seq=99 -> status=0 (5942 chars)
+[HOST_SERVER][19:18:12] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][19:18:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/activity/ActivityWindow.lua de 45.177.105.186
+[HOST_SERVER][19:18:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/activity/LocalEventWindow.lua de 45.177.105.186
+[HOST_SERVER][19:18:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/cells/activity/activity_icon_cell.lua de 45.177.105.186
+[HOST_SERVER][19:18:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 45.177.105.186
+[HOST_SERVER][19:18:14] ATUALIZACAO GET /atualizacao/arquivos/port/lua/menu_boot_probe.lua de 45.177.105.186
+[HOST_SERVER][19:18:19] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][19:18:19] login ok conta=ItachiBR sessao='X0t...(43)' perfil_user_id=2
+[HOST_SERVER][19:18:19] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][19:18:19] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=48 primeira-linha=1
+[HOST_SERVER][19:18:19] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][19:18:19] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=80 primeira-linha=2
+[HOST_SERVER][19:18:19] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][19:18:20] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=56 primeira-linha=3
+[HOST_SERVER][19:18:20] vali_register conta=ItachiBR sessao='X0t...(43)'
+[HOST_SERVER][19:18:20] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][19:18:21] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=144 primeira-linha=4
+[HOST_SERVER][19:18:21] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][19:18:21] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][19:18:21] login_init conta=RenegadoBR user_id=2 sessao='X0t...(43)'
+[HOST_SERVER][19:18:23] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][19:18:25] cmd=login_init seq=4 -> status=0 (261185 chars)
+[HOST_SERVER][19:18:30] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=32 primeira-linha=4
+[HOST_SERVER][19:18:30] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][19:18:34] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=32 primeira-linha=4
+[HOST_SERVER][19:18:34] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][19:18:34] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=40 primeira-linha=4
+[HOST_SERVER][19:18:34] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][19:18:34] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=32 primeira-linha=4
+[HOST_SERVER][19:18:34] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][19:18:34] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=40 primeira-linha=4
+[HOST_SERVER][19:18:35] cmd=draw_endurance_init seq=4 -> status=0 (186 chars)
+[HOST_SERVER][19:18:35] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=56 primeira-linha=4
+[HOST_SERVER][19:18:35] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][19:18:39] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=40 primeira-linha=4
+[HOST_SERVER][19:18:39] cmd=local_event_init seq=4 -> status=0 (9469 chars)
+[HOST_SERVER][19:18:55] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=40 primeira-linha=4
+[HOST_SERVER][19:18:55] cmd=local_event_init seq=4 -> status=0 (5941 chars)
+[HOST_SERVER][19:18:57] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=40 primeira-linha=4
+[HOST_SERVER][19:18:57] cmd=local_event_init seq=4 -> status=0 (9469 chars)
+[HOST_SERVER][19:18:59] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=40 primeira-linha=4
+[HOST_SERVER][19:18:59] cmd=local_event_init seq=4 -> status=0 (9469 chars)
+[HOST_SERVER][19:19:03] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=40 primeira-linha=4
+[HOST_SERVER][19:19:03] cmd=daily_mission_init seq=4 -> status=0 (5168 chars)
+[HOST_SERVER][19:19:04] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=32 primeira-linha=4
+[HOST_SERVER][19:19:04] cmd=dinner_time seq=4 -> status=0 (109 chars)

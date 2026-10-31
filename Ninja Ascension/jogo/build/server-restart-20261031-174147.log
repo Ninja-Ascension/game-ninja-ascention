@@ -1,0 +1,288 @@
+[HOST_SERVER][17:41:48] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][17:41:48] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][17:44:19] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][17:44:25] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][17:44:25] login ok conta=ItachiBR sessao='J-_...(43)' perfil_user_id=2
+[HOST_SERVER][17:44:25] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][17:44:25] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=48 primeira-linha=1
+[HOST_SERVER][17:44:25] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][17:44:25] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=80 primeira-linha=2
+[HOST_SERVER][17:44:25] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][17:45:45] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=56 primeira-linha=3
+[HOST_SERVER][17:45:45] vali_register conta=ItachiBR sessao='J-_...(43)'
+[HOST_SERVER][17:45:45] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][17:45:46] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=144 primeira-linha=4
+[HOST_SERVER][17:45:46] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][17:45:46] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][17:45:46] login_init conta=RenegadoBR user_id=2 sessao='J-_...(43)'
+[HOST_SERVER][17:45:48] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][17:45:50] cmd=login_init seq=4 -> status=0 (261185 chars)
+[HOST_SERVER][17:45:55] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=32 primeira-linha=4
+[HOST_SERVER][17:45:55] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][17:45:59] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=32 primeira-linha=4
+[HOST_SERVER][17:45:59] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][17:45:59] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=40 primeira-linha=4
+[HOST_SERVER][17:45:59] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][17:45:59] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=32 primeira-linha=4
+[HOST_SERVER][17:45:59] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][17:45:59] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=40 primeira-linha=4
+[HOST_SERVER][17:45:59] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][17:45:59] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=56 primeira-linha=4
+[HOST_SERVER][17:45:59] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][17:50:09] POST path=/iniServer?s=J-_1ekpqUW31skzWIhP1p63badwv7mCIVYR9Y0IaRic bytes=24 primeira-linha=4
+[HOST_SERVER][17:50:09] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][17:50:20] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][17:50:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 45.177.105.186
+[HOST_SERVER][17:50:26] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][17:50:26] login ok conta=ItachiBR sessao='ab-...(43)' perfil_user_id=2
+[HOST_SERVER][17:50:26] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][17:50:26] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=48 primeira-linha=1
+[HOST_SERVER][17:50:26] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][17:50:26] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=80 primeira-linha=2
+[HOST_SERVER][17:50:26] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][17:50:29] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=56 primeira-linha=3
+[HOST_SERVER][17:50:29] vali_register conta=ItachiBR sessao='ab-...(43)'
+[HOST_SERVER][17:50:29] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][17:50:29] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=152 primeira-linha=4
+[HOST_SERVER][17:50:29] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][17:50:29] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][17:50:29] login_init conta=RenegadoBR user_id=2 sessao='ab-...(43)'
+[HOST_SERVER][17:50:31] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][17:50:34] cmd=login_init seq=4 -> status=0 (261185 chars)
+[HOST_SERVER][17:50:39] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=32 primeira-linha=4
+[HOST_SERVER][17:50:39] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][17:50:43] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=32 primeira-linha=4
+[HOST_SERVER][17:50:43] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][17:50:43] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=40 primeira-linha=4
+[HOST_SERVER][17:50:43] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][17:50:43] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=32 primeira-linha=4
+[HOST_SERVER][17:50:43] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][17:50:44] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=40 primeira-linha=4
+[HOST_SERVER][17:50:44] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][17:50:44] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=56 primeira-linha=4
+[HOST_SERVER][17:50:44] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][17:54:41] POST path=/iniServer?s=ab-SA79iCXbgtz8vOMm3ZJRF0zGhn-yNSxiYOFNFrAw bytes=24 primeira-linha=4
+[HOST_SERVER][17:54:41] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][17:56:39] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][17:56:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/activity/ActivityWindow.lua de 45.177.105.186
+[HOST_SERVER][17:56:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/cells/activity/activity_icon_cell.lua de 45.177.105.186
+[HOST_SERVER][17:56:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 45.177.105.186
+[HOST_SERVER][17:56:45] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][17:56:45] login ok conta=ItachiBR sessao='T2M...(43)' perfil_user_id=2
+[HOST_SERVER][17:56:45] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][17:56:45] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=48 primeira-linha=1
+[HOST_SERVER][17:56:45] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][17:56:45] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=80 primeira-linha=2
+[HOST_SERVER][17:56:45] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][17:56:47] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=56 primeira-linha=3
+[HOST_SERVER][17:56:47] vali_register conta=ItachiBR sessao='T2M...(43)'
+[HOST_SERVER][17:56:47] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][17:56:47] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=152 primeira-linha=4
+[HOST_SERVER][17:56:47] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][17:56:47] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][17:56:47] login_init conta=RenegadoBR user_id=2 sessao='T2M...(43)'
+[HOST_SERVER][17:56:50] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][17:56:53] cmd=login_init seq=4 -> status=0 (261185 chars)
+[HOST_SERVER][17:56:57] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=32 primeira-linha=4
+[HOST_SERVER][17:56:57] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][17:57:00] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=512 primeira-linha=4
+[HOST_SERVER][17:57:00] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][17:57:00] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:57:00] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=512 primeira-linha=4
+[HOST_SERVER][17:57:00] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][17:57:00] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:57:02] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=32 primeira-linha=4
+[HOST_SERVER][17:57:02] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][17:57:02] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=40 primeira-linha=4
+[HOST_SERVER][17:57:02] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][17:57:02] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=32 primeira-linha=4
+[HOST_SERVER][17:57:02] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][17:57:02] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=40 primeira-linha=4
+[HOST_SERVER][17:57:02] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][17:57:02] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=56 primeira-linha=4
+[HOST_SERVER][17:57:02] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][17:57:13] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=456 primeira-linha=4
+[HOST_SERVER][17:57:13] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][17:57:13] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:57:13] POST path=/iniServer?s=T2M7RHb1AokkAlwJiyOtiU0Pkm-FdGrKojxEE0uCTaM bytes=456 primeira-linha=4
+[HOST_SERVER][17:57:13] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][17:57:13] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:57:18] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][17:57:24] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][17:57:24] login ok conta=ItachiBR sessao='M3i...(43)' perfil_user_id=2
+[HOST_SERVER][17:57:24] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][17:57:24] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=48 primeira-linha=1
+[HOST_SERVER][17:57:24] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][17:57:24] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=80 primeira-linha=2
+[HOST_SERVER][17:57:24] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][17:57:31] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=56 primeira-linha=3
+[HOST_SERVER][17:57:31] vali_register conta=ItachiBR sessao='M3i...(43)'
+[HOST_SERVER][17:57:31] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][17:57:31] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=144 primeira-linha=4
+[HOST_SERVER][17:57:31] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][17:57:31] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][17:57:31] login_init conta=RenegadoBR user_id=2 sessao='M3i...(43)'
+[HOST_SERVER][17:57:34] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][17:57:36] cmd=login_init seq=4 -> status=0 (261185 chars)
+[HOST_SERVER][17:57:41] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=32 primeira-linha=4
+[HOST_SERVER][17:57:41] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][17:57:43] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=512 primeira-linha=4
+[HOST_SERVER][17:57:43] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=512 primeira-linha=4
+[HOST_SERVER][17:57:43] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][17:57:43] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:57:43] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][17:57:43] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:57:43] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=512 primeira-linha=4
+[HOST_SERVER][17:57:43] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][17:57:43] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][17:57:45] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=32 primeira-linha=4
+[HOST_SERVER][17:57:45] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][17:57:45] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=40 primeira-linha=4
+[HOST_SERVER][17:57:45] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][17:57:45] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=32 primeira-linha=4
+[HOST_SERVER][17:57:45] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][17:57:45] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=40 primeira-linha=4
+[HOST_SERVER][17:57:45] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][17:57:46] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=56 primeira-linha=4
+[HOST_SERVER][17:57:46] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][17:59:45] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=24 primeira-linha=4
+[HOST_SERVER][17:59:45] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:01:46] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=24 primeira-linha=4
+[HOST_SERVER][18:01:46] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:03:47] POST path=/iniServer?s=M3iZ1NNyvTqGIT5Vm6kkMukp3lwaKbBkQ7iWP7Vrtvw bytes=24 primeira-linha=4
+[HOST_SERVER][18:03:47] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:04:51] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][18:04:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/cells/activity/activity_icon_cell.lua de 45.177.105.186
+[HOST_SERVER][18:04:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 45.177.105.186
+[HOST_SERVER][18:04:57] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][18:04:57] login ok conta=ItachiBR sessao='sEk...(43)' perfil_user_id=2
+[HOST_SERVER][18:04:57] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][18:04:57] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=48 primeira-linha=1
+[HOST_SERVER][18:04:57] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][18:04:57] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=80 primeira-linha=2
+[HOST_SERVER][18:04:57] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][18:06:45] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=56 primeira-linha=3
+[HOST_SERVER][18:06:45] vali_register conta=ItachiBR sessao='sEk...(43)'
+[HOST_SERVER][18:06:45] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][18:06:45] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=144 primeira-linha=4
+[HOST_SERVER][18:06:45] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][18:06:45] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:06:45] login_init conta=RenegadoBR user_id=2 sessao='sEk...(43)'
+[HOST_SERVER][18:06:47] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][18:06:50] cmd=login_init seq=4 -> status=0 (261185 chars)
+[HOST_SERVER][18:06:54] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=32 primeira-linha=4
+[HOST_SERVER][18:06:54] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][18:06:56] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=512 primeira-linha=4
+[HOST_SERVER][18:06:56] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][18:06:56] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:06:56] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=512 primeira-linha=4
+[HOST_SERVER][18:06:56] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][18:06:56] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:06:58] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=32 primeira-linha=4
+[HOST_SERVER][18:06:58] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][18:06:59] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=40 primeira-linha=4
+[HOST_SERVER][18:06:59] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][18:06:59] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=32 primeira-linha=4
+[HOST_SERVER][18:06:59] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][18:06:59] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=40 primeira-linha=4
+[HOST_SERVER][18:06:59] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][18:06:59] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=56 primeira-linha=4
+[HOST_SERVER][18:06:59] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][18:07:44] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=456 primeira-linha=4
+[HOST_SERVER][18:07:44] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][18:07:44] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:07:44] POST path=/iniServer?s=sEkEsGXooeiGZdpLnqLuwiwiR9HCTy2x6UYi0vpWKXA bytes=456 primeira-linha=4
+[HOST_SERVER][18:07:44] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][18:07:44] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:19:07] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][18:19:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 45.177.105.186
+[HOST_SERVER][18:19:28] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][18:19:28] login ok conta=ItachiBR sessao='PMw...(43)' perfil_user_id=2
+[HOST_SERVER][18:19:28] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][18:19:28] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=48 primeira-linha=1
+[HOST_SERVER][18:19:28] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][18:19:29] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=80 primeira-linha=2
+[HOST_SERVER][18:19:29] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][18:19:52] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=56 primeira-linha=3
+[HOST_SERVER][18:19:52] vali_register conta=ItachiBR sessao='PMw...(43)'
+[HOST_SERVER][18:19:52] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][18:19:52] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=152 primeira-linha=4
+[HOST_SERVER][18:19:52] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][18:19:52] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:19:52] login_init conta=RenegadoBR user_id=2 sessao='PMw...(43)'
+[HOST_SERVER][18:19:55] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][18:19:57] cmd=login_init seq=4 -> status=0 (261185 chars)
+[HOST_SERVER][18:20:01] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=32 primeira-linha=4
+[HOST_SERVER][18:20:01] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][18:20:04] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=512 primeira-linha=4
+[HOST_SERVER][18:20:04] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][18:20:04] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:20:04] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=512 primeira-linha=4
+[HOST_SERVER][18:20:04] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][18:20:04] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:20:09] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=32 primeira-linha=4
+[HOST_SERVER][18:20:09] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][18:20:09] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=40 primeira-linha=4
+[HOST_SERVER][18:20:09] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][18:20:09] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=32 primeira-linha=4
+[HOST_SERVER][18:20:09] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][18:20:09] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=40 primeira-linha=4
+[HOST_SERVER][18:20:10] cmd=draw_endurance_init seq=4 -> status=0 (185 chars)
+[HOST_SERVER][18:20:10] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=56 primeira-linha=4
+[HOST_SERVER][18:20:10] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][18:20:23] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=456 primeira-linha=4
+[HOST_SERVER][18:20:23] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][18:20:23] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:20:23] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=456 primeira-linha=4
+[HOST_SERVER][18:20:23] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: attempt to index local 'smCheckInInfoWindow' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__newindex' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:2073: in function 'activitySmCheckInfo' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:4133: in function 'onUpdateDrawNew' | 	...nteudo_apk/assets/src/client/activity/ActivityWindow.lua:5315: in function 'onInit' | 	...nteudo_apk/assets/src/c
+[HOST_SERVER][18:20:23] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:26:47] POST path=/iniServer?s=PMwzNqp0yHT7h3ibf6gsczQhPbZ7y8PilgBWCzv5Aus bytes=24 primeira-linha=4
+[HOST_SERVER][18:26:47] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:26:51] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][18:26:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/activity/wonderful/SmCheckInInfoWindow.lua de 45.177.105.186
+[HOST_SERVER][18:26:58] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][18:26:58] login ok conta=ItachiBR sessao='rrq...(43)' perfil_user_id=2
+[HOST_SERVER][18:26:58] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][18:26:58] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=48 primeira-linha=1
+[HOST_SERVER][18:26:58] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][18:26:58] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=80 primeira-linha=2
+[HOST_SERVER][18:26:58] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][18:28:41] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=56 primeira-linha=3
+[HOST_SERVER][18:28:41] vali_register conta=ItachiBR sessao='rrq...(43)'
+[HOST_SERVER][18:28:41] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][18:28:41] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=152 primeira-linha=4
+[HOST_SERVER][18:28:41] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][18:28:41] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:28:41] login_init conta=RenegadoBR user_id=2 sessao='rrq...(43)'
+[HOST_SERVER][18:28:43] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][18:28:45] cmd=login_init seq=4 -> status=0 (261185 chars)
+[HOST_SERVER][18:28:50] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=32 primeira-linha=4
+[HOST_SERVER][18:28:50] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][18:28:54] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=32 primeira-linha=4
+[HOST_SERVER][18:28:54] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][18:28:54] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=40 primeira-linha=4
+[HOST_SERVER][18:28:54] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][18:28:55] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=32 primeira-linha=4
+[HOST_SERVER][18:28:55] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][18:28:55] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=40 primeira-linha=4
+[HOST_SERVER][18:28:55] cmd=draw_endurance_init seq=4 -> status=0 (186 chars)
+[HOST_SERVER][18:28:55] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=56 primeira-linha=4
+[HOST_SERVER][18:28:55] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][18:29:00] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=384 primeira-linha=4
+[HOST_SERVER][18:29:00] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...ent/l_digital/activity/wonderful/SmCheckInInfoWindow.lua:457: attempt to index local 'LoadingBar_1' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...ent/l_digital/activity/wonderful/SmCheckInInfoWindow.lua:457: in function 'DrawUpdateList' | 	...ent/l_digital/activity/wonderful/SmCheckInInfoWindow.lua:343: in function 'onUpdateDraw' | 	...ent/l_digital/activity/wonderful/SmCheckInInfoWindow.lua:567: in function 'onInit' | 	...ent/l_digital/activity/wonderful/SmCheckInInf
+[HOST_SERVER][18:29:00] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:29:02] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=376 primeira-linha=4
+[HOST_SERVER][18:29:02] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...ent/l_digital/activity/wonderful/SmCheckInInfoWindow.lua:457: attempt to index local 'LoadingBar_1' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...ent/l_digital/activity/wonderful/SmCheckInInfoWindow.lua:457: in function 'DrawUpdateList' | 	...ent/l_digital/activity/wonderful/SmCheckInInfoWindow.lua:343: in function 'onUpdateDraw' | 	...ent/l_digital/activity/wonderful/SmCheckInInfoWindow.lua:567: in function 'onInit' | 	...ent/l_digital/activity/wonderful/SmCheckInInf
+[HOST_SERVER][18:29:02] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:30:21] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=304 primeira-linha=4
+[HOST_SERVER][18:30:21] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...apk/assets/src/client/activity/ActivityFirstRecharge.lua:339: attempt to index global 'shortcut' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...apk/assets/src/client/activity/ActivityFirstRecharge.lua:339: in function 'onUpdateDraw' | 	...apk/assets/src/client/activity/ActivityFirstRecharge.lua:723: in function 'onInit' | 	...apk/assets/src/client/activity/ActivityFirstRecharge.lua:896: in function 'init' | 	...apk/assets/src/client/activity/ActivityFirstRecharge.lua:3
+[HOST_SERVER][18:30:21] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:30:26] POST path=/iniServer?s=rrqVXP7xW9z-HJYxRprMaogHaAzAGHpCWWqXqZDZ7j8 bytes=240 primeira-linha=4
+[HOST_SERVER][18:30:26] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: .../assets/src/client/cells/activity/activity_icon_cell.lua:783: attempt to index a nil value | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	.../assets/src/client/cells/activity/activity_icon_cell.lua:783: in function 'excute' | 	...s/01_conteudo_apk/assets/src/frameworks/windows/fwin.lua:1539: in function <...s/01_conteudo_apk/assets/src/frameworks/windows/fwin.lua:1402>
+[HOST_SERVER][18:30:26] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:50:29] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][18:50:29] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][18:50:29] POST path=/iniServer bytes=64 primeira-linha=499
+[HOST_SERVER][18:50:29] cmd=new_get_server_list seq=499 -> status=0 (82 chars)
+[HOST_SERVER][18:51:34] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][18:51:34] cmd=new_get_server_list seq=0 -> status=0 (80 chars)

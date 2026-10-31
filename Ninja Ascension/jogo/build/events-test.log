@@ -1,0 +1,216 @@
+[HOST_SERVER][18:44:12] cmd=local_event_init seq=7 -> status=0 (9878 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_init seq=7 -> status=0 (5886 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9475 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9485 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9486 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9486 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9486 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9486 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9486 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9486 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9486 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9486 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9495 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9495 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9511 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9511 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9512 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9512 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9513 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9513 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9514 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9514 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9503 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9503 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9515 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9515 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9516 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9516 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9516 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9516 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9517 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9517 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9502 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9502 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9503 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9503 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9503 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9503 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9504 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9504 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9505 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9505 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9505 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9505 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9514 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9514 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9519 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9519 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9505 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9505 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9507 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (9507 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (6006 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (6006 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5996 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5996 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (6006 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (6006 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5996 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5996 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (6006 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (6006 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5996 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5996 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (6006 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (6006 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5997 chars)
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=0 (5997 chars)
+[HOST_SERVER][18:44:12] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:12] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (6008 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (6008 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5997 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5997 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (6008 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (6008 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5997 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5997 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (6008 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (6008 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5998 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5997 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=0 (5997 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=premio_ja_coletado
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_init seq=7 -> status=0 (9396 chars)
+[HOST_SERVER][18:44:13] recusa cmd=local_event_action seq=7 motivo=item_ausente
+[HOST_SERVER][18:44:13] cmd=local_event_action seq=7 -> status=-1 (36 chars)
+[HOST_SERVER][18:44:13] cmd=local_event_init seq=7 -> status=0 (6330 chars)
+EVENTS_PASSED rows=52; all campaigns; balances; preview=grant; replay; rollback; expired Party; integrity=ok

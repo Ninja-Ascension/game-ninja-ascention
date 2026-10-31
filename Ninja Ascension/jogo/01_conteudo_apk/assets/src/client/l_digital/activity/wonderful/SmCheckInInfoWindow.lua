@@ -13,7 +13,7 @@ local sm_check_in_info_window_window_open_terminal = {
     _state = 0,
     _invoke = function(terminal, instance, params)
     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
-        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece
+        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
         then
         state_machine.excute("activity_window_open", 0, {"client.l_digital.activity.wonderful.SmCheckInInfoWindow", "SmCheckInInfoWindow"})
         state_machine.excute("activity_window_open_page_activity",0,{"SmCheckInInfoWindow"})
@@ -170,7 +170,7 @@ function SmCheckInInfoWindow:ctor()
                 end
                 local Text_sign_number = ccui.Helper:seekWidgetByName(instance.roots[1], "Text_sign_number")
                 Text_sign_number:setString("" .. number)
-                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
+                if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
                     local Text_leiji_number = ccui.Helper:seekWidgetByName(instance.roots[1], "Text_leiji_number")
                     local days_info = zstring.split(_ED.active_activity[38].activity_day_infos, ",")
                     local receiveNumber = tonumber(days_info[1])
@@ -242,7 +242,7 @@ function SmCheckInInfoWindow:onUpdateDraw()
     end
 
     local horizontalNumber = 5
-    if __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
+    if __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
         horizontalNumber = 5
     elseif __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 then
         horizontalNumber = 7
@@ -294,7 +294,7 @@ function SmCheckInInfoWindow:onUpdateDraw()
             index = index + 1
             self:runAction(cc.Sequence:create({cc.DelayTime:create((index-1)*0.05), cc.CallFunc:create(function ( sender )
                 if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
-                or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece
+                or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
                 then
                     if sender ~= nil and sender.roots ~= nil and sender.roots[1] ~= nil and sender.loaded == true then
                         local cell = state_machine.excute("sm_activity_check_cell",0,{v,0,j,number})
@@ -350,7 +350,7 @@ function SmCheckInInfoWindow:DrawUpdateList(number)
         return
     end
     local activity = _ED.active_activity[38]
-    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
+    if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
         local ListView_leiji_reward = ccui.Helper:seekWidgetByName(root, "ListView_leiji_reward")
         ListView_leiji_reward:removeAllItems()
         local activity2Datas = nil
@@ -550,7 +550,7 @@ end
 
 function SmCheckInInfoWindow:onInit()
     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
-        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece
+        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
         then
         if self.loaded == false then
             return
@@ -597,7 +597,7 @@ end
 
 function SmCheckInInfoWindow:lazy()
     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
-        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece
+        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
         then
         if self.loaded == true then
             return
@@ -610,7 +610,7 @@ end
 
 function SmCheckInInfoWindow:unload()
     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
-        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece
+        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
         then
         self:stopAllActions()
         self:removeAllChildren(true)
@@ -622,7 +622,7 @@ end
 
 function SmCheckInInfoWindow:createCell()
     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
-        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece
+        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
         then
         local cell = SmCheckInInfoWindow:new()
         cell:registerOnNodeEvent(cell)

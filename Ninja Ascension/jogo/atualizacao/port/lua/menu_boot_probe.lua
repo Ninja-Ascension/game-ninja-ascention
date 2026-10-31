@@ -45,6 +45,10 @@ local ok,err=xpcall(function()
     __lua_project_id=__lua_project_l_naruto
     _ED.user_info.user_id='1';_ED.user_info.user_grade='1';_ED.user_info.user_experience='1'
     _ED.user_info.user_food='60';_ED.user_info.max_user_food='60'
+    if os.getenv('NR_PROBE_EVENTS')=='1' then
+        dofile(NR_PROBE_ROOT..'tools/probe_events.lua')
+        return
+    end
     if os.getenv('NR_PROBE_RECRUIT_LAYOUT')=='1' then
         dofile(NR_PROBE_ROOT..'tools/probe_recruit_layout.lua');return
     end
@@ -1046,6 +1050,10 @@ local ok,err=xpcall(function()
     end
 end,debug.traceback)
 print('MENU_BOOT_PROBE_RESULT '..tostring(ok)..' '..tostring(err))
+if os.getenv('NR_PROBE_EVENTS')=='1' then
+    local result=assert(io.open(NR_PROBE_ROOT..'build/events-native-result.txt','w'))
+    result:write(tostring(ok)..' '..tostring(err));result:close()
+end
 if os.getenv('NR_PROBE_INITIAL_TUTORIAL')=='1' and not ok then
     local result=assert(io.open(NR_PROBE_ROOT..'build/initial-tutorial-native-result.txt','w'))
     result:write(tostring(err));result:close()

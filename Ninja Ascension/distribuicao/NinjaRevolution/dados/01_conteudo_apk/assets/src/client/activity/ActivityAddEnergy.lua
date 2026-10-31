@@ -178,6 +178,7 @@ function ActivityAddEnergy:onUpdateDraw()
 			local Image_add_strength_yi = ccui.Helper:seekWidgetByName(root, "Image_add_strength_yi_"..i)
 			--未到时间
 			local Image_add_strength_not = ccui.Helper:seekWidgetByName(root, "Image_add_strength_not_"..i)
+			if Button_add_strength_rec and Button_add_strength_go and Image_add_strength_yi and Image_add_strength_not and energyData[i] and add_enger_info[i] then
 			Button_add_strength_rec:setVisible(false)
 			Button_add_strength_go:setVisible(false)
 			Image_add_strength_yi:setVisible(false)
@@ -213,14 +214,15 @@ function ActivityAddEnergy:onUpdateDraw()
 					Image_add_strength_not:setVisible(true)
 				end
 			end
+			end
 		end
 		
 		-- 一直显示补领倒计时
 		self.distance = refreshTime + oneDaySeconds - newTimes
-		if self.distance ~= 0 then
-			ccui.Helper:seekWidgetByName(root, "Text_add_strength_time_now"):setString(self:formatTimeString(self.distance))
-		else
-			ccui.Helper:seekWidgetByName(root, "Text_add_strength_time_now"):setString("")
+		if self.distance ~= 0 and self._Text_add_strength_time_now then
+			self._Text_add_strength_time_now:setString(self:formatTimeString(self.distance))
+		elseif self._Text_add_strength_time_now then
+			self._Text_add_strength_time_now:setString("")
 		end
 	else
 		app.load("client.reward.DrawGainReward")
@@ -268,7 +270,7 @@ function ActivityAddEnergy:formatTimeString(_time)	--系统时间转换
 end
 
 function ActivityAddEnergy:onUpdate(dt)
-	if self.distance ~= 0 then
+	if self.distance ~= 0 and self._Text_add_strength_time_now then
 		self.distance = self.distance - dt
 		self._Text_add_strength_time_now:setString(self:formatTimeString(self.distance))
 		if self.distance == 0 then

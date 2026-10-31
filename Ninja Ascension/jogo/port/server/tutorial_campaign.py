@@ -346,8 +346,12 @@ def install(server):
                         # the original EXP rule below (player_level_local).
                         if tutorial_enabled(db,account):
                             grade=min(grade+1,max(int(k) for k in data.tabela('user_experience_param.txt') if k.isdigit()))
-                        silver+=int(reward[0]);changed=True
+                        import events_local
+                        silver+=int(reward[0])*(2 if scene==151 and events_local.effect_enabled('ryo') else 1);changed=True
                         db._conn.execute('INSERT INTO local_pve_clears VALUES (?,?,?,?)',(account,scene,npc,stars))
+                        if events_local.effect_enabled('festival') and int(data.tabela('pve_scene.txt')[str(scene)][5]) in (0,1,15) and campaign_scene_allowed(scene):
+                            from scene_rewards_local import _apply_npc_reward
+                            _apply_npc_reward(db,account,[(1809,6,1)])
                         db._conn.execute('INSERT OR REPLACE INTO local_campaign VALUES (?,?,?)',(account,grade,silver))
                         db._conn.execute('INSERT INTO tutorial_progress VALUES (?,0) ON CONFLICT(conta_id) DO UPDATE SET experiencia=0',(account,))
                     elif stars>exists[0]:
@@ -356,7 +360,8 @@ def install(server):
                         # Original rule: every victory grants player EXP equal
                         # to the battle's energy cost (npc.attack_need_food).
                         import player_level_local
-                        nivel=player_level_local.ganhar(db,account,int(npc_row[118] or 0))
+                        import events_local
+                        nivel=player_level_local.ganhar(db,account,int(npc_row[118] or 0)*(2 if scene==152 and events_local.effect_enabled('exp') else 1))
                     db._conn.execute('DELETE FROM local_battle_pending WHERE conta_id=?',(account,))
                     db._conn.execute('INSERT OR REPLACE INTO local_battle_done VALUES (?,?,?,?)',(account,scene,npc,difficulty))
                     if scene in GREAT_SHINOBI_DAILY:

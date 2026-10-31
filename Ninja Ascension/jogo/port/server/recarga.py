@@ -70,6 +70,7 @@ COMANDOS = {
     'purify_local': ['ship_purify_init', 'ship_purify_team_manager', 'ship_purify_team_launch', 'ship_purify_buy_battle_reward'],
     'dados_batalha': [],
     'quest_local': ['daily_mission_init','draw_daily_mission_reward','draw_liveness_reward'],
+    'events_local': ['local_event_init','local_event_action'],
 }
 MODULOS = list(COMANDOS)
 

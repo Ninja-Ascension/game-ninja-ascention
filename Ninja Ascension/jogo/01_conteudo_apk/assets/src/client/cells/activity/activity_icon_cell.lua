@@ -495,6 +495,11 @@ function ActivityIconCell:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params) 
+                if __lua_project_id == __lua_project_l_naruto then
+                    app.load("client.activity.LocalEventWindow")
+                    fwin:open(LocalEventWindow:new():init("event","fund"),fwin._view)
+                    return true
+                end
             	if fwin:find("SmCheckInInfoWindowClass") == nil then
 		            app.load("client.l_digital.activity.wonderful.SmCheckInInfoWindow")
 		            if _ED.active_activity ~= nil 
@@ -534,6 +539,11 @@ function ActivityIconCell:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params) 
+                if __lua_project_id == __lua_project_l_naruto then
+                    app.load("client.activity.LocalEventWindow")
+                    fwin:open(LocalEventWindow:new():init("event","first"),fwin._view)
+                    return true
+                end
 				-- app.load("client.activity.ActivityFirstRecharge")
 				-- state_machine.excute("menu_clean_page_state", 0, "home")
 				-- fwin:open(ActivityWindow:new(), fwin._view) 
@@ -739,6 +749,11 @@ function ActivityIconCell:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params) 
+                if __lua_project_id == __lua_project_l_naruto then
+                    app.load("client.activity.LocalEventWindow")
+                    fwin:open(LocalEventWindow:new():init("seven","seven1"),fwin._view)
+                    return true
+                end
 				-- state_machine.excute("menu_clean_page_state", 0, "home")
 				-- fwin:open(ActivityWindow:new(), fwin._view) 
 				-- state_machine.excute("activity_window_change_to_page", 0, "SevenDays")
@@ -1087,6 +1102,11 @@ function ActivityIconCell:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params) 
+                if __lua_project_id == __lua_project_l_naruto then
+                    app.load("client.activity.LocalEventWindow")
+                    fwin:open(LocalEventWindow:new():init("event","fund"),fwin._view)
+                    return true
+                end
 				-- app.load("client.activity.open_server.OpenServerActivity")
 				-- state_machine.excute("menu_clean_page_state", 0, "home")
 				-- fwin:open(ActivityWindow:new(), fwin._view) 
@@ -3011,6 +3031,22 @@ function ActivityIconCell:onInit()
 	-- resto de iconos de la ciudad o de la ventana. Se sale igual que arriba:
 	-- celda vacia de tamano 0 y una linea en el log.
 	if cc.FileUtils:getInstance():isFileExist(csb.rootPath .. self.res_data[self.ActivityType][2]) == false then
+		if self.ActivityType == self.enum_type.ACTIVITY_LEVEL_GIFT_HOME then
+			local root = ccui.Layout:create()
+			root:setContentSize(cc.size(100,100))
+			self:addChild(root)
+			table.insert(self.roots,root)
+			self:setContentSize(root:getContentSize())
+			local button = ccui.Button:create("images/ui/activity_icon/levelicon.png", "images/ui/activity_icon/levelicon.png", "images/ui/activity_icon/levelicon.png", 0)
+			button:setName("Button_act_but")
+			button:setPosition(cc.p(50,60))
+			root:addChild(button)
+			local label = ccui.Text:create("Novice Gift", "Arial", 18)
+			label:setPosition(cc.p(50,12))
+			root:addChild(label)
+			fwin:addTouchEventListener(button,nil,{terminal_name="activity_home_level_gift_home",terminal_state=0,isPressedActionEnabled=true},nil,0)
+			return
+		end
 		print("[activity_icon] enum " .. tostring(self.ActivityType) .. " sin su .csb: " .. self.res_data[self.ActivityType][2])
 		return
 	end

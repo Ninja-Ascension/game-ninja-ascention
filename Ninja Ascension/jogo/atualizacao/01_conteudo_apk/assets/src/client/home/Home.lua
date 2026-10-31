@@ -791,7 +791,8 @@ function Home:ctor()
 				-- _ED._npc_difficulty_index = 1
 				-- protocol_command.battle_field_init.param_list = "".._ED._current_scene_id.."\r\n".._ED._scene_npc_id.."\r\n".._ED._npc_difficulty_index.."\r\n".."0"
 				-- NetworkManager:register(protocol_command.battle_field_init.code, nil, nil, nil, nil, responseBattleInitCallback, true, nil)
-				TipDlg.drawTextDailog(_function_unopened_tip_string)
+				app.load("client.activity.LocalEventWindow")
+				fwin:open(LocalEventWindow:new():init("event","fund"),fwin._view)
                 return true
             end,
             _terminal = nil,
@@ -7263,6 +7264,27 @@ end
 -- because other activity updates may attempt to make these visible again.
 function Home:hideLocalPromotionShortcuts()
     if not self.roots or not self.roots[1] then return end
+    if not self._localEventShortcuts then
+        local root = self.roots[1]
+        app.load("client.activity.ActivityWindow")
+        app.load("client.cells.activity.activity_icon_cell")
+        self._localEventShortcuts = {}
+        -- Original APK shortcut cells, grouped below the profile and clock.
+        local kinds = {"ACTIVITY_EXCITING_ICON", "ACTIVITY_HOME_FIRST_RECHARGE_ICON",
+            "ACTIVITY_SEVEN_DAY_TWO_ICONTWO", "ACTIVITY_SEVEN_DAY_ICON"}
+        local size = root:getContentSize()
+        for i, kind in ipairs(kinds) do
+            local icon = ActivityIconCell:createCell()
+            icon:init(icon.enum_type[kind])
+            icon:setName("NinjaAscensionEventShortcut"..i)
+            icon:setScale(0.8)
+            icon:setPosition(cc.p(8 + ((i-1)%4)*96, size.height-165-math.floor((i-1)/4)*88))
+            root:addChild(icon, 40)
+            icon:setVisible(true)
+            table.insert(self._localEventShortcuts, icon)
+        end
+        self._localEventsButton = self._localEventShortcuts[1]
+    end
     if not self._localPromotionNodes then
         self._localPromotionNodes = {}
         local hidden={Button_huodong=true,Button_chongzhi=true,Button_libao=true,Button_kefu=true,
