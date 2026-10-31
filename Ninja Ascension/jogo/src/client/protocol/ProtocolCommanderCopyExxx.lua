@@ -2744,3 +2744,12 @@ function command_guest_account_generate(str)
 	str = str..protocol_command.guest_account_generate.param_list
 	return str
 end
+
+-- 跳过教程选择
+function command_tutorial_skip(str)
+	str = str.."\r\n"
+	str = str..protocol_command.tutorial_skip.command
+	str = str.."\r\n"
+	str = str.._ED.user_info.user_id
+	return str
+end

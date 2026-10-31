@@ -1495,6 +1495,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
 import tutorial_campaign as _tutorial_campaign
 _tutorial_campaign.install(sys.modules[__name__])
+import tutorial_skip as _tutorial_skip
+_tutorial_skip.install(sys.modules[__name__])
 import recruitment_local as _recruitment_local
 _recruitment_local.install(sys.modules[__name__])
 import hero_training_local as _hero_training_local
