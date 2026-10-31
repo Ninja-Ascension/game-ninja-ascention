@@ -56,6 +56,16 @@ def install(server):
         except (server._contas.ErroConta,ValueError) as exc:
             return server.recusa('email_init',seq,str(exc))
 
+    def reward_center_init(seq,text):
+        try:
+            # This server currently has no persisted reward-center entries.
+            # A successful empty result has no 210 records; emitting a bare
+            # failure here made the client show the generic "Erro de código".
+            request(seq,text,1,1)
+            return ' '.join([str(seq),'reward_center_init','0'])
+        except (server._contas.ErroConta,ValueError) as exc:
+            return server.recusa('reward_center_init',seq,str(exc))
+
     def get_mail(seq,text):
         try:
             account,fields=request(seq,text,1,1)
@@ -148,7 +158,8 @@ def install(server):
         return server.recusa('one_key_draw_attachment_in_mail',seq,'email_sem_anexo')
 
     server.MINIMOS.update({
-        'email_init':mail_init,'get_user_mail':get_mail,'user_send_mail':send_mail,
+        'email_init':mail_init,'reward_center_init':reward_center_init,
+        'get_user_mail':get_mail,'user_send_mail':send_mail,
         'user_read_mail':read_mail,'one_key_read_mail':read_all,'delete_mail':delete_mail,
         'delete_all_mail':delete_all,
         'draw_attachment_in_mail':no_attachment,

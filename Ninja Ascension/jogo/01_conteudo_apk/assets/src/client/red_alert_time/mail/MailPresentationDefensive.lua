@@ -189,6 +189,7 @@ function MailPresentationDefensive:onUpdateDraw(index)
     self._max_list = tonumber(max_data[2])
     local ListView_presentation = ccui.Helper:seekWidgetByName(root,"ListView_presentation")
     local Text_mail_presentation_not = ccui.Helper:seekWidgetByName(root,"Text_mail_presentation_not")
+    Text_mail_presentation_not:setString("Nenhum relatório disponível")
     Text_mail_presentation_not:setVisible(false)
     if index~= nil then
     else

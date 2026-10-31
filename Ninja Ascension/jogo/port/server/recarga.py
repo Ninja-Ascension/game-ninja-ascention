@@ -53,7 +53,7 @@ COMANDOS = {
     'profile_local': ['user_info_modify'],
     'online_reward_local': ['trigger_scene_surprise'],
     'energia': ['power_swallow', 'draw_endurance_init', 'get_web_recharge_state'],
-    'mail_local': ['email_init','get_user_mail','user_send_mail','user_read_mail','one_key_read_mail','delete_mail','delete_all_mail','draw_attachment_in_mail','one_key_draw_attachment_in_mail'],
+    'mail_local': ['email_init','reward_center_init','get_user_mail','user_send_mail','user_read_mail','one_key_read_mail','delete_mail','delete_all_mail','draw_attachment_in_mail','one_key_draw_attachment_in_mail'],
     'formacao_pesadelo': ['get_hard_copy_user_formation'],
     'recruitment_local': ['new_recruitment_system', 'formation_change'],
     'hero_training_local': ['ship_grow_up','ship_escalate','ship_awaken','ship_skill_level_up','ship_skill_level_up_one_key','ship_soul_level_up'],
