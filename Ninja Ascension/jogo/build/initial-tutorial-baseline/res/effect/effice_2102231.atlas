@@ -1,0 +1,265 @@
+
+effice_2102231.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baidi
+  rotate: false
+  xy: 882, 253
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+guangxiao/dt
+  rotate: false
+  xy: 2, 382
+  size: 227, 128
+  orig: 227, 128
+  offset: 0, 0
+  index: -1
+guangxiao/dy1
+  rotate: true
+  xy: 882, 283
+  size: 99, 51
+  orig: 100, 52
+  offset: 1, 1
+  index: -1
+guangxiao/dy2
+  rotate: false
+  xy: 389, 71
+  size: 94, 48
+  orig: 100, 52
+  offset: 5, 0
+  index: -1
+guangxiao/dy3
+  rotate: false
+  xy: 239, 21
+  size: 100, 51
+  orig: 100, 52
+  offset: 0, 0
+  index: -1
+guangxiao/dy4
+  rotate: false
+  xy: 239, 74
+  size: 100, 52
+  orig: 100, 52
+  offset: 0, 0
+  index: -1
+guangxiao/hbai
+  rotate: false
+  xy: 882, 258
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+guangxiao/js
+  rotate: false
+  xy: 565, 251
+  size: 17, 11
+  orig: 17, 11
+  offset: 0, 0
+  index: -1
+guangxiao/kaiyan1
+  rotate: false
+  xy: 2, 252
+  size: 227, 128
+  orig: 227, 128
+  offset: 0, 0
+  index: -1
+guangxiao/kaiyan2
+  rotate: false
+  xy: 231, 382
+  size: 227, 128
+  orig: 227, 128
+  offset: 0, 0
+  index: -1
+guangxiao/kaiyan3
+  rotate: false
+  xy: 2, 122
+  size: 227, 128
+  orig: 227, 128
+  offset: 0, 0
+  index: -1
+guangxiao/kaiyan4
+  rotate: false
+  xy: 231, 252
+  size: 227, 128
+  orig: 227, 128
+  offset: 0, 0
+  index: -1
+guangxiao/q1
+  rotate: true
+  xy: 780, 384
+  size: 126, 129
+  orig: 126, 129
+  offset: 0, 0
+  index: -1
+guangxiao/q2
+  rotate: false
+  xy: 754, 253
+  size: 126, 129
+  orig: 126, 129
+  offset: 0, 0
+  index: -1
+guangxiao/q3
+  rotate: false
+  xy: 390, 121
+  size: 126, 129
+  orig: 126, 129
+  offset: 0, 0
+  index: -1
+guangxiao/q4
+  rotate: false
+  xy: 565, 120
+  size: 126, 129
+  orig: 126, 129
+  offset: 0, 0
+  index: -1
+guangxiao/q5
+  rotate: false
+  xy: 693, 120
+  size: 126, 129
+  orig: 126, 129
+  offset: 0, 0
+  index: -1
+guangxiao/qd
+  rotate: false
+  xy: 460, 388
+  size: 164, 122
+  orig: 168, 122
+  offset: 4, 0
+  index: -1
+guangxiao/qd1
+  rotate: false
+  xy: 231, 128
+  size: 157, 122
+  orig: 168, 122
+  offset: 11, 0
+  index: -1
+guangxiao/qd2
+  rotate: false
+  xy: 460, 264
+  size: 154, 122
+  orig: 168, 122
+  offset: 9, 0
+  index: -1
+guangxiao/qd3
+  rotate: false
+  xy: 626, 388
+  size: 152, 122
+  orig: 168, 122
+  offset: 8, 0
+  index: -1
+guangxiao/qd4
+  rotate: false
+  xy: 2, 2
+  size: 148, 118
+  orig: 168, 122
+  offset: 9, 4
+  index: -1
+guangxiao/qh1
+  rotate: true
+  xy: 341, 13
+  size: 46, 60
+  orig: 65, 91
+  offset: 15, 0
+  index: -1
+guangxiao/qh2
+  rotate: true
+  xy: 403, 18
+  size: 51, 68
+  orig: 65, 91
+  offset: 12, 0
+  index: -1
+guangxiao/qh3
+  rotate: true
+  xy: 935, 298
+  size: 57, 73
+  orig: 65, 91
+  offset: 8, 7
+  index: -1
+guangxiao/qh4
+  rotate: true
+  xy: 945, 357
+  size: 64, 77
+  orig: 65, 91
+  offset: 1, 12
+  index: -1
+guangxiao/qh5
+  rotate: true
+  xy: 341, 61
+  size: 65, 46
+  orig: 65, 91
+  offset: 0, 45
+  index: -1
+guangxiao/redmoon
+  rotate: false
+  xy: 821, 129
+  size: 122, 122
+  orig: 122, 122
+  offset: 0, 0
+  index: -1
+guangxiao/shei
+  rotate: true
+  xy: 821, 123
+  size: 4, 76
+  orig: 4, 76
+  offset: 0, 0
+  index: -1
+guangxiao/shia
+  rotate: true
+  xy: 485, 74
+  size: 44, 66
+  orig: 44, 66
+  offset: 0, 0
+  index: -1
+guangxiao/shib
+  rotate: true
+  xy: 1000, 457
+  size: 53, 22
+  orig: 53, 22
+  offset: 0, 0
+  index: -1
+guangxiao/shic
+  rotate: false
+  xy: 152, 13
+  size: 31, 19
+  orig: 31, 19
+  offset: 0, 0
+  index: -1
+guangxiao/xlya
+  rotate: true
+  xy: 616, 251
+  size: 135, 136
+  orig: 142, 142
+  offset: 2, 3
+  index: -1
+guangxiao/xlyb
+  rotate: false
+  xy: 152, 34
+  size: 85, 86
+  orig: 142, 142
+  offset: 20, 31
+  index: -1
+guangxiao/yb
+  rotate: false
+  xy: 911, 423
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+guangxiao/yun
+  rotate: true
+  xy: 518, 120
+  size: 142, 45
+  orig: 142, 50
+  offset: 0, 5
+  index: -1
+heidian
+  rotate: false
+  xy: 754, 384
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1

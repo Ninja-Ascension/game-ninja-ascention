@@ -1,0 +1,62 @@
+
+sprite_tianjianghaoli.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/dit
+  rotate: false
+  xy: 2, 358
+  size: 143, 39
+  orig: 149, 46
+  offset: 0, 7
+  index: -1
+images/lg_1
+  rotate: false
+  xy: 2, 399
+  size: 305, 79
+  orig: 305, 79
+  offset: 0, 0
+  index: -1
+images/qz_l
+  rotate: false
+  xy: 309, 445
+  size: 133, 33
+  orig: 142, 34
+  offset: 0, 1
+  index: -1
+images/w_tjhl
+  rotate: false
+  xy: 2, 328
+  size: 94, 28
+  orig: 94, 28
+  offset: 0, 0
+  index: -1
+images/x_sc
+  rotate: false
+  xy: 147, 364
+  size: 59, 33
+  orig: 59, 35
+  offset: 0, 0
+  index: -1
+images/xx
+  rotate: false
+  xy: 444, 451
+  size: 34, 27
+  orig: 83, 48
+  offset: 12, 18
+  index: -1
+images/xx2
+  rotate: false
+  xy: 309, 402
+  size: 33, 41
+  orig: 41, 45
+  offset: 5, 2
+  index: -1
+images/xx3
+  rotate: false
+  xy: 2, 306
+  size: 19, 20
+  orig: 24, 25
+  offset: 3, 2
+  index: -1

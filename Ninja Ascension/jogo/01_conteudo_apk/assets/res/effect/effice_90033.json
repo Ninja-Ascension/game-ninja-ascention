@@ -1,0 +1,35 @@
+{
+"skeleton": { "hash": "lH37KLCWKhTUvL4sjpOscJGtsKU", "spine": "2.1.27", "width": 4, "height": 4, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "baidi", "bone": "root", "color": "ffffff00", "attachment": "baidi" }
+],
+"skins": {
+	"default": {
+		"baidi": {
+			"baidi": { "width": 4, "height": 4 }
+		}
+	}
+},
+"events": {
+	"effice_90033": {}
+},
+"animations": {
+	"animation": {
+		"events": [
+			{ "time": 0, "name": "effice_90033" },
+			{ "time": 2.3333, "name": "effice_90033", "string": "shake" },
+			{ "time": 3.7666, "name": "effice_90033", "string": "hurt_after_fly_shake" },
+			{ "time": 4, "name": "effice_90033", "string": "hurt_after_fly_shake" },
+			{ "time": 4.2333, "name": "effice_90033", "string": "hurt_after_fly_shake" },
+			{ "time": 4.4333, "name": "effice_90033", "string": "kill" },
+			{ "time": 4.4666, "name": "effice_90033", "string": "hurt_after_repel_shake" },
+			{ "time": 4.5, "name": "effice_90033", "string": "next" },
+			{ "time": 5.6, "name": "effice_90033", "string": "unkill" },
+			{ "time": 5.7333, "name": "effice_90033" }
+		]
+	}
+}
+}

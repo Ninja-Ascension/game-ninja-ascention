@@ -1,0 +1,24 @@
+{
+  "daily": {
+    "silver": 20000,
+    "gold": 10
+  },
+  "every_7_days": {
+    "silver": 100000,
+    "gold": 50
+  },
+  "cumulative": [
+    {
+      "days": 7,
+      "gold": 100
+    },
+    {
+      "days": 15,
+      "gold": 200
+    },
+    {
+      "days": 25,
+      "gold": 300
+    }
+  ]
+}

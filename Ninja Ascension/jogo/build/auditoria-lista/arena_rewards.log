@@ -1,0 +1,10 @@
+[HOST_SERVER][22:04:01] ARENA_RESULT conta=1 match=match-once pontos=2
+[HOST_SERVER][22:04:01] recusa cmd=battlefield_report_battle_info_get seq=10 motivo=dados_historicos_de_replay_nao_disponiveis
+[HOST_SERVER][22:04:01] ARENA_ARCHIVE conta=1 match=8806714dfa194ad3b5b0e2bcd8849062 formato=1 eventos=0
+[HOST_SERVER][22:04:01] ARENA_RESULT conta=1 match=8806714dfa194ad3b5b0e2bcd8849062 pontos=1
+[HOST_SERVER][22:04:02] recusa cmd=battlefield_report_battle_info_get seq=10 motivo=relatorio_de_arena_inexistente
+[HOST_SERVER][22:04:02] ARENA_ARCHIVE conta=1 match=fe309a574cbb4b44b168c7a7bf766785 formato=2 eventos=4
+[HOST_SERVER][22:04:02] ARENA_RESULT conta=1 match=fe309a574cbb4b44b168c7a7bf766785 pontos=2
+[HOST_SERVER][22:04:02] recusa cmd=battlefield_report_battle_info_get seq=10 motivo=atualize_o_cliente_para_reproduzir_o_relatorio
+ARENA_REWARDS_PASSED original score reward and match settlement are once-only
+

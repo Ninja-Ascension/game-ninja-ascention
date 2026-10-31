@@ -1,0 +1,132 @@
+
+effice_luck_draw_box.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 666, 228
+  size: 125, 128
+  orig: 136, 136
+  offset: 6, 4
+  index: -1
+02
+  rotate: false
+  xy: 528, 358
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 666, 358
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 804, 358
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 528, 220
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+06
+  rotate: true
+  xy: 356, 26
+  size: 105, 107
+  orig: 136, 136
+  offset: 15, 18
+  index: -1
+cardeat_0000
+  rotate: false
+  xy: 279, 133
+  size: 119, 109
+  orig: 120, 110
+  offset: 1, 0
+  index: -1
+cardeat_0001
+  rotate: false
+  xy: 400, 133
+  size: 119, 109
+  orig: 120, 110
+  offset: 1, 0
+  index: -1
+cardeat_0002
+  rotate: false
+  xy: 793, 245
+  size: 119, 111
+  orig: 120, 112
+  offset: 1, 0
+  index: -1
+cardeat_0003
+  rotate: false
+  xy: 521, 109
+  size: 119, 109
+  orig: 120, 110
+  offset: 1, 0
+  index: -1
+cardeat_0004
+  rotate: false
+  xy: 241, 29
+  size: 113, 102
+  orig: 114, 102
+  offset: 1, 0
+  index: -1
+cardeat_0005
+  rotate: true
+  xy: 573, 2
+  size: 105, 97
+  orig: 106, 98
+  offset: 1, 0
+  index: -1
+cardeat_0006
+  rotate: true
+  xy: 642, 119
+  size: 99, 92
+  orig: 100, 92
+  offset: 1, 0
+  index: -1
+cardeat_0007
+  rotate: true
+  xy: 914, 244
+  size: 112, 108
+  orig: 112, 108
+  offset: 0, 0
+  index: -1
+e-009-2
+  rotate: false
+  xy: 465, 3
+  size: 106, 104
+  orig: 107, 104
+  offset: 0, 0
+  index: -1
+gaizi
+  rotate: true
+  xy: 2, 40
+  size: 162, 237
+  orig: 162, 237
+  offset: 0, 0
+  index: -1
+hedi
+  rotate: false
+  xy: 2, 204
+  size: 275, 290
+  orig: 275, 290
+  offset: 0, 0
+  index: -1
+hezi
+  rotate: false
+  xy: 279, 244
+  size: 247, 250
+  orig: 247, 250
+  offset: 0, 0
+  index: -1

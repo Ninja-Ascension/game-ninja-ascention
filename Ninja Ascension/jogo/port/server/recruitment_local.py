@@ -7,7 +7,7 @@ from gameplay_mode import tutorial_enabled, STARTERS
 def all_owned(db,account):
     # mission3's first quality lesson explicitly targets the initial mould 13.
     result=[(account*100000+13,13)]
-    if not tutorial_enabled():
+    if not tutorial_enabled(db,account) and not __import__('initial_tutorial').managed(db,account):
         result=[(account*100000+(1 if mould==50 else mould),mould) for mould in STARTERS]
     recruit=owned(db,account)
     if recruit and recruit[1] not in {m for _,m in result}:result.append(recruit)
@@ -26,10 +26,10 @@ def owned(db,account):
     return tuple(row) if row else None
 
 def init_tokens(db,account):
-    if not tutorial_enabled():
+    if not tutorial_enabled(db,account):
         from normal_recruit import state_payload
         return ['15005',json.dumps(state_payload(db,account),separators=(',',':'))]
-    has=not tutorial_enabled() or owned(db,account) is not None
+    has=not tutorial_enabled(db,account) or owned(db,account) is not None
     payload={'totalDraw':int(has),'totalFreeDraw':int(not has),'newRecruitmentShop':recruit_shop_remain()}
     return ['15005',json.dumps(payload,separators=(',',':'))]
 
@@ -41,7 +41,7 @@ def _slots_locked(db,account):
         return slots
     slots=['0']*6
     slots[1]=str(account*100000+13)
-    if not tutorial_enabled():
+    if not tutorial_enabled(db,account) and not __import__('initial_tutorial').managed(db,account):
         slots[3]=str(account*100000+35)
         slots[5]=str(account*100000+1)
     row=db._conn.execute('SELECT ship_id,position FROM tutorial_formation WHERE conta_id=?',(account,)).fetchone()
@@ -265,7 +265,7 @@ def one_ship_tokens(db,account,entry):
             # O rank NAO vai em fields[8] (la e captain_name, linha 533).
             # Ele so alimenta o bloco 14104, via metadata abaixo.
     from gameplay_mode import tutorial_enabled
-    if not tutorial_enabled():
+    if not tutorial_enabled(db,account):
         from hero_quality_local import quality as normal_quality
         quality=str(normal_quality(db,account,ship,mould))
     import equipment_local

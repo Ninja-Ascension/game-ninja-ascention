@@ -1,0 +1,66 @@
+[HOST_SERVER][22:36:30] recusa cmd=get_resource seq=17 motivo=escolha_fazer_ou_pular_tutorial_primeiro
+[HOST_SERVER][22:36:30] recusa cmd=tutorial_skip seq=17 motivo=pulo_disponivel_apenas_na_escolha_inicial
+[HOST_SERVER][22:36:30] cmd=tutorial_skip seq=17 -> status=-1 (61 chars)
+[HOST_SERVER][22:36:30] login_init: 0 itens no inventario da conta 2
+[HOST_SERVER][22:36:30] login_init: enviando 1 personagem(ns) no login
+[HOST_SERVER][22:36:30] login_init conta=playprofile user_id=2 sessao='zWn...(43)'
+[HOST_SERVER][22:36:30] LOGIN_LAYOUT prefix=90 items=0 separate_characters=1
+[HOST_SERVER][22:36:30] cmd=login_init seq=17 -> status=0 (44078 chars)
+[HOST_SERVER][22:36:30] cmd=tutorial_start seq=17 -> status=0 (33 chars)
+[HOST_SERVER][22:36:30] cmd=tutorial_start seq=17 -> status=0 (33 chars)
+[HOST_SERVER][22:36:30] recusa cmd=tutorial_skip seq=17 motivo=pulo_disponivel_apenas_na_escolha_inicial
+[HOST_SERVER][22:36:30] cmd=tutorial_skip seq=17 -> status=-1 (61 chars)
+[HOST_SERVER][22:36:30] cmd=get_resource seq=17 -> status=0 (22 chars)
+[HOST_SERVER][22:36:30] cmd=get_resource seq=17 -> status=0 (22 chars)
+[HOST_SERVER][22:36:30] battle_result_start tipo=0 cena=1 npc=1 dif=1 sender=1,4001,1,2 -> 2 batalha(s)
+[HOST_SERVER][22:36:30] cmd=battle_result_start seq=17 -> status=0 (24 chars)
+[HOST_SERVER][22:36:30] PVE resultado salvo cena=1 npc=1 estrelas=3 nivel=2 primeira_vitoria=True
+[HOST_SERVER][22:36:30] cmd=battle_result_verify seq=17 -> status=0 (28380 chars)
+[HOST_SERVER][22:36:30] TUTORIAL_RECRUIT granted/restored conta_id=2 mould=50
+[HOST_SERVER][22:36:30] cmd=new_recruitment_system seq=17 -> status=0 (663 chars)
+[HOST_SERVER][22:36:30] formation_change conta=2 ship=200001 pos=6 modo=1 -> ['0', '200013', '0', '0', '0', '200001']
+[HOST_SERVER][22:36:30] cmd=formation_change seq=17 -> status=0 (93 chars)
+[HOST_SERVER][22:36:30] battle_result_start tipo=0 cena=1 npc=2 dif=1 sender=1,4001,1,2 -> 2 batalha(s)
+[HOST_SERVER][22:36:30] cmd=battle_result_start seq=17 -> status=0 (24 chars)
+[HOST_SERVER][22:36:30] PVE resultado salvo cena=1 npc=2 estrelas=3 nivel=3 primeira_vitoria=True
+[HOST_SERVER][22:36:30] cmd=battle_result_verify seq=17 -> status=0 (28434 chars)
+[HOST_SERVER][22:36:30] TUTORIAL_QUALITY saved conta_id=2 quality=1
+[HOST_SERVER][22:36:30] cmd=ship_grow_up seq=17 -> status=0 (346 chars)
+[HOST_SERVER][22:36:30] battle_result_start tipo=0 cena=1 npc=3 dif=1 sender=1,4001,1,2 -> 2 batalha(s)
+[HOST_SERVER][22:36:30] cmd=battle_result_start seq=17 -> status=0 (24 chars)
+[HOST_SERVER][22:36:30] PVE resultado salvo cena=1 npc=3 estrelas=3 nivel=4 primeira_vitoria=True
+[HOST_SERVER][22:36:30] cmd=battle_result_verify seq=17 -> status=0 (28377 chars)
+[HOST_SERVER][22:36:30] cmd=draw_scene_rewad seq=17 -> status=0 (4452 chars)
+[HOST_SERVER][22:36:30] cmd=draw_scene_rewad seq=17 -> status=0 (4451 chars)
+[HOST_SERVER][22:36:30] cmd=prop_compound seq=17 -> status=0 (614 chars)
+[HOST_SERVER][22:36:30] formation_change conta=2 ship=1000200056 pos=1 modo=1 -> ['1000200056', '200013', '0', '0', '0', '200001']
+[HOST_SERVER][22:36:30] cmd=formation_change seq=17 -> status=0 (115 chars)
+[HOST_SERVER][22:36:30] battle_result_start tipo=0 cena=2 npc=4 dif=1 sender=1,4001,1,2 -> 2 batalha(s)
+[HOST_SERVER][22:36:30] cmd=battle_result_start seq=17 -> status=0 (24 chars)
+[HOST_SERVER][22:36:30] PVE resultado salvo cena=2 npc=4 estrelas=3 nivel=5 primeira_vitoria=True
+[HOST_SERVER][22:36:30] cmd=battle_result_verify seq=17 -> status=0 (28405 chars)
+[HOST_SERVER][22:36:30] battle_result_start tipo=0 cena=2 npc=5 dif=1 sender=1,4001,1,2 -> 2 batalha(s)
+[HOST_SERVER][22:36:30] cmd=battle_result_start seq=17 -> status=0 (24 chars)
+[HOST_SERVER][22:36:30] PVE resultado salvo cena=2 npc=5 estrelas=3 nivel=6 primeira_vitoria=True
+[HOST_SERVER][22:36:30] cmd=battle_result_verify seq=17 -> status=0 (28420 chars)
+[HOST_SERVER][22:36:30] HERO_DEVELOPMENT conta=2 ship=200013 cmd=ship_awaken salvo
+[HOST_SERVER][22:36:30] cmd=ship_awaken seq=17 -> status=0 (422 chars)
+[HOST_SERVER][22:36:30] tutorial etapa=307013 conta_id=2 salva
+[HOST_SERVER][22:36:30] cmd=education_change seq=17 -> status=0 (37 chars)
+[HOST_SERVER][22:36:30] recusa cmd=tutorial_skip seq=17 motivo=pulo_disponivel_apenas_na_escolha_inicial
+[HOST_SERVER][22:36:30] cmd=tutorial_skip seq=17 -> status=-1 (61 chars)
+[HOST_SERVER][22:36:30] login_init: 0 itens no inventario da conta 3
+[HOST_SERVER][22:36:30] login_init: enviando 1 personagem(ns) no login
+[HOST_SERVER][22:36:30] login_init conta=skipprofile user_id=3 sessao='QjA...(43)'
+[HOST_SERVER][22:36:30] LOGIN_LAYOUT prefix=90 items=0 separate_characters=1
+[HOST_SERVER][22:36:30] cmd=login_init seq=17 -> status=0 (44078 chars)
+[HOST_SERVER][22:36:30] cmd=tutorial_skip seq=17 -> status=0 (32 chars)
+[HOST_SERVER][22:36:30] recusa cmd=get_resource seq=17 motivo=introducao_nao_esta_ativa
+[HOST_SERVER][22:36:30] cmd=get_resource seq=17 -> status=-1 (44 chars)
+[HOST_SERVER][22:36:30] login_init: 2 itens no inventario da conta 3
+[HOST_SERVER][22:36:30] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][22:36:30] login_init conta=skipprofile user_id=3 sessao='QjA...(43)'
+[HOST_SERVER][22:36:30] LOGIN_LAYOUT prefix=90 items=2 separate_characters=3
+[HOST_SERVER][22:36:30] cmd=login_init seq=17 -> status=0 (45310 chars)
+[HOST_SERVER][22:36:30] cmd=tutorial_skip seq=17 -> status=0 (32 chars)
+INITIAL_TUTORIAL_PASSED full protocol walkthrough equals skip; repeat, legacy isolation, rollback, integrity

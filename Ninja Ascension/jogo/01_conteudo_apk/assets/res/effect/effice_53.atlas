@@ -1,0 +1,97 @@
+
+effice_53.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhongdubuff1
+  rotate: false
+  xy: 164, 346
+  size: 155, 161
+  orig: 160, 166
+  offset: 0, 0
+  index: -1
+zhongdubuff2
+  rotate: false
+  xy: 2, 7
+  size: 156, 165
+  orig: 160, 166
+  offset: 0, 0
+  index: -1
+zhongdubuff2_1
+  rotate: true
+  xy: 318, 94
+  size: 90, 57
+  orig: 90, 57
+  offset: 0, 0
+  index: -1
+zhongdubuff2_2
+  rotate: true
+  xy: 436, 35
+  size: 90, 56
+  orig: 90, 57
+  offset: 0, 0
+  index: -1
+zhongdubuff2_3
+  rotate: true
+  xy: 318, 2
+  size: 90, 57
+  orig: 90, 57
+  offset: 0, 0
+  index: -1
+zhongdubuff2_4
+  rotate: false
+  xy: 377, 127
+  size: 90, 57
+  orig: 90, 57
+  offset: 0, 0
+  index: -1
+zhongdubuff2_5
+  rotate: true
+  xy: 377, 35
+  size: 90, 57
+  orig: 90, 57
+  offset: 0, 0
+  index: -1
+zhongdubuff3
+  rotate: false
+  xy: 160, 7
+  size: 156, 165
+  orig: 160, 166
+  offset: 1, 1
+  index: -1
+zhongdubuff4
+  rotate: false
+  xy: 2, 174
+  size: 157, 166
+  orig: 160, 166
+  offset: 0, 0
+  index: -1
+zhongdubuff5
+  rotate: false
+  xy: 2, 342
+  size: 160, 165
+  orig: 160, 166
+  offset: 0, 0
+  index: -1
+zhongdubuff6
+  rotate: false
+  xy: 321, 351
+  size: 156, 156
+  orig: 160, 166
+  offset: 0, 9
+  index: -1
+zhongdubuff7
+  rotate: false
+  xy: 161, 175
+  size: 154, 165
+  orig: 160, 166
+  offset: 0, 0
+  index: -1
+zhongdubuff8
+  rotate: false
+  xy: 317, 186
+  size: 156, 158
+  orig: 160, 166
+  offset: 0, 7
+  index: -1

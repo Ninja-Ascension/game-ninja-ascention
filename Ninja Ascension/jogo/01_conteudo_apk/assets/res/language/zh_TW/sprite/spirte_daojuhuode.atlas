@@ -1,0 +1,90 @@
+
+spirte_daojuhuode.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gongxihuodegx6_1
+  rotate: false
+  xy: 2, 187
+  size: 69, 123
+  orig: 77, 158
+  offset: 8, 0
+  index: -1
+gongxihuodegx6_2
+  rotate: true
+  xy: 425, 603
+  size: 66, 131
+  orig: 77, 158
+  offset: 9, 4
+  index: -1
+gongxihuodegx6_3
+  rotate: false
+  xy: 2, 312
+  size: 70, 130
+  orig: 77, 158
+  offset: 5, 5
+  index: -1
+gongxihuodegx6_4
+  rotate: true
+  xy: 286, 602
+  size: 67, 137
+  orig: 77, 158
+  offset: 6, 10
+  index: -1
+gongxihuodegx6_5
+  rotate: false
+  xy: 2, 444
+  size: 70, 139
+  orig: 77, 158
+  offset: 0, 10
+  index: -1
+gongxihuodegx6_6
+  rotate: false
+  xy: 707, 705
+  size: 68, 127
+  orig: 77, 158
+  offset: 1, 17
+  index: -1
+gongxihuodegx6_7
+  rotate: false
+  xy: 637, 699
+  size: 68, 133
+  orig: 77, 158
+  offset: 2, 22
+  index: -1
+gongxihuodegx6_8
+  rotate: false
+  xy: 74, 449
+  size: 66, 134
+  orig: 77, 158
+  offset: 3, 24
+  index: -1
+gongxihuodekuang
+  rotate: false
+  xy: 2, 671
+  size: 633, 228
+  orig: 633, 228
+  offset: 0, 0
+  index: -1
+lq_tx5
+  rotate: true
+  xy: 2, 39
+  size: 146, 15
+  orig: 160, 17
+  offset: 7, 1
+  index: -1
+quanzhou
+  rotate: true
+  xy: 637, 834
+  size: 65, 262
+  orig: 65, 262
+  offset: 0, 0
+  index: -1
+word_gx
+  rotate: false
+  xy: 2, 585
+  size: 282, 84
+  orig: 282, 84
+  offset: 0, 0
+  index: -1

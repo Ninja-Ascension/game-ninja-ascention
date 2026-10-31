@@ -1,6 +1,7 @@
 -- Keep the guide's input geometry, hand and effects; remove its dark fill.
 local M={}
 function M.apply(window)
+    if require('initial_tutorial').state=='playing' then return end
     for _,root in ipairs(window.roots or {}) do
         root:setBackGroundColorOpacity(0)
         root:setBackGroundColorType(0)

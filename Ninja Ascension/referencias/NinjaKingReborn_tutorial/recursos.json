@@ -1,0 +1,74 @@
+[
+  {
+    "resource": "fonts/ReggaeOne-Regular.ttf",
+    "in_apk": true,
+    "in_project": false,
+    "same": false
+  },
+  {
+    "resource": "images/face/big_head/big_head_104001.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/face/big_head/big_head_104101.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/bar/bar_title_1.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/button/btn.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/button/btn_1.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/button/btn_2.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/decorative/juexianshi_01.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/decorative/juexianshi_01_dec.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/decorative/juexianshi_03.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/edit_box/lipinma_paper.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  },
+  {
+    "resource": "images/ui/text/TF_res/combination_card/combination_card_bg_2.png",
+    "in_apk": true,
+    "in_project": true,
+    "same": true
+  }
+]

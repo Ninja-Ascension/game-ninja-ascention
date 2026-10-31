@@ -1,0 +1,58 @@
+[
+  {
+    "file": "assets/res/data/mould/mission1.txt",
+    "sha256": "cf9a5bc00b2fc73c7c4087175d22eaf987c468a8a8a24a7fc57e9b87959d66e1"
+  },
+  {
+    "file": "assets/res/data/mould/mission2.txt",
+    "sha256": "a206a05708c69082cf9592a2ce486de936446d80e14eba865871142b2c4b7244"
+  },
+  {
+    "file": "assets/res/data/mould/mission3.txt",
+    "sha256": "c60e340c50931a700f17b7ba2729a47a88db8bae396cf84eb943654e16019c73"
+  },
+  {
+    "file": "assets/res/data/mould/npc.txt",
+    "sha256": "76fa2dbf9c00788dc005749a95e2c8bf66b26abf489badf202612c72e143fe55"
+  },
+  {
+    "file": "assets/res/data/mould/prop_mould.txt",
+    "sha256": "ee67fb2c0de4984217909727d4bb019a10d6a4c4c51177fbd423ecda9444a564"
+  },
+  {
+    "file": "assets/res/data/mould/pve_scene.txt",
+    "sha256": "6d4b129b2a1bdf47087d89baa4bafa319d49df912c30ca02a33e007f17533f0b"
+  },
+  {
+    "file": "assets/res/data/mould/scene_reward.txt",
+    "sha256": "5b0418218ecb4df5a7521b6fa7876a33edc7f6eab065c5350ff0ab038ed8512d"
+  },
+  {
+    "file": "assets/res/data/mould/scene_reward_drop.txt",
+    "sha256": "882401840738cc5a7d60956e64b49cce47e53fe41107586e19da4756a1d41e90"
+  },
+  {
+    "file": "assets/res/data/mould/ship_evo_mould.txt",
+    "sha256": "25f5893c0d48ee0f337da197313ec35e7f44e98cda1250d45ffb3e85b9f5cdca"
+  },
+  {
+    "file": "assets/res/data/mould/ship_mould.txt",
+    "sha256": "46533d3cbd41cece62c1e0f28de5b6f5c63ad3686785b75c8732e8e9df08dd89"
+  },
+  {
+    "file": "assets/res/data/mould/word_mould.txt",
+    "sha256": "096ca6dc114de8a76f8a4a924196a5179cb9c456b86b2622d461defc9d29b9fa"
+  },
+  {
+    "file": "assets/res/language/pt_BR/data/mould/word_mould.txt",
+    "sha256": "6d54878799eeb23c24a8351b6a7337e02f179a51335975add7891fcc54e64fb7"
+  },
+  {
+    "file": "assets/src/client/landscape/duplicate/pve/LPVENpc.lua",
+    "sha256": "33a258f6b6b9f00e43713aba9605540a54896346dc86d4cbde4f05582a4559b2"
+  },
+  {
+    "file": "assets/src/client/loader/LocalDatas.lua",
+    "sha256": "52f684599a579d1da513cde37c8c8917f8be0ea05d8d34911d232aa74236f8ef"
+  }
+]

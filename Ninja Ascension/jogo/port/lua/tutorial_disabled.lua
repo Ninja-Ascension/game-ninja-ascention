@@ -27,11 +27,15 @@ local config=json.decode(text)
 local override=os.getenv('NR_ENABLE_TUTORIAL')
 local M={enabled=os.getenv('NR_PROBE_TEST_MODE') and override=='1' or false}
 function M.install()
-    if M.enabled then return end
     if state_machine and state_machine._terminals then
         for name,terminal in pairs(state_machine._terminals) do
-            if type(name)=='string' and type(terminal)=='table' and name:find('tuition',1,true) then
-                terminal._invoke=function() return false end
+            if type(name)=='string' and type(terminal)=='table' and name:find('tuition',1,true) and not terminal.__nr_initial_gate and type(terminal._invoke)=='function' then
+                terminal.__nr_initial_gate=true
+                local invoke=terminal._invoke
+                terminal._invoke=function(...)
+                    if not M.enabled then return false end
+                    return invoke(...)
+                end
             end
         end
     end
@@ -49,7 +53,7 @@ function M.install()
     local execute=rawget(_G,'executeMissionExt')
     if type(execute)=='function' and execute~=M.wrapper then
         M.wrapper=function(mould,...)
-            if mould==mission_mould_tuition or mould==mission_mould_battle then return false end
+            if (mould==mission_mould_tuition or mould==mission_mould_battle) and not M.enabled then return false end
             return execute(mould,...)
         end
         executeMissionExt=M.wrapper

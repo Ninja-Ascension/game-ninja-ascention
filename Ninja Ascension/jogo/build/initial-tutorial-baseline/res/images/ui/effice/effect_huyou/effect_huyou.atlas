@@ -1,0 +1,202 @@
+
+effect_huyou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fuzhou
+  rotate: true
+  xy: 825, 771
+  size: 251, 147
+  orig: 253, 148
+  offset: 1, 0
+  index: -1
+fuzhou2
+  rotate: false
+  xy: 2, 635
+  size: 410, 387
+  orig: 419, 420
+  offset: 4, 15
+  index: -1
+fuzhou4
+  rotate: false
+  xy: 414, 636
+  size: 409, 386
+  orig: 419, 420
+  offset: 3, 29
+  index: -1
+t3order_zm_tx_01
+  rotate: false
+  xy: 2, 487
+  size: 145, 146
+  orig: 153, 150
+  offset: 2, 2
+  index: -1
+t3order_zm_tx_02
+  rotate: true
+  xy: 149, 487
+  size: 146, 145
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+t3order_zm_tx_03
+  rotate: true
+  xy: 713, 474
+  size: 146, 147
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+t3order_zm_tx_04
+  rotate: false
+  xy: 857, 180
+  size: 146, 146
+  orig: 153, 150
+  offset: 0, 2
+  index: -1
+t3order_zm_tx_05
+  rotate: false
+  xy: 2, 31
+  size: 145, 147
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+t3order_zm_tx_06
+  rotate: false
+  xy: 151, 340
+  size: 145, 145
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+t3order_zm_tx_07
+  rotate: true
+  xy: 862, 475
+  size: 145, 148
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+t3order_zm_tx_08
+  rotate: true
+  xy: 862, 328
+  size: 145, 148
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+t3order_zm_tx_09
+  rotate: false
+  xy: 712, 322
+  size: 143, 150
+  orig: 153, 150
+  offset: 3, 0
+  index: -1
+t3order_zm_tx_10
+  rotate: false
+  xy: 296, 31
+  size: 143, 147
+  orig: 153, 150
+  offset: 3, 1
+  index: -1
+t3order_zm_tx_11
+  rotate: false
+  xy: 296, 193
+  size: 144, 145
+  orig: 153, 150
+  offset: 2, 3
+  index: -1
+t3order_zm_tx_12
+  rotate: false
+  xy: 877, 39
+  size: 145, 139
+  orig: 153, 150
+  offset: 2, 4
+  index: -1
+t3order_zm_tx_13
+  rotate: true
+  xy: 587, 48
+  size: 145, 143
+  orig: 153, 150
+  offset: 3, 2
+  index: -1
+t3order_zm_tx_14
+  rotate: true
+  xy: 732, 34
+  size: 144, 143
+  orig: 153, 150
+  offset: 4, 3
+  index: -1
+t3order_zm_tx_15
+  rotate: false
+  xy: 298, 340
+  size: 145, 145
+  orig: 153, 150
+  offset: 3, 2
+  index: -1
+t3order_zm_tx_16
+  rotate: false
+  xy: 442, 195
+  size: 146, 143
+  orig: 153, 150
+  offset: 2, 2
+  index: -1
+t3order_zm_tx_17
+  rotate: true
+  xy: 2, 191
+  size: 147, 145
+  orig: 153, 150
+  offset: 1, 2
+  index: -1
+t3order_zm_tx_18
+  rotate: false
+  xy: 563, 340
+  size: 147, 146
+  orig: 153, 150
+  offset: 1, 2
+  index: -1
+t3order_zm_tx_19
+  rotate: false
+  xy: 2, 340
+  size: 147, 145
+  orig: 153, 150
+  offset: 1, 3
+  index: -1
+t3order_zm_tx_20
+  rotate: true
+  xy: 149, 32
+  size: 146, 145
+  orig: 153, 150
+  offset: 2, 3
+  index: -1
+t3order_zm_tx_21
+  rotate: true
+  xy: 563, 488
+  size: 146, 148
+  orig: 153, 150
+  offset: 2, 0
+  index: -1
+t3order_zm_tx_22
+  rotate: true
+  xy: 441, 46
+  size: 145, 144
+  orig: 153, 150
+  offset: 2, 1
+  index: -1
+t3order_zm_tx_23
+  rotate: true
+  xy: 149, 192
+  size: 146, 145
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+t3order_zm_tx_24
+  rotate: false
+  xy: 825, 622
+  size: 147, 147
+  orig: 153, 150
+  offset: 1, 1
+  index: -1
+t3order_zm_tx_25
+  rotate: false
+  xy: 414, 487
+  size: 147, 147
+  orig: 153, 150
+  offset: 2, 2
+  index: -1

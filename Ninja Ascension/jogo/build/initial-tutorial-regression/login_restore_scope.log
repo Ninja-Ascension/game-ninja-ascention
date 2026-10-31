@@ -1,0 +1,15 @@
+MOBILE_BOOTSTRAP_PASSED original JSON parser, APK-only config, tutorial disabled, native Android renderer preserved
+NR_LOGIN_PARSE_BEGIN bytes=16
+NR_LOGIN_PARSE_END ok=true historical_events_skipped=1000
+NR_LOGIN_PARSE_BEGIN bytes=22
+NR_LOGIN_PARSE_END ok=false historical_events_skipped=1000
+NR_PROTOCOL_PARSE_ERROR [string "..."]:9: REAL_PARSE_FAILURE
+stack traceback:
+	[C]: in function 'error'
+	[string "..."]:9: in function <[string "..."]:7>
+	[C]: in function 'xpcall'
+	... Ascension/jogo/port/lua/profile_parser_dependencies.lua:29: in function <... Ascension/jogo/port/lua/profile_parser_dependencies.lua:9>
+	[C]: in function 'pcall'
+	[string "..."]:18: in main chunk
+LOGIN_RESTORE_SCOPE_PASSED historical analytics suppressed; normal events, return values and original failure preserved
+

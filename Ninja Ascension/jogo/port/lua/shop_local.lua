@@ -123,6 +123,7 @@ function M.install()
         end
     end
     if not NetworkProtocol or not NetworkProtocol.protocol_parses then return end
+    require('initial_tutorial').install()
     if not NetworkProtocol.find_parser(15997) then
         table.insert(NetworkProtocol.protocol_parses,{code=15997,parser='local_ninja_school',parser_fun=function(_,_,_,_,list)
             local values=json.decode(npos(list))

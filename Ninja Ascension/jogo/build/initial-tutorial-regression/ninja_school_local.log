@@ -1,0 +1,55 @@
+[HOST_SERVER][22:31:39] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][22:31:39] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][22:31:39] login_init conta=school_test user_id=1 sessao='1u1...(43)'
+[HOST_SERVER][22:31:40] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][22:31:40] cmd=ship_talent_init seq=2 -> status=0 (8457 chars)
+[HOST_SERVER][22:31:40] cmd=artifact_init seq=2 -> status=0 (8454 chars)
+[HOST_SERVER][22:31:40] cmd=combine_ship_init seq=2 -> status=0 (8458 chars)
+[HOST_SERVER][22:31:40] cmd=user_card_info_init seq=2 -> status=0 (8460 chars)
+[HOST_SERVER][22:31:40] cmd=biographies_init seq=2 -> status=0 (8457 chars)
+[HOST_SERVER][22:31:40] cmd=magical_animals_init seq=2 -> status=0 (8461 chars)
+[HOST_SERVER][22:31:40] NINJA_SCHOOL cmd=ship_talent_level_up conta=1 pedido=1|2
+[HOST_SERVER][22:31:40] cmd=ship_talent_level_up seq=2 -> status=0 (9850 chars)
+[HOST_SERVER][22:31:40] cmd=ship_talent_level_up seq=2 -> status=0 (9850 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_talent_level_up seq=2 motivo=identificador_reutilizado
+[HOST_SERVER][22:31:40] cmd=ship_talent_level_up seq=2 -> status=-1 (51 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_talent_level_up seq=2 motivo=talento_anterior_insuficiente
+[HOST_SERVER][22:31:40] cmd=ship_talent_level_up seq=2 -> status=-1 (55 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_talent_level_up seq=2 motivo=talento_no_nivel_maximo
+[HOST_SERVER][22:31:40] cmd=ship_talent_level_up seq=2 -> status=-1 (49 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_talent_level_up seq=2 motivo=pagina_de_talento_bloqueada
+[HOST_SERVER][22:31:40] cmd=ship_talent_level_up seq=2 -> status=-1 (53 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_talent_reset seq=2 motivo=diamantes_insuficientes
+[HOST_SERVER][22:31:40] cmd=ship_talent_reset seq=2 -> status=-1 (46 chars)
+[HOST_SERVER][22:31:40] NINJA_SCHOOL cmd=ship_talent_reset conta=1 pedido=
+[HOST_SERVER][22:31:40] cmd=ship_talent_reset seq=2 -> status=0 (9887 chars)
+[HOST_SERVER][22:31:40] cmd=ship_talent_reset seq=2 -> status=0 (9887 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_talent_reset seq=2 motivo=nenhum_talento_para_redefinir
+[HOST_SERVER][22:31:40] cmd=ship_talent_reset seq=2 -> status=-1 (52 chars)
+[HOST_SERVER][22:31:40] cmd=ship_spirit_init seq=2 -> status=0 (39 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_spirit_level_up seq=2 motivo=presentes_insuficientes
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=-1 (49 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_spirit_level_up seq=2 motivo=ninja_fora_do_grupo_de_espirito
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=-1 (57 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_spirit_level_up seq=2 motivo=ninja_nao_possuido
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=-1 (44 chars)
+[HOST_SERVER][22:31:40] NINJA_SCHOOL cmd=ship_spirit_level_up conta=1 pedido=1|100013|2
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=0 (9872 chars)
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=0 (9872 chars)
+[HOST_SERVER][22:31:40] NINJA_SCHOOL cmd=ship_spirit_batch_level_up conta=1 pedido=1|100013|0,1,0
+[HOST_SERVER][22:31:40] cmd=ship_spirit_batch_level_up seq=2 -> status=0 (9880 chars)
+[HOST_SERVER][22:31:40] NINJA_SCHOOL cmd=ship_spirit_level_up conta=1 pedido=1|100013|-1
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=0 (9857 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_spirit_level_up seq=2 motivo=presente_ausente
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=-1 (42 chars)
+[HOST_SERVER][22:31:40] NINJA_SCHOOL cmd=ship_spirit_level_up conta=1 pedido=1|100013|2
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=0 (9859 chars)
+[HOST_SERVER][22:31:40] recusa cmd=ship_spirit_level_up seq=2 motivo=espirito_no_nivel_maximo
+[HOST_SERVER][22:31:40] cmd=ship_spirit_level_up seq=2 -> status=-1 (50 chars)
+[HOST_SERVER][22:31:40] login_init: 2 itens no inventario da conta 1
+[HOST_SERVER][22:31:40] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][22:31:40] login_init conta=school_test user_id=1 sessao='1u1...(43)'
+[HOST_SERVER][22:31:40] LOGIN_LAYOUT prefix=90 items=2 separate_characters=3
+[HOST_SERVER][22:31:40] cmd=login_init seq=9 -> status=0 (46221 chars)
+NINJA_SCHOOL_BACKEND_PASSED talents(level/reset/refund/combat), spirit(init/gift/batch/all/stall/cap/speed), retries, relogin
+

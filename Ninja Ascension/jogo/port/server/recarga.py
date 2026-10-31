@@ -26,6 +26,8 @@ import traceback
 # sao removidas antes de recarregar. Assim os comandos do proprio servidor
 # (local_server.py) nunca somem do despacho.
 COMANDOS = {
+    'initial_tutorial': [],
+    'tutorial_skip': ['tutorial_start','tutorial_skip'],
     'achievements_local': ['draw_achievement_reward'],
     'mythical_local': ['magical_animals_activate','magical_animals_advance_star','magical_animals_forging','magical_animals_steps_rebirth','magical_animals_relevant_active','magical_animals_set_skill','magical_animals_set_skill_release_method','magical_animals_activate_fate','magical_animals_activate_get_fate_task_reward'],
     'saga_local': ['biographies_activate','biographies_advance','biographies_rebirth','biographies_mark_synthesis','biographies_buy_prop','biographies_draw','biographies_get_extra_reward','biographies_achieve_activate','biographies_rank'],

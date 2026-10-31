@@ -1,0 +1,174 @@
+
+sprite_baoxiang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 2, 799
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+images/2
+  rotate: false
+  xy: 2, 579
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+images/2__0001
+  rotate: false
+  xy: 962, 921
+  size: 40, 33
+  orig: 40, 33
+  offset: 0, 0
+  index: -1
+images/2__0002
+  rotate: false
+  xy: 352, 565
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1
+images/2__0003
+  rotate: false
+  xy: 408, 627
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+images/2__0004
+  rotate: false
+  xy: 65, 35
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+images/2__0005
+  rotate: false
+  xy: 132, 258
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+images/2__0006
+  rotate: false
+  xy: 132, 299
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+images/2__0007
+  rotate: false
+  xy: 352, 598
+  size: 54, 57
+  orig: 54, 57
+  offset: 0, 0
+  index: -1
+images/2__0008
+  rotate: false
+  xy: 2, 14
+  size: 61, 59
+  orig: 61, 59
+  offset: 0, 0
+  index: -1
+images/2__0009
+  rotate: false
+  xy: 442, 822
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+images/2__0010
+  rotate: true
+  xy: 962, 956
+  size: 61, 55
+  orig: 61, 55
+  offset: 0, 0
+  index: -1
+images/3
+  rotate: false
+  xy: 222, 799
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+images/4
+  rotate: false
+  xy: 2, 359
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_1
+  rotate: false
+  xy: 222, 657
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_10
+  rotate: false
+  xy: 352, 657
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_2
+  rotate: false
+  xy: 442, 877
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_3
+  rotate: false
+  xy: 2, 217
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_4
+  rotate: false
+  xy: 222, 515
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_5
+  rotate: false
+  xy: 572, 877
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_6
+  rotate: false
+  xy: 2, 75
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_7
+  rotate: false
+  xy: 222, 373
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_8
+  rotate: false
+  xy: 702, 877
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+images/UIbaoxianggx1_9
+  rotate: false
+  xy: 832, 877
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1

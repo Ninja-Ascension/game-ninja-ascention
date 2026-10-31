@@ -1,0 +1,962 @@
+
+spirte_150603.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/baidi
+  rotate: false
+  xy: 371, 23
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+image/beiji/beiji1_5
+  rotate: true
+  xy: 397, 423
+  size: 238, 86
+  orig: 500, 600
+  offset: 139, 165
+  index: -1
+image/beiji/beiji2_1
+  rotate: false
+  xy: 873, 323
+  size: 145, 207
+  orig: 500, 600
+  offset: 172, 82
+  index: -1
+image/bisha/bisha_lu1
+  rotate: false
+  xy: 397, 59
+  size: 474, 362
+  orig: 500, 600
+  offset: 5, 85
+  index: -1
+image/bisha/bisha_lu2
+  rotate: false
+  xy: 2, 663
+  size: 495, 359
+  orig: 500, 600
+  offset: 5, 85
+  index: -1
+image/bisha/bisha_lu3
+  rotate: true
+  xy: 2, 189
+  size: 472, 393
+  orig: 500, 600
+  offset: 26, 88
+  index: -1
+image/bisha/bisha_lu4
+  rotate: false
+  xy: 499, 532
+  size: 474, 490
+  orig: 500, 600
+  offset: 26, 86
+  index: -1
+image/gx/1 (3)
+  rotate: false
+  xy: 731, 14
+  size: 135, 43
+  orig: 193, 43
+  offset: 51, 0
+  index: -1
+image/gx/1075-2
+  rotate: true
+  xy: 975, 858
+  size: 164, 44
+  orig: 167, 48
+  offset: 3, 4
+  index: -1
+image/gx/1075-3
+  rotate: true
+  xy: 975, 698
+  size: 158, 44
+  orig: 164, 50
+  offset: 6, 6
+  index: -1
+image/gx/1075-4
+  rotate: true
+  xy: 975, 538
+  size: 158, 44
+  orig: 158, 51
+  offset: 0, 7
+  index: -1
+image/gx/2
+  rotate: true
+  xy: 873, 4
+  size: 317, 126
+  orig: 317, 126
+  offset: 0, 0
+  index: -1
+image/gx/bao0
+  rotate: false
+  xy: 397, 2
+  size: 131, 55
+  orig: 187, 108
+  offset: 41, 12
+  index: -1
+image/gx/bao4
+  rotate: false
+  xy: 595, 7
+  size: 70, 50
+  orig: 187, 108
+  offset: 63, 10
+  index: -1
+image/gx/healing aura_7
+  rotate: false
+  xy: 319, 2
+  size: 50, 25
+  orig: 80, 64
+  offset: 12, 33
+  index: -1
+image/gx/healing aura_9
+  rotate: false
+  xy: 265, 2
+  size: 52, 25
+  orig: 80, 64
+  offset: 11, 34
+  index: -1
+image/gx/xqa2
+  rotate: true
+  xy: 769, 423
+  size: 107, 101
+  orig: 162, 162
+  offset: 26, 29
+  index: -1
+image/heidian
+  rotate: false
+  xy: 371, 19
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+image/jineng/jineng_3
+  rotate: false
+  xy: 265, 29
+  size: 130, 158
+  orig: 500, 600
+  offset: 207, 82
+  index: -1
+image/jineng/xueren_2
+  rotate: false
+  xy: 2, 3
+  size: 261, 184
+  orig: 500, 600
+  offset: 116, 105
+  index: -1
+image/liwu/2
+  rotate: true
+  xy: 530, 4
+  size: 53, 63
+  orig: 128, 128
+  offset: 36, 33
+  index: -1
+image/liwu/3
+  rotate: true
+  xy: 667, 7
+  size: 50, 62
+  orig: 128, 128
+  offset: 37, 33
+  index: -1
+image/putong/pugong_9
+  rotate: true
+  xy: 485, 425
+  size: 105, 282
+  orig: 500, 600
+  offset: 220, 83
+  index: -1
+
+spirte_1506032.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/beiji/beiji1_3
+  rotate: true
+  xy: 633, 182
+  size: 151, 159
+  orig: 500, 600
+  offset: 189, 172
+  index: -1
+image/bisha/bisha_11
+  rotate: true
+  xy: 794, 126
+  size: 138, 228
+  orig: 500, 600
+  offset: 172, 85
+  index: -1
+image/bisha/bisha_2
+  rotate: true
+  xy: 308, 259
+  size: 165, 190
+  orig: 500, 600
+  offset: 181, 133
+  index: -1
+image/bisha/bisha_6
+  rotate: true
+  xy: 2, 581
+  size: 102, 304
+  orig: 500, 600
+  offset: 204, 85
+  index: -1
+image/bisha/bisha_7
+  rotate: false
+  xy: 476, 427
+  size: 155, 152
+  orig: 500, 600
+  offset: 188, 85
+  index: -1
+image/bisha/bisha_9
+  rotate: false
+  xy: 308, 480
+  size: 166, 203
+  orig: 500, 600
+  offset: 188, 88
+  index: -1
+image/bisha/bisha_lu5
+  rotate: false
+  xy: 2, 685
+  size: 473, 337
+  orig: 500, 600
+  offset: 14, 115
+  index: -1
+image/bisha/che_1
+  rotate: false
+  xy: 477, 839
+  size: 323, 183
+  orig: 500, 600
+  offset: 114, 83
+  index: -1
+image/daiji/daiji_4
+  rotate: false
+  xy: 633, 335
+  size: 160, 244
+  orig: 500, 600
+  offset: 167, 82
+  index: -1
+image/gx/0
+  rotate: true
+  xy: 2, 112
+  size: 312, 124
+  orig: 312, 124
+  offset: 0, 0
+  index: -1
+image/gx/00_001
+  rotate: false
+  xy: 2, 4
+  size: 105, 106
+  orig: 105, 106
+  offset: 0, 0
+  index: -1
+image/gx/1
+  rotate: false
+  xy: 477, 581
+  size: 316, 126
+  orig: 316, 126
+  offset: 0, 0
+  index: -1
+image/gx/1 (1)
+  rotate: false
+  xy: 308, 435
+  size: 166, 43
+  orig: 193, 43
+  offset: 0, 0
+  index: -1
+image/gx/1 (4)
+  rotate: true
+  xy: 884, 4
+  size: 120, 43
+  orig: 193, 43
+  offset: 73, 0
+  index: -1
+image/gx/1075-5
+  rotate: true
+  xy: 684, 3
+  size: 121, 44
+  orig: 142, 50
+  offset: 21, 6
+  index: -1
+image/gx/111 (1)
+  rotate: false
+  xy: 730, 4
+  size: 151, 61
+  orig: 151, 61
+  offset: 0, 0
+  index: -1
+image/gx/111 (2)
+  rotate: false
+  xy: 335, 186
+  size: 163, 71
+  orig: 163, 71
+  offset: 0, 0
+  index: -1
+image/gx/115-1
+  rotate: false
+  xy: 568, 3
+  size: 114, 121
+  orig: 128, 128
+  offset: 7, 0
+  index: -1
+image/gx/3
+  rotate: false
+  xy: 477, 709
+  size: 320, 128
+  orig: 320, 128
+  offset: 0, 0
+  index: -1
+image/gx/CHONGJIBO_4
+  rotate: false
+  xy: 500, 182
+  size: 78, 140
+  orig: 104, 155
+  offset: 3, 6
+  index: -1
+image/gx/CHONGJIBO_5
+  rotate: false
+  xy: 730, 67
+  size: 62, 113
+  orig: 104, 155
+  offset: 3, 33
+  index: -1
+image/gx/TX_sdx_4
+  rotate: false
+  xy: 187, 537
+  size: 118, 42
+  orig: 118, 68
+  offset: 0, 13
+  index: -1
+image/gx/bao1
+  rotate: true
+  xy: 128, 259
+  size: 165, 89
+  orig: 187, 108
+  offset: 15, 8
+  index: -1
+image/gx/effect_bz0001
+  rotate: false
+  xy: 500, 324
+  size: 131, 101
+  orig: 261, 246
+  offset: 67, 12
+  index: -1
+image/gx/healing aura_1
+  rotate: true
+  xy: 839, 68
+  size: 56, 43
+  orig: 80, 64
+  offset: 16, 12
+  index: -1
+image/gx/healing aura_10
+  rotate: true
+  xy: 568, 127
+  size: 53, 39
+  orig: 80, 64
+  offset: 11, 20
+  index: -1
+image/gx/healing aura_2
+  rotate: true
+  xy: 794, 67
+  size: 57, 43
+  orig: 80, 64
+  offset: 15, 12
+  index: -1
+image/gx/healing aura_6
+  rotate: false
+  xy: 580, 185
+  size: 48, 25
+  orig: 80, 64
+  offset: 13, 33
+  index: -1
+image/gx/healing aura_8
+  rotate: false
+  xy: 580, 298
+  size: 50, 24
+  orig: 80, 64
+  offset: 12, 34
+  index: -1
+image/gx/jieying
+  rotate: true
+  xy: 224, 259
+  size: 276, 82
+  orig: 276, 82
+  offset: 0, 0
+  index: -1
+image/gx/xqa1
+  rotate: true
+  xy: 929, 22
+  size: 102, 92
+  orig: 162, 162
+  offset: 25, 33
+  index: -1
+image/gx/xqa3
+  rotate: true
+  xy: 224, 8
+  size: 102, 98
+  orig: 162, 162
+  offset: 31, 34
+  index: -1
+image/gx/xqa4
+  rotate: true
+  xy: 109, 6
+  size: 104, 113
+  orig: 162, 162
+  offset: 30, 24
+  index: -1
+image/jineng/jineng_1
+  rotate: true
+  xy: 128, 112
+  size: 145, 205
+  orig: 500, 600
+  offset: 192, 83
+  index: -1
+image/liwu/4
+  rotate: false
+  xy: 187, 474
+  size: 33, 61
+  orig: 128, 128
+  offset: 46, 34
+  index: -1
+image/liwu/5
+  rotate: true
+  xy: 609, 132
+  size: 48, 83
+  orig: 128, 128
+  offset: 46, 23
+  index: -1
+image/liwu/6
+  rotate: false
+  xy: 580, 212
+  size: 48, 84
+  orig: 128, 128
+  offset: 46, 22
+  index: -1
+image/putong/pugong_1
+  rotate: true
+  xy: 335, 2
+  size: 178, 231
+  orig: 500, 600
+  offset: 147, 83
+  index: -1
+image/putong/pugong_10
+  rotate: false
+  xy: 795, 426
+  size: 226, 202
+  orig: 500, 600
+  offset: 114, 82
+  index: -1
+image/putong/pugong_4
+  rotate: true
+  xy: 2, 426
+  size: 153, 183
+  orig: 500, 600
+  offset: 184, 75
+  index: -1
+image/yidong/yidong_1
+  rotate: true
+  xy: 799, 630
+  size: 194, 219
+  orig: 500, 600
+  offset: 168, 81
+  index: -1
+image/yidong/yidong_4
+  rotate: true
+  xy: 802, 826
+  size: 196, 219
+  orig: 500, 600
+  offset: 160, 83
+  index: -1
+image/yidong/yidong_5
+  rotate: true
+  xy: 795, 266
+  size: 158, 226
+  orig: 500, 600
+  offset: 181, 80
+  index: -1
+
+spirte_1506033.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/beiji/beiji1_1
+  rotate: false
+  xy: 594, 15
+  size: 155, 211
+  orig: 500, 600
+  offset: 167, 85
+  index: -1
+image/beiji/beiji1_2
+  rotate: true
+  xy: 751, 2
+  size: 172, 173
+  orig: 500, 600
+  offset: 154, 134
+  index: -1
+image/bisha/bisha_10
+  rotate: false
+  xy: 2, 722
+  size: 125, 300
+  orig: 500, 600
+  offset: 192, 85
+  index: -1
+image/daiji/daiji_1
+  rotate: false
+  xy: 294, 474
+  size: 162, 246
+  orig: 500, 600
+  offset: 161, 82
+  index: -1
+image/daiji/daiji_2
+  rotate: false
+  xy: 130, 472
+  size: 162, 248
+  orig: 500, 600
+  offset: 161, 83
+  index: -1
+image/daiji/daiji_3
+  rotate: false
+  xy: 418, 227
+  size: 162, 245
+  orig: 500, 600
+  offset: 164, 82
+  index: -1
+image/gx/1 (2)
+  rotate: false
+  xy: 565, 733
+  size: 176, 43
+  orig: 193, 43
+  offset: 9, 0
+  index: -1
+image/gx/1075-1
+  rotate: false
+  xy: 129, 722
+  size: 144, 44
+  orig: 165, 44
+  offset: 21, 0
+  index: -1
+image/gx/111 (3)
+  rotate: true
+  xy: 179, 5
+  size: 180, 83
+  orig: 180, 83
+  offset: 0, 0
+  index: -1
+image/gx/437-1
+  rotate: false
+  xy: 335, 722
+  size: 43, 44
+  orig: 300, 300
+  offset: 130, 206
+  index: -1
+image/gx/437-4
+  rotate: false
+  xy: 2, 2
+  size: 175, 183
+  orig: 300, 300
+  offset: 70, 108
+  index: -1
+image/gx/attack_020007
+  rotate: true
+  xy: 594, 288
+  size: 196, 171
+  orig: 202, 192
+  offset: 6, 13
+  index: -1
+image/gx/bao3
+  rotate: false
+  xy: 582, 228
+  size: 127, 58
+  orig: 187, 108
+  offset: 26, 9
+  index: -1
+image/gx/effect_bz0002
+  rotate: true
+  xy: 2, 187
+  size: 254, 215
+  orig: 261, 246
+  offset: 7, 0
+  index: -1
+image/gx/effect_bz0003
+  rotate: true
+  xy: 129, 768
+  size: 254, 233
+  orig: 261, 246
+  offset: 5, 2
+  index: -1
+image/gx/effect_bz0004
+  rotate: false
+  xy: 364, 778
+  size: 239, 244
+  orig: 261, 246
+  offset: 7, 2
+  index: -1
+image/gx/effect_bz0005
+  rotate: true
+  xy: 219, 223
+  size: 247, 197
+  orig: 261, 246
+  offset: 0, 1
+  index: -1
+image/gx/healing aura_3
+  rotate: false
+  xy: 275, 722
+  size: 58, 44
+  orig: 80, 64
+  offset: 15, 12
+  index: -1
+image/gx/healing aura_4
+  rotate: false
+  xy: 504, 731
+  size: 59, 45
+  orig: 80, 64
+  offset: 14, 12
+  index: -1
+image/gx/healing aura_5
+  rotate: false
+  xy: 380, 730
+  size: 60, 46
+  orig: 80, 64
+  offset: 13, 11
+  index: -1
+image/gx/jishishou_skill10005
+  rotate: true
+  xy: 889, 176
+  size: 144, 133
+  orig: 147, 143
+  offset: 3, 0
+  index: -1
+image/gx/tuiji1
+  rotate: false
+  xy: 600, 688
+  size: 166, 43
+  orig: 193, 43
+  offset: 0, 0
+  index: -1
+image/gx/tuiji2
+  rotate: false
+  xy: 711, 243
+  size: 176, 43
+  orig: 193, 43
+  offset: 9, 0
+  index: -1
+image/gx/tuiji3
+  rotate: false
+  xy: 751, 198
+  size: 135, 43
+  orig: 193, 43
+  offset: 51, 0
+  index: -1
+image/gx/xqa5
+  rotate: false
+  xy: 926, 61
+  size: 90, 113
+  orig: 162, 162
+  offset: 31, 24
+  index: -1
+image/liwu/1
+  rotate: true
+  xy: 442, 730
+  size: 46, 60
+  orig: 128, 128
+  offset: 39, 34
+  index: -1
+image/putong/pugong_11
+  rotate: true
+  xy: 600, 499
+  size: 187, 165
+  orig: 500, 600
+  offset: 153, 82
+  index: -1
+image/putong/pugong_2
+  rotate: false
+  xy: 458, 486
+  size: 140, 242
+  orig: 500, 600
+  offset: 200, 82
+  index: -1
+image/putong/pugong_3
+  rotate: false
+  xy: 767, 322
+  size: 213, 190
+  orig: 500, 600
+  offset: 124, 75
+  index: -1
+image/putong/pugong_5
+  rotate: true
+  xy: 767, 514
+  size: 135, 214
+  orig: 500, 600
+  offset: 202, 82
+  index: -1
+image/putong/pugong_6
+  rotate: false
+  xy: 605, 781
+  size: 164, 241
+  orig: 500, 600
+  offset: 188, 83
+  index: -1
+image/putong/pugong_7
+  rotate: false
+  xy: 2, 443
+  size: 126, 277
+  orig: 500, 600
+  offset: 199, 83
+  index: -1
+image/putong/pugong_8
+  rotate: true
+  xy: 771, 810
+  size: 212, 232
+  orig: 500, 600
+  offset: 140, 85
+  index: -1
+image/yidong/yidong_2
+  rotate: false
+  xy: 264, 3
+  size: 158, 218
+  orig: 500, 600
+  offset: 194, 85
+  index: -1
+image/yidong/yidong_3
+  rotate: false
+  xy: 424, 10
+  size: 168, 215
+  orig: 500, 600
+  offset: 162, 83
+  index: -1
+image/yidong/yidong_6
+  rotate: true
+  xy: 771, 651
+  size: 157, 215
+  orig: 500, 600
+  offset: 183, 85
+  index: -1
+
+spirte_1506034.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/beiji/beiji1_4
+  rotate: false
+  xy: 610, 857
+  size: 204, 164
+  orig: 500, 600
+  offset: 149, 173
+  index: -1
+image/bisha/bisha_1
+  rotate: false
+  xy: 160, 11
+  size: 129, 190
+  orig: 500, 600
+  offset: 215, 132
+  index: -1
+image/bisha/bisha_3
+  rotate: false
+  xy: 2, 7
+  size: 156, 194
+  orig: 500, 600
+  offset: 190, 127
+  index: -1
+image/bisha/bisha_4
+  rotate: true
+  xy: 816, 886
+  size: 135, 203
+  orig: 500, 600
+  offset: 208, 132
+  index: -1
+image/bisha/bisha_5
+  rotate: false
+  xy: 191, 423
+  size: 151, 173
+  orig: 500, 600
+  offset: 204, 132
+  index: -1
+image/bisha/bisha_8
+  rotate: false
+  xy: 828, 646
+  size: 143, 149
+  orig: 500, 600
+  offset: 167, 88
+  index: -1
+image/gx/111 (4)
+  rotate: false
+  xy: 610, 770
+  size: 202, 85
+  orig: 202, 85
+  offset: 0, 0
+  index: -1
+image/gx/111 (5)
+  rotate: false
+  xy: 816, 797
+  size: 205, 87
+  orig: 205, 87
+  offset: 0, 0
+  index: -1
+image/gx/111 (6)
+  rotate: false
+  xy: 204, 744
+  size: 209, 85
+  orig: 209, 85
+  offset: 0, 0
+  index: -1
+image/gx/437-2
+  rotate: false
+  xy: 737, 328
+  size: 113, 124
+  orig: 300, 300
+  offset: 97, 152
+  index: -1
+image/gx/437-3
+  rotate: true
+  xy: 582, 611
+  size: 157, 164
+  orig: 300, 300
+  offset: 78, 123
+  index: -1
+image/gx/437-5
+  rotate: false
+  xy: 2, 203
+  size: 186, 195
+  orig: 300, 300
+  offset: 70, 93
+  index: -1
+image/gx/437-6
+  rotate: false
+  xy: 2, 604
+  size: 193, 206
+  orig: 300, 300
+  offset: 70, 83
+  index: -1
+image/gx/CHONGJIBO_1
+  rotate: true
+  xy: 388, 570
+  size: 103, 155
+  orig: 104, 155
+  offset: 1, 0
+  index: -1
+image/gx/CHONGJIBO_2
+  rotate: false
+  xy: 492, 413
+  size: 102, 155
+  orig: 104, 155
+  offset: 0, 0
+  index: -1
+image/gx/CHONGJIBO_3
+  rotate: false
+  xy: 744, 454
+  size: 88, 147
+  orig: 104, 155
+  offset: 3, 4
+  index: -1
+image/gx/attack_020001
+  rotate: false
+  xy: 204, 831
+  size: 200, 190
+  orig: 202, 192
+  offset: 2, 0
+  index: -1
+image/gx/attack_020003
+  rotate: true
+  xy: 2, 400
+  size: 202, 187
+  orig: 202, 192
+  offset: 0, 0
+  index: -1
+image/gx/attack_020005
+  rotate: false
+  xy: 406, 835
+  size: 202, 186
+  orig: 202, 192
+  offset: 0, 2
+  index: -1
+image/gx/bao2
+  rotate: true
+  xy: 748, 603
+  size: 165, 78
+  orig: 187, 108
+  offset: 15, 11
+  index: -1
+image/gx/jishishou_skill10001
+  rotate: true
+  xy: 291, 118
+  size: 83, 81
+  orig: 85, 81
+  offset: 1, 0
+  index: -1
+image/gx/jishishou_skill10003
+  rotate: false
+  xy: 190, 203
+  size: 125, 123
+  orig: 131, 124
+  offset: 3, 1
+  index: -1
+image/gx/jishishou_skill10007
+  rotate: false
+  xy: 596, 469
+  size: 146, 140
+  orig: 147, 145
+  offset: 1, 0
+  index: -1
+image/gx/jishishou_skill10008
+  rotate: true
+  xy: 834, 498
+  size: 146, 140
+  orig: 147, 146
+  offset: 1, 0
+  index: -1
+image/gx/jishishou_skill10010
+  rotate: false
+  xy: 344, 425
+  size: 146, 143
+  orig: 147, 144
+  offset: 1, 1
+  index: -1
+image/gx/jishishou_skill10012
+  rotate: true
+  xy: 596, 333
+  size: 134, 139
+  orig: 136, 140
+  offset: 1, 1
+  index: -1
+image/gx/tuiji4
+  rotate: true
+  xy: 973, 675
+  size: 120, 43
+  orig: 193, 43
+  offset: 73, 0
+  index: -1
+image/gx/xqa6
+  rotate: true
+  xy: 852, 272
+  size: 84, 112
+  orig: 162, 162
+  offset: 27, 24
+  index: -1
+image/jineng/jineng_2
+  rotate: true
+  xy: 197, 598
+  size: 144, 189
+  orig: 500, 600
+  offset: 196, 82
+  index: -1
+image/jineng/jineng_4
+  rotate: true
+  xy: 852, 358
+  size: 138, 135
+  orig: 500, 600
+  offset: 214, 82
+  index: -1
+image/jineng/xueren_1
+  rotate: false
+  xy: 415, 675
+  size: 165, 158
+  orig: 500, 600
+  offset: 172, 246
+  index: -1
+image/putong/pugong_12
+  rotate: false
+  xy: 2, 812
+  size: 200, 209
+  orig: 500, 600
+  offset: 162, 82
+  index: -1

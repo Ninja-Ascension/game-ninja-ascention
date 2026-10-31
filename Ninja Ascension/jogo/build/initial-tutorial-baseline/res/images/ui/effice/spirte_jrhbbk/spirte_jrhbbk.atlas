@@ -1,0 +1,20 @@
+
+spirte_jrhbbk.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/TX_A_sj_0039
+  rotate: false
+  xy: 35, 9
+  size: 26, 26
+  orig: 30, 28
+  offset: 2, 1
+  index: -1
+images/yx
+  rotate: false
+  xy: 2, 2
+  size: 31, 33
+  orig: 33, 33
+  offset: 2, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+effice_12.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinzhao_1
+  rotate: false
+  xy: 2, 197
+  size: 97, 103
+  orig: 97, 103
+  offset: 0, 0
+  index: -1
+jinzhao_10
+  rotate: true
+  xy: 301, 419
+  size: 91, 102
+  orig: 91, 102
+  offset: 0, 0
+  index: -1
+jinzhao_11
+  rotate: true
+  xy: 405, 423
+  size: 87, 102
+  orig: 87, 102
+  offset: 0, 0
+  index: -1
+jinzhao_12
+  rotate: false
+  xy: 204, 409
+  size: 95, 101
+  orig: 95, 101
+  offset: 0, 0
+  index: -1
+jinzhao_2
+  rotate: false
+  xy: 2, 407
+  size: 99, 103
+  orig: 99, 103
+  offset: 0, 0
+  index: -1
+jinzhao_3
+  rotate: false
+  xy: 2, 302
+  size: 99, 103
+  orig: 99, 103
+  offset: 0, 0
+  index: -1
+jinzhao_4
+  rotate: true
+  xy: 2, 2
+  size: 89, 93
+  orig: 89, 93
+  offset: 0, 0
+  index: -1
+jinzhao_5
+  rotate: false
+  xy: 301, 329
+  size: 99, 88
+  orig: 99, 88
+  offset: 0, 0
+  index: -1
+jinzhao_6
+  rotate: true
+  xy: 204, 308
+  size: 99, 94
+  orig: 99, 94
+  offset: 0, 0
+  index: -1
+jinzhao_7
+  rotate: false
+  xy: 103, 307
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+jinzhao_8
+  rotate: false
+  xy: 103, 408
+  size: 99, 102
+  orig: 99, 102
+  offset: 0, 0
+  index: -1
+jinzhao_9
+  rotate: false
+  xy: 2, 93
+  size: 93, 102
+  orig: 93, 102
+  offset: 0, 0
+  index: -1

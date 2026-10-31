@@ -1,0 +1,152 @@
+
+effice_97.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1588_10
+  rotate: false
+  xy: 285, 2
+  size: 339, 198
+  orig: 363, 198
+  offset: 0, 0
+  index: -1
+1588_9
+  rotate: false
+  xy: 626, 2
+  size: 337, 198
+  orig: 363, 198
+  offset: 0, 0
+  index: -1
+1748_1
+  rotate: false
+  xy: 297, 202
+  size: 286, 261
+  orig: 295, 267
+  offset: 0, 2
+  index: -1
+1748_10
+  rotate: false
+  xy: 2, 196
+  size: 281, 265
+  orig: 295, 267
+  offset: 5, 1
+  index: -1
+1748_2
+  rotate: false
+  xy: 595, 732
+  size: 294, 266
+  orig: 295, 267
+  offset: 1, 0
+  index: -1
+1748_3
+  rotate: false
+  xy: 298, 732
+  size: 295, 266
+  orig: 295, 267
+  offset: 0, 1
+  index: -1
+1748_4
+  rotate: false
+  xy: 2, 731
+  size: 294, 267
+  orig: 295, 267
+  offset: 1, 0
+  index: -1
+1748_6
+  rotate: false
+  xy: 595, 202
+  size: 287, 263
+  orig: 295, 267
+  offset: 2, 0
+  index: -1
+1748_7
+  rotate: false
+  xy: 595, 467
+  size: 293, 263
+  orig: 295, 267
+  offset: 0, 2
+  index: -1
+1748_8
+  rotate: false
+  xy: 298, 465
+  size: 295, 265
+  orig: 295, 267
+  offset: 0, 1
+  index: -1
+1748_9
+  rotate: false
+  xy: 2, 463
+  size: 293, 266
+  orig: 295, 267
+  offset: 2, 0
+  index: -1
+
+effice_972.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1588_1
+  rotate: false
+  xy: 285, 763
+  size: 334, 197
+  orig: 363, 198
+  offset: 0, 1
+  index: -1
+1588_2
+  rotate: true
+  xy: 2, 359
+  size: 339, 195
+  orig: 363, 198
+  offset: 1, 1
+  index: -1
+1588_3
+  rotate: false
+  xy: 621, 769
+  size: 339, 191
+  orig: 363, 198
+  offset: 2, 0
+  index: -1
+1588_4
+  rotate: true
+  xy: 196, 23
+  size: 334, 189
+  orig: 363, 198
+  offset: 5, 0
+  index: -1
+1588_5
+  rotate: true
+  xy: 589, 427
+  size: 334, 189
+  orig: 363, 198
+  offset: 4, 0
+  index: -1
+1588_6
+  rotate: true
+  xy: 2, 18
+  size: 339, 192
+  orig: 363, 198
+  offset: 1, 0
+  index: -1
+1588_7
+  rotate: true
+  xy: 199, 359
+  size: 339, 189
+  orig: 363, 198
+  offset: 1, 0
+  index: -1
+1588_8
+  rotate: true
+  xy: 390, 432
+  size: 329, 197
+  orig: 363, 198
+  offset: 8, 0
+  index: -1
+1748_5
+  rotate: false
+  xy: 2, 700
+  size: 281, 260
+  orig: 295, 267
+  offset: 4, 2
+  index: -1

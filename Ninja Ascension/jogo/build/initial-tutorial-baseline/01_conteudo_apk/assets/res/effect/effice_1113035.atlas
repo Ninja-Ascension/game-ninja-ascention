@@ -1,0 +1,73 @@
+
+effice_1113035.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/texie/1
+  rotate: false
+  xy: 2, 510
+  size: 900, 506
+  orig: 900, 506
+  offset: 0, 0
+  index: -1
+image/texie/2
+  rotate: false
+  xy: 2, 2
+  size: 900, 506
+  orig: 900, 506
+  offset: 0, 0
+  index: -1
+
+effice_11130352.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/texie/5
+  rotate: false
+  xy: 2, 510
+  size: 900, 506
+  orig: 900, 506
+  offset: 0, 0
+  index: -1
+image/texie/7
+  rotate: false
+  xy: 2, 2
+  size: 900, 506
+  orig: 900, 506
+  offset: 0, 0
+  index: -1
+
+effice_11130353.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/texie/8
+  rotate: false
+  xy: 2, 510
+  size: 900, 506
+  orig: 900, 506
+  offset: 0, 0
+  index: -1
+image/texie/9
+  rotate: false
+  xy: 2, 2
+  size: 900, 506
+  orig: 900, 506
+  offset: 0, 0
+  index: -1
+
+effice_11130354.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/texie/10
+  rotate: false
+  xy: 2, 396
+  size: 900, 506
+  orig: 900, 506
+  offset: 0, 0
+  index: -1

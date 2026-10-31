@@ -1,0 +1,75 @@
+
+effect_kfwxskq.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/2
+  rotate: false
+  xy: 2, 228
+  size: 713, 787
+  orig: 713, 787
+  offset: 0, 0
+  index: -1
+images/bjd1
+  rotate: true
+  xy: 937, 848
+  size: 167, 85
+  orig: 241, 258
+  offset: 55, 0
+  index: -1
+images/bjd3
+  rotate: true
+  xy: 717, 549
+  size: 236, 147
+  orig: 241, 258
+  offset: 5, 0
+  index: -1
+images/bjd5
+  rotate: false
+  xy: 245, 54
+  size: 241, 172
+  orig: 241, 258
+  offset: 0, 17
+  index: -1
+images/bjd6
+  rotate: true
+  xy: 488, 46
+  size: 180, 183
+  orig: 241, 258
+  offset: 42, 36
+  index: -1
+images/bjd7
+  rotate: false
+  xy: 2, 2
+  size: 241, 224
+  orig: 241, 258
+  offset: 0, 20
+  index: -1
+images/bjd8
+  rotate: false
+  xy: 717, 787
+  size: 218, 228
+  orig: 241, 258
+  offset: 23, 28
+  index: -1
+images/bjd9
+  rotate: true
+  xy: 717, 373
+  size: 174, 166
+  orig: 241, 258
+  offset: 45, 92
+  index: -1
+
+effect_kfwxskq2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1
+  rotate: false
+  xy: 2, 2
+  size: 846, 591
+  orig: 846, 591
+  offset: 0, 0
+  index: -1

@@ -29,6 +29,7 @@ end
 -- Deixa invisivel tudo o que a janela desenhou, preservando a estrutura: o
 -- evento precisa continuar sendo concluido pela mesma janela.
 local function esconderArte(janela)
+    if require('initial_tutorial').state=='playing' then return 0 end
     local escondidos = 0
     for _, raiz in ipairs(janela.roots or {}) do
         if raiz and raiz.setVisible then
@@ -84,6 +85,7 @@ end
 
 -- Agenda o toque automatico com seguranca (sem isVisible em no destruido).
 local function agendarAvanco(janela, marca)
+    if require('initial_tutorial').state=='playing' then return end
     if janela[marca] ~= nil then return end
     janela[marca] = true
     fwin:addService({delay = 0.35, callback = function()

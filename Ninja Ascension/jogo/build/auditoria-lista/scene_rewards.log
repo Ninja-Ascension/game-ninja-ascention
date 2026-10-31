@@ -1,0 +1,10 @@
+[HOST_SERVER][22:03:57] recusa cmd=draw_scene_rewad seq=1 motivo=estrelas_insuficientes
+[HOST_SERVER][22:03:57] cmd=draw_scene_rewad seq=1 -> status=-1 (44 chars)
+[HOST_SERVER][22:03:57] cmd=draw_scene_rewad seq=1 -> status=0 (4429 chars)
+[HOST_SERVER][22:03:57] cmd=draw_scene_rewad seq=1 -> status=0 (4428 chars)
+[HOST_SERVER][22:03:57] login_init: 2 itens no inventario da conta 1
+[HOST_SERVER][22:03:57] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][22:03:57] login_init conta=chest_test user_id=1 sessao='7sZ...(43)'
+[HOST_SERVER][22:03:57] LOGIN_LAYOUT prefix=90 items=2 separate_characters=3
+SCENE_REWARDS_PASSED star eligibility, original silver/gold/items, consume receipt once, flags and relogin
+

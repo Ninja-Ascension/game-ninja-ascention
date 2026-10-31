@@ -1,0 +1,13 @@
+[
+  "port/lua/esconder_dialogos.lua",
+  "port/lua/initial_tutorial.lua",
+  "port/lua/menu_boot_probe.lua",
+  "port/lua/shop_local.lua",
+  "port/lua/tutorial_battle_skip.lua",
+  "port/lua/tutorial_disabled.lua",
+  "port/lua/tutorial_guide_visual.lua",
+  "01_conteudo_apk/assets/src/client/mission/Mission.lua",
+  "01_conteudo_apk/assets/src/client/mission/TutorialSkip.lua",
+  "01_conteudo_apk/assets/src/client/protocol/ProtocolCommander.lua",
+  "01_conteudo_apk/assets/src/client/protocol/ProtocolCommanderCopyExxx.lua"
+]

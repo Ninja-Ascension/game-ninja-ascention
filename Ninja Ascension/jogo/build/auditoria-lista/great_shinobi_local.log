@@ -1,0 +1,43 @@
+[HOST_SERVER][22:03:53] battle_result_start tipo=0 cena=151 npc=1182 dif=1 sender=0 -> 1 batalha(s)
+[HOST_SERVER][22:03:53] cmd=battle_result_start seq=7 -> status=0 (23 chars)
+[HOST_SERVER][22:03:53] battle_result_fail conta=1 sem recompensa
+[HOST_SERVER][22:03:53] cmd=battle_result_fail seq=7 -> status=0 (52 chars)
+[HOST_SERVER][22:03:53] recusa cmd=battle_result_start seq=7 motivo=desafio_em_recarga_600s
+[HOST_SERVER][22:03:53] cmd=battle_result_start seq=7 -> status=-1 (48 chars)
+[HOST_SERVER][22:03:53] recusa cmd=battle_result_verify seq=7 motivo=batalha_nao_iniciada
+[HOST_SERVER][22:03:53] cmd=battle_result_verify seq=7 -> status=-1 (46 chars)
+[HOST_SERVER][22:03:53] battle_result_start tipo=0 cena=151 npc=1182 dif=1 sender=0 -> 1 batalha(s)
+[HOST_SERVER][22:03:53] cmd=battle_result_start seq=7 -> status=0 (23 chars)
+[HOST_SERVER][22:03:53] battle_field_init conta=greatshinobitest cena=151 npc=1182 dif=1 -> parser 182 (76 tokens)
+[HOST_SERVER][22:03:53] cmd=battle_field_init seq=7 -> status=0 (305 chars)
+[HOST_SERVER][22:03:53] PVE resultado salvo cena=151 npc=1182 estrelas=3 nivel=1 primeira_vitoria=True
+[HOST_SERVER][22:03:53] cmd=battle_result_verify seq=7 -> status=0 (28388 chars)
+[HOST_SERVER][22:03:53] PVE resultado salvo cena=151 npc=1182 estrelas=3 nivel=1 primeira_vitoria=False
+[HOST_SERVER][22:03:53] cmd=battle_result_verify seq=7 -> status=0 (28383 chars)
+[HOST_SERVER][22:03:53] recusa cmd=battle_result_start seq=7 motivo=tentativas_diarias_esgotadas
+[HOST_SERVER][22:03:53] cmd=battle_result_start seq=7 -> status=-1 (53 chars)
+[HOST_SERVER][22:03:53] battle_result_start tipo=0 cena=152 npc=1189 dif=1 sender=0 -> 1 batalha(s)
+[HOST_SERVER][22:03:53] cmd=battle_result_start seq=7 -> status=0 (23 chars)
+[HOST_SERVER][22:03:53] battle_field_init conta=greatshinobitest cena=152 npc=1189 dif=1 -> parser 182 (76 tokens)
+[HOST_SERVER][22:03:53] cmd=battle_field_init seq=7 -> status=0 (304 chars)
+[HOST_SERVER][22:03:54] PVE resultado salvo cena=152 npc=1189 estrelas=3 nivel=1 primeira_vitoria=True
+[HOST_SERVER][22:03:54] cmd=battle_result_verify seq=7 -> status=0 (28399 chars)
+[HOST_SERVER][22:03:54] battle_result_start tipo=0 cena=153 npc=1387 dif=1 sender=0 -> 2 batalha(s)
+[HOST_SERVER][22:03:54] cmd=battle_result_start seq=7 -> status=0 (23 chars)
+[HOST_SERVER][22:03:54] battle_field_init conta=greatshinobitest cena=153 npc=1387 dif=1 -> parser 182 (244 tokens)
+[HOST_SERVER][22:03:54] cmd=battle_field_init seq=7 -> status=0 (901 chars)
+[HOST_SERVER][22:03:54] PVE resultado salvo cena=153 npc=1387 estrelas=3 nivel=1 primeira_vitoria=True
+[HOST_SERVER][22:03:54] cmd=battle_result_verify seq=7 -> status=0 (28367 chars)
+[HOST_SERVER][22:03:54] battle_result_start tipo=0 cena=154 npc=1258 dif=1 sender=0 -> 2 batalha(s)
+[HOST_SERVER][22:03:54] cmd=battle_result_start seq=7 -> status=0 (23 chars)
+[HOST_SERVER][22:03:54] battle_field_init conta=greatshinobitest cena=154 npc=1258 dif=1 -> parser 182 (199 tokens)
+[HOST_SERVER][22:03:54] cmd=battle_field_init seq=7 -> status=0 (742 chars)
+[HOST_SERVER][22:03:54] PVE resultado salvo cena=154 npc=1258 estrelas=3 nivel=1 primeira_vitoria=True
+[HOST_SERVER][22:03:54] cmd=battle_result_verify seq=7 -> status=0 (28412 chars)
+[HOST_SERVER][22:03:54] login_init_again: 0 itens no inventario da conta 1
+[HOST_SERVER][22:03:54] login_init_again: enviando 3 personagem(ns) no login
+[HOST_SERVER][22:03:54] login_init conta=greatshinobitest user_id=1 sessao='Dof...(43)'
+[HOST_SERVER][22:03:54] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][22:03:54] cmd=login_init_again seq=7 -> status=0 (45205 chars)
+GREAT_SHINOBI_PASSED Ryo/EXP/Illusion/Skill start, field, victory; loss ACK/retry; saved challenge progress
+

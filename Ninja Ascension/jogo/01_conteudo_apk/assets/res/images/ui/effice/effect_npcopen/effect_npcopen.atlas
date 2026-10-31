@@ -1,0 +1,48 @@
+
+effect_npcopen.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tu/dh
+  rotate: false
+  xy: 43, 19
+  size: 52, 23
+  orig: 52, 23
+  offset: 0, 0
+  index: -1
+tu/g3
+  rotate: false
+  xy: 2, 36
+  size: 39, 76
+  orig: 39, 76
+  offset: 0, 0
+  index: -1
+tu/gd
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+tu/gg
+  rotate: false
+  xy: 93, 44
+  size: 17, 68
+  orig: 17, 68
+  offset: 0, 0
+  index: -1
+tu/gs
+  rotate: true
+  xy: 43, 44
+  size: 7, 35
+  orig: 7, 35
+  offset: 0, 0
+  index: -1
+tu/gy
+  rotate: false
+  xy: 43, 53
+  size: 48, 59
+  orig: 48, 59
+  offset: 0, 0
+  index: -1

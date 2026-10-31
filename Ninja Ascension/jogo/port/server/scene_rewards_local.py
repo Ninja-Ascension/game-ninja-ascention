@@ -37,6 +37,9 @@ def install(server):
                         if denominator<=0 or not 0<=numerator<=denominator:raise ValueError('probabilidade_invalida')
                         if str(mould) not in data.tabela('prop_mould.txt'):raise ValueError('item_invalido')
                         if secrets.randbelow(denominator)<numerator:items.append([mould,6,quantity])
+                    import initial_tutorial
+                    if scene==1 and index==0 and initial_tutorial.managed(db,account):
+                        items=initial_tutorial.chest_items()
                     with db._conn:
                         db._conn.execute('INSERT OR IGNORE INTO local_campaign VALUES (?,1,0)',(account,))
                         db._conn.execute('UPDATE local_campaign SET silver=silver+? WHERE conta_id=?',(currencies[0],account))

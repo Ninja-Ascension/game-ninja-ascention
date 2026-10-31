@@ -1,0 +1,55 @@
+
+spirte_170001.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/baidi
+  rotate: false
+  xy: 2, 53
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+image/daiji/daiji_1
+  rotate: false
+  xy: 328, 283
+  size: 161, 206
+  orig: 500, 600
+  offset: 171, 77
+  index: -1
+image/daiji/daiji_2
+  rotate: false
+  xy: 165, 278
+  size: 161, 211
+  orig: 500, 600
+  offset: 171, 77
+  index: -1
+image/daiji/daiji_3
+  rotate: false
+  xy: 2, 274
+  size: 161, 215
+  orig: 500, 600
+  offset: 171, 77
+  index: -1
+image/daiji/daiji_4
+  rotate: false
+  xy: 2, 59
+  size: 161, 213
+  orig: 500, 600
+  offset: 171, 77
+  index: -1
+image/daiji/daiji_5
+  rotate: false
+  xy: 165, 68
+  size: 161, 208
+  orig: 500, 600
+  offset: 171, 77
+  index: -1
+image/heidian
+  rotate: false
+  xy: 165, 64
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1

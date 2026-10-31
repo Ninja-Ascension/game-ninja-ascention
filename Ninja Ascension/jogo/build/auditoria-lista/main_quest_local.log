@@ -1,0 +1,15 @@
+[HOST_SERVER][22:03:50] recusa cmd=draw_achieve_reward seq=7 motivo=missao_incompleta
+[HOST_SERVER][22:03:50] cmd=draw_achieve_reward seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][22:03:50] recusa cmd=draw_achieve_reward seq=7 motivo=missao_anterior_nao_recebida
+[HOST_SERVER][22:03:50] cmd=draw_achieve_reward seq=7 -> status=-1 (53 chars)
+[HOST_SERVER][22:03:50] MISSAO_PRINCIPAL conta=1 id=1
+[HOST_SERVER][22:03:50] cmd=draw_achieve_reward seq=7 -> status=0 (2527 chars)
+[HOST_SERVER][22:03:50] cmd=draw_achieve_reward seq=7 -> status=0 (2427 chars)
+[HOST_SERVER][22:03:50] MISSAO_PRINCIPAL conta=1 id=2
+[HOST_SERVER][22:03:50] cmd=draw_achieve_reward seq=7 -> status=0 (2528 chars)
+[HOST_SERVER][22:03:50] recusa cmd=draw_achieve_reward seq=7 motivo=missao_incompleta
+[HOST_SERVER][22:03:50] cmd=draw_achieve_reward seq=7 -> status=-1 (42 chars)
+[HOST_SERVER][22:03:50] recusa cmd=draw_achieve_reward seq=7 motivo=missao_inexistente
+[HOST_SERVER][22:03:50] cmd=draw_achieve_reward seq=7 -> status=-1 (43 chars)
+MISSAO_PRINCIPAL_PASSED level gate, chain order, rewards once, taken=-1, unknown refused
+

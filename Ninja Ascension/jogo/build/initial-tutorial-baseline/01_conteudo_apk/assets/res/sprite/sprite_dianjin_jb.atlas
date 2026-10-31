@@ -1,0 +1,76 @@
+
+sprite_dianjin_jb.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baow_l
+  rotate: false
+  xy: 2, 404
+  size: 264, 255
+  orig: 300, 284
+  offset: 17, 15
+  index: -1
+guang
+  rotate: false
+  xy: 721, 767
+  size: 105, 108
+  orig: 110, 112
+  offset: 3, 2
+  index: -1
+jb1
+  rotate: false
+  xy: 66, 349
+  size: 43, 53
+  orig: 50, 66
+  offset: 4, 9
+  index: -1
+jb2
+  rotate: false
+  xy: 828, 818
+  size: 47, 57
+  orig: 56, 70
+  offset: 5, 9
+  index: -1
+jb3
+  rotate: false
+  xy: 268, 601
+  size: 60, 58
+  orig: 68, 66
+  offset: 5, 5
+  index: -1
+jb4
+  rotate: false
+  xy: 721, 710
+  size: 57, 55
+  orig: 65, 63
+  offset: 4, 4
+  index: -1
+jb5
+  rotate: false
+  xy: 2, 289
+  size: 51, 50
+  orig: 60, 61
+  offset: 5, 7
+  index: -1
+jb6
+  rotate: false
+  xy: 2, 341
+  size: 62, 61
+  orig: 73, 69
+  offset: 5, 5
+  index: -1
+jb7
+  rotate: false
+  xy: 268, 544
+  size: 40, 55
+  orig: 46, 76
+  offset: 3, 17
+  index: -1
+jm
+  rotate: false
+  xy: 2, 661
+  size: 717, 214
+  orig: 754, 215
+  offset: 18, 0
+  index: -1

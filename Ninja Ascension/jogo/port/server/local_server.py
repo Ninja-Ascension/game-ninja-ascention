@@ -900,7 +900,7 @@ def resposta_login_init(seq, texto="", nome_cmd="login_init"):
     from tutorial_campaign import campaign, scene_tokens, npc_tokens
     import hero_training_local
     hero_training_local.prepare(BANCO,sessao['conta_id'])
-    if not tutorial_enabled():
+    if not tutorial_enabled(BANCO,sessao['conta_id']):
         with BANCO._lock, BANCO._conn:
             BANCO._conn.execute('INSERT OR IGNORE INTO local_resources(conta_id,food,endurance) VALUES (?,60,150)',(sessao['conta_id'],))
     campaign_grade, campaign_silver, _ = campaign(BANCO, sessao['conta_id'])
@@ -992,7 +992,7 @@ def resposta_login_init(seq, texto="", nome_cmd="login_init"):
         __import__('profile_local').wire_name(user_name), # 18 escaped display name
         str(campaign_grade),            # 19 user_grade (persisted local campaign)
         str(wallet[1]),                  # 20 user_food
-        str(max(wallet[1],60) if tutorial_enabled() else __import__('player_level_local').capacidade_energia(campaign_grade)), # 21 max_user_food (user_experience_param)
+        str(max(wallet[1],60) if tutorial_enabled(BANCO,sessao['conta_id']) else __import__('player_level_local').capacidade_energia(campaign_grade)), # 21 max_user_food (user_experience_param)
         str(wallet[2]),                  # 22 endurance
         str(max(wallet[2],150)),         # 23 max_endurance
         str(campaign_silver),            # 24 user_silver
@@ -1000,9 +1000,9 @@ def resposta_login_init(seq, texto="", nome_cmd="login_init"):
         str(wallet[3]),                  # 26 user_honour
         str(wallet[4]),                  # 27 soul
         str(wallet[5]),                  # 28 jade
-        str(BANCO.experiencia_tutorial(sessao["conta_id"]) if tutorial_enabled() else max(1 if campaign_grade==1 else 0, __import__('player_level_local').estado(BANCO,sessao["conta_id"])[1])), # 29 user_experience; never "l1e0", which forces the intro battle (LoginLoading.lua:212)
-        Z if tutorial_enabled() else str(__import__('player_level_local').necessario(campaign_grade)), # 30 user_grade_need_experience
-        Z if tutorial_enabled() else str(__import__('profile_local').head(BANCO,sessao["conta_id"])), # 31 persisted avatar
+        str(BANCO.experiencia_tutorial(sessao["conta_id"]) if tutorial_enabled(BANCO,sessao['conta_id']) else max(1 if campaign_grade==1 else 0, __import__('player_level_local').estado(BANCO,sessao["conta_id"])[1])), # 29 user_experience; never "l1e0", which forces the intro battle (LoginLoading.lua:212)
+        Z if tutorial_enabled(BANCO,sessao['conta_id']) else str(__import__('player_level_local').necessario(campaign_grade)), # 30 user_grade_need_experience
+        Z if tutorial_enabled(BANCO,sessao['conta_id']) else str(__import__('profile_local').head(BANCO,sessao["conta_id"])), # 31 persisted avatar
         Z,                              # 32 user_image_id
         "1",                            # 33 user_gender (índice >=1)
         Z,                              # 34 user_train
@@ -1186,6 +1186,7 @@ def resposta_login_init(seq, texto="", nome_cmd="login_init"):
         tokens += quest_local.state_tokens(BANCO,sessao['conta_id'])
     import tutorial_campaign
     tokens += tutorial_campaign.login_attempt_tokens(BANCO,sessao['conta_id'])
+    tokens += __import__('initial_tutorial').login_tokens(BANCO,sessao['conta_id'])
     return " ".join(tokens)
 
 def resposta_get_resource(seq, texto=""):
@@ -1200,6 +1201,9 @@ def resposta_get_resource(seq, texto=""):
         return recusa("get_resource", seq, "perfil_invalido")
     if lines[1].strip() != "8-0,1":
         return recusa("get_resource", seq, "recurso_nao_implementado")
+    import initial_tutorial
+    if initial_tutorial.managed(BANCO,session['conta_id']) and initial_tutorial.state(BANCO,session['conta_id'])!='playing':
+        return recusa('get_resource',seq,'introducao_nao_esta_ativa')
     experience = BANCO.concluir_intro(session["conta_id"])
     # Original parser 41 reads exactly one token: user_experience.
     return " ".join([seq, "get_resource", "0", "41", str(experience)])
@@ -1357,6 +1361,15 @@ def despacha(text):
         log("[CRASH DO CLIENTE] " + corpo.replace("\n", " | ")[:600])
     fn = MINIMOS.get(cmd)
     if fn is not None:
+        if cmd in ('battle_result_start','battle_field_init','battle_result_verify','get_resource',
+                   'formation_change','new_recruitment_system','ship_grow_up','ship_awaken',
+                   'prop_compound','draw_scene_rewad'):
+            try:
+                account=BANCO.sessao_de(_sessao_da_conexao())['conta_id']
+                if __import__('initial_tutorial').state(BANCO,account)=='choice':
+                    return recusa(cmd,seq,'escolha_fazer_ou_pular_tutorial_primeiro')
+            except _contas.ErroConta:
+                pass # The original handler reports the authentication error.
         try:
             resp = fn(seq, text)
         except TypeError:

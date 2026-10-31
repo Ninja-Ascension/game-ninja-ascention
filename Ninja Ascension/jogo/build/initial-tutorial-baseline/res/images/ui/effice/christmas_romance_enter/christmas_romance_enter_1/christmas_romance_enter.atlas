@@ -1,0 +1,160 @@
+
+christmas_romance_enter.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Story
+  rotate: true
+  xy: 964, 931
+  size: 79, 33
+  orig: 81, 35
+  offset: 1, 1
+  index: -1
+images/lihui
+  rotate: false
+  xy: 911, 541
+  size: 92, 68
+  orig: 94, 70
+  offset: 1, 1
+  index: -1
+xuehua1
+  rotate: false
+  xy: 180, 12
+  size: 229, 158
+  orig: 383, 264
+  offset: 77, 53
+  index: -1
+xuehua10
+  rotate: true
+  xy: 242, 563
+  size: 240, 196
+  orig: 383, 264
+  offset: 81, 21
+  index: -1
+xuehua11
+  rotate: false
+  xy: 723, 811
+  size: 239, 199
+  orig: 383, 264
+  offset: 81, 18
+  index: -1
+xuehua12
+  rotate: false
+  xy: 242, 805
+  size: 238, 205
+  orig: 383, 264
+  offset: 81, 15
+  index: -1
+xuehua13
+  rotate: true
+  xy: 2, 171
+  size: 239, 176
+  orig: 383, 264
+  offset: 79, 38
+  index: -1
+xuehua14
+  rotate: false
+  xy: 2, 605
+  size: 238, 194
+  orig: 383, 264
+  offset: 79, 34
+  index: -1
+xuehua15
+  rotate: false
+  xy: 2, 412
+  size: 237, 191
+  orig: 383, 264
+  offset: 78, 30
+  index: -1
+xuehua16
+  rotate: false
+  xy: 440, 373
+  size: 237, 189
+  orig: 383, 264
+  offset: 77, 27
+  index: -1
+xuehua17
+  rotate: false
+  xy: 2, 801
+  size: 238, 209
+  orig: 383, 264
+  offset: 75, 24
+  index: -1
+xuehua18
+  rotate: false
+  xy: 482, 806
+  size: 239, 204
+  orig: 383, 264
+  offset: 73, 20
+  index: -1
+xuehua19
+  rotate: false
+  xy: 723, 611
+  size: 240, 198
+  orig: 383, 264
+  offset: 71, 17
+  index: -1
+xuehua2
+  rotate: false
+  xy: 419, 36
+  size: 231, 160
+  orig: 383, 264
+  offset: 75, 50
+  index: -1
+xuehua20
+  rotate: false
+  xy: 180, 172
+  size: 237, 160
+  orig: 383, 264
+  offset: 73, 46
+  index: -1
+xuehua3
+  rotate: true
+  xy: 845, 2
+  size: 230, 165
+  orig: 383, 264
+  offset: 76, 49
+  index: -1
+xuehua4
+  rotate: false
+  xy: 679, 234
+  size: 230, 175
+  orig: 383, 264
+  offset: 76, 44
+  index: -1
+xuehua5
+  rotate: false
+  xy: 440, 198
+  size: 229, 173
+  orig: 383, 264
+  offset: 77, 40
+  index: -1
+xuehua6
+  rotate: true
+  xy: 671, 4
+  size: 228, 172
+  orig: 383, 264
+  offset: 78, 36
+  index: -1
+xuehua7
+  rotate: false
+  xy: 681, 411
+  size: 228, 198
+  orig: 383, 264
+  offset: 78, 32
+  index: -1
+xuehua8
+  rotate: true
+  xy: 241, 334
+  size: 227, 197
+  orig: 383, 264
+  offset: 79, 28
+  index: -1
+xuehua9
+  rotate: true
+  xy: 482, 564
+  size: 240, 197
+  orig: 383, 264
+  offset: 80, 24
+  index: -1

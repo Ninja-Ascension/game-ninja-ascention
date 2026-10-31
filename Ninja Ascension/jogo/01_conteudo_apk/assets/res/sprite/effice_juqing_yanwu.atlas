@@ -1,0 +1,83 @@
+
+effice_juqing_yanwu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fbao_0
+  rotate: true
+  xy: 2, 6
+  size: 65, 104
+  orig: 86, 105
+  offset: 10, 0
+  index: -1
+fbao_1
+  rotate: false
+  xy: 152, 184
+  size: 84, 69
+  orig: 86, 105
+  offset: 0, 21
+  index: -1
+fbao_2
+  rotate: false
+  xy: 172, 2
+  size: 74, 76
+  orig: 86, 105
+  offset: 12, 21
+  index: -1
+fbao_3
+  rotate: false
+  xy: 147, 80
+  size: 81, 68
+  orig: 86, 105
+  offset: 5, 17
+  index: -1
+fbao_4
+  rotate: true
+  xy: 108, 6
+  size: 65, 62
+  orig: 86, 105
+  offset: 14, 24
+  index: -1
+yq1
+  rotate: true
+  xy: 238, 216
+  size: 37, 8
+  orig: 160, 56
+  offset: 63, 16
+  index: -1
+yq2
+  rotate: false
+  xy: 151, 150
+  size: 97, 32
+  orig: 160, 56
+  offset: 30, 9
+  index: -1
+yq3
+  rotate: false
+  xy: 2, 73
+  size: 137, 43
+  orig: 160, 56
+  offset: 13, 6
+  index: -1
+yq4
+  rotate: false
+  xy: 2, 118
+  size: 143, 44
+  orig: 160, 56
+  offset: 10, 6
+  index: -1
+yq5
+  rotate: false
+  xy: 2, 207
+  size: 148, 46
+  orig: 160, 56
+  offset: 6, 5
+  index: -1
+yq6
+  rotate: false
+  xy: 2, 164
+  size: 147, 41
+  orig: 160, 56
+  offset: 5, 4
+  index: -1

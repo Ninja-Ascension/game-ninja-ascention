@@ -1,0 +1,132 @@
+
+effice_1102731.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/guangxiao/bg
+  rotate: false
+  xy: 2, 662
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+image/guangxiao/fuo
+  rotate: false
+  xy: 2, 258
+  size: 377, 402
+  orig: 378, 403
+  offset: 0, 1
+  index: -1
+image/guangxiao/hc
+  rotate: false
+  xy: 2, 38
+  size: 145, 20
+  orig: 145, 20
+  offset: 0, 0
+  index: -1
+image/guangxiao/huo_1
+  rotate: false
+  xy: 2, 60
+  size: 305, 92
+  orig: 322, 93
+  offset: 17, 0
+  index: -1
+image/guangxiao/huo_2
+  rotate: true
+  xy: 381, 343
+  size: 317, 92
+  orig: 322, 93
+  offset: 0, 0
+  index: -1
+image/guangxiao/huo_3
+  rotate: true
+  xy: 475, 376
+  size: 284, 92
+  orig: 322, 93
+  offset: 28, 1
+  index: -1
+image/guangxiao/quan
+  rotate: false
+  xy: 2, 154
+  size: 326, 102
+  orig: 326, 102
+  offset: 0, 0
+  index: -1
+image/guangxiao/suipian_1
+  rotate: false
+  xy: 839, 858
+  size: 23, 29
+  orig: 50, 50
+  offset: 15, 6
+  index: -1
+image/guangxiao/suipian_2
+  rotate: true
+  xy: 475, 351
+  size: 23, 38
+  orig: 50, 50
+  offset: 10, 4
+  index: -1
+image/guangxiao/suipian_3
+  rotate: false
+  xy: 964, 993
+  size: 23, 29
+  orig: 50, 50
+  offset: 11, 12
+  index: -1
+image/guangxiao/suipian_4
+  rotate: false
+  xy: 569, 632
+  size: 26, 28
+  orig: 50, 50
+  offset: 12, 6
+  index: -1
+image/guangxiao/suipian_5
+  rotate: false
+  xy: 330, 218
+  size: 32, 38
+  orig: 50, 50
+  offset: 6, 4
+  index: -1
+image/guangxiao/suipian_6
+  rotate: false
+  xy: 381, 306
+  size: 33, 35
+  orig: 50, 50
+  offset: 6, 6
+  index: -1
+image/guangxiao/suipian_7
+  rotate: true
+  xy: 2, 2
+  size: 34, 33
+  orig: 50, 50
+  offset: 8, 10
+  index: -1
+image/guangxiao/y
+  rotate: false
+  xy: 839, 889
+  size: 123, 133
+  orig: 123, 133
+  offset: 0, 0
+  index: -1
+image/guangxiao/yun
+  rotate: false
+  xy: 644, 699
+  size: 169, 60
+  orig: 169, 60
+  offset: 0, 0
+  index: -1
+image/guangxiao/zhujian
+  rotate: false
+  xy: 644, 761
+  size: 193, 261
+  orig: 193, 261
+  offset: 0, 0
+  index: -1
+image/liangping
+  rotate: false
+  xy: 309, 150
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1

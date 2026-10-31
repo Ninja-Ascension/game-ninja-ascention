@@ -58,7 +58,7 @@ function TutorialSkip.install()
         local args = { missionMould, triggerTiming, emtOffVal, executeOverCallback, canExecute, cmpOffVal, executeRepeatEvent }
         -- Intercepta apenas a primeira missao do tutorial (tuition l1e0) para contas novas
         if missionMould == mission_mould_tuition and cmpOffVal == "l1e0" and userKey() == "l1e0"
-            and TutorialSkip.missionOver() and not decided() then
+            and TutorialSkip.missionOver() and _ED.nr_initial_tutorial=='choice' then
             TutorialSkip.pending = args
             TutorialSkip.openWhenLoaded()
             return true
@@ -87,12 +87,18 @@ function TutorialSkip.openWhenLoaded()
 end
 
 function TutorialSkip.newbie()
-    TutorialSkip.decidedFor = tostring(_ED.user_info.user_id)
-    local w = fwin:find("TutorialSkipWindowClass")
-    if w ~= nil then fwin:close(w) end
-    local args = TutorialSkip.pending
-    TutorialSkip.pending = nil
-    if args ~= nil then TutorialSkip.original(unpack(args, 1, 7)) end
+    if TutorialSkip.busy then return end
+    TutorialSkip.busy=true
+    NetworkManager:register(protocol_command.tutorial_start.code,nil,nil,nil,nil,function(response)
+        TutorialSkip.busy=false
+        if not (response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS>=0) then return end
+        TutorialSkip.decidedFor=tostring(_ED.user_info.user_id)
+        local w=fwin:find('TutorialSkipWindowClass')
+        if w~=nil then fwin:close(w) end
+        local args=TutorialSkip.pending
+        TutorialSkip.pending=nil
+        if args~=nil then TutorialSkip.original(unpack(args,1,7)) end
+    end,false,nil)
 end
 
 local function loginAgain()
@@ -171,7 +177,7 @@ function TutorialSkipWindow:onEnterTransitionFinish()
     bar:setContentSize(cc.size(math.min(W * 0.6, 620), 64))
     bar:setPosition(cc.p(W / 2, H - 52))
     root:addChild(bar, 2)
-    local title = label("Bem-vindo ao Ninja Ascension!", 32, GOLD)
+    local title = label("Bem-vindo ao NinjaAscension!", 32, GOLD)
     title:enableOutline(cc.c4b(60, 20, 0, 255), 3)
     title:setPosition(cc.p(W / 2, H - 50))
     root:addChild(title, 3)

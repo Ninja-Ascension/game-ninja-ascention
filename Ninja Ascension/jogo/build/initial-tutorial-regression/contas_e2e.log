@@ -1,0 +1,65 @@
+  [OK]   servidor sobe na porta livre e responde o handshake
+
+[1] Cadastro valido
+  [OK]   cadastro responde 326 status 0
+
+[2] Campos vazios
+  [OK]   cadastro com campos vazios e recusado
+  [OK]   mensagem de erro especifica (nome)
+
+[3] Usuario duplicado
+  [OK]   duplicado recusado com mensagem clara
+
+[4] Senhas diferentes
+  [OK]   senhas diferentes recusadas
+
+[5] Nome invalido
+  [OK]   nome curto recusado
+  [OK]   caractere incompativel com o protocolo recusado
+
+[6] Credenciais incorretas
+  [OK]   senha errada recusada
+
+[7] Usuario inexistente
+  [OK]   usuario inexistente recusado
+
+[8] Login correto + sessao individual
+  [OK]   login responde 327 status 0
+  [OK]   token tem 43 caracteres (formato do acervo)
+  [OK]   token passa em account_sys_valid_token
+  [OK]   token nao e constante
+  [OK]   cada login gera um token diferente
+
+[9] Login por token lembrado
+  [OK]   token lembrado autentica
+  [OK]   rotacao emitiu token novo
+
+[10] vali_register exige SESSAO da propria conta
+  [OK]   vali_register usa a sessao da conexao
+  [OK]   conta DIFERENTE da sessao NAO entra
+  [OK]   token revogado NAO entra
+  [OK]   conta com a propria sessao entra
+  [OK]   conta inexistente NAO entra
+
+[11] Perfis isolados entre contas
+  [OK]   contas diferentes -> user_id diferente
+  [OK]   banco guarda as contas
+
+[12] Senha nunca em texto puro
+  [OK]   todos os hashes sao PBKDF2
+  [OK]   senha nao aparece no banco
+
+[13] Logout invalida a sessao
+  [FALHA] token revogado nao autentica mais  -> 15 platform_user_login 0 327 ana J1v6g_Cj3Ja83t3ElfCqJgnMr9RXRdahVAQZzaPqYfg com.hyqggw.kkk 1793410285004
+
+[14] Persistencia entre reinicios do servidor
+  [OK]   servidor reinicia sobre o mesmo banco
+  [OK]   conta cadastrada sobrevive ao reinicio
+
+[15] Servidor desligado
+  [OK]   servidor desligado gera falha de rede no cliente
+
+============================================================
+FALHAS: 1 de 30
+  - token revogado nao autentica mais
+

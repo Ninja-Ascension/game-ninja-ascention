@@ -9,12 +9,14 @@ def requirement():
 def prepare(db,account):
     """Local port policy: fund exactly the first lesson once, from level 3."""
     from gameplay_mode import tutorial_enabled
-    if not tutorial_enabled():
+    if not tutorial_enabled(db,account):
         # Retain the existing upgrade-state schema, without granting the
         # educational starter kit or invoking any tutorial mission.
         with db._lock,db._conn:
             db._conn.execute('INSERT OR IGNORE INTO tutorial_training VALUES (?,1,0)',(account,))
         return
+    with db._lock,db._conn:
+        __import__('initial_tutorial').prepare_star(db,account)
     r=requirement()
     with db._lock:
         grade=db._conn.execute('SELECT grade FROM local_campaign WHERE conta_id=?',(account,)).fetchone()

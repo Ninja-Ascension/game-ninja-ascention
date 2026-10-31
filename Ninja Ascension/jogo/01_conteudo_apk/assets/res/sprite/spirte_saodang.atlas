@@ -1,0 +1,62 @@
+
+spirte_saodang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sd_fwg
+  rotate: false
+  xy: 37, 19
+  size: 57, 57
+  orig: 58, 57
+  offset: 1, 0
+  index: -1
+sd_hguang
+  rotate: false
+  xy: 2, 134
+  size: 172, 176
+  orig: 180, 186
+  offset: 4, 5
+  index: -1
+sd_ksg1
+  rotate: false
+  xy: 200, 352
+  size: 44, 81
+  orig: 50, 89
+  offset: 3, 3
+  index: -1
+sd_pz1
+  rotate: true
+  xy: 200, 470
+  size: 40, 288
+  orig: 46, 308
+  offset: 3, 9
+  index: -1
+sd_sd
+  rotate: true
+  xy: 2, 2
+  size: 74, 33
+  orig: 143, 56
+  offset: 31, 14
+  index: -1
+sd_wc
+  rotate: false
+  xy: 200, 435
+  size: 116, 33
+  orig: 143, 56
+  offset: 14, 14
+  index: -1
+sd_wq
+  rotate: false
+  xy: 2, 312
+  size: 196, 198
+  orig: 202, 206
+  offset: 3, 4
+  index: -1
+sd_wy
+  rotate: false
+  xy: 2, 78
+  size: 102, 54
+  orig: 121, 60
+  offset: 10, 3
+  index: -1

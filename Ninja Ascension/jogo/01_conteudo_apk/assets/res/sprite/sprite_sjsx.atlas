@@ -1,0 +1,83 @@
+
+sprite_sjsx.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gongxihuodegx6_1
+  rotate: false
+  xy: 2, 2
+  size: 69, 123
+  orig: 77, 158
+  offset: 8, 0
+  index: -1
+gongxihuodegx6_2
+  rotate: false
+  xy: 216, 274
+  size: 66, 131
+  orig: 77, 158
+  offset: 9, 4
+  index: -1
+gongxihuodegx6_3
+  rotate: false
+  xy: 144, 275
+  size: 70, 130
+  orig: 77, 158
+  offset: 5, 5
+  index: -1
+gongxihuodegx6_4
+  rotate: false
+  xy: 2, 127
+  size: 67, 137
+  orig: 77, 158
+  offset: 6, 10
+  index: -1
+gongxihuodegx6_5
+  rotate: false
+  xy: 2, 266
+  size: 70, 139
+  orig: 77, 158
+  offset: 0, 10
+  index: -1
+gongxihuodegx6_6
+  rotate: false
+  xy: 284, 278
+  size: 68, 127
+  orig: 77, 158
+  offset: 1, 17
+  index: -1
+gongxihuodegx6_7
+  rotate: false
+  xy: 74, 272
+  size: 68, 133
+  orig: 77, 158
+  offset: 2, 22
+  index: -1
+gongxihuodegx6_8
+  rotate: true
+  xy: 345, 442
+  size: 66, 134
+  orig: 77, 158
+  offset: 3, 24
+  index: -1
+jinjiechenggong
+  rotate: false
+  xy: 2, 459
+  size: 341, 49
+  orig: 343, 139
+  offset: 1, 48
+  index: -1
+lq_tx5
+  rotate: false
+  xy: 332, 425
+  size: 146, 15
+  orig: 160, 17
+  offset: 7, 1
+  index: -1
+shengxingchenggong
+  rotate: false
+  xy: 2, 407
+  size: 328, 50
+  orig: 328, 139
+  offset: 0, 47
+  index: -1

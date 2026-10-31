@@ -1,0 +1,160 @@
+
+effect_kdtszjm.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/baidi
+  rotate: false
+  xy: 937, 817
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+image/heidian
+  rotate: false
+  xy: 917, 737
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+image/pubu_luoxia2[1]_000
+  rotate: false
+  xy: 816, 741
+  size: 119, 80
+  orig: 128, 128
+  offset: 9, 20
+  index: -1
+image/pubu_luoxia2[1]_003
+  rotate: false
+  xy: 816, 664
+  size: 99, 75
+  orig: 128, 128
+  offset: 17, 27
+  index: -1
+image/pubu_luoxia2[1]_006
+  rotate: false
+  xy: 644, 161
+  size: 105, 60
+  orig: 128, 128
+  offset: 16, 31
+  index: -1
+image/pubu_luoxia2[1]_009
+  rotate: false
+  xy: 171, 81
+  size: 124, 69
+  orig: 128, 128
+  offset: 3, 23
+  index: -1
+image/pubu_luoxia2[1]_012
+  rotate: false
+  xy: 644, 299
+  size: 125, 81
+  orig: 128, 128
+  offset: 0, 14
+  index: -1
+image/pubu_luoxia2[1]_015
+  rotate: false
+  xy: 644, 223
+  size: 115, 74
+  orig: 128, 128
+  offset: 11, 20
+  index: -1
+image/sdx1
+  rotate: true
+  xy: 771, 298
+  size: 82, 59
+  orig: 118, 68
+  offset: 9, 1
+  index: -1
+image/sdx2
+  rotate: false
+  xy: 297, 82
+  size: 106, 68
+  orig: 118, 68
+  offset: 12, 0
+  index: -1
+image/sdx3
+  rotate: true
+  xy: 761, 214
+  size: 82, 61
+  orig: 118, 68
+  offset: 8, 6
+  index: -1
+image/sdx4
+  rotate: true
+  xy: 854, 544
+  size: 118, 42
+  orig: 118, 68
+  offset: 0, 13
+  index: -1
+image/shitou1
+  rotate: false
+  xy: 973, 862
+  size: 49, 16
+  orig: 49, 16
+  offset: 0, 0
+  index: -1
+image/sw1
+  rotate: false
+  xy: 2, 27
+  size: 139, 37
+  orig: 175, 90
+  offset: 18, 21
+  index: -1
+image/sw2
+  rotate: false
+  xy: 405, 115
+  size: 134, 35
+  orig: 175, 90
+  offset: 21, 22
+  index: -1
+image/sw3
+  rotate: true
+  xy: 816, 525
+  size: 137, 36
+  orig: 175, 90
+  offset: 20, 22
+  index: -1
+image/sw4
+  rotate: true
+  xy: 973, 880
+  size: 142, 38
+  orig: 175, 90
+  offset: 16, 20
+  index: -1
+image/weishouyiji
+  rotate: false
+  xy: 2, 382
+  size: 812, 640
+  orig: 812, 640
+  offset: 0, 0
+  index: -1
+image/weishouyiji2
+  rotate: false
+  xy: 816, 823
+  size: 155, 199
+  orig: 155, 199
+  offset: 0, 0
+  index: -1
+image/weishouyiji3
+  rotate: true
+  xy: 2, 66
+  size: 84, 167
+  orig: 84, 167
+  offset: 0, 0
+  index: -1
+image/weishouyiji4
+  rotate: true
+  xy: 2, 152
+  size: 228, 640
+  orig: 228, 640
+  offset: 0, 0
+  index: -1
+image/wu
+  rotate: true
+  xy: 297, 2
+  size: 78, 79
+  orig: 85, 82
+  offset: 4, 0
+  index: -1

@@ -1,0 +1,3612 @@
+--- APK/Mission.lua
++++ atual/Mission.lua
+@@ -1,12 +1,12 @@
+-
+-
+-
+-
+-
+-
+-
++-- ----------------------------------------------------------------------------------------------------
++-- 说明：游戏中的事件演绎
++-- 创建时间2014-03-30 21:51
++-- 作者：周义文
++-- 修改记录：
++-- 最后修改人：
++-------------------------------------------------------------------------------------------------------
+ function isRunning()
+-
++	
+ end
+ 
+ local isInBattler = false
+@@ -28,26 +28,38 @@
+ MissionClass._widgetName = nil
+ MissionClass._isFirstGame = false
+ MissionClass._fristFightEnd = false
+-
+-mission_mould_plot			 		 = "0剧情事件"
+-mission_mould_battle		 		 = "1战斗事件"
+-mission_mould_tuition		 		 = "2教学事件"
+-
+-
+-
+-touch_off_mission_into_home			 = "0进入主页"
+-touch_off_mission_into_scene		 = "1进入场景"
+-touch_off_mission_touch_npc			 = "2点击NPC"
+-touch_off_mission_start_battle		 = "3战斗开始"
+-touch_off_mission_battle_over		 = "4战斗结束"
+-touch_off_mission_ls_scene			 = "5战斗升级回到场景"
+-touch_off_mission_touch_ui			 = "6点击UI"
+-touch_off_mission_comkill			 = "7连击进度条开始"
++--[[
++0剧情事件
++1战斗事件
++2教学事件
++
++--]]
++mission_mould_plot			 		 = "0剧情事件"			-- 0
++mission_mould_battle		 		 = "1战斗事件"			-- 1
++mission_mould_tuition		 		 = "2教学事件"			--2
++
++
++--[[
++0进入主页
++1进入场景
++2点击NPC
++3战斗开始
++4战斗结束
++5战斗升级回到场景
++--]]
++touch_off_mission_into_home			 = "0进入主页"				-- 0	-- 进入主页
++touch_off_mission_into_scene		 = "1进入场景"				-- 1	-- 进入场景
++touch_off_mission_touch_npc			 = "2点击NPC"				-- 2	-- 点击NPC
++touch_off_mission_start_battle		 = "3战斗开始"				-- 3	-- 战斗开始
++touch_off_mission_battle_over		 = "4战斗结束"				-- 4	-- 战斗结束
++touch_off_mission_ls_scene			 = "5战斗升级回到场景"			-- 5	-- 战斗升级回到场景
++touch_off_mission_touch_ui			 = "6点击UI"					-- 6	-- 6点击UI
++touch_off_mission_comkill			 = "7连击进度条开始"			-- 7	-- 7连击进度条开始
+ touch_off_mission_back			 	 = "8点击返回"
+-local trigger_timing				 = ""
+-local mission_mould					 = ""
+-
+-mission_id					 = 1
++local trigger_timing				 = ""	-- 0
++local mission_mould					 = ""	-- 0
++
++mission_id					 = 1	
+ mission_event_id			 = 2
+ mission_trigger_timing		 = 3
+ mission_off					 = 4
+@@ -80,58 +92,72 @@
+ mission_param17				 = 31
+ mission_param18				 = 32
+ 
+-
+-execute_type_change_scene										= "0切换场景"
+-execute_type_changeBackground									= "1切换背景"
+-execute_type_bgMusic											= "2切换背景音效"
+-execute_type_touchUI											= "3点击UI"
+-execute_type_openWindow											= "4打开界面"
+-execute_type_drawEffect											= "5在当前场景背景上面绘制光效"
+-execute_type_requestFight										= "6请求战斗"
+-execute_type_dialog												= "7对话"
+-execute_type_hsRole												= "8角色出现或消失"
+-execute_type_blankScreen										= "9黑屏事件"
+-execute_type_playMusic											= "10播放音效"
+-execute_type_startTuition										= "11启动教学事件"
+-execute_type_open_func											= "12开启功能提示"
+-execute_type_move_team											= "13角色移动"
+-execute_type_request_battle										= "14准备战斗"
+-execute_type_start_battle										= "15开始战斗"
+-execute_type_resume_battle										= "16返回战斗"
+-execute_type_over_battle										= "17战斗结束"
+-execute_type_get_resource										= "18发送资源"
+-execute_type_openzhuce											= "19创建角色"
+-execute_type_start_play											= "20剧情战斗初始化事件"
+-execute_type_getdata_play										= "21剧情战斗数据初始化"
+-execute_type_play_CG											= "22CG场景"
+-execute_type_treasure_drop										= "23宝物掉落"
+-execute_type_wait_cd											= "24等待CD"
+-execute_type_role_restart										= "25角色开始入场"
+-execute_type_role_restart_over									= "26角色入场结束"
+-execute_type_prologue											= "27开场动画"
+-execute_type_script			 									= "28执行脚本"
+-execute_type_stop_fight											= "29暂停战斗绘制"
+-execute_type_camp_choose										= "30阵营选择"
+-execute_type_start_plot_battle									= "31发起剧情战斗"
+-execute_type_play_plot_dialog									= "32发起剧情对话"
+-execute_type_battle_pause										= "33战斗暂停"
+-execute_type_battle_resume										= "34战斗继续"
+-execute_type_add_role_power										= "35增加角色怒气"
+-execute_type_battle_result										= "36战斗结算"
+-execute_type_role_death											= "37角色死亡"
+-execute_type_role_change										= "38更换英雄形象"
+-execute_type_role_remove										= "39角色移除"
+-execute_type_role_add											= "40角色添加"
+-execute_type_scale_window										= "41缩放窗口"
+-execute_type_wait_battle_change_scene							= "42暂停战斗切场"
+-execute_type_battle_change_scene								= "43开始战斗切场"
+-execute_type_battle_role_skill_attack							= "44角色释放技能"
+-execute_type_battle_role_super_skill							= "45角色释放绝技"
+-execute_type_change_formation									= "46角色上阵"
+-execute_type_stop_fight_change_scene_action						= "47禁用战斗切场动画"
+-execute_type_change_battle_role									= "48变更战斗角色"
+-execute_type_change_battle_role_attack_state					= "49角色行动状态"
+-execute_type_change_battle_role_process_attack_state			= "50变改角色出手状态"
++--[[
++0切换场景
++1切换背景
++2切换背景音效
++3点击UI
++4打开界面
++5在当前场景背景上面绘制光效
++6请求战斗
++7对话
++8角色出现或消失
++9黑屏事件
++10播放音效
++11启动教学事件
++
++--]]
++execute_type_change_scene										= "0切换场景"							-- 0
++execute_type_changeBackground									= "1切换背景"							-- 1
++execute_type_bgMusic											= "2切换背景音效"						-- 2
++execute_type_touchUI											= "3点击UI"							-- 3
++execute_type_openWindow											= "4打开界面"							-- 4
++execute_type_drawEffect											= "5在当前场景背景上面绘制光效"			-- 5
++execute_type_requestFight										= "6请求战斗"							-- 6
++execute_type_dialog												= "7对话"							-- 7
++execute_type_hsRole												= "8角色出现或消失"					-- 8
++execute_type_blankScreen										= "9黑屏事件"							-- 9
++execute_type_playMusic											= "10播放音效"						-- 10
++execute_type_startTuition										= "11启动教学事件"						-- 11
++execute_type_open_func											= "12开启功能提示"						-- 12
++execute_type_move_team											= "13角色移动"						-- 13
++execute_type_request_battle										= "14准备战斗"						-- 14
++execute_type_start_battle										= "15开始战斗"						-- 15
++execute_type_resume_battle										= "16返回战斗"						-- 16
++execute_type_over_battle										= "17战斗结束"						-- 17
++execute_type_get_resource										= "18发送资源"						-- 18
++execute_type_openzhuce											= "19创建角色"						-- 19
++execute_type_start_play											= "20剧情战斗初始化事件"				-- 20
++execute_type_getdata_play										= "21剧情战斗数据初始化"				-- 21
++execute_type_play_CG											= "22CG场景"							-- 22
++execute_type_treasure_drop										= "23宝物掉落"						-- 23
++execute_type_wait_cd											= "24等待CD"							-- 24
++execute_type_role_restart										= "25角色开始入场"						-- 25
++execute_type_role_restart_over									= "26角色入场结束"						-- 26
++execute_type_prologue											= "27开场动画"						-- 27
++execute_type_script			 									= "28执行脚本"						-- 28
++execute_type_stop_fight											= "29暂停战斗绘制"						-- 29
++execute_type_camp_choose										= "30阵营选择"						-- 30
++execute_type_start_plot_battle									= "31发起剧情战斗"						-- 31
++execute_type_play_plot_dialog									= "32发起剧情对话"						-- 32
++execute_type_battle_pause										= "33战斗暂停"						-- 33
++execute_type_battle_resume										= "34战斗继续"						-- 34
++execute_type_add_role_power										= "35增加角色怒气"						-- 35
++execute_type_battle_result										= "36战斗结算"						-- 36
++execute_type_role_death											= "37角色死亡"						-- 37
++execute_type_role_change										= "38更换英雄形象"						-- 38
++execute_type_role_remove										= "39角色移除"						-- 39
++execute_type_role_add											= "40角色添加"						-- 40
++execute_type_scale_window										= "41缩放窗口"						-- 41
++execute_type_wait_battle_change_scene							= "42暂停战斗切场"						-- 42
++execute_type_battle_change_scene								= "43开始战斗切场"						-- 43
++execute_type_battle_role_skill_attack							= "44角色释放技能"						-- 44
++execute_type_battle_role_super_skill							= "45角色释放绝技"						-- 45
++execute_type_change_formation									= "46角色上阵"						-- 46
++execute_type_stop_fight_change_scene_action						= "47禁用战斗切场动画"					-- 47
++execute_type_change_battle_role									= "48变更战斗角色"						-- 48
++execute_type_change_battle_role_attack_state					= "49角色行动状态"						-- 49
++execute_type_change_battle_role_process_attack_state			= "50变改角色出手状态"					-- 50
+ 
+ local currentEventBattleRoundCound = 0
+ 
+@@ -141,33 +167,33 @@
+ 	state_machine.excute("window_lock_swallow_touches", 0, false)
+ 	state_machine.excute("events_teaching_skip_close", 0, false)
+ 
+-	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+-        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
++	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
++        or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
+         then
+ 		state_machine.excute("window_lock_window_close", 0, 0)
+ 	end
+ 
+-
++	--> print("~~~~ ++ clearMissionUIData ++ ~~~~")
+ 	if MissionClass._pClip ~= nil then
+ 		MissionClass._pClip:removeFromParent(true)
+ 		MissionClass._pClip = nil
+ 	end
+-
++	
+ 	if MissionClass._pTuitionDlg ~= nil then
+ 		MissionClass._pTuitionDlg:removeFromParent(true)
+ 		MissionClass._pTuitionDlg = nil
+ 	end
+-
++	
+ 	if MissionClass._pDialog ~= nil then
+ 		MissionClass._pDialog:removeFromParent(true)
+ 		MissionClass._pDialog = nil
+ 	end
+-
++	
+ 	if MissionClass._pBlankScreen ~= nil then
+ 		MissionClass._pBlankScreen:removeFromParent(true)
+ 		MissionClass._pBlankScreen = nil
+ 	end
+-
++	
+ 	if MissionClass._uiLayer ~= nil then
+ 		MissionClass._uiLayer:removeFromParent(true)
+ 		MissionClass._uiLayer = nil
+@@ -178,8 +204,8 @@
+ 	if __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim then
+ 		if nil ~= mission_tip_string and nil ~= _ED.user_info and nil ~= _ED.user_info.user_grade and "" ~= _ED.user_info.user_grade then
+ 		    local msp = zstring.split(mission_tip_string[4], ",")
+-		    if tonumber(msp[1]) <= tonumber(_ED.user_info.user_grade)
+-		        and tonumber(msp[2]) <= tonumber(_ED.user_info.user_experience)
++		    if tonumber(msp[1]) <= tonumber(_ED.user_info.user_grade) 
++		        and tonumber(msp[2]) <= tonumber(_ED.user_info.user_experience) 
+ 		        then
+ 		        _ED._mission_3 = _ED._mission_3 or "0"
+ 		        if tonumber(msp[4]) > tonumber(_ED._mission_3) then
+@@ -190,46 +216,46 @@
+ 	end
+ end
+ 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
++-- function MissionClass.drawPlotDialog()
++
++-- end
++
++
++-- function MissionClass:init()
++	-- MissionClass._uiLayer = TouchGroup:create()
++	-- self:addChild(MissionClass._uiLayer)
++-- end	
++
++-- function MissionClass.initData()
++	
++-- end
++
++-- function MissionClass.create()
++	-- local layer = MissionClass.super.extend(MissionClass, CCLayer:create())
++    -- layer:init()
++    -- return layer
++-- end
++
++-- function MissionClass.Draw()
++	-- MissionClass._layer = MissionClass.create()
++	-- draw.addScene(MissionClass._layer, 11000)
++-- end
++
++-- function MissionClass.backCallback()
++	
++-- end
++
++-- function MissionClass.closeCallback()
++
++-- end
+ 
+ function MissionClass:ctor()
+     self.super:ctor()
+ end
+ 
+ local executeEvent = nil
+-local missions = nil
+-local mission = nil
++local missions = nil 
++local mission = nil 
+ local saveKey = nil
+ local missionId = 0
+ local eventIndex = 0
+@@ -254,28 +280,28 @@
+ 
+ local mission_network_next_over_terminal = {
+     _name = "mission_network_next_over",
+-    _init = function (terminal)
+-
++    _init = function (terminal) 
++        
+     end,
+     _inited = false,
+     _instance = self,
+     _state = 0,
+-    _invoke = function(terminal, instance, params)
++    _invoke = function(terminal, instance, params) 
+     	local TuitionControllerWindow = fwin:find("TuitionControllerClass")
+     	if nil ~= TuitionControllerWindow then
+     		state_machine.excute("tuition_controller_network_node", 0, params)
+ 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
++   --  		if missionIsOver() == false then
++			-- 	if params == "error" then
++			-- 		fwin:addService({
++		 --                callback = function ( params )
++			-- 				state_machine.excute("reconnect_view_window_close", 0, 0)
++			-- 				state_machine.excute("logout_tip_window_open", 0, 0)
++		 --                end,
++		 --                params = nil
++		 --            })
++			-- 	end
++			-- end
+     	else
+ 			if mission ~= nil and #mission > 0 then
+ 				local missionEndParam = dms.atos(mission, mission_end_param)
+@@ -292,8 +318,8 @@
+ 
+ local mission_network_send_mission_skip_info_terminal = {
+     _name = "mission_network_send_mission_skip_info",
+-    _init = function (terminal)
+-
++    _init = function (terminal) 
++        
+     end,
+     _inited = false,
+     _instance = self,
+@@ -330,7 +356,7 @@
+ local mission_stop_current_background_music_terminal = {
+     _name = "mission_stop_current_background_music",
+     _init = function (terminal)
+-
++        
+     end,
+     _inited = false,
+     _instance = self,
+@@ -346,12 +372,12 @@
+ local mission_play_background_music_terminal = {
+     _name = "mission_play_background_music",
+     _init = function (terminal)
+-
++        
+     end,
+     _inited = false,
+     _instance = self,
+     _state = 0,
+-    _invoke = function(terminal, instance, params)
++    _invoke = function(terminal, instance, params) 
+     	playBgm(formatMusicFile("background", params))
+         return true
+     end,
+@@ -367,44 +393,44 @@
+ 
+ function MissionClass:drawTuition(layer, areanXYWH)
+ 	local s = cc.Director:getInstance():getWinSize()
+-
+-	local osffx = (s.width - 640 /CC_CONTENT_SCALE_FACTOR()) / 2
+-	local osffy = (s.height - 960 /CC_CONTENT_SCALE_FACTOR()) / 2
+-
++	
++	local osffx = (s.width - 640 /CC_CONTENT_SCALE_FACTOR()) / 2 
++	local osffy = (s.height - 960 /CC_CONTENT_SCALE_FACTOR()) / 2 
++	
+ 	local size = layer:getContentSize()
+ 	local offsetx = (areanXYWH == nil and 0 or zstring.tonumber(areanXYWH[1]))/CC_CONTENT_SCALE_FACTOR()
+ 	local offsety = (areanXYWH == nil and 0 or zstring.tonumber(areanXYWH[2]))/CC_CONTENT_SCALE_FACTOR()
+ 	local offwidth = (areanXYWH == nil and 0 or zstring.tonumber(areanXYWH[3]))/CC_CONTENT_SCALE_FACTOR()
+ 	local offheight = (areanXYWH == nil and 0 or zstring.tonumber(areanXYWH[4]))/CC_CONTENT_SCALE_FACTOR()
+-
+-	local e_position = fwin:convertToWorldSpaceAR(layer, ccp(0, 0))
++	
++	local e_position = fwin:convertToWorldSpaceAR(layer, ccp(0, 0)) -- layer:convertToWorldSpaceAR(ccp(0, 0))
+ 	local a_position = layer:getAnchorPoint()
+ 	e_position.x = e_position.x + offsetx - a_position.x * size.width - osffx
+ 	e_position.y = e_position.y + offsety - a_position.y * size.height - osffy
+-
++	
+ 	size.width = size.width + offwidth
+ 	size.height = size.height + offheight
+-
++	
+ 	local pClip = cc.Node:create()
+ 	pClip:setContentSize(CCSizeMake(size.width, size.height))
+ 	pClip:setPosition(e_position)
+-
++	
+ 	createEffect("effect_8", "images/ui/effice/effect_8.ExportJson", pClip, -1, 1)
+-
++	
+ 	draw.graphics(pClip, 11000)
+-
++	
+ 	if MissionClass._pClip ~= nil then
+ 		MissionClass._pClip:removeFromParent(true)
+ 		MissionClass._pClip = nil
+ 	end
+ 	MissionClass._pClip = pClip
+-
+-
+-end
+-
+-function MissionClass:drawTuitionDlg(dialogXY, message, dlgWH, textWH, textXY)
+-	local pTuitionDlg = MissionClass._pTuitionDlg
+-
++	
++	-- cc.Director:getInstance():touchListener(true)
++end
++
++function MissionClass:drawTuitionDlg(dialogXY, message, dlgWH, textWH, textXY)	
++	local pTuitionDlg = MissionClass._pTuitionDlg 
++	
+ 	if pTuitionDlg == nil then
+ 		pTuitionDlg = draw.getWidget("interface/teaching.json")
+ 		MissionClass._pTuitionDlg = pTuitionDlg
+@@ -416,14 +442,14 @@
+ 			MissionClass._uiLayer:addWidget(MissionClass._pTuitionDlg )
+ 		end
+ 	end
+-
++	
+ 	local dlgW = (dlgWH == nil and 0 or zstring.tonumber(dlgWH[1]))/CC_CONTENT_SCALE_FACTOR()
+ 	local dlgH = (dlgWH == nil and 0 or zstring.tonumber(dlgWH[2]))/CC_CONTENT_SCALE_FACTOR()
+ 	local dlgX = (dialogXY == nil and 0 or zstring.tonumber(dialogXY[1]))/CC_CONTENT_SCALE_FACTOR()
+ 	local dlgY = (dialogXY == nil and 0 or zstring.tonumber(dialogXY[2]))/CC_CONTENT_SCALE_FACTOR()
+ 	pTuitionDlg:setPosition(ccp(dlgX, dlgY))
+-
+-
++	--pTuitionDlg:getWidgetByName("ImageView_7993"):setSize(CCSizeMake(dlgW, dlgH))
++	
+ 	local msg = pTuitionDlg:getWidgetByName("Label_7994_1")
+ 	local textW = (textWH == nil and 0 or zstring.tonumber(textWH[1]))/CC_CONTENT_SCALE_FACTOR()
+ 	local textH = (textWH == nil and 0 or zstring.tonumber(textWH[2]))/CC_CONTENT_SCALE_FACTOR()
+@@ -436,15 +462,15 @@
+ 	end
+ 	pTuitionDlg:getWidgetByName("ImageView_7993"):setSize(CCSizeMake(textW + 50, textH + 50))
+ 	local s = cc.Director:getInstance():getWinSize()
+-	local osffy = 0
+-
++	local osffy = 0 --(s.height - 960 /CC_CONTENT_SCALE_FACTOR()) / 2
++	
+ 	msg:setAnchorPoint(ccp(0.0, 1.0))
+ 	msg:setPosition(ccp(textX+lxx, textY+lyy + osffy + 15))
+ 	msg = tolua.cast(msg, "Label")
+ 	msg:setTextAreaSize(CCSizeMake(textW,textH + 10))
+-
++	--msg:setText(message)
+ 	draw.text(msg,message)
+-
++	
+ end
+ 
+ local function SenderRecodeExt(instantSend)
+@@ -464,10 +490,10 @@
+ 	    if missionProgress ~= nil and missionProgress ~="" and tonumber(missionProgress) > -1 then
+             protocol_command.education_change.param_list = missionProgress
+             if instantSend == nil or instantSend == true then
+-
++                --Sender(protocol_command.education_change.code, nil, nil, nil, nil, nil,-1)
+ 				if nil ~= _ED.user_info.user_id and "" ~= _ED.user_info.user_id then
+ 					NetworkManager:register(protocol_command.education_change.code, nil, nil, nil, nil, nil, false, nil)
+-
++					-- NetworkManager:register(protocol_command.education_change.code, nil, NetworkAdaptor.mode.LUASOCKET, nil, nil, nil, false, nil)
+ 				end
+             end
+ 	    end
+@@ -479,15 +505,15 @@
+         SenderRecodeExt()
+         return
+     end
+-
++	
+ 	if _ED.user_info.new_user_teach_record[saveKey] == nil then
+ 		_ED.user_info.new_user_teach_record[saveKey] = {"", ""}
+ 	end
+-
++	
+ 	if _ED.user_info.new_user_teach_record[saveKeyBase] == nil then
+ 		_ED.user_info.new_user_teach_record[saveKeyBase] = {"", ""}
+ 	end
+-
++	
+ 	if (saveEData ~= nil and _ED.user_info.new_user_teach_record[saveKey][2] ~= saveEData and rwb == true)
+ 		or (saveBaseEData ~= nil and _ED.user_info.new_user_teach_record[saveKeyBase][2] ~= saveBaseEData) then
+ 		if saveEData ~= nil then
+@@ -496,15 +522,15 @@
+ 		if saveBaseEData ~= nil then
+ 			_ED.user_info.new_user_teach_record[saveKeyBase] = {saveKeyBase, saveBaseEData}
+ 		end
+-
++		
+ 		local sendString = ""
+-		for i, v in pairs(_ED.user_info.new_user_teach_record) do
++		for i, v in pairs(_ED.user_info.new_user_teach_record) do 
+ 			if #sendString > 0 then
+ 				sendString = sendString .. "|"
+ 			end
+ 			sendString= sendString..v[1].."&"..v[2]
+ 		end
+-
++		
+ 		if mission ~= nil then
+ 			local missionProgress = dms.atos(mission, mission_progress)
+ 			if missionProgress ~= nil then
+@@ -512,7 +538,7 @@
+ 			end
+ 		end
+ 		protocol_command.education_change.param_list = sendString
+-
++		--Sender(protocol_command.education_change.code, nil, nil, nil, nil, nil,-1)
+ 	end
+ end
+ 
+@@ -538,11 +564,11 @@
+ 	if _ED.user_info.new_user_teach_record[saveKey] == nil then
+ 		_ED.user_info.new_user_teach_record[saveKey] = {"", ""}
+ 	end
+-
++	
+ 	if _ED.user_info.new_user_teach_record[saveKeyBase] == nil then
+ 		_ED.user_info.new_user_teach_record[saveKeyBase] = {"", ""}
+ 	end
+-
++	
+ 	if (saveEData ~= nil and _ED.user_info.new_user_teach_record[saveKey][2] ~= saveEData and rwb == true)
+ 		or (saveBaseEData ~= nil and _ED.user_info.new_user_teach_record[saveKeyBase][2] ~= saveBaseEData) then
+ 		if saveEData ~= nil then
+@@ -551,10 +577,10 @@
+ 		if saveBaseEData ~= nil then
+ 			_ED.user_info.new_user_teach_record[saveKeyBase] = {saveKeyBase, saveBaseEData}
+ 		end
+-
++		
+ 		local sendString = ""
+ 		local sendIndexs = 0
+-		for i, v in pairs(_ED.user_info.new_user_teach_record) do
++		for i, v in pairs(_ED.user_info.new_user_teach_record) do 
+ 			if v[1]~=nil and v[1]~="" and v[2]~=nil and v[2]~="" then
+ 				sendIndexs = sendIndexs + 1
+ 				if sendIndexs >= 5 then
+@@ -577,8 +603,8 @@
+ end
+ 
+ local function checkOverMission(emtAccount, emtServerNumber, emtName)
+-	local saveData = ""
+-	local saveElement = zstring.split(saveData, ",")
++	local saveData = ""--CCUserDefault:sharedUserDefault():getStringForKey(saveKeyBase)
++	local saveElement = zstring.split(saveData, ",") -- missionMould, eid, eIndex
+ 	local missionMould = saveElement[1]==nil and "" or saveElement[1]
+ 	local eId = zstring.tonumber(saveElement[2])
+ 	local eIndex = zstring.tonumber(saveElement[3])
+@@ -591,17 +617,17 @@
+ 		else
+ 			saveKey = emtAccount..emtServerNumber.."sn".."m"..mission_mould.."end"
+ 		end
+-
++		--saveKey = emtAccount..emtServerNumber..emtName.."m"..mission_mould.."end"
+ 		missionId = eId
+ 		eventIndex = eIndex
+ 		if mission_mould == mission_mould_tuition then
+-
++			-- missions = tolua.cast(mission3Data:searchs(mission_id, missionId), "CCArray")
+ 			missions = dms.searchs(dms["mission3"], mission_id, missionId)
+ 		elseif mission_mould == mission_mould_battle then
+-
++			-- missions = tolua.cast(mission2Data:searchs(mission_id, missionId), "CCArray")
+ 			missions = dms.searchs(dms["mission2"], mission_id, missionId)
+ 		else
+-
++			-- missions = tolua.cast(mission1Data:searchs(mission_id, missionId), "CCArray")
+ 			missions = dms.searchs(dms["mission1"], mission_id, missionId)
+ 		end
+ 		if missions ~= nil then
+@@ -614,21 +640,21 @@
+ 			triggerTiming = dms.atos(mission, mission_trigger_timing)
+ 		end
+ 		oldMissionId = 0
+-
+-
++		-- --CCUserDefault:sharedUserDefault():setStringForKey(saveKeyBase, ""..missionId..","..eventIndex..","..eventRepeat..","..complated..","..offval)
++		-- CCUserDefault:sharedUserDefault():flush()
+ 	end
+ end
+ 
+ local function checkMission(emtAccount, emtServerNumber, emtName, emtOffVal, triggerTiming)
+ 	saveKey = emtAccount..emtServerNumber..emtName.."m"..mission_mould.."end"
+-
+-	local saveData = ""
+-	local saveElement = zstring.split(saveData, ",")
++	
++	local saveData = ""--CCUserDefault:sharedUserDefault():getStringForKey(saveKey)
++	local saveElement = zstring.split(saveData, ",") -- ID, SKIP , repeat, COMP, OFFVAL
+ 	missionId = zstring.tonumber(saveElement[1])
+ 	local oldMissionId = zstring.tonumber(saveElement[1])
+ 	complated = "0"
+ 	offval = emtOffVal
+-
++    -- 1.0.4
+     oldMissionId = 0
+ 	if saveElement[4] == "0" and saveElement[3] == "1是" then
+ 		if offval == saveElement[5] then
+@@ -643,64 +669,80 @@
+ 			end
+ 		end
+ 	else
+-
+-
+-
++		--if tuitionMissionId == 0 and mission_mould == mission_mould_tuition then
++		--	return
++		--end
+ 		if tuitionMissionId > 0 then
+ 			missionId = zstring.tonumber(tuitionMissionId)
+ 			tuitionMissionId = 0
+ 		elseif mission_mould == mission_mould_tuition then
+ 			missionId = 0
+-
++			--missionId = missionId + 1
+ 		else
+ 			missionId = missionId + 1
+ 		end
+ 	end
+-
++	
+ 	eventIndex = 0
+-
+-
++    --missionId = 0
++	
+ 	if mission_mould == mission_mould_tuition then
+ 		if missionId > 0 then
+-
++			-- missions = tolua.cast(mission3Data:searchs(mission_id, missionId), "CCArray")
+ 			missions = dms.searchs(dms["mission3"], mission_id, missionId)
+ 		else
+-
++			-- missions = tolua.cast(mission3Data:searchs(mission_off, offval), "CCArray")
+ 			missions = dms.searchs(dms["mission3"], mission_off, offval)
+ 		end
+-
++		
+ 		if missions ~= nil then
+ 			mission =  missions[eventIndex + 1]
+ 			missionId = dms.atoi(mission, mission_id)
+ 			triggerTiming = dms.atos(mission, mission_trigger_timing)
+ 		end
+ 	elseif mission_mould == mission_mould_battle then
+-
++		-- missions = tolua.cast(mission2Data:searchs(mission_trigger_timing, triggerTiming, mission_off, offval), "CCArray")
+ 		missions = dms.searchs(dms["mission2"], mission_trigger_timing, triggerTiming, mission_off, offval)
+ 	else
+-
++		-- missions = tolua.cast(mission1Data:searchs(mission_id, missionId, mission_off, offval), "CCArray")
+ 		missions = dms.searchs(dms["mission2"], mission_id, missionId, mission_off, offval)
+ 	end
+-
+-
+-
++	
++	--[[
++	if mission_mould == mission_mould_tuition then
++		missions = tolua.cast(mission3Data:searchs(mission_id, missionId), "CCArray")
++		if missions ~= nil then
++			mission =  missions[eventIndex + 1]
++			triggerTiming = dms.atos(mission, mission_trigger_timing)
++		end
++	elseif mission_mould == mission_mould_battle then
++		missions = tolua.cast(mission2Data:searchs(mission_id, missionId, mission_off, offval), "CCArray")
++	else
++		if touch_off_mission_ls_scene == triggerTiming then
++			missions = tolua.cast(mission1Data:searchs(mission_off, offval), "CCArray")
++		else
++			missions = tolua.cast(mission1Data:searchs(mission_id, missionId, mission_off, offval), "CCArray")
++		end
++	end
++	--]]
++	
+ 	if missions ~= nil then
+ 		mission =  missions[eventIndex + 1]
+ 		local missionOff = dms.atos(mission, mission_off)
+-		local trigger_timing = dms.atos(mission, mission_trigger_timing)
+-		if missionOff ~= offval or trigger_timing ~= triggerTiming  or (oldMissionId >= dms.atoi(mission, mission_id)) then
++		local trigger_timing = dms.atos(mission, mission_trigger_timing)		-- dms.atoi(mission, mission_trigger_timing)
++		if missionOff ~= offval or trigger_timing ~= triggerTiming  or (oldMissionId >= dms.atoi(mission, mission_id)) then	
+ 			mission = nil
+ 			missions = nil
+-
++			
+ 			return
+ 		end
+ 		missionId = dms.atoi(mission, mission_id)
+ 		eventRepeat = dms.atos(mission, mission_repeat)
+-
++		-- missions:retain()
+ 		saveEData = ""..missionId..","..eventIndex..","..eventRepeat..","..complated..","..offval
+ 		SenderRecode(true)
+-
+-
++		--CCUserDefault:sharedUserDefault():setStringForKey(saveKey, saveEData)
++		--CCUserDefault:sharedUserDefault():flush()
+ 	else
+ 		missionId = 0
+ 	end
+@@ -733,17 +775,13 @@
+ 	end
+ end
+ 
+-
+-
+-
+-
+-
+-
++-- Las guias de ascenso, estrellas y evolucion (wjmp/wjms/wjme de mission3) tocan
++-- una casilla FIJA de la formacion (su paso HomeHeroClass Panel_role_0N) y dan por
++-- hecho que ahi esta el heroe del molde. Si el jugador lo saco de esa casilla, la
++-- guia abre a OTRO heroe, cuyo boton no se completa (pide los materiales de otro
++-- grupo) y la mascara deja la pantalla bloqueada en cada arranque. En ese caso el
++-- tramo se da por hecho, igual que cuando el heroe ya ascendio.
+ local function missionGuideHeroAway(ship)
+-
+-	if true then
+-		return false
+-	end
+ 	if ship == nil then
+ 		return true
+ 	end
+@@ -762,74 +800,66 @@
+ 	eventIndex = 0
+ 	if mission_mould == mission_mould_tuition then
+         if emtOffVal ~= nil then
+-
++		    -- missions = tolua.cast(mission3Data:searchs(mission_off, emtOffVal, mission_start_param, cmpOffVal), "CCArray")
+ 		    missions = dms.searchs(dms["mission3"], mission_off, emtOffVal, mission_start_param, cmpOffVal)
+         else
+-
++		    -- missions = tolua.cast(mission3Data:searchs(mission_start_param, cmpOffVal), "CCArray")
+ 		    missions = dms.searchs(dms["mission3"], mission_start_param, cmpOffVal)
+         end
+-
++		
+ 		if missions ~= nil then
+ 			mission =  missions[eventIndex + 1]
+ 			missionId = dms.atoi(mission, mission_id)
+ 			triggerTiming = dms.atos(mission, mission_trigger_timing)
+ 		end
+ 	elseif mission_mould == mission_mould_battle then
+-
++		-- print("==========战斗事件",triggerTiming,emtOffVal,cmpOffVal)
+         if triggerTiming ~= nil and emtOffVal ~= nil then
+             local emtOffValParam = zstring.split(emtOffVal, "v")
+             local currentNpcId = zstring.tonumber(emtOffValParam[1])
+-			local npcLastState
+-
++			local npcLastState 
++			
+ 			if _ED.npc_last_state == nil then
+-				npcLastState = -1
++				npcLastState = -1	
+ 			else
+ 				npcLastState = zstring.tonumber(_ED.npc_last_state[currentNpcId]) or -1;
+ 		    end
+-
++		    -- print("=========npcLastState",npcLastState)
+ 		    if npcLastState <= 0 then
+-
++		        -- missions = tolua.cast(mission2Data:searchs(mission_trigger_timing, triggerTiming, mission_off, emtOffVal), "CCArray")
+ 				missions = dms.searchs(dms["mission2"], mission_trigger_timing, triggerTiming, mission_off, emtOffVal)
+             end
+         elseif cmpOffVal ~= nil then
+-
++            -- missions = tolua.cast(mission2Data:searchs(mission_start_param, cmpOffVal), "CCArray")
+             missions = dms.searchs(dms["mission2"], mission_start_param, cmpOffVal)
+         end
+ 	else
+-
++		-- missions = tolua.cast(mission1Data:searchs(mission_off, emtOffVal, mission_start_param, cmpOffVal), "CCArray")
+ 		missions = dms.searchs(dms["mission1"], mission_off, emtOffVal, mission_start_param, cmpOffVal)
+ 	end
+-
+-
+-
+-
++	
++	------------------------------------------------------------------------------------------------------
++	-- 用于跳过被中断的非主线事件,此类事件被中断后就不再继续了
++	------------------------------------------------------------------------------------------------------
+ 	local wfeg = true
+ 	if missions ~= nil and #missions > 0 then
+ 		local _temp_mission = missions[eventIndex + 1]
+ 		if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
+ 			local mission_start_conditions = _temp_mission[mission_param.mission_start_conditions]
+ 			if mission_start_conditions == "feg:1-0" then
+-
++				-- 获取记录值 
+ 				local mission_progress = zstring.tonumber(_temp_mission[mission_param.mission_progress])
+ 				local keyName = "shkp_feg"
+ 				local keyStr = readKey(keyName)
+-
+-
+-
+-
+-
+-				local doneKey = "shkp_feg_" .. tostring(mission_progress)
+-				if tostring(keyStr) == tostring(mission_progress) or tostring(readKey(doneKey)) == tostring(mission_progress) then
+-					writeKey(doneKey, tostring(mission_progress))
++				if tostring(keyStr) == tostring(mission_progress) then
+ 					missions = nil
+ 					return
+ 				else
+-
++					-- 记录值
+ 					writeKey(keyName, tostring(mission_progress))
+-					writeKey(doneKey, tostring(mission_progress))
+ 				end
+ 			elseif mission_start_conditions == "feg:1-1" then
+-
++				-- 获取记录值 
+ 				local mission_progress = zstring.tonumber(_temp_mission[mission_param.mission_progress])
+ 				local keyName = "shkp_feg"
+ 				local keyStr = readKey(keyName)
+@@ -852,12 +882,12 @@
+ 				missionType = 1
+ 			end
+ 
+-			if nil ~= checkMissionId
++			if nil ~= checkMissionId 
+ 				and nil ~= _temp_mission
+ 				and _ED._mission_execute ~= nil
+ 				and missionType == tonumber(_ED._mission_execute[1])
+ 				then
+-				if nil == _temp_mission or tonumber(checkMissionId) > tonumber(_temp_mission[mission_id])
++				if nil == _temp_mission or tonumber(checkMissionId) > tonumber(_temp_mission[mission_id]) 
+ 					then
+ 					missions = nil
+ 				elseif tonumber(checkMissionId) == tonumber(_temp_mission[mission_id]) and tonumber(_temp_mission[mission_id]) == tonumber(_ED._mission_execute[2]) then
+@@ -872,7 +902,7 @@
+ 			if nil ~= missions then
+ 				local mission_start_conditions = _temp_mission[mission_param.mission_start_conditions]
+ 				if mission_start_conditions == "feg:1-0" then
+-
++					-- 获取记录值 
+ 					local mission_progress = zstring.tonumber(_temp_mission[mission_param.mission_progress])
+ 					if mission_progress > 0 then
+ 						local keyName = "shkp_feg_" .. mission_progress
+@@ -881,7 +911,7 @@
+ 							missions = nil
+ 						else
+ 							wfeg = false
+-
++							-- 记录值
+ 							writeKey(keyName, tostring(mission_progress))
+ 						end
+ 					end
+@@ -889,19 +919,19 @@
+ 			end
+ 		end
+ 	end
+-
++	------------------------------------------------------------------------------------------------------
+ 
+ 	if missions ~= nil and #missions > 0 then
+-
+-
+-
+-
++		-- mission =  missions[eventIndex + 1]
++		-- missionId = dms.atoi(mission, mission_id)
++		-- eventRepeat = dms.atos(mission, mission_repeat)
++		-- missions:retain()
+ 		mission = missions[eventIndex + 1]
+ 		missionId = dms.atoi(mission, mission_id)
+ 		eventRepeat = dms.atos(mission, mission_repeat)
+ 
+         local generalQuality = nil
+-
++		
+         if executeRepeatEvent == true then
+             local missionRepeatTarget = dms.atos(mission, mission_repeat_target)
+             local repeatEventInfo = zstring.split(missionRepeatTarget, ",")
+@@ -923,19 +953,19 @@
+                 if missionStartConditions ~= "" and missionStartConditions ~= "0" then
+                     if lastMissionStartConditions == missionStartConditions then
+                         eventIndex = eventIndex + 1
+-
++                        -- print("=======不筛选")
+                     else
+-
++                    	-- print("=======筛选")
+                         lastMissionStartConditions = missionStartConditions
+                         local missionStartConditionsInfos = zstring.split(missionStartConditions, ",")
+                         for i, v in pairs(missionStartConditionsInfos) do
+                             local missionStartConditionsParam = zstring.split(v, ":")
+-
+-                            if missionStartConditionsParam[1] == "f" then
+-
+-
+-
+-
++                            -- debug.print_r(missionStartConditionsParam)
++                            if missionStartConditionsParam[1] == "f" then -- 判断阵型中的某个位置是否有战士
++                                -- if _ED.user_formetion_status[zstring.tonumber(missionStartConditionsParam[2])] == "0" then
++                                --     checkOver = true
++                                --     break
++                                -- end
+                                 local nfCount = 0
+                                 for m, n in pairs(_ED.user_formetion_status) do
+                                 	if tonumber(n) > 0 then
+@@ -947,7 +977,7 @@
+                                 	break
+                                 end
+                                 eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "c" then
++                            elseif missionStartConditionsParam[1] == "c" then -- 判断玩家的战力值是否小于等于某个值
+                             	if __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim then
+ 	                                if zstring.tonumber(_ED.user_info.fighter_capacity) <= zstring.tonumber(missionStartConditionsParam[2]) then
+ 	                                    checkOver = true
+@@ -960,8 +990,8 @@
+ 	                                end
+ 	                            end
+                                 eventIndex = eventIndex + 1
+-
+-                            elseif missionStartConditionsParam[1] == "g" then
++									
++                            elseif missionStartConditionsParam[1] == "g" then -- 判断玩家的品质
+                                 if generalQuality == nil then
+                                     local ship = fundShipWidthId(_ED.user_formetion_status[1])
+                                     local shipData = elementAt(shipMoulds, ship.ship_template_id)
+@@ -972,7 +1002,7 @@
+                                     break
+                                 end
+                                 eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "svl" then
++                            elseif missionStartConditionsParam[1] == "svl" then -- 判断武将的强化等级
+                             	local additionParam = zstring.split(missionStartConditionsParam[2], "-")
+                             	local currShip = fundShipWidthTemplateId(additionParam[1])
+                             	if currShip ~= nil then
+@@ -982,18 +1012,18 @@
+ 	                                end
+                             	end
+                                 eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "svs" then
++                            elseif missionStartConditionsParam[1] == "svs" then -- 判断主武将的突破
+                             	local additionParam = zstring.split(missionStartConditionsParam[2], "-")
+                             	local currShip = fundShipWidthId(_ED.user_formetion_status[1])
+-
+-
+-
+-
+-
+-
++        --                     	local gender = zstring.tonumber(_ED.user_info.user_gender)
++								-- gender = gender <= 0 and 1 or gender
++        --                     	if currShip.ship_template_id == additionParam[gender] then
++        --                             checkOver = true
++        --                             break
++        --                         end
+ 
+                                 local currShip = fundShipWidthId(_ED.user_formetion_status[1])
+-
++			
+ 								local user_camp = 1
+ 								if currShip ~= nil then
+ 									user_camp = dms.int(dms["ship_mould"], currShip.ship_template_id, ship_mould.capacity)
+@@ -1005,7 +1035,7 @@
+ 
+ 
+                                 eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "lvg" then
++                            elseif missionStartConditionsParam[1] == "lvg" then -- 等级礼包
+                                 local activeItem = _ED.active_activity[12]
+                                 if activeItem ~= nil then
+                                     if zstring.tonumber(activeItem.activity_Info[zstring.tonumber(missionStartConditionsParam[2])].activityInfo_isReward) == 0 then
+@@ -1014,13 +1044,13 @@
+                                     end
+                                 end
+                                 eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "fct" then
++                            elseif missionStartConditionsParam[1] == "fct" then -- 战士免费招募cd
+                                 if zstring.tonumber(_ED.free_info[zstring.tonumber(missionStartConditionsParam[2])].next_free_time) <= 0 then
+                                     checkOver = true
+                                     break
+                                 end
+                                 eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "sc" then
++                            elseif missionStartConditionsParam[1] == "sc" then -- 判断场景宝箱的领取状态
+                             	local additionParam = zstring.split(missionStartConditionsParam[2], "-")
+                             	local drawState = zstring.tonumber(_ED.star_reward_state[zstring.tonumber(additionParam[1])])
+                             	if drawState == zstring.tonumber(additionParam[2]) then
+@@ -1028,7 +1058,7 @@
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "nc" then
++                            elseif missionStartConditionsParam[1] == "nc" then -- 判断NPC宝箱的领取状态
+                             	local additionParam = zstring.split(missionStartConditionsParam[2], "-")
+                             	local drawState = zstring.tonumber(_ED.scene_draw_chest_npcs[""..zstring.tonumber(additionParam[1])])
+                             	if drawState == zstring.tonumber(additionParam[2]) then
+@@ -1036,83 +1066,83 @@
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "abw" then
++                            elseif missionStartConditionsParam[1] == "abw" then -- 竞技场胜利
+                             	local abwCount = zstring.tonumber(missionStartConditionsParam[2])
+                             	if abwCount == _ED.arena_module.battle_count then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "pbw" then
++                            elseif missionStartConditionsParam[1] == "pbw" then -- 抢夺胜利
+                             	local abwCount = zstring.tonumber(missionStartConditionsParam[2])
+                             	if abwCount == _ED.plunder_module.battle_count then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "p" then
++                            elseif missionStartConditionsParam[1] == "p" then -- 道具是否存在
+                             	if fundPropWidthId(missionStartConditionsParam[2]) == nil then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-
+-
+-							elseif missionStartConditionsParam[1] == "wjpz" then
++								
++							
++							elseif missionStartConditionsParam[1] == "wjpz" then -- 找到指定品质的武将个数,大于时判定完后  wjpz:3-2-0
+                             	local additionParam = zstring.split(missionStartConditionsParam[2], "-")
+-
+-
+-
+-								local quality = zstring.tonumber(additionParam[1])
+-
+-								local count = zstring.tonumber(additionParam[2])
+-
+-								local judge = zstring.tonumber(additionParam[3])
+-
+-								local list = getQualityHeroes(quality)
+-
++								
++								-- 找到指定品质的战船组个数
++								
++								local quality = zstring.tonumber(additionParam[1]) -- 品质
++								
++								local count = zstring.tonumber(additionParam[2]) -- 个数条件
++								
++								local judge = zstring.tonumber(additionParam[3]) -- 判定条件
++								
++								local list = getQualityHeroes(quality) --取指定品质战船组
++								
+ 								local leng = table.getn(list)
+ 
+ 								local isover = false
+-								if judge == 0 then
++								if judge == 0 then	-- 判定等于
+ 									if count == leng then
+ 									else
+ 										isover = true
+ 									end
+-								elseif judge == 1 then
++								elseif judge == 1 then -- 判定大于
+ 									if count > leng then
+ 									else
+ 										isover = true
+ 									end
+-								elseif judge == 2 then
++								elseif judge == 2 then -- 判定小于
+ 									if count < leng then
+ 									else
+ 										isover = true
+ 									end
+-								elseif judge == 3 then
++								elseif judge == 3 then -- 判定大于或等于
+ 									if count >= leng then
+ 									else
+ 										isover = true
+ 									end
+-								elseif judge == 4 then
++								elseif judge == 4 then -- 判定小于或等于
+ 									if count <= leng then
+ 									else
+ 										isover = true
+ 									end
+ 								end
+-
++								
+ 								if isover == true then
+ 									checkOver = true
+                                     break
+ 								end
+-
+-                            	eventIndex = eventIndex + 1
++								
++                            	eventIndex = eventIndex + 1						
+ 							elseif missionStartConditionsParam[1] == "feg" then
+ 								if __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim then
+ 									if wfeg then
+ 										local mission_start_conditions = mission[mission_param.mission_start_conditions]
+ 										if mission_start_conditions == "feg:1-0" then
+-
++											-- 获取记录值 
+ 											local mission_progress = zstring.tonumber(mission[mission_param.mission_progress])
+ 											if mission_progress > 0 then
+ 												local keyName = "shkp_feg_" .. mission_progress
+@@ -1121,7 +1151,7 @@
+ 													missions = nil
+ 													return
+ 												else
+-
++													-- 记录值
+ 													writeKey(keyName, tostring(mission_progress))
+ 												end
+ 											end
+@@ -1191,14 +1221,14 @@
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "npc" then
++                            elseif missionStartConditionsParam[1] == "npc" then --npc是否打过
+                             	local npc_id = zstring.tonumber(missionStartConditionsParam[2])
+                             	if _ED.npc_state[npc_id] <= 0 then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "l" then
++                            elseif missionStartConditionsParam[1] == "l" then --npc是否打过
+                             	local user_info = zstring.split(missionStartConditionsParam[2], "-")
+                             	local rls = false
+                             	if zstring.tonumber(_ED.user_info.user_grade) < zstring.tonumber(user_info[1]) then
+@@ -1212,7 +1242,7 @@
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-							elseif missionStartConditionsParam[1] == "xg" then
++							elseif missionStartConditionsParam[1] == "xg" then --星格是否激活
+                             	local star_index = zstring.tonumber(missionStartConditionsParam[2])
+                             	local formation_temp = {}
+ 							    local position_str = dms.string(dms["formation_mould"],tonumber(_ED.formetion[1]),formation_mould.position)
+@@ -1240,21 +1270,21 @@
+ 							    		state = tonumber(v.state)
+ 							    	end
+ 							    end
+-
+-
+-
++							    -- print("=======star_index==",star_index)
++							    -- debug.print_r(stars_state)
++							    -- print("=====state========,大于0激活，小于0没激活",state)
+                             	if state <= 0 then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "fbtc" then
++                            elseif missionStartConditionsParam[1] == "fbtc" then -- 新增】带兵量大于XX formation battle team count
+                             	if zstring.tonumber(_ED.user_info.soldier) <= zstring.tonumber(missionStartConditionsParam[2]) then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "ubc" then
++                            elseif missionStartConditionsParam[1] == "ubc" then -- 【新增】某建筑数量大于XXXX  ubc:1-3  ubc:建筑ID-数量
+                             	local build_info = zstring.split(missionStartConditionsParam[2], "-")
+                             	local build_id = tonumber(build_info[1])
+                             	local build_count = tonumber(build_info[2])
+@@ -1262,16 +1292,16 @@
+                             	for i, v in pairs(_ED.home_build) do
+                             		if tonumber(v.build_mould_id) == build_id then
+                             			nCount = nCount + 1
+-                            		end
+-
+-
++                            		end 
++                            		-- debug.print_r(v)
++                            		-- print("udc:", v.base_mould_id, build_id, build_count, nCount)
+                             	end
+                             	if nCount < build_count then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "upl" then
++                            elseif missionStartConditionsParam[1] == "upl" then -- 【新增】科技中某科技等级大于XXXX upl:1-3 upl:科技id-等级
+                             	local scientific_info = zstring.split(missionStartConditionsParam[2], "-")
+                             	local scientific_id = scientific_info[1]
+                             	local scientific_level = tonumber(scientific_info[2])
+@@ -1280,7 +1310,7 @@
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "afbc" then
++                            elseif missionStartConditionsParam[1] == "afbc" then -- 【新增】战地争霸部署数量大于XXXX
+                             	local nCount = tonumber(missionStartConditionsParam[2])
+                             	if _ED.arena_info.arena_formation == nil then
+                             		checkOver = true
+@@ -1297,7 +1327,7 @@
+                             	local tnCount = 0
+                             	if _ED.production_info["0"] ~= nil then
+ 							        for k, v in pairs(_ED.production_info["0"]) do
+-							            if tonumber(v.production_state) == 0
++							            if tonumber(v.production_state) == 0 
+ 							            	then
+ 							            	nCount = nCount + 1
+ 							            	if (v.production_start_time + v.production_start_cd) < _ED.system_time then
+@@ -1315,28 +1345,28 @@
+ 								    end
+ 							    end
+ 							    eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "wjmp" then
++                            elseif missionStartConditionsParam[1] == "wjmp" then -- 进阶完成,大于时判定完后  wjmp:3-2  wjmp:模板ID-阶数
+                             	local additionParam = zstring.split(missionStartConditionsParam[2], "-")
+                             	local ship = fundShipWidthTemplateId(additionParam[1])
+-                            	local quality = zstring.tonumber(additionParam[2])
++                            	local quality = zstring.tonumber(additionParam[2]) -- 品阶
+                             	if not missionGuideHeroAway(ship) and tonumber(ship.Order) < quality then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "wjms" then
++                            elseif missionStartConditionsParam[1] == "wjms" then -- 进星完成,大于时判定完后  wjms:3-2  wjms:模板ID-阶数
+                             	local additionParam = zstring.split(missionStartConditionsParam[2], "-")
+                             	local ship = fundShipWidthTemplateId(additionParam[1])
+-                            	local star = zstring.tonumber(additionParam[2])
++                            	local star = zstring.tonumber(additionParam[2]) -- 星数
+                             	if not missionGuideHeroAway(ship) and tonumber(ship.StarRating) < star then
+                             		checkOver = true
+                                     break
+                             	end
+                             	eventIndex = eventIndex + 1
+-                            elseif missionStartConditionsParam[1] == "wjme" then
++                            elseif missionStartConditionsParam[1] == "wjme" then -- 进化完成,大于时判定完后  wjme:3-2  wjms:模板ID-进化等级
+                             	local additionParam = zstring.split(missionStartConditionsParam[2], "-")
+                             	local ship = fundShipWidthTemplateId(additionParam[1])
+-                            	local evom = zstring.tonumber(additionParam[2])
++                            	local evom = zstring.tonumber(additionParam[2]) -- 进化等级
+                             	local ship_evo = ship ~= nil and zstring.split(ship.evolution_status, "|") or {}
+                             	if not missionGuideHeroAway(ship) and tonumber(ship_evo[1]) < evom then
+                             		checkOver = true
+@@ -1374,7 +1404,7 @@
+ 				missions = nil
+             end
+         end
+-
++        -- SenderRecodeExt()
+ 	end
+ end
+ 
+@@ -1394,7 +1424,7 @@
+ 	if mission==nil then
+ 		return false
+ 	else
+-		local snatchMissionProgress = dms.atoi(mission, mission_progress)
++		local snatchMissionProgress = dms.atoi(mission, mission_progress) 
+ 		local snatchMissionId = dms.atoi(mission, mission_id)
+ 		if snatchMissionProgress >= 301101 and snatchMissionProgress <= 3011028 and snatchMissionId == 11 then
+ 			return true
+@@ -1406,7 +1436,7 @@
+ function missionType()
+ 	return mission_mould
+ end
+-
++	
+ 
+ function executeMission(missionMould, triggerTiming, emtOffVal, executeOverCallback, canExecute)
+ 	local currentAccount = _ED.user_platform[_ED.default_user].platform_account
+@@ -1433,15 +1463,15 @@
+ 		end
+ 	end
+ 	if mission_mould == mission_mould_tuition then
+-	   if __lua_project_id == __lua_project_all_star
+-	        or __lua_project_id == __lua_project_superhero  then
+-		   if  tonumber(emtOffVal) == 10 then
++	   if __lua_project_id == __lua_project_all_star 
++	        or __lua_project_id == __lua_project_superhero  then 
++		   if  tonumber(emtOffVal) == 10 then  --10级新手教学时先卸下主角已装备的4号类型宝物
+ 				local _shipId = getUserShip()
+ 				for i, equip in pairs(_shipId.equipment) do
+ 					if i > 6 then
+ 						break
+-					end
+-					if tonumber(equip.ship_id) > 0 then
++					end				
++					if tonumber(equip.ship_id) > 0 then  
+ 						if tonumber(equip.equipment_type) == 4 then
+ 							local str = ""
+ 							str = str.._shipId.ship_id.."\r\n"
+@@ -1451,7 +1481,7 @@
+ 							Sender(protocol_command.equipment_adorn.code, nil, nil, nil, nil, nil)
+ 						end
+ 					end
+-				end
++				end 
+ 			end
+ 		end
+ 		checkMission(currentAccount, currentServerNumber, "tt", emtOffVal, triggerTiming)
+@@ -1460,7 +1490,7 @@
+ 	else
+ 		checkMission(currentAccount, currentServerNumber, "sn", emtOffVal, triggerTiming)
+ 	end
+-
++	
+ 	currentEventBattleRoundCound = 0
+ 	if missions ~= nil then
+ 		mission_executeOverCallback = executeOverCallback
+@@ -1470,9 +1500,9 @@
+ 			executeEvent()
+ 		end
+ 	else
+-		mission_mould = ""
+-	end
+-
++		mission_mould = "" --0
++	end
++	
+ 	local result = missions ~= nil and true or false
+ 	if result == false and texBaseEData == true then
+ 		checkOverMission(currentAccount, currentServerNumber, "ds")
+@@ -1482,13 +1512,13 @@
+ 			return true
+ 		end
+ 	end
+-
++	
+ 	return result
+ end
+ 
+ function executeMissionExt(missionMould, triggerTiming, emtOffVal, executeOverCallback, canExecute, cmpOffVal, executeRepeatEvent)
+ 	app.load("client.utils.texture_cache")
+-
++	-- cacher.addTextureAsync(texture_cache_load_images_mission_dialog)
+ 	local currentAccount = _ED.user_platform[_ED.default_user].platform_account
+ 	local currentServerNumber = _ED.all_servers[_ED.selected_server].server_number
+ 	local texBaseEData = exBaseEData
+@@ -1510,7 +1540,7 @@
+ 	else
+ 		checkMissionExt(emtOffVal, triggerTiming, cmpOffVal, executeRepeatEvent)
+ 	end
+-
++	
+ 	currentEventBattleRoundCound = 0
+ 	if missions ~= nil then
+ 		mission_executeOverCallback = executeOverCallback
+@@ -1534,29 +1564,29 @@
+ 	return result
+ end
+ 
+-
++-- 在保存进度时,检查进度,在指定的进度完成后做一些事情
+ function checkupExecuteEventDispose(mission)
+-
++	-- 检查当前是 第几个进度
+ 	if mission ~= nil then
+ 		local mission_progress = zstring.tonumber(mission[mission_param.mission_progress])
+ 
+-
+-
++		-- 10204 事件进度 是 5级教学后对话完毕开启副本2-1了,提示首充弹窗--去除,挪到2-2之后
++		-- 308021 事件进度 是 10级演习教学后对话完毕,提示首充弹窗
+ 		if mission_progress == 308021 then
+ 			state_machine.excute("show_activity_first_recharge_popup", 0, nil)
+ 		end
+ 	end
+ end
+ 
+-local missionLock = false
++local missionLock = false -- 锁定期间不进行下一步操作
+ local last_mission_type = 0
+ local current_execute_type = ""
+ function saveExecuteEvent(mission, bRet, unlock)
+ 	if __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim then
+ 		if nil ~= mission then
+-			local execute_type = dms.atos(mission, mission_execute_type)
++			local execute_type = dms.atos(mission, mission_execute_type) 
+ 			if execute_type == execute_type_touchUI then
+-				local mission_skip_id = dms.atoi(mission, mission_skip_id)
++				local mission_skip_id = dms.atoi(mission, mission_skip_id) 
+ 				if mission_skip_id > 0 then
+ 					eventIndex = mission_skip_id
+ 					fwin:close(fwin:find("WindowLockClass"))
+@@ -1564,16 +1594,16 @@
+ 
+ 				local mission_start_conditions = mission[mission_param.mission_start_conditions]
+ 				if mission_start_conditions == "feg:1-0" then
+-
++					-- 获取记录值 
+ 					local mission_progress = zstring.tonumber(mission[mission_param.mission_progress])
+ 					if mission_progress > 0 then
+ 						local keyName = "shkp_feg_" .. mission_progress
+ 						local keyStr = readKey(keyName)
+ 						if tostring(keyStr) == tostring(mission_progress) then
+-
+-
++							-- missions = nil
++							-- return
+ 						else
+-
++							-- 记录值
+ 							writeKey(keyName, tostring(mission_progress))
+ 						end
+ 					end
+@@ -1583,9 +1613,9 @@
+ 	end
+ 
+ 	checkupExecuteEventDispose(mission)
+-
++	
+ 	if saveKeyBase ~= nil then
+-
++		--CCUserDefault:sharedUserDefault():setStringForKey(saveKeyBase, saveBaseEData)
+ 	end
+ 	if unlock ~= nil then
+ 		missionLock = false
+@@ -1594,26 +1624,26 @@
+ 		return
+ 	end
+ 	saveEData = ""..missionId..","..eventIndex..","..eventRepeat..","..complated..","..offval
+-
++	-- SenderRecode()
+ 	SenderRecodeExt()
+ 
+-
+-
++	--CCUserDefault:sharedUserDefault():setStringForKey(saveKey, saveEData)
++	--CCUserDefault:sharedUserDefault():flush()
+ 	eventIndex = eventIndex + 1
+ 	if bRet == true then
+ 		mission._isOver = true
+ 		executeEvent()
+ 	end
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
++	
++	-- if current_execute_type == execute_type_startTuition then
++		-- tuitionMissionId = dms.atoi(mission, mission_param1)
++		--> debug.print_r(mission)
++		--> print("加载教学事件", tuitionMissionId)
++		-- executeEvent()
++		
++		-- executeMission(mission_mould_tuition, 0, "0", nil)
++	-- end
++	
+ 	if bRet == false and missions ~= nil then
+ 		local eventCount = #missions
+ 		if eventIndex >= eventCount then
+@@ -1634,7 +1664,7 @@
+ 	end
+ end
+ 
+-
++-- 根据索引,变更当前执行的事件
+ changeExecuteEvent = function(index)
+ 	eventIndex = index
+ end
+@@ -1657,15 +1687,15 @@
+ 	local windowLock = fwin:find("WindowLockClass")
+ 	if windowLock == nil then
+ 		local windows = WindowLock:new()
+-		if __lua_project_id == __lua_project_gragon_tiger_gate or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
+-			or __lua_project_id == __lua_project_red_alert
++		if __lua_project_id == __lua_project_gragon_tiger_gate or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto  
++			or __lua_project_id == __lua_project_red_alert 
+ 			or __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim
+ 			then
+ 			local isChangeEvent = false
+ 			if mission ~= nil then
+ 				local isNeedChangeClickEvent = tonumber(dms.atos(mission, mission_param3))
+ 				if isNeedChangeClickEvent == 1 then
+-					isChangeEvent = true
++					isChangeEvent = true		
+ 				end
+ 			end
+ 			fwin:open(windows:init(isChangeEvent), fwin._windows)
+@@ -1679,7 +1709,7 @@
+ 		local now_skip_id = dms.atoi(mission,mission_param.mission_skip_id)
+ 		local skipDialogue = fwin:find("LRoleDialogueSkipClass")
+ 		if now_skip_id == 1 then
+-			app.load("client.mission.missionex.LRoleDialogueSkip")
++			app.load("client.mission.missionex.LRoleDialogueSkip")	
+ 			if skipDialogue == nil then
+ 				local skip_btn = LRoleDialogueSkip:new()
+ 				skip_btn:init(eventIndex,mission,missions)
+@@ -1694,25 +1724,25 @@
+ 		end
+ 	end
+ 
+-	if __lua_project_id == __lua_project_red_alert
+-
++	if __lua_project_id == __lua_project_red_alert 
++		-- or __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim
+ 		then
+ 		if _ED.user_info ~= nil and _ED.user_info.user_grade ~= nil and
+-			_ED.user_info.user_grade ~= "" and tonumber(_ED.user_info.user_grade) <= 1
+-			and fwin:find("BattleSceneClass") == nil
++			_ED.user_info.user_grade ~= "" and tonumber(_ED.user_info.user_grade) <= 1 
++			and fwin:find("BattleSceneClass") == nil 
+ 			and fwin:find("MainWindowClass") == nil
+ 			then
+ 			app.load("client.mission.missionex.CGSkip")
+ 			local skipnext1 = fwin:find("CGSkipClass")
+-			if skipnext1 ~= nil then
+-				fwin:close(skipnext1)
++			if skipnext1 ~= nil then 
++				fwin:close(skipnext1) 
+ 			end
+ 			local skipnextWnd1 = CGSkip:new()
+ 			skipnextWnd1:init(eventIndex,skipIndex)
+ 			fwin:open(skipnextWnd1, fwin._system)
+ 		else
+ 			local skipnext1 = fwin:find("CGSkipClass")
+-			if skipnext1 ~= nil then
++			if skipnext1 ~= nil then 
+ 				fwin:close(skipnext1)
+ 			end
+ 		end
+@@ -1720,84 +1750,84 @@
+ 
+ 	if mission ~= nil then
+ 
+-
+-
+-
++	------------------------------------------------------------------------------------------------------
++	-- 用于处理剧情跳过
++	------------------------------------------------------------------------------------------------------
+ 		local is2002 = false
+-			if __lua_project_id == __lua_project_warship_girl_a
+-			or __lua_project_id == __lua_project_warship_girl_b
+-			or __lua_project_id == __lua_project_digimon_adventure
+-			or __lua_project_id == __lua_project_naruto
+-			or __lua_project_id == __lua_project_pokemon
+-			or __lua_project_id == __lua_project_rouge
+-			or __lua_project_id == __lua_project_yugioh
++			if __lua_project_id == __lua_project_warship_girl_a 
++			or __lua_project_id == __lua_project_warship_girl_b 
++			or __lua_project_id == __lua_project_digimon_adventure 
++			or __lua_project_id == __lua_project_naruto 
++			or __lua_project_id == __lua_project_pokemon 
++			or __lua_project_id == __lua_project_rouge 
++			or __lua_project_id == __lua_project_yugioh 
+ 			or __lua_project_id == __lua_project_koone
+-
++			-- or __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim
+ 			then
+ 				if dev_version >= 2002 then
+ 					is2002 = true
+ 				end
+ 			end
+-
++		
+ 		if true == is2002 then
+ 			local mission_skip_id = mission[mission_param.mission_skip_id]
+ 			local skipIndex = zstring.tonumber(mission_skip_id)
+ 			if skipIndex ~= 0 then
+ 				app.load("client.mission.missionex.CGEventSkipNext")
+ 				local skipnext = fwin:find("CGEventSkipNextClass")
+-				if skipnext ~= nil
+-					then
+-					fwin:close(skipnext)
++				if skipnext ~= nil 
++					then 
++					fwin:close(skipnext) 
+ 				end
+ 				local skipnextWnd = CGEventSkipNext:new()
+-
++						
+ 				skipnextWnd:init(eventIndex,skipIndex)
+ 				fwin:open(skipnextWnd, fwin._system)
+-
+-
+-
+-			end
+-
++						
++				--eventIndex = e2
++				--mission = missions[eventIndex]
++			end
++				
+ 			local mission_skip_id = mission[mission_param.mission_skip_id]
+ 			if zstring.tonumber(mission_skip_id) == 0 then
+ 				local skipnext = fwin:find("CGEventSkipNextClass")
+-				if skipnext ~= nil
+-					then
+-					fwin:close(skipnext)
+-				end
+-			end
+-			if __lua_project_id == __lua_project_warship_girl_a
+-				or __lua_project_id == __lua_project_warship_girl_b
+-				or __lua_project_id == __lua_project_digimon_adventure
+-				or __lua_project_id == __lua_project_naruto
+-				or __lua_project_id == __lua_project_pokemon
+-				or __lua_project_id == __lua_project_rouge
+-				or __lua_project_id == __lua_project_yugioh
++				if skipnext ~= nil 
++					then 
++					fwin:close(skipnext) 
++				end
++			end
++			if __lua_project_id == __lua_project_warship_girl_a 
++				or __lua_project_id == __lua_project_warship_girl_b 
++				or __lua_project_id == __lua_project_digimon_adventure 
++				or __lua_project_id == __lua_project_naruto 
++				or __lua_project_id == __lua_project_pokemon 
++				or __lua_project_id == __lua_project_rouge 
++				or __lua_project_id == __lua_project_yugioh 
+ 				then
+-				if _ED.user_info.user_id == nil
+-					or _ED.user_info.user_id == ""
++				if _ED.user_info.user_id == nil 
++					or _ED.user_info.user_id == "" 
+ 					then
+ 					app.load("client.mission.missionex.CGSkip")
+ 					local skipnext1 = fwin:find("CGSkipClass")
+ 					if skipnext1 ~= nil then fwin:close(skipnext1) end
+ 					local skipnextWnd1 = CGSkip:new()
+-
++							
+ 					skipnextWnd1:init(eventIndex,skipIndex)
+ 					fwin:open(skipnextWnd1, fwin._system)
+-
+-
+-
++							
++					--eventIndex = e2
++					--mission = missions[eventIndex]
+ 					end
+-
++						
+ 					local mission_skip_id = mission[mission_param.mission_skip_id]
+ 					if zstring.tonumber(mission_skip_id) == 0 then
+ 					local skipnext1 = fwin:find("CGSkip")
+ 					if skipnext1 ~= nil then fwin:close(skipnext1) end
+ 				end
+-			end
+-		end
+-
+-
++			end	
++		end
++
++		-- 跳过事件段
+ 		if __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim then
+ 			local missionParam13 = mission[mission_param.mission_param13]
+ 			if #missionParam13 > 2 then
+@@ -1815,14 +1845,14 @@
+ 					local skipnext1 = fwin:find("CGSkipClass")
+ 					if skipnext1 ~= nil then fwin:close(skipnext1) end
+ 					local skipnextWnd1 = CGSkip:new()
+-
++							
+ 					skipnextWnd1:init(eventIndex,skipIndex)
+ 					fwin:open(skipnextWnd1, fwin._system)
+-
+-
+-
++							
++					--eventIndex = e2
++					--mission = missions[eventIndex]
+ 					end
+-
++						
+ 					local mission_skip_id = mission[mission_param.mission_skip_id]
+ 					if zstring.tonumber(mission_skip_id) == 0 then
+ 					local skipnext1 = fwin:find("CGSkip")
+@@ -1831,18 +1861,18 @@
+ 				state_machine.excute("events_teaching_skip_exit", 0, 0)
+ 			end
+ 		end
+-
++	------------------------------------------------------------------------------------------------------
+ 
+ 		eventRepeat = dms.atos(mission, mission_repeat)
+ 		saveBaseEData = dms.atos(mission, mission_repeat_target)
+ 		if saveKeyBase ~= nil then
+-
+-		end
+-
+-
+-
++			--CCUserDefault:sharedUserDefault():setStringForKey(saveKeyBase, saveBaseEData)
++		end
++		
++		-- SenderRecode()
++		
+ 		local missionProgress = dms.atos(mission, mission_progress)
+-
++		
+ 		if m_tOperateSystem == 5 then
+ 			if missionProgress == "301014" then
+ 				require "script/transformers/tip/MarketplaceReviewTask"
+@@ -1852,12 +1882,12 @@
+ 			end
+ 		end
+ 		local bRet = false
+-		local execute_type = dms.atos(mission, mission_execute_type)
+-
++		local execute_type = dms.atos(mission, mission_execute_type) -- dms.atoi(mission, mission_execute_type)
++		-- print("execute_type", execute_type)
+ 		last_mission_type = current_execute_type
+ 		current_execute_type = execute_type
+ 		if last_mission_type == execute_type_touchUI and current_execute_type ~= execute_type_touchUI then
+-
++			--print("关闭教学指引窗口！")
+ 			state_machine.excute("tuition_controller_exit", 0, "")
+ 		end
+ 		if execute_type ~= execute_type_dialog and execute_type ~= execute_type_treasure_drop
+@@ -1867,10 +1897,10 @@
+ 				MissionClass._pDialog = nil
+ 			end
+ 		end
+-
++		
+ 		local missionRound = dms.atoi(mission, mission_round)
+-		if __lua_project_id == __lua_project_gragon_tiger_gate or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
+-			or __lua_project_id == __lua_project_red_alert
++		if __lua_project_id == __lua_project_gragon_tiger_gate or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto  
++			or __lua_project_id == __lua_project_red_alert 
+ 			or __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim
+ 			then
+ 			if missionRound ~= currentEventBattleRoundCound and isInBattler == true then
+@@ -1878,30 +1908,37 @@
+ 			end
+ 		else
+ 			if isRunning() == true and missionRound > currentEventBattleRoundCound then
+-
++				--LuaClasses["BattleSceneClass"].nextAttack()
+ 				if MissionClass._pDialog ~= nil then
+ 					MissionClass._pDialog:removeFromParent(true)
+ 					MissionClass._pDialog = nil
+ 				end
+ 				LuaClasses["BattleSceneClass"].missionAttack()
+-
++				--[[
++				if mission_executeOverCallback ~= nil then
++					mission_executeOverCallback()
++					mission_executeOverCallback = nil
++				else
++					LuaClasses["BattleSceneClass"].missionAttack()
++				end
++				--]]
+ 				return
+ 			end
+ 		end
+ 
+-		if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+-			or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
++		if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
++			or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
+ 			then
+ 			if true == _mission_play_effect then
+ 				_mission_play_effect = false
+ 
+ 				stopEffect()
+-
+-
+-			end
+-		end
+-
+-		if execute_type ~= execute_type_touchUI then
++				-- stopAllEffects()
++				-- cc.SimpleAudioEngine:getInstance():stopAllEffects()
++			end
++		end
++
++		if execute_type ~= execute_type_touchUI then 
+ 			local tuitionWindow = fwin:find("TuitionControllerClass")
+ 			if tuitionWindow ~= nil then
+ 				fwin:close(tuitionWindow)
+@@ -1912,10 +1949,10 @@
+ 			_ED._current_scene_id = tonumber(dms.atos(mission, mission_param1))
+ 			if _ED._current_scene_id == 0 then
+ 				draw.scene = nil
+-
++				-- cc.Director:getInstance():runWithScene(draw.scene)
+ 				local scene = CCScene:create()
+ 				cc.Director:getInstance():replaceScene(scene)
+-
++		
+ 				LuaClasses["MainWindowClass"]._buttonIndex = 1
+ 				LuaClasses["MainWindowClass"]:Draw()
+ 			else
+@@ -1963,7 +2000,7 @@
+ 			executeTouchUI()
+ 			return
+ 		elseif execute_type == execute_type_openWindow then
+-
++			-- MainWindowClass.openWindow(LuaClasses[dms.atos(mission, mission_param1)])
+ 			executeOpenWindows()
+ 			bRet = true
+ 		elseif execute_type == execute_type_drawEffect then
+@@ -1972,17 +2009,17 @@
+ 			armatureName = string.format("effice_%s", armatureName)
+ 			local armaturePad = nil
+ 			local loop =  dms.atoi(mission, mission_param4)
+-
++			
+ 			local effectType = dms.atoi(mission, mission_param7)
+-			if __lua_project_id==__lua_project_all_star
++			if __lua_project_id==__lua_project_all_star 
+ 				or __lua_project_id == __lua_king_of_adventure or true then
+ 				if loop == 0 and effectType ~= 1 then
+-					local armatureBack = fwin:find("FightMapClass"):getBackgroundPanel():getChildByTag(1)
++					local armatureBack = fwin:find("FightMapClass"):getBackgroundPanel():getChildByTag(1) -- LuaClasses["BattleSceneClass"]._widgetBg:getChildByTag(1)
+ 					if armatureBack ~= nil then
+ 						local fileName = armatureBack._fileName
+-
++						-- tolua.cast(armatureBack, "cc.Node"):removeFromParent(true)
+ 						armatureBack:removeFromParent(true)
+-
++						-- CCArmatureDataManager:sharedArmatureDataManager():removeArmatureFileInfo(fileName)
+ 						ccs.ArmatureDataManager:getInstance():removeArmatureFileInfo(fileName)
+ 					end
+ 					saveExecuteEvent(mission, true)
+@@ -2024,11 +2061,11 @@
+ 			if window.getBackgroundPanel ~= nil then
+ 				root = window:getBackgroundPanel()
+ 			end
+-
++				
+ 			local deleteEffectCallback = function(armatureBack)
+ 				if armatureBack ~= nil and armatureBack._LastsCountTurns > 0 then
+ 					if armatureBack._LastsCountTurns > 0 then
+-
++						-- 删除光效
+ 						armatureBack._LastsCountTurns = armatureBack._LastsCountTurns == nil and 0 or armatureBack._LastsCountTurns - 1
+ 						if armatureBack._LastsCountTurns <= 0 then
+ 							local tmission = armatureBack._mission
+@@ -2036,17 +2073,17 @@
+ 							armatureBack:removeFromParent(true)
+ 							mission_effect = nil
+ 							local skipnext1 = fwin:find("CGSkipClass")
+-							if skipnext1 ~= nil then
++							if skipnext1 ~= nil then 
+ 								fwin:close(skipnext1)
+ 							end
+ 
+ 							state_machine.excute("new_cg_skip_window_close", 0, 0)
+ 
+-							if __lua_project_id == __lua_project_red_alert_time
+-								or __lua_project_id == __lua_project_pacific_rim
+-								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+-								or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece
+-								or __lua_project_id == __lua_project_l_naruto
++							if __lua_project_id == __lua_project_red_alert_time 
++								or __lua_project_id == __lua_project_pacific_rim 
++								or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
++								or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece 
++								or __lua_project_id == __lua_project_l_naruto  
+ 								then
+ 								cacher.removeAllTextures()
+ 							else
+@@ -2076,13 +2113,13 @@
+ 					        if event.eventData.stringValue ~= "" and event.eventData.stringValue ~= " " then
+ 					        	local params = zstring.split(event.eventData.stringValue, "_")
+ 					        	if params[1] == "change" then
+-
+-
++					        		-- local coord = zstring.split(params[2], ",")
++					        		-- state_machine.excute("home_map_scroll_to_position", 0, {cc.p(coord[1], coord[2]), false, 0})
+ 					        	elseif params[1] == "move" then
+-
+-
++					        		-- local coord = zstring.split(params[2], ",")
++					        		-- state_machine.excute("home_map_scroll_to_position", 0, {cc.p(coord[1], coord[2]), true, tonumber(coord[3])})
+ 					        	elseif params[1] == "come" then
+-					        		playEffect(formatMusicFile("effect", dms.atoi(mission, mission_param10)))
++					        		playEffect(formatMusicFile("effect", dms.atoi(mission, mission_param10)))	
+ 					        	end
+ 					        end
+ 					    end, sp.EventType.ANIMATION_EVENT)
+@@ -2102,7 +2139,7 @@
+ 					root:addChild(skeletonNode, dms.atoi(mission, mission_param9))
+ 					root.__event_effects = root.__event_effects or {}
+ 					root.__event_effects[baseName] = skeletonNode
+-
++					
+ 					effect = skeletonNode
+ 					effect._LastsCountTurns = loop
+ 
+@@ -2127,20 +2164,20 @@
+ 					if loop == 0 then
+ 						local skeletonNode = root.__event_effects[baseName]
+ 						root.__event_effects[baseName] = nil
+-
++						--if nil ~= skeletonNode then
+ 							root:removeChild(skeletonNode, true)
+-
++						--end
+ 					end
+ 				end
+ 			else
+ 				effect = draw.createEffect(armatureName, armatureFile, root, loop)
+ 			end
+ 			mission_effect = effect
+-
++			
+ 			if __lua_project_id == __lua_king_of_adventure or true then
+ 				if nil ~= effect then
+-					local parent_node = root
+-					if armatureName == "effice_4003" or armatureName == "effice_4004" or armatureName == "effice_4005"
++					local parent_node = root --fwin:find("FightMapClass"):getBackgroundPanel()
++					if armatureName == "effice_4003" or armatureName == "effice_4004" or armatureName == "effice_4005" 
+ 					or armatureName == "effice_4006" or armatureName == "effice_4007" then
+ 						parent_node:reorderChild(effect, 1000)
+ 					else
+@@ -2148,8 +2185,8 @@
+ 					end
+ 				end
+ 			end
+-
+-			if __lua_project_id==__lua_project_all_star
++			
++			if __lua_project_id==__lua_project_all_star 
+ 				or __lua_project_id == __lua_king_of_adventure or true then
+ 				if loop == -1 then
+ 					if nil ~= effect then
+@@ -2164,18 +2201,18 @@
+ 				if armatureBack == nil then
+ 					return
+ 				end
+-
++				
+ 				if armatureBack._LastsCountTurns > 0 then
+-
++					-- 删除光效
+ 					armatureBack._LastsCountTurns = armatureBack._LastsCountTurns == nil and 0 or armatureBack._LastsCountTurns - 1
+ 					if armatureBack._LastsCountTurns <= 0 then
+ 						local fileName = armatureBack._fileName
+ 						local tmission = armatureBack._mission
+ 						armatureBack._mission = nil
+-
++						-- tolua.cast(armatureBack, "cc.Node"):removeFromParent(true)
+ 						armatureBack:removeFromParent(true)
+-
+-
++						-- 删除光效文件
++						-- CCArmatureDataManager:sharedArmatureDataManager():removeArmatureFileInfo(fileName)
+ 						ccs.ArmatureDataManager:getInstance():removeArmatureFileInfo(fileName)
+ 						if dms.atoi(tmission, mission_param6) ~= 1 then
+ 							saveExecuteEvent(tmission, true)
+@@ -2192,53 +2229,53 @@
+ 			end
+ 			bRet = true
+ 		elseif execute_type == execute_type_requestFight then
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
++			-- local function responseBattleFieldInitCallback(_cObj, _tJsd)
++				-- local pNode = tolua.cast(_cObj, "cc.Node")
++				-- local pDataInterpreter = tolua.cast(_tJsd, "CCNetworkDataInterpreter")
++				-- if pDataInterpreter ~= nil and pDataInterpreter:isSucceed() == true then
++					-- saveExecuteEvent(mission, false)
++					-- LuaClasses["BattleSceneClass"].Draw()
++					-- -- cc.Director:getInstance():touchListener(true)
++					-- if __lua_project_id == __lua_king_of_adventure then
++						-- if mission ~= nil then
++							-- local currentMissionId = dms.atos(mission, mission_progress)
++							-- if currentMissionId == "10102" then
++								-- LuaClasses["BattleSceneClass"].hideMaster()
++								-- LuaClasses["BattleSceneClass"].changeBackground(11)
++							-- elseif currentMissionId == "203057" then
++								-- LuaClasses["BattleSceneClass"].hideMaster()
++								-- LuaClasses["BattleSceneClass"].changeBackground(103)
++							-- elseif currentMissionId == "302010" or
++								-- currentMissionId == "304020" or 
++								-- currentMissionId == "30703" or 
++								-- currentMissionId == "302105" or 
++								-- currentMissionId == "203065" or 
++								-- currentMissionId == "302005" or 
++								-- currentMissionId == "30808" then
++								-- LuaClasses["BattleSceneClass"].hideMaster()
++							-- end
++						-- end
++					-- end
++				-- else
++					-- local scheduler = cc.Director:getInstance():getScheduler()
++					-- local responseBattleFieldInitEntry = nil
++					-- local function responseBattleFieldInitStep()
++						-- if responseBattleFieldInitEntry ~= nil then
++							-- scheduler:unscheduleScriptEntry(responseBattleFieldInitEntry)
++							-- responseBattleFieldInitEntry = nil
++						-- end
++						-- -- 添加断连 请求链接
++						-- if draw.isLogin == false then
++							-- if Sender(protocol_command.battle_field_init.code, nil, nil, nil, nil, responseBattleFieldInitCallback,1) ~= nil then
++								-- showConnecting()
++							-- end
++						-- end
++					-- end
++					-- responseBattleFieldInitEntry = scheduler:scheduleScriptFunc(responseBattleFieldInitStep, 1, false)
++					
++				-- end
++			-- end
++			--DOTO 战斗请求
+ 			local _battle_type = dms.atoi(mission, mission_param5)
+ 			local function responseBattleFieldInitCallback(response)
+ 				if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
+@@ -2260,7 +2297,7 @@
+ 
+ 					local fightLoadingCell = fwin:find("FightLoadingCellClass")
+ 					if fwin:find("FightLoadingCellClass") == nil then
+-
++						-- _ED._npc_addition_params = senderStr
+ 						app.load("client.battle.BattleStartEffect")
+ 						local bse = BattleStartEffect:new()
+ 						bse:init(1)
+@@ -2268,14 +2305,14 @@
+ 					else
+ 						fightLoadingCell._unload = false
+ 					end
+-
++					
+ 					app.load("client.battle.fight.Fight")
+ 					if _battle_type == 1 then
+ 						Fight._lock_start_count = 3
+ 					end
+ 				end
+ 			end
+-
++				
+ 			_ED._current_scene_id =  dms.atos(mission, mission_param1)
+ 			local envId = zstring.split(dms.atos(mission, mission_param2), ",")
+ 			_ED._scene_npc_id = dms.atos(mission, mission_param3)
+@@ -2287,13 +2324,13 @@
+ 
+ 			_ED._battle_eve_release_ship_id = dms.atos(mission, mission_param10)
+ 			_ED._battle_eve_auto_fight = tonumber(dms.atos(mission, mission_param11)) == 1
+-
++			
+ 			local senderStr = ""
+ 
+ 			local currShip = fundShipWidthId(_ED.user_formetion_status[1])
+-
++			
+ 			local user_camp = 1
+-			if currShip ~= nil then
++			if currShip ~= nil then 
+ 				user_camp = dms.int(dms["ship_mould"], currShip.ship_template_id, ship_mould.capacity)
+ 				if user_camp < 1 then
+ 					user_camp = 1
+@@ -2302,42 +2339,42 @@
+ 
+ 			_ED._battle_eve_environment_ship_id = envId[zstring.tonumber(user_camp)]
+ 
+-			if _battle_type == 1 then
++			if _battle_type == 1 then		-- EVE的战斗
+ 				_ED._battle_init_type = "0"
+-
+-
+-				if __lua_project_id == __lua_king_of_adventure then
++				-- senderStr = senderStr .. "1,".._ED._scene_npc_id..","..unlockNpc..","..battleCount
++				
++				if __lua_project_id == __lua_king_of_adventure then 
+ 					senderStr = senderStr .. "1,"..envId[zstring.tonumber(_ED.user_info.user_head)]..","..unlockNpc..","..battleCount
+ 				else
+-
++					-- senderStr = senderStr .. "1,"..envId[zstring.tonumber(_ED.user_info.user_gender)]..","..unlockNpc..","..battleCount
+ 					senderStr = senderStr .. "1,"..envId[zstring.tonumber(user_camp)]..","..unlockNpc..","..battleCount
+ 				end
+-
+-			elseif _battle_type ==0 then
+-
++				
++			elseif _battle_type ==0 then	-- 脚本战斗
++				-- senderStr = senderStr .. "2,".._ED._current_scene_id..",".._ED.user_info.user_gender..","..battleCount
+ 				senderStr = senderStr .. "2,".._ED._current_scene_id..","..user_camp..","..battleCount
+ 				_ED._battle_init_type = "0"
+ 			end
+-
+-
+-
+-
+-
+-
+-
+-
+-			if __lua_project_id == __lua_project_legendary_game then
++			
++			-- _ED._npc_addition_params = senderStr
++			-- app.load("client.battle.BattleStartEffect")
++			-- local bse = BattleStartEffect:new()
++			-- bse:init(1)
++			-- fwin:open(bse, fwin._windows)
++			
++			-- cc.Director:getInstance():touchListener(false)
++			if __lua_project_id == __lua_project_legendary_game then			-- 超神请求本地战斗数据
+ 				app.load("client.battle.report.BattleReport")
+ 				local fightModule = FightModule:new()
+ 				fightModule:initFight(_ED._scene_npc_id, _ED._npc_difficulty_index, 0)
+ 				fightModule:doFight()
+-
++				
+ 				responseBattleInitCallback({RESPONSE_SUCCESS = true, PROTOCOL_STATUS = 0})
+ 			elseif __lua_project_id == __lua_project_gragon_tiger_gate
+ 				or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+-				or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece
+-				or __lua_project_id == __lua_project_l_naruto
+-				or __lua_project_id == __lua_project_red_alert
++				or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece 
++				or __lua_project_id == __lua_project_l_naruto 
++				or __lua_project_id == __lua_project_red_alert 
+ 				then
+ 				local function responseBattleStartCallback( response )
+ 					if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
+@@ -2355,7 +2392,7 @@
+ 						_ED._fightModule:initFightOrder(_ED.user_info, orderList)
+ 						_ED._is_eve_battle = true
+ 						_ED.battleData.battle_init_type = 0
+-
++						
+ 						responseBattleFieldInitCallback({RESPONSE_SUCCESS = true, PROTOCOL_STATUS = 0})
+ 					end
+ 				end
+@@ -2364,15 +2401,15 @@
+ 				NetworkManager:register(protocol_command.battle_result_start.code, nil, nil, nil, nil, responseBattleStartCallback, false, nil)
+ 			else
+ 				protocol_command.battle_field_init.param_list = "".._ED._current_scene_id.."\r\n".._ED._scene_npc_id.."\r\n".._ED._npc_difficulty_index.."\r\n"..senderStr
+-
++				-- Sender(protocol_command.battle_field_init.code, nil, nil, nil, nil, responseBattleFieldInitCallback,1)
+ 				NetworkManager:register(protocol_command.battle_field_init.code, nil, nil, nil, nil, responseBattleFieldInitCallback, false, nil)
+ 			end
+ 			return
+ 		elseif execute_type == execute_type_dialog then
+-
++			-- stopAllEffects()
+ 			if dms.atoi(mission, mission_param9) > 0 then
+-
+-
++				-- cc.SimpleAudioEngine:getInstance():stopAllEffects()
++				-- playEffect(formatMusicFile("effect", dms.atoi(mission, mission_param9)))
+ 				if __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim then
+ 					playEffectOld(formatMusicFile("effect", dms.atoi(mission, mission_param9)))
+ 				else
+@@ -2380,12 +2417,12 @@
+ 				end
+ 				_mission_play_effect = true
+ 			end
+-
++			-- executeDialog()
+ 			app.load("client.mission.missionex.RoleDialogue")
+ 
+ 			local closeIt = fwin:find("BlankScreenClass")
+ 			if closeIt ~= nil then fwin:close(closeIt) end
+-
++			
+ 			local historyDialog = fwin:find("RoleDialogueClass")
+ 			if historyDialog ~= nil then
+ 				state_machine.excute("role_dialogue_push", 0, {_mission = mission, _missions = missions, _eventIndex = eventIndex})
+@@ -2393,12 +2430,12 @@
+ 				local hWnd = RoleDialogue:new()
+ 				hWnd:init(mission, missions, eventIndex)
+ 				fwin:open(hWnd, fwin._windows)
+-			end
++			end	
+ 			return
+ 		elseif execute_type == execute_type_hsRole then
+-
+-
+-
++			-- LuaClasses["BattleSceneClass"].showRole(dms.atos(mission, mission_param1), dms.atos(mission, mission_param2))
++			-- return
++			-- --bRet = true
+ 
+ 			local result = fwin:find("FightClass"):showRole(dms.atos(mission, mission_param1), dms.atos(mission, mission_param2))
+ 			if result == false then
+@@ -2407,7 +2444,7 @@
+ 			bRet = true
+ 		elseif execute_type == execute_type_blankScreen then
+ 			executeBlankScreen()
+-
++			-- bRet = true
+ 			return
+ 		elseif execute_type == execute_type_playMusic then
+ 			if dms.atoi(mission, mission_param1) > 0 then
+@@ -2423,13 +2460,13 @@
+ 			LuaClasses["BattleSceneClass"].missionAttack(execute_type)
+ 			bRet = true
+ 		elseif execute_type == execute_type_start_battle then
+-
+-
+-
++			-- saveExecuteEvent(mission, false)
++			-- LuaClasses["BattleSceneClass"].missionAttack(execute_type)
++			-- return
+ 			bRet = true
+ 		elseif execute_type == execute_type_resume_battle then
+ 			saveExecuteEvent(mission, false)
+-
++			--LuaClasses["BattleSceneClass"].missionAttack(execute_type)
+ 			if __lua_project_id == __lua_project_adventure then
+ 				state_machine.excute("fight_attack_logic_round_running_adventure", 0, 0)
+ 			else
+@@ -2438,22 +2475,22 @@
+ 			return
+ 		elseif execute_type == execute_type_over_battle then
+ 			saveExecuteEvent(mission, false)
+-
++			--LuaClasses["BattleSceneClass"].missionAttack(execute_type)
+ 			state_machine.excute("fight_exit", 0, 0)
+ 			return
+ 		elseif execute_type == execute_type_get_resource then
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
++			-- local function responseGetResourceCallback(_cObj, _tJsd)
++				-- hideConnecting()
++				-- local pNode = tolua.cast(_cObj, "cc.Node")
++				-- local pDataInterpreter = tolua.cast(_tJsd, "CCNetworkDataInterpreter")
++				-- if pDataInterpreter ~= nil and pDataInterpreter:isSucceed() == true then
++					-- saveExecuteEvent(mission, true)
++				-- else
++					-- if Sender(protocol_command.get_resource.code, nil, nil, nil, nil, responseGetResourceCallback,1) ~= nil then
++						-- showConnecting()
++					-- end
++				-- end
++			-- end
+ 			local function responseGetResourceCallback(response)
+ 				if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
+ 					if response.node == "1" then
+@@ -2465,18 +2502,18 @@
+ 			end
+ 			protocol_command.get_resource.param_list = ""..dms.atos(mission, mission_param1)
+ 			local tipController = ""..dms.atos(mission, mission_param2)
+-
+-
+-
++			-- if Sender(protocol_command.get_resource.code, nil, nil, nil, nil, responseGetResourceCallback,1) ~= nil then
++				-- showConnecting()
++			-- end
+ 			NetworkManager:register(protocol_command.get_resource.code, nil, nil, nil, tipController, responseGetResourceCallback, false, nil)
+ 			return
+ 		elseif execute_type == execute_type_openzhuce then
+-
+-
++			-- local closeIt = fwin:find("BlankScreenClass")
++			-- if closeIt ~= nil then fwin:close(closeIt) end
+ 			if __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim then
+-
++				-- resetMission()
+ 				fwin:removeAll()
+-
++				-- cacher.destorySystemCacher(nil)
+ 				cacher.removeAllTextures()
+ 				state_machine.excute("login_character_create", 0, "login_character_create.")
+ 			else
+@@ -2484,31 +2521,31 @@
+ 				state_machine.excute("login_character_create", 0, "login_character_create.")
+ 			end
+ 			return
+-
+-
+-
+-
++			
++			-- MissionClass._pBlankScreen:setVisible(false)
++			-- LuaClasses["CharacterCreateClass"]:Draw() 
++			-- return
+ 		elseif execute_type == execute_type_start_play then
+ 			local ids = zstring.split(dms.atos(mission, mission_param10), ",")
+-
++			
+ 			local currShip = fundShipWidthId(_ED.user_formetion_status[1])
+-
++			
+ 			local user_camp = 1
+ 			if currShip ~= nil then
+ 				user_camp = dms.int(dms["ship_mould"], currShip.ship_template_id, ship_mould.capacity)
+ 			end
+-
+-
+-
+-
++			
++			-- local gender = zstring.tonumber(_ED.user_info.user_gender)
++			-- gender = gender <= 0 and 1 or gender
++			
+ 			local str = _all_star_head_leader[tonumber(ids[user_camp])]
+-
++			-- str = zstring.exchangeFrom(str)
+ 			_ED._current_scene_id =  dms.atos(mission, mission_param1)
+-
++			-- local envId = zstring.split(dms.atos(mission, mission_param2), ",")
+ 			_ED._scene_npc_id = dms.atos(mission, mission_param3)
+ 			_ED._npc_difficulty_index = dms.atos(mission, mission_param4)
+-
+-
++			-- _ED._battle_init_type = "0"
++			
+ 			_ED.npc_state[zstring.tonumber("".._ED._scene_npc_id)]=0
+ 
+ 			if __lua_project_id == __lua_project_adventure then
+@@ -2519,8 +2556,8 @@
+ 				parser2(str2,39)
+ 				parser2(str1,400)
+ 				parser2(str,182)
+-				local scheduler = cc.Director:getInstance():getScheduler()
+-				local schedulerID = nil
++				local scheduler = cc.Director:getInstance():getScheduler()  
++				local schedulerID = nil  
+ 				local  timer = 0
+ 
+ 				schedulerID = scheduler:scheduleScriptFunc(function ()
+@@ -2531,35 +2568,35 @@
+ 					app.load("client.adventure.battle.AdventureBattle")
+                 	cc.Director:getInstance():purgeCachedData()
+ 
+-            		fwin:open(AdventureBattle:new():init(), fwin._background)
+-    			end,1.0,false)
++            		fwin:open(AdventureBattle:new():init(), fwin._background)	
++    			end,1.0,false) 
+ 			else
+ 				parser2(str,182)
+ 				if _ED.battleData ~= nil then
+-
+-
++					-- saveExecuteEvent(mission, false)
++					-- LuaClasses["BattleSceneClass"].Draw()
+ 					app.load("client.battle.BattleStartEffect")
+ 					local bse = BattleStartEffect:new()
+ 					bse:init(1)
+ 					fwin:open(bse, fwin._windows)
+-			    end
++			    end 
+ 			end
+ 			return
+ 		elseif execute_type == execute_type_getdata_play then
+ 			local ids = zstring.split(dms.atos(mission, mission_param10), ",")
+-
++			
+ 			local currShip = fundShipWidthId(_ED.user_formetion_status[1])
+-
++			
+ 			local user_camp = 1
+-			if currShip ~= nil then
++			if currShip ~= nil then 
+ 				user_camp = dms.int(dms["ship_mould"], currShip.ship_template_id, ship_mould.capacity)
+ 			end
+-
+-
+-
+-
++			
++			-- local gender = zstring.tonumber(_ED.user_info.user_gender)
++			-- gender = gender <= 0 and 1 or gender
++			
+ 			local strData = _all_star_head_leader[tonumber(ids[user_camp])]
+-
++			-- strData = zstring.exchangeFrom(strData)
+ 			parser2(strData,39)
+ 			MissionClass._isFirstGame = true
+ 
+@@ -2574,14 +2611,14 @@
+ 			local hWnd = CGScene:new()
+ 			hWnd:init(mission)
+ 			fwin:open(hWnd, fwin._screen)
+-
+-
++			
++			
+ 			return
+ 		elseif execute_type == execute_type_treasure_drop then
+-			local icon_index = dms.atos(mission, mission_param1)
+-			local prop_name = dms.atos(mission, mission_param2)
+-			local prop_number = dms.atos(mission, mission_param3)
+-			local prop_count = dms.atos(mission, mission_param4)
++			local icon_index = dms.atos(mission, mission_param1) 	--道具图片索引
++			local prop_name = dms.atos(mission, mission_param2)		--道具名字
++			local prop_number = dms.atos(mission, mission_param3)	--道具数量
++			local prop_count = dms.atos(mission, mission_param4)	--道具简介
+ 			app.load("client.mission.missionex.BattleAcquireProp")
+ 			local fightWindow = BattleAcquireProp:new()
+ 			fightWindow:init(
+@@ -2593,7 +2630,7 @@
+ 			})
+ 			fwin:open(fightWindow, fwin._windows)
+ 		elseif execute_type == execute_type_wait_cd then
+-			local _cdTime = dms.atof(mission, mission_param1)/1000
++			local _cdTime = dms.atof(mission, mission_param1)/1000 	--等待的cd时长
+ 			app.load("client.mission.missionex.WaitCD")
+ 			fwin:open(WaitCD:new():init(mission, _cdTime), fwin._system)
+ 			return
+@@ -2602,15 +2639,15 @@
+ 		elseif execute_type == execute_type_role_restart_over then
+ 			return
+ 		elseif execute_type == execute_type_prologue then
+-
+-
++			
++			--print(a+1)
+ 			missionLock = true
+ 			local openType = zstring.tonumber(dms.atos(mission, mission_param1))
+ 			local sceneIndex = zstring.tonumber(dms.atos(mission, mission_param2))
+ 			local sceneID = zstring.tonumber(dms.atos(mission, mission_param3))
+ 
+ 			executePrologueScreen(openType, sceneIndex, sceneID)
+-
++			
+ 			return
+ 		elseif execute_type == execute_type_stop_fight then
+ 			TuitionController._locked = true
+@@ -2624,7 +2661,7 @@
+ 			local cmission = mission
+ 			missionLock = true
+ 			executeScript(mission)
+-			if missionRound == 1 then
++			if missionRound == 1 then -- 不结束事件
+ 				return
+ 			else
+ 				local missionEndParam = dms.atos(mission, mission_end_param)
+@@ -2637,10 +2674,10 @@
+ 				return
+ 			end
+ 		elseif execute_type == execute_type_camp_choose then
+-
+-
++			-- local closeIt = fwin:find("BlankScreenClass")
++			-- if closeIt ~= nil then fwin:close(closeIt) end
+ 			local skipnext1 = fwin:find("CGSkipClass")
+-			if skipnext1 ~= nil then
++			if skipnext1 ~= nil then 
+ 				fwin:close(skipnext1)
+ 			end
+ 			app.load("client.red_alert.login.CampChose")
+@@ -2648,10 +2685,10 @@
+ 			return
+ 		elseif execute_type == execute_type_start_plot_battle then
+ 			bRet = true
+-
+-
++			-- missionLock = true
++			-- _ED.npc_last_state[npc_id] = "".._ED.npc_state[npc_id]
+ 			local skipnext1 = fwin:find("CGSkipClass")
+-			if skipnext1 ~= nil then
++			if skipnext1 ~= nil then 
+ 				fwin:close(skipnext1)
+ 			end
+             _ED._current_scene_id = dms.atos(mission, mission_param1)
+@@ -2665,23 +2702,23 @@
+         elseif execute_type == execute_type_play_plot_dialog then
+         	bRet = false
+         	app.load("client.mission.missionex.BattleStoryOne")
+-
++			-- missionLock = true
+ 			state_machine.excute("battle_story_one_window_open", 0, dms.atos(mission, mission_param1))
+ 			return
+ 		elseif execute_type == execute_type_battle_pause then
+ 			bRet = false
+-
++			-- missionLock = true
+ 
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			local attackCount = dms.atoi(mission, mission_param3)
+ 
+-
++            -- state_machine.excute("battle_scene_pause", 0, 0)
+             _ED._battle_pause = true
+             state_machine.excute("battle_scene_push_mission", 0, {execute_type, attackerCamp, attackerFormationIndex, attackCount})
+ 
+-            if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2
+-            	or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto
++            if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
++            	or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
+             	then
+             	if attackerCamp == 2 then
+             		bRet = true
+@@ -2693,31 +2730,31 @@
+         	end
+ 		elseif execute_type == execute_type_battle_resume then
+ 			bRet = true
+-
++			-- missionLock = true
+ 
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			local attackCount = dms.atoi(mission, mission_param3)
+-
++			
+             state_machine.excute("battle_scene_resume", 0, 0)
+             state_machine.excute("battle_ui_change_show_state", 0, true)
+ 
+             _ED._battle_pause = false
+-
++            -- state_machine.excute("fight_role_controller_battle_lock_attack_for_mission", 0, false)
+             state_machine.excute("fight_role_controller_check_battle_speed_for_mission", 0, 0)
+             state_machine.excute("fight_role_controller_check_battle_speed", 0, 0)
+         elseif execute_type == execute_type_add_role_power then
+-
++        	-- 35增加角色怒气		出手方 0我方 1敌方	1-9阵容位置	第x次出手	怒气增加方 0我方 1敌方	0主公 1-9阵容位置	加的值	
+         	bRet = false
+-
++			-- missionLock = true
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			local attackCount = dms.atoi(mission, mission_param3)
+-
++			
+ 			local adderCamp = dms.atoi(mission, mission_param4)
+ 			local adderFormationIndex = dms.atoi(mission, mission_param5)
+ 			local addValue = dms.atoi(mission, mission_param6)
+-
++			-- print("-----:::::", "35增加角色怒气")
+ 
+ 			state_machine.excute("battle_scene_push_mission", 0, {execute_type, attackerCamp, attackerFormationIndex, attackCount, adderCamp, adderFormationIndex, addValue})
+ 
+@@ -2739,23 +2776,23 @@
+ 			state_machine.excute("battle_win_window_open", 0, "")
+ 		elseif execute_type == execute_type_role_death then
+ 			bRet = false
+-
++			-- missionLock = true
+ 
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			local attackCount = dms.atoi(mission, mission_param3)
+ 
+-
++            -- state_machine.excute("battle_scene_pause", 0, 0)
+             state_machine.excute("battle_scene_push_mission", 0, {execute_type, attackerCamp, attackerFormationIndex, attackCount})
+             return
+         elseif execute_type == execute_type_role_change then
+         	bRet = false
+-
++			-- missionLock = true
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			local spriteId = dms.atoi(mission, mission_param3)
+ 
+-
++            -- state_machine.excute("battle_scene_pause", 0, 0)
+             state_machine.excute("battle_scene_push_mission", 0, {execute_type, attackerCamp, attackerFormationIndex, spriteId})
+         	return
+         elseif execute_type == execute_type_role_remove then
+@@ -2763,7 +2800,7 @@
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			local attackCount = dms.atoi(mission, mission_param3)
+-
++			
+             state_machine.excute("battle_scene_push_mission", 0, {execute_type, attackerCamp, attackerFormationIndex, spriteId})
+         	return
+         elseif execute_type == execute_type_role_add then
+@@ -2785,7 +2822,7 @@
+ 				window:setAnchorPoint(cc.p(movePosition.x / size.width, movePosition.y / size.height))
+ 				window:setPosition(movePosition)
+ 				window._mission = mission
+-				window:runAction(cc.Sequence:create({cc.ScaleTo:create(t, scaleTo), cc.CallFunc:create(function(sender)
++				window:runAction(cc.Sequence:create({cc.ScaleTo:create(t, scaleTo), cc.CallFunc:create(function(sender) 
+ 					saveExecuteEvent(sender._mission, true)
+ 				end)}))
+ 				return
+@@ -2806,10 +2843,10 @@
+ 			end
+ 		elseif execute_type == execute_type_battle_change_scene then
+ 			bRet = false
+-
+-
++			-- _ED._battle_wait_change_scene = false
++			-- state_machine.excute("fight_start_fight", 0, 0)
+ 			state_machine.excute("fight_role_controller_change_battle", 0, 0)
+-
++			-- _ED._battle_wait_change_scene = false
+ 
+ 			local skip = dms.atoi(mission, mission_param1)
+ 			if skip == 1 then
+@@ -2820,26 +2857,26 @@
+ 			else
+ 				return
+ 			end
+-		elseif execute_type == execute_type_battle_role_skill_attack then
++		elseif execute_type == execute_type_battle_role_skill_attack then 	--	= "44角色释放技能"					-- 44
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			local lockType = dms.atoi(mission, mission_param3)
+ 			_ED._fightModule:setFightObjectSkillAttack(attackerCamp, attackerFormationIndex, lockType)
+ 			bRet = true
+-		elseif execute_type == execute_type_battle_role_super_skill then
++		elseif execute_type == execute_type_battle_role_super_skill then 	--	= "45角色释放绝技"					-- 45
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			_ED._fightModule:setPowerSkillState(attackerCamp, attackerFormationIndex, true)
+ 
+ 			bRet = true
+-		elseif execute_type == execute_type_change_formation then
++		elseif execute_type == execute_type_change_formation then 			--	= "46角色上阵"					-- 46
+ 			bRet = false
+ 			local shipMouldId = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 
+ 			local _ship = fundShipWidthTemplateId(shipMouldId)
+-
+-
++			-- Fury: sin ese heroe (tutorial repetido: la tirada ya no es la del heroe
++			-- garantizado) _ship es nil y :2870 tumbaba el juego; se salta el paso.
+ 			if _ship == nil then
+ 				saveExecuteEvent(mission, true)
+ 				return
+@@ -2857,17 +2894,17 @@
+ 			end
+ 
+ 			local str = ""
+-            str = str.._ship.ship_id .. "\r\n"
+-			str = str..attackerFormationIndex.."\r\n"
++            str = str.._ship.ship_id .. "\r\n" --战船ID
++			str = str..attackerFormationIndex.."\r\n"  --阵型ID
+ 			str = str.."1"
+-
++			
+             protocol_command.formation_change.param_list = str
+             NetworkManager:register(protocol_command.formation_change.code, nil, nil, nil, nil, responseChoiceHeroBattleCallback, false, nil)
+ 			return
+ 		elseif execute_type == execute_type_stop_fight_change_scene_action then
+ 			_mission_stop_fight_change_scene_action = dms.atoi(mission, mission_param1)
+ 			bRet = true
+-		elseif execute_type == execute_type_change_battle_role then
++		elseif execute_type == execute_type_change_battle_role then -- 48变更战斗角色
+ 			local attackerCamp = dms.atoi(mission, mission_param1)
+ 			local attackerFormationIndex = dms.atoi(mission, mission_param2)
+ 			local environmentShipId = dms.atoi(mission, mission_param3)
+@@ -2875,11 +2912,11 @@
+ 			state_machine.excute("fight_role_controller_change_battle_role", 0, {attackerCamp, attackerFormationIndex, environmentShipId})
+ 
+ 			bRet = true
+-		elseif execute_type == execute_type_change_battle_role_attack_state then
+-			local attackState = dms.atoi(mission, mission_param1)
++		elseif execute_type == execute_type_change_battle_role_attack_state then -- 49角色行动状态
++			local attackState = dms.atoi(mission, mission_param1) -- 0暂停 1恢复
+ 			_ED._battle_role_attack_state = attackState
+ 			bRet = true
+-		elseif execute_type == execute_type_change_battle_role_process_attack_state then
++		elseif execute_type == execute_type_change_battle_role_process_attack_state then -- 50变改角色出手状态
+ 			local attackerFormationIndexs = dms.atos(mission, mission_param1)
+ 			local attackerAttackState = dms.atoi(mission, mission_param2) == 1
+ 			local defenderFormationIndexs = dms.atos(mission, mission_param3)
+@@ -2898,7 +2935,7 @@
+ 			bRet = true
+ 		end
+ 		saveExecuteEvent(mission, bRet)
+-
++		
+ 	else
+ 		missionId = missionId or -1
+ 		complated = "1"
+@@ -2906,37 +2943,37 @@
+ 		saveEData = ""..missionId..","..eventIndex..","..eventRepeat..","..complated..","..offval
+ 
+ 		if saveKeyBase ~= nil then
+-
+-		end
+-
+-
++			--CCUserDefault:sharedUserDefault():setStringForKey(saveKeyBase, saveBaseEData)
++		end
++		
++		-- SenderRecode(true)
+ 		SenderRecodeExt()
+-
+-
+-
+-
++		
++		--CCUserDefault:sharedUserDefault():setStringForKey(saveKey, saveEData)
++		--CCUserDefault:sharedUserDefault():flush()
++		
+ 		eventIndex = 0
+-
++		-- missions:release()
+ 		missions = nil
+ 		mission = nil
+-
++		
+ 		clearMissionUIData()
+-
++		
+ 		currentEventBattleRoundCound = 0
+ 		mission_mould = -1
+-
++		
+ 		if mission_executeOverCallback ~= nil then
+ 			mission_executeOverCallback()
+ 			mission_executeOverCallback = nil
+ 		end
+-
+-
+-
+-
+-
+-
+-
+-
++		--if isRunning() == true then
++		--	LuaClasses["BattleSceneClass"].missionAttack()
++		--end
++		
++		--if isRunning() == true then
++		--	LuaClasses["BattleSceneClass"].missionAttack()
++		--end
++		-- cacher.destorySystemCacher(nil)
+ 		cc.Director:getInstance():getTextureCache():removeUnusedTextures()
+ 	end
+ end
+@@ -2969,32 +3006,32 @@
+ 	MissionClass._touchUICallback = touchUICallback
+ end
+ 
+-local function mission_moveTouchEventListener(moveCalssHome, moveLayerName,touchX, touchY,WidgetName1)
+-
+-	if moveCalssHome == nil or moveCalssHome == "" or moveCalssHome == "0"
+-		or moveLayerName == nil or moveLayerName == ""or moveLayerName == "0"
++local function mission_moveTouchEventListener(moveCalssHome, moveLayerName,touchX, touchY,WidgetName1)--封装移动的方法
++	--如果移动的calss和移动的层还有
++	if moveCalssHome == nil or moveCalssHome == "" or moveCalssHome == "0" 
++		or moveLayerName == nil or moveLayerName == ""or moveLayerName == "0" 
+ 		or touchX == nil or touchY == nil  then
+ 		return
+ 	end
+-	local widget = LuaClasses[moveCalssHome]._uiLayer:getWidgetByName(moveLayerName)
+-	local mWidgetName = LuaClasses[moveCalssHome]._uiLayer:getWidgetByName(WidgetName1)
+-
++	local widget = LuaClasses[moveCalssHome]._uiLayer:getWidgetByName(moveLayerName)--那个calss的得到UI对象
++	local mWidgetName = LuaClasses[moveCalssHome]._uiLayer:getWidgetByName(WidgetName1)--那个calss的得到UI对象
++	
+ 	local percents = 0
+ 	if mWidgetName:getPositionX() > draw.size().width/2 then
+-		percents = (mWidgetName:getPositionX()+draw.size().width/2-mWidgetName:getContentSize().width)/widget:getInnerContainerSize().width*100
++		percents = (mWidgetName:getPositionX()+draw.size().width/2-mWidgetName:getContentSize().width)/widget:getInnerContainerSize().width*100--计算按钮在滑动层的X的百分比
+ 		if percents <= 0 then
+ 			percents = 100
+ 		end
+ 	else
+ 		percents = 1
+ 	end
+-	widget:scrollToPercentHorizontal(percents,0,false)
++	widget:scrollToPercentHorizontal(percents,0,false)--让滑动层定位在见的区域（参数1=百分比，参数2=时间，参数3=false）
+ end
+ 
+ executeTouchUI = function()
+ 	missionLock = true
+ 	if true then
+-
++		-- missionLock = true
+ 		local tuitionWindow = fwin:find("TuitionControllerClass")
+ 		if tuitionWindow == nil then
+ 			fwin:open(TuitionController:new():init(mission), fwin._dialog)
+@@ -3005,9 +3042,9 @@
+ 		return
+ 	end
+ 
+-
++	-- cc.Director:getInstance():touchListener(false)
+ 	missionLock = true
+-
++	
+ 	local missionId = dms.atoi(mission, mission_id)
+ 	local missionEventId = dms.atoi(mission, mission_event_id)
+ 	local windowName = dms.atos(mission, mission_param1)
+@@ -3046,14 +3083,14 @@
+ 	if missionId == 7 and missionEventId == 3 then
+ 		LuaClasses["FormationClass"].resetPageIndex()
+ 	end
+-
++	
+ 	mission_unregisterTuitionTouchEventListener()
+-
++	
+ 	if MissionClass._uiLayer == nil then
+ 		MissionClass._uiLayer = TouchGroup:create()
+ 		draw.graphics(MissionClass._uiLayer, 100)
+ 	end
+-
++	
+ 	if __lua_project_id == __lua_king_of_adventure then
+ 		if mission ~= nil then
+ 			local moveClassName = dms.atos(mission, mission_param12)
+@@ -3065,12 +3102,12 @@
+ 	end
+ 	if windowName ~= nil and windowName ~= "0" and #windowName > 0 then
+ 		mission_registerTuitionTouchEventListener(widgetName, MissionClass._touchUICallback)
+-		local uiObject = nil
++		local uiObject = nil 
+ 		local _uox = nil
+ 		local _uoy = nil
+ 		local selfUiLayer = tolua.cast(LuaClasses[windowName]._uiLayer, "cc.Node")
+-
+-		if __lua_project_id == __lua_project_all_star or
++		
++		if __lua_project_id == __lua_project_all_star or 
+ 			__lua_project_id == __lua_king_of_adventure then
+ 			if windowName == "EquipmentInformationClass" then
+ 				if selfUiLayer == nil then
+@@ -3079,7 +3116,7 @@
+ 				end
+ 			end
+ 		end
+-
++		
+ 		if selfUiLayer~= nil and LuaClasses[windowName]._uiLayer ~= nil and LuaClasses[windowName]._uiLayer:getParent() ~= nil then
+ 			uiObject= LuaClasses[windowName]._uiLayer:getWidgetByName(widgetName)
+ 			if windowName == "PlotSceneClass" and string.match(widgetName, "%D+") == "Panel_pve_target" then
+@@ -3089,20 +3126,20 @@
+ 				local scrollinfo = tolua.cast(LuaClasses[windowName]._uiLayer:getWidgetByName("ScrollView_13314"),"ScrollView")
+ 				if placeInfo:getPositionY() > draw.size().height/2 then
+ 					percents = 100-(placeInfo:getPositionY()+draw.size().height/2-placeInfo:getContentSize().height)/scrollinfo:getInnerContainerSize().height*100
+-
+-
++					
++					-- 如果移动超过了最上方，就定位在最上方
+ 					if percents < 0 then
+ 						percents = 1
+ 					end
+ 				else
+-
++					-- 如果移动超过了最下方，就定位在最下方
+ 					percents = 100
+ 				end
+-
+-
+-			end
+-		end
+-
++			
++				-- scrollinfo:scrollToPercentVertical(percents,0,false)
++			end
++		end
++		
+ 		if cellIndex <= 0 then
+ 			local scheduler = cc.Director:getInstance():getScheduler()
+ 			local pauseEntry = nil
+@@ -3110,7 +3147,7 @@
+ 			local function update(delta)
+ 
+ 				missionSuspendTime = missionSuspendTime + delta
+-
++				
+ 				if missionSuspendTime >= 3600 then
+ 					unregisterTuitionTouchEventListener(MissionClass._touchUICallback)
+ 					if MissionClass._pTuitionDlg ~= nil then
+@@ -3137,25 +3174,36 @@
+ 							local scrollinfo = tolua.cast(LuaClasses[windowName]._uiLayer:getWidgetByName("ScrollView_13314"),"ScrollView")
+ 							if placeInfo:getPositionY() > draw.size().height/2 then
+ 								percents = 100-(placeInfo:getPositionY()+draw.size().height/2-placeInfo:getContentSize().height)/scrollinfo:getInnerContainerSize().height*100
+-
+-
++								
++								-- 如果移动超过了最上方，就定位在最上方
+ 								if percents < 0 then
+ 									percents = 1
+ 								end
+ 							else
+-
++								-- 如果移动超过了最下方，就定位在最下方
+ 								percents = 100
+ 							end
+-
+-
++						
++							-- scrollinfo:scrollToPercentVertical(percents,0,false)
+ 						end
+ 					end
+ 				end
+-
+-
++					
++				-- local item = uiObject
+ 				if uiObject ~= nil then
+-
+-
++				--[[
++					if uiObject._xx == nil then
++						uiObject._xx, xyy = uiObject:getPosition()
++					else
++						local xx, yy = uiObject:getPosition()
++						if xx == uiObject._xx then
++							
++						else
++							uiObject._xx = xx
++						end
++					end
++				--]]
++					
+ 					if _uox == nil then
+ 						_uox, _uoy = uiObject:getPosition()
+ 					else
+@@ -3183,14 +3231,14 @@
+ 							_uox = xx
+ 						end
+ 					end
+-
+-				end
+-			end
+-
++					
++				end
++			end
++			
+ 			pauseEntry = scheduler:scheduleScriptFunc(update, 0.3, false)
+-
+-
+-
++			
++			-- registerTuitionTouchEventListener(widgetName, touchUICallback)
++			-- MissionClass:drawTuition(uiObject)
+ 		else
+ 			local scheduler = cc.Director:getInstance():getScheduler()
+ 			local pauseEntry = nil
+@@ -3219,7 +3267,7 @@
+ 					if LuaClasses[windowName]._uiLayer~= nil then
+ 						_lvParent = LuaClasses[windowName]._uiLayer:getParent()
+ 					end
+-					if LuaClasses[windowName]._uiLayer ~= nil and _lvParent ~= nil
++					if LuaClasses[windowName]._uiLayer ~= nil and _lvParent ~= nil 
+ 						and _lvParent:isRunning() == true then
+ 						uiObject= LuaClasses[windowName]._uiLayer:getWidgetByName(widgetName)
+ 					end
+@@ -3261,15 +3309,21 @@
+ 					end
+ 				end
+ 			end
+-
++			-- touchListView:scheduleUpdateWithPriorityLua(update, 1)
+ 			pauseEntry = scheduler:scheduleScriptFunc(update, 0.3, false)
+-
+-
+-
++			
++			-- MissionClass:drawTuition(touchListView:getItem(cellIndex-1))
++			-- MissionClass:drawTuition(touchListView:getItem(cellIndex-1))
+ 		end
+ 	end
+ 	if (message ~= "0" and #message > 0 ) then
+-
++		--[[
++		if MissionClass._pTuitionDlg == nil then
++			MissionClass:drawTuitionDlg(dialogXY, message, dlgWH, textWH, textXY)
++		else
++			draw.label(MissionClass._pTuitionDlg, "Label_7994_1", message)
++		end
++		--]]
+ 		MissionClass:drawTuitionDlg(dialogXY, message, dlgWH, textWH, textXY)
+ 		if windowName == "0" or windowName == nil or #windowName <= 0 then
+ 			local function TuitionDlgCallback(sender, eventType)
+@@ -3281,9 +3335,9 @@
+ 					mission._isOver = true
+ 					executeEvent()
+ 				elseif eventType == ccs.TouchEventType.began then
+-					playEffect(formatMusicFile("button", 1))
+-				end
+-
++					playEffect(formatMusicFile("button", 1))		--加入按钮音效
++				end
++				
+ 			end
+ 			MissionClass._pTuitionDlg:getWidgetByName("Panel_8017"):addTouchEventListener(TuitionDlgCallback)
+ 		end
+@@ -3300,7 +3354,7 @@
+ 	local missionEventId = dms.atoi(mission, mission_event_id)
+ 	local resetWindos = dms.atos(mission, mission_round)
+ 	local windowParams = dms.atos(mission, mission_param1)
+-
++		
+ 	local opened = fwin:find(windowParams)
+ 	if resetWindos == "1" and opened == nil then
+ 		fwin:removeAll()
+@@ -3314,14 +3368,14 @@
+ 			fwin:open(Menu:new(), fwin._taskbar)
+ 		end
+ 		state_machine.unlock("menu_manager_change_to_page", 0, "")
+-		state_machine.excute("menu_manager", 0,
++		state_machine.excute("menu_manager", 0, 
+ 			{
+ 				_datas = {
+-					terminal_name = "menu_manager",
+-					next_terminal_name = next_terminal_name_string,
++					terminal_name = "menu_manager", 	
++					next_terminal_name = next_terminal_name_string, 
+ 					current_button_name = button_name_string,
+-					but_image = image_name_string,
+-					terminal_state = 0,
++					but_image = image_name_string, 		
++					terminal_state = 0, 
+ 					isPressedActionEnabled = true
+ 				}
+ 			}
+@@ -3345,7 +3399,7 @@
+ 	end
+ 	local _widget = GUIReader:shareReader():widgetFromJsonFile("interface/feature_is_turned_on.json")
+ 	MissionClass._uiLayer:addWidget(_widget)
+-
++	
+ 	local function backHomeButtonCallback(sender, eventType)
+ 		if eventType == ccs.TouchEventType.ended then
+ 			LuaClasses["MainWindowClass"]._buttonIndex = 1
+@@ -3353,34 +3407,34 @@
+ 			mission._isOver = true
+ 			executeEvent()
+ 		elseif eventType == ccs.TouchEventType.began then
+-			playEffect(formatMusicFile("button", 1))
+-		end
+-	end
+-
++			playEffect(formatMusicFile("button", 1))		--加入按钮音效
++		end
++	end
++	
+ 	local tipTop = zstring.split(dms.atos(mission, mission_param4), "x")
+ 	draw.label(_widget, "Label_53480", ""..tipTop[1].."["..dms.atos(mission, mission_param3).."]"..tipTop[2])
+-	if __lua_project_id == __lua_king_of_adventure then
++	if __lua_project_id == __lua_king_of_adventure then 
+ 		draw.label(_widget, "Label_53490", ""..dms.atos(mission, mission_param5))
+ 	else
+ 		draw.label(_widget, "Label_53481", ""..dms.atos(mission, mission_param5))
+ 	end
+-
++	
+ 	draw.setVisible(_widget, "ImageView_"..dms.atos(mission, mission_param2), true)
+-
++	
+ 	local backHomeButton = tolua.cast(MissionClass._uiLayer:getWidgetByName("Button_53482"), "Button")
+ 	backHomeButton:addTouchEventListener(backHomeButtonCallback)
+ end
+ 
+ executeDialog = function()
+-
++	
+ end
+ 
+ executePrologueScreen = function(openType,sceneIndex,sceneID)
+-
++	-- 0 开启 1 完成
+ 	app.load("client.mission.missionex.PrologueScreenInfo")
+ 	local closeIt = fwin:find("PrologueScreenInfoClass")
+ 	if closeIt ~= nil then fwin:close(closeIt) end
+-
++	
+ 	local infoGUI = PrologueScreenInfo:new()
+ 	infoGUI:init(sceneID, sceneIndex,openType,mission)
+ 	fwin:open(infoGUI, fwin._screen)
+@@ -3411,25 +3465,25 @@
+ 			MissionClass._pBlankScreen = nil
+ 		end
+ 	else
+-		local s = draw.size()
++		local s = draw.size() --cc.Director:getInstance():getWinSize() --draw.size()
+ 		local layer = CCLayerColor:create(ccc4(0, 0, 0, 255), s.width * 2, s.height * 2)
+ 		layer:setPosition(ccp(- 1 * draw.size().width/2, -1 * draw.size().height/2))
+-		if __lua_project_id == __lua_king_of_adventure
++		if __lua_project_id == __lua_king_of_adventure 
+ 		or __lua_project_id == __lua_project_koone then
+ 			layer:setAnchorPoint(CCPoint(0.5,0.5))
+ 		end
+-
+-
++		-- layer:setCascadeColorEnabled(true)
++		
+ 		MissionClass._pBlankScreen = layer
+-
+-		if fInterval > 0 then
++		
++		if fInterval > 0 then		
+ 			local ecount = 0
+ 			local function exitBlankScreen(dt)
+-
+-
+-
+-
+-
++				---- cc.Director:getInstance():touchListener(true)
++				--if MissionClass._pBlankScreen ~= nil then
++				--	MissionClass._pBlankScreen:removeFromParent(true)
++				--	MissionClass._pBlankScreen = nil
++				--end
+ 				ecount = ecount + 1
+ 				if ecount == 1 then
+ 					return
+@@ -3441,7 +3495,7 @@
+ 				saveExecuteEvent(mission, true)
+ 				ecount = 0
+ 			end
+-
++			
+ 			local function onNodeEvent(event)
+ 				if event == "enterTransitionFinish" then
+ 					schedulerEntry = scheduler:scheduleScriptFunc(exitBlankScreen, fInterval, false)
+@@ -3452,35 +3506,35 @@
+ 					end
+ 				end
+ 			end
+-
++			-- cc.Director:getInstance():touchListener(false)
+ 			layer:registerScriptHandler(onNodeEvent)
+ 		end
+-
++		
+ 		draw.graphics(layer, 100)
+-
+-
+-		if __lua_project_id == __lua_king_of_adventure
++		
++		--开场事件的光效文件
++		if __lua_project_id == __lua_king_of_adventure 
+ 		or __lua_project_id == __lua_project_koone then
+ 			if  armatureName~="" and armatureName ~= "0" then
+ 				local armatureFile = string.format("effect/effice_%d.ExportJson", tonumber(armatureName))
+ 				armatureName = string.format("effice_%d", tonumber(armatureName))
+ 				local effect = createEffect(armatureName, armatureFile, layer, loop)
+ 				effect:setAnchorPoint(CCPoint(0.5,0.5))
+-
++				
+ 				local function drawEffectMissionOverFunc(armatureBack)
+ 					if armatureBack == nil then
+ 						return
+ 					end
+-
++					
+ 					if armatureBack._LastsCountTurns > 0 then
+-
++						-- 删除光效
+ 						armatureBack._LastsCountTurns = armatureBack._LastsCountTurns == nil and 0 or armatureBack._LastsCountTurns - 1
+ 						if armatureBack._LastsCountTurns <= 0 then
+ 							local fileName = armatureBack._fileName
+ 							tolua.cast(armatureBack, "cc.Node"):removeFromParent(true)
+-
++							-- 删除光效文件
+ 							CCArmatureDataManager:sharedArmatureDataManager():removeArmatureFileInfo(fileName)
+-
++							-- saveExecuteEvent(mission, true)
+ 						end
+ 					end
+ 				end
+@@ -3490,25 +3544,25 @@
+ 				end
+ 			end
+ 		end
+-
++		-- -----------------------
+ 		local contentLabel = nil
+ 		if contentText ~= "0" and contentText ~= "" then
+ 			contentText = zstring.replace(contentText, "\\r\\n", "\r\n")
+ 			local fontSize = 12
+ 			local contentLabel = Label:create()
+-
++			--contentLabel:setText(contentText)
+ 			draw.text(contentLabel,contentText)
+-			contentLabel:setFontName("fonts/FZZYJW.TTF")
+-			contentLabel:setFontSize(fontSize)
+-
+-
+-
+-			contentLabel:setAnchorPoint(CCPoint(0.5, 0.5))
++			contentLabel:setFontName("fonts/FZZYJW.TTF")-->设置字体名字
++			contentLabel:setFontSize(fontSize)-->设置字体大小
++			
++			--local contentLabel =CCLabelTTF:create(contentText, "fonts/FZZYJW.TTF", fontSize, CCSizeMake(0, 0), kCCTextAlignmentLeft)
++			
++			contentLabel:setAnchorPoint(CCPoint(0.5, 0.5))-->设置锚点
+ 			local csize = contentLabel:getContentSize()
+ 			contentLabel:setPosition(ccp(s.width, s.height))
+ 			layer:addChild(contentLabel)
+ 		end
+-
++			
+ 		if fInterval > 0 then
+ 			if contentLabel ~= nil then
+ 				local array = CCArray:createWithCapacity(3)
+@@ -3529,7 +3583,7 @@
+ 		if nil ~= mission_effect then
+ 			mission_effect:removeFromParent(true)
+ 			mission_effect = nil
+-
++			-- cacher.destorySystemCacher(nil)
+ 			cacher.removeAllTextures()
+ 		end
+ 	end
+@@ -3538,10 +3592,16 @@
+ 	elseif mission ~= nil then
+ 		saveExecuteEvent(mission, true)
+ 	end
+-
+-
++	--executeEvent()
++	--[[
+ 	if missions == nil then
+-
++		callFunc()
++		return false
++	end
++	mission_executeOverCallback = callFunc
++	--]]
++	if missions == nil then
++		-- callFunc()
+ 		return false
+ 	end
+ 	return true
+@@ -3552,7 +3612,7 @@
+ 		if nil ~= mission_effect then
+ 			mission_effect:removeFromParent(true)
+ 			mission_effect = nil
+-
++			-- cacher.destorySystemCacher(nil)
+ 			cacher.removeAllTextures()
+ 		end
+ 	end
+@@ -3567,19 +3627,19 @@
+ end
+ 
+ function executeNextRoundBattleEvent(roundCount)
+-	furyGuardRound = roundCount
++	furyGuardRound = roundCount -- Fury 4-oct: ultimo asalto visto (vigilante del tutorial)
+ 	if furyGuardRoundSeen ~= roundCount and furyGuardTouch ~= nil then furyGuardRoundSeen = roundCount; furyGuardTouch() end
+ 	if missions == nil then
+-
++		--> print("executeNextRoundBattleEvent:missions-nil")
+ 		return false
+ 	end
+ 	local eventCount = #missions
+ 	mission = eventIndex < eventCount and missions[eventIndex + 1] or nil
+-
+-
+-
+-
+-
++	--> print("executeNextRoundBattleEvent:mission--", mission, roundCount)
++	-- Fury 4-oct: el asalto llega con un "24等待CD" aun contando (WaitCD.lua cuenta en tiempo real con os.time,
++	-- 1-2 s, y el combate sigue mientras). Sin esto el paso de este asalto no casaba nunca y el tutorial
++	-- de la 1-1 (2011011 -> 2011012) se quedaba parado en 3/10. Se da la espera por terminada en el acto y
++	-- los pasos del asalto salen ya, igual que si la espera hubiera acabado antes (WaitCD no avanza dos veces).
+ 	if mission ~= nil and dms.atos(mission, mission_execute_type) == execute_type_wait_cd then
+ 		local waitCD = fwin:find("WaitCDClass")
+ 		local nextMission = eventIndex + 1 < eventCount and missions[eventIndex + 2] or nil
+@@ -3611,11 +3671,11 @@
+ 		local execute_type = dms.atos(_tmission, mission_execute_type)
+ 		if "20剧情战斗初始化事件" == execute_type then
+ 			_tmission = eventIndex < eventCount and missions[eventIndex + offset + 1] or nil
+-			execute_type = dms.atos(_tmission, mission_execute_type)
++			execute_type = dms.atos(_tmission, mission_execute_type) 
+ 			if execute_type == _type then
+ 				eventIndex = eventIndex + 1
+ 			end
+-		end
++		end	
+ 		if execute_type == _type then
+ 			return true
+ 		end
+@@ -3636,13 +3696,13 @@
+ 			return
+ 		end
+ 	end
+-	if __lua_project_id == __lua_project_red_alert
+-
++	if __lua_project_id == __lua_project_red_alert 
++		-- or __lua_project_id == __lua_project_red_alert_time or __lua_project_id == __lua_project_pacific_rim
+ 		then
+ 		if mission_effect ~= nil then
+ 			local tmission = mission_effect._mission
+ 			mission_effect._mission = nil
+-
++			-- mission_effect:removeFromParent(true)
+ 			mission_effect = nil
+ 			if tmission ~= nil and dms.atoi(tmission, mission_param6) ~= 1 then
+ 				saveExecuteEvent(tmission, true)
+@@ -3650,13 +3710,13 @@
+ 		end
+ 	end
+ 	clearMissionUIData()
+-
++	
+ 	currentEventBattleRoundCound = 0
+ 	mission_mould = -1
+ 	mission_executeOverCallback = nil
+-
+-	missions = nil
+-	mission = nil
++	
++	missions = nil 
++	mission = nil 
+ 	saveKey = nil
+ 	missionId = 0
+ 	eventIndex = 0
+@@ -3664,7 +3724,7 @@
+ 	complated = "0"
+ 	offval = ""
+ 	tuitionMissionId = 0
+-
++	
+ 	saveEData = nil
+ 	saveKeyBase = nil
+ 	saveBaseEData = nil
+@@ -3672,28 +3732,28 @@
+ 
+ 	waitExecuteMission = false
+     missionLock = false
+-
++	
+ 	current_execute_type = ""
+-
++	
+ 	if missions ~= nil then
+-
++		-- missions:release()
+ 		missions = nil
+ 		mission = nil
+ 	end
+-
+-
++	-- unregisterTuitionTouchEventListener(nil)
++	-- cc.Director:getInstance():touchListener(true)
+ end
+ 
+ function clearMission()
+-
++	-- if missionIsOver() == false and eventIndex > 0 then
+ 		clearMissionUIData()
+-
++		
+ 		currentEventBattleRoundCound = 0
+ 		mission_mould = -1
+ 		mission_executeOverCallback = nil
+-
+-		missions = nil
+-		mission = nil
++		
++		missions = nil 
++		mission = nil 
+ 		saveKey = nil
+ 		missionId = 0
+ 		eventIndex = 0
+@@ -3701,7 +3761,7 @@
+ 		complated = "0"
+ 		offval = ""
+ 		tuitionMissionId = 0
+-
++		
+ 		saveEData = nil
+ 		saveKeyBase = nil
+ 		saveBaseEData = nil
+@@ -3709,21 +3769,21 @@
+ 
+ 		waitExecuteMission = false
+ 	    missionLock = false
+-
++		
+ 		current_execute_type = ""
+-
+-end
+-
+-
++	-- end
++end
++		
++--教学用的
+ local mission_open_game_world_map_terminal = {
+ 	_name = "mission_open_game_world_map",
+-	_init = function (terminal)
+-
++	_init = function (terminal) 
++		
+ 	end,
+ 	_inited = false,
+ 	_instance = self,
+ 	_state = 0,
+-	_invoke = function(terminal, instance, params)
++	_invoke = function(terminal, instance, params) 
+ 		app.load("configs.csb.config")
+ 		app.load("client.red_alert.campaign.nationalwar.NationalTruce")
+ 		app.load("client.red_alert.campaign.nationalwar.NationalTruceLoading")
+@@ -3737,26 +3797,21 @@
+ state_machine.add(mission_open_game_world_map_terminal)
+ state_machine.init()
+ 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-FURY_GUARD_ENABLED = false
+-FURY_GUARD_STEP = 20
+-FURY_GUARD_INPUT = 60
+-
++-- ----------------------------------------------------------------------------
++-- Fury 4-oct: VIGILANTE del tutorial de combate. Un paso del guion de combate
++-- (mission2) que lleva demasiado tiempo sin cumplirse se da por cumplido, y antes
++-- se sueltan todos los cerrojos con los que un paso puede dejar el combate parado
++-- (espera WaitCD, guia/mascara, dialogo, estado de mision del QTE, __lock_battle,
++-- personajes en pausa). Cubre cualquier carrera espera-contra-combate (el asalto
++-- que llega antes que el paso, el «enter_perfect» del QTE que no llega, una
++-- ventana que nunca aparece...) en todos los pasos y oleadas: el jugador nunca
++-- queda clavado mas de FURY_GUARD_STEP / FURY_GUARD_INPUT segundos. Solo actua
++-- en combate (isInBattler); la ciudad tiene sus propias valvulas.
++-- Tiempo REAL (os.time): no depende de las marchas ni de la escala de tiempo.
++-- ----------------------------------------------------------------------------
++FURY_GUARD_STEP = 20    -- pasos que no esperan al jugador (espera, pausa, script...)
++FURY_GUARD_INPUT = 60   -- pasos que esperan un toque (dialogo, guia "3点击UI")
++-- Pasos que solo ESPERAN algo y se pueden dar por cumplidos sin romper el combate.
+ FURY_GUARD_SKIP = {
+ 	["24等待CD"] = true,
+ 	["7对话"] = true, ["3点击UI"] = true, ["28执行脚本"] = true,
+@@ -3781,8 +3836,8 @@
+ 		MissionClass._pDialog:removeFromParent(true)
+ 		MissionClass._pDialog = nil
+ 	end
+-
+-
++	-- El QTE en espera de mision (29 con 4/14) rechaza todos los toques mientras
++	-- __lock_battle siga puesto.
+ 	state_machine.excute("fight_qte_controller_change_mission_state", 0, 0)
+ 	if FightRoleController ~= nil then
+ 		FightRoleController.__lock_battle = false
+@@ -3790,17 +3845,14 @@
+ 	if _ED ~= nil and _ED._battle_role_attack_state == 0 then
+ 		_ED._battle_role_attack_state = 1
+ 	end
+-
+-
+-
++	-- Y el combate sigue, como al pulsar el TAP en el camino bueno (FightQTEController,
++	-- missionState 14 -> battle_resume + qte_to_auto_next_attack_role). _battle_pause se
++	-- deja: es lo que hace que el siguiente ataque complete un «33战斗暂停» en curso.
+ 	state_machine.excute("battle_resume", 0, 0)
+ 	state_machine.excute("fight_qte_controller_qte_to_auto_next_attack_role", 0, 0)
+ end
+ 
+ function furyGuardTick()
+-	if FURY_GUARD_ENABLED ~= true then
+-		return
+-	end
+ 	if isInBattler ~= true or missions == nil or mission == nil or missionIsOver() == true then
+ 		furyGuard.mission = nil
+ 		return
+@@ -3817,13 +3869,13 @@
+ 	if executeType == execute_type_dialog or executeType == execute_type_touchUI or executeType == execute_type_play_CG then
+ 		limit = FURY_GUARD_INPUT
+ 	end
+-
+-
++	-- Paso de un asalto: mientras el combate no llega a ese asalto, esperar es lo correcto.
++	-- Si el asalto YA PASO (la carrera), se ejecuta el paso en vez de esperar para siempre.
+ 	local missionRound = dms.atoi(mission, mission_round)
+ 	if missionRound > 0 then
+ 		if (furyGuardRound or 0) < missionRound then
+-
+-
++			-- Esperar el asalto es lo correcto, pero si el combate no se mueve (pausado por
++			-- un paso anterior), se le da un empujon cada FURY_GUARD_STEP s sin saltar el paso.
+ 			if now - furyGuard.since >= FURY_GUARD_STEP then
+ 				furyGuard.since = now
+ 				print("FURY_GUARD empujon", dms.atos(mission, mission_progress), missionRound, furyGuardRound)
+@@ -3844,10 +3896,10 @@
+ 		return
+ 	end
+ 	furyGuard.since = now
+-
+-
+-
+-
++	-- Los pasos que mueven el combate (inicio/fin, cambio de oleada 42/43...) NO se saltan:
++	-- saltar un 42/43 adelanta un cambio de oleada y luego llega el de verdad (dos nextBattle
++	-- = FightRoleController.lua:4053 sobre un ejercito que no existe). A esos solo se les
++	-- sueltan los cerrojos para que el combate llegue por si mismo a lo que esperan.
+ 	if FURY_GUARD_SKIP[executeType] ~= true then
+ 		print("FURY_GUARD empujon", dms.atos(mission, mission_progress), executeType)
+ 		furyGuardRelease()
+@@ -3864,6 +3916,7 @@
+ end
+ __fury_guard_sched = cc.Director:getInstance():getScheduler():scheduleScriptFunc(function() furyGuardTick() end, 1, false)
+ 
+-
++-- TutorialSkip: escolha entre fazer o tutorial ou pular (contas novas l1e0).
++-- Adaptado do APK original; intercepta executeMissionExt na primeira missao tuition.
+ app.load("client.mission.TutorialSkip")
+ TutorialSkip.install()

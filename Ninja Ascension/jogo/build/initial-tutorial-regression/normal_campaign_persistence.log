@@ -1,0 +1,12 @@
+[HOST_SERVER][22:31:28] battle_result_start tipo=0 cena=1 npc=1 dif=1 sender=1,4001,1,2 -> 2 batalha(s)
+[HOST_SERVER][22:31:28] cmd=battle_result_start seq=7 -> status=0 (23 chars)
+[HOST_SERVER][22:31:28] PVE resultado salvo cena=1 npc=1 estrelas=3 nivel=1 primeira_vitoria=True
+[HOST_SERVER][22:31:28] cmd=battle_result_verify seq=7 -> status=0 (28372 chars)
+[HOST_SERVER][22:31:28] PVE resultado salvo cena=1 npc=1 estrelas=3 nivel=1 primeira_vitoria=False
+[HOST_SERVER][22:31:28] cmd=battle_result_verify seq=7 -> status=0 (28367 chars)
+[HOST_SERVER][22:31:28] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][22:31:28] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][22:31:28] login_init conta=normal_campaign user_id=1 sessao='dqq...(43)'
+[HOST_SERVER][22:31:28] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+NORMAL_CAMPAIGN_PERSISTENCE_PASSED mission, no duplicate rewards, login, database reopen
+

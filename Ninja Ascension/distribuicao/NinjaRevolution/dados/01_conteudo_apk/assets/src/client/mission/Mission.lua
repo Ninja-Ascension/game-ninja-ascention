@@ -3915,3 +3915,8 @@ if __fury_guard_sched ~= nil then
 	cc.Director:getInstance():getScheduler():unscheduleScriptEntry(__fury_guard_sched)
 end
 __fury_guard_sched = cc.Director:getInstance():getScheduler():scheduleScriptFunc(function() furyGuardTick() end, 1, false)
+
+-- TutorialSkip: escolha entre fazer o tutorial ou pular (contas novas l1e0).
+-- Adaptado do APK original; intercepta executeMissionExt na primeira missao tuition.
+app.load("client.mission.TutorialSkip")
+TutorialSkip.install()

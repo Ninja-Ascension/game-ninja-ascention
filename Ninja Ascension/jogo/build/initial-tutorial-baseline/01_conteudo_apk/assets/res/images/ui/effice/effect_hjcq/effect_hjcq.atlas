@@ -1,0 +1,48 @@
+
+effect_hjcq.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 228, 93
+  size: 11, 11
+  orig: 94, 90
+  offset: 13, 60
+  index: -1
+7
+  rotate: false
+  xy: 228, 106
+  size: 18, 16
+  orig: 94, 90
+  offset: 67, 59
+  index: -1
+cqhw
+  rotate: false
+  xy: 2, 2
+  size: 82, 28
+  orig: 82, 28
+  offset: 0, 0
+  index: -1
+lz
+  rotate: true
+  xy: 98, 37
+  size: 85, 91
+  orig: 85, 92
+  offset: 0, 1
+  index: -1
+lzhjcq
+  rotate: true
+  xy: 191, 38
+  size: 84, 35
+  orig: 84, 35
+  offset: 0, 0
+  index: -1
+tb
+  rotate: false
+  xy: 2, 32
+  size: 94, 90
+  orig: 94, 90
+  offset: 0, 0
+  index: -1

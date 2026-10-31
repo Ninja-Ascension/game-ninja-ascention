@@ -1,0 +1,233 @@
+[
+  {
+    "apk": "assets/res/data/mould/mission1.txt",
+    "local": "jogo\\res\\data\\mould\\mission1.txt",
+    "present": true,
+    "same": true,
+    "sha256": "d26a49d12d18f80ae022ebc39b73b248025cd1fd7886862459d00b0e1c9edb9e"
+  },
+  {
+    "apk": "assets/res/data/mould/mission2.txt",
+    "local": "jogo\\res\\data\\mould\\mission2.txt",
+    "present": true,
+    "same": true,
+    "sha256": "bc6c730fdc8e9e5ee265968394f9df5fb72c124198ff52fba8057ce8f2a2aea6"
+  },
+  {
+    "apk": "assets/res/data/mould/mission3.txt",
+    "local": "jogo\\res\\data\\mould\\mission3.txt",
+    "present": true,
+    "same": true,
+    "sha256": "1ce46e9f2b1a295c2c1496c40c5a7042f4eb3c61dc24cc90df171f4456d3112d"
+  },
+  {
+    "apk": "assets/src/client/login/LoginLoading.lua",
+    "local": "jogo\\src\\client\\login\\LoginLoading.lua",
+    "present": true,
+    "same": false,
+    "sha256": "e696f47b6d0b2f066b9ddcbb8029281f4f652ea3f45baf5a01d1b4937601fd22"
+  },
+  {
+    "apk": "assets/src/client/mission/Mission.lua",
+    "local": "jogo\\src\\client\\mission\\Mission.lua",
+    "present": true,
+    "same": false,
+    "sha256": "0842e7d385a31b61bb8f811dcd6789c744e138bfb9bbc588615972628424861b"
+  },
+  {
+    "apk": "assets/src/client/mission/TutorialSkip.lua",
+    "local": "jogo\\src\\client\\mission\\TutorialSkip.lua",
+    "present": true,
+    "same": false,
+    "sha256": "f79dd326fc3efbcba6e884e5a5e33861579bd83a34061249791f7e142e1ab250"
+  },
+  {
+    "apk": "assets/src/client/mission/boss/BossIntroduce.lua",
+    "local": "jogo\\src\\client\\mission\\boss\\BossIntroduce.lua",
+    "present": true,
+    "same": false,
+    "sha256": "6d7998ae29a8df6c59bc158c52f073e42bcff59e6d17c6ffcba6f5f2d24cf3f5"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/BattleAcquireProp.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\BattleAcquireProp.lua",
+    "present": true,
+    "same": false,
+    "sha256": "1aee8235048d6a8421fc5cc2a928acfa3ce9e8ca5e0bc92c65f8bfdfd1155bf4"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/BattleSoftGuide.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\BattleSoftGuide.lua",
+    "present": true,
+    "same": false,
+    "sha256": "b89df41974dbbdfc0dd29aa0f623bd80de0908417362caf94112070763cb2a91"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/BattleStoryOne.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\BattleStoryOne.lua",
+    "present": true,
+    "same": false,
+    "sha256": "64bb054d780c6a60f2cfb183eba9a9432c0b9af5a54fb4de33807dccba918807"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/BattleStoryThree.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\BattleStoryThree.lua",
+    "present": true,
+    "same": false,
+    "sha256": "7ea4f60dec94d3579240f677abb9979d8d2f9cc989279b55a987ac6cd3fa4365"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/BattleStoryTwo.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\BattleStoryTwo.lua",
+    "present": true,
+    "same": false,
+    "sha256": "3ef817b0e1eaa8e1312f324383b91fa1826e8622e9042f2c92c9d6f6da0d4e99"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/BlankScreen.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\BlankScreen.lua",
+    "present": true,
+    "same": false,
+    "sha256": "45727fa92f5e94984f886b74371280d291d4559f0a60f762b713f09403ffc533"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/CGEventSkipNext.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\CGEventSkipNext.lua",
+    "present": true,
+    "same": false,
+    "sha256": "6ce7b620ab5e8f3d790763108116e53ce8e2766a294817daabafae2e7406db5c"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/CGScene.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\CGScene.lua",
+    "present": true,
+    "same": false,
+    "sha256": "06167672d2f3522442950b5f86dd75604477752604c5fed38865a351ed1a6c3d"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/CGSkip.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\CGSkip.lua",
+    "present": true,
+    "same": false,
+    "sha256": "99c5427e26d78561334b7abb592163fc2ec96913189ab76391bcde895907f4c4"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/EventsTeachingSkip.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\EventsTeachingSkip.lua",
+    "present": true,
+    "same": false,
+    "sha256": "8202563a9a337847058772d4d58ca97fb4dfc758938088843969d63c784aa502"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/LRoleDialogueSkip.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\LRoleDialogueSkip.lua",
+    "present": true,
+    "same": false,
+    "sha256": "dc10e3144b6a1be61c21c55b56c0193a19c95e224e3bf9e3ceac59e8e01dc9e1"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/NewCGSkip.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\NewCGSkip.lua",
+    "present": true,
+    "same": false,
+    "sha256": "75e3dc23fd8575c25f4184ff468c82d350506879ca5a0ed1b19e1a73e3e7b1c5"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/NewPalyerReward.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\NewPalyerReward.lua",
+    "present": true,
+    "same": false,
+    "sha256": "46589c340f3cca1e1e8fe3766c512606b87108231b31fc959cc42ca6dac36282"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/PrologueScreenInfo.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\PrologueScreenInfo.lua",
+    "present": true,
+    "same": false,
+    "sha256": "75caa79eb9c491658ff582362392bb02d6356610725175c1f931a2d256075309"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/RoleDialogue.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\RoleDialogue.lua",
+    "present": true,
+    "same": false,
+    "sha256": "9a8a64730f315f4fe5fe47cfcaecc7691d25c3e031efb26f8cbc7e546daa83ef"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/WaitCD.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\WaitCD.lua",
+    "present": true,
+    "same": false,
+    "sha256": "0cd3ee5e24abbe254111da227942250cd31a12e51c0d604e132c4615f3bde1af"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/WindowLock.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\WindowLock.lua",
+    "present": true,
+    "same": false,
+    "sha256": "c6840f3fe7b26f75660eff5f97acb1aa534de573f84e53b8a2b2b76d4800cbe0"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/RoleDialogueWidget/RoleDialogueExpressionWidget.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\RoleDialogueWidget\\RoleDialogueExpressionWidget.lua",
+    "present": true,
+    "same": false,
+    "sha256": "77f9ad262d09315518e96caea83d36771a71388cef34e84e04747e9ce37218f8"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/RoleDialogueWidget/RoleDialogueLeftBoxWidget.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\RoleDialogueWidget\\RoleDialogueLeftBoxWidget.lua",
+    "present": true,
+    "same": false,
+    "sha256": "9f8474f4131b27a07a60e906faf8bd73eeb5e1263100ddff900d60217bfc79b2"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/RoleDialogueWidget/RoleDialogueLeftRoleWidget.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\RoleDialogueWidget\\RoleDialogueLeftRoleWidget.lua",
+    "present": true,
+    "same": false,
+    "sha256": "d1100b6740d33d5878a2c869740cb4908c52530f8c5a4d24f34329265b0c2baf"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/RoleDialogueWidget/RoleDialogueRightBoxWidget.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\RoleDialogueWidget\\RoleDialogueRightBoxWidget.lua",
+    "present": true,
+    "same": false,
+    "sha256": "ab9463bcda0ad7a46365812cd053d9ea0f23c612ea6d5ceb38f528ec5a39214e"
+  },
+  {
+    "apk": "assets/src/client/mission/missionex/RoleDialogueWidget/RoleDialogueRightRoleWidget.lua",
+    "local": "jogo\\src\\client\\mission\\missionex\\RoleDialogueWidget\\RoleDialogueRightRoleWidget.lua",
+    "present": true,
+    "same": false,
+    "sha256": "18071aaf5731b8ff9a522e38bc1fb6553ff1bb84f5462762a331b2f51ee31f14"
+  },
+  {
+    "apk": "assets/src/client/mission/newfunopen/NewFunctionOpen.lua",
+    "local": "jogo\\src\\client\\mission\\newfunopen\\NewFunctionOpen.lua",
+    "present": true,
+    "same": false,
+    "sha256": "b1ed125c313d1766474cf9fcba3f3fd1cd72008957647f5371162a5410a6c27f"
+  },
+  {
+    "apk": "assets/src/client/mission/tuition/TuitionController.lua",
+    "local": "jogo\\src\\client\\mission\\tuition\\TuitionController.lua",
+    "present": true,
+    "same": false,
+    "sha256": "eb9f4c63eddea378f077301a6eb6f7e6c3fbb38456e6075e210c24af1b53e273"
+  },
+  {
+    "apk": "assets/src/client/protocol/ProtocolCommander.lua",
+    "local": "jogo\\src\\client\\protocol\\ProtocolCommander.lua",
+    "present": true,
+    "same": false,
+    "sha256": "1795deeb1e6a9676205b766b6a4984ce7bd41e4025f2dbe2f299ac6768ba6625"
+  },
+  {
+    "apk": "assets/src/client/protocol/ProtocolCommanderCopy.lua",
+    "local": "jogo\\src\\client\\protocol\\ProtocolCommanderCopy.lua",
+    "present": true,
+    "same": false,
+    "sha256": "6fbb968a7d6be22500eee4b6bbc9a10d435fdd640b85c0b393d56ea97107a266"
+  }
+]

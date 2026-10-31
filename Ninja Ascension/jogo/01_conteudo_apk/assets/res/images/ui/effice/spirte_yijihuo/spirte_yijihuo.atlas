@@ -1,0 +1,20 @@
+
+spirte_yijihuo.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_evolution_04
+  rotate: false
+  xy: 80, 23
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+light_evolution_01
+  rotate: false
+  xy: 2, 2
+  size: 76, 74
+  orig: 76, 74
+  offset: 0, 0
+  index: -1

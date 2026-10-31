@@ -138,7 +138,7 @@ MISSIONS = mission_index()
 
 def resume_record(db,account):
     """Local checkpoint inside the original login record field, no new parser."""
-    if not tutorial_enabled():return ''
+    if not tutorial_enabled(db,account):return ''
     with db._lock:
         rows=db._conn.execute('SELECT progress FROM tutorial_events WHERE conta_id=? AND mould LIKE ?',
                              (account,'3:%')).fetchall()
@@ -239,6 +239,9 @@ def install(server):
             if progress not in MISSIONS:
                 raise ValueError('etapa_ausente_no_acervo')
             definition=MISSIONS[progress]
+            import initial_tutorial
+            if initial_tutorial.managed(db,account) and (definition[0]!=3 or int(definition[1][0])>7):
+                raise ValueError('fora_do_tutorial_inicial')
             mould = '%s:%s' % (definition[0],definition[1][0])
             with db._lock:
                 previous=db._conn.execute('SELECT progress FROM tutorial_events WHERE conta_id=? AND mould=?',(account,mould)).fetchone()
@@ -246,7 +249,9 @@ def install(server):
                     db._conn.execute('INSERT OR REPLACE INTO tutorial_events VALUES (?,?,?)', (account,mould,progress))
                 db._conn.commit()
             server.log('tutorial etapa=%s conta_id=%s salva' % (progress,account))
-            return '%s education_change 0' % seq
+            if definition[0]==3 and definition[1][0]=='7' and int(definition[1][1])>=12:
+                with db._lock,db._conn:initial_tutorial.finish(db,account)
+            return ' '.join([str(seq),'education_change','0']+(initial_tutorial.login_tokens(db,account) if initial_tutorial.managed(db,account) else []))
         except (server._contas.ErroConta, ValueError) as exc:
             return server.recusa('education_change',seq,str(exc))
 
@@ -304,7 +309,7 @@ def install(server):
                         # Guided (tutorial) mode only: one level per first clear,
                         # preserving each level-triggered lesson. Normal play uses
                         # the original EXP rule below (player_level_local).
-                        if tutorial_enabled():
+                        if tutorial_enabled(db,account):
                             grade=min(grade+1,max(int(k) for k in data.tabela('user_experience_param.txt') if k.isdigit()))
                         silver+=int(reward[0]);changed=True
                         db._conn.execute('INSERT INTO local_pve_clears VALUES (?,?,?,?)',(account,scene,npc,stars))
@@ -312,7 +317,7 @@ def install(server):
                         db._conn.execute('INSERT INTO tutorial_progress VALUES (?,0) ON CONFLICT(conta_id) DO UPDATE SET experiencia=0',(account,))
                     elif stars>exists[0]:
                         db._conn.execute('UPDATE local_pve_clears SET stars=? WHERE conta_id=? AND scene=? AND npc=?',(stars,account,scene,npc))
-                    if not tutorial_enabled():
+                    if not tutorial_enabled(db,account):
                         # Original rule: every victory grants player EXP equal
                         # to the battle's energy cost (npc.attack_need_food).
                         import player_level_local

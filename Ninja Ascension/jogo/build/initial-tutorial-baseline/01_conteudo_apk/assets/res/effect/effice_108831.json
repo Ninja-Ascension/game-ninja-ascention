@@ -1,0 +1,57 @@
+{
+"skeleton": { "hash": "8EWu78Jm8qJ8sE7uS3npDaxJQKY", "spine": "2.1.27", "width": 2, "height": 2, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "heidian", "bone": "root", "color": "ffffff00", "attachment": "heidian" }
+],
+"skins": {
+	"default": {
+		"heidian": {
+			"heidian": { "width": 2, "height": 2 }
+		}
+	}
+},
+"events": {
+	"effice_108831": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"heidian": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 9.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0666 },
+			{ "time": 0.5333 },
+			{ "time": 0.7333 }
+		],
+		"events": [
+			{ "time": 0, "name": "effice_108831" },
+			{ "time": 1.3666, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 1.7333, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 2.2, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 2.4333, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 3.1666, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 3.5666, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 3.9, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 4.6, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 7.7333, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 7.9333, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 8.1, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 8.2666, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 8.4333, "name": "effice_108831", "string": "hurt_after_fly_shake" },
+			{ "time": 8.4666, "name": "effice_108831", "string": "kill" },
+			{ "time": 8.7333, "name": "effice_108831", "string": "hurt_after_repel_shake" },
+			{ "time": 8.7666, "name": "effice_108831", "string": "next" },
+			{ "time": 9.1333, "name": "effice_108831", "string": "unkill" },
+			{ "time": 9.2, "name": "effice_108831" }
+		]
+	}
+}
+}

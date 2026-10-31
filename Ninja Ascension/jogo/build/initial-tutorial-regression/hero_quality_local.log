@@ -1,0 +1,62 @@
+[HOST_SERVER][22:37:37] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][22:37:37] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][22:37:37] login_init conta=quality_test user_id=1 sessao='9rZ...(43)'
+[HOST_SERVER][22:37:37] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][22:37:37] HERO_QUALITY conta=1 ship=100013 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:37] cmd=ship_grow_up seq=2 -> status=0 (1188 chars)
+[HOST_SERVER][22:37:37] cmd=ship_grow_up seq=2 -> status=0 (1188 chars)
+[HOST_SERVER][22:37:37] HERO_QUALITY conta=1 ship=100013 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:37] cmd=ship_grow_up seq=2 -> status=0 (1185 chars)
+[HOST_SERVER][22:37:37] HERO_QUALITY conta=1 ship=100035 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:37] cmd=ship_grow_up seq=2 -> status=0 (1185 chars)
+[HOST_SERVER][22:37:37] cmd=ship_grow_up seq=2 -> status=0 (1185 chars)
+[HOST_SERVER][22:37:37] HERO_QUALITY conta=1 ship=100035 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:37] cmd=ship_grow_up seq=2 -> status=0 (1185 chars)
+[HOST_SERVER][22:37:38] HERO_QUALITY conta=1 ship=100001 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:38] cmd=ship_grow_up seq=2 -> status=0 (1185 chars)
+[HOST_SERVER][22:37:38] cmd=ship_grow_up seq=2 -> status=0 (1185 chars)
+[HOST_SERVER][22:37:38] HERO_QUALITY conta=1 ship=100001 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:38] cmd=ship_grow_up seq=2 -> status=0 (1185 chars)
+[HOST_SERVER][22:37:38] HERO_QUALITY conta=1 ship=1000100059 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:38] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:38] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:38] HERO_QUALITY conta=1 ship=1000100059 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:38] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:38] HERO_QUALITY conta=1 ship=1000100060 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:38] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:39] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:39] HERO_QUALITY conta=1 ship=1000100060 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:39] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:39] HERO_QUALITY conta=1 ship=1000100063 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:39] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:39] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:39] HERO_QUALITY conta=1 ship=1000100063 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:39] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:39] HERO_QUALITY conta=1 ship=1000100065 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:39] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:39] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:40] HERO_QUALITY conta=1 ship=1000100065 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:40] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:40] HERO_QUALITY conta=1 ship=1000100301 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:40] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:40] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:40] HERO_QUALITY conta=1 ship=1000100301 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:40] cmd=ship_grow_up seq=2 -> status=0 (1198 chars)
+[HOST_SERVER][22:37:40] HERO_QUALITY conta=1 ship=1000100304 qualidade=0->1 ryo=5000
+[HOST_SERVER][22:37:40] cmd=ship_grow_up seq=2 -> status=0 (1199 chars)
+[HOST_SERVER][22:37:40] cmd=ship_grow_up seq=2 -> status=0 (1199 chars)
+[HOST_SERVER][22:37:41] HERO_QUALITY conta=1 ship=1000100304 qualidade=1->3 ryo=25000
+[HOST_SERVER][22:37:41] cmd=ship_grow_up seq=2 -> status=0 (1199 chars)
+[HOST_SERVER][22:37:41] recusa cmd=ship_grow_up seq=2 motivo=materiais_insuficientes
+[HOST_SERVER][22:37:41] cmd=ship_grow_up seq=2 -> status=-1 (41 chars)
+[HOST_SERVER][22:37:41] recusa cmd=ship_grow_up seq=2 motivo=personagem_nao_pertence_a_conta
+[HOST_SERVER][22:37:41] cmd=ship_grow_up seq=2 -> status=-1 (49 chars)
+[HOST_SERVER][22:37:41] recusa cmd=ship_grow_up seq=2 motivo=quantidade_de_avancos_invalida
+[HOST_SERVER][22:37:41] cmd=ship_grow_up seq=2 -> status=-1 (48 chars)
+[HOST_SERVER][22:37:41] recusa cmd=ship_grow_up seq=2 motivo=qualidade_maxima
+[HOST_SERVER][22:37:41] cmd=ship_grow_up seq=2 -> status=-1 (34 chars)
+[HOST_SERVER][22:37:41] login_init: 46 itens no inventario da conta 1
+[HOST_SERVER][22:37:41] login_init: enviando 9 personagem(ns) no login
+[HOST_SERVER][22:37:41] login_init conta=quality_test user_id=1 sessao='9rZ...(43)'
+[HOST_SERVER][22:37:41] LOGIN_LAYOUT prefix=90 items=46 separate_characters=9
+HERO_QUALITY_SERVER_PASSED

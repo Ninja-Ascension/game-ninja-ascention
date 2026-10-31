@@ -1,0 +1,69 @@
+
+sprite_wzkp.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dj_fg_wfg1
+  rotate: false
+  xy: 156, 144
+  size: 90, 90
+  orig: 100, 101
+  offset: 5, 6
+  index: -1
+dj_fg_wk02
+  rotate: false
+  xy: 183, 236
+  size: 99, 99
+  orig: 101, 102
+  offset: 1, 2
+  index: -1
+dj_fg_wk30001
+  rotate: false
+  xy: 2, 309
+  size: 179, 181
+  orig: 198, 198
+  offset: 11, 14
+  index: -1
+dj_fg_xx1
+  rotate: false
+  xy: 248, 201
+  size: 32, 33
+  orig: 36, 37
+  offset: 2, 2
+  index: -1
+dj_fg_xxz2
+  rotate: true
+  xy: 284, 255
+  size: 80, 48
+  orig: 94, 59
+  offset: 9, 5
+  index: -1
+dj_fg_xzkh0001
+  rotate: false
+  xy: 2, 154
+  size: 152, 153
+  orig: 154, 155
+  offset: 1, 1
+  index: -1
+dj_fg_xzkh0002
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 154, 155
+  offset: 2, 3
+  index: -1
+dj_fg_xzkh0003
+  rotate: false
+  xy: 336, 342
+  size: 147, 148
+  orig: 154, 155
+  offset: 3, 3
+  index: -1
+dj_fg_xzkh0004
+  rotate: false
+  xy: 183, 337
+  size: 151, 153
+  orig: 154, 155
+  offset: 0, 1
+  index: -1

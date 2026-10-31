@@ -1,0 +1,272 @@
+
+effect_hunkabiaoqian.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: true
+  xy: 246, 236
+  size: 101, 70
+  orig: 118, 233
+  offset: 5, 18
+  index: -1
+11
+  rotate: false
+  xy: 222, 125
+  size: 94, 109
+  orig: 118, 233
+  offset: 6, 19
+  index: -1
+12
+  rotate: true
+  xy: 1215, 1771
+  size: 101, 146
+  orig: 118, 233
+  offset: 0, 26
+  index: -1
+13
+  rotate: false
+  xy: 2, 63
+  size: 96, 159
+  orig: 118, 233
+  offset: 11, 30
+  index: -1
+14
+  rotate: false
+  xy: 2, 377
+  size: 110, 174
+  orig: 118, 233
+  offset: 3, 40
+  index: -1
+15
+  rotate: false
+  xy: 1662, 1777
+  size: 110, 124
+  orig: 118, 233
+  offset: 4, 93
+  index: -1
+16
+  rotate: false
+  xy: 213, 912
+  size: 76, 108
+  orig: 118, 233
+  offset: 39, 110
+  index: -1
+183-1
+  rotate: false
+  xy: 213, 836
+  size: 74, 74
+  orig: 128, 128
+  offset: 29, 28
+  index: -1
+183-10
+  rotate: false
+  xy: 1774, 1676
+  size: 121, 120
+  orig: 128, 128
+  offset: 5, 0
+  index: -1
+183-11
+  rotate: true
+  xy: 176, 569
+  size: 120, 114
+  orig: 128, 128
+  offset: 5, 6
+  index: -1
+183-12
+  rotate: true
+  xy: 189, 452
+  size: 115, 113
+  orig: 128, 128
+  offset: 8, 6
+  index: -1
+183-13
+  rotate: false
+  xy: 129, 236
+  size: 115, 101
+  orig: 128, 128
+  offset: 8, 9
+  index: -1
+183-2
+  rotate: true
+  xy: 100, 2
+  size: 97, 95
+  orig: 128, 128
+  offset: 17, 16
+  index: -1
+183-3
+  rotate: false
+  xy: 189, 339
+  size: 113, 111
+  orig: 128, 128
+  offset: 9, 8
+  index: -1
+183-4
+  rotate: false
+  xy: 1900, 1799
+  size: 122, 121
+  orig: 128, 128
+  offset: 2, 2
+  index: -1
+183-5
+  rotate: false
+  xy: 1774, 1798
+  size: 124, 122
+  orig: 128, 128
+  offset: 0, 2
+  index: -1
+183-6
+  rotate: false
+  xy: 1914, 1922
+  size: 125, 124
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+183-7
+  rotate: false
+  xy: 1408, 1782
+  size: 125, 119
+  orig: 128, 128
+  offset: 0, 4
+  index: -1
+183-8
+  rotate: true
+  xy: 100, 101
+  size: 121, 120
+  orig: 128, 128
+  offset: 6, 4
+  index: -1
+183-9
+  rotate: true
+  xy: 1535, 1778
+  size: 123, 125
+  orig: 128, 128
+  offset: 4, 1
+  index: -1
+juexianshi_04
+  rotate: false
+  xy: 1363, 1757
+  size: 36, 115
+  orig: 36, 115
+  offset: 0, 0
+  index: -1
+juexianshi_05
+  rotate: false
+  xy: 114, 424
+  size: 73, 127
+  orig: 73, 127
+  offset: 0, 0
+  index: -1
+png/skeleton-1_0
+  rotate: false
+  xy: 2, 553
+  size: 172, 136
+  orig: 268, 466
+  offset: 4, 0
+  index: -1
+png/skeleton-1_1
+  rotate: false
+  xy: 1408, 1903
+  size: 180, 143
+  orig: 268, 466
+  offset: 4, 0
+  index: -1
+png/skeleton-1_10
+  rotate: false
+  xy: 756, 1811
+  size: 242, 235
+  orig: 268, 466
+  offset: 22, 194
+  index: -1
+png/skeleton-1_11
+  rotate: false
+  xy: 2, 1022
+  size: 228, 232
+  orig: 268, 466
+  offset: 40, 227
+  index: -1
+png/skeleton-1_12
+  rotate: false
+  xy: 1215, 1874
+  size: 191, 172
+  orig: 268, 466
+  offset: 59, 294
+  index: -1
+png/skeleton-1_13
+  rotate: false
+  xy: 1590, 1903
+  size: 162, 143
+  orig: 268, 466
+  offset: 84, 319
+  index: -1
+png/skeleton-1_14
+  rotate: false
+  xy: 1754, 1922
+  size: 158, 124
+  orig: 268, 466
+  offset: 88, 338
+  index: -1
+png/skeleton-1_15
+  rotate: true
+  xy: 2, 224
+  size: 151, 125
+  orig: 268, 466
+  offset: 95, 341
+  index: -1
+png/skeleton-1_2
+  rotate: false
+  xy: 2, 691
+  size: 191, 158
+  orig: 268, 466
+  offset: 4, 0
+  index: -1
+png/skeleton-1_3
+  rotate: false
+  xy: 2, 851
+  size: 209, 169
+  orig: 268, 466
+  offset: 0, 0
+  index: -1
+png/skeleton-1_4
+  rotate: false
+  xy: 1000, 1811
+  size: 213, 235
+  orig: 268, 466
+  offset: 4, 4
+  index: -1
+png/skeleton-1_5
+  rotate: false
+  xy: 505, 1800
+  size: 249, 246
+  orig: 268, 466
+  offset: 4, 26
+  index: -1
+png/skeleton-1_6
+  rotate: true
+  xy: 2, 1256
+  size: 253, 238
+  orig: 268, 466
+  offset: 4, 59
+  index: -1
+png/skeleton-1_7
+  rotate: false
+  xy: 2, 1781
+  size: 257, 265
+  orig: 268, 466
+  offset: 7, 84
+  index: -1
+png/skeleton-1_8
+  rotate: false
+  xy: 2, 1511
+  size: 242, 268
+  orig: 268, 466
+  offset: 22, 114
+  index: -1
+png/skeleton-1_9
+  rotate: false
+  xy: 261, 1782
+  size: 242, 264
+  orig: 268, 466
+  offset: 22, 147
+  index: -1

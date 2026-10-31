@@ -1,0 +1,293 @@
+
+effect_summer_drink.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b1
+  rotate: true
+  xy: 867, 539
+  size: 60, 34
+  orig: 60, 34
+  offset: 0, 0
+  index: -1
+b2
+  rotate: false
+  xy: 942, 888
+  size: 80, 64
+  orig: 80, 64
+  offset: 0, 0
+  index: -1
+b3
+  rotate: false
+  xy: 547, 234
+  size: 51, 59
+  orig: 51, 59
+  offset: 0, 0
+  index: -1
+b4
+  rotate: false
+  xy: 911, 552
+  size: 98, 85
+  orig: 98, 85
+  offset: 0, 0
+  index: -1
+b5
+  rotate: false
+  xy: 495, 71
+  size: 50, 102
+  orig: 50, 102
+  offset: 0, 0
+  index: -1
+bei
+  rotate: true
+  xy: 942, 954
+  size: 68, 80
+  orig: 80, 80
+  offset: 3, 0
+  index: -1
+guangxiao/631_1
+  rotate: false
+  xy: 547, 295
+  size: 75, 51
+  orig: 256, 128
+  offset: 50, 32
+  index: -1
+guangxiao/631_10
+  rotate: true
+  xy: 510, 353
+  size: 169, 57
+  orig: 256, 128
+  offset: 11, 21
+  index: -1
+guangxiao/631_11
+  rotate: true
+  xy: 484, 175
+  size: 176, 61
+  orig: 256, 128
+  offset: 8, 18
+  index: -1
+guangxiao/631_2
+  rotate: false
+  xy: 697, 530
+  size: 168, 69
+  orig: 256, 128
+  offset: 35, 25
+  index: -1
+guangxiao/631_3
+  rotate: false
+  xy: 256, 606
+  size: 186, 82
+  orig: 256, 128
+  offset: 29, 19
+  index: -1
+guangxiao/631_4
+  rotate: true
+  xy: 245, 147
+  size: 195, 90
+  orig: 256, 128
+  offset: 25, 16
+  index: -1
+guangxiao/631_5
+  rotate: false
+  xy: 727, 786
+  size: 201, 96
+  orig: 256, 128
+  offset: 22, 14
+  index: -1
+guangxiao/631_6
+  rotate: false
+  xy: 712, 601
+  size: 197, 91
+  orig: 256, 128
+  offset: 23, 21
+  index: -1
+guangxiao/631_7
+  rotate: false
+  xy: 506, 664
+  size: 204, 74
+  orig: 256, 128
+  offset: 19, 18
+  index: -1
+guangxiao/631_8
+  rotate: true
+  xy: 410, 166
+  size: 185, 72
+  orig: 256, 128
+  offset: 17, 21
+  index: -1
+guangxiao/631_9
+  rotate: true
+  xy: 337, 165
+  size: 186, 71
+  orig: 256, 128
+  offset: 16, 26
+  index: -1
+guangxiao/959_1
+  rotate: true
+  xy: 930, 740
+  size: 142, 92
+  orig: 176, 231
+  offset: 25, 19
+  index: -1
+guangxiao/959_10
+  rotate: false
+  xy: 386, 475
+  size: 101, 129
+  orig: 176, 231
+  offset: 25, 30
+  index: -1
+guangxiao/959_12
+  rotate: false
+  xy: 245, 13
+  size: 108, 132
+  orig: 176, 231
+  offset: 27, 51
+  index: -1
+guangxiao/959_13
+  rotate: false
+  xy: 489, 524
+  size: 114, 138
+  orig: 176, 231
+  offset: 25, 56
+  index: -1
+guangxiao/959_15
+  rotate: true
+  xy: 253, 353
+  size: 118, 135
+  orig: 176, 231
+  offset: 25, 79
+  index: -1
+guangxiao/959_17
+  rotate: false
+  xy: 253, 473
+  size: 131, 131
+  orig: 176, 231
+  offset: 11, 100
+  index: -1
+guangxiao/959_18
+  rotate: false
+  xy: 629, 418
+  size: 138, 110
+  orig: 176, 231
+  offset: 6, 78
+  index: -1
+guangxiao/959_3
+  rotate: false
+  xy: 769, 411
+  size: 121, 117
+  orig: 176, 231
+  offset: 25, 6
+  index: -1
+guangxiao/959_5
+  rotate: false
+  xy: 355, 47
+  size: 81, 116
+  orig: 176, 231
+  offset: 26, 11
+  index: -1
+guangxiao/959_7
+  rotate: true
+  xy: 629, 327
+  size: 89, 120
+  orig: 176, 231
+  offset: 27, 20
+  index: -1
+guangxiao/959_8
+  rotate: true
+  xy: 751, 316
+  size: 93, 118
+  orig: 176, 231
+  offset: 27, 20
+  index: -1
+guangxiao/bd_49_1
+  rotate: false
+  xy: 2, 13
+  size: 241, 329
+  orig: 274, 365
+  offset: 22, 21
+  index: -1
+guangxiao/bd_49_2
+  rotate: false
+  xy: 2, 344
+  size: 249, 338
+  orig: 274, 365
+  offset: 18, 16
+  index: -1
+guangxiao/bd_49_3
+  rotate: false
+  xy: 2, 684
+  size: 252, 338
+  orig: 274, 365
+  offset: 14, 15
+  index: -1
+guangxiao/bd_49_4
+  rotate: false
+  xy: 256, 690
+  size: 248, 332
+  orig: 274, 365
+  offset: 15, 18
+  index: -1
+guangxiao/bd_49_5
+  rotate: false
+  xy: 506, 740
+  size: 219, 282
+  orig: 274, 365
+  offset: 41, 38
+  index: -1
+guangxiao/lie_1_  (1)
+  rotate: true
+  xy: 444, 632
+  size: 56, 40
+  orig: 90, 199
+  offset: 15, 159
+  index: -1
+guangxiao/lie_1_  (2)
+  rotate: false
+  xy: 928, 639
+  size: 90, 99
+  orig: 90, 199
+  offset: 0, 100
+  index: -1
+guangxiao/lie_1_  (3)
+  rotate: false
+  xy: 605, 530
+  size: 90, 132
+  orig: 90, 199
+  offset: 0, 67
+  index: -1
+guangxiao/lie_1_  (4)
+  rotate: true
+  xy: 727, 694
+  size: 90, 199
+  orig: 90, 199
+  offset: 0, 0
+  index: -1
+hx
+  rotate: false
+  xy: 727, 884
+  size: 213, 138
+  orig: 213, 138
+  offset: 0, 0
+  index: -1
+ice
+  rotate: false
+  xy: 390, 353
+  size: 118, 120
+  orig: 120, 120
+  offset: 2, 0
+  index: -1
+yun
+  rotate: true
+  xy: 569, 348
+  size: 174, 58
+  orig: 174, 58
+  offset: 0, 0
+  index: -1
+zi
+  rotate: true
+  xy: 438, 51
+  size: 113, 55
+  orig: 113, 55
+  offset: 0, 0
+  index: -1

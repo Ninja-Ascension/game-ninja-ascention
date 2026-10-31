@@ -1,0 +1,11 @@
+publicado: port/lua/esconder_dialogos.lua
+publicado: port/lua/initial_tutorial.lua
+publicado: port/lua/menu_boot_probe.lua
+publicado: port/lua/shop_local.lua
+publicado: port/lua/tutorial_battle_skip.lua
+publicado: port/lua/tutorial_disabled.lua
+publicado: port/lua/tutorial_guide_visual.lua
+publicado: 01_conteudo_apk/assets/src/client/mission/Mission.lua
+publicado: 01_conteudo_apk/assets/src/client/mission/TutorialSkip.lua
+publicado: 01_conteudo_apk/assets/src/client/protocol/ProtocolCommander.lua
+publicado: 01_conteudo_apk/assets/src/client/protocol/ProtocolCommanderCopyExxx.lua

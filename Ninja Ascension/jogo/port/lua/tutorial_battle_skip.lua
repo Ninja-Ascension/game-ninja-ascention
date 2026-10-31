@@ -2,6 +2,7 @@
 local M={}
 local button,buttonScene
 function M.allowed()
+    if require('initial_tutorial').state~='legacy' then return false end
     local user=_ED and _ED.user_info
     local battle=_ED and _ED.battleData
     if not user or not battle or tonumber(battle.battle_init_type)~=0 then return false end

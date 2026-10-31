@@ -1,0 +1,523 @@
+
+spirte_150501.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/baidi
+  rotate: false
+  xy: 814, 896
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+image/beiji/beiji1_1
+  rotate: true
+  xy: 357, 378
+  size: 105, 160
+  orig: 410, 492
+  offset: 133, 68
+  index: -1
+image/beiji/beiji1_2
+  rotate: false
+  xy: 519, 361
+  size: 114, 125
+  orig: 410, 492
+  offset: 119, 109
+  index: -1
+image/beiji/beiji1_5
+  rotate: true
+  xy: 647, 2
+  size: 183, 56
+  orig: 410, 492
+  offset: 110, 130
+  index: -1
+image/beiji/beiji2_1
+  rotate: false
+  xy: 910, 225
+  size: 109, 157
+  orig: 410, 492
+  offset: 147, 67
+  index: -1
+image/bisha/bisha1_1
+  rotate: true
+  xy: 624, 837
+  size: 62, 188
+  orig: 144, 217
+  offset: 41, 4
+  index: -1
+image/bisha/bisha1_6
+  rotate: false
+  xy: 364, 653
+  size: 131, 171
+  orig: 144, 217
+  offset: 11, 0
+  index: -1
+image/bisha/bisha2_8
+  rotate: false
+  xy: 630, 668
+  size: 140, 167
+  orig: 165, 176
+  offset: 5, 5
+  index: -1
+image/daiji/daiji_2
+  rotate: false
+  xy: 705, 13
+  size: 93, 175
+  orig: 410, 492
+  offset: 156, 50
+  index: -1
+image/daiji/daiji_3
+  rotate: false
+  xy: 431, 2
+  size: 97, 164
+  orig: 410, 492
+  offset: 154, 64
+  index: -1
+image/daiji/daiji_4
+  rotate: false
+  xy: 333, 4
+  size: 96, 161
+  orig: 410, 492
+  offset: 155, 64
+  index: -1
+image/daiji/daiji_5
+  rotate: true
+  xy: 2, 5
+  size: 100, 159
+  orig: 410, 492
+  offset: 155, 64
+  index: -1
+image/daiji/daiji_6
+  rotate: false
+  xy: 236, 2
+  size: 95, 163
+  orig: 410, 492
+  offset: 155, 63
+  index: -1
+image/guangxiao/bao0
+  rotate: false
+  xy: 357, 485
+  size: 141, 166
+  orig: 179, 173
+  offset: 36, 0
+  index: -1
+image/guangxiao/bao1
+  rotate: false
+  xy: 2, 849
+  size: 179, 173
+  orig: 179, 173
+  offset: 0, 0
+  index: -1
+image/guangxiao/bao2
+  rotate: false
+  xy: 2, 674
+  size: 179, 173
+  orig: 179, 173
+  offset: 0, 0
+  index: -1
+image/guangxiao/bao3
+  rotate: false
+  xy: 183, 849
+  size: 179, 173
+  orig: 179, 173
+  offset: 0, 0
+  index: -1
+image/guangxiao/bao4
+  rotate: false
+  xy: 2, 500
+  size: 179, 172
+  orig: 179, 173
+  offset: 0, 0
+  index: -1
+image/guangxiao/bao5
+  rotate: false
+  xy: 183, 677
+  size: 179, 170
+  orig: 179, 173
+  offset: 0, 0
+  index: -1
+image/guangxiao/fen0
+  rotate: true
+  xy: 632, 508
+  size: 158, 139
+  orig: 177, 139
+  offset: 5, 0
+  index: -1
+image/guangxiao/fen1
+  rotate: false
+  xy: 183, 539
+  size: 172, 136
+  orig: 177, 139
+  offset: 5, 3
+  index: -1
+image/guangxiao/fen2
+  rotate: true
+  xy: 497, 655
+  size: 177, 131
+  orig: 177, 139
+  offset: 0, 8
+  index: -1
+image/guangxiao/fen3
+  rotate: true
+  xy: 500, 488
+  size: 165, 130
+  orig: 177, 139
+  offset: 12, 9
+  index: -1
+image/guangxiao/hy0
+  rotate: true
+  xy: 130, 311
+  size: 112, 176
+  orig: 112, 176
+  offset: 0, 0
+  index: -1
+image/guangxiao/hy1
+  rotate: true
+  xy: 236, 167
+  size: 112, 175
+  orig: 112, 176
+  offset: 0, 1
+  index: -1
+image/guangxiao/hy2
+  rotate: true
+  xy: 183, 425
+  size: 112, 172
+  orig: 112, 176
+  offset: 0, 2
+  index: -1
+image/guangxiao/hy3
+  rotate: true
+  xy: 413, 168
+  size: 111, 173
+  orig: 112, 176
+  offset: 1, 2
+  index: -1
+image/guangxiao/hy4
+  rotate: false
+  xy: 126, 107
+  size: 108, 172
+  orig: 112, 176
+  offset: 4, 4
+  index: -1
+image/guangxiao/hy5
+  rotate: false
+  xy: 588, 187
+  size: 109, 169
+  orig: 112, 176
+  offset: 3, 6
+  index: -1
+image/guangxiao/lf_4
+  rotate: true
+  xy: 624, 901
+  size: 121, 193
+  orig: 134, 197
+  offset: 2, 0
+  index: -1
+image/guangxiao/lf_5
+  rotate: false
+  xy: 2, 107
+  size: 122, 193
+  orig: 134, 197
+  offset: 2, 1
+  index: -1
+image/guangxiao/lf_6
+  rotate: false
+  xy: 2, 302
+  size: 126, 196
+  orig: 134, 197
+  offset: 1, 0
+  index: -1
+image/guangxiao/lf_7
+  rotate: false
+  xy: 364, 826
+  size: 128, 196
+  orig: 134, 197
+  offset: 1, 0
+  index: -1
+image/guangxiao/lf_8
+  rotate: true
+  xy: 819, 894
+  size: 128, 185
+  orig: 134, 197
+  offset: 1, 0
+  index: -1
+image/guangxiao/lf_9
+  rotate: false
+  xy: 494, 834
+  size: 128, 188
+  orig: 134, 197
+  offset: 2, 0
+  index: -1
+image/guangxiao/liuguang_1
+  rotate: true
+  xy: 163, 2
+  size: 103, 33
+  orig: 104, 43
+  offset: 0, 6
+  index: -1
+image/guangxiao/liuguang_2
+  rotate: true
+  xy: 198, 4
+  size: 101, 33
+  orig: 104, 43
+  offset: 2, 9
+  index: -1
+image/guangxiao/liuguang_3
+  rotate: false
+  xy: 878, 9
+  size: 99, 34
+  orig: 104, 43
+  offset: 4, 9
+  index: -1
+image/guangxiao/liuguang_4
+  rotate: false
+  xy: 924, 692
+  size: 98, 33
+  orig: 104, 43
+  offset: 5, 9
+  index: -1
+image/guangxiao/liuguang_7
+  rotate: false
+  xy: 878, 45
+  size: 97, 38
+  orig: 104, 43
+  offset: 5, 0
+  index: -1
+image/guangxiao/zhan
+  rotate: false
+  xy: 130, 427
+  size: 35, 71
+  orig: 154, 148
+  offset: 0, 16
+  index: -1
+image/guangxiao/zhan2
+  rotate: true
+  xy: 878, 85
+  size: 107, 144
+  orig: 154, 148
+  offset: 47, 0
+  index: -1
+image/guangxiao/zhan3
+  rotate: false
+  xy: 897, 384
+  size: 125, 132
+  orig: 154, 148
+  offset: 28, 16
+  index: -1
+image/guangxiao/zhan5
+  rotate: false
+  xy: 924, 727
+  size: 98, 102
+  orig: 154, 148
+  offset: 42, 46
+  index: -1
+image/heidian
+  rotate: false
+  xy: 801, 190
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+image/jineng/jineng_1
+  rotate: false
+  xy: 800, 7
+  size: 76, 181
+  orig: 80, 196
+  offset: 2, 2
+  index: -1
+image/jineng/jineng_2
+  rotate: true
+  xy: 814, 831
+  size: 61, 188
+  orig: 80, 196
+  offset: 17, 4
+  index: -1
+image/putong/putong_1
+  rotate: false
+  xy: 920, 526
+  size: 80, 147
+  orig: 200, 189
+  offset: 98, 3
+  index: -1
+image/putong/putong_10
+  rotate: false
+  xy: 801, 194
+  size: 107, 165
+  orig: 200, 189
+  offset: 75, 3
+  index: -1
+image/putong/putong_11
+  rotate: true
+  xy: 308, 281
+  size: 95, 182
+  orig: 200, 189
+  offset: 67, 4
+  index: -1
+image/putong/putong_12
+  rotate: false
+  xy: 635, 358
+  size: 138, 148
+  orig: 200, 189
+  offset: 59, 3
+  index: -1
+image/putong/putong_2
+  rotate: false
+  xy: 775, 361
+  size: 120, 155
+  orig: 200, 189
+  offset: 66, 3
+  index: -1
+image/putong/putong_3
+  rotate: false
+  xy: 530, 7
+  size: 115, 159
+  orig: 200, 189
+  offset: 80, 4
+  index: -1
+image/putong/putong_4
+  rotate: false
+  xy: 699, 190
+  size: 100, 166
+  orig: 200, 189
+  offset: 94, 3
+  index: -1
+image/yidong/yidong_1
+  rotate: false
+  xy: 772, 675
+  size: 150, 154
+  orig: 410, 492
+  offset: 143, 67
+  index: -1
+image/yidong/yidong_4
+  rotate: false
+  xy: 773, 518
+  size: 145, 155
+  orig: 410, 492
+  offset: 151, 65
+  index: -1
+
+spirte_1505012.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/beiji/beiji1_3
+  rotate: false
+  xy: 245, 248
+  size: 114, 115
+  orig: 410, 492
+  offset: 148, 141
+  index: -1
+image/beiji/beiji1_4
+  rotate: true
+  xy: 2, 199
+  size: 154, 105
+  orig: 410, 492
+  offset: 126, 144
+  index: -1
+image/bisha/bisha1_4
+  rotate: true
+  xy: 245, 116
+  size: 130, 113
+  orig: 144, 217
+  offset: 0, 5
+  index: -1
+image/bisha/bisha2_2
+  rotate: false
+  xy: 361, 304
+  size: 145, 93
+  orig: 165, 176
+  offset: 6, 7
+  index: -1
+image/bisha/bisha2_5
+  rotate: true
+  xy: 360, 95
+  size: 95, 117
+  orig: 165, 176
+  offset: 20, 7
+  index: -1
+image/daiji/daiji_1
+  rotate: false
+  xy: 2, 41
+  size: 92, 156
+  orig: 410, 492
+  offset: 156, 63
+  index: -1
+image/guangxiao/guanghuan
+  rotate: false
+  xy: 322, 2
+  size: 89, 87
+  orig: 89, 87
+  offset: 0, 0
+  index: -1
+image/guangxiao/liuguang_5
+  rotate: false
+  xy: 2, 7
+  size: 98, 32
+  orig: 104, 43
+  offset: 5, 9
+  index: -1
+image/guangxiao/liuguang_6
+  rotate: true
+  xy: 479, 91
+  size: 99, 31
+  orig: 104, 43
+  offset: 5, 7
+  index: -1
+image/guangxiao/wuquan
+  rotate: false
+  xy: 215, 9
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+image/guangxiao/zhan1
+  rotate: true
+  xy: 123, 226
+  size: 134, 120
+  orig: 154, 148
+  offset: 4, 0
+  index: -1
+image/guangxiao/zhan4
+  rotate: false
+  xy: 96, 64
+  size: 117, 133
+  orig: 154, 148
+  offset: 27, 15
+  index: -1
+image/putong/putong_13
+  rotate: true
+  xy: 361, 192
+  size: 110, 134
+  orig: 200, 189
+  offset: 68, 4
+  index: -1
+image/yidong/yidong_2
+  rotate: false
+  xy: 2, 355
+  size: 119, 155
+  orig: 410, 492
+  offset: 148, 62
+  index: -1
+image/yidong/yidong_3
+  rotate: true
+  xy: 361, 399
+  size: 111, 147
+  orig: 410, 492
+  offset: 153, 70
+  index: -1
+image/yidong/yidong_5
+  rotate: false
+  xy: 123, 362
+  size: 120, 148
+  orig: 410, 492
+  offset: 152, 67
+  index: -1
+image/yidong/yidong_6
+  rotate: false
+  xy: 245, 365
+  size: 114, 145
+  orig: 410, 492
+  offset: 155, 71
+  index: -1

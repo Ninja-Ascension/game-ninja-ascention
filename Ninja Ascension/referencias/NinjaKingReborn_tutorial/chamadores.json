@@ -1,0 +1,255 @@
+[
+  {
+    "file": "assets/src/client/activity/sevendaysnew/SevenDaysManager.lua",
+    "lines": [
+      {
+        "line": 43,
+        "text": "if TutorialSkip ~= nil and TutorialSkip.postersAfterTutorial ~= nil then TutorialSkip.postersAfterTutorial() end"
+      }
+    ]
+  },
+  {
+    "file": "assets/src/client/mission/Mission.lua",
+    "lines": [
+      {
+        "line": 3868,
+        "text": "app.load(\"client.mission.TutorialSkip\")"
+      },
+      {
+        "line": 3869,
+        "text": "TutorialSkip.install()"
+      }
+    ]
+  },
+  {
+    "file": "assets/src/client/mission/TutorialSkip.lua",
+    "lines": [
+      {
+        "line": 11,
+        "text": "TutorialSkip = TutorialSkip or {}"
+      },
+      {
+        "line": 56,
+        "text": "return TutorialSkip.decidedFor ~= nil and TutorialSkip.decidedFor == tostring(_ED.user_info.user_id)"
+      },
+      {
+        "line": 61,
+        "text": "function TutorialSkip.install()"
+      },
+      {
+        "line": 62,
+        "text": "if executeMissionExt == nil or executeMissionExt == TutorialSkip.wrapper then return end"
+      },
+      {
+        "line": 63,
+        "text": "TutorialSkip.original = executeMissionExt"
+      },
+      {
+        "line": 64,
+        "text": "TutorialSkip.wrapper = function(missionMould, triggerTiming, emtOffVal, executeOverCallback, canExecute, cmpOffVal, executeRepeatEvent)"
+      },
+      {
+        "line": 67,
+        "text": "and TutorialSkip.missionOver() and not decided() then"
+      },
+      {
+        "line": 68,
+        "text": "TutorialSkip.pending = args"
+      },
+      {
+        "line": 69,
+        "text": "TutorialSkip.openWhenLoaded()"
+      },
+      {
+        "line": 72,
+        "text": "return TutorialSkip.original(unpack(args, 1, 7))"
+      },
+      {
+        "line": 74,
+        "text": "executeMissionExt = TutorialSkip.wrapper"
+      },
+      {
+        "line": 77,
+        "text": "if missionIsOver ~= TutorialSkip.overWrapper then"
+      },
+      {
+        "line": 78,
+        "text": "TutorialSkip.originalOver = missionIsOver"
+      },
+      {
+        "line": 79,
+        "text": "TutorialSkip.overWrapper = function()"
+      },
+      {
+        "line": 80,
+        "text": "if TutorialSkip.busy or fwin:find(\"TutorialSkipWindowClass\") ~= nil then return false end"
+      },
+      {
+        "line": 81,
+        "text": "return TutorialSkip.originalOver()"
+      },
+      {
+        "line": 83,
+        "text": "missionIsOver = TutorialSkip.overWrapper"
+      },
+      {
+        "line": 87,
+        "text": "function TutorialSkip.missionOver()"
+      },
+      {
+        "line": 88,
+        "text": "return (TutorialSkip.originalOver or missionIsOver)() == true"
+      },
+      {
+        "line": 93,
+        "text": "function TutorialSkip.openWhenLoaded()"
+      },
+      {
+        "line": 94,
+        "text": "if TutorialSkip.busy or fwin:find(\"TutorialSkipWindowClass\") ~= nil then return end"
+      },
+      {
+        "line": 95,
+        "text": "fwin:open(TutorialSkipWindow:new():init(), fwin._screen)"
+      },
+      {
+        "line": 99,
+        "text": "function TutorialSkip.newbie()"
+      },
+      {
+        "line": 100,
+        "text": "TutorialSkip.decidedFor = tostring(_ED.user_info.user_id)"
+      },
+      {
+        "line": 101,
+        "text": "local w = fwin:find(\"TutorialSkipWindowClass\")"
+      },
+      {
+        "line": 103,
+        "text": "local args = TutorialSkip.pending"
+      },
+      {
+        "line": 104,
+        "text": "TutorialSkip.pending = nil"
+      },
+      {
+        "line": 105,
+        "text": "if args ~= nil then TutorialSkip.original(unpack(args, 1, 7)) end"
+      },
+      {
+        "line": 120,
+        "text": "function TutorialSkip.postersAfterTutorial()"
+      },
+      {
+        "line": 122,
+        "text": "if TutorialSkip.postersFor == me then return end"
+      },
+      {
+        "line": 123,
+        "text": "TutorialSkip.postersFor = me"
+      },
+      {
+        "line": 124,
+        "text": "TutorialSkip.waitForHome()"
+      },
+      {
+        "line": 127,
+        "text": "function TutorialSkip.waitForHome()"
+      },
+      {
+        "line": 148,
+        "text": "TutorialSkip.busy = false"
+      },
+      {
+        "line": 167,
+        "text": "function TutorialSkip.veteran()"
+      },
+      {
+        "line": 168,
+        "text": "if TutorialSkip.busy then return end"
+      },
+      {
+        "line": 169,
+        "text": "TutorialSkip.busy = true"
+      },
+      {
+        "line": 170,
+        "text": "NetworkManager:register(protocol_command.tutorial_skip.code, nil, nil, nil, nil, function(response)"
+      },
+      {
+        "line": 172,
+        "text": "TutorialSkip.decidedFor = tostring(_ED.user_info.user_id)"
+      },
+      {
+        "line": 173,
+        "text": "TutorialSkip.pending = nil"
+      },
+      {
+        "line": 174,
+        "text": "local w = fwin:find(\"TutorialSkipWindowClass\")"
+      },
+      {
+        "line": 178,
+        "text": "TutorialSkip.busy = false"
+      },
+      {
+        "line": 184,
+        "text": "TutorialSkipWindow = class(\"TutorialSkipWindowClass\", Window)"
+      },
+      {
+        "line": 186,
+        "text": "function TutorialSkipWindow:ctor()"
+      },
+      {
+        "line": 190,
+        "text": "function TutorialSkipWindow:init()"
+      },
+      {
+        "line": 194,
+        "text": "function TutorialSkipWindow:onEnterTransitionFinish()"
+      },
+      {
+        "line": 238,
+        "text": "BTN_ORANGE, \"Play Tutorial\", function() TutorialSkip.newbie() end)"
+      },
+      {
+        "line": 245,
+        "text": "function TutorialSkipWindow:card(x, y, scale, frame, art, name, note, btnImage, btnTitle, onTap)"
+      },
+      {
+        "line": 306,
+        "text": "function TutorialSkipWindow:confirmSkip()"
+      },
+      {
+        "line": 348,
+        "text": "btn(BTN_BLUE, \"Skip\", w / 2 + 115, function() TutorialSkip.veteran() end)"
+      },
+      {
+        "line": 351,
+        "text": "function TutorialSkipWindow:onExit()"
+      }
+    ]
+  },
+  {
+    "file": "assets/src/client/protocol/ProtocolCommander.lua",
+    "lines": [
+      {
+        "line": 2234,
+        "text": "tutorial_skip\t\t\t\t\t\t\t\t\t\t\t=   {code = 9993, command = \"tutorial_skip\", command_fun = command_tutorial_skip, param_list=\"\"},"
+      }
+    ]
+  },
+  {
+    "file": "assets/src/client/protocol/ProtocolCommanderCopyExxx.lua",
+    "lines": [
+      {
+        "line": 2767,
+        "text": "function command_tutorial_skip(str)"
+      },
+      {
+        "line": 2769,
+        "text": "str = str..protocol_command.tutorial_skip.command"
+      }
+    ]
+  }
+]

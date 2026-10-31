@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>images/ui/home/home_pve_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{144,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{144,128}</string>
+			</dict>
+			<key>images/ui/home/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{147,1},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{91,175},{44,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{44,38}</string>
+			</dict>
+			<key>images/ui/home/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{91,131},{42,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{42,42}</string>
+			</dict>
+			<key>images/ui/home/activity_everyday.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{237,1},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/activity_yc.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{327,1},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/home_expedition_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{227,181},{78,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,88}</string>
+			</dict>
+			<key>images/ui/home/home_friend.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{417,1},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/home_general.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{147,91},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/home_halloffame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,131},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/home_jingji.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{237,91},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/home_juntuan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{327,91},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/home_shop_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{417,91},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/home_warehouse_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{137,181},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+			<key>images/ui/home/home_zhaomu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,221},{88,88}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,88}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>home.png</string>
+			<key>realTextureFileName</key>
+			<string>home.png</string>
+			<key>size</key>
+			<string>{512,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

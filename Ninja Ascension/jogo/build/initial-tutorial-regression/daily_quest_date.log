@@ -1,0 +1,3 @@
+MOBILE_BOOTSTRAP_PASSED original JSON parser, APK-only config, tutorial disabled, native Android renderer preserved
+DAILY_QUEST_DATE_PASSED original failure reproduced; seconds and legacy milliseconds render; home upgrade dot removed without rebuilding it; changed Lua compiles
+

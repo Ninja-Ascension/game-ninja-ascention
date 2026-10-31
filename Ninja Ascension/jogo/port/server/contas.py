@@ -483,6 +483,10 @@ class Banco:
             " VALUES (?, ?, ?, ?)",
             (conta_id, self._proximo_user_id(), self.apelido_livre(nome, conta_id), agora_ms()),
         )
+        # Only newly created profiles enroll; never infer freshness from level.
+        if self._conn.execute("SELECT 1 FROM sqlite_master WHERE name='local_initial_tutorial'").fetchone():
+            import initial_tutorial
+            initial_tutorial.enroll(self, conta_id)
         self._conn.commit()
         row = self._conn.execute(
             "SELECT * FROM perfis WHERE conta_id = ?", (conta_id,)).fetchone()

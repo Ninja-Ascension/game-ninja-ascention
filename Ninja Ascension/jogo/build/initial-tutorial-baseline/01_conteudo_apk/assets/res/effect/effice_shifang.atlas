@@ -1,0 +1,34 @@
+
+effice_shifang.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang_0
+  rotate: false
+  xy: 2, 140
+  size: 114, 114
+  orig: 114, 114
+  offset: 0, 0
+  index: -1
+guang_1
+  rotate: false
+  xy: 2, 39
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+guang_2
+  rotate: false
+  xy: 118, 195
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+guang_3
+  rotate: true
+  xy: 2, 2
+  size: 35, 163
+  orig: 35, 163
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+effect_108731.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/skil1_010001
+  rotate: false
+  xy: 2, 582
+  size: 111, 339
+  orig: 320, 684
+  offset: 105, 173
+  index: -1
+gx/skil1_010003
+  rotate: false
+  xy: 2, 235
+  size: 105, 345
+  orig: 320, 684
+  offset: 107, 170
+  index: -1
+gx/skil1_010005
+  rotate: false
+  xy: 357, 643
+  size: 106, 278
+  orig: 320, 684
+  offset: 107, 174
+  index: -1
+gx/skil1_010007
+  rotate: false
+  xy: 238, 626
+  size: 117, 295
+  orig: 320, 684
+  offset: 103, 176
+  index: -1
+gx/skil1_010009
+  rotate: false
+  xy: 115, 615
+  size: 121, 306
+  orig: 320, 684
+  offset: 99, 186
+  index: -1
+gx/skil1_010011
+  rotate: false
+  xy: 465, 706
+  size: 122, 215
+  orig: 320, 684
+  offset: 99, 182
+  index: -1
+gx/ywb1
+  rotate: false
+  xy: 589, 860
+  size: 117, 61
+  orig: 119, 62
+  offset: 2, 1
+  index: -1
+gx/ywb2
+  rotate: true
+  xy: 2, 2
+  size: 111, 57
+  orig: 119, 62
+  offset: 7, 0
+  index: -1
+gx/ywb3
+  rotate: true
+  xy: 2, 115
+  size: 118, 61
+  orig: 119, 62
+  offset: 1, 0
+  index: -1
+gx/ywb4
+  rotate: false
+  xy: 465, 644
+  size: 119, 60
+  orig: 119, 62
+  offset: 0, 1
+  index: -1

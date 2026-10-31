@@ -1,0 +1,612 @@
+1	-1	Error Desconocido	Error Desconocido	unkownerror	2012/10/22 18:18	2012/10/22 18:18
+2	-2	El&nbsp;sistema&nbsp;está&nbsp;ocupado.&nbsp;Inténtalo&nbsp;más&nbsp;tarde.	El&nbsp;sistema&nbsp;está&nbsp;ocupado.&nbsp;Inténtalo&nbsp;más&nbsp;tarde.	unkown error	2012/10/23 15:08	2012/10/23 15:08
+3	-3	Error&nbsp;de&nbsp;código	Error&nbsp;de&nbsp;código	unkown error	2012/10/22 20:05	2012/10/22 20:05
+4	-4	Error de sistema	Error de sistema	unkown error	2012/10/23 15:08	2012/10/23 15:09
+5	-5	Tu&nbsp;información&nbsp;de&nbsp;usuario&nbsp;está&nbsp;desactualizada.&nbsp;¡Vuelve&nbsp;a&nbsp;iniciar&nbsp;sesión!	Tu&nbsp;información&nbsp;de&nbsp;usuario&nbsp;está&nbsp;desactualizada.&nbsp;¡Vuelve&nbsp;a&nbsp;iniciar&nbsp;sesión!	unkown error	2012/10/22 18:20	2012/10/22 18:20
+6	-6	Número inválido ID	Número inválido ID	unkown error	2012/10/23 15:46	2012/10/23 15:46
+7	-7	Completaste&nbsp;tu&nbsp;misión&nbsp;diaria.&nbsp;¡Vuelve&nbsp;mañana!	Completaste&nbsp;tu&nbsp;misión&nbsp;diaria.&nbsp;¡Vuelve&nbsp;mañana!	unkown error	2012/10/23 15:46	2012/10/23 15:46
+8	-8	Misión&nbsp;diaria&nbsp;aceptada	Misión&nbsp;diaria&nbsp;aceptada	unkown error	2012/10/23 15:46	2012/10/23 15:46
+9	-9	Misión&nbsp;diaria&nbsp;completada	Misión&nbsp;diaria&nbsp;completada	unkown error	2012/10/23 15:48	2012/10/23 15:48
+10	-10	Estado&nbsp;de&nbsp;misión&nbsp;diaria&nbsp;incompatible	Estado&nbsp;de&nbsp;misión&nbsp;diaria&nbsp;incompatible	unkown error	2012/10/23 15:49	2012/10/23 15:49
+11	-11	Misión&nbsp;diaria&nbsp;no&nbsp;válida	Misión&nbsp;diaria&nbsp;no&nbsp;válida	unkown error	2012/10/23 16:01	2012/10/23 16:01
+12	-12	Hay&nbsp;una&nbsp;misión&nbsp;diaria&nbsp;sin&nbsp;completar.&nbsp;No&nbsp;puedes&nbsp;aceptar&nbsp;esta&nbsp;misión&nbsp;diaria.	Hay&nbsp;una&nbsp;misión&nbsp;diaria&nbsp;sin&nbsp;completar.&nbsp;No&nbsp;puedes&nbsp;aceptar&nbsp;esta&nbsp;misión&nbsp;diaria.	unkown error	2012/10/23 16:01	2012/10/23 16:01
+13	-13	Tareas&nbsp;aún&nbsp;sin&nbsp;cumplir.&nbsp;Misión&nbsp;diaria&nbsp;incompleta.	Tareas&nbsp;aún&nbsp;sin&nbsp;cumplir.&nbsp;Misión&nbsp;diaria&nbsp;incompleta.	unkown error	2012/10/23 16:10	2012/10/23 16:10
+14	-14	No&nbsp;existen&nbsp;los&nbsp;datos&nbsp;de&nbsp;bonificación&nbsp;por&nbsp;actividad.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener&nbsp;el&nbsp;premio.	No&nbsp;existen&nbsp;los&nbsp;datos&nbsp;de&nbsp;bonificación&nbsp;por&nbsp;actividad.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener&nbsp;el&nbsp;premio.	unkown error	2012/10/23 15:46	2012/10/23 15:46
+15	-15	Actividad&nbsp;del&nbsp;usuario&nbsp;insuficiente	Actividad&nbsp;del&nbsp;usuario&nbsp;insuficiente	unkown error	2012/10/23 19:47	2012/10/23 19:47
+16	-16	Oro&nbsp;insuficiente	Oro&nbsp;insuficiente	unkown error	2012/10/24 12:24	2012/10/24 12:24
+17	-17	El&nbsp;almacén&nbsp;del&nbsp;usuario&nbsp;está&nbsp;lleno	El&nbsp;almacén&nbsp;del&nbsp;usuario&nbsp;está&nbsp;lleno	unkown error	2012/10/24 12:24	2012/10/24 12:24
+18	-18	Se&nbsp;agotaron&nbsp;tus&nbsp;actualizaciones&nbsp;diarias	Se&nbsp;agotaron&nbsp;tus&nbsp;actualizaciones&nbsp;diarias	unkown error	2012/10/24 14:31	2012/10/24 14:31
+19	-19	El&nbsp;objeto&nbsp;a&nbsp;comprar&nbsp;no&nbsp;existe	El&nbsp;objeto&nbsp;a&nbsp;comprar&nbsp;no&nbsp;existe	unkown error	2012/10/30 11:10	2012/10/30 11:10
+20	-20	El&nbsp;pedido&nbsp;no&nbsp;existe	El&nbsp;pedido&nbsp;no&nbsp;existe	unkown error	2012/10/30 13:23	2012/10/30 13:23
+21	-21	Validando&nbsp;pedido	Validando&nbsp;pedido	unkown error	2012/10/31 21:39	2012/10/31 21:39
+22	-22	Compra&nbsp;fallida	Compra&nbsp;fallida	unkown error	2012/10/30 13:35	2012/10/30 13:35
+23	-23	¡Obtuviste&nbsp;la&nbsp;bonificación&nbsp;de&nbsp;primera&nbsp;compra!	¡Obtuviste&nbsp;la&nbsp;bonificación&nbsp;de&nbsp;primera&nbsp;compra!	unkown error	2012/10/31 21:39	2012/10/31 21:39
+24	-24	¡Esta&nbsp;función&nbsp;aún&nbsp;no&nbsp;está&nbsp;disponible!	¡Esta&nbsp;función&nbsp;aún&nbsp;no&nbsp;está&nbsp;disponible!	unkown error	2012/10/31 21:39	2012/10/31 21:39
+25	-25	La&nbsp;información&nbsp;del&nbsp;usuario&nbsp;y&nbsp;del&nbsp;arma&nbsp;no&nbsp;coincide	La&nbsp;información&nbsp;del&nbsp;usuario&nbsp;y&nbsp;del&nbsp;arma&nbsp;no&nbsp;coincide	unkown error	2012/11/1 10:45	2012/11/1 10:45
+26	-26	Faltan&nbsp;pergaminos.&nbsp;Toca&nbsp;el&nbsp;icono&nbsp;para&nbsp;rastrear	Faltan&nbsp;pergaminos.&nbsp;Toca&nbsp;el&nbsp;icono&nbsp;para&nbsp;rastrear	unkown error	2012/11/1 10:47	2012/11/1 10:47
+27	-27	No&nbsp;tienes&nbsp;suficientes&nbsp;objetos&nbsp;para&nbsp;la&nbsp;digievolución	No&nbsp;tienes&nbsp;suficientes&nbsp;objetos&nbsp;para&nbsp;la&nbsp;digievolución	unkown error	2012/11/1 10:49	2012/11/1 10:49
+28	-28	No&nbsp;se&nbsp;pudo&nbsp;obtener&nbsp;el&nbsp;dato&nbsp;de&nbsp;canje&nbsp;de&nbsp;Vigor	No&nbsp;se&nbsp;pudo&nbsp;obtener&nbsp;el&nbsp;dato&nbsp;de&nbsp;canje&nbsp;de&nbsp;Vigor	unkown error	2012/11/1 11:43	2012/11/1 11:43
+29	-29	No&nbsp;se&nbsp;pudo&nbsp;obtener&nbsp;el&nbsp;dato&nbsp;de&nbsp;subida&nbsp;de&nbsp;nivel&nbsp;del&nbsp;arma	No&nbsp;se&nbsp;pudo&nbsp;obtener&nbsp;el&nbsp;dato&nbsp;de&nbsp;subida&nbsp;de&nbsp;nivel&nbsp;del&nbsp;arma	unkown error	2012/11/1 11:59	2012/11/1 11:59
+30	-30	Ya&nbsp;obtuviste&nbsp;el&nbsp;paquete.&nbsp;¡Vuelve&nbsp;mañana!	Ya&nbsp;obtuviste&nbsp;el&nbsp;paquete.&nbsp;¡Vuelve&nbsp;mañana!	unkown error	2012/11/1 21:41	2012/11/1 21:41
+31	-31	¡Alcanzaste&nbsp;el&nbsp;máximo&nbsp;de&nbsp;compras&nbsp;diarias!	¡Alcanzaste&nbsp;el&nbsp;máximo&nbsp;de&nbsp;compras&nbsp;diarias!	unkown error	2012/11/3 11:30	2012/11/3 11:30
+32	-32	Ya usaste todas las compras de Sellos de Honor de hoy	Ya usaste todas las compras de Sellos de Honor de hoy	unkown error	2012/11/3 13:20	2012/11/3 13:20
+33	-33	¡Las Órdenes de Caballería llegaron al límite, úsalas pronto!	¡Las Órdenes de Caballería llegaron al límite, úsalas pronto!	unkown error	2012/11/3 13:23	2012/11/3 13:23
+34	-34	¡Superaste&nbsp;el&nbsp;almacenamiento&nbsp;máximo!	¡Superaste&nbsp;el&nbsp;almacenamiento&nbsp;máximo!	unkown error	2012/11/3 14:19	2012/11/3 14:19
+35	-35	Ampliación&nbsp;de&nbsp;mochila&nbsp;no&nbsp;válida	Ampliación&nbsp;de&nbsp;mochila&nbsp;no&nbsp;válida	unkown error	2012/11/3 14:23	2012/11/3 14:23
+36	-36	Alcanzaste&nbsp;el&nbsp;máximo&nbsp;de&nbsp;puestos&nbsp;en&nbsp;la&nbsp;Formación,&nbsp;no&nbsp;se&nbsp;puede&nbsp;continuar	Alcanzaste&nbsp;el&nbsp;máximo&nbsp;de&nbsp;puestos&nbsp;en&nbsp;la&nbsp;Formación,&nbsp;no&nbsp;se&nbsp;puede&nbsp;continuar	unkown error	2012/11/3 14:41	2012/11/3 14:41
+37	-37	Ya&nbsp;tiene&nbsp;la&nbsp;calidad&nbsp;más&nbsp;alta&nbsp;y&nbsp;no&nbsp;necesita&nbsp;actualizarse	Ya&nbsp;tiene&nbsp;la&nbsp;calidad&nbsp;más&nbsp;alta&nbsp;y&nbsp;no&nbsp;necesita&nbsp;actualizarse	unkown error	2012/11/3 14:48	2012/11/3 14:48
+38	-38	No&nbsp;se&nbsp;puede&nbsp;superar&nbsp;el&nbsp;límite&nbsp;de&nbsp;excavación	No&nbsp;se&nbsp;puede&nbsp;superar&nbsp;el&nbsp;límite&nbsp;de&nbsp;excavación	unkown error	2012/11/3 15:42	2012/11/3 15:42
+39	-39	Excavando&nbsp;todavía	Excavando&nbsp;todavía	unkown error	2012/11/3 15:45	2012/11/3 15:45
+40	-40	Se&nbsp;agotaron&nbsp;las&nbsp;compras&nbsp;de&nbsp;la&nbsp;Arena,&nbsp;¡vuelve&nbsp;mañana!	Se&nbsp;agotaron&nbsp;las&nbsp;compras&nbsp;de&nbsp;la&nbsp;Arena,&nbsp;¡vuelve&nbsp;mañana!	unkown error	2012/11/3 19:47	2012/11/3 19:47
+41	-41	La&nbsp;mina&nbsp;de&nbsp;recursos&nbsp;no&nbsp;existe,&nbsp;primero&nbsp;construye&nbsp;una	La&nbsp;mina&nbsp;de&nbsp;recursos&nbsp;no&nbsp;existe,&nbsp;primero&nbsp;construye&nbsp;una	unkown error	2012/11/9 14:03	2012/11/9 14:03
+42	-42	El&nbsp;arma&nbsp;no&nbsp;existe	El&nbsp;arma&nbsp;no&nbsp;existe	unkown error	2012/11/14 15:51	2012/11/14 15:51
+43	-43	La&nbsp;información&nbsp;del&nbsp;arma&nbsp;y&nbsp;del&nbsp;usuario&nbsp;no&nbsp;coincide	La&nbsp;información&nbsp;del&nbsp;arma&nbsp;y&nbsp;del&nbsp;usuario&nbsp;no&nbsp;coincide	unkown error	2012/11/14 15:52	2012/11/14 15:52
+44	-44	El&nbsp;nivel&nbsp;del&nbsp;arma&nbsp;no&nbsp;puede&nbsp;superar&nbsp;tu&nbsp;nivel	El&nbsp;nivel&nbsp;del&nbsp;arma&nbsp;no&nbsp;puede&nbsp;superar&nbsp;tu&nbsp;nivel	unkown error	2012/11/14 15:57	2012/11/14 15:57
+45	-45	El&nbsp;arma&nbsp;está&nbsp;al&nbsp;nivel&nbsp;máximo.&nbsp;No&nbsp;se&nbsp;puede&nbsp;subir&nbsp;de&nbsp;nivel	El&nbsp;arma&nbsp;está&nbsp;al&nbsp;nivel&nbsp;máximo.&nbsp;No&nbsp;se&nbsp;puede&nbsp;subir&nbsp;de&nbsp;nivel	unkown error	2012/11/14 15:58	2012/11/14 15:58
+46	-46	Ryo&nbsp;insuficiente	Ryo&nbsp;insuficiente	unkown error	2012/11/14 16:00	2012/11/14 16:00
+47	-47	Libros de reforma insuficientes, no se puede mejorar el equipo	Libros de reforma insuficientes, no se puede mejorar el equipo	unkown error	2012/11/14 16:07	2012/11/14 16:07
+48	-48	¡Mejora&nbsp;fallida!	¡Mejora&nbsp;fallida!	unkown error	2012/11/14 16:26	2012/11/14 16:26
+49	-49	Compra&nbsp;completada	Compra&nbsp;completada	unkown error	2012/11/14 18:17	2012/11/14 18:17
+50	-50	Mejora&nbsp;en&nbsp;enfriamiento.&nbsp;Elimina&nbsp;el&nbsp;tiempo&nbsp;de&nbsp;enfriamiento	Mejora&nbsp;en&nbsp;enfriamiento.&nbsp;Elimina&nbsp;el&nbsp;tiempo&nbsp;de&nbsp;enfriamiento	unkown error	2012/11/14 20:43	2012/11/14 20:43
+51	-51	¡El&nbsp;servidor&nbsp;está&nbsp;a&nbsp;la&nbsp;espera&nbsp;de&nbsp;abrir!	¡El&nbsp;servidor&nbsp;está&nbsp;a&nbsp;la&nbsp;espera&nbsp;de&nbsp;abrir!	unkown error	2012/11/14 20:43	2012/11/14 20:43
+52	-52	Recompensa&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;continuar	Recompensa&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;continuar	unkown error	2012/11/24 10:33	2012/11/24 10:33
+53	-53	Asalto&nbsp;en&nbsp;enfriamiento.&nbsp;Elimina&nbsp;el&nbsp;tiempo&nbsp;de&nbsp;enfriamiento	Asalto&nbsp;en&nbsp;enfriamiento.&nbsp;Elimina&nbsp;el&nbsp;tiempo&nbsp;de&nbsp;enfriamiento	unkown error	2012/11/27 18:43	2012/11/27 18:43
+54	-54	Servidor&nbsp;en&nbsp;mantenimiento.&nbsp;Inicia&nbsp;sesión&nbsp;más&nbsp;tarde.	Servidor&nbsp;en&nbsp;mantenimiento.&nbsp;Inicia&nbsp;sesión&nbsp;más&nbsp;tarde.	unkown error	2012/11/29 13:39	2012/11/29 13:39
+55	-55	Recompensa&nbsp;caducada.&nbsp;Contacta&nbsp;con&nbsp;un&nbsp;GM&nbsp;si&nbsp;tienes&nbsp;problemas	Recompensa&nbsp;caducada.&nbsp;Contacta&nbsp;con&nbsp;un&nbsp;GM&nbsp;si&nbsp;tienes&nbsp;problemas	unkown error	2012/12/13 12:39	2012/12/13 12:39
+56	-56	Ya&nbsp;tienes&nbsp;este&nbsp;Ninja.&nbsp;Despide&nbsp;primero&nbsp;al&nbsp;Ninja&nbsp;original	Ya&nbsp;tienes&nbsp;este&nbsp;Ninja.&nbsp;Despide&nbsp;primero&nbsp;al&nbsp;Ninja&nbsp;original	unkown error	2012/12/13 14:27	2012/12/13 14:27
+57	-57	El&nbsp;puerto&nbsp;está&nbsp;lleno,&nbsp;despide&nbsp;primero&nbsp;a&nbsp;un&nbsp;ninja	El&nbsp;puerto&nbsp;está&nbsp;lleno,&nbsp;despide&nbsp;primero&nbsp;a&nbsp;un&nbsp;ninja	unkown error	2012/12/13 14:45	2012/12/13 14:45
+58	-58	El&nbsp;Ninja&nbsp;no&nbsp;existe	El&nbsp;Ninja&nbsp;no&nbsp;existe	unkown error	2012/12/13 14:46	2012/12/13 14:46
+59	-59	Primero&nbsp;construye&nbsp;una&nbsp;taberna	Primero&nbsp;construye&nbsp;una&nbsp;taberna	unkown error	2012/12/13 14:46	2012/12/13 14:46
+60	-60	No&nbsp;hay&nbsp;datos&nbsp;de&nbsp;configuración&nbsp;de&nbsp;EXP&nbsp;de&nbsp;Ninja	No&nbsp;hay&nbsp;datos&nbsp;de&nbsp;configuración&nbsp;de&nbsp;EXP&nbsp;de&nbsp;Ninja	unkown error	2012/12/13 14:47	2012/12/13 14:47
+61	-61	¡Espacio&nbsp;de&nbsp;mochila&nbsp;insuficiente!	¡Espacio&nbsp;de&nbsp;mochila&nbsp;insuficiente!	unkown error	2012/12/15 2:23	2012/12/15 2:23
+62	-62	¡Nivel&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar!	¡Nivel&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar!	unkown error	2012/12/20 16:02	2012/12/20 16:02
+63	-63	Se&nbsp;agotaron&nbsp;tus&nbsp;compras&nbsp;de&nbsp;hoy	Se&nbsp;agotaron&nbsp;tus&nbsp;compras&nbsp;de&nbsp;hoy	unkown error	2012/12/21 16:56	2012/12/21 16:56
+64	-64	Se&nbsp;agotaron&nbsp;tus&nbsp;desafíos&nbsp;de&nbsp;hoy	Se&nbsp;agotaron&nbsp;tus&nbsp;desafíos&nbsp;de&nbsp;hoy	unkown error	2012/12/22 11:10	2012/12/22 11:10
+65	-65	Poder&nbsp;de&nbsp;usuario&nbsp;insuficiente.&nbsp;Compra&nbsp;para&nbsp;aumentar&nbsp;tu&nbsp;poder&nbsp;de&nbsp;usuario	Poder&nbsp;de&nbsp;usuario&nbsp;insuficiente.&nbsp;Compra&nbsp;para&nbsp;aumentar&nbsp;tu&nbsp;poder&nbsp;de&nbsp;usuario	unkown error	2012/12/27 20:28	2012/12/27 20:28
+66	-66	Se&nbsp;agotaron&nbsp;tus&nbsp;reinicios&nbsp;de&nbsp;esta&nbsp;página	Se&nbsp;agotaron&nbsp;tus&nbsp;reinicios&nbsp;de&nbsp;esta&nbsp;página	unkown error	2012/12/28 10:02	2012/12/28 10:02
+67	-67	Conchas de viento insuficientes, no puedes desafiar la zona sin viento	Conchas de viento insuficientes, no puedes desafiar la zona sin viento	unkown error	2012/12/27 20:28	2012/12/27 20:28
+68	-68	Cuenta&nbsp;o&nbsp;contraseña&nbsp;incorrecta	Cuenta&nbsp;o&nbsp;contraseña&nbsp;incorrecta	unkown error	2012/12/28 15:30	2012/12/28 15:30
+69	-69	¡Esta&nbsp;cuenta&nbsp;está&nbsp;bloqueada!&nbsp;No&nbsp;se&nbsp;puede&nbsp;iniciar&nbsp;sesión	¡Esta&nbsp;cuenta&nbsp;está&nbsp;bloqueada!&nbsp;No&nbsp;se&nbsp;puede&nbsp;iniciar&nbsp;sesión	unkown error	2012/12/29 12:27	2012/12/29 12:27
+70	-70	La&nbsp;biblioteca&nbsp;de&nbsp;no&nbsp;primer&nbsp;lanzamiento&nbsp;no&nbsp;existe	La&nbsp;biblioteca&nbsp;de&nbsp;no&nbsp;primer&nbsp;lanzamiento&nbsp;no&nbsp;existe	unkown error	2013/1/18 18:56	2013/1/18 18:56
+71	-71	La&nbsp;recompensa&nbsp;de&nbsp;Ninja&nbsp;del&nbsp;usuario&nbsp;no&nbsp;existe	La&nbsp;recompensa&nbsp;de&nbsp;Ninja&nbsp;del&nbsp;usuario&nbsp;no&nbsp;existe	unkown error	2013/1/27 1:38	2013/1/27 1:38
+72	-72	Error de base de datos	Error de base de datos	unkown error	2013/1/26 18:52	2013/1/26 18:52
+73	-73	El&nbsp;objeto&nbsp;no&nbsp;existe	El&nbsp;objeto&nbsp;no&nbsp;existe	unkown error	2013/1/26 19:23	2013/1/26 19:23
+74	-74	Objetos&nbsp;insuficientes	Objetos&nbsp;insuficientes	unkown error	2013/1/27 1:38	2013/1/27 1:38
+75	-75	Piedras&nbsp;de&nbsp;constelación&nbsp;insuficientes	Piedras&nbsp;de&nbsp;constelación&nbsp;insuficientes	unkown error	2013/1/27 1:38	2013/1/27 1:38
+76	-76	Estado del usuario anormal	Estado del usuario anormal	unkown error	2013/1/27 1:38	2013/1/27 1:38
+77	-77	Ya&nbsp;comiste&nbsp;hoy.&nbsp;¡Vuelve&nbsp;mañana!	Ya&nbsp;comiste&nbsp;hoy.&nbsp;¡Vuelve&nbsp;mañana!	unkown error	2013/2/27 15:54	2013/2/27 15:54
+78	-78	Este&nbsp;puesto&nbsp;de&nbsp;combate&nbsp;está&nbsp;bloqueado	Este&nbsp;puesto&nbsp;de&nbsp;combate&nbsp;está&nbsp;bloqueado	unkown error	2013/3/5 11:52	2013/3/5 11:52
+79	-79	Primero&nbsp;excava	Primero&nbsp;excava	unkown error	2013/3/9 11:16	2013/3/9 11:16
+80	-80	¡Se acabaron los explosivos, vuelve a volar la próxima vez!	¡Se acabaron los explosivos, vuelve a volar la próxima vez!	unkown error	2013/3/11 12:44	2013/3/11 12:44
+81	-81	Nivel&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar	Nivel&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar	unkown error	2013/3/11 12:39	2013/3/11 12:39
+82	-82	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;compras	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;compras	unkown error	2013/3/11 12:43	2013/3/11 12:43
+83	-83	Espacio&nbsp;de&nbsp;mochila&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;permite&nbsp;despedir	Espacio&nbsp;de&nbsp;mochila&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;permite&nbsp;despedir	unkown error	2013/3/15 15:24	2013/3/15 15:24
+84	-84	Mochila&nbsp;de&nbsp;Chamán&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;despedir	Mochila&nbsp;de&nbsp;Chamán&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;despedir	unkown error	2013/3/15 15:29	2013/3/15 15:29
+85	-85	Los&nbsp;tipos&nbsp;de&nbsp;Ninja&nbsp;no&nbsp;coinciden.&nbsp;No&nbsp;se&nbsp;puede&nbsp;colocar	Los&nbsp;tipos&nbsp;de&nbsp;Ninja&nbsp;no&nbsp;coinciden.&nbsp;No&nbsp;se&nbsp;puede&nbsp;colocar	unkown error	2013/3/15 20:37	2013/3/15 20:37
+86	-86	Ya&nbsp;alcanzó&nbsp;el&nbsp;máximo&nbsp;y&nbsp;no&nbsp;puede&nbsp;crecer	Ya&nbsp;alcanzó&nbsp;el&nbsp;máximo&nbsp;y&nbsp;no&nbsp;puede&nbsp;crecer	unkown error	2013/3/27 10:29	2013/3/27 10:29
+87	-87	No&nbsp;hay&nbsp;Ninjas&nbsp;disponibles	No&nbsp;hay&nbsp;Ninjas&nbsp;disponibles	unkown error	2013/3/27 10:43	2013/3/27 10:43
+88	-88	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;vender	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;vender	unkown error	2013/3/30 17:05	2013/3/30 17:05
+89	-89	Este&nbsp;Ninja&nbsp;no&nbsp;se&nbsp;puede&nbsp;despedir	Este&nbsp;Ninja&nbsp;no&nbsp;se&nbsp;puede&nbsp;despedir	unkown error	2013/4/9 14:02	2013/4/9 14:02
+90	-90	Este&nbsp;Ninja&nbsp;debe&nbsp;estar&nbsp;en&nbsp;el&nbsp;grupo	Este&nbsp;Ninja&nbsp;debe&nbsp;estar&nbsp;en&nbsp;el&nbsp;grupo	unkown error	2013/4/9 14:05	2013/4/9 14:05
+91	-91	No&nbsp;puedes&nbsp;abandonar&nbsp;esta&nbsp;misión	No&nbsp;puedes&nbsp;abandonar&nbsp;esta&nbsp;misión	unkown error	2013/4/19 10:54	2013/4/19 10:54
+92	-92	No&nbsp;hay&nbsp;espacio&nbsp;libre&nbsp;para&nbsp;armas.&nbsp;Aumenta&nbsp;la&nbsp;calidad&nbsp;del&nbsp;Ninja	No&nbsp;hay&nbsp;espacio&nbsp;libre&nbsp;para&nbsp;armas.&nbsp;Aumenta&nbsp;la&nbsp;calidad&nbsp;del&nbsp;Ninja	unkown error	2013/4/24 16:27	2013/4/24 16:27
+93	-93	Solo&nbsp;puedes&nbsp;combatir&nbsp;si&nbsp;tienes&nbsp;un&nbsp;Ninja&nbsp;morado&nbsp;o&nbsp;morado-naranja&nbsp;en&nbsp;tu&nbsp;grupo	Solo&nbsp;puedes&nbsp;combatir&nbsp;si&nbsp;tienes&nbsp;un&nbsp;Ninja&nbsp;morado&nbsp;o&nbsp;morado-naranja&nbsp;en&nbsp;tu&nbsp;grupo	unkown error	2013/4/24 17:56	2013/4/24 17:56
+94	-94	Solo&nbsp;puedes&nbsp;combatir&nbsp;si&nbsp;tienes&nbsp;un&nbsp;Ninja&nbsp;naranja&nbsp;en&nbsp;tu&nbsp;grupo	Solo&nbsp;puedes&nbsp;combatir&nbsp;si&nbsp;tienes&nbsp;un&nbsp;Ninja&nbsp;naranja&nbsp;en&nbsp;tu&nbsp;grupo	unkown error	2013/4/24 17:56	2013/4/24 17:56
+95	-95	Desafío&nbsp;a&nbsp;la&nbsp;reina&nbsp;en&nbsp;enfriamiento	Desafío&nbsp;a&nbsp;la&nbsp;reina&nbsp;en&nbsp;enfriamiento	unkown error	2013/4/26 22:28	2013/4/26 22:28
+96	-96	Calidad&nbsp;del&nbsp;Ninja&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;equipar	Calidad&nbsp;del&nbsp;Ninja&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;equipar	unkown error	2013/5/4 3:07	2013/5/4 3:07
+97	-97	Calidad&nbsp;del&nbsp;Ninja&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;subir&nbsp;de&nbsp;nivel	Calidad&nbsp;del&nbsp;Ninja&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;subir&nbsp;de&nbsp;nivel	unkown error	2013/5/4 3:19	2013/5/4 3:19
+98	-98	Calidad&nbsp;del&nbsp;Ninja&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;usar&nbsp;esta&nbsp;habilidad	Calidad&nbsp;del&nbsp;Ninja&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;usar&nbsp;esta&nbsp;habilidad	unkown error	2013/5/4 16:55	2013/5/4 16:55
+99	-99	Este&nbsp;puesto&nbsp;está&nbsp;bloqueado	Este&nbsp;puesto&nbsp;está&nbsp;bloqueado	unkown error	2013/5/4 17:55	2013/5/4 17:55
+100	-100	Mochila&nbsp;o&nbsp;Mochila&nbsp;de&nbsp;Chamán&nbsp;insuficiente,&nbsp;ordénala&nbsp;primero	Mochila&nbsp;o&nbsp;Mochila&nbsp;de&nbsp;Chamán&nbsp;insuficiente,&nbsp;ordénala&nbsp;primero	unkown error	2013/5/8 16:32	2013/5/8 16:32
+101	-101	No&nbsp;hay&nbsp;mazmorras&nbsp;disponibles&nbsp;para&nbsp;barrido	No&nbsp;hay&nbsp;mazmorras&nbsp;disponibles&nbsp;para&nbsp;barrido	unkown error	2013/5/11 13:23	2013/5/11 13:23
+102	-102	No&nbsp;hay&nbsp;campaña&nbsp;que&nbsp;reiniciar	No&nbsp;hay&nbsp;campaña&nbsp;que&nbsp;reiniciar	unkown error	2013/5/13 16:38	2013/5/13 16:38
+103	-103	El&nbsp;Vigor&nbsp;está&nbsp;lleno.&nbsp;No&nbsp;se&nbsp;puede&nbsp;usar	El&nbsp;Vigor&nbsp;está&nbsp;lleno.&nbsp;No&nbsp;se&nbsp;puede&nbsp;usar	unkown error	2013/5/17 11:03	2013/5/17 11:03
+104	-104	Mochila&nbsp;de&nbsp;armas&nbsp;insuficiente	Mochila&nbsp;de&nbsp;armas&nbsp;insuficiente	unkown error	2013/5/18 19:40	2013/5/18 19:40
+105	-105	Mochila&nbsp;de&nbsp;cofres&nbsp;insuficiente	Mochila&nbsp;de&nbsp;cofres&nbsp;insuficiente	unkown error	2013/5/18 19:40	2013/5/18 19:40
+106	-106	Mochila&nbsp;de&nbsp;materiales&nbsp;insuficiente	Mochila&nbsp;de&nbsp;materiales&nbsp;insuficiente	unkown error	2013/5/18 19:41	2013/5/18 19:41
+107	-107	Error&nbsp;de&nbsp;estado&nbsp;de&nbsp;la&nbsp;secretaria	Error&nbsp;de&nbsp;estado&nbsp;de&nbsp;la&nbsp;secretaria	unkown error	2013/5/23 14:44	2013/5/23 14:44
+108	-108	No&nbsp;puedes&nbsp;saltar&nbsp;de&nbsp;nivel&nbsp;para&nbsp;bromear	No&nbsp;puedes&nbsp;saltar&nbsp;de&nbsp;nivel&nbsp;para&nbsp;bromear	unkown error	2013/5/23 15:54	2013/5/23 15:54
+109	-109	Vínculo&nbsp;insuficiente	Vínculo&nbsp;insuficiente	unkown error	2013/5/23 15:58	2013/5/23 15:58
+110	-110	El&nbsp;privilegio&nbsp;surtirá&nbsp;efecto&nbsp;al&nbsp;día&nbsp;siguiente&nbsp;de&nbsp;activarlo	El&nbsp;privilegio&nbsp;surtirá&nbsp;efecto&nbsp;al&nbsp;día&nbsp;siguiente&nbsp;de&nbsp;activarlo	unkown error	2013/5/29 11:26	2013/5/29 11:26
+111	-111	El&nbsp;evento&nbsp;y&nbsp;el&nbsp;combate&nbsp;automático&nbsp;siguen&nbsp;en&nbsp;curso,&nbsp;desafía&nbsp;cuando&nbsp;termine&nbsp;el&nbsp;evento	El&nbsp;evento&nbsp;y&nbsp;el&nbsp;combate&nbsp;automático&nbsp;siguen&nbsp;en&nbsp;curso,&nbsp;desafía&nbsp;cuando&nbsp;termine&nbsp;el&nbsp;evento	unkown error	2013/6/15 20:33	2013/6/15 20:33
+112	-112	Reviviendo,&nbsp;inténtalo&nbsp;de&nbsp;nuevo&nbsp;más&nbsp;tarde	Reviviendo,&nbsp;inténtalo&nbsp;de&nbsp;nuevo&nbsp;más&nbsp;tarde	unkown error	2013/6/15 20:46	2013/6/15 20:46
+113	-113	El&nbsp;jefe&nbsp;está&nbsp;sellado	El&nbsp;jefe&nbsp;está&nbsp;sellado	unkown error	2013/6/17 17:44	2013/6/17 17:44
+114	-114	El&nbsp;jefe&nbsp;aún&nbsp;no&nbsp;ha&nbsp;despertado	El&nbsp;jefe&nbsp;aún&nbsp;no&nbsp;ha&nbsp;despertado	unkown error	2013/6/17 17:44	2013/6/17 17:44
+115	-115	El&nbsp;evento&nbsp;no&nbsp;ha&nbsp;terminado.&nbsp;No&nbsp;se&nbsp;puede&nbsp;consultar	El&nbsp;evento&nbsp;no&nbsp;ha&nbsp;terminado.&nbsp;No&nbsp;se&nbsp;puede&nbsp;consultar	unkown error	2013/6/25 14:25	2013/6/25 14:25
+116	-116	Esta&nbsp;Formación&nbsp;ya&nbsp;está&nbsp;desbloqueada	Esta&nbsp;Formación&nbsp;ya&nbsp;está&nbsp;desbloqueada	unkown error	2013/6/27 14:45	2013/6/27 14:45
+117	-117	No&nbsp;se&nbsp;puede&nbsp;desbloquear&nbsp;manualmente&nbsp;este&nbsp;puesto&nbsp;de&nbsp;Formación	No&nbsp;se&nbsp;puede&nbsp;desbloquear&nbsp;manualmente&nbsp;este&nbsp;puesto&nbsp;de&nbsp;Formación	unkown error	2013/6/27 14:50	2013/6/27 14:51
+118	-118	El&nbsp;nivel&nbsp;de&nbsp;recompensa&nbsp;es&nbsp;demasiado&nbsp;bajo,&nbsp;no&nbsp;se&nbsp;puede&nbsp;continuar	El&nbsp;nivel&nbsp;de&nbsp;recompensa&nbsp;es&nbsp;demasiado&nbsp;bajo,&nbsp;no&nbsp;se&nbsp;puede&nbsp;continuar	unkown error	2013/6/27 14:54	2013/6/27 14:54
+119	-119	No&nbsp;se&nbsp;puede&nbsp;cambiar&nbsp;el&nbsp;estado&nbsp;de&nbsp;combate&nbsp;sin&nbsp;conexión&nbsp;durante&nbsp;el&nbsp;evento	No&nbsp;se&nbsp;puede&nbsp;cambiar&nbsp;el&nbsp;estado&nbsp;de&nbsp;combate&nbsp;sin&nbsp;conexión&nbsp;durante&nbsp;el&nbsp;evento	unkown error	2013/6/29 18:29	2013/6/29 18:29
+120	-120	Oro&nbsp;insuficiente,&nbsp;saliendo&nbsp;del&nbsp;estado&nbsp;sin&nbsp;conexión&nbsp;en&nbsp;el&nbsp;Jefe&nbsp;Mundial	Oro&nbsp;insuficiente,&nbsp;saliendo&nbsp;del&nbsp;estado&nbsp;sin&nbsp;conexión&nbsp;en&nbsp;el&nbsp;Jefe&nbsp;Mundial	unkown error	2013/7/1 10:27	2013/7/1 10:27
+121	-121	Desbloquea&nbsp;los&nbsp;puestos&nbsp;en&nbsp;orden	Desbloquea&nbsp;los&nbsp;puestos&nbsp;en&nbsp;orden	unkown error	2013/7/6 17:26	2013/7/6 17:26
+122	-122	Nivel&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	Nivel&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2013/7/8 16:06	2013/7/8 16:06
+123	-123	Ya&nbsp;te&nbsp;inscribiste&nbsp;hoy.&nbsp;Vuelve&nbsp;mañana	Ya&nbsp;te&nbsp;inscribiste&nbsp;hoy.&nbsp;Vuelve&nbsp;mañana	unkown error	2013/7/8 16:25	2013/7/8 16:25
+124	-124	Inscripciones&nbsp;insuficientes	Inscripciones&nbsp;insuficientes	unkown error	2013/7/8 16:34	2013/7/8 16:34
+125	-125	Ya&nbsp;alcanzó&nbsp;el&nbsp;máximo&nbsp;de&nbsp;puestos&nbsp;de&nbsp;combate	Ya&nbsp;alcanzó&nbsp;el&nbsp;máximo&nbsp;de&nbsp;puestos&nbsp;de&nbsp;combate	unkown error	2013/7/8 18:55	2013/7/8 18:55
+126	-126	Ya&nbsp;lo&nbsp;obtuviste	Ya&nbsp;lo&nbsp;obtuviste	unkown error	2013/7/9 21:02	2013/7/9 21:02
+127	-127	Ningún&nbsp;Chamán&nbsp;necesita&nbsp;infusión	Ningún&nbsp;Chamán&nbsp;necesita&nbsp;infusión	unkown error	2013/7/12 15:14	2013/7/12 15:14
+128	-128	Puesto&nbsp;de&nbsp;Chamán&nbsp;aún&nbsp;no&nbsp;disponible	Puesto&nbsp;de&nbsp;Chamán&nbsp;aún&nbsp;no&nbsp;disponible	unkown error	2013/7/12 15:55	2013/7/12 15:55
+129	-129	No&nbsp;puedes&nbsp;equipar&nbsp;el&nbsp;mismo&nbsp;Chamán	No&nbsp;puedes&nbsp;equipar&nbsp;el&nbsp;mismo&nbsp;Chamán	unkown error	2013/7/12 20:02	2013/7/12 20:02
+130	-130	Ya&nbsp;desbloqueado	Ya&nbsp;desbloqueado	unkown error	2013/7/22 16:44	2013/7/22 16:44
+131	-131	Usuario&nbsp;o&nbsp;contraseña&nbsp;vacíos	Usuario&nbsp;o&nbsp;contraseña&nbsp;vacíos	unkown error	2013/9/7 10:33	2013/9/7 10:33
+132	-132	Longitud&nbsp;de&nbsp;usuario&nbsp;no&nbsp;válida	Longitud&nbsp;de&nbsp;usuario&nbsp;no&nbsp;válida	unkown error	2013/9/7 10:34	2013/9/7 10:34
+133	-133	El&nbsp;usuario&nbsp;o&nbsp;la&nbsp;contraseña&nbsp;tienen&nbsp;caracteres&nbsp;no&nbsp;válidos.	El&nbsp;usuario&nbsp;o&nbsp;la&nbsp;contraseña&nbsp;tienen&nbsp;caracteres&nbsp;no&nbsp;válidos.	unkown error	2013/9/7 10:34	2013/9/7 10:34
+134	-134	Este&nbsp;usuario&nbsp;ya&nbsp;está&nbsp;registrado	Este&nbsp;usuario&nbsp;ya&nbsp;está&nbsp;registrado	unkown error	2013/9/7 10:34	2013/9/7 10:34
+135	-135	Usuario&nbsp;o&nbsp;contraseña&nbsp;no&nbsp;válidos	Usuario&nbsp;o&nbsp;contraseña&nbsp;no&nbsp;válidos	unkown error	2013/9/7 10:34	2013/9/7 10:34
+136	-136	Los&nbsp;datos&nbsp;del&nbsp;usuario&nbsp;y&nbsp;del&nbsp;Pokémon&nbsp;no&nbsp;coinciden	Los&nbsp;datos&nbsp;del&nbsp;usuario&nbsp;y&nbsp;del&nbsp;Pokémon&nbsp;no&nbsp;coinciden	unkown error	2013/9/10 16:28	2013/9/10 16:28
+137	-137	Pokémon&nbsp;inactivo	Pokémon&nbsp;inactivo	unkown error	2013/9/10 16:52	2013/9/10 16:52
+138	-138	Equipa&nbsp;un&nbsp;Pokémon	Equipa&nbsp;un&nbsp;Pokémon	unkown error	2013/9/10 17:01	2013/9/10 17:01
+139	-139	Información&nbsp;del&nbsp;Pokémon&nbsp;anómala	Información&nbsp;del&nbsp;Pokémon&nbsp;anómala	unkown error	2013/9/10 17:03	2013/9/10 17:03
+140	-140	Se&nbsp;agotaron&nbsp;los&nbsp;estudios&nbsp;diarios,&nbsp;vuelve&nbsp;mañana	Se&nbsp;agotaron&nbsp;los&nbsp;estudios&nbsp;diarios,&nbsp;vuelve&nbsp;mañana	unkown error	2013/9/10 17:24	2013/9/10 17:24
+141	-141	La&nbsp;función&nbsp;de&nbsp;recarga&nbsp;está&nbsp;cerrada	La&nbsp;función&nbsp;de&nbsp;recarga&nbsp;está&nbsp;cerrada	unkownerror	2013/9/16 11:56	2013/9/16 11:56
+142	-142	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;(tipcat)	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;(tipcat)	unkown error	2013/9/16 18:43	2013/9/16 18:43
+143	-143	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;91	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;91	unkown error	2013/9/16 18:55	2013/9/16 18:55
+144	-144	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;91dj	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;91dj	unkown error	2013/9/16 19:01	2013/9/16 19:01
+145	-145	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;Duo&nbsp;Ku	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;Duo&nbsp;Ku	unkown error	2013/9/16 19:50	2013/9/16 19:50
+146	-146	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;Mi	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;Mi	unkown error	2013/9/17 11:57	2013/9/17 11:57
+147	-147	Vagabundo&nbsp;del&nbsp;mar	Vagabundo&nbsp;del&nbsp;mar	unkown error	2013/10/9 14:46	2013/10/9 14:46
+148	-148	Pirata aprendiz novato	Pirata aprendiz novato	unkown error	2013/10/9 14:46	2013/10/9 14:46
+149	-149	Pirata aprendiz intermedio	Pirata aprendiz intermedio	unkown error	2013/10/9 14:47	2013/10/9 14:47
+150	-150	Pirata aprendiz avanzado	Pirata aprendiz avanzado	unkown error	2013/10/9 14:47	2013/10/9 14:47
+151	-151	Pirata novato	Pirata novato	unkown error	2013/10/9 14:47	2013/10/9 14:47
+152	-152	Pirata intermedio	Pirata intermedio	unkown error	2013/10/9 14:47	2013/10/9 14:47
+153	-153	Pirata avanzado	Pirata avanzado	unkown error	2013/10/9 14:48	2013/10/9 14:48
+154	-154	Ninja del mar	Ninja del mar	unkown error	2013/10/9 14:48	2013/10/9 14:48
+155	-155	Ninja loco del mar	Ninja loco del mar	unkown error	2013/10/9 14:48	2013/10/9 14:48
+156	-156	Ninja del mar	Ninja del mar	unkown error	2013/10/9 14:48	2013/10/9 14:48
+157	-157	Ninja loco del mar	Ninja loco del mar	unkown error	2013/10/9 14:49	2013/10/9 14:49
+158	-158	Subcapitán pirata	Subcapitán pirata	unkown error	2013/10/9 14:49	2013/10/9 14:49
+159	-159	Capitán pirata	Capitán pirata	unkown error	2013/10/9 14:49	2013/10/9 14:49
+160	-160	Estratega pirata	Estratega pirata	unkown error	2013/10/9 14:49	2013/10/9 14:49
+161	-161	Líder pirata	Líder pirata	unkown error	2013/10/9 14:50	2013/10/9 14:50
+162	-162	Azote de los mares	Azote de los mares	unkown error	2013/10/9 14:50	2013/10/9 14:50
+163	-163	Almirante pirata	Almirante pirata	unkown error	2013/10/9 14:50	2013/10/9 14:50
+164	-164	Señor del Mar	Señor del Mar	unkown error	2013/10/9 14:50	2013/10/9 14:50
+165	-165	Árbitro del Océano	Árbitro del Océano	unkown error	2013/10/9 14:50	2013/10/9 14:50
+166	-166	Los Siete Señores de la Guerra	Los Siete Señores de la Guerra	unkown error	2013/10/9 14:51	2013/10/9 14:51
+167	-167	Cuarto Emperador Pirata	Cuarto Emperador Pirata	unkown error	2013/10/9 14:51	2013/10/9 14:51
+168	-168	Tercer Emperador Pirata	Tercer Emperador Pirata	unkown error	2013/10/9 14:51	2013/10/9 14:51
+169	-169	Segundo Emperador Pirata	Segundo Emperador Pirata	unkown error	2013/10/9 14:51	2013/10/9 14:52
+170	-170	Primer Emperador Pirata	Primer Emperador Pirata	unkown error	2013/10/9 14:52	2013/10/9 14:52
+171	-171	Rey de los Piratas	Rey de los Piratas	unkown error	2013/10/9 14:52	2013/10/9 14:52
+172	-172	¡[x]&nbsp;derrota&nbsp;a&nbsp;[y]&nbsp;y&nbsp;se&nbsp;convierte&nbsp;en&nbsp;el&nbsp;número&nbsp;uno&nbsp;de&nbsp;la&nbsp;arena!	¡[x]&nbsp;derrota&nbsp;a&nbsp;[y]&nbsp;y&nbsp;se&nbsp;convierte&nbsp;en&nbsp;el&nbsp;número&nbsp;uno&nbsp;de&nbsp;la&nbsp;arena!	unkown error	2013/10/9 15:27	2013/10/9 15:27
+173	-173	¡[x]&nbsp;es&nbsp;imparable&nbsp;y&nbsp;gana&nbsp;[y]&nbsp;veces&nbsp;seguidas!	¡[x]&nbsp;es&nbsp;imparable&nbsp;y&nbsp;gana&nbsp;[y]&nbsp;veces&nbsp;seguidas!	unkown error	2013/10/9 15:28	2013/10/9 15:28
+174	-174	[y],&nbsp;con&nbsp;[x]&nbsp;victorias&nbsp;seguidas,&nbsp;es&nbsp;derrotado&nbsp;por&nbsp;[z].&nbsp;¡La&nbsp;racha&nbsp;de&nbsp;victorias&nbsp;de&nbsp;[y]&nbsp;se&nbsp;acabó!	[y],&nbsp;con&nbsp;[x]&nbsp;victorias&nbsp;seguidas,&nbsp;es&nbsp;derrotado&nbsp;por&nbsp;[z].&nbsp;¡La&nbsp;racha&nbsp;de&nbsp;victorias&nbsp;de&nbsp;[y]&nbsp;se&nbsp;acabó!	unkown error	2013/10/9 15:28	2013/10/9 15:28
+175	-175	El&nbsp;rango&nbsp;de&nbsp;[x]&nbsp;subió&nbsp;[y]&nbsp;puestos.&nbsp;¡[x]&nbsp;se&nbsp;convirtió&nbsp;en&nbsp;la&nbsp;estrella&nbsp;brillante&nbsp;de&nbsp;la&nbsp;arena!	El&nbsp;rango&nbsp;de&nbsp;[x]&nbsp;subió&nbsp;[y]&nbsp;puestos.&nbsp;¡[x]&nbsp;se&nbsp;convirtió&nbsp;en&nbsp;la&nbsp;estrella&nbsp;brillante&nbsp;de&nbsp;la&nbsp;arena!	unkown error	2013/10/9 15:29	2013/10/9 15:29
+176	-176	%x%&nbsp;se&nbsp;convirtió&nbsp;en&nbsp;VIP&nbsp;%y%.&nbsp;¡Disfruta&nbsp;ya&nbsp;de&nbsp;los&nbsp;privilegios&nbsp;VIP!	%x%&nbsp;se&nbsp;convirtió&nbsp;en&nbsp;VIP&nbsp;%y%.&nbsp;¡Disfruta&nbsp;ya&nbsp;de&nbsp;los&nbsp;privilegios&nbsp;VIP!	unkown error	2013/10/9 15:52	2013/10/9 15:52
+177	-177	El&nbsp;Ninja&nbsp;%x%&nbsp;consiguió&nbsp;el&nbsp;paquete&nbsp;de&nbsp;lujo&nbsp;de&nbsp;primera&nbsp;compra&nbsp;y&nbsp;obtuvo&nbsp;%y%.	El&nbsp;Ninja&nbsp;%x%&nbsp;consiguió&nbsp;el&nbsp;paquete&nbsp;de&nbsp;lujo&nbsp;de&nbsp;primera&nbsp;compra&nbsp;y&nbsp;obtuvo&nbsp;%y%.	unkown error	2013/10/9 15:53	2013/10/9 15:53
+178	-178	¡Felicidades&nbsp;a&nbsp;%x%,&nbsp;que&nbsp;abrió&nbsp;%y%&nbsp;y&nbsp;obtuvo&nbsp;%z%!&nbsp;¡Todos&nbsp;los&nbsp;objetos&nbsp;raros&nbsp;están&nbsp;en&nbsp;los&nbsp;cofres!	¡Felicidades&nbsp;a&nbsp;%x%,&nbsp;que&nbsp;abrió&nbsp;%y%&nbsp;y&nbsp;obtuvo&nbsp;%z%!&nbsp;¡Todos&nbsp;los&nbsp;objetos&nbsp;raros&nbsp;están&nbsp;en&nbsp;los&nbsp;cofres!	unkown error	2013/10/9 15:53	2013/10/9 15:53
+179	-179	¡El&nbsp;Ninja&nbsp;%x%&nbsp;usó&nbsp;%y%&nbsp;para&nbsp;conseguir&nbsp;%z%&nbsp;en&nbsp;la&nbsp;tienda&nbsp;y&nbsp;va&nbsp;a&nbsp;ser&nbsp;el&nbsp;mejor&nbsp;Ninja&nbsp;del&nbsp;servidor!	¡El&nbsp;Ninja&nbsp;%x%&nbsp;usó&nbsp;%y%&nbsp;para&nbsp;conseguir&nbsp;%z%&nbsp;en&nbsp;la&nbsp;tienda&nbsp;y&nbsp;va&nbsp;a&nbsp;ser&nbsp;el&nbsp;mejor&nbsp;Ninja&nbsp;del&nbsp;servidor!	unkown error	2013/10/9 15:53	2013/10/9 15:54
+180	-180	¡El&nbsp;Ninja&nbsp;%x%&nbsp;usó&nbsp;%y%&nbsp;para&nbsp;conseguir&nbsp;%z%&nbsp;en&nbsp;la&nbsp;tienda&nbsp;y&nbsp;va&nbsp;a&nbsp;ser&nbsp;el&nbsp;mejor&nbsp;Ninja&nbsp;del&nbsp;servidor!	¡El&nbsp;Ninja&nbsp;%x%&nbsp;usó&nbsp;%y%&nbsp;para&nbsp;conseguir&nbsp;%z%&nbsp;en&nbsp;la&nbsp;tienda&nbsp;y&nbsp;va&nbsp;a&nbsp;ser&nbsp;el&nbsp;mejor&nbsp;Ninja&nbsp;del&nbsp;servidor!	unkown error	2013/10/9 15:54	2013/10/9 15:54
+181	-181	¡El&nbsp;Ninja&nbsp;%x%&nbsp;hizo&nbsp;evolucionar&nbsp;%y%&nbsp;a&nbsp;%z%&nbsp;y&nbsp;se&nbsp;volvió&nbsp;más&nbsp;fuerte!	¡El&nbsp;Ninja&nbsp;%x%&nbsp;hizo&nbsp;evolucionar&nbsp;%y%&nbsp;a&nbsp;%z%&nbsp;y&nbsp;se&nbsp;volvió&nbsp;más&nbsp;fuerte!	unkown error	2013/10/9 15:54	2013/10/9 15:54
+182	-182	¡El&nbsp;Ninja&nbsp;%x%&nbsp;mejoró&nbsp;su&nbsp;chip&nbsp;%y%&nbsp;&nbsp;al&nbsp;nivel&nbsp;%z%&nbsp;y&nbsp;su&nbsp;fuerza&nbsp;sigue&nbsp;creciendo!	¡El&nbsp;Ninja&nbsp;%x%&nbsp;mejoró&nbsp;su&nbsp;chip&nbsp;%y%&nbsp;&nbsp;al&nbsp;nivel&nbsp;%z%&nbsp;y&nbsp;su&nbsp;fuerza&nbsp;sigue&nbsp;creciendo!	unkown error	2013/10/9 15:55	2013/10/9 15:55
+183	-183	¡El&nbsp;Ninja&nbsp;%x%&nbsp;forjó&nbsp;%y%&nbsp;y&nbsp;va&nbsp;a&nbsp;dominar&nbsp;todo&nbsp;el&nbsp;servidor!	¡El&nbsp;Ninja&nbsp;%x%&nbsp;forjó&nbsp;%y%&nbsp;y&nbsp;va&nbsp;a&nbsp;dominar&nbsp;todo&nbsp;el&nbsp;servidor!	unkown error	2013/10/9 15:55	2013/10/9 15:55
+184	-184	%x% retiró sus tropas de tu territorio, recuperaste la libertad	%x% retiró sus tropas de tu territorio, recuperaste la libertad	unkown error	2013/10/9 16:12	2013/10/9 16:12
+185	-185	¡Tu&nbsp;amigo&nbsp;%x%&nbsp;&nbsp;te&nbsp;ayudó&nbsp;con&nbsp;éxito,&nbsp;eres&nbsp;libre!	¡Tu&nbsp;amigo&nbsp;%x%&nbsp;&nbsp;te&nbsp;ayudó&nbsp;con&nbsp;éxito,&nbsp;eres&nbsp;libre!	unkown error	2013/10/9 16:12	2013/10/9 16:12
+186	-186	%x%&nbsp;ayudó&nbsp;a&nbsp;%y%&nbsp;con&nbsp;éxito,&nbsp;perdiste&nbsp;tu&nbsp;territorio	%x%&nbsp;ayudó&nbsp;a&nbsp;%y%&nbsp;con&nbsp;éxito,&nbsp;perdiste&nbsp;tu&nbsp;territorio	unkown error	2013/10/9 16:12	2013/10/9 16:12
+187	-187	Tu&nbsp;amigo&nbsp;%x%&nbsp;no&nbsp;logró&nbsp;ayudarte	Tu&nbsp;amigo&nbsp;%x%&nbsp;no&nbsp;logró&nbsp;ayudarte	unkown error	2013/10/9 16:13	2013/10/9 16:13
+188	-188	Tu&nbsp;amigo&nbsp;%x%&nbsp;no&nbsp;logró&nbsp;ayudar&nbsp;a&nbsp;tu&nbsp;territorio	Tu&nbsp;amigo&nbsp;%x%&nbsp;no&nbsp;logró&nbsp;ayudar&nbsp;a&nbsp;tu&nbsp;territorio	unkown error	2013/10/9 16:13	2013/10/9 16:13
+189	-189	%x%&nbsp;te&nbsp;derrotó&nbsp;y&nbsp;tomó&nbsp;una&nbsp;parte&nbsp;del&nbsp;territorio	%x%&nbsp;te&nbsp;derrotó&nbsp;y&nbsp;tomó&nbsp;una&nbsp;parte&nbsp;del&nbsp;territorio	unkown error	2013/10/9 16:14	2013/10/9 16:14
+190	-190	%x%&nbsp;derrotó&nbsp;a&nbsp;%y%&nbsp;y&nbsp;se&nbsp;convirtió&nbsp;en&nbsp;tu&nbsp;nuevo&nbsp;amo	%x%&nbsp;derrotó&nbsp;a&nbsp;%y%&nbsp;y&nbsp;se&nbsp;convirtió&nbsp;en&nbsp;tu&nbsp;nuevo&nbsp;amo	unkown error	2013/10/9 16:15	2013/10/9 16:15
+191	-191	&nbsp;%x%&nbsp;no&nbsp;logró&nbsp;atacarte	&nbsp;%x%&nbsp;no&nbsp;logró&nbsp;atacarte	unkown error	2013/10/9 16:16	2013/10/9 16:16
+192	-192	%x%&nbsp;te&nbsp;derrotó,&nbsp;te&nbsp;convertiste&nbsp;en&nbsp;su&nbsp;territorio	%x%&nbsp;te&nbsp;derrotó,&nbsp;te&nbsp;convertiste&nbsp;en&nbsp;su&nbsp;territorio	unkown error	2013/10/9 16:16	2013/10/9 16:16
+193	-193	%x%&nbsp;intentó&nbsp;atacarte,&nbsp;pero&nbsp;lo&nbsp;derrotaste	%x%&nbsp;intentó&nbsp;atacarte,&nbsp;pero&nbsp;lo&nbsp;derrotaste	unkown error	2013/10/9 16:17	2013/10/9 16:17
+194	-194	%x%&nbsp;cobró&nbsp;tus&nbsp;%y%&nbsp;monedas&nbsp;como&nbsp;impuesto	%x%&nbsp;cobró&nbsp;tus&nbsp;%y%&nbsp;monedas&nbsp;como&nbsp;impuesto	unkown error	2013/10/9 16:17	2013/10/9 16:17
+195	-195	%y%&nbsp;te&nbsp;desafió&nbsp;en&nbsp;%x%.&nbsp;¡Tu&nbsp;rango&nbsp;bajó&nbsp;a&nbsp;%z%!	%y%&nbsp;te&nbsp;desafió&nbsp;en&nbsp;%x%.&nbsp;¡Tu&nbsp;rango&nbsp;bajó&nbsp;a&nbsp;%z%!	unkown error	2013/10/9 16:17	2013/10/9 16:17
+196	-196	%y%&nbsp;te&nbsp;desafió&nbsp;en&nbsp;%x%.&nbsp;*Tu&nbsp;nivel&nbsp;no&nbsp;cambia.*	%y%&nbsp;te&nbsp;desafió&nbsp;en&nbsp;%x%.&nbsp;*Tu&nbsp;nivel&nbsp;no&nbsp;cambia.*	unkown error	2013/10/9 16:19	2013/10/9 16:19
+197	-197	La rebelión de tu territorio %x% fracasó y la sofocaste	La rebelión de tu territorio %x% fracasó y la sofocaste	unkown error	2013/10/9 16:19	2013/10/9 16:19
+198	-198	La rebelión de tu territorio %x% tuvo éxito y recuperó la libertad	La rebelión de tu territorio %x% tuvo éxito y recuperó la libertad	unkown error	2013/10/9 16:19	2013/10/9 16:19
+199	-199	El puesto del duelo que desafías no existe o ya cambió	El puesto del duelo que desafías no existe o ya cambió	unkown error	2013/10/10 15:22	2013/10/10 15:22
+200	-200	No&nbsp;puedes&nbsp;desafiarte&nbsp;a&nbsp;ti&nbsp;mismo	No&nbsp;puedes&nbsp;desafiarte&nbsp;a&nbsp;ti&nbsp;mismo	unkown error	2013/10/10 15:23	2013/10/10 15:23
+201	-201	No&nbsp;tienes&nbsp;recompensas&nbsp;que&nbsp;obtener.&nbsp;La&nbsp;próxima&nbsp;recompensa&nbsp;será&nbsp;en	No&nbsp;tienes&nbsp;recompensas&nbsp;que&nbsp;obtener.&nbsp;La&nbsp;próxima&nbsp;recompensa&nbsp;será&nbsp;en	unkown error	2013/10/10 15:25	2013/10/10 15:25
+202	-202	Ya&nbsp;obtuviste&nbsp;la&nbsp;recompensa&nbsp;de&nbsp;la&nbsp;arena.&nbsp;La&nbsp;próxima&nbsp;recompensa&nbsp;será&nbsp;en	Ya&nbsp;obtuviste&nbsp;la&nbsp;recompensa&nbsp;de&nbsp;la&nbsp;arena.&nbsp;La&nbsp;próxima&nbsp;recompensa&nbsp;será&nbsp;en	unkown error	2013/10/10 15:27	2013/10/10 15:27
+203	-203	El&nbsp;molde&nbsp;no&nbsp;existe	El&nbsp;molde&nbsp;no&nbsp;existe	unkown error	2013/10/10 15:29	2013/10/10 15:29
+204	-204	Fama&nbsp;insuficiente	Fama&nbsp;insuficiente	unkown error	2013/10/10 15:32	2013/10/10 15:32
+205	-205	Alvida,Robin,Nami,Emperatriz Pirata	Alvida,Robin,Nami,Emperatriz Pirata	unkown error	2013/10/10 15:37	2013/10/10 15:37
+206	-206	El&nbsp;estado&nbsp;de&nbsp;la&nbsp;misión&nbsp;no&nbsp;coincide	El&nbsp;estado&nbsp;de&nbsp;la&nbsp;misión&nbsp;no&nbsp;coincide	unkown error	2013/10/10 15:41	2013/10/10 15:41
+207	-207	El&nbsp;tipo&nbsp;de&nbsp;misión&nbsp;no&nbsp;coincide	El&nbsp;tipo&nbsp;de&nbsp;misión&nbsp;no&nbsp;coincide	unkown error	2013/10/10 15:41	2013/10/10 15:41
+208	-208	Ya&nbsp;obtuviste&nbsp;la&nbsp;recompensa&nbsp;de&nbsp;hoy.&nbsp;No&nbsp;puedes&nbsp;obtenerla&nbsp;de&nbsp;nuevo	Ya&nbsp;obtuviste&nbsp;la&nbsp;recompensa&nbsp;de&nbsp;hoy.&nbsp;No&nbsp;puedes&nbsp;obtenerla&nbsp;de&nbsp;nuevo	unkown error	2013/10/10 15:45	2013/10/10 15:45
+209	-209	NPC&nbsp;incorrecto	NPC&nbsp;incorrecto	unkown error	2013/10/10 15:48	2013/10/10 15:48
+210	-210	Vigor&nbsp;insuficiente	Vigor&nbsp;insuficiente	unkown error	2013/10/10 15:51	2013/10/10 15:51
+211	-211	Completa&nbsp;primero&nbsp;la&nbsp;dificultad&nbsp;anterior	Completa&nbsp;primero&nbsp;la&nbsp;dificultad&nbsp;anterior	unkown error	2013/10/10 15:54	2013/10/10 15:54
+212	-212	Solo&nbsp;puedes&nbsp;atacar&nbsp;una&nbsp;vez&nbsp;al&nbsp;día	Solo&nbsp;puedes&nbsp;atacar&nbsp;una&nbsp;vez&nbsp;al&nbsp;día	unkown error	2013/10/10 15:56	2013/10/10 15:56
+213	-213	El&nbsp;objetivo&nbsp;que&nbsp;vas&nbsp;a&nbsp;atacar&nbsp;no&nbsp;existe	El&nbsp;objetivo&nbsp;que&nbsp;vas&nbsp;a&nbsp;atacar&nbsp;no&nbsp;existe	unkown error	2013/10/10 15:57	2013/10/10 15:57
+214	-214	La&nbsp;información&nbsp;del&nbsp;Ninja&nbsp;y&nbsp;del&nbsp;usuario&nbsp;no&nbsp;coincide	La&nbsp;información&nbsp;del&nbsp;Ninja&nbsp;y&nbsp;del&nbsp;usuario&nbsp;no&nbsp;coincide	unkown error	2013/10/10 16:03	2013/10/10 16:03
+215	-215	Esta&nbsp;arma&nbsp;está&nbsp;equipada	Esta&nbsp;arma&nbsp;está&nbsp;equipada	unkown error	2013/10/10 16:27	2013/10/10 16:27
+216	-216	El&nbsp;tipo&nbsp;de&nbsp;arma&nbsp;no&nbsp;coincide&nbsp;y&nbsp;no&nbsp;se&nbsp;puede&nbsp;equipar	El&nbsp;tipo&nbsp;de&nbsp;arma&nbsp;no&nbsp;coincide&nbsp;y&nbsp;no&nbsp;se&nbsp;puede&nbsp;equipar	unkown error	2013/10/10 16:29	2013/10/10 16:29
+217	-217	Esta&nbsp;arma&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar	Esta&nbsp;arma&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar	unkown error	2013/10/10 16:32	2013/10/10 16:32
+218	-218	Solo&nbsp;vipx&nbsp;puede&nbsp;comprar&nbsp;este&nbsp;objeto.&nbsp;Compra&nbsp;para&nbsp;subir&nbsp;tu&nbsp;nivel&nbsp;vip	Solo&nbsp;vipx&nbsp;puede&nbsp;comprar&nbsp;este&nbsp;objeto.&nbsp;Compra&nbsp;para&nbsp;subir&nbsp;tu&nbsp;nivel&nbsp;vip	unkown error	2013/10/10 16:34	2013/10/10 16:34
+219	-219	Hierro&nbsp;insuficiente	Hierro&nbsp;insuficiente	unkown error	2013/10/10 16:41	2013/10/10 16:41
+220	-220	Al&nbsp;menos&nbsp;1&nbsp;Ninja&nbsp;en&nbsp;tu&nbsp;grupo	Al&nbsp;menos&nbsp;1&nbsp;Ninja&nbsp;en&nbsp;tu&nbsp;grupo	unkown error	2013/10/10 16:44	2013/10/10 16:44
+221	-221	El&nbsp;Ninja&nbsp;está&nbsp;desconectado&nbsp;o&nbsp;no&nbsp;existe	El&nbsp;Ninja&nbsp;está&nbsp;desconectado&nbsp;o&nbsp;no&nbsp;existe	unkown error	2013/10/10 16:51	2013/10/10 16:51
+222	-222	Solicitud&nbsp;caducada	Solicitud&nbsp;caducada	unkown error	2013/10/10 16:54	2013/10/10 16:54
+223	-223	No&nbsp;puedes&nbsp;agregarte&nbsp;como&nbsp;amigo	No&nbsp;puedes&nbsp;agregarte&nbsp;como&nbsp;amigo	unkown error	2013/10/10 16:56	2013/10/10 16:56
+224	-224	Ya&nbsp;agregaste&nbsp;a&nbsp;este&nbsp;amigo	Ya&nbsp;agregaste&nbsp;a&nbsp;este&nbsp;amigo	unkown error	2013/10/10 16:57	2013/10/10 16:57
+225	-225	Recursos&nbsp;insuficientes	Recursos&nbsp;insuficientes	unkown error	2013/10/10 17:00	2013/10/10 17:00
+226	-226	Gracias&nbsp;por&nbsp;tu&nbsp;mensaje.&nbsp;Espera&nbsp;la&nbsp;respuesta&nbsp;del&nbsp;servicio&nbsp;al&nbsp;cliente	Gracias&nbsp;por&nbsp;tu&nbsp;mensaje.&nbsp;Espera&nbsp;la&nbsp;respuesta&nbsp;del&nbsp;servicio&nbsp;al&nbsp;cliente	unkown error	2013/10/10 17:02	2013/10/10 17:02
+227	-227	No&nbsp;puedes&nbsp;enviar&nbsp;un&nbsp;mensaje&nbsp;vacío	No&nbsp;puedes&nbsp;enviar&nbsp;un&nbsp;mensaje&nbsp;vacío	unkown error	2013/10/10 17:04	2013/10/10 17:04
+228	-228	Tu&nbsp;mensaje&nbsp;no&nbsp;debe&nbsp;superar&nbsp;los&nbsp;200&nbsp;caracteres	Tu&nbsp;mensaje&nbsp;no&nbsp;debe&nbsp;superar&nbsp;los&nbsp;200&nbsp;caracteres	unkown error	2013/10/10 17:05	2013/10/10 17:05
+229	-229	Perdiste&nbsp;este&nbsp;territorio	Perdiste&nbsp;este&nbsp;territorio	unkown error	2013/10/10 17:06	2013/10/10 17:06
+230	-230	El&nbsp;territorio&nbsp;no&nbsp;existe	El&nbsp;territorio&nbsp;no&nbsp;existe	unkown error	2013/10/10 17:09	2013/10/10 17:09
+231	-231	¡Eres&nbsp;libre!	¡Eres&nbsp;libre!	unkown error	2013/10/10 17:10	2013/10/10 17:10
+232	-232	Aún&nbsp;no&nbsp;termina&nbsp;el&nbsp;enfriamiento.&nbsp;No&nbsp;puedes&nbsp;cobrar&nbsp;impuestos&nbsp;a&nbsp;tus&nbsp;colonias.	Aún&nbsp;no&nbsp;termina&nbsp;el&nbsp;enfriamiento.&nbsp;No&nbsp;puedes&nbsp;cobrar&nbsp;impuestos&nbsp;a&nbsp;tus&nbsp;colonias.	unkown error	2013/10/10 17:11	2013/10/10 17:11
+233	-233	No&nbsp;tienes&nbsp;autoridad&nbsp;para&nbsp;cobrar&nbsp;impuestos&nbsp;en&nbsp;este&nbsp;territorio	No&nbsp;tienes&nbsp;autoridad&nbsp;para&nbsp;cobrar&nbsp;impuestos&nbsp;en&nbsp;este&nbsp;territorio	unkown error	2013/10/10 17:13	2013/10/10 17:13
+234	-234	Ya&nbsp;ocupado	Ya&nbsp;ocupado	unkown error	2013/10/10 17:15	2013/10/10 17:15
+235	-235	¡No&nbsp;puedes&nbsp;atacarte&nbsp;a&nbsp;ti&nbsp;mismo!	¡No&nbsp;puedes&nbsp;atacarte&nbsp;a&nbsp;ti&nbsp;mismo!	unkown error	2013/10/10 17:21	2013/10/10 17:21
+236	-236	Te&nbsp;han&nbsp;ocupado.	Te&nbsp;han&nbsp;ocupado.	unkown error	2013/10/10 17:22	2013/10/10 17:22
+237	-237	No&nbsp;puedes&nbsp;saquearte&nbsp;a&nbsp;ti&nbsp;mismo	No&nbsp;puedes&nbsp;saquearte&nbsp;a&nbsp;ti&nbsp;mismo	unkown error	2013/10/10 17:23	2013/10/10 17:23
+238	-238	Son&nbsp;amigos,&nbsp;no&nbsp;puedes&nbsp;ocuparlo	Son&nbsp;amigos,&nbsp;no&nbsp;puedes&nbsp;ocuparlo	unkown error	2013/10/10 17:25	2013/10/10 17:25
+239	-239	No&nbsp;son&nbsp;amigos,&nbsp;no&nbsp;puedes&nbsp;ayudar	No&nbsp;son&nbsp;amigos,&nbsp;no&nbsp;puedes&nbsp;ayudar	unkown error	2013/10/10 17:25	2013/10/10 17:25
+240	-240	Son&nbsp;amigos,&nbsp;no&nbsp;puedes&nbsp;saquearlo	Son&nbsp;amigos,&nbsp;no&nbsp;puedes&nbsp;saquearlo	unkown error	2013/10/10 17:27	2013/10/10 17:27
+241	-241	No&nbsp;tienes&nbsp;ningún&nbsp;territorio	No&nbsp;tienes&nbsp;ningún&nbsp;territorio	unkown error	2013/10/10 17:28	2013/10/10 17:28
+242	-242	Perdiste&nbsp;un&nbsp;territorio	Perdiste&nbsp;un&nbsp;territorio	unkown error	2013/10/10 17:29	2013/10/10 17:29
+243	-243	Tu personaje fue suspendido; para más detalles contacta con el servicio al cliente	Tu personaje fue suspendido; para más detalles contacta con el servicio al cliente	unkown error	2013/10/10 17:31	2013/10/10 17:31
+244	-244	Órdenes de Caballería insuficientes	Órdenes de Caballería insuficientes	unkown error	2013/10/10 17:38	2013/10/10 17:38
+245	-245	No&nbsp;se&nbsp;puede&nbsp;producir&nbsp;Oro&nbsp;ahora	No&nbsp;se&nbsp;puede&nbsp;producir&nbsp;Oro&nbsp;ahora	unkown error	2013/10/10 17:40	2013/10/10 17:40
+246	-246	Este&nbsp;Chamán&nbsp;no&nbsp;se&nbsp;puede&nbsp;canjear	Este&nbsp;Chamán&nbsp;no&nbsp;se&nbsp;puede&nbsp;canjear	unkown error	2013/10/10 17:50	2013/10/10 17:50
+247	-247	Piezas&nbsp;necesarias&nbsp;insuficientes	Piezas&nbsp;necesarias&nbsp;insuficientes	unkown error	2013/10/10 17:50	2013/10/10 17:50
+248	-248	La&nbsp;Mochila&nbsp;de&nbsp;Chamán&nbsp;está&nbsp;llena	La&nbsp;Mochila&nbsp;de&nbsp;Chamán&nbsp;está&nbsp;llena	unkown error	2013/10/10 17:58	2013/10/10 17:58
+249	-249	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar&nbsp;en&nbsp;la&nbsp;fusión	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar&nbsp;en&nbsp;la&nbsp;fusión	unkown error	2013/10/10 17:58	2013/10/10 17:58
+250	-250	Se&nbsp;necesita&nbsp;x&nbsp;para&nbsp;fusionar	Se&nbsp;necesita&nbsp;x&nbsp;para&nbsp;fusionar	unkown error	2013/10/10 18:05	2013/10/10 18:05
+251	-251	La&nbsp;cantidad&nbsp;de&nbsp;objetos&nbsp;no&nbsp;puede&nbsp;ser&nbsp;menor&nbsp;que&nbsp;0	La&nbsp;cantidad&nbsp;de&nbsp;objetos&nbsp;no&nbsp;puede&nbsp;ser&nbsp;menor&nbsp;que&nbsp;0	unkown error	2013/10/10 18:08	2013/10/10 18:08
+252	-252	El&nbsp;tipo&nbsp;de&nbsp;objeto&nbsp;no&nbsp;coincide	El&nbsp;tipo&nbsp;de&nbsp;objeto&nbsp;no&nbsp;coincide	unkown error	2013/10/10 18:14	2013/10/10 18:14
+253	-253	Este&nbsp;Ninja&nbsp;alcanzó&nbsp;el&nbsp;nivel&nbsp;máximo&nbsp;y&nbsp;no&nbsp;puede&nbsp;subir&nbsp;de&nbsp;nivel	Este&nbsp;Ninja&nbsp;alcanzó&nbsp;el&nbsp;nivel&nbsp;máximo&nbsp;y&nbsp;no&nbsp;puede&nbsp;subir&nbsp;de&nbsp;nivel	unkown error	2013/10/10 18:16	2013/10/10 18:16
+254	-254	La&nbsp;cantidad&nbsp;de&nbsp;compra&nbsp;debe&nbsp;ser&nbsp;mayor&nbsp;que&nbsp;0	La&nbsp;cantidad&nbsp;de&nbsp;compra&nbsp;debe&nbsp;ser&nbsp;mayor&nbsp;que&nbsp;0	unkown error	2013/10/10 19:09	2013/10/10 19:09
+255	-255	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar	unkown error	2013/10/10 19:10	2013/10/10 19:10
+256	-256	Fama&nbsp;insuficiente	Fama&nbsp;insuficiente	unkown error	2013/10/10 19:12	2013/10/10 19:12
+257	-257	La&nbsp;cantidad&nbsp;de&nbsp;objetos&nbsp;vendidos&nbsp;no&nbsp;puede&nbsp;ser&nbsp;menor&nbsp;que&nbsp;0	La&nbsp;cantidad&nbsp;de&nbsp;objetos&nbsp;vendidos&nbsp;no&nbsp;puede&nbsp;ser&nbsp;menor&nbsp;que&nbsp;0	unkown error	2013/10/10 19:15	2013/10/10 19:15
+258	-258	Este&nbsp;usuario&nbsp;ya&nbsp;está&nbsp;en&nbsp;uso	Este&nbsp;usuario&nbsp;ya&nbsp;está&nbsp;en&nbsp;uso	unkown error	2013/10/10 19:16	2013/10/10 19:17
+259	-259	Este&nbsp;nombre&nbsp;de&nbsp;personaje&nbsp;ya&nbsp;está&nbsp;en&nbsp;uso	Este&nbsp;nombre&nbsp;de&nbsp;personaje&nbsp;ya&nbsp;está&nbsp;en&nbsp;uso	unkown error	2013/10/10 19:17	2013/10/10 19:18
+260	-260	Primero&nbsp;desbloquea&nbsp;el&nbsp;puesto&nbsp;de&nbsp;prueba	Primero&nbsp;desbloquea&nbsp;el&nbsp;puesto&nbsp;de&nbsp;prueba	unkown error	2013/10/10 19:20	2013/10/10 19:20
+261	-261	El&nbsp;buque&nbsp;de&nbsp;guerra&nbsp;ya&nbsp;está&nbsp;en&nbsp;prueba	El&nbsp;buque&nbsp;de&nbsp;guerra&nbsp;ya&nbsp;está&nbsp;en&nbsp;prueba	unkown error	2013/10/10 19:23	2013/10/10 19:23
+262	-262	No&nbsp;se&nbsp;puede&nbsp;entrenar.&nbsp;El&nbsp;nivel&nbsp;del&nbsp;barco&nbsp;no&nbsp;puede&nbsp;superar&nbsp;en&nbsp;x&nbsp;niveles&nbsp;el&nbsp;nivel&nbsp;de&nbsp;EXP	No&nbsp;se&nbsp;puede&nbsp;entrenar.&nbsp;El&nbsp;nivel&nbsp;del&nbsp;barco&nbsp;no&nbsp;puede&nbsp;superar&nbsp;en&nbsp;x&nbsp;niveles&nbsp;el&nbsp;nivel&nbsp;de&nbsp;EXP	unkown error	2013/10/10 19:29	2013/10/10 19:29
+263	-263	Este&nbsp;NPC&nbsp;no&nbsp;se&nbsp;puede&nbsp;asaltar	Este&nbsp;NPC&nbsp;no&nbsp;se&nbsp;puede&nbsp;asaltar	unkown error	2013/10/10 19:45	2013/10/10 19:45
+264	-264	Faltan&nbsp;objetos&nbsp;importantes	Faltan&nbsp;objetos&nbsp;importantes	unkown error	2013/10/10 19:48	2013/10/10 19:48
+265	-265	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión	unkown error	2013/10/18 16:14	2013/10/18 16:14
+266	-266	El&nbsp;contenido&nbsp;tiene&nbsp;caracteres&nbsp;especiales	El&nbsp;contenido&nbsp;tiene&nbsp;caracteres&nbsp;especiales	unkown error	2013/10/19 14:59	2013/10/19 14:59
+267	-267	No&nbsp;necesitas&nbsp;revivir	No&nbsp;necesitas&nbsp;revivir	unkown error	2013/10/22 14:38	2013/10/22 14:38
+268	-268	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;360	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;360	unkown error	2013/10/23 14:11	2013/10/23 14:11
+269	-269	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;uc	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;uc	unkown error	2013/10/28 11:47	2013/10/28 11:47
+270	-270	cdkey Inválido	cdkey Inválido	unkown error	2013/11/8 20:57	2013/11/8 20:57
+271	-271	Este&nbsp;cdkey&nbsp;ya&nbsp;fue&nbsp;usado	Este&nbsp;cdkey&nbsp;ya&nbsp;fue&nbsp;usado	unkown error	2013/11/8 21:18	2013/11/8 21:18
+272	-272	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;recompensas&nbsp;obtenidas	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;recompensas&nbsp;obtenidas	unkown error	2013/11/8 21:29	2013/11/8 21:29
+273	-273	Este&nbsp;cdkey&nbsp;se&nbsp;está&nbsp;usando	Este&nbsp;cdkey&nbsp;se&nbsp;está&nbsp;usando	unkown error	2013/11/9 16:39	2013/11/9 16:39
+274	-274	Este objeto se ha vendido	Este objeto se ha vendido	unkown error	2013/11/16 10:34	2013/11/16 10:34
+275	-275	No&nbsp;has&nbsp;comprado	No&nbsp;has&nbsp;comprado	unkown error	2013/11/18 17:02	2013/11/18 17:02
+276	-276	Sin&nbsp;existencias.&nbsp;No&nbsp;se&nbsp;puede&nbsp;comprar	Sin&nbsp;existencias.&nbsp;No&nbsp;se&nbsp;puede&nbsp;comprar	unkown error	2013/11/18 20:54	2013/11/18 20:54
+277	-277	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;pp	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;pp	unkown error	2013/11/22 14:23	2013/11/22 14:23
+278	-278	Aún&nbsp;no&nbsp;tienes&nbsp;Pokémon	Aún&nbsp;no&nbsp;tienes&nbsp;Pokémon	unkown error	2013/11/22 14:59	2013/11/22 14:59
+279	-279	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;sincrónico	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;sincrónico	unkown error	2013/11/29 12:57	2013/11/29 12:57
+280	-280	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;itools	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;de&nbsp;itools	unkown error	2013/12/6 17:03	2013/12/6 17:03
+281	-281	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar&nbsp;en&nbsp;grupo	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar&nbsp;en&nbsp;grupo	unkown error	2013/12/17 11:01	2013/12/17 11:01
+282	-282	No&nbsp;se&nbsp;encontró&nbsp;el&nbsp;ejemplo&nbsp;de&nbsp;datos	No&nbsp;se&nbsp;encontró&nbsp;el&nbsp;ejemplo&nbsp;de&nbsp;datos	unkown error	2013/12/20 18:06	2013/12/20 18:06
+283	-283	Se&nbsp;agotaron&nbsp;tus&nbsp;ataques&nbsp;de&nbsp;hoy	Se&nbsp;agotaron&nbsp;tus&nbsp;ataques&nbsp;de&nbsp;hoy	unkown error	2013/12/24 13:54	2013/12/24 13:54
+284	-284	Vigor&nbsp;insuficiente	Vigor&nbsp;insuficiente	unkown error	2013/12/25 10:14	2013/12/25 10:14
+285	-285	Compras&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	Compras&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/1/2 21:50	2014/1/2 21:50
+286	-286	Gasto&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	Gasto&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/1/2 21:50	2014/1/2 21:50
+287	-287	Código&nbsp;de&nbsp;invitación&nbsp;no&nbsp;válido	Código&nbsp;de&nbsp;invitación&nbsp;no&nbsp;válido	unkown error	2014/1/3 18:15	2014/1/3 18:15
+288	-288	No&nbsp;se&nbsp;puede&nbsp;usar&nbsp;el&nbsp;código&nbsp;de&nbsp;invitación&nbsp;en&nbsp;personajes&nbsp;del&nbsp;mismo&nbsp;teléfono	No&nbsp;se&nbsp;puede&nbsp;usar&nbsp;el&nbsp;código&nbsp;de&nbsp;invitación&nbsp;en&nbsp;personajes&nbsp;del&nbsp;mismo&nbsp;teléfono	unkown error	2014/1/3 18:15	2014/1/3 18:15
+289	-289	No&nbsp;se&nbsp;puede&nbsp;usar&nbsp;el&nbsp;mismo&nbsp;código&nbsp;de&nbsp;invitación&nbsp;en&nbsp;distintos&nbsp;personajes&nbsp;del&nbsp;mismo&nbsp;dispositivo	No&nbsp;se&nbsp;puede&nbsp;usar&nbsp;el&nbsp;mismo&nbsp;código&nbsp;de&nbsp;invitación&nbsp;en&nbsp;distintos&nbsp;personajes&nbsp;del&nbsp;mismo&nbsp;dispositivo	unkown error	2014/1/3 18:15	2014/1/3 18:15
+290	-290	Actividad&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	Actividad&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/1/3 18:15	2014/1/3 18:15
+291	-291	No&nbsp;se&nbsp;encuentra&nbsp;el&nbsp;Chamán	No&nbsp;se&nbsp;encuentra&nbsp;el&nbsp;Chamán	unkown error	2014/1/8 17:10	2014/1/8 17:10
+292	-292	Victorias&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	Victorias&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/1/8 20:33	2014/1/8 20:33
+293	-293	No&nbsp;hay&nbsp;campaña&nbsp;que&nbsp;asaltar	No&nbsp;hay&nbsp;campaña&nbsp;que&nbsp;asaltar	unkown error	2014/1/11 16:05	2014/1/11 16:05
+294	-294	Personaje&nbsp;iniciando&nbsp;sesión	Personaje&nbsp;iniciando&nbsp;sesión	unkown error	2014/1/23 21:56	2014/1/23 21:56
+295	-295	No&nbsp;has&nbsp;comprado&nbsp;la&nbsp;Tarjeta&nbsp;Mensual	No&nbsp;has&nbsp;comprado&nbsp;la&nbsp;Tarjeta&nbsp;Mensual	unkown error	2014/1/23 21:57	2014/1/23 21:57
+296	-296	Solo&nbsp;puedes&nbsp;obtener&nbsp;la&nbsp;recompensa&nbsp;de&nbsp;la&nbsp;Tarjeta&nbsp;Mensual&nbsp;una&nbsp;vez&nbsp;al&nbsp;día	Solo&nbsp;puedes&nbsp;obtener&nbsp;la&nbsp;recompensa&nbsp;de&nbsp;la&nbsp;Tarjeta&nbsp;Mensual&nbsp;una&nbsp;vez&nbsp;al&nbsp;día	unkown error	2014/1/23 21:58	2014/1/23 21:58
+297	-297	Ya&nbsp;compraste&nbsp;la&nbsp;Tarjeta&nbsp;Mensual.&nbsp;No&nbsp;la&nbsp;compres&nbsp;de&nbsp;nuevo	Ya&nbsp;compraste&nbsp;la&nbsp;Tarjeta&nbsp;Mensual.&nbsp;No&nbsp;la&nbsp;compres&nbsp;de&nbsp;nuevo	unkown error	2014/1/23 21:58	2014/1/23 21:58
+298	-298	Progreso&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	Progreso&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/2/14 17:33	2014/2/14 17:33
+299	-299	La&nbsp;nueva&nbsp;contraseña&nbsp;no&nbsp;puede&nbsp;estar&nbsp;vacía	La&nbsp;nueva&nbsp;contraseña&nbsp;no&nbsp;puede&nbsp;estar&nbsp;vacía	unkown error	2014/2/21 18:58	2014/2/21 18:58
+300	-300	Las&nbsp;contraseñas&nbsp;introducidas&nbsp;no&nbsp;coinciden	Las&nbsp;contraseñas&nbsp;introducidas&nbsp;no&nbsp;coinciden	unkown error	2014/2/21 18:58	2014/2/21 18:58
+301	-301	Formato&nbsp;de&nbsp;correo&nbsp;electrónico&nbsp;incorrecto	Formato&nbsp;de&nbsp;correo&nbsp;electrónico&nbsp;incorrecto	unkown error	2014/2/27 19:18	2014/2/27 19:18
+302	-302	Recompensa&nbsp;obtenida	Recompensa&nbsp;obtenida	unkown error	2014/3/2 18:08	2014/3/2 18:08
+303	-303	Estrellas&nbsp;insuficientes	Estrellas&nbsp;insuficientes	unkown error	2014/3/2 18:33	2014/3/2 18:33
+304	-304	Nivel&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;atacar	Nivel&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;atacar	unkown error	2014/3/3 17:27	2014/3/3 17:27
+305	-305	No&nbsp;has&nbsp;&nbsp;salido&nbsp;del&nbsp;combate	No&nbsp;has&nbsp;&nbsp;salido&nbsp;del&nbsp;combate	unkown error	2014/3/4 16:21	2014/3/4 16:21
+306	-306	Error&nbsp;de&nbsp;datos&nbsp;de&nbsp;combate	Error&nbsp;de&nbsp;datos&nbsp;de&nbsp;combate	unkown error	2014/3/5 13:15	2014/3/5 13:15
+307	-307	El&nbsp;mismo&nbsp;Didimon&nbsp;no&nbsp;puede&nbsp;estar&nbsp;en&nbsp;el&nbsp;campo&nbsp;a&nbsp;la&nbsp;vez	El&nbsp;mismo&nbsp;Didimon&nbsp;no&nbsp;puede&nbsp;estar&nbsp;en&nbsp;el&nbsp;campo&nbsp;a&nbsp;la&nbsp;vez	unkown error	2014/3/5 19:58	2014/3/5 19:58
+308	-308	No&nbsp;puede&nbsp;&nbsp;superar&nbsp;el&nbsp;nivel&nbsp;del&nbsp;personaje&nbsp;principal	No&nbsp;puede&nbsp;&nbsp;superar&nbsp;el&nbsp;nivel&nbsp;del&nbsp;personaje&nbsp;principal	unkown error	2014/3/7 16:15	2014/3/7 16:15
+309	-309	Nivel&nbsp;insuficiente	Nivel&nbsp;insuficiente	unkown error	2014/3/7 18:48	2014/3/7 18:48
+310	-310	Rencor&nbsp;insuficiente	Rencor&nbsp;insuficiente	unkown error	2014/3/7 23:58	2014/3/7 23:58
+311	-311	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;vender	Este&nbsp;objeto&nbsp;no&nbsp;se&nbsp;puede&nbsp;vender	unkown error	2014/3/12 18:01	2014/3/12 18:01
+312	-312	Vigor&nbsp;insuficiente	Vigor&nbsp;insuficiente	unkown error	2014/3/13 18:19	2014/3/13 18:19
+313	-313	Piezas&nbsp;del&nbsp;objetivo&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;robar	Piezas&nbsp;del&nbsp;objetivo&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;robar	unkown error	2014/3/13 18:38	2014/3/13 18:38
+314	-314	Piezas&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;fusionar	Piezas&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;fusionar	unkown error	2014/3/13 22:39	2014/3/13 22:39
+315	-315	Días&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	Días&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/3/14 19:49	2014/3/14 19:49
+316	-316	Aún&nbsp;no&nbsp;es&nbsp;la&nbsp;hora&nbsp;de&nbsp;comer	Aún&nbsp;no&nbsp;es&nbsp;la&nbsp;hora&nbsp;de&nbsp;comer	unkown error	2014/3/14 20:40	2014/3/14 20:40
+317	-317	El&nbsp;evento&nbsp;terminó,&nbsp;participa&nbsp;en&nbsp;la&nbsp;próxima&nbsp;ronda.	El&nbsp;evento&nbsp;terminó,&nbsp;participa&nbsp;en&nbsp;la&nbsp;próxima&nbsp;ronda.	unkown error	2014/3/16 12:11	2014/3/16 12:11
+318	-318	Terminó&nbsp;el&nbsp;tiempo&nbsp;gratis	Terminó&nbsp;el&nbsp;tiempo&nbsp;gratis	unkown error	2014/3/16 16:07	2014/3/16 16:07
+319	-319	El&nbsp;evento&nbsp;no&nbsp;ha&nbsp;terminado.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	El&nbsp;evento&nbsp;no&nbsp;ha&nbsp;terminado.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/3/16 20:28	2014/3/16 20:28
+320	-320	Ya&nbsp;lo&nbsp;canjeaste	Ya&nbsp;lo&nbsp;canjeaste	unkown error	2014/3/17 18:57	2014/3/17 18:57
+321	-321	No&nbsp;se&nbsp;encuentra&nbsp;el&nbsp;producto	No&nbsp;se&nbsp;encuentra&nbsp;el&nbsp;producto	unkown error	2014/3/17 18:58	2014/3/17 18:58
+322	-322	Almas&nbsp;de&nbsp;monstruo&nbsp;insuficientes	Almas&nbsp;de&nbsp;monstruo&nbsp;insuficientes	unkown error	2014/3/17 19:07	2014/3/17 19:07
+323	-323	Error&nbsp;de&nbsp;tipo&nbsp;de&nbsp;tesoro	Error&nbsp;de&nbsp;tipo&nbsp;de&nbsp;tesoro	unkown error	2014/3/17 21:42	2014/3/17 21:42
+324	-324	Tesoro&nbsp;no&nbsp;válido	Tesoro&nbsp;no&nbsp;válido	unkown error	2014/3/18 0:04	2014/3/18 0:04
+325	-325	Los&nbsp;Ninjas&nbsp;evolucionados&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	Los&nbsp;Ninjas&nbsp;evolucionados&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	unkown error	2014/3/18 20:45	2014/3/18 20:45
+326	-326	Los&nbsp;Ninjas&nbsp;de&nbsp;menos&nbsp;de&nbsp;4&nbsp;estrellas&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	Los&nbsp;Ninjas&nbsp;de&nbsp;menos&nbsp;de&nbsp;4&nbsp;estrellas&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	unkown error	2014/3/18 21:01	2014/3/18 21:02
+327	-327	Se&nbsp;agotaron&nbsp;tus&nbsp;intentos&nbsp;de&nbsp;hoy	Se&nbsp;agotaron&nbsp;tus&nbsp;intentos&nbsp;de&nbsp;hoy	unkown error	2014/3/19 11:51	2014/3/19 11:51
+328	-328	No&nbsp;hay&nbsp;recompensas&nbsp;que&nbsp;obtener&nbsp;ahora	No&nbsp;hay&nbsp;recompensas&nbsp;que&nbsp;obtener&nbsp;ahora	unkown error	2014/3/19 14:26	2014/3/19 14:26
+329	-329	El&nbsp;regalo&nbsp;ya&nbsp;se&nbsp;envió&nbsp;hoy	El&nbsp;regalo&nbsp;ya&nbsp;se&nbsp;envió&nbsp;hoy	unkown error	2014/3/21 2:17	2014/3/21 2:17
+330	-330	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;amigos	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;amigos	unkown error	2014/3/21 3:30	2014/3/21 3:30
+331	-331	El&nbsp;Vigor&nbsp;está&nbsp;lleno.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	El&nbsp;Vigor&nbsp;está&nbsp;lleno.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/3/21 12:20	2014/3/21 12:20
+332	-332	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;Vigor&nbsp;obtenido&nbsp;hoy.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;Vigor&nbsp;obtenido&nbsp;hoy.&nbsp;No&nbsp;se&nbsp;puede&nbsp;obtener	unkown error	2014/3/21 12:24	2014/3/21 12:24
+333	-333	Se&nbsp;están&nbsp;repartiendo&nbsp;regalos.&nbsp;No&nbsp;se&nbsp;puede&nbsp;desafiar	Se&nbsp;están&nbsp;repartiendo&nbsp;regalos.&nbsp;No&nbsp;se&nbsp;puede&nbsp;desafiar	unkown error	2014/3/31 15:27	2014/3/31 15:27
+334	-334	Se&nbsp;agotaron&nbsp;los&nbsp;canjes&nbsp;de&nbsp;este&nbsp;objeto	Se&nbsp;agotaron&nbsp;los&nbsp;canjes&nbsp;de&nbsp;este&nbsp;objeto	unkown error	2014/3/31 21:35	2014/3/31 21:35
+335	-335	Error&nbsp;en&nbsp;los&nbsp;datos&nbsp;de&nbsp;recompensa	Error&nbsp;en&nbsp;los&nbsp;datos&nbsp;de&nbsp;recompensa	unkown error	2014/4/2 10:38	2014/4/2 10:38
+336	-336	Aún&nbsp;no&nbsp;disponible	Aún&nbsp;no&nbsp;disponible	unkown error	2014/4/3 19:50	2014/4/3 19:51
+337	-337	Estrellas&nbsp;de&nbsp;campaña&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;iluminar	Estrellas&nbsp;de&nbsp;campaña&nbsp;insuficientes.&nbsp;No&nbsp;se&nbsp;puede&nbsp;iluminar	unkown error	2014/4/3 19:58	2014/4/3 19:58
+338	-338	Los&nbsp;tesoros&nbsp;de&nbsp;menos&nbsp;de&nbsp;5&nbsp;estrellas&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	Los&nbsp;tesoros&nbsp;de&nbsp;menos&nbsp;de&nbsp;5&nbsp;estrellas&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	unkown error	2014/4/9 20:41	2014/4/9 20:41
+339	-339	Los&nbsp;tesoros&nbsp;equipados&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	Los&nbsp;tesoros&nbsp;equipados&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	unkown error	2014/4/9 20:48	2014/4/9 20:48
+340	-340	Objetos&nbsp;insuficientes&nbsp;para&nbsp;la&nbsp;alquimia	Objetos&nbsp;insuficientes&nbsp;para&nbsp;la&nbsp;alquimia	unkown error	2014/4/10 15:31	2014/4/10 15:31
+341	-341	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;alquimias	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;alquimias	unkown error	2014/4/10 15:42	2014/4/10 15:42
+342	-342	Este&nbsp;tesoro&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar&nbsp;en&nbsp;la&nbsp;alquimia	Este&nbsp;tesoro&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar&nbsp;en&nbsp;la&nbsp;alquimia	unkown error	2014/4/10 16:15	2014/4/10 16:15
+343	-343	Libros&nbsp;de&nbsp;alquimia&nbsp;insuficientes	Libros&nbsp;de&nbsp;alquimia&nbsp;insuficientes	unkown error	2014/4/10 23:51	2014/4/10 23:51
+344	-344	Esta&nbsp;arma&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar&nbsp;en&nbsp;la&nbsp;alquimia	Esta&nbsp;arma&nbsp;no&nbsp;se&nbsp;puede&nbsp;usar&nbsp;en&nbsp;la&nbsp;alquimia	unkown error	2014/4/11 21:23	2014/4/11 21:23
+345	-345	Los&nbsp;tesoros&nbsp;que&nbsp;nunca&nbsp;se&nbsp;mejoraron&nbsp;no&nbsp;se&nbsp;pueden&nbsp;usar&nbsp;en&nbsp;la&nbsp;alquimia	Los&nbsp;tesoros&nbsp;que&nbsp;nunca&nbsp;se&nbsp;mejoraron&nbsp;no&nbsp;se&nbsp;pueden&nbsp;usar&nbsp;en&nbsp;la&nbsp;alquimia	unkown error	2014/4/11 21:37	2014/4/11 21:37
+346	-346	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;rápido	Error&nbsp;de&nbsp;inicio&nbsp;de&nbsp;sesión&nbsp;rápido	unkown error	2014/4/14 16:41	2014/4/14 16:41
+347	-347	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;actualizaciones&nbsp;de&nbsp;hoy.&nbsp;Sube&nbsp;tu&nbsp;nivel&nbsp;VIP&nbsp;para&nbsp;aumentar&nbsp;el&nbsp;límite.	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;actualizaciones&nbsp;de&nbsp;hoy.&nbsp;Sube&nbsp;tu&nbsp;nivel&nbsp;VIP&nbsp;para&nbsp;aumentar&nbsp;el&nbsp;límite.	unkown error	2014/4/16 11:42	2014/4/16 11:42
+348	-348	Error&nbsp;de&nbsp;datos&nbsp;del&nbsp;Ninja	Error&nbsp;de&nbsp;datos&nbsp;del&nbsp;Ninja	unkown error	2014/4/16 20:25	2014/4/16 20:25
+349	-349	Error&nbsp;de&nbsp;datos&nbsp;del&nbsp;arma	Error&nbsp;de&nbsp;datos&nbsp;del&nbsp;arma	unkown error	2014/4/16 22:12	2014/4/16 22:12
+350	-350	No&nbsp;has&nbsp;comprado&nbsp;el&nbsp;plan&nbsp;de&nbsp;crecimiento	No&nbsp;has&nbsp;comprado&nbsp;el&nbsp;plan&nbsp;de&nbsp;crecimiento	unkown error	2014/4/21 15:47	2014/4/21 15:47
+351	-351	La&nbsp;sesión&nbsp;de&nbsp;PP&nbsp;caducó,&nbsp;vuelve&nbsp;a&nbsp;iniciar&nbsp;sesión	La&nbsp;sesión&nbsp;de&nbsp;PP&nbsp;caducó,&nbsp;vuelve&nbsp;a&nbsp;iniciar&nbsp;sesión	unkown error	2014/4/21 15:47	2014/4/21 15:47
+352	-352	Ánimo&nbsp;en&nbsp;cuenta&nbsp;atrás	Ánimo&nbsp;en&nbsp;cuenta&nbsp;atrás	unkown error	2014/4/25 22:46	2014/4/25 22:46
+353	-353	Se&nbsp;agotaron&nbsp;las&nbsp;excavaciones&nbsp;de&nbsp;hoy	Se&nbsp;agotaron&nbsp;las&nbsp;excavaciones&nbsp;de&nbsp;hoy	unkown error	2014/5/5 14:28	2014/5/5 14:28
+354	-354	Actualiza&nbsp;los&nbsp;rivales&nbsp;entre&nbsp;las&nbsp;8:00-23:00,&nbsp;de&nbsp;lunes&nbsp;a&nbsp;sábado	Actualiza&nbsp;los&nbsp;rivales&nbsp;entre&nbsp;las&nbsp;8:00-23:00,&nbsp;de&nbsp;lunes&nbsp;a&nbsp;sábado	unkown error	2014/5/5 14:28	2014/5/5 14:28
+355	-355	Desafía&nbsp;entre&nbsp;las&nbsp;8:00-23:00,&nbsp;de&nbsp;lunes&nbsp;a&nbsp;sábado	Desafía&nbsp;entre&nbsp;las&nbsp;8:00-23:00,&nbsp;de&nbsp;lunes&nbsp;a&nbsp;sábado	unkown error	2014/5/5 14:28	2014/5/5 14:28
+356	-356	Véngate&nbsp;entre&nbsp;las&nbsp;8:00-23:01,&nbsp;de&nbsp;lunes&nbsp;a&nbsp;sábado	Véngate&nbsp;entre&nbsp;las&nbsp;8:00-23:01,&nbsp;de&nbsp;lunes&nbsp;a&nbsp;sábado	unkown error	2014/5/5 14:28	2014/5/5 14:28
+357	-357	Error&nbsp;de&nbsp;formato&nbsp;del&nbsp;protocolo	Error&nbsp;de&nbsp;formato&nbsp;del&nbsp;protocolo	unkown error	2014/5/5 14:28	2014/5/5 14:28
+358	-358	El&nbsp;nivel&nbsp;de&nbsp;ánimo&nbsp;alcanzó&nbsp;el&nbsp;límite	El&nbsp;nivel&nbsp;de&nbsp;ánimo&nbsp;alcanzó&nbsp;el&nbsp;límite	unkown error	2014/5/5 14:28	2014/5/5 14:28
+359	-359	En&nbsp;asalto.&nbsp;No&nbsp;se&nbsp;puede&nbsp;combatir	En&nbsp;asalto.&nbsp;No&nbsp;se&nbsp;puede&nbsp;combatir	unkown error	2014/5/27 11:17	2014/5/27 11:17
+360	-360	En&nbsp;asalto.&nbsp;No&nbsp;se&nbsp;puede&nbsp;reiniciar	En&nbsp;asalto.&nbsp;No&nbsp;se&nbsp;puede&nbsp;reiniciar	unkown error	2014/5/27 11:17	2014/5/27 11:17
+361	-361	Ya&nbsp;tienes&nbsp;esta&nbsp;pieza.&nbsp;No&nbsp;se&nbsp;puede&nbsp;robar	Ya&nbsp;tienes&nbsp;esta&nbsp;pieza.&nbsp;No&nbsp;se&nbsp;puede&nbsp;robar	unkown error	2014/5/27 11:17	2014/5/27 11:17
+362	-362	Todos&nbsp;los&nbsp;nombres&nbsp;del&nbsp;servidor&nbsp;están&nbsp;en&nbsp;uso.&nbsp;Escribe&nbsp;el&nbsp;nombre&nbsp;manualmente	Todos&nbsp;los&nbsp;nombres&nbsp;del&nbsp;servidor&nbsp;están&nbsp;en&nbsp;uso.&nbsp;Escribe&nbsp;el&nbsp;nombre&nbsp;manualmente	unkown error	2014/5/27 11:17	2014/5/27 11:17
+363	-363	El&nbsp;apodo&nbsp;no&nbsp;puede&nbsp;estar&nbsp;vacío	El&nbsp;apodo&nbsp;no&nbsp;puede&nbsp;estar&nbsp;vacío	unkown error	2014/5/27 11:17	2014/5/27 11:17
+364	-364	El&nbsp;apodo&nbsp;contiene&nbsp;caracteres&nbsp;censurados	El&nbsp;apodo&nbsp;contiene&nbsp;caracteres&nbsp;censurados	unkown error	2014/5/27 11:17	2014/5/27 11:17
+365	-365	Aún&nbsp;te&nbsp;quedan&nbsp;intentos.&nbsp;No&nbsp;se&nbsp;puede&nbsp;comprar	Aún&nbsp;te&nbsp;quedan&nbsp;intentos.&nbsp;No&nbsp;se&nbsp;puede&nbsp;comprar	unkown error	2014/5/5 14:28	2014/5/5 14:28
+366	-366	Superaste&nbsp;el&nbsp;máximo&nbsp;de&nbsp;compras.&nbsp;Sube&nbsp;tu&nbsp;nivel&nbsp;vip	Superaste&nbsp;el&nbsp;máximo&nbsp;de&nbsp;compras.&nbsp;Sube&nbsp;tu&nbsp;nivel&nbsp;vip	unkown error	2014/5/27 11:17	2014/5/27 11:17
+367	-367	Este&nbsp;nombre&nbsp;está&nbsp;en&nbsp;uso.&nbsp;Usa&nbsp;&nbsp;otro&nbsp;nombre	Este&nbsp;nombre&nbsp;está&nbsp;en&nbsp;uso.&nbsp;Usa&nbsp;&nbsp;otro&nbsp;nombre	unkown error	2014/7/2 17:32	2014/7/2 17:32
+368	-368	Estás&nbsp;en&nbsp;un&nbsp;clan.&nbsp;Sal&nbsp;del&nbsp;clan&nbsp;y&nbsp;funda&nbsp;uno&nbsp;nuevo	Estás&nbsp;en&nbsp;un&nbsp;clan.&nbsp;Sal&nbsp;del&nbsp;clan&nbsp;y&nbsp;funda&nbsp;uno&nbsp;nuevo	unkown error	2014/7/2 20:05	2014/7/2 20:05
+369	-369	El&nbsp;nombre&nbsp;no&nbsp;puede&nbsp;estar&nbsp;vacío	El&nbsp;nombre&nbsp;no&nbsp;puede&nbsp;estar&nbsp;vacío	unkown error	2014/7/2 20:05	2014/7/2 20:05
+370	-370	No&nbsp;lo&nbsp;envíes&nbsp;repetidamente	No&nbsp;lo&nbsp;envíes&nbsp;repetidamente	unkown error	2014/7/2 22:57	2014/7/2 22:57
+371	-371	No&nbsp;tienes&nbsp;poder&nbsp;para&nbsp;continuar	No&nbsp;tienes&nbsp;poder&nbsp;para&nbsp;continuar	unkown error	2014/7/3 10:22	2014/7/3 10:22
+372	-372	No&nbsp;se&nbsp;pudo&nbsp;cambiar&nbsp;la&nbsp;contraseña	No&nbsp;se&nbsp;pudo&nbsp;cambiar&nbsp;la&nbsp;contraseña	unkown error	2014/7/3 10:56	2014/7/3 10:56
+373	-373	Formato&nbsp;de&nbsp;contraseña&nbsp;no&nbsp;válido	Formato&nbsp;de&nbsp;contraseña&nbsp;no&nbsp;válido	unkown error	2014/7/3 11:12	2014/7/3 11:12
+374	-374	El&nbsp;contenido&nbsp;no&nbsp;puede&nbsp;estar&nbsp;vacío	El&nbsp;contenido&nbsp;no&nbsp;puede&nbsp;estar&nbsp;vacío	unkown error	2014/7/3 11:59	2014/7/3 11:59
+375	-375	El&nbsp;contenido&nbsp;supera&nbsp;el&nbsp;límite.&nbsp;Acórtalo	El&nbsp;contenido&nbsp;supera&nbsp;el&nbsp;límite.&nbsp;Acórtalo	unkown error	2014/7/3 12:04	2014/7/3 12:04
+376	-376	El&nbsp;clan&nbsp;no&nbsp;existe&nbsp;o&nbsp;fue&nbsp;disuelto	El&nbsp;clan&nbsp;no&nbsp;existe&nbsp;o&nbsp;fue&nbsp;disuelto	unkown error	2014/7/3 15:42	2014/7/3 15:42
+377	-377	Construcción&nbsp;del&nbsp;clan&nbsp;en&nbsp;enfriamiento	Construcción&nbsp;del&nbsp;clan&nbsp;en&nbsp;enfriamiento	unkown error	2014/7/3 16:18	2014/7/3 16:18
+378	-378	Contraseña Incorrecta	Contraseña Incorrecta	unkown error	2014/7/3 18:18	2014/7/3 18:18
+379	-379	El&nbsp;número&nbsp;de&nbsp;miembros&nbsp;alcanzó&nbsp;el&nbsp;límite	El&nbsp;número&nbsp;de&nbsp;miembros&nbsp;alcanzó&nbsp;el&nbsp;límite	unkown error	2014/7/4 22:52	2014/7/4 22:52
+380	-380	Ya&nbsp;fundaste&nbsp;un&nbsp;clan&nbsp;hoy.&nbsp;Vuelve&nbsp;mañana	Ya&nbsp;fundaste&nbsp;un&nbsp;clan&nbsp;hoy.&nbsp;Vuelve&nbsp;mañana	unkown error	2014/7/5 15:05	2014/7/5 15:05
+381	-381	El&nbsp;número&nbsp;de&nbsp;vicelíderes&nbsp;del&nbsp;clan&nbsp;alcanzó&nbsp;el&nbsp;límite	El&nbsp;número&nbsp;de&nbsp;vicelíderes&nbsp;del&nbsp;clan&nbsp;alcanzó&nbsp;el&nbsp;límite	unkown error	2014/7/5 15:52	2014/7/5 15:52
+382	-382	El&nbsp;usuario&nbsp;ya&nbsp;tiene&nbsp;clan	El&nbsp;usuario&nbsp;ya&nbsp;tiene&nbsp;clan	unkown error	2014/7/5 16:14	2014/7/5 16:14
+383	-383	No&nbsp;cumples&nbsp;las&nbsp;condiciones	No&nbsp;cumples&nbsp;las&nbsp;condiciones	unkown error	2014/7/6 1:13	2014/7/6 1:13
+384	-384	Se&nbsp;agotaron&nbsp;tus&nbsp;duelos&nbsp;de&nbsp;hoy.&nbsp;Vuelve&nbsp;mañana	Se&nbsp;agotaron&nbsp;tus&nbsp;duelos&nbsp;de&nbsp;hoy.&nbsp;Vuelve&nbsp;mañana	unkown error	2014/7/6 1:22	2014/7/6 1:22
+385	-385	Te&nbsp;expulsaron	Te&nbsp;expulsaron	unkown error	2014/7/7 10:33	2014/7/7 10:33
+386	-386	Recompensa&nbsp;obtenida	Recompensa&nbsp;obtenida	unkown error	2014/7/7 15:58	2014/7/7 15:58
+387	-387	Contribución&nbsp;restante&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;canjear	Contribución&nbsp;restante&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;canjear	unkown error	2014/7/7 16:23	2014/7/7 16:23
+388	-388	No&nbsp;se&nbsp;puede&nbsp;jugar&nbsp;temporalmente	No&nbsp;se&nbsp;puede&nbsp;jugar&nbsp;temporalmente	unkown error	2014/7/7 18:25	2014/7/7 18:25
+389	-389	Cada&nbsp;jugador&nbsp;puede&nbsp;canjear&nbsp;este&nbsp;producto&nbsp;una&nbsp;vez&nbsp;al&nbsp;día	Cada&nbsp;jugador&nbsp;puede&nbsp;canjear&nbsp;este&nbsp;producto&nbsp;una&nbsp;vez&nbsp;al&nbsp;día	unkown error	2014/7/8 14:23	2014/7/8 14:23
+390	-390	Contribución&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;subir&nbsp;de&nbsp;nivel	Contribución&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;subir&nbsp;de&nbsp;nivel	unkown error	2014/7/11 0:44	2014/7/11 0:45
+391	-391	Nivel&nbsp;del&nbsp;salón&nbsp;insuficiente.&nbsp;Sube&nbsp;de&nbsp;nivel&nbsp;el&nbsp;salón	Nivel&nbsp;del&nbsp;salón&nbsp;insuficiente.&nbsp;Sube&nbsp;de&nbsp;nivel&nbsp;el&nbsp;salón	unkown error	2014/7/11 0:46	2014/7/11 0:46
+392	-392	Nivel&nbsp;de&nbsp;la&nbsp;tienda&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;canjear	Nivel&nbsp;de&nbsp;la&nbsp;tienda&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;canjear	unkown error	2014/7/13 0:05	2014/7/13 0:05
+393	-393	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;clanes&nbsp;a&nbsp;los&nbsp;que&nbsp;puedes&nbsp;postularte	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;clanes&nbsp;a&nbsp;los&nbsp;que&nbsp;puedes&nbsp;postularte	unkown error	2014/7/2 17:32	2014/7/2 17:32
+394	-394	El&nbsp;equipo&nbsp;está&nbsp;completo	El&nbsp;equipo&nbsp;está&nbsp;completo	unkown error	2014/7/12 14:39	2014/7/12 14:39
+395	-395	El equipo ha sido disuelto	El equipo ha sido disuelto	unkown error	2014/7/12 15:08	2014/7/12 15:08
+396	-396	No&nbsp;hay&nbsp;suficientes&nbsp;compañeros&nbsp;de&nbsp;equipo	No&nbsp;hay&nbsp;suficientes&nbsp;compañeros&nbsp;de&nbsp;equipo	unkown error	2014/7/12 16:37	2014/7/12 16:37
+397	-397	Se&nbsp;agotaron&nbsp;tus&nbsp;ataques&nbsp;de&nbsp;hoy.&nbsp;Vuelve&nbsp;mañana	Se&nbsp;agotaron&nbsp;tus&nbsp;ataques&nbsp;de&nbsp;hoy.&nbsp;Vuelve&nbsp;mañana	unkown error	2014/7/12 19:07	2014/7/12 19:07
+398	-398	No&nbsp;puedes&nbsp;unirte&nbsp;a&nbsp;tu&nbsp;propio&nbsp;equipo	No&nbsp;puedes&nbsp;unirte&nbsp;a&nbsp;tu&nbsp;propio&nbsp;equipo	unkown error	2014/7/17 15:41	2014/7/17 15:41
+399	-399	Solo&nbsp;el&nbsp;líder&nbsp;y&nbsp;el&nbsp;vicelíder&nbsp;del&nbsp;clan&nbsp;pueden&nbsp;participar	Solo&nbsp;el&nbsp;líder&nbsp;y&nbsp;el&nbsp;vicelíder&nbsp;del&nbsp;clan&nbsp;pueden&nbsp;participar	unkown error	2014/7/23 10:15	2014/7/23 10:15
+400	-400	Ya&nbsp;participaste&nbsp;en&nbsp;esa&nbsp;ubicación	Ya&nbsp;participaste&nbsp;en&nbsp;esa&nbsp;ubicación	unkown error	2014/7/23 10:20	2014/7/23 10:20
+401	-401	Nivel&nbsp;del&nbsp;clan&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;atacar	Nivel&nbsp;del&nbsp;clan&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;atacar	unkown error	2014/7/23 12:13	2014/7/23 12:13
+402	-402	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;castillos&nbsp;que&nbsp;puedes&nbsp;atacar	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;castillos&nbsp;que&nbsp;puedes&nbsp;atacar	unkown error	2014/7/21 18:14	2014/7/21 18:14
+403	-403	No&nbsp;puedes&nbsp;entrar&nbsp;al&nbsp;campo&nbsp;de&nbsp;batalla&nbsp;temporalmente	No&nbsp;puedes&nbsp;entrar&nbsp;al&nbsp;campo&nbsp;de&nbsp;batalla&nbsp;temporalmente	unkown error	2014/7/23 20:38	2014/7/23 20:38
+404	-404	Tu&nbsp;clan&nbsp;no&nbsp;se&nbsp;unió&nbsp;a&nbsp;la&nbsp;batalla.&nbsp;No&nbsp;se&nbsp;puede&nbsp;entrar&nbsp;al&nbsp;campo&nbsp;de&nbsp;batalla	Tu&nbsp;clan&nbsp;no&nbsp;se&nbsp;unió&nbsp;a&nbsp;la&nbsp;batalla.&nbsp;No&nbsp;se&nbsp;puede&nbsp;entrar&nbsp;al&nbsp;campo&nbsp;de&nbsp;batalla	unkown error	2014/7/23 21:15	2014/7/23 21:15
+405	-405	Tu&nbsp;racha&nbsp;de&nbsp;victorias&nbsp;alcanzó&nbsp;el&nbsp;límite	Tu&nbsp;racha&nbsp;de&nbsp;victorias&nbsp;alcanzó&nbsp;el&nbsp;límite	unkown error	2014/7/22 20:11	2014/7/22 20:11
+406	-406	El&nbsp;tiempo&nbsp;no&nbsp;ha&nbsp;terminado	El&nbsp;tiempo&nbsp;no&nbsp;ha&nbsp;terminado	unkown error	2014/7/22 20:13	2014/7/22 20:13
+407	-407	En&nbsp;combate.&nbsp;No&nbsp;se&nbsp;puede&nbsp;salir	En&nbsp;combate.&nbsp;No&nbsp;se&nbsp;puede&nbsp;salir	unkown error	2014/8/6 12:50	2014/8/6 12:50
+408	-408	Hay&nbsp;un&nbsp;evento&nbsp;del&nbsp;clan.&nbsp;Disuélvelo&nbsp;cuando&nbsp;termine&nbsp;el&nbsp;evento	Hay&nbsp;un&nbsp;evento&nbsp;del&nbsp;clan.&nbsp;Disuélvelo&nbsp;cuando&nbsp;termine&nbsp;el&nbsp;evento	unkown error	2014/7/22 20:00	2014/7/22 20:00
+409	-409	Tu&nbsp;clan&nbsp;no&nbsp;capturó&nbsp;esta&nbsp;ubicación.&nbsp;Sin&nbsp;recompensa	Tu&nbsp;clan&nbsp;no&nbsp;capturó&nbsp;esta&nbsp;ubicación.&nbsp;Sin&nbsp;recompensa	unkown error	2014/7/23 9:28	2014/7/23 9:28
+410	-410	Ya&nbsp;capturaste&nbsp;esta&nbsp;ubicación.&nbsp;No&nbsp;necesitas&nbsp;participar	Ya&nbsp;capturaste&nbsp;esta&nbsp;ubicación.&nbsp;No&nbsp;necesitas&nbsp;participar	unkown error	2014/7/23 10:56	2014/7/23 10:56
+411	-411	Procesando&nbsp;la&nbsp;información&nbsp;del&nbsp;combate.&nbsp;Espera.	Procesando&nbsp;la&nbsp;información&nbsp;del&nbsp;combate.&nbsp;Espera.	unkown error	2014/8/5 20:46	2014/8/5 20:46
+412	-412	El&nbsp;plazo&nbsp;de&nbsp;inscripción&nbsp;terminó	El&nbsp;plazo&nbsp;de&nbsp;inscripción&nbsp;terminó	unkown error	2014/8/12 21:16	2014/8/12 21:16
+413	-413	Error&nbsp;de&nbsp;tipo&nbsp;de&nbsp;conjunto	Error&nbsp;de&nbsp;tipo&nbsp;de&nbsp;conjunto	unkown error	2014/10/10 10:54	2014/10/10 10:55
+414	-414	Solo&nbsp;el&nbsp;personaje&nbsp;principal&nbsp;puede&nbsp;llevar&nbsp;el&nbsp;conjunto	Solo&nbsp;el&nbsp;personaje&nbsp;principal&nbsp;puede&nbsp;llevar&nbsp;el&nbsp;conjunto	unkown error	2014/10/15 10:44	2014/10/15 10:44
+415	-415	Los&nbsp;conjuntos&nbsp;mejorados&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	Los&nbsp;conjuntos&nbsp;mejorados&nbsp;no&nbsp;se&nbsp;pueden&nbsp;disolver	unkown error	2014/10/15 10:43	2014/10/15 10:44
+416	-416	No&nbsp;has&nbsp;obtenido&nbsp;este&nbsp;Ninja.&nbsp;Esta&nbsp;técnica&nbsp;no&nbsp;se&nbsp;puede&nbsp;aprender&nbsp;por&nbsp;ahora.	No&nbsp;has&nbsp;obtenido&nbsp;este&nbsp;Ninja.&nbsp;Esta&nbsp;técnica&nbsp;no&nbsp;se&nbsp;puede&nbsp;aprender&nbsp;por&nbsp;ahora.	unkown error	2014/10/21 0:28	2014/10/21 0:28
+417	-417	Se&nbsp;agotaron&nbsp;tus&nbsp;partidas&nbsp;de&nbsp;hoy	Se&nbsp;agotaron&nbsp;tus&nbsp;partidas&nbsp;de&nbsp;hoy	unkown error	2014/10/21 17:54	2014/10/21 17:54
+418	-418	Aún&nbsp;no&nbsp;has&nbsp;aprendido&nbsp;esta&nbsp;técnica	Aún&nbsp;no&nbsp;has&nbsp;aprendido&nbsp;esta&nbsp;técnica	unkown error	2014/10/22 18:38	2014/10/22 18:38
+419	-419	Esta&nbsp;ya&nbsp;es&nbsp;la&nbsp;mejor&nbsp;combinación.&nbsp;No&nbsp;necesitas&nbsp;cambiarla	Esta&nbsp;ya&nbsp;es&nbsp;la&nbsp;mejor&nbsp;combinación.&nbsp;No&nbsp;necesitas&nbsp;cambiarla	unkown error	2014/10/27 8:16	2014/10/27 8:16
+420	-420	La&nbsp;técnica&nbsp;alcanzó&nbsp;el&nbsp;nivel&nbsp;máximo	La&nbsp;técnica&nbsp;alcanzó&nbsp;el&nbsp;nivel&nbsp;máximo	unkown error	2014/10/27 23:32	2014/10/27 23:32
+421	-421	Obtén&nbsp;los&nbsp;resultados&nbsp;de&nbsp;tu&nbsp;última&nbsp;partida&nbsp;antes&nbsp;de&nbsp;empezar&nbsp;una&nbsp;nueva	Obtén&nbsp;los&nbsp;resultados&nbsp;de&nbsp;tu&nbsp;última&nbsp;partida&nbsp;antes&nbsp;de&nbsp;empezar&nbsp;una&nbsp;nueva	unkown error	2014/10/28 2:02	2014/10/28 2:02
+422	-422	Nivel&nbsp;VIP&nbsp;insuficiente	Nivel&nbsp;VIP&nbsp;insuficiente	unkown error	2014/10/29 23:05	2014/10/29 23:05
+423	-423	Este&nbsp;puesto&nbsp;de&nbsp;Ninja&nbsp;está&nbsp;desbloqueado	Este&nbsp;puesto&nbsp;de&nbsp;Ninja&nbsp;está&nbsp;desbloqueado	unkown error	2014/10/29 23:05	2014/10/29 23:05
+424	-424	Necesitas&nbsp;50&nbsp;de&nbsp;Oro&nbsp;para&nbsp;invocar&nbsp;una&nbsp;vez	Necesitas&nbsp;50&nbsp;de&nbsp;Oro&nbsp;para&nbsp;invocar&nbsp;una&nbsp;vez	unkown error	2014/10/22 18:38	2014/10/22 18:38
+425	-425	Necesitas&nbsp;500&nbsp;de&nbsp;Oro&nbsp;para&nbsp;invocar&nbsp;diez&nbsp;veces	Necesitas&nbsp;500&nbsp;de&nbsp;Oro&nbsp;para&nbsp;invocar&nbsp;diez&nbsp;veces	unkown error	2014/10/27 8:16	2014/10/27 8:16
+426	-426	Necesitas&nbsp;más&nbsp;de&nbsp;150,000&nbsp;monedas&nbsp;para&nbsp;usar&nbsp;esta&nbsp;función	Necesitas&nbsp;más&nbsp;de&nbsp;150,000&nbsp;monedas&nbsp;para&nbsp;usar&nbsp;esta&nbsp;función	unkown error	2014/10/27 23:32	2014/10/27 23:32
+427	-427	Necesitas&nbsp;más&nbsp;de&nbsp;750,000&nbsp;monedas&nbsp;para&nbsp;usar&nbsp;esta&nbsp;función	Necesitas&nbsp;más&nbsp;de&nbsp;750,000&nbsp;monedas&nbsp;para&nbsp;usar&nbsp;esta&nbsp;función	unkown error	2014/10/28 2:02	2014/10/28 2:02
+428	-428	La&nbsp;mochila&nbsp;de&nbsp;Chamán&nbsp;está&nbsp;llena	La&nbsp;mochila&nbsp;de&nbsp;Chamán&nbsp;está&nbsp;llena	unkown error	2014/10/29 23:05	2014/10/29 23:05
+429	-429	¡Alcanza&nbsp;VIP5&nbsp;o&nbsp;el&nbsp;nivel&nbsp;70&nbsp;para&nbsp;usarlo!	¡Alcanza&nbsp;VIP5&nbsp;o&nbsp;el&nbsp;nivel&nbsp;70&nbsp;para&nbsp;usarlo!	unkown error	2014/10/29 23:05	2014/10/29 23:05
+430	-430	¡Es&nbsp;superior&nbsp;al&nbsp;Chamán&nbsp;actual,&nbsp;no&nbsp;se&nbsp;puede&nbsp;elegir&nbsp;ni&nbsp;absorber!	¡Es&nbsp;superior&nbsp;al&nbsp;Chamán&nbsp;actual,&nbsp;no&nbsp;se&nbsp;puede&nbsp;elegir&nbsp;ni&nbsp;absorber!	unkown error	2014/10/29 23:05	2014/10/29 23:05
+431	-431	Curapika&nbsp;o&nbsp;Meruem&nbsp;ya&nbsp;aparecieron,&nbsp;no&nbsp;hace&nbsp;falta&nbsp;invocar	Curapika&nbsp;o&nbsp;Meruem&nbsp;ya&nbsp;aparecieron,&nbsp;no&nbsp;hace&nbsp;falta&nbsp;invocar	unkown error	2014/10/28 2:02	2014/10/28 2:02
+432	-432	No&nbsp;hay&nbsp;Chamanes&nbsp;disponibles	No&nbsp;hay&nbsp;Chamanes&nbsp;disponibles	unkown error	2014/10/28 2:02	2014/10/28 2:02
+433	-433	Ya&nbsp;equipaste&nbsp;el&nbsp;mismo&nbsp;Chamán	Ya&nbsp;equipaste&nbsp;el&nbsp;mismo&nbsp;Chamán	unkown error	2014/10/28 2:02	2014/10/28 2:02
+434	-434	Necesitas&nbsp;más&nbsp;de&nbsp;320,000&nbsp;monedas&nbsp;para&nbsp;usar&nbsp;esta&nbsp;función	Necesitas&nbsp;más&nbsp;de&nbsp;320,000&nbsp;monedas&nbsp;para&nbsp;usar&nbsp;esta&nbsp;función	unkown error	2014/10/28 2:02	2014/10/28 2:02
+435	-435	Nivel&nbsp;de&nbsp;Chamán&nbsp;al&nbsp;máximo;&nbsp;sube&nbsp;el&nbsp;Nv.&nbsp;del&nbsp;personaje&nbsp;para&nbsp;aumentar&nbsp;el&nbsp;límite&nbsp;del&nbsp;Chamán	Nivel&nbsp;de&nbsp;Chamán&nbsp;al&nbsp;máximo;&nbsp;sube&nbsp;el&nbsp;Nv.&nbsp;del&nbsp;personaje&nbsp;para&nbsp;aumentar&nbsp;el&nbsp;límite&nbsp;del&nbsp;Chamán	unkown error	2014/10/28 2:02	2014/10/28 2:02
+436	-436	Aún&nbsp;no&nbsp;desbloqueado,&nbsp;sube&nbsp;de&nbsp;nivel&nbsp;primero	Aún&nbsp;no&nbsp;desbloqueado,&nbsp;sube&nbsp;de&nbsp;nivel&nbsp;primero	unkown error	2014/10/28 2:02	2014/10/28 2:02
+437	-437	¡Objeto&nbsp;no&nbsp;disponible!	¡Objeto&nbsp;no&nbsp;disponible!	unkown error	2014/10/28 2:02	2014/10/28 2:02
+438	-438	No&nbsp;hay&nbsp;zonas&nbsp;de&nbsp;Ryo&nbsp;disponibles	No&nbsp;hay&nbsp;zonas&nbsp;de&nbsp;Ryo&nbsp;disponibles	unkown error	2014/10/29 23:05	2014/10/29 23:05
+439	-439	Ocupa&nbsp;cuanto&nbsp;antes&nbsp;una&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;disponible	Ocupa&nbsp;cuanto&nbsp;antes&nbsp;una&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;disponible	unkown error	2014/10/29 23:05	2014/10/29 23:05
+440	-440	No&nbsp;tienes&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;ocupada&nbsp;ni&nbsp;ayudas&nbsp;a&nbsp;un&nbsp;excavador&nbsp;de&nbsp;Ryo	No&nbsp;tienes&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;ocupada&nbsp;ni&nbsp;ayudas&nbsp;a&nbsp;un&nbsp;excavador&nbsp;de&nbsp;Ryo	unkown error	2014/10/29 23:05	2014/10/29 23:05
+441	-441	Ocupa&nbsp;la&nbsp;zona&nbsp;de&nbsp;Oro	Ocupa&nbsp;la&nbsp;zona&nbsp;de&nbsp;Oro	unkown error	2014/10/28 2:02	2014/10/28 2:02
+442	-442	Ya tienes una zona de extracción de oro, no puedes ayudar más	Ya tienes una zona de extracción de oro, no puedes ayudar más	unkown error	2014/10/28 2:02	2014/10/28 2:02
+443	-443	Ya&nbsp;ayudaste&nbsp;en&nbsp;una&nbsp;zona&nbsp;de&nbsp;Ryo,&nbsp;no&nbsp;puedes&nbsp;ayudar&nbsp;de&nbsp;nuevo	Ya&nbsp;ayudaste&nbsp;en&nbsp;una&nbsp;zona&nbsp;de&nbsp;Ryo,&nbsp;no&nbsp;puedes&nbsp;ayudar&nbsp;de&nbsp;nuevo	unkown error	2014/10/28 2:02	2014/10/28 2:02
+444	-444	La&nbsp;fuerza&nbsp;de&nbsp;ayuda&nbsp;de&nbsp;la&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;alcanzó&nbsp;el&nbsp;límite	La&nbsp;fuerza&nbsp;de&nbsp;ayuda&nbsp;de&nbsp;la&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;alcanzó&nbsp;el&nbsp;límite	unkown error	2014/10/28 2:02	2014/10/28 2:02
+445	-445	No&nbsp;tienes&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;ocupada,&nbsp;no&nbsp;puedes&nbsp;saquear&nbsp;al&nbsp;ayudante	No&nbsp;tienes&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;ocupada,&nbsp;no&nbsp;puedes&nbsp;saquear&nbsp;al&nbsp;ayudante	unkown error	2014/10/28 2:02	2014/10/28 2:02
+446	-446	Ocupas&nbsp;esta&nbsp;zona&nbsp;de&nbsp;Ryo,&nbsp;no&nbsp;puedes&nbsp;saquearla	Ocupas&nbsp;esta&nbsp;zona&nbsp;de&nbsp;Ryo,&nbsp;no&nbsp;puedes&nbsp;saquearla	unkown error	2014/10/28 2:02	2014/10/28 2:02
+447	-447	Zonas&nbsp;de&nbsp;Ryo&nbsp;ocupadas&nbsp;al&nbsp;máximo,&nbsp;ocupa&nbsp;más&nbsp;zonas&nbsp;de&nbsp;Ryo&nbsp;en&nbsp;la&nbsp;zona&nbsp;de&nbsp;Oro	Zonas&nbsp;de&nbsp;Ryo&nbsp;ocupadas&nbsp;al&nbsp;máximo,&nbsp;ocupa&nbsp;más&nbsp;zonas&nbsp;de&nbsp;Ryo&nbsp;en&nbsp;la&nbsp;zona&nbsp;de&nbsp;Oro	unkown error	2014/10/28 2:02	2014/10/28 2:02
+448	-448	Ya&nbsp;ocupaste&nbsp;una&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;en&nbsp;la&nbsp;zona&nbsp;de&nbsp;Oro	Ya&nbsp;ocupaste&nbsp;una&nbsp;zona&nbsp;de&nbsp;Ryo&nbsp;en&nbsp;la&nbsp;zona&nbsp;de&nbsp;Oro	unkown error	2014/10/29 23:05	2014/10/29 23:05
+449	-449	No&nbsp;es&nbsp;tu&nbsp;zona&nbsp;de&nbsp;Ryo,&nbsp;no&nbsp;puedes&nbsp;prolongar&nbsp;la&nbsp;ocupación	No&nbsp;es&nbsp;tu&nbsp;zona&nbsp;de&nbsp;Ryo,&nbsp;no&nbsp;puedes&nbsp;prolongar&nbsp;la&nbsp;ocupación	unkown error	2014/10/29 23:05	2014/10/29 23:05
+450	-450	Nadie&nbsp;ocupa&nbsp;la&nbsp;zona&nbsp;de&nbsp;Ryo,&nbsp;no&nbsp;puedes&nbsp;ayudar	Nadie&nbsp;ocupa&nbsp;la&nbsp;zona&nbsp;de&nbsp;Ryo,&nbsp;no&nbsp;puedes&nbsp;ayudar	unkown error	2014/10/29 23:05	2014/10/29 23:05
+451	-451	No&nbsp;quedan&nbsp;prórrogas	No&nbsp;quedan&nbsp;prórrogas	unkown error	2014/10/28 2:02	2014/10/28 2:02
+452	-452	Honor&nbsp;insuficiente	Honor&nbsp;insuficiente	unkown error	2014/10/28 2:02	2014/10/28 2:02
+453	-453	Fatiga&nbsp;insuficiente	Fatiga&nbsp;insuficiente	unkown error	2014/10/28 2:02	2014/10/28 2:02
+454	-454	Monedas&nbsp;insuficientes	Monedas&nbsp;insuficientes	unkown error	2014/10/28 2:02	2014/10/28 2:02
+455	-455	No&nbsp;quedan&nbsp;reinicios&nbsp;de&nbsp;exploración&nbsp;hoy	No&nbsp;quedan&nbsp;reinicios&nbsp;de&nbsp;exploración&nbsp;hoy	unkown error	2014/10/28 2:02	2014/10/28 2:02
+456	-456	Solo&nbsp;puedes&nbsp;autoexplorar&nbsp;en&nbsp;la&nbsp;entrada&nbsp;del&nbsp;piso&nbsp;actual	Solo&nbsp;puedes&nbsp;autoexplorar&nbsp;en&nbsp;la&nbsp;entrada&nbsp;del&nbsp;piso&nbsp;actual	unkown error	2014/10/28 2:02	2014/10/28 2:02
+457	-457	Puntos&nbsp;u&nbsp;objetos&nbsp;insuficientes,&nbsp;no&nbsp;se&nbsp;puede&nbsp;canjear	Puntos&nbsp;u&nbsp;objetos&nbsp;insuficientes,&nbsp;no&nbsp;se&nbsp;puede&nbsp;canjear	unkown error	2014/10/28 2:02	2014/10/28 2:02
+458	-458	Materiales&nbsp;insuficientes,&nbsp;no&nbsp;se&nbsp;puede&nbsp;componer	Materiales&nbsp;insuficientes,&nbsp;no&nbsp;se&nbsp;puede&nbsp;componer	unkown error	2014/10/28 2:02	2014/10/28 2:02
+459	-459	Coloca&nbsp;un&nbsp;arma	Coloca&nbsp;un&nbsp;arma	unkown error	2014/10/28 2:02	2014/10/28 2:02
+460	-460	Moviendo…	Moviendo…	unkown error	2014/10/28 2:02	2014/10/28 2:02
+461	-461	Su&nbsp;lista&nbsp;de&nbsp;amigos&nbsp;está&nbsp;llena,&nbsp;no&nbsp;puedes&nbsp;agregarlo	Su&nbsp;lista&nbsp;de&nbsp;amigos&nbsp;está&nbsp;llena,&nbsp;no&nbsp;puedes&nbsp;agregarlo	unkown error	2014/10/28 2:02	2014/10/28 2:02
+462	-462	No&nbsp;te&nbsp;inscribiste&nbsp;o&nbsp;fuiste&nbsp;eliminado,&nbsp;no&nbsp;se&nbsp;puede&nbsp;actualizar&nbsp;el&nbsp;registro&nbsp;de&nbsp;combate	No&nbsp;te&nbsp;inscribiste&nbsp;o&nbsp;fuiste&nbsp;eliminado,&nbsp;no&nbsp;se&nbsp;puede&nbsp;actualizar&nbsp;el&nbsp;registro&nbsp;de&nbsp;combate	unkown error	2014/10/28 2:02	2014/10/28 2:02
+463	-463	Aún&nbsp;no&nbsp;es&nbsp;hora&nbsp;de&nbsp;animar,&nbsp;anima&nbsp;antes&nbsp;de&nbsp;que&nbsp;empiece&nbsp;el&nbsp;próximo&nbsp;combate	Aún&nbsp;no&nbsp;es&nbsp;hora&nbsp;de&nbsp;animar,&nbsp;anima&nbsp;antes&nbsp;de&nbsp;que&nbsp;empiece&nbsp;el&nbsp;próximo&nbsp;combate	unkown error	2014/10/28 2:02	2014/10/28 2:02
+464	-464	Se&nbsp;puede&nbsp;enviar&nbsp;una&nbsp;vez&nbsp;al&nbsp;día	Se&nbsp;puede&nbsp;enviar&nbsp;una&nbsp;vez&nbsp;al&nbsp;día	unkown error	2014/10/28 2:02	2014/10/28 2:02
+465	-465	Puedes&nbsp;inscribirte&nbsp;a&nbsp;partir&nbsp;del&nbsp;Nv65	Puedes&nbsp;inscribirte&nbsp;a&nbsp;partir&nbsp;del&nbsp;Nv65	unkown error	2014/10/28 2:02	2014/10/28 2:02
+466	-466	El&nbsp;Rey&nbsp;de&nbsp;los&nbsp;Luchadores&nbsp;interservidor&nbsp;terminó,&nbsp;no&nbsp;se&nbsp;puede&nbsp;actualizar&nbsp;el&nbsp;registro&nbsp;de&nbsp;combate	El&nbsp;Rey&nbsp;de&nbsp;los&nbsp;Luchadores&nbsp;interservidor&nbsp;terminó,&nbsp;no&nbsp;se&nbsp;puede&nbsp;actualizar&nbsp;el&nbsp;registro&nbsp;de&nbsp;combate	unkown error	2014/10/28 2:02	2014/10/28 2:02
+467	-467	No&nbsp;se&nbsp;puede&nbsp;consultar&nbsp;el&nbsp;combate&nbsp;de&nbsp;esta&nbsp;ronda	No&nbsp;se&nbsp;puede&nbsp;consultar&nbsp;el&nbsp;combate&nbsp;de&nbsp;esta&nbsp;ronda	unkown error	2014/10/28 2:02	2014/10/28 2:02
+468	-468	Ya&nbsp;animaste,&nbsp;anima&nbsp;de&nbsp;nuevo&nbsp;antes&nbsp;de&nbsp;que&nbsp;empiece&nbsp;el&nbsp;próximo&nbsp;combate	Ya&nbsp;animaste,&nbsp;anima&nbsp;de&nbsp;nuevo&nbsp;antes&nbsp;de&nbsp;que&nbsp;empiece&nbsp;el&nbsp;próximo&nbsp;combate	unkown error	2014/10/28 2:02	2014/10/28 2:02
+469	-469	Preparando&nbsp;el&nbsp;nuevo&nbsp;combate&nbsp;interservidor,&nbsp;no&nbsp;se&nbsp;puede&nbsp;entrar…	Preparando&nbsp;el&nbsp;nuevo&nbsp;combate&nbsp;interservidor,&nbsp;no&nbsp;se&nbsp;puede&nbsp;entrar…	unkown error	2014/10/28 2:02	2014/10/28 2:02
+470	-470	Un&nbsp;tutor&nbsp;en&nbsp;equipo&nbsp;o&nbsp;en&nbsp;combate&nbsp;no&nbsp;puede&nbsp;unirse	Un&nbsp;tutor&nbsp;en&nbsp;equipo&nbsp;o&nbsp;en&nbsp;combate&nbsp;no&nbsp;puede&nbsp;unirse	unkown error	2015/2/11 23:35	2015/2/11 23:35
+471	-471	El&nbsp;tutor&nbsp;no&nbsp;existe	El&nbsp;tutor&nbsp;no&nbsp;existe	unkown error	2015/2/11 23:35	2015/2/11 23:35
+472	-472	La&nbsp;información&nbsp;del&nbsp;usuario&nbsp;y&nbsp;del&nbsp;tutor&nbsp;no&nbsp;coincide	La&nbsp;información&nbsp;del&nbsp;usuario&nbsp;y&nbsp;del&nbsp;tutor&nbsp;no&nbsp;coincide	unkown error	2015/2/11 23:36	2015/2/11 23:36
+473	-473	Puntos&nbsp;de&nbsp;técnica&nbsp;insuficientes	Puntos&nbsp;de&nbsp;técnica&nbsp;insuficientes	unkown error	2015/2/12 13:58	2015/2/12 13:58
+474	-474	Nivel&nbsp;de&nbsp;técnica&nbsp;al&nbsp;máximo	Nivel&nbsp;de&nbsp;técnica&nbsp;al&nbsp;máximo	unkown error	2015/2/11 23:36	2015/2/11 23:36
+475	-475	Bloqueo&nbsp;de&nbsp;técnica&nbsp;al&nbsp;máximo	Bloqueo&nbsp;de&nbsp;técnica&nbsp;al&nbsp;máximo	unkown error	2015/2/12 13:58	2015/2/12 13:58
+476	-476	Ya&nbsp;se&nbsp;desplegó&nbsp;un&nbsp;tutor&nbsp;del&nbsp;mismo&nbsp;tipo	Ya&nbsp;se&nbsp;desplegó&nbsp;un&nbsp;tutor&nbsp;del&nbsp;mismo&nbsp;tipo	unkown error	2015/2/12 18:15	2015/2/12 18:15
+477	-477	el&nbsp;nivel&nbsp;del&nbsp;tutor&nbsp;no&nbsp;puede&nbsp;superar&nbsp;el&nbsp;del&nbsp;protagonista	el&nbsp;nivel&nbsp;del&nbsp;tutor&nbsp;no&nbsp;puede&nbsp;superar&nbsp;el&nbsp;del&nbsp;protagonista	unkown error	2015/2/12 20:59	2015/2/12 20:59
+478	-478	Un&nbsp;tutor&nbsp;en&nbsp;combate&nbsp;no&nbsp;se&nbsp;puede&nbsp;cambiar&nbsp;ni&nbsp;retirar	Un&nbsp;tutor&nbsp;en&nbsp;combate&nbsp;no&nbsp;se&nbsp;puede&nbsp;cambiar&nbsp;ni&nbsp;retirar	unkown error	2015/2/12 20:59	2015/2/12 20:59
+479	-479	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;alquimia	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;alquimia	unkown error	2015/2/12 20:59	2015/2/12 20:59
+480	-480	Líquido&nbsp;de&nbsp;cultivo&nbsp;insuficiente	Líquido&nbsp;de&nbsp;cultivo&nbsp;insuficiente	unkown error	2015/2/12 20:59	2015/2/12 20:59
+481	-481	Chips&nbsp;insuficientes	Chips&nbsp;insuficientes	unkown error	2015/2/12 20:59	2015/2/12 20:59
+482	-482	Este&nbsp;amigo&nbsp;está&nbsp;en&nbsp;tu&nbsp;lista&nbsp;negra	Este&nbsp;amigo&nbsp;está&nbsp;en&nbsp;tu&nbsp;lista&nbsp;negra	unkown error	2015/2/12 20:59	2015/2/12 20:59
+483	-483	Logro&nbsp;sin&nbsp;completar	Logro&nbsp;sin&nbsp;completar	unkown error	2015/2/12 20:59	2015/2/12 20:59
+484	-484	Logros&nbsp;de&nbsp;combate&nbsp;insuficientes	Logros&nbsp;de&nbsp;combate&nbsp;insuficientes	unkown error	2015/2/12 20:59	2015/2/12 20:59
+485	-485	Elige&nbsp;un&nbsp;tipo&nbsp;de&nbsp;recompensa	Elige&nbsp;un&nbsp;tipo&nbsp;de&nbsp;recompensa	unkown error	2015/2/12 20:59	2015/2/12 20:59
+486	-486	¡Vaya,&nbsp;te&nbsp;sobreestimaste!&nbsp;Vuelve&nbsp;cuando&nbsp;estés&nbsp;entre&nbsp;los&nbsp;20&nbsp;mejores.	¡Vaya,&nbsp;te&nbsp;sobreestimaste!&nbsp;Vuelve&nbsp;cuando&nbsp;estés&nbsp;entre&nbsp;los&nbsp;20&nbsp;mejores.	unkown error	2015/2/12 20:59	2015/2/12 20:59
+487	-487	El atacante sorpresa ya fue eliminado	El atacante sorpresa ya fue eliminado	unkown error	2015/2/12 20:59	2015/2/12 20:59
+488	-488	Se agotaron las ayudas de hoy	Se agotaron las ayudas de hoy	unkown error	2015/2/12 20:59	2015/2/12 20:59
+489	-489	Los&nbsp;invasores&nbsp;fueron&nbsp;derrotados&nbsp;o&nbsp;escaparon	Los&nbsp;invasores&nbsp;fueron&nbsp;derrotados&nbsp;o&nbsp;escaparon	unkown error	2015/2/12 20:59	2015/2/12 20:59
+490	-490	¡Estás&nbsp;soñando!&nbsp;No&nbsp;puedes&nbsp;enviarte&nbsp;mensajes&nbsp;a&nbsp;ti&nbsp;mismo	¡Estás&nbsp;soñando!&nbsp;No&nbsp;puedes&nbsp;enviarte&nbsp;mensajes&nbsp;a&nbsp;ti&nbsp;mismo	unkown error	2015/2/12 20:59	2015/2/12 20:59
+491	-491	Una&nbsp;sola&nbsp;compra&nbsp;no&nbsp;puede&nbsp;superar&nbsp;10000	Una&nbsp;sola&nbsp;compra&nbsp;no&nbsp;puede&nbsp;superar&nbsp;10000	unkown error	2015/2/12 20:59	2015/2/12 20:59
+492	-492	El&nbsp;registro&nbsp;para&nbsp;la&nbsp;prueba&nbsp;está&nbsp;completo.&nbsp;Para&nbsp;más&nbsp;información,&nbsp;únete&nbsp;al&nbsp;grupo&nbsp;oficial&nbsp;de&nbsp;QQ:&nbsp;463573137!	El&nbsp;registro&nbsp;para&nbsp;la&nbsp;prueba&nbsp;está&nbsp;completo.&nbsp;Para&nbsp;más&nbsp;información,&nbsp;únete&nbsp;al&nbsp;grupo&nbsp;oficial&nbsp;de&nbsp;QQ:&nbsp;463573137!	unkown error	2015/2/12 20:59	2015/2/12 20:59
+493	-493	Esta&nbsp;cuenta&nbsp;inició&nbsp;sesión&nbsp;en&nbsp;otro&nbsp;lugar.&nbsp;¡Vuelve&nbsp;a&nbsp;iniciar&nbsp;sesión!	Esta&nbsp;cuenta&nbsp;inició&nbsp;sesión&nbsp;en&nbsp;otro&nbsp;lugar.&nbsp;¡Vuelve&nbsp;a&nbsp;iniciar&nbsp;sesión!	unkown error	2015/2/12 20:59	2015/2/12 20:59
+494	-494	El chip ya está al nivel máximo	El chip ya está al nivel máximo	unkown error	2015/2/12 20:59	2015/2/12 20:59
+495	-495	Alcanzaste el límite de extensiones	Alcanzaste el límite de extensiones	unkown error	2015/2/12 20:59	2015/2/12 20:59
+496	-496	Un Ninja que ya combatió no puede volver a combatir	Un Ninja que ya combatió no puede volver a combatir	unkown error	2015/2/12 20:59	2015/2/12 20:59
+497	-497	Alcanzaste el límite de ocupaciones	Alcanzaste el límite de ocupaciones	unkown error	2015/2/12 20:59	2015/2/12 20:59
+498	-498	El edificio está protegido	El edificio está protegido	unkown error	2015/2/12 20:59	2015/2/12 20:59
+499	-499	Invasor detectado	Invasor detectado	unkown error	2015/2/12 20:59	2015/2/12 20:59
+500	-500	Derrotar invasor	Derrotar invasor	unkown error	2015/2/12 20:59	2015/2/12 20:59
+501	-501	Ranking de méritos	Ranking de méritos	unkown error	2015/2/12 20:59	2015/2/12 20:59
+502	-502	Ranking de daño	Ranking de daño	unkown error	2015/2/12 20:59	2015/2/12 20:59
+503	-503	Conquista de territorio	Conquista de territorio	unkown error	2015/2/12 20:59	2015/2/12 20:59
+504	-504	Este Ninja ya está en combate, no se puede vender	Este Ninja ya está en combate, no se puede vender	unkown error	2015/2/12 20:59	2015/2/12 20:59
+505	-505	Este Ninja ya está en combate, no se puede usar	Este Ninja ya está en combate, no se puede usar	unkown error	2015/2/12 20:59	2015/2/12 20:59
+506	-506	Este Ninja ya está en combate, no se puede descomponer	Este Ninja ya está en combate, no se puede descomponer	unkown error	2015/2/12 20:59	2015/2/12 20:59
+507	-507	Solo&nbsp;puedes&nbsp;obtener&nbsp;la&nbsp;recompensa&nbsp;cuando&nbsp;termine&nbsp;el&nbsp;evento	Solo&nbsp;puedes&nbsp;obtener&nbsp;la&nbsp;recompensa&nbsp;cuando&nbsp;termine&nbsp;el&nbsp;evento	unkown error	2015/9/23 0:17	2015/9/23 0:18
+508	-508	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;compras	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;compras	unkown error	2015/9/23 0:17	2015/9/23 0:18
+509	-509	Solo&nbsp;el&nbsp;líder&nbsp;y&nbsp;el&nbsp;vicelíder&nbsp;del&nbsp;clan&nbsp;pueden&nbsp;cambiar&nbsp;la&nbsp;información&nbsp;del&nbsp;clan	Solo&nbsp;el&nbsp;líder&nbsp;y&nbsp;el&nbsp;vicelíder&nbsp;del&nbsp;clan&nbsp;pueden&nbsp;cambiar&nbsp;la&nbsp;información&nbsp;del&nbsp;clan	unkown error	2015/9/23 0:17	2015/9/23 0:18
+510	-510	Nivel&nbsp;del&nbsp;clan&nbsp;demasiado&nbsp;bajo.&nbsp;No&nbsp;se&nbsp;puede&nbsp;cambiar	Nivel&nbsp;del&nbsp;clan&nbsp;demasiado&nbsp;bajo.&nbsp;No&nbsp;se&nbsp;puede&nbsp;cambiar	unkown error	2015/9/23 0:17	2015/9/23 0:18
+511	-511	No&nbsp;puedes&nbsp;postularte&nbsp;a&nbsp;otro&nbsp;clan&nbsp;ni&nbsp;fundarlo&nbsp;en&nbsp;24&nbsp;horas	No&nbsp;puedes&nbsp;postularte&nbsp;a&nbsp;otro&nbsp;clan&nbsp;ni&nbsp;fundarlo&nbsp;en&nbsp;24&nbsp;horas	unkown error	2015/9/23 0:17	2015/9/23 0:18
+512	-512	No&nbsp;hay&nbsp;información&nbsp;del&nbsp;clan	No&nbsp;hay&nbsp;información&nbsp;del&nbsp;clan	unkown error	2015/9/23 0:17	2015/9/23 0:18
+513	-513	Solo&nbsp;puedes&nbsp;salir&nbsp;cediendo&nbsp;el&nbsp;liderazgo&nbsp;del&nbsp;clan&nbsp;a&nbsp;otro&nbsp;miembro.	Solo&nbsp;puedes&nbsp;salir&nbsp;cediendo&nbsp;el&nbsp;liderazgo&nbsp;del&nbsp;clan&nbsp;a&nbsp;otro&nbsp;miembro.	unkown error	2015/9/23 0:17	2015/9/23 0:18
+514	-514	Los&nbsp;demás&nbsp;miembros&nbsp;pueden&nbsp;destituir&nbsp;al&nbsp;líder&nbsp;del&nbsp;clan&nbsp;si&nbsp;no&nbsp;se&nbsp;conecta&nbsp;durante&nbsp;7&nbsp;días&nbsp;seguidos.	Los&nbsp;demás&nbsp;miembros&nbsp;pueden&nbsp;destituir&nbsp;al&nbsp;líder&nbsp;del&nbsp;clan&nbsp;si&nbsp;no&nbsp;se&nbsp;conecta&nbsp;durante&nbsp;7&nbsp;días&nbsp;seguidos.	unkown error	2015/9/23 0:17	2015/9/23 0:18
+515	-515	Se&nbsp;agotaron&nbsp;tus&nbsp;reclutamientos&nbsp;de&nbsp;hoy	Se&nbsp;agotaron&nbsp;tus&nbsp;reclutamientos&nbsp;de&nbsp;hoy	unkown error	2015/9/23 0:17	2015/9/23 0:18
+516	-516	Quedan&nbsp;menos&nbsp;de&nbsp;10&nbsp;intentos.&nbsp;No&nbsp;se&nbsp;pueden&nbsp;hacer&nbsp;las&nbsp;10&nbsp;tiradas&nbsp;seguidas	Quedan&nbsp;menos&nbsp;de&nbsp;10&nbsp;intentos.&nbsp;No&nbsp;se&nbsp;pueden&nbsp;hacer&nbsp;las&nbsp;10&nbsp;tiradas&nbsp;seguidas	unkown error	2015/9/23 0:17	2015/9/23 0:18
+517	-517	Suerte&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;mejorar	Suerte&nbsp;insuficiente.&nbsp;No&nbsp;se&nbsp;puede&nbsp;mejorar	unkown error	2015/9/23 0:17	2015/9/23 0:18
+518	-518	Se&nbsp;alcanzó&nbsp;el&nbsp;límite&nbsp;de&nbsp;Ninjas&nbsp;conectados&nbsp;en&nbsp;este&nbsp;servidor.&nbsp;¡Inicia&nbsp;sesión&nbsp;en&nbsp;otro&nbsp;servidor!	Se&nbsp;alcanzó&nbsp;el&nbsp;límite&nbsp;de&nbsp;Ninjas&nbsp;conectados&nbsp;en&nbsp;este&nbsp;servidor.&nbsp;¡Inicia&nbsp;sesión&nbsp;en&nbsp;otro&nbsp;servidor!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+519	-519	Recompensa&nbsp;de&nbsp;batalla&nbsp;de&nbsp;clanes	Recompensa&nbsp;de&nbsp;batalla&nbsp;de&nbsp;clanes	unkown error	2016/1/25 21:58	2016/1/25 21:58
+520	-520	No&nbsp;puedes&nbsp;salir&nbsp;del&nbsp;clan&nbsp;durante&nbsp;la&nbsp;batalla&nbsp;de&nbsp;clanes	No&nbsp;puedes&nbsp;salir&nbsp;del&nbsp;clan&nbsp;durante&nbsp;la&nbsp;batalla&nbsp;de&nbsp;clanes	unkown error	2016/1/25 21:58	2016/1/25 21:58
+521	-521	Se&nbsp;agotaron&nbsp;los&nbsp;ataques,&nbsp;no&nbsp;puedes&nbsp;atacar	Se&nbsp;agotaron&nbsp;los&nbsp;ataques,&nbsp;no&nbsp;puedes&nbsp;atacar	unkown error	2016/1/25 21:58	2016/1/25 21:58
+522	-522	Se&nbsp;agotaron&nbsp;tus&nbsp;ataques.&nbsp;No&nbsp;se&nbsp;puede&nbsp;atacar	Se&nbsp;agotaron&nbsp;tus&nbsp;ataques.&nbsp;No&nbsp;se&nbsp;puede&nbsp;atacar	unkown error	2016/1/25 21:58	2016/1/25 21:58
+523	-523	Solo&nbsp;puedes&nbsp;participar&nbsp;en&nbsp;la&nbsp;batalla&nbsp;de&nbsp;clanes&nbsp;48&nbsp;horas&nbsp;después&nbsp;de&nbsp;unirte&nbsp;al&nbsp;clan	Solo&nbsp;puedes&nbsp;participar&nbsp;en&nbsp;la&nbsp;batalla&nbsp;de&nbsp;clanes&nbsp;48&nbsp;horas&nbsp;después&nbsp;de&nbsp;unirte&nbsp;al&nbsp;clan	unkown error	2016/1/25 21:58	2016/1/25 21:58
+524	-524	¡El periodo de preparación terminó, prepárate para combatir!	¡El periodo de preparación terminó, prepárate para combatir!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+525	-525	¡El objetivo ya fue eliminado, no se puede atacar!	¡El objetivo ya fue eliminado, no se puede atacar!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+526	-526	Reservado	Reservado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+527	-527	Reservado	Reservado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+528	-528	Puntos&nbsp;de&nbsp;batalla&nbsp;insuficientes,&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar.	Puntos&nbsp;de&nbsp;batalla&nbsp;insuficientes,&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+529	-529	Se&nbsp;agotaron&nbsp;las&nbsp;compras&nbsp;de&nbsp;hoy.	Se&nbsp;agotaron&nbsp;las&nbsp;compras&nbsp;de&nbsp;hoy.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+530	-530	Reclamado	Reclamado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+531	-531	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;compras.	Alcanzaste&nbsp;el&nbsp;límite&nbsp;de&nbsp;compras.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+532	-532	Los&nbsp;desafíos&nbsp;alcanzaron&nbsp;el&nbsp;límite,&nbsp;no&nbsp;hace&nbsp;falta&nbsp;comprar.	Los&nbsp;desafíos&nbsp;alcanzaron&nbsp;el&nbsp;límite,&nbsp;no&nbsp;hace&nbsp;falta&nbsp;comprar.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+533	-533	Desafíos&nbsp;insuficientes.	Desafíos&nbsp;insuficientes.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+534	-534	Esta&nbsp;temporada&nbsp;terminó,&nbsp;no&nbsp;puedes&nbsp;usar&nbsp;la&nbsp;Tienda&nbsp;de&nbsp;Puntos.	Esta&nbsp;temporada&nbsp;terminó,&nbsp;no&nbsp;puedes&nbsp;usar&nbsp;la&nbsp;Tienda&nbsp;de&nbsp;Puntos.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+535	-535	La&nbsp;Tienda&nbsp;de&nbsp;Puntos&nbsp;de&nbsp;Batalla&nbsp;abre&nbsp;al&nbsp;terminar&nbsp;la&nbsp;temporada&nbsp;actual	La&nbsp;Tienda&nbsp;de&nbsp;Puntos&nbsp;de&nbsp;Batalla&nbsp;abre&nbsp;al&nbsp;terminar&nbsp;la&nbsp;temporada&nbsp;actual	unkown error	2016/1/25 21:58	2016/1/25 21:58
+536	-536	Puntuación&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar.	Puntuación&nbsp;insuficiente,&nbsp;no&nbsp;se&nbsp;puede&nbsp;comprar.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+537	-537	El&nbsp;concurso&nbsp;interservidor&nbsp;se&nbsp;desbloquea&nbsp;en&nbsp;el&nbsp;nivel&nbsp;40	El&nbsp;concurso&nbsp;interservidor&nbsp;se&nbsp;desbloquea&nbsp;en&nbsp;el&nbsp;nivel&nbsp;40	unkown error	2016/1/25 21:58	2016/1/25 21:58
+538	-538	Racha&nbsp;de&nbsp;victorias&nbsp;insuficiente,&nbsp;no&nbsp;puedes&nbsp;recibir&nbsp;esta&nbsp;recompensa	Racha&nbsp;de&nbsp;victorias&nbsp;insuficiente,&nbsp;no&nbsp;puedes&nbsp;recibir&nbsp;esta&nbsp;recompensa	unkown error	2016/1/25 21:58	2016/1/25 21:58
+539	-539	Con&nbsp;VIP3&nbsp;puedes&nbsp;activar&nbsp;las&nbsp;ganancias&nbsp;dobles.	Con&nbsp;VIP3&nbsp;puedes&nbsp;activar&nbsp;las&nbsp;ganancias&nbsp;dobles.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+540	-540	Materiales&nbsp;de&nbsp;forja&nbsp;insuficientes.	Materiales&nbsp;de&nbsp;forja&nbsp;insuficientes.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+541	-541	Alma&nbsp;Ninja&nbsp;insuficiente.	Alma&nbsp;Ninja&nbsp;insuficiente.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+542	-542	Nivel&nbsp;del&nbsp;Ninja&nbsp;insuficiente.	Nivel&nbsp;del&nbsp;Ninja&nbsp;insuficiente.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+543	-543	Esta&nbsp;arma&nbsp;ya&nbsp;está&nbsp;equipada.	Esta&nbsp;arma&nbsp;ya&nbsp;está&nbsp;equipada.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+544	-544	No&nbsp;hay&nbsp;armas&nbsp;para&nbsp;equipar.	No&nbsp;hay&nbsp;armas&nbsp;para&nbsp;equipar.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+545	-545	Objetos de salto insuficientes, no se puede saltar	Objetos de salto insuficientes, no se puede saltar	unkown error	2016/1/25 21:58	2016/1/25 21:58
+546	-546	Se&nbsp;necesitan&nbsp;más&nbsp;Ninjas.	Se&nbsp;necesitan&nbsp;más&nbsp;Ninjas.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+547	-547	Piedras de salto insuficientes	Piedras de salto insuficientes	unkown error	2016/1/25 21:58	2016/1/25 21:58
+548	-548	Ya&nbsp;estás&nbsp;conectado&nbsp;al&nbsp;interservidor,&nbsp;¡toca&nbsp;para&nbsp;volver&nbsp;a&nbsp;entrar!	Ya&nbsp;estás&nbsp;conectado&nbsp;al&nbsp;interservidor,&nbsp;¡toca&nbsp;para&nbsp;volver&nbsp;a&nbsp;entrar!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+549	-549	El salto ya está al nivel máximo	El salto ya está al nivel máximo	unkown error	2016/1/25 21:58	2016/1/25 21:58
+550	-550	No&nbsp;son&nbsp;amigos,&nbsp;¡agrégalo&nbsp;primero!	No&nbsp;son&nbsp;amigos,&nbsp;¡agrégalo&nbsp;primero!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+551	-551	La&nbsp;construcción&nbsp;del&nbsp;clan&nbsp;alcanzó&nbsp;el&nbsp;límite.	La&nbsp;construcción&nbsp;del&nbsp;clan&nbsp;alcanzó&nbsp;el&nbsp;límite.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+552	-552	¡Qué&nbsp;lástima,&nbsp;el&nbsp;mercader&nbsp;ya&nbsp;se&nbsp;fue!	¡Qué&nbsp;lástima,&nbsp;el&nbsp;mercader&nbsp;ya&nbsp;se&nbsp;fue!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+553	-553	¡Ya&nbsp;está&nbsp;al&nbsp;nivel&nbsp;máximo!&nbsp;¡No&nbsp;me&nbsp;toques&nbsp;más!	¡Ya&nbsp;está&nbsp;al&nbsp;nivel&nbsp;máximo!&nbsp;¡No&nbsp;me&nbsp;toques&nbsp;más!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+554	-554	La&nbsp;función&nbsp;de&nbsp;subir&nbsp;estrellas&nbsp;de&nbsp;esta&nbsp;arma&nbsp;no&nbsp;está&nbsp;disponible.	La&nbsp;función&nbsp;de&nbsp;subir&nbsp;estrellas&nbsp;de&nbsp;esta&nbsp;arma&nbsp;no&nbsp;está&nbsp;disponible.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+555	-555	¡Las&nbsp;estrellas&nbsp;del&nbsp;arma&nbsp;ya&nbsp;están&nbsp;al&nbsp;máximo!	¡Las&nbsp;estrellas&nbsp;del&nbsp;arma&nbsp;ya&nbsp;están&nbsp;al&nbsp;máximo!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+556	-556	Fragmentos&nbsp;de&nbsp;arma&nbsp;insuficientes,&nbsp;no&nbsp;se&nbsp;pueden&nbsp;subir&nbsp;estrellas	Fragmentos&nbsp;de&nbsp;arma&nbsp;insuficientes,&nbsp;no&nbsp;se&nbsp;pueden&nbsp;subir&nbsp;estrellas	unkown error	2016/1/25 21:58	2016/1/25 21:58
+557	-557	¡Únete&nbsp;al&nbsp;clan&nbsp;para&nbsp;usar&nbsp;el&nbsp;objeto!	¡Únete&nbsp;al&nbsp;clan&nbsp;para&nbsp;usar&nbsp;el&nbsp;objeto!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+558	-558	Ya tienes desplegada la misma carta mágica	Ya tienes desplegada la misma carta mágica	unkown error	2016/1/25 21:58	2016/1/25 21:58
+559	-559	Invasor detectado	Invasor detectado	unkown error	2015/2/12 20:59	2015/2/12 20:59
+560	-560	Derrotar invasor	Derrotar invasor	unkown error	2015/2/12 20:59	2015/2/12 20:59
+561	-561	Ranking de méritos	Ranking de méritos	unkown error	2015/2/12 20:59	2015/2/12 20:59
+562	-562	Clasificación&nbsp;de&nbsp;DAÑO	Clasificación&nbsp;de&nbsp;DAÑO	unkown error	2015/2/12 20:59	2015/2/12 20:59
+563	-563	El rival ya está muerto	El rival ya está muerto	unkown error	2016/1/25 21:58	2016/1/25 21:58
+564	-564	Descansa un poco antes de combatir	Descansa un poco antes de combatir	unkown error	2016/3/22 14:45	2016/3/22 14:45
+565	-565	La guerra de facciones aún no empieza	La guerra de facciones aún no empieza	unkown error	2016/3/22 19:02	2016/3/22 19:02
+566	-566	Vigor del usuario insuficiente	Vigor del usuario insuficiente	unkown error	2016/3/22 19:02	2016/3/22 19:02
+567	-567	El personaje está muerto, no puedes hacer esto	El personaje está muerto, no puedes hacer esto	unkown error	2016/3/22 19:03	2016/3/22 19:03
+568	-568	Intentos de carta insuficientes	Intentos de carta insuficientes	unkown error	2016/3/25 5:08	2016/3/25 5:08
+569	-569	La carta aún está en tiempo de espera	La carta aún está en tiempo de espera	unkown error	2016/3/25 5:08	2016/3/25 5:08
+570	-570	Ninja, tu cargo no es suficiente	Ninja, tu cargo no es suficiente	unkown error	2016/3/25 5:08	2016/3/25 5:08
+571	-571	Ninja, tu rango en la Organización no es suficiente	Ninja, tu rango en la Organización no es suficiente	unkown error	2016/3/25 5:08	2016/3/25 5:08
+572	-572	Reservado	Reservado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+573	-573	Reservado	Reservado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+574	-574	Reservado	Reservado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+575	-575	Reservado	Reservado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+576	-576	Reservado	Reservado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+577	-577	El&nbsp;Ninja&nbsp;fue&nbsp;derrotado	El&nbsp;Ninja&nbsp;fue&nbsp;derrotado	unkown error	2016/5/30 17:00	2016/5/30 17:00
+578	-578	Los&nbsp;desafíos&nbsp;alcanzaron&nbsp;el&nbsp;límite	Los&nbsp;desafíos&nbsp;alcanzaron&nbsp;el&nbsp;límite	unkown error	2016/5/30 17:00	2016/5/30 17:00
+579	-579	Derrota&nbsp;primero&nbsp;el&nbsp;punto&nbsp;anterior	Derrota&nbsp;primero&nbsp;el&nbsp;punto&nbsp;anterior	unkown error	2016/5/30 17:00	2016/5/30 17:00
+580	-580	Aún&nbsp;no&nbsp;superaste&nbsp;el&nbsp;piso&nbsp;actual,&nbsp;no&nbsp;puedes&nbsp;entrar&nbsp;al&nbsp;siguiente	Aún&nbsp;no&nbsp;superaste&nbsp;el&nbsp;piso&nbsp;actual,&nbsp;no&nbsp;puedes&nbsp;entrar&nbsp;al&nbsp;siguiente	unkown error	2016/5/30 17:00	2016/5/30 17:00
+581	-581	¡Completa&nbsp;primero&nbsp;la&nbsp;etapa!	¡Completa&nbsp;primero&nbsp;la&nbsp;etapa!	unkown error	2016/5/30 17:00	2016/5/30 17:00
+582	-582	Se&nbsp;agotaron&nbsp;los&nbsp;reinicios	Se&nbsp;agotaron&nbsp;los&nbsp;reinicios	unkown error	2016/5/30 17:00	2016/5/30 17:00
+583	-583	¡Completa&nbsp;primero&nbsp;la&nbsp;etapa!	¡Completa&nbsp;primero&nbsp;la&nbsp;etapa!	unkown error	2016/5/30 17:00	2016/5/30 17:00
+584	-584	Se&nbsp;agotaron&nbsp;las&nbsp;aperturas&nbsp;de&nbsp;tesoros	Se&nbsp;agotaron&nbsp;las&nbsp;aperturas&nbsp;de&nbsp;tesoros	unkown error	2016/5/30 17:00	2016/5/30 17:00
+585	-585	En&nbsp;el&nbsp;piso&nbsp;actual&nbsp;no&nbsp;puedes&nbsp;usar&nbsp;3&nbsp;estrellas&nbsp;rápidas,&nbsp;elige&nbsp;con&nbsp;cuidado.	En&nbsp;el&nbsp;piso&nbsp;actual&nbsp;no&nbsp;puedes&nbsp;usar&nbsp;3&nbsp;estrellas&nbsp;rápidas,&nbsp;elige&nbsp;con&nbsp;cuidado.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+586	-586	Se&nbsp;agotaron&nbsp;los&nbsp;barridos	Se&nbsp;agotaron&nbsp;los&nbsp;barridos	unkown error	2016/1/25 21:58	2016/1/25 21:58
+587	-587	¡El&nbsp;barrido&nbsp;se&nbsp;desbloquea&nbsp;al&nbsp;completar&nbsp;la&nbsp;etapa&nbsp;objetivo&nbsp;con&nbsp;3&nbsp;estrellas!	¡El&nbsp;barrido&nbsp;se&nbsp;desbloquea&nbsp;al&nbsp;completar&nbsp;la&nbsp;etapa&nbsp;objetivo&nbsp;con&nbsp;3&nbsp;estrellas!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+588	-588	Comprado	Comprado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+589	-589	Reclamado	Reclamado	unkown error	2016/1/25 21:58	2016/1/25 21:58
+590	-590	Se&nbsp;necesitan&nbsp;más&nbsp;Ninjas.	Se&nbsp;necesitan&nbsp;más&nbsp;Ninjas.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+591	-591	0	0	unkown error	2016/1/25 21:58	2016/1/25 21:58
+592	-592	¡El&nbsp;paquete&nbsp;de&nbsp;nivel&nbsp;caducó!	¡El&nbsp;paquete&nbsp;de&nbsp;nivel&nbsp;caducó!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+593	-593	¡Nivel&nbsp;demasiado&nbsp;bajo!	¡Nivel&nbsp;demasiado&nbsp;bajo!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+594	-594	El&nbsp;nivel&nbsp;de&nbsp;técnica&nbsp;no&nbsp;puede&nbsp;superar&nbsp;el&nbsp;Nivel&nbsp;de&nbsp;equipo.	El&nbsp;nivel&nbsp;de&nbsp;técnica&nbsp;no&nbsp;puede&nbsp;superar&nbsp;el&nbsp;Nivel&nbsp;de&nbsp;equipo.	unkown error	2012/11/14 15:57	2012/11/14 15:57
+595	-595	Puntos&nbsp;de&nbsp;técnica&nbsp;insuficientes	Puntos&nbsp;de&nbsp;técnica&nbsp;insuficientes	unkown error	2012/11/14 15:57	2012/11/14 15:57
+596	-596	Aún&nbsp;se&nbsp;está&nbsp;enfriando,&nbsp;espera.	Aún&nbsp;se&nbsp;está&nbsp;enfriando,&nbsp;espera.	unkown error	2012/11/14 15:57	2012/11/14 15:57
+597	-597	El correo de vinculación es incorrecto, vuelve a escribirlo	El correo de vinculación es incorrecto, vuelve a escribirlo	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+598	-598	Los jugadores vinculados solo pueden entrar en servidores especiales, vuelve a elegir	Los jugadores vinculados solo pueden entrar en servidores especiales, vuelve a elegir	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+599	-599	Debe&nbsp;tener&nbsp;6-18&nbsp;caracteres;&nbsp;solo&nbsp;se&nbsp;permiten&nbsp;números,&nbsp;letras&nbsp;o&nbsp;@._-	Debe&nbsp;tener&nbsp;6-18&nbsp;caracteres;&nbsp;solo&nbsp;se&nbsp;permiten&nbsp;números,&nbsp;letras&nbsp;o&nbsp;@._-	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+600	-600	Cuenta Inválida	Cuenta Inválida	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+601	-601	Correo&nbsp;electrónico&nbsp;no&nbsp;válido	Correo&nbsp;electrónico&nbsp;no&nbsp;válido	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+602	-602	Esta&nbsp;cuenta&nbsp;ya&nbsp;está&nbsp;vinculada&nbsp;al&nbsp;correo&nbsp;electrónico	Esta&nbsp;cuenta&nbsp;ya&nbsp;está&nbsp;vinculada&nbsp;al&nbsp;correo&nbsp;electrónico	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+603	-603	La&nbsp;cuenta&nbsp;ya&nbsp;existe	La&nbsp;cuenta&nbsp;ya&nbsp;existe	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+604	-604	error&nbsp;de&nbsp;contraseña&nbsp;original	error&nbsp;de&nbsp;contraseña&nbsp;original	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+605	-605	Pedido&nbsp;anómalo,&nbsp;¡contacta&nbsp;con&nbsp;un&nbsp;GM!	Pedido&nbsp;anómalo,&nbsp;¡contacta&nbsp;con&nbsp;un&nbsp;GM!	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+606	-606	El cupón no ha caducado, ¡no se puede vender！	El cupón no ha caducado, ¡no se puede vender！	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+607	-607	El cupón caducó, no se puede usar	El cupón caducó, no se puede usar	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+608	-608	Alcanzaste el límite de uso de cupones de hoy, no se puede usar	El cupón caducó, no se puede usar	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+609	-609	Bienvenido al mundo de Naruto	Bienvenido al mundo de Naruto	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+610	-610	Excepción al iniciar sesión en la cuenta	Excepción al iniciar sesión en la cuenta	2012/11/14 15:57	2012/11/14 15:57
+611	-611	Ese paquete de suscripción ya está activo.	Ese paquete de suscripción ya está activo.	2026/9/30 12:00	2026/9/30 12:00
+612	-612	Ese paquete de suscripción ya se activó esta semana.	Ese paquete de suscripción ya se activó esta semana.	2026/9/30 12:00	2026/9/30 12:00
