@@ -94,6 +94,7 @@ function Fight:ctor()
     self._exportJsonOver = false
 
     self._spineJsons = {}
+    self._spineJsonSet = {}
     self._spineEffects = {}
 
     self._show_name = false
@@ -1874,15 +1875,6 @@ end
 function Fight:loadAttackSkillInfluenceEffect(skillInfluenceId, _sforIndex) 
     -- 加载技能效用
 
-    local function checkIsHaveSameResource( effectId )
-        for k,v in pairs(self._spineJsons) do
-            if ""..v == ""..effectId then
-                return true
-            end
-        end
-        return false
-    end
-
     local skillInfluenceElementData = dms.element(dms["skill_influence"], skillInfluenceId)
     if skillInfluenceElementData ~= nil then
         local effectIdss = zstring.splits(dms.atos(skillInfluenceElementData, _sforIndex), "|", ",", function ( value )
@@ -1891,7 +1883,9 @@ function Fight:loadAttackSkillInfluenceEffect(skillInfluenceId, _sforIndex)
         for _, effectIds in pairs(effectIdss) do
             for i, effectId in pairs(effectIds) do
                 if __lua_project_id == __lua_project_gragon_tiger_gate or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto  or __lua_project_id == __lua_project_red_alert then
-                    if effectId >= 0 and checkIsHaveSameResource(effectId) == false then
+                    local effectKey = tostring(effectId)
+                    if effectId >= 0 and self._spineJsonSet[effectKey] ~= true then
+                        self._spineJsonSet[effectKey] = true
                         local fileName = string.format("effect/effice_%d.ExportJson", effectId)
                         self._exportJsons[fileName] = fileName
                         table.insert(self._spineJsons, effectId)
@@ -1934,6 +1928,7 @@ function Fight:loadAttackEffects()
     if _ED._fightModule ~= nil then
         self._exportJsons = {}
         self._spineJsons = {}
+        self._spineJsonSet = {}
         self._spineEffects = {}
         local formation_count = dms.int(dms["npc"], tonumber(_ED._scene_npc_id), npc.formation_count)
         for i=1,formation_count do
@@ -1987,6 +1982,7 @@ function Fight:loadAttackEffects()
     else
         self._exportJsons = {}
         self._spineJsons = {}
+        self._spineJsonSet = {}
         self._spineEffects = {}
         for i, v in pairs(_ED.attackData.roundData) do
             for j, h in pairs(v.roundAttacksData) do
@@ -2232,6 +2228,7 @@ function Fight:LoadAssetsInTigerGate( ... )
     if _ED._fightModule ~= nil then
         self._exportJsons = {}
         self._spineJsons = {}
+        self._spineJsonSet = {}
         self._spineEffects = {}
         if self._npc_id ~= nil and self._npc_id ~= "" and tonumber(self._npc_id) ~= 0 then
             local formation_count = dms.int(dms["npc"], tonumber(self._npc_id), npc.formation_count)
@@ -2458,6 +2455,7 @@ function Fight:LoadAssetsInTigerGate( ... )
     else
         self._exportJsons = {}
         self._spineJsons = {}
+        self._spineJsonSet = {}
         self._spineEffects = {}
         for i, v in pairs(_ED.attackData.roundData) do
             for j, h in pairs(v.roundAttacksData) do
@@ -4049,6 +4047,7 @@ function Fight:fightEnd( ... )
     _ED._battle_eve_release_ship_id = ""
     _ED._battle_eve_auto_fight = false
     self._spineJsons = {}
+    self._spineJsonSet = {}
     for k,v in pairs(self._spineEffects) do
         if v ~= nil then
             v:release()

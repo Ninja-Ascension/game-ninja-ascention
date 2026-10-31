@@ -109,7 +109,7 @@ def snapshot_tokens(db,account):
 
 def install(server):
     original=server.despacha
-    commands={'login_init','login_init_again','equipment_escalate','ship_escalate','ship_grow_up','ship_awaken','ship_skill_level_up','ship_skill_level_up_one_key','ship_soul_level_up','formation_change','new_recruitment_system','prop_compound','mega_unblock','mega_level_up','mega_use_skill','fight_spirit_change'}
+    commands={'login_init','login_init_again','equipment_escalate','ship_escalate','ship_grow_up','ship_rebirth','ship_awaken','ship_skill_level_up','ship_skill_level_up_one_key','ship_soul_level_up','formation_change','new_recruitment_system','prop_compound','mega_unblock','mega_level_up','mega_use_skill','fight_spirit_change'}
     def dispatch(text):
         reply=original(text)
         command=text.split('\r\n')[1] if '\r\n' in text else ''

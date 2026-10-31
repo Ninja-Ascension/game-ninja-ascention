@@ -2100,6 +2100,20 @@ function LDuplicateWindow:getOpenScene()
 			end
 		end
 	end
+	-- If every chapter in this mode is already cleared, keep the map on the
+	-- last authored chapter. The incomplete-chapter path points to the last
+	-- cleared chapter by subtracting one from the first locked chapter; with no
+	-- locked chapter, the last authored ID itself is the correct destination.
+	if sceneid == 0 and _scenes ~= nil then
+		local lastSceneId = 0
+		for _, row in pairs(_scenes) do
+			local id = dms.atoi(row, pve_scene.id)
+			if id > lastSceneId then lastSceneId = id end
+		end
+		if lastSceneId > 0 then
+			sceneid = lastSceneId
+		end
+	end
 	return sceneid
 end
 

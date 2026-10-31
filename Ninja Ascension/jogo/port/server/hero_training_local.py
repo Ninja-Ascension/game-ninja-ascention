@@ -96,6 +96,8 @@ def install(server):
     with db._lock,db._conn:hero_level_local.schema(db)
     server.MINIMOS["ship_escalate"]=lambda seq,text:hero_level_local.upgrade(server,seq,text)
     with db._lock,db._conn:hero_quality_local.schema(db)
+    server.MINIMOS['ship_rebirth_init']=lambda seq,text:hero_quality_local.rebirth_init(server,seq,text)
+    server.MINIMOS['ship_rebirth']=lambda seq,text:hero_quality_local.rebirth(server,seq,text)
     def upgrade(seq,text):
         from gameplay_mode import tutorial_enabled
         if not tutorial_enabled():return hero_quality_local.upgrade(server,seq,text)

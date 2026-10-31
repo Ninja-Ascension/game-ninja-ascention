@@ -162,6 +162,13 @@ def scene_tokens(db, account):
     completed = {(int(row[0]), int(row[1])): int(row[2]) for row in clears}
     with db._lock:
         claims=db._conn.execute('SELECT scene,chest FROM local_scene_rewards WHERE conta_id=?',(account,)).fetchall()
+        has_npc_receipts=db._conn.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='local_npc_chest_rewards'").fetchone()
+        if has_npc_receipts:
+            npc_claims=db._conn.execute(
+                'SELECT npc,tier FROM local_npc_chest_rewards WHERE conta_id=?',(account,)).fetchall()
+        else:
+            npc_claims=[]
     masks={}
     for scene,chest in claims:masks[scene]=masks.get(scene,0)|(1<<chest)
     def npc_groups(row):
@@ -194,7 +201,11 @@ def scene_tokens(db, account):
         unlocked = unlocked or count>0
         states.append(str(count if unlocked else -1))
         stars.append(str(sum(value for (s,_),value in completed.items() if s==scene)))
-    return ['6020', ','.join(states), ','.join(states), ','.join(stars), ','.join(str(masks.get(scene,0)) for scene in ids)]
+    normal_npcs=','.join(str(npc) for npc,tier in npc_claims if int(tier)==0) or '-1'
+    three_star_npcs=','.join(str(npc) for npc,tier in npc_claims if int(tier)==1) or '-1'
+    return ['6020', ','.join(states), ','.join(states), ','.join(stars),
+            ','.join(str(masks.get(scene,0)) for scene in ids),
+            '373',normal_npcs,'12408',three_star_npcs]
 
 
 def npc_tokens(db, account):

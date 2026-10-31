@@ -320,11 +320,8 @@ function BattleReward:drawWinStar(number)
 		s_number = 4
 	end
 	draw.initArmatureTwo(armature, nil, 1, 0, 1, s_number)
-	local function changeActionCallback( armatureBack )
-		draw.initArmatureTwo(armature, nil, -1, 0, 1, s_number+1)
-	end
-	armature._invoke = changeActionCallback
-	armature:getAnimation():setMovementEventCallFunc(csb.changeAction_animationEventCallFunc)
+	-- Play the reward stars once. Restarting the next armature action with
+	-- loop=-1 caused the win/star result to repeat until the window closed.
 	armature:setPosition(cc.p(Panel_star:getContentSize().width/2,Panel_star:getContentSize().height/2))
 	Panel_star:addChild(armature)
 	armature:getAnimation():setFrameEventCallFunc(
@@ -1176,11 +1173,11 @@ function BattleReward:onInit()
 			ccs.ArmatureDataManager:getInstance():addArmatureFileInfo("images/ui/effice/effect_battle_win/effect_battle_win.ExportJson")
 			local armature = ccs.Armature:create("effect_battle_win")
 			draw.initArmatureTwo(armature, nil, 1, 0, 1, 0)
-			local function changeActionCallback( armatureBack )
-				draw.initArmatureTwo(armature, nil, -1, 0, 1, 1)
+			-- Keep the victory sequence one-shot, then show the stars once. The
+			-- old callback restarted a second armature action with loop=-1.
+			armature._invoke = function(armatureBack)
 				self:drawWinStar(npcCurStar)
 			end
-			armature._invoke = changeActionCallback
 			armature:getAnimation():setMovementEventCallFunc(csb.changeAction_animationEventCallFunc)
 			armature:setPosition(cc.p(Panel_win:getContentSize().width/2,Panel_win:getContentSize().height/2))
 			Panel_win:addChild(armature)
