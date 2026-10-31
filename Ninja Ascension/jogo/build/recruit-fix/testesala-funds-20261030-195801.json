@@ -1,0 +1,13 @@
+{
+  "profile": "testesala",
+  "account_id": 70,
+  "before": {
+    "ryo": 2000000000,
+    "gold": 2000000000
+  },
+  "after": {
+    "ryo": 2000000000,
+    "gold": 2000000000
+  },
+  "backup": "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\build\\recruit-fix\\contas-before-testesala-funds-20261030-195801.sqlite3"
+}

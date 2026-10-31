@@ -1,0 +1,31 @@
+Extraídos 125 arquivos do Recruit em C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\recruit-original-apk\extraido
+Referências não resolvidas/ambíguas: 29
+  ambíguo:effect_hjcqcq.png -> firecracker/res/images/ui/effice/effect_hjcqcq/effect_hjcqcq.png | firecracker/res/effect/effect_hjcqcq/effect_hjcqcq.png | firecracker/res/language/zh_TW/images/ui/effice/effect_hjcqcq/effect_hjcqcq.png
+  referência:icon/item_recruit.csb
+  referência:images/ui/effice/effect_ui_magicgirl/effect_ui_magicgirl.atlas
+  referência:images/ui/effice/effect_ui_magicgirl/effect_ui_magicgirl.json
+  referência:images/ui/effice/zhaomu_0/zhaomu_0.atlas
+  referência:images/ui/effice/zhaomu_0/zhaomu_0.json
+  referência:images/ui/effice/zhaomu_1/zhaomu_1.atlas
+  referência:images/ui/effice/zhaomu_1/zhaomu_1.json
+  referência:images/ui/icon/zhengying_icon.png
+  referência:images/ui/quality/leixing_1.png
+  referência:images/ui/quality/leixing_2.png
+  referência:images/ui/quality/leixing_3.png
+  referência:images/ui/quality/leixing_4.png
+  referência:images/ui/text/chaozhi.png
+  referência:images/ui/text/lhm_zhaoyici.png
+  referência:images/ui/text/zhaoshici.png
+  referência:self.csb
+  referência:shop/merchants_will_preview.csb
+  referência:shop/merchants_will_preview_baiying.csb
+  referência:shop/merchants_will_preview_diguo.csb
+  referência:shop/merchants_will_preview_heiqi.csb
+  referência:shop/merchants_will_preview_shenhai.csb
+  referência:shop/recruit_settlement_gaoji.csb
+  referência:shop/shop_zhenying.csb
+  referência:shop/shop_zhenying_k.csb
+  referência:shop/shop_zhenying_ten.csb
+  referência:shop/zhaojiangpaiqi.csb
+  referência:sprite_fudan2.png
+  referência:utils/select_award_tow.csb

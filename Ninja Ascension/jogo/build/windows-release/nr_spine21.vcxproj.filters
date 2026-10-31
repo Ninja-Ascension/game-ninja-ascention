@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Animation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\AnimationState.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\AnimationStateData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Atlas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\AtlasAttachmentLoader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Attachment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\AttachmentLoader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Bone.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\BoneData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\BoundingBoxAttachment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\EventData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\IkConstraint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\IkConstraintData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Json.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\MeshAttachment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\RegionAttachment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Skeleton.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\SkeletonBounds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\SkeletonData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\SkeletonJson.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Skin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\SkinnedMeshAttachment.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\Slot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\SlotData.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\build\deps\spine-2.1.25\spine-c\src\spine\extension.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="W:\port\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B7FD9DC9-4DD9-39A2-BD03-508C64B8C518}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

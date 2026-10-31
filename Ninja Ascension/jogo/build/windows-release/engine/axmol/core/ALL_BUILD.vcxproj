@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A3EC6171-6356-3D97-8EE2-88EE7517B6FB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="W:\build\windows-release\engine\axmol\core\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="W:\build\deps\axmol\core\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule W:/build/deps/axmol/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SW:/port -BW:/build/windows-release --check-stamp-file W:/build/windows-release/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceRuns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;W:\build\deps\axmol\cmake\Modules\AXConfigSIMD.cmake;W:\build\deps\axmol\core\2d\CMakeLists.txt;W:\build\deps\axmol\core\3d\CMakeLists.txt;W:\build\deps\axmol\core\audio\CMakeLists.txt;W:\build\deps\axmol\core\axmolver.h.in;W:\build\deps\axmol\core\base\CMakeLists.txt;W:\build\deps\axmol\core\math\CMakeLists.txt;W:\build\deps\axmol\core\navmesh\CMakeLists.txt;W:\build\deps\axmol\core\network\CMakeLists.txt;W:\build\deps\axmol\core\physics\CMakeLists.txt;W:\build\deps\axmol\core\physics3d\CMakeLists.txt;W:\build\deps\axmol\core\platform\CMakeLists.txt;W:\build\deps\axmol\core\renderer\CMakeLists.txt;W:\build\deps\axmol\core\renderer\RenderConsts.h.in;W:\build\deps\axmol\core\ui\CMakeLists.txt;W:\build\windows-release\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\build\windows-release\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule W:/build/deps/axmol/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SW:/port -BW:/build/windows-release --check-stamp-file W:/build/windows-release/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceRuns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;W:\build\deps\axmol\cmake\Modules\AXConfigSIMD.cmake;W:\build\deps\axmol\core\2d\CMakeLists.txt;W:\build\deps\axmol\core\3d\CMakeLists.txt;W:\build\deps\axmol\core\audio\CMakeLists.txt;W:\build\deps\axmol\core\axmolver.h.in;W:\build\deps\axmol\core\base\CMakeLists.txt;W:\build\deps\axmol\core\math\CMakeLists.txt;W:\build\deps\axmol\core\navmesh\CMakeLists.txt;W:\build\deps\axmol\core\network\CMakeLists.txt;W:\build\deps\axmol\core\physics\CMakeLists.txt;W:\build\deps\axmol\core\physics3d\CMakeLists.txt;W:\build\deps\axmol\core\platform\CMakeLists.txt;W:\build\deps\axmol\core\renderer\CMakeLists.txt;W:\build\deps\axmol\core\renderer\RenderConsts.h.in;W:\build\deps\axmol\core\ui\CMakeLists.txt;W:\build\windows-release\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\build\windows-release\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule W:/build/deps/axmol/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SW:/port -BW:/build/windows-release --check-stamp-file W:/build/windows-release/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceRuns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;W:\build\deps\axmol\cmake\Modules\AXConfigSIMD.cmake;W:\build\deps\axmol\core\2d\CMakeLists.txt;W:\build\deps\axmol\core\3d\CMakeLists.txt;W:\build\deps\axmol\core\audio\CMakeLists.txt;W:\build\deps\axmol\core\axmolver.h.in;W:\build\deps\axmol\core\base\CMakeLists.txt;W:\build\deps\axmol\core\math\CMakeLists.txt;W:\build\deps\axmol\core\navmesh\CMakeLists.txt;W:\build\deps\axmol\core\network\CMakeLists.txt;W:\build\deps\axmol\core\physics\CMakeLists.txt;W:\build\deps\axmol\core\physics3d\CMakeLists.txt;W:\build\deps\axmol\core\platform\CMakeLists.txt;W:\build\deps\axmol\core\renderer\CMakeLists.txt;W:\build\deps\axmol\core\renderer\RenderConsts.h.in;W:\build\deps\axmol\core\ui\CMakeLists.txt;W:\build\windows-release\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">W:\build\windows-release\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule W:/build/deps/axmol/core/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SW:/port -BW:/build/windows-release --check-stamp-file W:/build/windows-release/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceRuns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceRuns.cmake;C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;W:\build\deps\axmol\cmake\Modules\AXConfigSIMD.cmake;W:\build\deps\axmol\core\2d\CMakeLists.txt;W:\build\deps\axmol\core\3d\CMakeLists.txt;W:\build\deps\axmol\core\audio\CMakeLists.txt;W:\build\deps\axmol\core\axmolver.h.in;W:\build\deps\axmol\core\base\CMakeLists.txt;W:\build\deps\axmol\core\math\CMakeLists.txt;W:\build\deps\axmol\core\navmesh\CMakeLists.txt;W:\build\deps\axmol\core\network\CMakeLists.txt;W:\build\deps\axmol\core\physics\CMakeLists.txt;W:\build\deps\axmol\core\physics3d\CMakeLists.txt;W:\build\deps\axmol\core\platform\CMakeLists.txt;W:\build\deps\axmol\core\renderer\CMakeLists.txt;W:\build\deps\axmol\core\renderer\RenderConsts.h.in;W:\build\deps\axmol\core\ui\CMakeLists.txt;W:\build\windows-release\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\build\windows-release\engine\axmol\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="W:\build\windows-release\ZERO_CHECK.vcxproj">
+      <Project>{E8C7B0A9-CB44-3996-B33F-471F9B156E42}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{5FFE0DC8-75CA-31C7-90F8-9D6C7ECB3D56}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\extensions\GUI\GUI.vcxproj">
+      <Project>{7F89FCAF-B8A6-3BCC-A52F-A6BE7021C3EF}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\extensions\ImGui\ImGui.vcxproj">
+      <Project>{D5D2B679-4329-34AF-8966-D1BD62C622CE}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\extensions\Inspector\Inspector.vcxproj">
+      <Project>{D37D47D1-A254-32E2-8F87-18DC18B3445D}</Project>
+      <Name>Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\extensions\assets-manager\assets-manager.vcxproj">
+      <Project>{713EABF5-0FA3-3152-BF3D-1857CDEFC422}</Project>
+      <Name>assets-manager</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\astcenc\astcenc.vcxproj">
+      <Project>{92906C6C-EF34-38A1-B4AC-AAABD67C1D09}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\extensions\scripting\lua-bindings\axlua.vcxproj">
+      <Project>{AEA1565E-2EAF-3E82-94D3-FC1CDBF8A9DC}</Project>
+      <Name>axlua</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\axmol\core\axmol.vcxproj">
+      <Project>{1608C2DD-BDB8-3951-92C8-C9903EE9480A}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\box2d\box2d.vcxproj">
+      <Project>{55070DDA-3C73-318E-88C7-276C0A9F64C7}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\bullet\bullet.vcxproj">
+      <Project>{1F4521C8-BED1-3A50-B280-CA7369F5FCF8}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{C7683C05-44F1-3FE9-A291-4801C5FEF6C7}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\clipper2\clipper2.vcxproj">
+      <Project>{E4ABAEF8-FD75-3D0A-B67F-A0D6ED7E4208}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\extensions\cocostudio\cocostudio.vcxproj">
+      <Project>{C17311A7-2A55-33E2-B385-E063A773AC10}</Project>
+      <Name>cocostudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\doctest\doctest.vcxproj">
+      <Project>{EE176EB3-8BA9-3073-A672-E04B28904B4A}</Project>
+      <Name>doctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\fastlz\fastlz.vcxproj">
+      <Project>{A80F9028-E075-35B3-B49F-50824B972F73}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\fmt\fmt.vcxproj">
+      <Project>{3AB4A2FC-5C6C-3D36-A24A-A579FDD4A456}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\freetype\freetype.vcxproj">
+      <Project>{318EE88B-2A38-32A5-9F33-F938E9F6A079}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\glad\glad.vcxproj">
+      <Project>{3E89B640-2505-3B1D-8AFF-A469615CEA51}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{B27E84FD-5820-3068-BAD4-7C36AA879F18}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\llhttp\llhttp.vcxproj">
+      <Project>{8FB7973A-D3E5-375A-9D54-D6E2D6CD0B2A}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\lua\lua-cjson\lua-cjson.vcxproj">
+      <Project>{6B865D47-DCBE-3BCE-B4E9-E7E0FE3A94DB}</Project>
+      <Name>lua-cjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\ogg\ogg.vcxproj">
+      <Project>{52F03BB2-9C10-3AD7-B490-77350276A2E2}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\extensions\Particle3D\particle3d.vcxproj">
+      <Project>{8D9521E4-0BA2-39A2-8F23-5E15FB1BC761}</Project>
+      <Name>particle3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\png\png.vcxproj">
+      <Project>{2C300941-CCD4-39BB-901A-B0494369F1AF}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{79D26BD2-FF3A-308A-BD7C-F4E1BE0AA454}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\pugixml\pugixml.vcxproj">
+      <Project>{10C725B3-C6AE-3675-921F-A16144620FF3}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\recast\recast.vcxproj">
+      <Project>{6D55CEAA-3E72-3AB5-A066-759E335883A5}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\simdjson\simdjson.vcxproj">
+      <Project>{3C051E1F-D783-3359-851D-DF156DEA704B}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\lua\tolua\tolua.vcxproj">
+      <Project>{A3B7B9B8-BAE5-3273-BA85-14C3ACF2AC35}</Project>
+      <Name>tolua</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\unzip\unzip.vcxproj">
+      <Project>{770B19D9-EBAF-3AEA-8EC9-C1CB42A3DA1D}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\webp\webp.vcxproj">
+      <Project>{E8375052-A628-36F4-AC1A-5B47F9662D2A}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{CEE58B2D-33D7-3275-A15E-52736C9BF2E8}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\xxhash\xxhash.vcxproj">
+      <Project>{6CCF64D3-C836-34CE-9DEA-76B1E00DB697}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\build\windows-release\engine\3rdparty\yasio\yasio.vcxproj">
+      <Project>{472F7495-F691-3757-94EF-30436C8ED8FF}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

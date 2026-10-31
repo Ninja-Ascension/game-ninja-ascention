@@ -1,0 +1,33 @@
+[HOST_SERVER][19:10:48] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][19:10:48] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][19:10:48] login_init conta=legacy_ui_test user_id=1 sessao='X_l...(43)'
+[HOST_SERVER][19:10:48] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][19:10:48] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][19:10:48] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][19:10:48] login_init conta=legacy_ui_test user_id=1 sessao='X_l...(43)'
+[HOST_SERVER][19:10:48] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][19:10:48] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][19:10:48] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][19:10:48] login_init conta=legacy_ui_test user_id=1 sessao='X_l...(43)'
+[HOST_SERVER][19:10:48] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][19:10:48] LEGACY_RECRUIT command=ship_batch_bounty account=1 draws=10 silver=0 gold=2280
+[HOST_SERVER][19:10:48] cmd=ship_batch_bounty seq=11 -> status=0 (1761 chars)
+[HOST_SERVER][19:10:48] cmd=ship_batch_bounty seq=11 -> status=0 (1761 chars)
+[HOST_SERVER][19:10:48] login_init: 2 itens no inventario da conta 1
+[HOST_SERVER][19:10:48] login_init: enviando 5 personagem(ns) no login
+[HOST_SERVER][19:10:48] login_init conta=legacy_ui_test user_id=1 sessao='X_l...(43)'
+[HOST_SERVER][19:10:48] LOGIN_LAYOUT prefix=90 items=2 separate_characters=5
+[HOST_SERVER][19:10:48] LEGACY_RECRUIT command=ship_batch_bounty account=1 draws=10 silver=0 gold=2280
+[HOST_SERVER][19:10:48] cmd=ship_batch_bounty seq=11 -> status=0 (1242 chars)
+[HOST_SERVER][19:10:48] cmd=ship_batch_bounty seq=11 -> status=0 (1242 chars)
+[HOST_SERVER][19:10:48] login_init: 2 itens no inventario da conta 1
+[HOST_SERVER][19:10:48] login_init: enviando 6 personagem(ns) no login
+[HOST_SERVER][19:10:48] login_init conta=legacy_ui_test user_id=1 sessao='X_l...(43)'
+[HOST_SERVER][19:10:48] LOGIN_LAYOUT prefix=90 items=2 separate_characters=6
+[HOST_SERVER][19:10:48] LEGACY_RECRUIT command=ship_batch_bounty account=1 draws=10 silver=180000 gold=0
+[HOST_SERVER][19:10:48] cmd=ship_batch_bounty seq=11 -> status=0 (737 chars)
+[HOST_SERVER][19:10:48] cmd=ship_batch_bounty seq=11 -> status=0 (737 chars)
+LEGACY_RECRUIT_NATIVE_PASSED gold
+LEGACY_RECRUIT_NATIVE_PASSED gold-last
+LEGACY_RECRUIT_NATIVE_PASSED ryo
+LEGACY_RECRUIT_NATIVE_PASSED gold-skip

@@ -1,0 +1,12 @@
+[HOST_SERVER][13:46:59] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][13:46:59] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][13:46:59] login_init conta=soul_test user_id=1 sessao='oYb...(43)'
+[HOST_SERVER][13:46:59] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][13:46:59] cmd=fight_spirit_init seq=2 -> status=0 (304 chars)
+[HOST_SERVER][13:46:59] cmd=fight_spirit_change seq=2 -> status=0 (360 chars)
+[HOST_SERVER][13:47:00] cmd=fight_spirit_change seq=2 -> status=0 (360 chars)
+[HOST_SERVER][13:47:00] recusa cmd=fight_spirit_change seq=2 motivo=soul_na_posicao_incorreta
+[HOST_SERVER][13:47:00] cmd=fight_spirit_change seq=2 -> status=-1 (50 chars)
+[HOST_SERVER][13:47:00] cmd=fight_spirit_lock seq=2 -> status=0 (358 chars)
+[HOST_SERVER][13:47:00] cmd=fight_spirit_change seq=2 -> status=0 (348 chars)
+FIGHT_SPIRIT_TEST_PASSED grant once, initialize, equip, retry, wrong slot refusal, lock, remove, stats restored

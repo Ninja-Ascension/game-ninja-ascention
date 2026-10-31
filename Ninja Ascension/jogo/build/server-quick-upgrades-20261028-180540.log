@@ -1,0 +1,144 @@
+[HOST_SERVER][18:05:40] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][18:05:40] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][18:33:46] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][18:33:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/fight/Fight.lua de 45.177.105.186
+[HOST_SERVER][18:33:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cells/arena/arena_ladder_seat_cell.lua de 45.177.105.186
+[HOST_SERVER][18:33:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cells/arena/arena_war_report_seat_cell.lua de 45.177.105.186
+[HOST_SERVER][18:33:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/reward/DrawRareReward.lua de 45.177.105.186
+[HOST_SERVER][18:33:57] ATUALIZACAO GET /atualizacao/arquivos/port/lua/arena_replay.lua de 45.177.105.186
+[HOST_SERVER][18:34:06] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][18:34:06] login ok conta=ItachiBR sessao='P-i...(43)' perfil_user_id=2
+[HOST_SERVER][18:34:06] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][18:34:06] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=48 primeira-linha=1
+[HOST_SERVER][18:34:06] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][18:34:06] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=80 primeira-linha=2
+[HOST_SERVER][18:34:06] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][18:39:29] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=56 primeira-linha=3
+[HOST_SERVER][18:39:29] vali_register conta=ItachiBR sessao='P-i...(43)'
+[HOST_SERVER][18:39:29] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][18:39:29] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=152 primeira-linha=4
+[HOST_SERVER][18:39:29] login_init: 394 itens no inventario da conta 62
+[HOST_SERVER][18:39:29] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:39:29] login_init conta=RenegadoBR user_id=2 sessao='P-i...(43)'
+[HOST_SERVER][18:39:32] LOGIN_LAYOUT prefix=90 items=394 separate_characters=136
+[HOST_SERVER][18:39:35] cmd=login_init seq=4 -> status=0 (256182 chars)
+[HOST_SERVER][18:39:40] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=32 primeira-linha=4
+[HOST_SERVER][18:39:40] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][18:39:47] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=32 primeira-linha=4
+[HOST_SERVER][18:39:47] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][18:39:47] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=40 primeira-linha=4
+[HOST_SERVER][18:39:47] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:39:48] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=32 primeira-linha=4
+[HOST_SERVER][18:39:48] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][18:39:48] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=40 primeira-linha=4
+[HOST_SERVER][18:39:48] cmd=draw_endurance_init seq=4 -> status=0 (31 chars)
+[HOST_SERVER][18:39:48] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=56 primeira-linha=4
+[HOST_SERVER][18:39:48] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][18:39:48] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=32 primeira-linha=4
+[HOST_SERVER][18:39:48] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][18:41:45] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=24 primeira-linha=4
+[HOST_SERVER][18:41:45] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:43:46] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=24 primeira-linha=4
+[HOST_SERVER][18:43:46] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:44:33] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=32 primeira-linha=4
+[HOST_SERVER][18:44:33] cmd=random_user_list seq=4 -> status=0 (458 chars)
+[HOST_SERVER][18:44:49] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=48 primeira-linha=4
+[HOST_SERVER][18:44:49] cmd=battlefield_report_get seq=4 -> status=0 (34 chars)
+[HOST_SERVER][18:44:49] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=32 primeira-linha=4
+[HOST_SERVER][18:44:53] cmd=arena_init seq=4 -> status=0 (2040 chars)
+[HOST_SERVER][18:45:01] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=32 primeira-linha=4
+[HOST_SERVER][18:45:01] cmd=arena_launch seq=4 -> status=0 (4962 chars)
+[HOST_SERVER][18:45:06] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=24 primeira-linha=4
+[HOST_SERVER][18:45:06] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:45:23] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=304 primeira-linha=4
+[HOST_SERVER][18:45:23] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...udo_apk/assets/src/client/battle/landscape/FightRole.lua:7984: attempt to index field '_self' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function '__index' | 	...udo_apk/assets/src/client/battle/landscape/FightRole.lua:7984: in function 'callback' | 	...s/01_conteudo_apk/assets/src/frameworks/windows/fwin.lua:136: in function 'original' | 	E:/NinjaRevolution/dados/port/lua/mega_info_seguro.lua:48: in function 'original' | 	E:/NinjaRevolution/dados/port/lua/loader_tutorial.lua:131: in funct
+[HOST_SERVER][18:45:23] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][18:45:24] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=72 primeira-linha=4
+[HOST_SERVER][18:45:24] [PENDENTE] cmd=battle_result_fail seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][18:45:24] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=120 primeira-linha=4
+[HOST_SERVER][18:45:24] login_init_again: 394 itens no inventario da conta 62
+[HOST_SERVER][18:45:24] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:45:24] login_init conta=RenegadoBR user_id=2 sessao='P-i...(43)'
+[HOST_SERVER][18:45:27] LOGIN_LAYOUT prefix=90 items=394 separate_characters=136
+[HOST_SERVER][18:45:30] cmd=login_init_again seq=4 -> status=0 (256190 chars)
+[HOST_SERVER][18:45:34] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=72 primeira-linha=4
+[HOST_SERVER][18:45:34] [PENDENTE] cmd=battle_result_fail seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][18:45:34] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=48 primeira-linha=4
+[HOST_SERVER][18:45:34] cmd=battlefield_report_get seq=4 -> status=0 (34 chars)
+[HOST_SERVER][18:45:34] POST path=/iniServer?s=P-iY9fUpCTB5c1g5mxBJBGVVJ7QA6aTuZB4JQdTLshw bytes=32 primeira-linha=4
+[HOST_SERVER][18:45:39] cmd=arena_init seq=4 -> status=0 (2040 chars)
+[HOST_SERVER][18:45:40] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][18:45:46] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][18:45:46] login ok conta=ItachiBR sessao='9o2...(43)' perfil_user_id=2
+[HOST_SERVER][18:45:46] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][18:45:46] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=48 primeira-linha=1
+[HOST_SERVER][18:45:46] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][18:45:46] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=80 primeira-linha=2
+[HOST_SERVER][18:45:46] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][18:45:56] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=56 primeira-linha=3
+[HOST_SERVER][18:45:56] vali_register conta=ItachiBR sessao='9o2...(43)'
+[HOST_SERVER][18:45:56] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][18:45:56] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=144 primeira-linha=4
+[HOST_SERVER][18:45:56] login_init: 394 itens no inventario da conta 62
+[HOST_SERVER][18:45:56] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:45:56] login_init conta=RenegadoBR user_id=2 sessao='9o2...(43)'
+[HOST_SERVER][18:45:59] LOGIN_LAYOUT prefix=90 items=394 separate_characters=136
+[HOST_SERVER][18:46:02] cmd=login_init seq=4 -> status=0 (256184 chars)
+[HOST_SERVER][18:46:06] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=32 primeira-linha=4
+[HOST_SERVER][18:46:06] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][18:46:10] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=32 primeira-linha=4
+[HOST_SERVER][18:46:10] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][18:46:10] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=40 primeira-linha=4
+[HOST_SERVER][18:46:10] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:46:11] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=32 primeira-linha=4
+[HOST_SERVER][18:46:11] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][18:46:11] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=40 primeira-linha=4
+[HOST_SERVER][18:46:11] cmd=draw_endurance_init seq=4 -> status=0 (31 chars)
+[HOST_SERVER][18:46:11] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=56 primeira-linha=4
+[HOST_SERVER][18:46:11] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][18:46:11] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=32 primeira-linha=4
+[HOST_SERVER][18:46:11] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][18:46:17] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=48 primeira-linha=4
+[HOST_SERVER][18:46:17] cmd=battlefield_report_get seq=4 -> status=0 (34 chars)
+[HOST_SERVER][18:46:17] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=32 primeira-linha=4
+[HOST_SERVER][18:46:21] cmd=arena_init seq=4 -> status=0 (2040 chars)
+[HOST_SERVER][18:46:23] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=32 primeira-linha=4
+[HOST_SERVER][18:46:26] cmd=arena_launch seq=4 -> status=0 (2612 chars)
+[HOST_SERVER][18:46:28] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=24 primeira-linha=4
+[HOST_SERVER][18:46:28] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][18:46:36] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=64 primeira-linha=4
+[HOST_SERVER][18:46:36] ARENA_RESULT conta=62 match=127929f97f694b7d8757388decebcd99 pontos=2
+[HOST_SERVER][18:46:38] cmd=arena_launch seq=4 -> status=0 (2042 chars)
+[HOST_SERVER][18:46:40] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=48 primeira-linha=4
+[HOST_SERVER][18:46:40] cmd=battlefield_report_get seq=4 -> status=0 (102 chars)
+[HOST_SERVER][18:46:40] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=32 primeira-linha=4
+[HOST_SERVER][18:46:44] cmd=arena_init seq=4 -> status=0 (2040 chars)
+[HOST_SERVER][18:46:46] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=64 primeira-linha=4
+[HOST_SERVER][18:46:46] recusa cmd=battlefield_report_battle_info_get seq=4 motivo=dados_historicos_de_replay_nao_disponiveis
+[HOST_SERVER][18:46:46] cmd=battlefield_report_battle_info_get seq=4 -> status=-1 (82 chars)
+[HOST_SERVER][18:47:34] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=32 primeira-linha=4
+[HOST_SERVER][18:47:34] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][18:47:41] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=40 primeira-linha=4
+[HOST_SERVER][18:47:41] [PENDENTE] cmd=send_message seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][18:47:41] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=112 primeira-linha=4
+[HOST_SERVER][18:47:41] login_init_again: 394 itens no inventario da conta 62
+[HOST_SERVER][18:47:41] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:47:41] login_init conta=RenegadoBR user_id=2 sessao='9o2...(43)'
+[HOST_SERVER][18:47:44] LOGIN_LAYOUT prefix=90 items=394 separate_characters=136
+[HOST_SERVER][18:47:47] cmd=login_init_again seq=4 -> status=0 (256190 chars)
+[HOST_SERVER][18:47:51] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=40 primeira-linha=4
+[HOST_SERVER][18:47:51] [PENDENTE] cmd=send_message seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][18:47:51] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=112 primeira-linha=4
+[HOST_SERVER][18:47:51] login_init_again: 394 itens no inventario da conta 62
+[HOST_SERVER][18:47:51] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:47:51] login_init conta=RenegadoBR user_id=2 sessao='9o2...(43)'
+[HOST_SERVER][18:47:54] LOGIN_LAYOUT prefix=90 items=394 separate_characters=136
+[HOST_SERVER][18:47:57] cmd=login_init_again seq=4 -> status=0 (256190 chars)
+[HOST_SERVER][18:48:02] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=40 primeira-linha=4
+[HOST_SERVER][18:48:02] [PENDENTE] cmd=send_message seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][18:48:02] POST path=/iniServer?s=9o2MWGyXZBOsNk8sms3JOL8lDl_QmlYejgk6AITi968 bytes=112 primeira-linha=4
+[HOST_SERVER][18:48:02] login_init_again: 394 itens no inventario da conta 62
+[HOST_SERVER][18:48:02] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][18:48:02] login_init conta=RenegadoBR user_id=2 sessao='9o2...(43)'
+[HOST_SERVER][18:48:05] LOGIN_LAYOUT prefix=90 items=394 separate_characters=136
+[HOST_SERVER][18:48:08] cmd=login_init_again seq=4 -> status=0 (256190 chars)

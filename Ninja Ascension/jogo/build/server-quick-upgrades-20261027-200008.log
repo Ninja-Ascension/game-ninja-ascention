@@ -1,0 +1,48 @@
+[HOST_SERVER][20:00:08] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][20:00:08] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][20:00:55] POST path=/iniServer?s=OzHk3BYn5Vm6qouQi4iA8eVqL4DT6wAa-VjO8W2if48 bytes=24 primeira-linha=4
+[HOST_SERVER][20:00:55] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:02:56] POST path=/iniServer?s=OzHk3BYn5Vm6qouQi4iA8eVqL4DT6wAa-VjO8W2if48 bytes=24 primeira-linha=4
+[HOST_SERVER][20:02:56] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:04:57] POST path=/iniServer?s=OzHk3BYn5Vm6qouQi4iA8eVqL4DT6wAa-VjO8W2if48 bytes=24 primeira-linha=4
+[HOST_SERVER][20:04:57] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:06:23] POST path=/iniServer?nr_transport=text-v1 bytes=175 primeira-linha=0
+[HOST_SERVER][20:06:23] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][20:06:26] POST path=/iniServer?nr_transport=text-v1 bytes=143 primeira-linha=1
+[HOST_SERVER][20:06:26] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][20:06:26] cmd=search_user_platform seq=1 -> status=0 (24 chars)
+[HOST_SERVER][20:06:41] POST path=/iniServer?nr_transport=text-v1 bytes=169 primeira-linha=2
+[HOST_SERVER][20:06:41] login ok conta=ItachiBR sessao='yEf...(43)' perfil_user_id=2
+[HOST_SERVER][20:06:41] cmd=platform_user_login seq=2 -> status=0 (109 chars)
+[HOST_SERVER][20:06:42] POST path=/iniServer?s=yEfjK-kFoIRsyG52QYLY8WXHQCS6PuKAHcsb1WJGhKI&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][20:06:42] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][20:06:43] POST path=/iniServer?s=yEfjK-kFoIRsyG52QYLY8WXHQCS6PuKAHcsb1WJGhKI&nr_transport=text-v1 bytes=49 primeira-linha=4
+[HOST_SERVER][20:06:43] vali_register conta=ItachiBR sessao='yEf...(43)'
+[HOST_SERVER][20:06:43] cmd=vali_register seq=4 -> status=0 (36 chars)
+[HOST_SERVER][20:06:43] POST path=/iniServer?s=yEfjK-kFoIRsyG52QYLY8WXHQCS6PuKAHcsb1WJGhKI&nr_transport=text-v1 bytes=267 primeira-linha=5
+[HOST_SERVER][20:06:43] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][20:06:43] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][20:06:43] login_init conta=RenegadoBR user_id=2 sessao='yEf...(43)'
+[HOST_SERVER][20:06:43] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][20:06:43] cmd=login_init seq=5 -> status=0 (1210872 chars)
+[HOST_SERVER][20:06:58] POST path=/iniServer?s=OzHk3BYn5Vm6qouQi4iA8eVqL4DT6wAa-VjO8W2if48 bytes=24 primeira-linha=4
+[HOST_SERVER][20:06:58] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:07:25] POST path=/iniServer?s=yEfjK-kFoIRsyG52QYLY8WXHQCS6PuKAHcsb1WJGhKI&nr_transport=text-v1 bytes=24 primeira-linha=5
+[HOST_SERVER][20:07:25] cmd=user_create_time seq=5 -> status=0 (39 chars)
+[HOST_SERVER][20:07:34] POST path=/iniServer?s=yEfjK-kFoIRsyG52QYLY8WXHQCS6PuKAHcsb1WJGhKI&nr_transport=text-v1 bytes=1348 primeira-linha=5
+[HOST_SERVER][20:07:34] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: [string "client/loader/EnvironmentDatas.lua"]:5261: attempt to perform arithmetic on a nil value | stack traceback: | 	[string "assets/src/main.lua"]:73: in function '__div' | 	[string "client/loader/EnvironmentDatas.lua"]:5261: in function 'funOpenDrawTip' | 	[string "client/home/Home.lua"]:4002: in function 'onUpdateDrawEx' | 	[string "client/home/Home.lua"]:2848: in function 'upDataDraw' | 	[string "client/home/Home.lua"]:6159: in function 'onEnterTransitionFinish' | 	[string "frameworks/windows/window.lua"]:200: in function 'enterTransitionFinish' 
+[HOST_SERVER][20:07:34] cmd=record_crash seq=5 -> status=0 (16 chars)
+[HOST_SERVER][20:07:35] POST path=/iniServer?s=yEfjK-kFoIRsyG52QYLY8WXHQCS6PuKAHcsb1WJGhKI&nr_transport=text-v1 bytes=24 primeira-linha=5
+[HOST_SERVER][20:07:35] POST path=/iniServer?s=yEfjK-kFoIRsyG52QYLY8WXHQCS6PuKAHcsb1WJGhKI&nr_transport=text-v1 bytes=1348 primeira-linha=5
+[HOST_SERVER][20:07:35] cmd=ship_purify_init seq=5 -> status=0 (20 chars)
+[HOST_SERVER][20:07:35] [CRASH DO CLIENTE] 2 | LUA Func | 0 | LUA ERROR | LUA ERROR: [string "client/loader/EnvironmentDatas.lua"]:5261: attempt to perform arithmetic on a nil value | stack traceback: | 	[string "assets/src/main.lua"]:73: in function '__div' | 	[string "client/loader/EnvironmentDatas.lua"]:5261: in function 'funOpenDrawTip' | 	[string "client/home/Home.lua"]:4002: in function 'onUpdateDrawEx' | 	[string "client/home/Home.lua"]:2848: in function 'upDataDraw' | 	[string "client/home/Home.lua"]:6159: in function 'onEnterTransitionFinish' | 	[string "frameworks/windows/window.lua"]:200: in function 'enterTransitionFinish' 
+[HOST_SERVER][20:07:35] cmd=record_crash seq=5 -> status=0 (16 chars)
+[HOST_SERVER][20:08:59] POST path=/iniServer?s=OzHk3BYn5Vm6qouQi4iA8eVqL4DT6wAa-VjO8W2if48 bytes=24 primeira-linha=4
+[HOST_SERVER][20:08:59] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:11:00] POST path=/iniServer?s=OzHk3BYn5Vm6qouQi4iA8eVqL4DT6wAa-VjO8W2if48 bytes=24 primeira-linha=4
+[HOST_SERVER][20:11:00] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:11:04] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][20:11:04] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][20:11:09] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][20:11:09] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][20:11:09] cmd=search_user_platform seq=0 -> status=0 (24 chars)

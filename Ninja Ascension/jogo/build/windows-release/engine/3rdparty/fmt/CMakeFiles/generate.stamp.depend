@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeParseArguments.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/GNUInstallDirs.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake
+C:/Users/Administrator/Desktop/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
+C:\Users\Administrator\Desktop\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in
+W:/build/deps/axmol/3rdparty/fmt/CMakeLists.txt
+W:/build/deps/axmol/3rdparty/fmt/support/cmake/JoinPaths.cmake
+W:/build/deps/axmol/3rdparty/fmt/support/cmake/fmt-config.cmake.in
+W:/build/deps/axmol/3rdparty/fmt/support/cmake/fmt.pc.in
+W:/build/windows-release/CMakeFiles/cmake.verify_globs

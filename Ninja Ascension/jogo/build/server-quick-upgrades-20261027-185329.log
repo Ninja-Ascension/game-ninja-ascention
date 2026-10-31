@@ -1,0 +1,40 @@
+[HOST_SERVER][18:53:30] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][18:53:30] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][18:53:35] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:53:41] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:53:47] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:53:53] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:53:59] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:05] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:11] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:17] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:23] ERRO unwrap path=/iniServer len=152 header=e22a3f7c5258f488 swapped=5258f488e22a3f7c: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][18:54:29] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:35] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:41] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:47] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:53] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:54:59] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:55:05] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:55:11] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:55:17] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:55:23] ERRO unwrap path=/iniServer len=152 header=e22a3f7c5258f488 swapped=5258f488e22a3f7c: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][18:55:29] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:55:35] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:55:41] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:55:47] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:55:53] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:56:00] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:56:06] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:56:12] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:56:18] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:56:24] ERRO unwrap path=/iniServer len=152 header=e22a3f7c5258f488 swapped=5258f488e22a3f7c: Error -3 while decompressing data: unknown compression method
+[HOST_SERVER][18:56:30] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][18:56:30] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][18:56:30] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:56:34] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][18:56:34] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][18:56:34] cmd=search_user_platform seq=0 -> status=0 (24 chars)
+[HOST_SERVER][18:56:36] ERRO unwrap path=/iniServer len=152 header=9c887caab8a5e872 swapped=b8a5e8729c887caa: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:56:42] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check
+[HOST_SERVER][18:56:48] ERRO unwrap path=/iniServer len=152 header=afc667dbb54a46b0 swapped=b54a46b0afc667db: Error -3 while decompressing data: incorrect header check

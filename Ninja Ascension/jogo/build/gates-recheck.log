@@ -1,0 +1,39 @@
+[HOST_SERVER][13:54:15] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][13:54:15] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][13:54:15] login_init conta=gates_test user_id=1 sessao='WWO...(43)'
+[HOST_SERVER][13:54:16] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_unblock salvo
+[HOST_SERVER][13:54:16] cmd=mega_unblock seq=2 -> status=0 (259 chars)
+[HOST_SERVER][13:54:16] cmd=mega_unblock seq=2 -> status=0 (259 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (258 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (258 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (258 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (258 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (258 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (258 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (258 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (257 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (257 chars)
+[HOST_SERVER][13:54:16] HERO_GATES conta=1 ship=100013 portao=1 cmd=mega_level_up salvo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=0 (258 chars)
+[HOST_SERVER][13:54:16] recusa cmd=mega_level_up seq=2 motivo=portao_no_nivel_maximo
+[HOST_SERVER][13:54:16] cmd=mega_level_up seq=2 -> status=-1 (41 chars)
+[HOST_SERVER][13:54:16] recusa cmd=mega_unblock seq=2 motivo=requisito_do_portao_nao_cumprido_5
+[HOST_SERVER][13:54:16] cmd=mega_unblock seq=2 -> status=-1 (52 chars)
+[HOST_SERVER][13:54:16] recusa cmd=mega_use_skill seq=2 motivo=habilidade_do_portao_nao_liberada
+[HOST_SERVER][13:54:16] cmd=mega_use_skill seq=2 -> status=-1 (53 chars)
+[HOST_SERVER][13:54:16] login_init: 2 itens no inventario da conta 1
+[HOST_SERVER][13:54:16] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][13:54:16] login_init conta=gates_test user_id=1 sessao='WWO...(43)'
+[HOST_SERVER][13:54:16] LOGIN_LAYOUT prefix=90 items=2 separate_characters=3
+[HOST_SERVER][13:54:16] cmd=login_init seq=9 -> status=0 (46243 chars)
+HERO_GATES_TEST_PASSED unlock, ten upgrades, exact costs, retries, max level and prerequisites

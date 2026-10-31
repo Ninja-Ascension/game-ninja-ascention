@@ -1,0 +1,68 @@
+[HOST_SERVER][18:02:28] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][18:02:28] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][18:03:12] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][18:03:12] login ok conta=ItachiBR sessao='WcQ...(43)' perfil_user_id=2
+[HOST_SERVER][18:03:12] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][18:03:12] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=48 primeira-linha=1
+[HOST_SERVER][18:03:12] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][18:03:12] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=80 primeira-linha=2
+[HOST_SERVER][18:03:12] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][18:03:15] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=56 primeira-linha=3
+[HOST_SERVER][18:03:15] vali_register conta=ItachiBR sessao='WcQ...(43)'
+[HOST_SERVER][18:03:15] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][18:03:16] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=32 primeira-linha=4
+[HOST_SERVER][18:03:16] get_random_name indice=0 -> Kaze_Musha
+[HOST_SERVER][18:03:16] cmd=get_random_name seq=4 -> status=0 (33 chars)
+[HOST_SERVER][18:03:16] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=88 primeira-linha=5
+[HOST_SERVER][18:03:16] register conta=ItachiBR user_id=2 apelido=Kaze_Musha
+[HOST_SERVER][18:03:16] cmd=register seq=5 -> status=0 (16 chars)
+[HOST_SERVER][18:03:16] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=152 primeira-linha=6
+[HOST_SERVER][18:03:16] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][18:03:16] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][18:03:16] login_init conta=RenegadoBR user_id=2 sessao='WcQ...(43)'
+[HOST_SERVER][18:03:16] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][18:03:16] cmd=login_init seq=6 -> status=0 (1210908 chars)
+[HOST_SERVER][18:03:19] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=40 primeira-linha=6
+[HOST_SERVER][18:03:19] cmd=draw_endurance_init seq=6 -> status=0 (31 chars)
+[HOST_SERVER][18:03:19] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=32 primeira-linha=6
+[HOST_SERVER][18:03:19] cmd=ship_purify_init seq=6 -> status=0 (20 chars)
+[HOST_SERVER][18:03:19] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=56 primeira-linha=6
+[HOST_SERVER][18:03:19] cmd=get_web_recharge_state seq=6 -> status=0 (34 chars)
+[HOST_SERVER][18:03:46] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=40 primeira-linha=6
+[HOST_SERVER][18:03:46] USAR_ITEM conta=62 item=62000253 qtd=1 escolha=0
+[HOST_SERVER][18:03:46] cmd=prop_use seq=6 -> status=0 (1134959 chars)
+[HOST_SERVER][18:03:57] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=40 primeira-linha=6
+[HOST_SERVER][18:03:57] USAR_ITEM conta=62 item=62002229 qtd=1 escolha=0
+[HOST_SERVER][18:03:57] cmd=prop_use seq=6 -> status=0 (1134947 chars)
+[HOST_SERVER][18:04:07] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=40 primeira-linha=6
+[HOST_SERVER][18:04:07] cmd=user_card_info_init seq=6 -> status=0 (15701 chars)
+[HOST_SERVER][18:04:10] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=64 primeira-linha=6
+[HOST_SERVER][18:04:11] INDEX cmd=user_card_info_advance conta=62 carta=196
+[HOST_SERVER][18:04:11] cmd=user_card_info_advance seq=6 -> status=0 (22772 chars)
+[HOST_SERVER][18:04:13] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=64 primeira-linha=6
+[HOST_SERVER][18:04:13] INDEX cmd=user_card_info_advance conta=62 carta=196
+[HOST_SERVER][18:04:13] cmd=user_card_info_advance seq=6 -> status=0 (22775 chars)
+[HOST_SERVER][18:04:18] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=64 primeira-linha=6
+[HOST_SERVER][18:04:18] INDEX cmd=user_card_info_advance conta=62 carta=196
+[HOST_SERVER][18:04:18] cmd=user_card_info_advance seq=6 -> status=0 (22785 chars)
+[HOST_SERVER][18:04:21] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=64 primeira-linha=6
+[HOST_SERVER][18:04:21] INDEX cmd=user_card_info_advance conta=62 carta=196
+[HOST_SERVER][18:04:21] cmd=user_card_info_advance seq=6 -> status=0 (22765 chars)
+[HOST_SERVER][18:05:18] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=24 primeira-linha=6
+[HOST_SERVER][18:05:18] cmd=keep_alive seq=6 -> status=0 (14 chars)
+[HOST_SERVER][18:05:44] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=64 primeira-linha=6
+[HOST_SERVER][18:05:44] INDEX cmd=user_card_info_advance conta=62 carta=196
+[HOST_SERVER][18:05:44] cmd=user_card_info_advance seq=6 -> status=0 (22783 chars)
+[HOST_SERVER][18:05:58] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=48 primeira-linha=6
+[HOST_SERVER][18:05:58] CONQUISTA conta=62 id=51
+[HOST_SERVER][18:05:58] cmd=draw_achievement_reward seq=6 -> status=0 (647 chars)
+[HOST_SERVER][18:06:14] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=48 primeira-linha=6
+[HOST_SERVER][18:06:14] cmd=ship_spirit_init seq=6 -> status=0 (43 chars)
+[HOST_SERVER][18:06:19] POST path=/iniServer?s=WcQ-UYrsdCZykn1Vd0TcZNcnvxxdvZvauUiS4BcW_Jk bytes=88 primeira-linha=6
+[HOST_SERVER][18:06:19] NINJA_SCHOOL cmd=ship_spirit_batch_level_up conta=62 pedido=48|1006200379|1000000,0,0
+[HOST_SERVER][18:06:19] cmd=ship_spirit_batch_level_up seq=6 -> status=0 (37894 chars)
+[HOST_SERVER][18:09:11] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][18:09:11] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][18:09:15] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][18:09:15] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][18:09:15] cmd=search_user_platform seq=0 -> status=0 (24 chars)

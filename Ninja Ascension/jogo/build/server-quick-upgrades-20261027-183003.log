@@ -1,0 +1,7 @@
+[HOST_SERVER][18:30:03] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][18:30:03] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][18:44:04] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][18:44:04] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][18:44:08] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][18:44:08] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][18:44:08] cmd=search_user_platform seq=0 -> status=0 (24 chars)

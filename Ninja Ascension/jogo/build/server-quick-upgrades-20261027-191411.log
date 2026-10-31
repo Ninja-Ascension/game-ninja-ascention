@@ -1,0 +1,63 @@
+[HOST_SERVER][19:14:11] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][19:14:11] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][19:21:49] POST path=/iniServer?nr_transport=text-v1 bytes=175 primeira-linha=0
+[HOST_SERVER][19:21:49] cmd=new_get_server_list seq=0 -> status=0 (86 chars)
+[HOST_SERVER][19:21:52] POST path=/iniServer?nr_transport=text-v1 bytes=143 primeira-linha=1
+[HOST_SERVER][19:21:52] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][19:21:52] cmd=search_user_platform seq=1 -> status=0 (24 chars)
+[HOST_SERVER][19:22:03] POST path=/iniServer?nr_transport=text-v1 bytes=169 primeira-linha=2
+[HOST_SERVER][19:22:03] login ok conta=ItachiBR sessao='K3F...(43)' perfil_user_id=2
+[HOST_SERVER][19:22:03] cmd=platform_user_login seq=2 -> status=0 (109 chars)
+[HOST_SERVER][19:22:03] POST path=/iniServer?s=K3F2FpWi6TqpwSiJQJsCPcOB7-eI4AxG76QpGgbi9kk&nr_transport=text-v1 bytes=181 primeira-linha=3
+[HOST_SERVER][19:22:03] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][19:22:04] POST path=/iniServer?s=K3F2FpWi6TqpwSiJQJsCPcOB7-eI4AxG76QpGgbi9kk&nr_transport=text-v1 bytes=49 primeira-linha=4
+[HOST_SERVER][19:22:04] vali_register conta=ItachiBR sessao='K3F...(43)'
+[HOST_SERVER][19:22:04] cmd=vali_register seq=4 -> status=0 (36 chars)
+[HOST_SERVER][19:22:05] POST path=/iniServer?s=K3F2FpWi6TqpwSiJQJsCPcOB7-eI4AxG76QpGgbi9kk&nr_transport=text-v1 bytes=267 primeira-linha=5
+[HOST_SERVER][19:22:05] login_init: 347 itens no inventario da conta 62
+[HOST_SERVER][19:22:05] login_init: enviando 30 personagem(ns) no login
+[HOST_SERVER][19:22:05] login_init conta=RenegadoBR user_id=2 sessao='K3F...(43)'
+[HOST_SERVER][19:22:05] LOGIN_LAYOUT prefix=90 items=347 separate_characters=30
+[HOST_SERVER][19:22:05] cmd=login_init seq=5 -> status=0 (1210872 chars)
+[HOST_SERVER][19:25:29] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][19:25:29] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][19:25:29] cmd=search_user_platform seq=0 -> status=0 (24 chars)
+[HOST_SERVER][19:25:33] POST path=/iniServer bytes=72 primeira-linha=1
+[HOST_SERVER][19:25:33] conta criada id=64 nome=rkh...
+[HOST_SERVER][19:25:33] cmd=platform_user_register seq=1 -> status=0 (39 chars)
+[HOST_SERVER][19:25:33] POST path=/iniServer bytes=72 primeira-linha=2
+[HOST_SERVER][19:25:33] login ok conta=rkh50529 sessao='jkK...(43)' perfil_user_id=4
+[HOST_SERVER][19:25:33] cmd=platform_user_login seq=2 -> status=0 (109 chars)
+[HOST_SERVER][19:25:33] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=80 primeira-linha=3
+[HOST_SERVER][19:25:33] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][19:25:38] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=56 primeira-linha=4
+[HOST_SERVER][19:25:38] vali_register conta=rkh50529 sessao='jkK...(43)'
+[HOST_SERVER][19:25:38] cmd=vali_register seq=4 -> status=0 (36 chars)
+[HOST_SERVER][19:25:38] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=152 primeira-linha=5
+[HOST_SERVER][19:25:38] login_init: 0 itens no inventario da conta 64
+[HOST_SERVER][19:25:38] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][19:25:38] login_init conta=rkh50529 user_id=4 sessao='jkK...(43)'
+[HOST_SERVER][19:25:38] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][19:25:38] cmd=login_init seq=5 -> status=0 (45084 chars)
+[HOST_SERVER][19:25:39] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=32 primeira-linha=5
+[HOST_SERVER][19:25:39] cmd=user_create_time seq=5 -> status=0 (39 chars)
+[HOST_SERVER][19:25:44] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=32 primeira-linha=5
+[HOST_SERVER][19:25:44] cmd=ship_purify_init seq=5 -> status=0 (20 chars)
+[HOST_SERVER][19:25:44] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=392 primeira-linha=5
+[HOST_SERVER][19:25:44] [CRASH DO CLIENTE] 4 | LUA Func | 0 | LUA ERROR | LUA ERROR: ...teudo_apk/assets/src/frameworks/external/utils/utils.lua:9: attempt to call method 'find' (a nil value) | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:391: in function 'find' | 	...teudo_apk/assets/src/frameworks/external/utils/utils.lua:9: in function 'split' | 	...ssets/src/client/notification/push_notification_shop.lua:659: in function 'getNewShopRecruitmentShopCanBuy' | 	...ssets/src/client/notification/push_notification_shop.lua:558: in function 'getNewShopRecruitmentAllTips' | 	...ssets/src/client/notificatio
+[HOST_SERVER][19:25:44] cmd=record_crash seq=5 -> status=0 (16 chars)
+[HOST_SERVER][19:25:45] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=40 primeira-linha=5
+[HOST_SERVER][19:25:45] cmd=email_init seq=5 -> status=0 (14 chars)
+[HOST_SERVER][19:25:45] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=32 primeira-linha=5
+[HOST_SERVER][19:25:45] cmd=union_init seq=5 -> status=0 (47 chars)
+[HOST_SERVER][19:25:45] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=40 primeira-linha=5
+[HOST_SERVER][19:25:45] cmd=draw_endurance_init seq=5 -> status=0 (31 chars)
+[HOST_SERVER][19:25:45] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=56 primeira-linha=5
+[HOST_SERVER][19:25:45] cmd=get_web_recharge_state seq=5 -> status=0 (34 chars)
+[HOST_SERVER][19:26:05] POST path=/iniServer?s=jkKmuETiuMgPrEjQUxeEWJufXIpwAOqdxFQBBgfHeiw bytes=32 primeira-linha=5
+[HOST_SERVER][19:26:05] cmd=random_user_list seq=5 -> status=0 (180 chars)
+[HOST_SERVER][19:26:13] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][19:26:13] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][19:26:17] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][19:26:17] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][19:26:17] cmd=search_user_platform seq=0 -> status=0 (24 chars)

@@ -1,0 +1,387 @@
+[HOST_SERVER][14:59:47] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][14:59:47] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][15:02:09] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][15:02:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/SmShopPropBuyListView.lua de 45.177.105.186
+[HOST_SERVER][15:02:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/SmShopTab.lua de 45.177.105.186
+[HOST_SERVER][15:02:16] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][15:02:16] login ok conta=ItachiBR sessao='jhv...(43)' perfil_user_id=2
+[HOST_SERVER][15:02:16] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][15:02:16] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=48 primeira-linha=1
+[HOST_SERVER][15:02:16] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][15:02:16] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=80 primeira-linha=2
+[HOST_SERVER][15:02:16] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][15:08:38] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=56 primeira-linha=3
+[HOST_SERVER][15:08:38] vali_register conta=ItachiBR sessao='jhv...(43)'
+[HOST_SERVER][15:08:38] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][15:08:38] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=152 primeira-linha=4
+[HOST_SERVER][15:08:38] login_init: 391 itens no inventario da conta 62
+[HOST_SERVER][15:08:38] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][15:08:38] login_init conta=RenegadoBR user_id=2 sessao='jhv...(43)'
+[HOST_SERVER][15:08:41] LOGIN_LAYOUT prefix=90 items=391 separate_characters=136
+[HOST_SERVER][15:08:44] cmd=login_init seq=4 -> status=0 (256002 chars)
+[HOST_SERVER][15:08:49] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=32 primeira-linha=4
+[HOST_SERVER][15:08:49] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][15:08:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=32 primeira-linha=4
+[HOST_SERVER][15:08:53] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][15:08:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:08:53] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][15:08:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=32 primeira-linha=4
+[HOST_SERVER][15:08:53] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][15:08:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:08:53] cmd=draw_endurance_init seq=4 -> status=0 (31 chars)
+[HOST_SERVER][15:08:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=56 primeira-linha=4
+[HOST_SERVER][15:08:53] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][15:08:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=32 primeira-linha=4
+[HOST_SERVER][15:08:53] cmd=ship_purify_init seq=4 -> status=0 (20 chars)
+[HOST_SERVER][15:08:59] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=32 primeira-linha=4
+[HOST_SERVER][15:08:59] cmd=glories_shop_init seq=4 -> status=0 (425 chars)
+[HOST_SERVER][15:10:15] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:15] cmd=daily_mission_init seq=4 -> status=0 (5172 chars)
+[HOST_SERVER][15:10:18] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:18] MISSAO_PRINCIPAL conta=62 id=194
+[HOST_SERVER][15:10:18] cmd=draw_achieve_reward seq=4 -> status=0 (19814 chars)
+[HOST_SERVER][15:10:20] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:21] MISSAO_PRINCIPAL conta=62 id=195
+[HOST_SERVER][15:10:21] cmd=draw_achieve_reward seq=4 -> status=0 (19813 chars)
+[HOST_SERVER][15:10:23] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:23] MISSAO_PRINCIPAL conta=62 id=196
+[HOST_SERVER][15:10:23] cmd=draw_achieve_reward seq=4 -> status=0 (19812 chars)
+[HOST_SERVER][15:10:25] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:26] MISSAO_PRINCIPAL conta=62 id=197
+[HOST_SERVER][15:10:26] cmd=draw_achieve_reward seq=4 -> status=0 (19811 chars)
+[HOST_SERVER][15:10:29] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:29] MISSAO_PRINCIPAL conta=62 id=198
+[HOST_SERVER][15:10:29] cmd=draw_achieve_reward seq=4 -> status=0 (19810 chars)
+[HOST_SERVER][15:10:32] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:32] MISSAO_PRINCIPAL conta=62 id=199
+[HOST_SERVER][15:10:32] cmd=draw_achieve_reward seq=4 -> status=0 (19809 chars)
+[HOST_SERVER][15:10:34] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:34] MISSAO_PRINCIPAL conta=62 id=200
+[HOST_SERVER][15:10:34] cmd=draw_achieve_reward seq=4 -> status=0 (19808 chars)
+[HOST_SERVER][15:10:37] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:37] MISSAO_PRINCIPAL conta=62 id=201
+[HOST_SERVER][15:10:37] cmd=draw_achieve_reward seq=4 -> status=0 (19807 chars)
+[HOST_SERVER][15:10:39] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:39] MISSAO_PRINCIPAL conta=62 id=202
+[HOST_SERVER][15:10:39] cmd=draw_achieve_reward seq=4 -> status=0 (19806 chars)
+[HOST_SERVER][15:10:41] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:42] MISSAO_PRINCIPAL conta=62 id=203
+[HOST_SERVER][15:10:42] cmd=draw_achieve_reward seq=4 -> status=0 (19805 chars)
+[HOST_SERVER][15:10:44] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:44] MISSAO_PRINCIPAL conta=62 id=204
+[HOST_SERVER][15:10:44] cmd=draw_achieve_reward seq=4 -> status=0 (19804 chars)
+[HOST_SERVER][15:10:47] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:47] MISSAO_PRINCIPAL conta=62 id=205
+[HOST_SERVER][15:10:47] cmd=draw_achieve_reward seq=4 -> status=0 (19803 chars)
+[HOST_SERVER][15:10:49] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:49] MISSAO_PRINCIPAL conta=62 id=206
+[HOST_SERVER][15:10:49] cmd=draw_achieve_reward seq=4 -> status=0 (19802 chars)
+[HOST_SERVER][15:10:51] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:52] MISSAO_PRINCIPAL conta=62 id=207
+[HOST_SERVER][15:10:52] cmd=draw_achieve_reward seq=4 -> status=0 (19801 chars)
+[HOST_SERVER][15:10:52] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=24 primeira-linha=4
+[HOST_SERVER][15:10:52] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][15:10:54] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:54] MISSAO_PRINCIPAL conta=62 id=208
+[HOST_SERVER][15:10:54] cmd=draw_achieve_reward seq=4 -> status=0 (19800 chars)
+[HOST_SERVER][15:10:56] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:56] MISSAO_PRINCIPAL conta=62 id=209
+[HOST_SERVER][15:10:56] cmd=draw_achieve_reward seq=4 -> status=0 (19799 chars)
+[HOST_SERVER][15:10:59] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:10:59] MISSAO_PRINCIPAL conta=62 id=210
+[HOST_SERVER][15:10:59] cmd=draw_achieve_reward seq=4 -> status=0 (19798 chars)
+[HOST_SERVER][15:11:01] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:01] MISSAO_PRINCIPAL conta=62 id=211
+[HOST_SERVER][15:11:01] cmd=draw_achieve_reward seq=4 -> status=0 (19797 chars)
+[HOST_SERVER][15:11:04] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:04] MISSAO_PRINCIPAL conta=62 id=212
+[HOST_SERVER][15:11:04] cmd=draw_achieve_reward seq=4 -> status=0 (19796 chars)
+[HOST_SERVER][15:11:07] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:07] MISSAO_PRINCIPAL conta=62 id=213
+[HOST_SERVER][15:11:07] cmd=draw_achieve_reward seq=4 -> status=0 (19795 chars)
+[HOST_SERVER][15:11:11] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:12] MISSAO_PRINCIPAL conta=62 id=214
+[HOST_SERVER][15:11:12] cmd=draw_achieve_reward seq=4 -> status=0 (19794 chars)
+[HOST_SERVER][15:11:14] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:14] MISSAO_PRINCIPAL conta=62 id=215
+[HOST_SERVER][15:11:14] cmd=draw_achieve_reward seq=4 -> status=0 (19793 chars)
+[HOST_SERVER][15:11:16] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:16] MISSAO_PRINCIPAL conta=62 id=216
+[HOST_SERVER][15:11:16] cmd=draw_achieve_reward seq=4 -> status=0 (19792 chars)
+[HOST_SERVER][15:11:19] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:19] MISSAO_PRINCIPAL conta=62 id=217
+[HOST_SERVER][15:11:19] cmd=draw_achieve_reward seq=4 -> status=0 (19791 chars)
+[HOST_SERVER][15:11:21] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:22] MISSAO_PRINCIPAL conta=62 id=218
+[HOST_SERVER][15:11:22] cmd=draw_achieve_reward seq=4 -> status=0 (19790 chars)
+[HOST_SERVER][15:11:24] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:24] MISSAO_PRINCIPAL conta=62 id=219
+[HOST_SERVER][15:11:24] cmd=draw_achieve_reward seq=4 -> status=0 (19789 chars)
+[HOST_SERVER][15:11:27] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:27] MISSAO_PRINCIPAL conta=62 id=220
+[HOST_SERVER][15:11:27] cmd=draw_achieve_reward seq=4 -> status=0 (19788 chars)
+[HOST_SERVER][15:11:29] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:30] MISSAO_PRINCIPAL conta=62 id=221
+[HOST_SERVER][15:11:30] cmd=draw_achieve_reward seq=4 -> status=0 (19787 chars)
+[HOST_SERVER][15:11:32] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:32] MISSAO_PRINCIPAL conta=62 id=222
+[HOST_SERVER][15:11:32] cmd=draw_achieve_reward seq=4 -> status=0 (19786 chars)
+[HOST_SERVER][15:11:34] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:35] MISSAO_PRINCIPAL conta=62 id=223
+[HOST_SERVER][15:11:35] cmd=draw_achieve_reward seq=4 -> status=0 (19786 chars)
+[HOST_SERVER][15:11:37] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:38] MISSAO_PRINCIPAL conta=62 id=224
+[HOST_SERVER][15:11:38] cmd=draw_achieve_reward seq=4 -> status=0 (19785 chars)
+[HOST_SERVER][15:11:40] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:40] MISSAO_PRINCIPAL conta=62 id=225
+[HOST_SERVER][15:11:40] cmd=draw_achieve_reward seq=4 -> status=0 (19784 chars)
+[HOST_SERVER][15:11:43] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:43] MISSAO_PRINCIPAL conta=62 id=226
+[HOST_SERVER][15:11:43] cmd=draw_achieve_reward seq=4 -> status=0 (19783 chars)
+[HOST_SERVER][15:11:47] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:48] MISSAO_PRINCIPAL conta=62 id=227
+[HOST_SERVER][15:11:48] cmd=draw_achieve_reward seq=4 -> status=0 (19782 chars)
+[HOST_SERVER][15:11:50] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:50] MISSAO_PRINCIPAL conta=62 id=228
+[HOST_SERVER][15:11:50] cmd=draw_achieve_reward seq=4 -> status=0 (19781 chars)
+[HOST_SERVER][15:11:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:53] MISSAO_PRINCIPAL conta=62 id=229
+[HOST_SERVER][15:11:53] cmd=draw_achieve_reward seq=4 -> status=0 (19780 chars)
+[HOST_SERVER][15:11:55] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:11:55] MISSAO_PRINCIPAL conta=62 id=230
+[HOST_SERVER][15:11:55] cmd=draw_achieve_reward seq=4 -> status=0 (19779 chars)
+[HOST_SERVER][15:11:59] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:00] MISSAO_PRINCIPAL conta=62 id=231
+[HOST_SERVER][15:12:00] cmd=draw_achieve_reward seq=4 -> status=0 (19778 chars)
+[HOST_SERVER][15:12:02] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:02] MISSAO_PRINCIPAL conta=62 id=232
+[HOST_SERVER][15:12:02] cmd=draw_achieve_reward seq=4 -> status=0 (19777 chars)
+[HOST_SERVER][15:12:04] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:04] MISSAO_PRINCIPAL conta=62 id=233
+[HOST_SERVER][15:12:04] cmd=draw_achieve_reward seq=4 -> status=0 (19776 chars)
+[HOST_SERVER][15:12:07] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:07] MISSAO_PRINCIPAL conta=62 id=234
+[HOST_SERVER][15:12:07] cmd=draw_achieve_reward seq=4 -> status=0 (19775 chars)
+[HOST_SERVER][15:12:09] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:09] MISSAO_PRINCIPAL conta=62 id=235
+[HOST_SERVER][15:12:09] cmd=draw_achieve_reward seq=4 -> status=0 (19774 chars)
+[HOST_SERVER][15:12:12] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:12] MISSAO_PRINCIPAL conta=62 id=236
+[HOST_SERVER][15:12:12] cmd=draw_achieve_reward seq=4 -> status=0 (19773 chars)
+[HOST_SERVER][15:12:15] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:15] MISSAO_PRINCIPAL conta=62 id=237
+[HOST_SERVER][15:12:15] cmd=draw_achieve_reward seq=4 -> status=0 (19772 chars)
+[HOST_SERVER][15:12:17] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:17] MISSAO_PRINCIPAL conta=62 id=238
+[HOST_SERVER][15:12:17] cmd=draw_achieve_reward seq=4 -> status=0 (19771 chars)
+[HOST_SERVER][15:12:20] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:20] MISSAO_PRINCIPAL conta=62 id=239
+[HOST_SERVER][15:12:20] cmd=draw_achieve_reward seq=4 -> status=0 (19770 chars)
+[HOST_SERVER][15:12:23] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:23] MISSAO_PRINCIPAL conta=62 id=240
+[HOST_SERVER][15:12:23] cmd=draw_achieve_reward seq=4 -> status=0 (19769 chars)
+[HOST_SERVER][15:12:25] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:25] MISSAO_PRINCIPAL conta=62 id=32
+[HOST_SERVER][15:12:25] cmd=draw_achieve_reward seq=4 -> status=0 (19770 chars)
+[HOST_SERVER][15:12:28] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:28] MISSAO_PRINCIPAL conta=62 id=33
+[HOST_SERVER][15:12:28] cmd=draw_achieve_reward seq=4 -> status=0 (19769 chars)
+[HOST_SERVER][15:12:30] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:30] MISSAO_PRINCIPAL conta=62 id=34
+[HOST_SERVER][15:12:30] cmd=draw_achieve_reward seq=4 -> status=0 (19768 chars)
+[HOST_SERVER][15:12:32] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:32] MISSAO_PRINCIPAL conta=62 id=35
+[HOST_SERVER][15:12:32] cmd=draw_achieve_reward seq=4 -> status=0 (19767 chars)
+[HOST_SERVER][15:12:35] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:35] MISSAO_PRINCIPAL conta=62 id=36
+[HOST_SERVER][15:12:35] cmd=draw_achieve_reward seq=4 -> status=0 (19766 chars)
+[HOST_SERVER][15:12:37] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:37] MISSAO_PRINCIPAL conta=62 id=37
+[HOST_SERVER][15:12:37] cmd=draw_achieve_reward seq=4 -> status=0 (19765 chars)
+[HOST_SERVER][15:12:40] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:40] MISSAO_PRINCIPAL conta=62 id=38
+[HOST_SERVER][15:12:40] cmd=draw_achieve_reward seq=4 -> status=0 (19764 chars)
+[HOST_SERVER][15:12:42] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:42] MISSAO_PRINCIPAL conta=62 id=39
+[HOST_SERVER][15:12:42] cmd=draw_achieve_reward seq=4 -> status=0 (19763 chars)
+[HOST_SERVER][15:12:45] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:45] MISSAO_PRINCIPAL conta=62 id=40
+[HOST_SERVER][15:12:45] cmd=draw_achieve_reward seq=4 -> status=0 (19762 chars)
+[HOST_SERVER][15:12:47] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:47] MISSAO_PRINCIPAL conta=62 id=41
+[HOST_SERVER][15:12:47] cmd=draw_achieve_reward seq=4 -> status=0 (19761 chars)
+[HOST_SERVER][15:12:49] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:49] MISSAO_PRINCIPAL conta=62 id=42
+[HOST_SERVER][15:12:49] cmd=draw_achieve_reward seq=4 -> status=0 (19760 chars)
+[HOST_SERVER][15:12:51] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:51] MISSAO_PRINCIPAL conta=62 id=43
+[HOST_SERVER][15:12:51] cmd=draw_achieve_reward seq=4 -> status=0 (19759 chars)
+[HOST_SERVER][15:12:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=24 primeira-linha=4
+[HOST_SERVER][15:12:53] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][15:12:54] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:54] MISSAO_PRINCIPAL conta=62 id=44
+[HOST_SERVER][15:12:54] cmd=draw_achieve_reward seq=4 -> status=0 (19758 chars)
+[HOST_SERVER][15:12:57] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:12:57] MISSAO_PRINCIPAL conta=62 id=45
+[HOST_SERVER][15:12:57] cmd=draw_achieve_reward seq=4 -> status=0 (19757 chars)
+[HOST_SERVER][15:12:59] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:00] MISSAO_PRINCIPAL conta=62 id=46
+[HOST_SERVER][15:13:00] cmd=draw_achieve_reward seq=4 -> status=0 (19756 chars)
+[HOST_SERVER][15:13:02] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:02] MISSAO_PRINCIPAL conta=62 id=47
+[HOST_SERVER][15:13:02] cmd=draw_achieve_reward seq=4 -> status=0 (19755 chars)
+[HOST_SERVER][15:13:05] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:05] MISSAO_PRINCIPAL conta=62 id=48
+[HOST_SERVER][15:13:05] cmd=draw_achieve_reward seq=4 -> status=0 (19754 chars)
+[HOST_SERVER][15:13:07] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:07] MISSAO_PRINCIPAL conta=62 id=49
+[HOST_SERVER][15:13:07] cmd=draw_achieve_reward seq=4 -> status=0 (19753 chars)
+[HOST_SERVER][15:13:09] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:10] MISSAO_PRINCIPAL conta=62 id=50
+[HOST_SERVER][15:13:10] cmd=draw_achieve_reward seq=4 -> status=0 (19752 chars)
+[HOST_SERVER][15:13:12] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:12] MISSAO_PRINCIPAL conta=62 id=51
+[HOST_SERVER][15:13:12] cmd=draw_achieve_reward seq=4 -> status=0 (19751 chars)
+[HOST_SERVER][15:13:14] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:15] MISSAO_PRINCIPAL conta=62 id=52
+[HOST_SERVER][15:13:15] cmd=draw_achieve_reward seq=4 -> status=0 (19750 chars)
+[HOST_SERVER][15:13:17] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:17] MISSAO_PRINCIPAL conta=62 id=53
+[HOST_SERVER][15:13:17] cmd=draw_achieve_reward seq=4 -> status=0 (19749 chars)
+[HOST_SERVER][15:13:19] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:19] MISSAO_PRINCIPAL conta=62 id=54
+[HOST_SERVER][15:13:19] cmd=draw_achieve_reward seq=4 -> status=0 (19748 chars)
+[HOST_SERVER][15:13:22] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:22] MISSAO_PRINCIPAL conta=62 id=55
+[HOST_SERVER][15:13:22] cmd=draw_achieve_reward seq=4 -> status=0 (19747 chars)
+[HOST_SERVER][15:13:24] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:24] MISSAO_PRINCIPAL conta=62 id=56
+[HOST_SERVER][15:13:24] cmd=draw_achieve_reward seq=4 -> status=0 (19746 chars)
+[HOST_SERVER][15:13:27] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:27] MISSAO_PRINCIPAL conta=62 id=57
+[HOST_SERVER][15:13:27] cmd=draw_achieve_reward seq=4 -> status=0 (19745 chars)
+[HOST_SERVER][15:13:31] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:31] MISSAO_PRINCIPAL conta=62 id=58
+[HOST_SERVER][15:13:31] cmd=draw_achieve_reward seq=4 -> status=0 (19744 chars)
+[HOST_SERVER][15:13:33] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:33] MISSAO_PRINCIPAL conta=62 id=59
+[HOST_SERVER][15:13:33] cmd=draw_achieve_reward seq=4 -> status=0 (19743 chars)
+[HOST_SERVER][15:13:36] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:36] MISSAO_PRINCIPAL conta=62 id=60
+[HOST_SERVER][15:13:36] cmd=draw_achieve_reward seq=4 -> status=0 (19742 chars)
+[HOST_SERVER][15:13:38] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:39] MISSAO_PRINCIPAL conta=62 id=61
+[HOST_SERVER][15:13:39] cmd=draw_achieve_reward seq=4 -> status=0 (19742 chars)
+[HOST_SERVER][15:13:41] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:41] MISSAO_PRINCIPAL conta=62 id=62
+[HOST_SERVER][15:13:41] cmd=draw_achieve_reward seq=4 -> status=0 (19741 chars)
+[HOST_SERVER][15:13:47] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:47] MISSAO_PRINCIPAL conta=62 id=63
+[HOST_SERVER][15:13:47] cmd=draw_achieve_reward seq=4 -> status=0 (19740 chars)
+[HOST_SERVER][15:13:49] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:49] MISSAO_PRINCIPAL conta=62 id=64
+[HOST_SERVER][15:13:49] cmd=draw_achieve_reward seq=4 -> status=0 (19739 chars)
+[HOST_SERVER][15:13:53] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:53] MISSAO_PRINCIPAL conta=62 id=65
+[HOST_SERVER][15:13:53] cmd=draw_achieve_reward seq=4 -> status=0 (19738 chars)
+[HOST_SERVER][15:13:55] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:55] MISSAO_PRINCIPAL conta=62 id=66
+[HOST_SERVER][15:13:55] cmd=draw_achieve_reward seq=4 -> status=0 (19737 chars)
+[HOST_SERVER][15:13:57] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:13:58] MISSAO_PRINCIPAL conta=62 id=67
+[HOST_SERVER][15:13:58] cmd=draw_achieve_reward seq=4 -> status=0 (19736 chars)
+[HOST_SERVER][15:14:02] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:02] MISSAO_PRINCIPAL conta=62 id=68
+[HOST_SERVER][15:14:02] cmd=draw_achieve_reward seq=4 -> status=0 (19735 chars)
+[HOST_SERVER][15:14:04] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:05] MISSAO_PRINCIPAL conta=62 id=69
+[HOST_SERVER][15:14:05] cmd=draw_achieve_reward seq=4 -> status=0 (19734 chars)
+[HOST_SERVER][15:14:07] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:07] MISSAO_PRINCIPAL conta=62 id=70
+[HOST_SERVER][15:14:07] cmd=draw_achieve_reward seq=4 -> status=0 (19733 chars)
+[HOST_SERVER][15:14:09] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:09] MISSAO_PRINCIPAL conta=62 id=71
+[HOST_SERVER][15:14:09] cmd=draw_achieve_reward seq=4 -> status=0 (19732 chars)
+[HOST_SERVER][15:14:12] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:12] MISSAO_PRINCIPAL conta=62 id=72
+[HOST_SERVER][15:14:12] cmd=draw_achieve_reward seq=4 -> status=0 (19731 chars)
+[HOST_SERVER][15:14:14] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:15] MISSAO_PRINCIPAL conta=62 id=73
+[HOST_SERVER][15:14:15] cmd=draw_achieve_reward seq=4 -> status=0 (19730 chars)
+[HOST_SERVER][15:14:17] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:17] MISSAO_PRINCIPAL conta=62 id=74
+[HOST_SERVER][15:14:17] cmd=draw_achieve_reward seq=4 -> status=0 (19729 chars)
+[HOST_SERVER][15:14:19] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:20] MISSAO_PRINCIPAL conta=62 id=75
+[HOST_SERVER][15:14:20] cmd=draw_achieve_reward seq=4 -> status=0 (19728 chars)
+[HOST_SERVER][15:14:22] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:22] MISSAO_PRINCIPAL conta=62 id=76
+[HOST_SERVER][15:14:22] cmd=draw_achieve_reward seq=4 -> status=0 (19727 chars)
+[HOST_SERVER][15:14:24] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:24] MISSAO_PRINCIPAL conta=62 id=77
+[HOST_SERVER][15:14:24] cmd=draw_achieve_reward seq=4 -> status=0 (19726 chars)
+[HOST_SERVER][15:14:26] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:27] MISSAO_PRINCIPAL conta=62 id=78
+[HOST_SERVER][15:14:27] cmd=draw_achieve_reward seq=4 -> status=0 (19725 chars)
+[HOST_SERVER][15:14:29] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:29] MISSAO_PRINCIPAL conta=62 id=79
+[HOST_SERVER][15:14:29] cmd=draw_achieve_reward seq=4 -> status=0 (19724 chars)
+[HOST_SERVER][15:14:31] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:31] MISSAO_PRINCIPAL conta=62 id=80
+[HOST_SERVER][15:14:31] cmd=draw_achieve_reward seq=4 -> status=0 (19723 chars)
+[HOST_SERVER][15:14:34] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:34] MISSAO_PRINCIPAL conta=62 id=81
+[HOST_SERVER][15:14:34] cmd=draw_achieve_reward seq=4 -> status=0 (19722 chars)
+[HOST_SERVER][15:14:36] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:36] MISSAO_PRINCIPAL conta=62 id=82
+[HOST_SERVER][15:14:36] cmd=draw_achieve_reward seq=4 -> status=0 (19721 chars)
+[HOST_SERVER][15:14:38] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:38] MISSAO_PRINCIPAL conta=62 id=83
+[HOST_SERVER][15:14:38] cmd=draw_achieve_reward seq=4 -> status=0 (19720 chars)
+[HOST_SERVER][15:14:40] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:41] MISSAO_PRINCIPAL conta=62 id=84
+[HOST_SERVER][15:14:41] cmd=draw_achieve_reward seq=4 -> status=0 (19719 chars)
+[HOST_SERVER][15:14:43] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:43] MISSAO_PRINCIPAL conta=62 id=85
+[HOST_SERVER][15:14:43] cmd=draw_achieve_reward seq=4 -> status=0 (19718 chars)
+[HOST_SERVER][15:14:45] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:45] MISSAO_PRINCIPAL conta=62 id=86
+[HOST_SERVER][15:14:45] cmd=draw_achieve_reward seq=4 -> status=0 (19717 chars)
+[HOST_SERVER][15:14:54] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=24 primeira-linha=4
+[HOST_SERVER][15:14:54] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][15:14:57] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:14:57] MISSAO_PRINCIPAL conta=62 id=87
+[HOST_SERVER][15:14:57] cmd=draw_achieve_reward seq=4 -> status=0 (19716 chars)
+[HOST_SERVER][15:15:01] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:01] MISSAO_PRINCIPAL conta=62 id=88
+[HOST_SERVER][15:15:01] cmd=draw_achieve_reward seq=4 -> status=0 (19715 chars)
+[HOST_SERVER][15:15:05] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:05] MISSAO_PRINCIPAL conta=62 id=89
+[HOST_SERVER][15:15:05] cmd=draw_achieve_reward seq=4 -> status=0 (19714 chars)
+[HOST_SERVER][15:15:08] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:08] MISSAO_PRINCIPAL conta=62 id=90
+[HOST_SERVER][15:15:08] cmd=draw_achieve_reward seq=4 -> status=0 (19713 chars)
+[HOST_SERVER][15:15:10] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:10] MISSAO_PRINCIPAL conta=62 id=257
+[HOST_SERVER][15:15:10] cmd=draw_achieve_reward seq=4 -> status=0 (19728 chars)
+[HOST_SERVER][15:15:13] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:13] MISSAO_PRINCIPAL conta=62 id=258
+[HOST_SERVER][15:15:13] cmd=draw_achieve_reward seq=4 -> status=0 (19727 chars)
+[HOST_SERVER][15:15:15] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:16] MISSAO_PRINCIPAL conta=62 id=259
+[HOST_SERVER][15:15:16] cmd=draw_achieve_reward seq=4 -> status=0 (19726 chars)
+[HOST_SERVER][15:15:18] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:18] MISSAO_PRINCIPAL conta=62 id=260
+[HOST_SERVER][15:15:18] cmd=draw_achieve_reward seq=4 -> status=0 (19725 chars)
+[HOST_SERVER][15:15:22] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:22] MISSAO_PRINCIPAL conta=62 id=261
+[HOST_SERVER][15:15:22] cmd=draw_achieve_reward seq=4 -> status=0 (19740 chars)
+[HOST_SERVER][15:15:25] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:25] MISSAO_PRINCIPAL conta=62 id=262
+[HOST_SERVER][15:15:25] cmd=draw_achieve_reward seq=4 -> status=0 (19739 chars)
+[HOST_SERVER][15:15:27] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:27] MISSAO_PRINCIPAL conta=62 id=241
+[HOST_SERVER][15:15:27] cmd=draw_achieve_reward seq=4 -> status=0 (19735 chars)
+[HOST_SERVER][15:15:29] POST path=/iniServer?s=jhvCo_JK1Bq0xoJI7nSlDhDvpwWI-M1b6as4FvVOzcc bytes=40 primeira-linha=4
+[HOST_SERVER][15:15:30] MISSAO_PRINCIPAL conta=62 id=242
+[HOST_SERVER][15:15:30] cmd=draw_achieve_reward seq=4 -> status=0 (19734 chars)

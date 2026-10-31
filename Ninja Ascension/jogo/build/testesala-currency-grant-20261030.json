@@ -1,0 +1,14 @@
+{
+  "account_id": 70,
+  "login": "testesala",
+  "character": "testesala",
+  "before": {
+    "ryo": 19094,
+    "gold": 270
+  },
+  "after": {
+    "ryo": 2000000000,
+    "gold": 2000000000
+  },
+  "backup": "C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\build\\contas-before-quick-upgrades-20261030-195501.sqlite3"
+}

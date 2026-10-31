@@ -1,0 +1,27 @@
+[HOST_SERVER][19:43:17] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][19:43:17] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][19:44:37] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][19:44:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitListView.lua de 45.177.105.186
+[HOST_SERVER][19:44:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitSuccess.lua de 45.177.105.186
+[HOST_SERVER][19:44:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitSuccessTen.lua de 45.177.105.186
+[HOST_SERVER][19:44:38] ATUALIZACAO GET /atualizacao/arquivos/port/lua/battle_lifecycle.lua de 45.177.105.186
+[HOST_SERVER][19:44:38] ATUALIZACAO GET /atualizacao/arquivos/port/lua/menu_boot_probe.lua de 45.177.105.186
+[HOST_SERVER][19:44:38] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_results.lua de 45.177.105.186
+[HOST_SERVER][19:44:43] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][19:44:43] login ok conta=ItachiBR sessao='hX5...(43)' perfil_user_id=2
+[HOST_SERVER][19:44:43] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][19:44:43] POST path=/iniServer?s=hX5D5SmTqoMnJpTmLXvWG-IMim6p_EW1SZB7PbjCkuI bytes=48 primeira-linha=1
+[HOST_SERVER][19:44:43] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][19:44:43] POST path=/iniServer?s=hX5D5SmTqoMnJpTmLXvWG-IMim6p_EW1SZB7PbjCkuI bytes=80 primeira-linha=2
+[HOST_SERVER][19:44:43] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][19:44:46] POST path=/iniServer?s=hX5D5SmTqoMnJpTmLXvWG-IMim6p_EW1SZB7PbjCkuI bytes=56 primeira-linha=3
+[HOST_SERVER][19:44:46] vali_register conta=ItachiBR sessao='hX5...(43)'
+[HOST_SERVER][19:44:46] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][19:44:46] POST path=/iniServer?s=hX5D5SmTqoMnJpTmLXvWG-IMim6p_EW1SZB7PbjCkuI bytes=152 primeira-linha=4
+[HOST_SERVER][19:44:46] login_init: 482 itens no inventario da conta 62
+[HOST_SERVER][19:44:46] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][19:44:46] login_init conta=RenegadoBR user_id=2 sessao='hX5...(43)'
+[HOST_SERVER][19:44:48] LOGIN_LAYOUT prefix=90 items=482 separate_characters=136
+[HOST_SERVER][19:44:50] cmd=login_init seq=4 -> status=0 (259969 chars)
+[HOST_SERVER][19:44:54] POST path=/iniServer?s=hX5D5SmTqoMnJpTmLXvWG-IMim6p_EW1SZB7PbjCkuI bytes=32 primeira-linha=4
+[HOST_SERVER][19:44:54] cmd=user_create_time seq=4 -> status=0 (36 chars)

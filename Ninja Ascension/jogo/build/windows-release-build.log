@@ -1,0 +1,49 @@
+﻿  Checking File Globs
+  1>
+  Syncing resources for NinjaResourceProbe ...
+  fsync.ps1: Symlink W:\build\windows-release\bin\NinjaResourceProbe\Release\axslc => W:\build\windows-release\runtime\axslc exists
+  ConvertUTF.vcxproj -> W:\build\windows-release\lib\Release\ConvertUTF.lib
+  box2d.vcxproj -> W:\build\windows-release\lib\Release\box2d.lib
+  doctest.vcxproj -> W:\build\windows-release\lib\Release\doctest.lib
+  bullet.vcxproj -> W:\build\windows-release\lib\Release\bullet.lib
+  alcommon.vcxproj -> W:\build\windows-release\lib\Release\alcommon.lib
+  chipmunk.vcxproj -> W:\build\windows-release\lib\Release\chipmunk.lib
+  clipper2.vcxproj -> W:\build\windows-release\lib\Release\clipper2.lib
+  png.vcxproj -> W:\build\windows-release\lib\Release\png.lib
+  fastlz.vcxproj -> W:\build\windows-release\lib\Release\fastlz.lib
+  glad.vcxproj -> W:\build\windows-release\lib\Release\glad.lib
+  fmt.vcxproj -> W:\build\windows-release\lib\Release\fmt.lib
+  llhttp.vcxproj -> W:\build\windows-release\lib\Release\llhttp.lib
+  freetype.vcxproj -> W:\build\windows-release\lib\Release\freetype.lib
+  glfw.vcxproj -> W:\build\windows-release\lib\Release\glfw.lib
+  ogg.vcxproj -> W:\build\windows-release\lib\Release\ogg.lib
+  pugixml.vcxproj -> W:\build\windows-release\lib\Release\pugixml.lib
+  poly2tri.vcxproj -> W:\build\windows-release\lib\Release\poly2tri.lib
+  recast.vcxproj -> W:\build\windows-release\lib\Release\recast.lib
+  simdjson.vcxproj -> W:\build\windows-release\lib\Release\simdjson.lib
+  unzip.vcxproj -> W:\build\windows-release\lib\Release\unzip.lib
+  astcenc.vcxproj -> W:\build\windows-release\lib\Release\astcenc.lib
+  xxhash.vcxproj -> W:\build\windows-release\lib\Release\xxhash.lib
+  websocket-parser.vcxproj -> W:\build\windows-release\lib\Release\websocket-parser.lib
+  yasio.vcxproj -> W:\build\windows-release\lib\Release\yasio.lib
+  lua-cjson.vcxproj -> W:\build\windows-release\lib\Release\lua-cjson.lib
+  nr_layout.vcxproj -> W:\build\windows-release\Release\nr_layout.lib
+  webp.vcxproj -> W:\build\windows-release\lib\Release\webp.lib
+  nr_spine21.vcxproj -> W:\build\windows-release\Release\nr_spine21.lib
+  tolua.vcxproj -> W:\build\windows-release\lib\Release\tolua.lib
+  OpenAL.vcxproj -> W:\build\windows-release\bin\Release\OpenAL32.dll
+  axmol.vcxproj -> W:\build\windows-release\lib\Release\axmol.lib
+  GUI.vcxproj -> W:\build\windows-release\lib\Release\GUI.lib
+  assets-manager.vcxproj -> W:\build\windows-release\lib\Release\assets-manager.lib
+  ImGui.vcxproj -> W:\build\windows-release\lib\Release\ImGui.lib
+  axlua.vcxproj -> W:\build\windows-release\lib\Release\axlua.lib
+  cocostudio.vcxproj -> W:\build\windows-release\lib\Release\cocostudio.lib
+  particle3d.vcxproj -> W:\build\windows-release\lib\Release\particle3d.lib
+  Inspector.vcxproj -> W:\build\windows-release\lib\Release\Inspector.lib
+  ResourceProbe.cpp
+  LayoutEditor.cpp
+  LegacyCharacter.cpp
+  LocalBattle.cpp
+  NinjaProtoNatives.cpp
+     Criando biblioteca W:/build/windows-release/Release/NinjaResourceProbe.lib e objeto W:/build/windows-release/Release/NinjaResourceProbe.exp
+  NinjaResourceProbe.vcxproj -> W:\build\windows-release\bin\NinjaResourceProbe\Release\NinjaResourceProbe.exe
