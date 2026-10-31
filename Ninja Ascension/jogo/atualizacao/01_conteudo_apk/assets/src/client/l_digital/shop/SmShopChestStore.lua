@@ -121,10 +121,18 @@ function SmShopChestStore:ctor()
                                 _ED.show_reward_list_group_ex = {}
                             end
                             local firstReward = _ED.new_reward_object and _ED.new_reward_object[1]
-                            local isMudraPiece = firstReward and tonumber(firstReward.m_type) == 66
+                            local firstRewardType = firstReward and tonumber(firstReward.m_type)
+                            -- Itens do Shop usam a mesma tela de lista do 10x/50x.
+                            -- Na tela individual, tipos como props/essencia exibiam o Naruto
+                            -- de demonstracao do CSB junto com a recompensa.
+                            local isShopItemReward = firstRewardType == 1
+                                or firstRewardType == 6
+                                or firstRewardType == 7
+                                or firstRewardType == 66
+                                or firstRewardType == 67
                             local obj
-                            if isMudraPiece then
-                                -- Mudra 1x usa a janela de lista da recompensa, igual ao 10x/50x.
+                            if isShopItemReward then
+                                -- O 1x usa a mesma janela de recompensas do 10x/50x.
                                 obj = TreasureChestOfferSuccessTen:new()
                                 obj:setRanking(herorIndex,m_type,true)
                                 obj.number = 1

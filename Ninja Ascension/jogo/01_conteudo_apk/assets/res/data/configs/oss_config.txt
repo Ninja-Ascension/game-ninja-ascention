@@ -1,7 +1,0 @@
-1	oss开关(0:关,1:开)	1	0
-2	报送错误次数限制	2	500
-3	报送错误邮件报警开关(0:关,1:开)	3	1
-4	oss平台	4	全平台=all:jar-world=jar-world,google play=googleplay|安卓=android:google play=googleplay,小米=xiaoimi
-5	log报送开关(0:关,1:开)	5	0
-6	游戏id	6	naruto
-7	性能采集开关(0:关,1:开)	7	0

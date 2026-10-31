@@ -218,7 +218,7 @@ function TreasureChestOfferSuccessTen:openNewShowAction()
         -- cell:setPosition(cc.p(cell:getPositionX(),cell:getPositionY()))
         heroImage:addChild(cell)
 	elseif tonumber(self.recruitment_data[tonumber(self.heroIndex)].m_type) == 66 then
-		-- Mudra: a 1x draw uses the same reward-list screen as batch draws.
+		-- Item de liga: o 1x usa a mesma janela de lista das compras em lote.
 		local metal = _ED.user_alloy_matrix[tonumber(self.recruitment_data[tonumber(self.heroIndex)].random)]
 		if metal then
 			local cell = ResourcesIconCell:createCell()
@@ -226,6 +226,11 @@ function TreasureChestOfferSuccessTen:openNewShowAction()
 				metal.metalMould, nil, nil, false, true, 1)
 			heroImage:addChild(cell)
 		end
+	elseif tonumber(self.recruitment_data[tonumber(self.heroIndex)].m_type) == 67 then
+		-- Essencia da recompensa individual do Shop, conforme o fluxo original.
+		local cell = ResourcesIconCell:createCell()
+		cell:init(67, tonumber(self.recruitment_data[tonumber(self.heroIndex)].number), -1, nil, nil, false, true, 1)
+		heroImage:addChild(cell)
 	end
 
 	local action = csb.createTimeline("shop/recruit_settlement_animation.csb")
@@ -290,6 +295,10 @@ function TreasureChestOfferSuccessTen:openNewShowAction()
 					local quality = dms.int(dms["ship_metal_mould"], metal.metalMould, ship_metal_mould.quality) + 1
 					name:setColor(cc.c3b(tipStringInfo_quality_color_Type[quality][1],tipStringInfo_quality_color_Type[quality][2],tipStringInfo_quality_color_Type[quality][3]))
 				end
+			elseif tonumber(self.recruitment_data[tonumber(self.heroIndex)].m_type) == 67 then
+				local quality = 4
+				name:setString(_All_tip_string_info._matrix_essence)
+				name:setColor(cc.c3b(tipStringInfo_quality_color_Type[quality][1],tipStringInfo_quality_color_Type[quality][2],tipStringInfo_quality_color_Type[quality][3]))
 			else
 				--self:openNewShowActionSpecial()
 			end
@@ -329,6 +338,25 @@ function TreasureChestOfferSuccessTen:openNewShowAction()
 					name:setString(word[3])
 					local quality = dms.int(dms["ship_metal_mould"], metal.metalMould, ship_metal_mould.quality) + 1
 					name:setColor(cc.c3b(tipStringInfo_quality_color_Type[quality][1],tipStringInfo_quality_color_Type[quality][2],tipStringInfo_quality_color_Type[quality][3]))
+				end
+			elseif tonumber(self.recruitment_data[tonumber(self.heroIndex)].m_type) == 67 then
+				local quality = 4
+				name:setString(_All_tip_string_info._matrix_essence)
+				name:setColor(cc.c3b(tipStringInfo_quality_color_Type[quality][1],tipStringInfo_quality_color_Type[quality][2],tipStringInfo_quality_color_Type[quality][3]))
+			end
+			if self.number == 1 then
+				-- Uma recompensa: centralize o item e seu nome e esconda os nove slots vazios.
+				local icon = ccui.Helper:seekWidgetByName(root, "Panel_head_icon_1")
+				local size = root:getContentSize()
+				local centerX = size.width * 0.5
+				local centerY = size.height * 0.5
+				icon:setPosition(cc.p(centerX, centerY))
+				name:setPosition(cc.p(centerX, centerY - icon:getContentSize().height * 0.5 - name:getContentSize().height * 0.5 - 8))
+				for i = 2, 10 do
+					local otherIcon = ccui.Helper:seekWidgetByName(root, "Panel_head_icon_"..i)
+					local otherName = ccui.Helper:seekWidgetByName(root, "Text_hero_name_"..i)
+					if otherIcon then otherIcon:setVisible(false) end
+					if otherName then otherName:setVisible(false) end
 				end
 			end
 			ccui.Helper:seekWidgetByName(root,"Panel_15"):setVisible(true)
@@ -394,7 +422,7 @@ function TreasureChestOfferSuccessTen:ShowUI()
 	local lists_two = {}
 	RandFetch(lists_two,#lists,#lists,lists)
 	self.recruitment_data = lists_two
-	-- Keep normal 10x/50x behavior, but let the Mudra 1x caller display its one result.
+	-- Keep normal 10x/50x behavior, but let the Shop 1x caller display its result count.
 	if self.number == 1 then
 		self.number = #self.recruitment_data
 	end

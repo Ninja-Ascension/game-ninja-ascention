@@ -1,4 +1,0 @@
-scene=true
-LoginClass visible=true children=1
-AccountSysFloatingWindowClass visible=false children=1
-AccountSysManagerClass visible=true children=1

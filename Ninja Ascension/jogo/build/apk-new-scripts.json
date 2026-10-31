@@ -1,7 +1,0 @@
-[
-  "01_conteudo_apk/assets/src/client/l_digital/activity/event_banner/FuryEventBanner.lua",
-  "01_conteudo_apk/assets/src/client/l_digital/activity/server_recharge_rank/FuryServerRechargeRank.lua",
-  "01_conteudo_apk/assets/src/client/l_digital/campaign/furytower/FuryModePass.lua",
-  "01_conteudo_apk/assets/src/client/l_digital/system/FuryProgressRank.lua",
-  "01_conteudo_apk/assets/src/client/utils/FuryHelpPopup.lua"
-]
