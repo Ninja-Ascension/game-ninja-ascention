@@ -1407,8 +1407,7 @@ SEM_OPERACAO = {
     # Keep-alive do NetworkManager (registerKeepAlive): o servidor oficial
     # responde vazio e o cliente só conta a batida.
     "keep_alive",
-    # Telas de e-mail/união não implementadas: o acervo tolera contador 0.
-    "email_init",
+    # union_init ainda não tem estado de jogo além do resumo neutro.
     "union_init",
     # education_change is persisted by tutorial_campaign; it is not a no-op.
     # Lista de servidores: implementado (parser 58) — declarado para leitura.
@@ -1532,6 +1531,8 @@ _formacao_pesadelo.install(sys.modules[__name__])
 # e Home.lua:2136 quebrava ao abrir a Home (crash em laço após o recrutamento).
 import energia as _energia
 _energia.install(sys.modules[__name__])
+import mail_local as _mail_local
+_mail_local.install(sys.modules[__name__])
 import friends_local as _friends_local
 _friends_local.install(sys.modules[__name__])
 import profile_local as _profile_local

@@ -5459,7 +5459,6 @@ end
 
 function Home:updateTargetTaskState( ... )
     local root = self.roots[1]
-
     local Panel_2 = ccui.Helper:seekWidgetByName(root, "Panel_2")
     if Panel_2 == nil then
         Panel_2 = ccui.Helper:seekWidgetByName(root, "Panel_2_xr1")
@@ -5519,6 +5518,8 @@ function Home:updateTargetTaskState( ... )
             Panel_2:setVisible(false)
         end
     end
+    -- NinjaAscension: keep the achievement data current but hide its home banner.
+    if Panel_2 ~= nil then Panel_2:setVisible(false) end
 end
 
 function Home:playHeroEffect()
@@ -6840,6 +6841,12 @@ function Home:onEnterTransitionFinish()
         end
     end
     self.Panel_hd_tuisong = ccui.Helper:seekWidgetByName(root, "Panel_hd_tuisong")
+    local homePlatform = cc.Application:getInstance():getTargetPlatform()
+    local isMobileHome = homePlatform == cc.PLATFORM_OS_ANDROID or homePlatform == cc.PLATFORM_OS_IPHONE or homePlatform == cc.PLATFORM_OS_IPAD
+    if self.Panel_hd_tuisong and not isMobileHome then
+        self.Panel_hd_tuisong:setVisible(false)
+        self.Panel_hd_tuisong:setTouchEnabled(false)
+    end
     -- iphone刘海适配
     if (__lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2) and isIphoneX() then 
         if self.Panel_hd_tuisong then 
@@ -6938,15 +6945,7 @@ function Home:onEnterTransitionFinish()
             nil, 0)
         end
 
-        local Button_1 = ccui.Helper:seekWidgetByName(root, "Button_1")
-        if Button_1 ~= nil then
-            fwin:addTouchEventListener(Button_1,   nil, 
-            {
-                terminal_name = "target_task_window_open",    
-                terminal_state = 0, 
-            }, 
-            nil, 0)
-        end
+        -- Main Instance Challenge was removed from the home screen.
 
         if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
         else
@@ -7079,6 +7078,14 @@ function Home:modelOpenPush()
 end
 
 function Home:updateHomeAcivityPushUIInfo( currId, isAllShow )
+    local platform = cc.Application:getInstance():getTargetPlatform()
+    local isMobile = platform == cc.PLATFORM_OS_ANDROID or platform == cc.PLATFORM_OS_IPHONE or platform == cc.PLATFORM_OS_IPAD
+    if not isMobile then
+        local root = self.roots and self.roots[1]
+        local banner = root and ccui.Helper:seekWidgetByName(root, "Panel_hd_tuisong")
+        if banner then banner:setVisible(false);banner:setTouchEnabled(false) end
+        return
+    end
     local isOpend = false
     for k,v in pairs(_ED.home_activity_push_info) do
         if v ~= nil and v.isHaveOpen == true then

@@ -130,7 +130,14 @@ with tempfile.TemporaryDirectory(prefix="legacy-recruit-", dir=root / "build") a
         hundred = request("ship_batch_bounty", 4, 100, "ryo-hundred")
         assert " 28 1800000 " in f" {hundred} ", hundred
         assert " 166 100 " in f" {hundred} ", hundred
-        assert all(pair == (-1, 0) for pair in parser_166(hundred))
+        # Group 4 uses the mixed ninja acquired above. Its repeated copies
+        # become fragments but retain bounty 4 for the duplicate presentation.
+        # Ordinary item draws must still have bounty 0.
+        hundred_pairs=parser_166(hundred)
+        assert all(pair in ((-1,0),(-1,4)) for pair in hundred_pairs),hundred_pairs
+        group_list=recruit.data.tabela('partner_bounty_param.txt')['12'][10]
+        configured_groups=[value for group in group_list.split('|') for value in group.split(',')][:100]
+        assert hundred_pairs.count((-1,4))==configured_groups.count('4')
         assert request("ship_batch_bounty", 4, 100, "ryo-hundred") == hundred
         assert balance("SELECT silver FROM local_campaign WHERE conta_id=?", "silver") == 2990250
         assert balance("SELECT gold FROM local_resources WHERE conta_id=?", "gold") == 97240
@@ -161,7 +168,7 @@ with tempfile.TemporaryDirectory(prefix="legacy-recruit-", dir=root / "build") a
             )
         choices[3] = (303, [6, 68, 7])
         gold_duplicate = request("ship_bounty", 2, 1, "gold-single-duplicate")
-        assert parser_166(gold_duplicate) == [(-1, 0)], gold_duplicate
+        assert parser_166(gold_duplicate) == [(-1, 310)], gold_duplicate
         assert " 32 " in f" {gold_duplicate} ", gold_duplicate
         assert request("ship_bounty", 2, 1, "gold-single-duplicate") == gold_duplicate
         fragment_after = db._conn.execute(

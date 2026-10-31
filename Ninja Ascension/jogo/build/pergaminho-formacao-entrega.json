@@ -1,0 +1,14 @@
+{
+  "published": [
+    "port/lua/formation_lifetime.lua",
+    "port/lua/menu_boot_probe.lua",
+    "port/lua/recruit_results.lua",
+    "01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitGeneralView.lua",
+    "01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitListView.lua"
+  ],
+  "server_pid": 7820,
+  "ticket_tests": "passed",
+  "formation_reopen_native": "passed",
+  "protected_profiles": "verified",
+  "apk_manual": "not tested"
+}

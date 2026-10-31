@@ -841,6 +841,10 @@ function HeroRecruitListView:onUpdateDrawOne(dt)
 	local pMouID = zstring.split(RecruitStr,",")	
 	local propRecruitCount = getPropAllCountByMouldId(pMouID[13])--战将招募令数量
 	local propSpiritCount = getPropAllCountByMouldId(pMouID[14])--神将招募令数量
+    if __lua_project_id == __lua_project_l_naruto then
+        local ticket=dms.string(dms.shop_config,4,shop_config.param)
+        propSpiritCount=getPropAllCountByMouldId(ticket)
+    end
 	local TextRecruit 		= ccui.Helper:seekWidgetByName(self.roots[1], "Text_1_1")--战将招募令
 	if TextRecruit ~= nil then
         TextRecruit:setString(propRecruitCount)

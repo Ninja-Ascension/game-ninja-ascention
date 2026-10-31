@@ -1,8 +1,0 @@
-[HOST_SERVER][22:03:50] AID_TEAM conta=1 cmd=soul_gruad_un_lock slot=1
-[HOST_SERVER][22:03:50] cmd=soul_gruad_un_lock seq=7 -> status=0 (215 chars)
-[HOST_SERVER][22:03:50] AID_TEAM conta=1 cmd=soul_gruad_use_ship_mould slot=1
-[HOST_SERVER][22:03:50] cmd=soul_gruad_use_ship_mould seq=7 -> status=0 (221 chars)
-[HOST_SERVER][22:03:50] AID_TEAM conta=1 cmd=soul_gruad_level_up slot=1
-[HOST_SERVER][22:03:50] cmd=soul_gruad_level_up seq=7 -> status=0 (231 chars)
-AID_TEAM_PASSED original unlock conditions, equip, Ryo/item upgrade, stats and temporary SQLite integrity
-

@@ -242,6 +242,7 @@ def _execute(server, command, seq, text, fallback):
             state = _state(db, account)
             now_ms = __import__("time").time_ns() // 1000000
             use_free = False
+            ticket_cost = 0
             free_group_index = 0
             if command == "ship_bounty" and fields[1] == "1" and state[1] > 0 and now_ms >= state[2]:
                 use_free = True
@@ -261,6 +262,17 @@ def _execute(server, command, seq, text, fallback):
             if use_free:
                 silver_cost = 0
                 gold_cost = 0
+            elif fields[1] == '2':
+                # shop_config 4 is the original premium Recruit ticket. The
+                # legacy UI's pirates_config slots are -1 in this Naruto APK.
+                from pathlib import Path
+                configs=Path(data.MOULD).parent/'configs'/'shop_config.txt'
+                ticket=int(next(line.split('\t')[3] for line in configs.read_text(encoding='utf8').splitlines() if line.split('\t')[0]=='4'))
+                owned_ticket=db._conn.execute('SELECT quantity FROM local_inventory WHERE conta_id=? AND mould=?',(account,ticket)).fetchone()
+                if owned_ticket and owned_ticket[0]>=count:
+                    ticket_cost=count
+                    gold_cost=0
+                    db._conn.execute('UPDATE local_inventory SET quantity=quantity-? WHERE conta_id=? AND mould=?',(count,account,ticket))
             if silver < silver_cost:
                 raise ValueError("ryo_insuficiente")
             if gold < gold_cost:
@@ -312,6 +324,11 @@ def _execute(server, command, seq, text, fallback):
             ).fetchone()[0]
 
             tokens = [str(seq), command, "0"]
+            if ticket_cost:
+                # Consumption must update the bag without being added to the
+                # result grid as a gained item (parser 32 would do that).
+                from hero_training_local import inventory_tokens
+                tokens += inventory_tokens(db,account)
             for hero in new_ships:
                 tokens += heroes.one_ship_tokens(db, account, hero)
 

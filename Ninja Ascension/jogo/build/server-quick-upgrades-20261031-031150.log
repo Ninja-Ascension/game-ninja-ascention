@@ -1,0 +1,59 @@
+[HOST_SERVER][03:11:51] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][03:11:51] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][03:12:12] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][03:12:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 45.177.105.186
+[HOST_SERVER][03:12:19] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][03:12:19] login ok conta=ItachiBR2 sessao='epi...(43)' perfil_user_id=14
+[HOST_SERVER][03:12:19] cmd=platform_user_login seq=0 -> status=0 (110 chars)
+[HOST_SERVER][03:12:19] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=48 primeira-linha=1
+[HOST_SERVER][03:12:19] cmd=search_user_platform seq=1 -> status=0 (111 chars)
+[HOST_SERVER][03:12:19] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=80 primeira-linha=2
+[HOST_SERVER][03:12:19] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][03:12:20] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=56 primeira-linha=3
+[HOST_SERVER][03:12:20] vali_register conta=ItachiBR2 sessao='epi...(43)'
+[HOST_SERVER][03:12:20] cmd=vali_register seq=3 -> status=0 (37 chars)
+[HOST_SERVER][03:12:20] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=152 primeira-linha=4
+[HOST_SERVER][03:12:20] login_init: 6 itens no inventario da conta 74
+[HOST_SERVER][03:12:20] login_init: enviando 11 personagem(ns) no login
+[HOST_SERVER][03:12:20] login_init conta=ItachiBR2 user_id=14 sessao='epi...(43)'
+[HOST_SERVER][03:12:21] LOGIN_LAYOUT prefix=90 items=6 separate_characters=11
+[HOST_SERVER][03:12:21] cmd=login_init seq=4 -> status=0 (50029 chars)
+[HOST_SERVER][03:12:21] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=40 primeira-linha=4
+[HOST_SERVER][03:12:21] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][03:12:24] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=560 primeira-linha=4
+[HOST_SERVER][03:12:24] [CRASH DO CLIENTE] 14 | LUA Func | 0 | LUA ERROR | LUA ERROR: boot_map.lua:68: ...on/dados/01_conteudo_apk/assets/src/client/home/Home.lua:5469: unexpected symbol near 'local' | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function <...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:391> | 	[C]: in function 'assert' | 	boot_map.lua:68: in function <boot_map.lua:67> | 	[C]: in function 'require' | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:464: in function 'load' | 	E:/NinjaRevolution/dados/port/lua/session_url.lua:45: in function 'load' | 	E:/
+[HOST_SERVER][03:12:24] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][03:12:24] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=40 primeira-linha=4
+[HOST_SERVER][03:12:24] cmd=ship_purify_init seq=4 -> status=0 (198 chars)
+[HOST_SERVER][03:12:24] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=40 primeira-linha=4
+[HOST_SERVER][03:12:24] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][03:12:25] POST path=/iniServer?s=epiPlE7HV4o6EQumaTP94lgwg__2ZtGXACzEgnxuEWQ bytes=32 primeira-linha=4
+[HOST_SERVER][03:12:25] cmd=union_init seq=4 -> status=0 (47 chars)
+[HOST_SERVER][03:13:02] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][03:13:08] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][03:13:08] login ok conta=ItachiBR2 sessao='uGc...(43)' perfil_user_id=14
+[HOST_SERVER][03:13:08] cmd=platform_user_login seq=0 -> status=0 (110 chars)
+[HOST_SERVER][03:13:08] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=48 primeira-linha=1
+[HOST_SERVER][03:13:08] cmd=search_user_platform seq=1 -> status=0 (111 chars)
+[HOST_SERVER][03:13:08] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=80 primeira-linha=2
+[HOST_SERVER][03:13:08] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][03:13:39] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=56 primeira-linha=3
+[HOST_SERVER][03:13:39] vali_register conta=ItachiBR2 sessao='uGc...(43)'
+[HOST_SERVER][03:13:39] cmd=vali_register seq=3 -> status=0 (37 chars)
+[HOST_SERVER][03:13:39] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=152 primeira-linha=4
+[HOST_SERVER][03:13:39] login_init: 6 itens no inventario da conta 74
+[HOST_SERVER][03:13:39] login_init: enviando 11 personagem(ns) no login
+[HOST_SERVER][03:13:39] login_init conta=ItachiBR2 user_id=14 sessao='uGc...(43)'
+[HOST_SERVER][03:13:39] LOGIN_LAYOUT prefix=90 items=6 separate_characters=11
+[HOST_SERVER][03:13:39] cmd=login_init seq=4 -> status=0 (50029 chars)
+[HOST_SERVER][03:13:39] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=40 primeira-linha=4
+[HOST_SERVER][03:13:39] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][03:13:42] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=560 primeira-linha=4
+[HOST_SERVER][03:13:42] [CRASH DO CLIENTE] 14 | LUA Func | 0 | LUA ERROR | LUA ERROR: boot_map.lua:68: ...on/dados/01_conteudo_apk/assets/src/client/home/Home.lua:5469: unexpected symbol near 'local' | stack traceback: | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:396: in function <...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:391> | 	[C]: in function 'assert' | 	boot_map.lua:68: in function <boot_map.lua:67> | 	[C]: in function 'require' | 	...tion/dados/01_conteudo_apk/assets/src/frameworks/app.lua:464: in function 'load' | 	E:/NinjaRevolution/dados/port/lua/session_url.lua:45: in function 'load' | 	E:/
+[HOST_SERVER][03:13:42] cmd=record_crash seq=4 -> status=0 (16 chars)
+[HOST_SERVER][03:13:42] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=40 primeira-linha=4
+[HOST_SERVER][03:13:42] cmd=ship_purify_init seq=4 -> status=0 (198 chars)
+[HOST_SERVER][03:13:43] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=40 primeira-linha=4
+[HOST_SERVER][03:13:43] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][03:13:43] POST path=/iniServer?s=uGcOCM_NJMiPUfZbD7gu5mMGbXDAMp44Tg2d3Ro2Vos bytes=32 primeira-linha=4
+[HOST_SERVER][03:13:43] cmd=union_init seq=4 -> status=0 (47 chars)

@@ -78,9 +78,16 @@ def hour_seconds(value):
     h,m,s=map(int,value.split(':'));return h*3600+m*60+s
 
 def cycle():
+    # The client builds these slots from its synchronized local game clock
+    # and shifts 00:00-05:00 into the previous daily cycle. Match that exact
+    # 05:00 cutoff in the server's configured local timezone. The old code
+    # subtracted five hours in UTC but compared against a midnight UTC origin;
+    # this shifted every slot by the host offset and could reject a visible
+    # claim button (or accept a claim in a different window).
     now=time.time()
-    day=datetime.datetime.fromtimestamp(now-5*3600,datetime.timezone.utc).date()
-    origin=datetime.datetime.combine(day,datetime.time(),tzinfo=datetime.timezone.utc).timestamp()
+    current=datetime.datetime.fromtimestamp(now).astimezone()
+    day=(current-datetime.timedelta(hours=5)).date()
+    origin=datetime.datetime.combine(day,datetime.time(),tzinfo=current.tzinfo).timestamp()
     return day.isoformat(),now-origin,origin
 
 

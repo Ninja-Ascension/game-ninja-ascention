@@ -879,6 +879,35 @@ function SmPropWarehouse:drawPageDataUpdate(prop , _type)
     local ScrollView_1 = ccui.Helper:seekWidgetByName(root, "ScrollView_1")
     local Text_jinengmiaoshu = ccui.Helper:seekWidgetByName(root, "Text_jinengmiaoshu") -- 锦囊天赋展示
 
+    -- Keep the item description in the free space below its name/count and
+    -- above the Use/Sell controls. The stock CSB places this text too high on
+    -- some item panels, where it overlaps the item header.
+    local function boundsInRoot(node)
+        if node == nil then return nil end
+        local size=node:getContentSize()
+        local anchor=node:getAnchorPoint()
+        local left=-anchor.x*size.width
+        local bottom=-anchor.y*size.height
+        local p1=root:convertToNodeSpace(node:convertToWorldSpace(cc.p(left,bottom)))
+        local p2=root:convertToNodeSpace(node:convertToWorldSpace(cc.p(left+size.width,bottom+size.height)))
+        return math.min(p1.y,p2.y),math.max(p1.y,p2.y)
+    end
+    if _type ~= 71 and Text_packs_props_info ~= nil then
+        local nameBottom=boundsInRoot(Text_packs_props_name)
+        local countBottom=boundsInRoot(Text_packs_have_n)
+        local _,useTop=boundsInRoot(ccui.Helper:seekWidgetByName(root,"Button_use"))
+        local _,sellTop=boundsInRoot(ccui.Helper:seekWidgetByName(root,"Button_sell"))
+        if nameBottom and countBottom and useTop and sellTop then
+            local upper=math.min(nameBottom,countBottom)
+            local lower=math.max(useTop,sellTop)
+            if lower < upper then
+                local parent=Text_packs_props_info:getParent()
+                local current=parent:convertToNodeSpace(root:convertToWorldSpace(cc.p(0,(upper+lower)*0.5)))
+                Text_packs_props_info:setPositionY(current.y)
+            end
+        end
+    end
+
     local name = ""
     local quality = 0
     local propNumber = 0

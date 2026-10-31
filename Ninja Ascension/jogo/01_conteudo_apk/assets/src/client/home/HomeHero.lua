@@ -1826,6 +1826,9 @@ function HomeHero:onHeroesDraw()
 					else
 						draw.createEffect("spirte_" .. temp_bust_index, "sprite/spirte_" .. temp_bust_index .. ".ExportJson", self.panelHero[i], -1, nil, nil, cc.p(0.5, 0))
 					end
+                    if shipSpine then
+                        require('home_hero_labels').positionAbove(root,i,shipSpine,28)
+                    end
 
 					-- 彩蛋活动增加气泡显示
 					self:showEasterEggPop(_ship_mould_id,self.panelHero[i])
@@ -2254,6 +2257,19 @@ function HomeHero:onEnterTransitionFinish()
 	local root = csbHomeHero:getChildByName("root")
 	table.insert(self.roots, root)
     self:addChild(csbHomeHero)
+
+    -- Center the home formation more comfortably in the widescreen PC view.
+    local platform = cc.Application:getInstance():getTargetPlatform()
+    local isMobile = platform == cc.PLATFORM_OS_ANDROID or platform == cc.PLATFORM_OS_IPHONE or platform == cc.PLATFORM_OS_IPAD
+    if not isMobile then
+        local shift = 80
+        for i = 1, 6 do
+            for _, prefix in ipairs({"Panel_role_0", "Panel_role_name_", "Panel_zhenwei_dh_"}) do
+                local node = ccui.Helper:seekWidgetByName(root, prefix .. i)
+                if node then node:setPositionX(node:getPositionX() - shift) end
+            end
+        end
+    end
 
     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
     	self:updateBackGroud()

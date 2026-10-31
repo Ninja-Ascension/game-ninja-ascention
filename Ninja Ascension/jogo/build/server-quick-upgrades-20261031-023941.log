@@ -1,0 +1,40 @@
+[HOST_SERVER][02:39:42] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][02:39:42] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][02:39:55] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][02:39:56] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_character_presentation.lua de 45.177.105.186
+[HOST_SERVER][02:40:02] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][02:40:02] login ok conta=ItachiBR2 sessao='Dpb...(43)' perfil_user_id=14
+[HOST_SERVER][02:40:02] cmd=platform_user_login seq=0 -> status=0 (110 chars)
+[HOST_SERVER][02:40:02] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=48 primeira-linha=1
+[HOST_SERVER][02:40:02] cmd=search_user_platform seq=1 -> status=0 (111 chars)
+[HOST_SERVER][02:40:02] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=80 primeira-linha=2
+[HOST_SERVER][02:40:02] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][02:40:04] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=56 primeira-linha=3
+[HOST_SERVER][02:40:04] vali_register conta=ItachiBR2 sessao='Dpb...(43)'
+[HOST_SERVER][02:40:04] cmd=vali_register seq=3 -> status=0 (37 chars)
+[HOST_SERVER][02:40:04] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=152 primeira-linha=4
+[HOST_SERVER][02:40:04] login_init: 5 itens no inventario da conta 74
+[HOST_SERVER][02:40:04] login_init: enviando 6 personagem(ns) no login
+[HOST_SERVER][02:40:04] login_init conta=ItachiBR2 user_id=14 sessao='Dpb...(43)'
+[HOST_SERVER][02:40:04] LOGIN_LAYOUT prefix=90 items=5 separate_characters=6
+[HOST_SERVER][02:40:04] cmd=login_init seq=4 -> status=0 (47158 chars)
+[HOST_SERVER][02:40:04] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=40 primeira-linha=4
+[HOST_SERVER][02:40:04] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][02:40:08] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=40 primeira-linha=4
+[HOST_SERVER][02:40:08] cmd=ship_purify_init seq=4 -> status=0 (198 chars)
+[HOST_SERVER][02:40:08] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=40 primeira-linha=4
+[HOST_SERVER][02:40:08] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][02:40:08] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=32 primeira-linha=4
+[HOST_SERVER][02:40:08] cmd=union_init seq=4 -> status=0 (47 chars)
+[HOST_SERVER][02:40:08] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=40 primeira-linha=4
+[HOST_SERVER][02:40:08] cmd=draw_endurance_init seq=4 -> status=0 (43 chars)
+[HOST_SERVER][02:40:08] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=56 primeira-linha=4
+[HOST_SERVER][02:40:08] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][02:40:14] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=64 primeira-linha=4
+[HOST_SERVER][02:40:14] LEGACY_RECRUIT duplicate_transport_request_id command=ship_bounty
+[HOST_SERVER][02:40:14] LEGACY_RECRUIT command=ship_bounty account=74 draws=1 silver=0 gold=240
+[HOST_SERVER][02:40:14] cmd=ship_bounty seq=4 -> status=0 (134 chars)
+[HOST_SERVER][02:40:21] POST path=/iniServer?s=DpbWic3Z3WORlewE3IUE02R3FLrvGLIPG2yQLGuGZMk bytes=64 primeira-linha=4
+[HOST_SERVER][02:40:21] LEGACY_RECRUIT duplicate_transport_request_id command=ship_bounty
+[HOST_SERVER][02:40:21] LEGACY_RECRUIT command=ship_bounty account=74 draws=1 silver=0 gold=240
+[HOST_SERVER][02:40:21] cmd=ship_bounty seq=4 -> status=0 (627 chars)

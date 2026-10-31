@@ -41,6 +41,11 @@ state_machine.add(daily_task_window_open_terminal)
 state_machine.add(daily_task_window_close_terminal)
 state_machine.init()
 
+local function dailyClockSeconds(value)
+    local parts=zstring.split(value, ":")
+    return (tonumber(parts[1]) or 0)*3600+(tonumber(parts[2]) or 0)*60+(tonumber(parts[3]) or 0)
+end
+
 function DailyTask:ctor()
     self.super:ctor()
     self.roots = {}
@@ -863,15 +868,23 @@ function DailyTask:initDailyTaskPage()
             local energy_info = zstring.split(energyData[i], ",")
             local add_enger_data = zstring.split(add_enger_info[i],",")
             local current = _ED.system_time + (os.time() - _ED.native_time)
-            local earlyMorning1 = tonumber(zstring.split(energy_info[1], ":")[1])*3600
-            local earlyMorning2 = tonumber(zstring.split(energy_info[2], ":")[1])*3600
+            local earlyMorning1 = dailyClockSeconds(energy_info[1])
+            local earlyMorning2 = dailyClockSeconds(energy_info[2])
             local temp = os.date("*t", getBaseGTM8Time(zstring.tonumber(current)))
             local m_hour    = tonumber(string.format("%02d", temp.hour))
             local m_min     = tonumber(string.format("%02d", temp.min))
             local m_sec     = tonumber(string.format("%02d", temp.sec))
             local newTimes = m_hour*3600+m_min*60+m_sec
+            -- Daily rewards reset at 05:00. Before that moment the visible
+            -- claim windows belong to the previous daily cycle, so compare
+            -- their times on the same 24h-shifted axis as ActivityAddEnergy.
+            local resetTime=5*3600
+            if earlyMorning1 <= resetTime then earlyMorning1=earlyMorning1+24*3600 end
+            if earlyMorning2 <= resetTime then earlyMorning2=earlyMorning2+24*3600 end
+            if newTimes <= resetTime then newTimes=newTimes+24*3600 end
             local createUserData = os.date("*t", getBaseGTM8Time(zstring.tonumber(_ED.user_info.create_time)))
             local createUserTimes = zstring.tonumber(string.format("%02d", createUserData.hour))*3600 + tonumber(string.format("%02d", createUserData.min))*60 + tonumber(string.format("%02d", createUserData.sec))
+            if createUserTimes <= resetTime then createUserTimes=createUserTimes+24*3600 end
             if createUserData.year ~= temp.year
                 or createUserData.month ~= temp.month
                 or createUserData.day ~= temp.day

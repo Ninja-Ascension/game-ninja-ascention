@@ -72,6 +72,18 @@ function M.summary(w)
         end
         ccui.Helper:seekWidgetByName(w.roots[1],'Label_36610'):setString(tostring(cost))
     end
+    if w.mIndex==2 then
+        local ticket=tonumber(dms.string(dms.shop_config,4,shop_config.param))
+        local available=tonumber(getPropAllCountByMouldId(ticket)) or 0
+        local free=_ED.free_info and _ED.free_info[2]
+        local useFree=w.__recruit_count==1 and free and (tonumber(free.surplus_free_number) or 0)>0
+        local currency=ccui.Helper:seekWidgetByName(w.roots[1],'Panel_consume_icon')
+        if not useFree and available>=w.__recruit_count then
+            ccui.Helper:seekWidgetByName(w.roots[1],'Label_36610'):setString(tostring(w.__recruit_count))
+            local pic=dms.int(dms.prop_mould,ticket,prop_mould.pic_index)
+            if currency then currency:setBackGroundImage(string.format('images/ui/props/props_%d.png',pic)) end
+        elseif currency then currency:setBackGroundImage('images/ui/icon/zuanshi.png') end
+    end
     log(w,'summary',#w.__recruit_rewards)
 end
 function M.revealGrid(w)

@@ -1,8 +1,0 @@
-
-Traceback (most recent call last):
-  File "C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\tools\test_daily_quest_date.py", line 3, in <module>
-    import test_mobile_bootstrap as vm
-  File "C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\tools\test_mobile_bootstrap.py", line 57, in <module>
-    if status:raise AssertionError(lua.lua_tolstring(state,-1,None).decode('utf8','replace'))
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AssertionError: [string "..."]:2: cannot open C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/01_conteudo_apk/assets/src/cocos/cocos2d/json.lua: No such file or directory

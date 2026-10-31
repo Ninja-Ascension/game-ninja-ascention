@@ -1,0 +1,11 @@
+[HOST_SERVER][02:41:27] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][02:41:27] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][02:41:42] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][02:41:43] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_character_presentation.lua de 45.177.105.186
+[HOST_SERVER][02:41:48] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][02:41:48] login ok conta=ItachiBR2 sessao='Pv6...(43)' perfil_user_id=14
+[HOST_SERVER][02:41:48] cmd=platform_user_login seq=0 -> status=0 (110 chars)
+[HOST_SERVER][02:41:48] POST path=/iniServer?s=Pv6ZsRRO-JOQEPVda5_78guhAdyzGp_jqSOCzPgyPbI bytes=48 primeira-linha=1
+[HOST_SERVER][02:41:48] cmd=search_user_platform seq=1 -> status=0 (111 chars)
+[HOST_SERVER][02:41:48] POST path=/iniServer?s=Pv6ZsRRO-JOQEPVda5_78guhAdyzGp_jqSOCzPgyPbI bytes=80 primeira-linha=2
+[HOST_SERVER][02:41:48] cmd=new_get_server_list seq=2 -> status=0 (86 chars)

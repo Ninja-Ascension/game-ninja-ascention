@@ -332,7 +332,7 @@ function HeroRecruitGeneralView:ctor()
 						end
 					end
 					
-					if self.HeronumberGod >= 9 or tonumber(_ED.user_info.user_gold) >= price.ten then
+					if self.HeronumberGod >= (__lua_project_id == __lua_project_l_naruto and 10 or 9) or tonumber(_ED.user_info.user_gold) >= price.ten then
 						if (__lua_project_id == __lua_project_warship_girl_a 
 							or __lua_project_id == __lua_project_warship_girl_b 
 							or __lua_project_id == __lua_project_digimon_adventure 
@@ -340,7 +340,7 @@ function HeroRecruitGeneralView:ctor()
 							or __lua_project_id == __lua_project_rouge 
 							or __lua_project_id == __lua_project_yugioh) 
 							and ___is_open_diamond_confirm == true 
-							and self.HeronumberGod <= 8 
+							and self.HeronumberGod < (__lua_project_id == __lua_project_l_naruto and 10 or 9) 
 							and params.status == nil 
 							then
 							app.load("client.utils.UseDiamondConfirmTip")
@@ -417,6 +417,10 @@ function HeroRecruitGeneralView:onUpdateDraw()
 	local pMouID = zstring.split(RecruitStr,",")	
 	local propRecruitCount = getPropAllCountByMouldId(pMouID[13])--战将招募令数量
 	local propSpiritCount = getPropAllCountByMouldId(pMouID[14])--神将招募令数量
+    if __lua_project_id == __lua_project_l_naruto then
+        local ticket=dms.string(dms.shop_config,4,shop_config.param)
+        propSpiritCount=getPropAllCountByMouldId(ticket)
+    end
 	self.Heronumber = tonumber(propRecruitCount)
 	self.HeronumberGod = tonumber(propSpiritCount)
 	local Text_8_1 = ccui.Helper:seekWidgetByName(root, "Text_8_1")

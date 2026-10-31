@@ -21,9 +21,16 @@ function M.apply(root,index,ship)
     if actor then
         local size=actor:getContentSize()
         local point=caption:getParent():convertToNodeSpace(actor:convertToWorldSpace(cc.p(size.width/2,0)))
-        local width=root:getContentSize().width
-        if width<=0 then width=960 end
-        caption:setPositionX(math.max(86,math.min(width-86,point.x)))
+        local platform=cc.Application:getInstance():getTargetPlatform()
+        local isMobile=platform==cc.PLATFORM_OS_ANDROID or platform==cc.PLATFORM_OS_IPHONE or platform==cc.PLATFORM_OS_IPAD
+        if isMobile then
+            local width=root:getContentSize().width
+            if width<=0 then width=960 end
+            caption:setPositionX(math.max(86,math.min(width-86,point.x)))
+        else
+            -- On PC keep the caption centered over its own slot, including slot 6.
+            caption:setPositionX(point.x)
+        end
     end
     local currentY=caption:getPositionY()
     if currentY~=caption.__nrCaptionY then caption.__nrBaseY=currentY end
@@ -67,6 +74,28 @@ function M.apply(root,index,ship)
         -- Keep the game's original sprites, size and spacing.
         neWshowShipStar(stars,tonumber(ship.StarRating) or 0)
     end
+end
+function M.positionAbove(root,index,spine,gap)
+    if not root or not spine then return false end
+    local platform=cc.Application:getInstance():getTargetPlatform()
+    if platform==cc.PLATFORM_OS_ANDROID or platform==cc.PLATFORM_OS_IPHONE or platform==cc.PLATFORM_OS_IPAD then return false end
+    local text=ccui.Helper:seekWidgetByName(root,'Text_name_'..index)
+    local stars=ccui.Helper:seekWidgetByName(root,'Panel_star_'..index)
+    if not text or not stars or not spine.getBoundingBox then return false end
+    local ok,bounds=pcall(function() return spine:getBoundingBox() end)
+    if not ok or not bounds or bounds.height<=0 then return false end
+    local parent=spine:getParent()
+    if not parent then return false end
+    local topWorld=parent:convertToWorldSpace(cc.p(bounds.x+bounds.width*.5,bounds.y+bounds.height))
+    local textParent=text:getParent()
+    local starParent=stars:getParent()
+    if not textParent or not starParent then return false end
+    local topText=textParent:convertToNodeSpace(topWorld)
+    local topStars=starParent:convertToNodeSpace(topWorld)
+    local spacing=gap or 14
+    text:setPositionX(topText.x);text:setPositionY(topText.y+spacing+28)
+    stars:setPositionX(topStars.x);stars:setPositionY(topStars.y+spacing)
+    return true
 end
 function M.safeApply(...)
     local ok,err=pcall(M.apply,...)

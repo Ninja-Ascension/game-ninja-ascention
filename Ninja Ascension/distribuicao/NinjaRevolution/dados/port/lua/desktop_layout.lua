@@ -1,4 +1,5 @@
--- Original 960x640 geometry on PC and Android; retain translation and controls.
+-- Keep the original 960x640 logical UI filling the PC window.
+-- Android retains its native viewport and scaling.
 local M={entries={},proportional={},cardOffsets={}}
 local bottom={Button_wujiang='Ninjas',Button_warehouse='Mochila',Button_zhaomu='Recrutar',Button_shop_0='Loja',Button_dailytasks='Tarefas',Button_yangcheng='Academia',Button_lilian_0='Desafios',Button_duplicate='Aventura',Button_jjc='Lutar'}
 local right={Button_sign='Presença',Button_friends='Amigos',Button_mingren='Classificação',Button_legion='Clã'}
@@ -46,15 +47,11 @@ local function arrow(node,name,title,callback)
     local button=ccui.Button:create()
     button:setName(name);button:ignoreContentAdaptWithSize(false)
     button:setContentSize(cc.size(34,44))
-    local disk=cc.DrawNode:create()
-    disk:drawSolidCircle(cc.p(17,22),16,0,32,cc.c4f(0,0,0,.28));button:addChild(disk)
-    local chevron=cc.Node:create();chevron:setPosition(cc.p(17,22));button:addChild(chevron)
-    local shadow=cc.DrawNode:create();local ink=cc.DrawNode:create()
-    shadow:drawSegment(cc.p(6,11),cc.p(-4,1),3,cc.c4f(0,0,0,.9))
-    shadow:drawSegment(cc.p(-4,1),cc.p(6,-9),3,cc.c4f(0,0,0,.9))
-    ink:drawSegment(cc.p(5,10),cc.p(-5,0),2,cc.c4f(1,1,1,1))
-    ink:drawSegment(cc.p(-5,0),cc.p(5,-10),2,cc.c4f(1,1,1,1))
-    chevron:addChild(shadow);chevron:addChild(ink);button._desktopChevron=chevron
+    local chevron=cc.Sprite:create('images/ui/button/bar_arrow_pj.png')
+    if chevron then
+        chevron:setPosition(cc.p(17,22));chevron:setScale(.72)
+        button:addChild(chevron);button._desktopChevron=chevron
+    end
     button:addClickEventListener(callback);node:addChild(button,9999)
     return button
 end
@@ -67,14 +64,14 @@ function M.apply(node,entry,width)
             n:setVisible(shown);n:setTouchEnabled(shown)
             if item.order==1 and entry.bottomArrow then
                 entry.bottomArrow:setPosition(cc.p(18,item.cy))
-                entry.bottomArrow._desktopChevron:setRotation(entry.bottomCollapsed and 180 or 0)
+                entry.bottomArrow._desktopChevron:setRotation(270)
             end
         elseif valid(n) and item.kind=='right' then
             local shown=not entry.rightCollapsed or item.name=='Button_sign'
             n:setVisible(shown);n:setTouchEnabled(shown)
             if item.name=='Button_sign' and entry.rightArrow then
-                entry.rightArrow:setPosition(cc.p(item.cx,item.cy+54))
-                entry.rightArrow._desktopChevron:setRotation(entry.rightCollapsed and 270 or 90)
+                entry.rightArrow:setPosition(cc.p(item.cx,item.cy+70))
+                entry.rightArrow._desktopChevron:setRotation(0)
             end
         end
     end
@@ -112,6 +109,30 @@ function M.track(node,path)
             end
         end)
     end
+    if not M.mobile then
+        local scaledResourceGroups={}
+        for _,item in ipairs(entry.items) do
+            if item.kind=='bottom' and item.order and item.order<=7 then
+                item.node:setScaleX(item.sx*.88);item.node:setScaleY(item.sy*.88)
+                item.node:setPositionX(item.x+18)
+            elseif item.kind=='right' then
+                item.node:setScaleX(item.sx*.88);item.node:setScaleY(item.sy*.88)
+                item.node:setPositionY(item.py+18)
+            elseif item.kind=='message' then
+                item.node:setScaleX(item.sx*.97);item.node:setScaleY(item.sy*.97)
+                item.node:setPositionY(item.py-8)
+            elseif item.kind=='resources' then
+                local group=item.node:getParent()
+                if group and not scaledResourceGroups[group] then
+                    scaledResourceGroups[group]=true
+                    group:setScaleX(group:getScaleX()*.9)
+                    group:setScaleY(group:getScaleY()*.9)
+                    group:setPositionX(group:getPositionX()+40)
+                    group:setPositionY(group:getPositionY()+50)
+                end
+            end
+        end
+    end
     M.entries[node]=entry
     if path=='home/home_button.csb' then
         entry.bottomArrow=arrow(node,'__desktop_bottom_arrow','<',function() M.toggle(node,'bottom') end)
@@ -128,7 +149,7 @@ function M.install()
     local platform=cc.Application:getInstance():getTargetPlatform()
     M.mobile=platform==cc.PLATFORM_OS_ANDROID or platform==cc.PLATFORM_OS_IPHONE or platform==cc.PLATFORM_OS_IPAD
     if not M.mobile then
-        cc.Director:getInstance():getOpenGLView():setDesignResolutionSize(960,640,cc.ResolutionPolicy.SHOW_ALL)
+        cc.Director:getInstance():getOpenGLView():setDesignResolutionSize(960,640,cc.ResolutionPolicy.EXACT_FIT)
     end
     for _,class in ipairs({ccui.Text,ccui.Button,cc.Label}) do
         local method=class==ccui.Button and 'setTitleText' or 'setString'

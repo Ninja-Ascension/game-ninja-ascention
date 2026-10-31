@@ -1,0 +1,34 @@
+[HOST_SERVER][03:07:34] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][03:07:34] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][03:08:58] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][03:08:59] ATUALIZACAO GET /atualizacao/arquivos/port/lua/desktop_layout.lua de 45.177.105.186
+[HOST_SERVER][03:09:04] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][03:09:04] login ok conta=ItachiBR2 sessao='cZS...(43)' perfil_user_id=14
+[HOST_SERVER][03:09:04] cmd=platform_user_login seq=0 -> status=0 (110 chars)
+[HOST_SERVER][03:09:05] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=48 primeira-linha=1
+[HOST_SERVER][03:09:05] cmd=search_user_platform seq=1 -> status=0 (111 chars)
+[HOST_SERVER][03:09:05] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=80 primeira-linha=2
+[HOST_SERVER][03:09:05] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][03:09:06] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=56 primeira-linha=3
+[HOST_SERVER][03:09:06] vali_register conta=ItachiBR2 sessao='cZS...(43)'
+[HOST_SERVER][03:09:06] cmd=vali_register seq=3 -> status=0 (37 chars)
+[HOST_SERVER][03:09:06] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=152 primeira-linha=4
+[HOST_SERVER][03:09:06] login_init: 6 itens no inventario da conta 74
+[HOST_SERVER][03:09:06] login_init: enviando 11 personagem(ns) no login
+[HOST_SERVER][03:09:06] login_init conta=ItachiBR2 user_id=14 sessao='cZS...(43)'
+[HOST_SERVER][03:09:06] LOGIN_LAYOUT prefix=90 items=6 separate_characters=11
+[HOST_SERVER][03:09:06] cmd=login_init seq=4 -> status=0 (50029 chars)
+[HOST_SERVER][03:09:07] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=40 primeira-linha=4
+[HOST_SERVER][03:09:07] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][03:09:10] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=40 primeira-linha=4
+[HOST_SERVER][03:09:10] cmd=ship_purify_init seq=4 -> status=0 (198 chars)
+[HOST_SERVER][03:09:10] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=40 primeira-linha=4
+[HOST_SERVER][03:09:10] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][03:09:11] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=32 primeira-linha=4
+[HOST_SERVER][03:09:11] cmd=union_init seq=4 -> status=0 (47 chars)
+[HOST_SERVER][03:09:11] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=40 primeira-linha=4
+[HOST_SERVER][03:09:11] cmd=draw_endurance_init seq=4 -> status=0 (43 chars)
+[HOST_SERVER][03:09:11] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=56 primeira-linha=4
+[HOST_SERVER][03:09:11] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][03:11:10] POST path=/iniServer?s=cZSrhq-bEYWqwn_MFZhTnZw8rrCWwKTgVlBH_6-TEMs bytes=32 primeira-linha=4
+[HOST_SERVER][03:11:10] cmd=keep_alive seq=4 -> status=0 (14 chars)

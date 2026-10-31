@@ -2328,3 +2328,19 @@
 [HOST_SERVER][00:15:41] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
 [HOST_SERVER][00:15:41] POST path=/iniServer bytes=64 primeira-linha=499
 [HOST_SERVER][00:15:41] cmd=new_get_server_list seq=499 -> status=0 (82 chars)
+[HOST_SERVER][00:16:33] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][00:16:33] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][00:16:33] POST path=/iniServer bytes=64 primeira-linha=499
+[HOST_SERVER][00:16:33] cmd=new_get_server_list seq=499 -> status=0 (82 chars)
+[HOST_SERVER][00:19:23] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][00:19:23] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][00:19:23] POST path=/iniServer bytes=64 primeira-linha=499
+[HOST_SERVER][00:19:23] cmd=new_get_server_list seq=499 -> status=0 (82 chars)
+[HOST_SERVER][00:21:12] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][00:21:12] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][00:21:12] POST path=/iniServer bytes=64 primeira-linha=499
+[HOST_SERVER][00:21:12] cmd=new_get_server_list seq=499 -> status=0 (82 chars)
+[HOST_SERVER][00:22:17] POST path=/iniServer bytes=72 primeira-linha=0
+[HOST_SERVER][00:22:17] cmd=new_get_server_list seq=0 -> status=0 (80 chars)
+[HOST_SERVER][00:22:17] POST path=/iniServer bytes=64 primeira-linha=499
+[HOST_SERVER][00:22:17] cmd=new_get_server_list seq=499 -> status=0 (82 chars)

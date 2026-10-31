@@ -49,14 +49,24 @@ function M.show(window,reward,done)
         local node=csb.createNode('shop/recruit_settlement_shici_1.csb')
         layer:addChild(node)
         local root=node:getChildByName('root')
+        -- The original CSB ships with Naruto placeholder text and six stars.
+        -- Name/quality/stars are rendered above by this presentation; keep only
+        -- the role and skill widgets from the template, populated below.
+        for _,key in ipairs({'Text_1*11','Text_2','Panel_quality_hero',
+                'Image_2_1','Image_2_2','Image_2_3','Image_2_4','Image_2_5','Image_2_6'}) do
+            local placeholder=widget(root,key)
+            if placeholder then placeholder:setVisible(false) end
+        end
         local tip=widget(root,'Text_tip');if tip then tip:setString('') end
         local panel=widget(root,'Panel_lwj_2')
         if panel then panel:setVisible(true);panel:setPosition(cc.p(0,0)) end
+        local skillPanel=widget(root,'Panel_3_0')
+        if skillPanel then skillPanel:setVisible(false) end
         local title=cc.Sprite:create(string.format('images/ui/quality/hero_name_quality_%d.png',dms.int(dms.ship_mould,mould,ship_mould.ship_type)))
-        if title then title:setPosition(cc.p(size.width*.48,size.height*.88));layer:addChild(title) end
-        label(layer,name,30,size.width*.48,size.height*.88)
+        if title then title:setPosition(cc.p(size.width*.22,size.height*.84));layer:addChild(title) end
+        label(layer,name,30,size.width*.22,size.height*.84)
         local starPanel=ccui.Layout:create();starPanel:setContentSize(cc.size(180,32))
-        starPanel:setPosition(cc.p(size.width*.48-90,size.height*.79));layer:addChild(starPanel)
+        starPanel:setPosition(cc.p(size.width*.26-90,size.height*.75));layer:addChild(starPanel)
         neWshowShipStarTwo(starPanel,stars)
         local position=dms.int(dms.ship_evo_mould,evo,ship_evo_mould.position_index)
         widget(root,'Text_dingwei_m'):setString(dms.string(dms.word_mould,position,3))
@@ -66,16 +76,25 @@ function M.show(window,reward,done)
         local picture=dms.int(dms.talent_mould,talent,talent_mould.new_skill_pic)
         local icon=cc.Sprite:create(string.format('images/ui/skills/skills_%d.png',picture))
         if icon then icon:setPosition(cc.p(iconPanel:getContentSize().width/2,iconPanel:getContentSize().height/2));iconPanel:addChild(icon) end
-        widget(root,'Text_skill_name'):setString(skillDescriptionReplaceData(talent,mould,1,1,false))
+        local skillName=widget(root,'Text_skill_name')
+        skillName:setString(skillDescriptionReplaceData(talent,mould,1,1,false))
+        skillName:setPositionY(skillName:getPositionY()-size.height*.055)
+        local skillIcon=widget(root,'Panel_skill_icon')
+        local skillWidth=skillPanel and skillPanel:getContentSize().width or size.width*.45
+        skillIcon:setPositionX(skillIcon:getPositionX()+size.width*.53)
+        skillName:setPositionX(skillName:getPositionX()+size.width*.53)
+        skillIcon:setPositionY(skillIcon:getPositionY()-size.height*.055)
         local description=widget(root,'Text_skill_infor')
         description:setString(skillDescriptionReplaceData(talent,mould,1,2,false))
         local scroll=widget(root,'ScrollView_1')
         if scroll then
+            scroll:setPositionX(scroll:getPositionX()+size.width*.53)
             local area=scroll:getContentSize()
             description:setTextAreaSize(cc.size(area.width,0))
             local height=math.max(area.height,description:getContentSize().height)
             scroll:setInnerContainerSize(cc.size(area.width,height))
             description:setAnchorPoint(cc.p(0,1));description:setPosition(cc.p(0,height));scroll:jumpToTop()
+            scroll:setPositionY(scroll:getPositionY()-size.height*.055)
         end
         app.load('client.battle.fight.FightEnum')
         local form=dms.int(dms.ship_evo_mould,evo,ship_evo_mould.form_id)
@@ -85,7 +104,7 @@ function M.show(window,reward,done)
         local bounds=hero:getBoundingBox()
         local scale=math.min(1,size.width*.4/math.max(1,bounds.width),size.height*.57/math.max(1,bounds.height))
         hero:setScale(scale);hero:setScaleX(-scale)
-        hero:setPosition(cc.p(size.width*.35,size.height*.20))
+        hero:setPosition(cc.p(size.width*.50,size.height*.22))
         -- Original detail confirmation replaces the temporary Continue overlay.
         local accept=widget(root,'Button_ok')
         accept:setVisible(true);accept:setEnabled(true);accept:setTouchEnabled(true)

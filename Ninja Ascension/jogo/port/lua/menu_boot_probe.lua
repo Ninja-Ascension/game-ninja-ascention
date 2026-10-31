@@ -45,6 +45,23 @@ local ok,err=xpcall(function()
     __lua_project_id=__lua_project_l_naruto
     _ED.user_info.user_id='1';_ED.user_info.user_grade='1';_ED.user_info.user_experience='1'
     _ED.user_info.user_food='60';_ED.user_info.max_user_food='60'
+    if os.getenv('NR_PROBE_RECRUIT_LAYOUT')=='1' then
+        dofile(NR_PROBE_ROOT..'tools/probe_recruit_layout.lua');return
+    end
+    if os.getenv('NR_PROBE_RECRUIT_TICKET')=='1' then
+        app.load('client.login.LoginLoading');app.load('client.home.Menu')
+        NetworkManager.register=function() return false end
+        local files=cc.FileUtils:getInstance()
+        NetworkProtocol.parser_func({resouce=files:getStringFromFile(NR_PROBE_ROOT..'build/recruit-ticket/login.txt')})
+        assert(tonumber(getPropAllCountByMouldId(239))==11)
+        _ED.new_reward_object={};_ED.new_prop_object={};_ED.prop_chest_store_recruiting=true
+        NetworkProtocol.parser_func({resouce=files:getStringFromFile(NR_PROBE_ROOT..'build/recruit-ticket/single.txt')})
+        assert(tonumber(getPropAllCountByMouldId(239))==10,'Ticket consumption missing from real client parser')
+        assert(tonumber(_ED.user_info.user_gold)==0,'Ticket draw changed gold balance')
+        local result=assert(io.open(NR_PROBE_ROOT..'build/recruit-ticket/native-result.txt','w'))
+        result:write('passed');result:close()
+        return
+    end
     if os.getenv('NR_PROBE_FORMATION_REOPEN')=='1' then
         dofile(NR_PROBE_ROOT..'tools/probe_formation_reopen.lua')
         return

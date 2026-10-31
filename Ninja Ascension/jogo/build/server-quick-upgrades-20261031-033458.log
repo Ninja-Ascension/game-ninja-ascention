@@ -1,0 +1,4 @@
+[HOST_SERVER][03:34:58] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][03:34:58] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][03:35:38] POST path=/iniServer?s=Av-8YU_MJatCLweX8lES5uAmCxwIJMXBfYbZoSulVLc bytes=24 primeira-linha=4
+[HOST_SERVER][03:35:38] cmd=keep_alive seq=4 -> status=0 (14 chars)

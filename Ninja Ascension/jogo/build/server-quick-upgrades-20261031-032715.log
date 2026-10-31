@@ -1,0 +1,67 @@
+[HOST_SERVER][03:27:15] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][03:27:15] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][03:27:24] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][03:27:25] ATUALIZACAO GET /atualizacao/arquivos/port/lua/desktop_layout.lua de 45.177.105.186
+[HOST_SERVER][03:27:30] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][03:27:30] login ok conta=ItachiBR2 sessao='PhP...(43)' perfil_user_id=14
+[HOST_SERVER][03:27:30] cmd=platform_user_login seq=0 -> status=0 (110 chars)
+[HOST_SERVER][03:27:30] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=48 primeira-linha=1
+[HOST_SERVER][03:27:30] cmd=search_user_platform seq=1 -> status=0 (111 chars)
+[HOST_SERVER][03:27:31] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=80 primeira-linha=2
+[HOST_SERVER][03:27:31] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][03:27:55] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=56 primeira-linha=3
+[HOST_SERVER][03:27:55] vali_register conta=ItachiBR2 sessao='PhP...(43)'
+[HOST_SERVER][03:27:55] cmd=vali_register seq=3 -> status=0 (37 chars)
+[HOST_SERVER][03:27:55] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=152 primeira-linha=4
+[HOST_SERVER][03:27:55] login_init: 6 itens no inventario da conta 74
+[HOST_SERVER][03:27:55] login_init: enviando 11 personagem(ns) no login
+[HOST_SERVER][03:27:55] login_init conta=ItachiBR2 user_id=14 sessao='PhP...(43)'
+[HOST_SERVER][03:27:55] LOGIN_LAYOUT prefix=90 items=6 separate_characters=11
+[HOST_SERVER][03:27:55] cmd=login_init seq=4 -> status=0 (50029 chars)
+[HOST_SERVER][03:27:55] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=40 primeira-linha=4
+[HOST_SERVER][03:27:55] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][03:27:59] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=40 primeira-linha=4
+[HOST_SERVER][03:27:59] cmd=ship_purify_init seq=4 -> status=0 (198 chars)
+[HOST_SERVER][03:27:59] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=40 primeira-linha=4
+[HOST_SERVER][03:27:59] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][03:27:59] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=32 primeira-linha=4
+[HOST_SERVER][03:27:59] cmd=union_init seq=4 -> status=0 (47 chars)
+[HOST_SERVER][03:27:59] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=40 primeira-linha=4
+[HOST_SERVER][03:27:59] cmd=draw_endurance_init seq=4 -> status=0 (43 chars)
+[HOST_SERVER][03:27:59] POST path=/iniServer?s=PhP1K4DERfKe-JM8QTSKs2D9B0UiqbN6vR__Cb0NneY bytes=56 primeira-linha=4
+[HOST_SERVER][03:27:59] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][03:28:16] POST path=/iniServer bytes=80 primeira-linha=4
+[HOST_SERVER][03:28:16] cmd=new_get_server_list seq=4 -> status=0 (86 chars)
+[HOST_SERVER][03:28:17] POST path=/iniServer bytes=48 primeira-linha=5
+[HOST_SERVER][03:28:17] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][03:28:17] cmd=search_user_platform seq=5 -> status=0 (24 chars)
+[HOST_SERVER][03:28:27] POST path=/iniServer bytes=64 primeira-linha=6
+[HOST_SERVER][03:28:27] login ok conta=ItachiBR sessao='x-e...(43)' perfil_user_id=2
+[HOST_SERVER][03:28:27] cmd=platform_user_login seq=6 -> status=0 (109 chars)
+[HOST_SERVER][03:28:28] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=80 primeira-linha=7
+[HOST_SERVER][03:28:28] cmd=new_get_server_list seq=7 -> status=0 (86 chars)
+[HOST_SERVER][03:28:28] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=56 primeira-linha=8
+[HOST_SERVER][03:28:28] vali_register conta=ItachiBR sessao='x-e...(43)'
+[HOST_SERVER][03:28:28] cmd=vali_register seq=8 -> status=0 (36 chars)
+[HOST_SERVER][03:28:28] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=152 primeira-linha=9
+[HOST_SERVER][03:28:28] login_init: 489 itens no inventario da conta 62
+[HOST_SERVER][03:28:28] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][03:28:28] login_init conta=RenegadoBR user_id=2 sessao='x-e...(43)'
+[HOST_SERVER][03:28:31] LOGIN_LAYOUT prefix=90 items=489 separate_characters=136
+[HOST_SERVER][03:28:33] cmd=login_init seq=9 -> status=0 (260331 chars)
+[HOST_SERVER][03:28:38] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=32 primeira-linha=9
+[HOST_SERVER][03:28:38] cmd=user_create_time seq=9 -> status=0 (36 chars)
+[HOST_SERVER][03:28:43] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=32 primeira-linha=9
+[HOST_SERVER][03:28:43] cmd=ship_purify_init seq=9 -> status=0 (567 chars)
+[HOST_SERVER][03:28:43] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=40 primeira-linha=9
+[HOST_SERVER][03:28:43] cmd=email_init seq=9 -> status=0 (14 chars)
+[HOST_SERVER][03:28:44] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=32 primeira-linha=9
+[HOST_SERVER][03:28:44] cmd=union_init seq=9 -> status=0 (165 chars)
+[HOST_SERVER][03:28:44] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=40 primeira-linha=9
+[HOST_SERVER][03:28:44] cmd=draw_endurance_init seq=9 -> status=0 (80 chars)
+[HOST_SERVER][03:28:44] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=56 primeira-linha=9
+[HOST_SERVER][03:28:44] cmd=get_web_recharge_state seq=9 -> status=0 (34 chars)
+[HOST_SERVER][03:30:42] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=24 primeira-linha=9
+[HOST_SERVER][03:30:42] cmd=keep_alive seq=9 -> status=0 (14 chars)
+[HOST_SERVER][03:32:43] POST path=/iniServer?s=x-eOgZidzxXOAoEhgivCXk1KFdfBEvQmlDw-BT86UpA bytes=24 primeira-linha=9
+[HOST_SERVER][03:32:43] cmd=keep_alive seq=9 -> status=0 (14 chars)

@@ -1,0 +1,48 @@
+[HOST_SERVER][02:45:46] listening http://0.0.0.0:18080 (MODO PUBLICO: sessao por pedido)
+[HOST_SERVER][02:45:46] [CONTROLE] recarga em http://127.0.0.1:18081 — comando: recarregar
+[HOST_SERVER][02:46:21] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][02:46:21] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_character_presentation.lua de 45.177.105.186
+[HOST_SERVER][02:46:27] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][02:46:27] login ok conta=ItachiBR2 sessao='3vJ...(43)' perfil_user_id=14
+[HOST_SERVER][02:46:27] cmd=platform_user_login seq=0 -> status=0 (110 chars)
+[HOST_SERVER][02:46:27] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=48 primeira-linha=1
+[HOST_SERVER][02:46:27] cmd=search_user_platform seq=1 -> status=0 (111 chars)
+[HOST_SERVER][02:46:27] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=80 primeira-linha=2
+[HOST_SERVER][02:46:27] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][02:49:01] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=56 primeira-linha=3
+[HOST_SERVER][02:49:01] vali_register conta=ItachiBR2 sessao='3vJ...(43)'
+[HOST_SERVER][02:49:01] cmd=vali_register seq=3 -> status=0 (37 chars)
+[HOST_SERVER][02:49:01] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=152 primeira-linha=4
+[HOST_SERVER][02:49:01] login_init: 6 itens no inventario da conta 74
+[HOST_SERVER][02:49:01] login_init: enviando 9 personagem(ns) no login
+[HOST_SERVER][02:49:01] login_init conta=ItachiBR2 user_id=14 sessao='3vJ...(43)'
+[HOST_SERVER][02:49:01] LOGIN_LAYOUT prefix=90 items=6 separate_characters=9
+[HOST_SERVER][02:49:01] cmd=login_init seq=4 -> status=0 (48895 chars)
+[HOST_SERVER][02:49:02] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=40 primeira-linha=4
+[HOST_SERVER][02:49:02] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][02:49:05] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=40 primeira-linha=4
+[HOST_SERVER][02:49:05] cmd=ship_purify_init seq=4 -> status=0 (198 chars)
+[HOST_SERVER][02:49:05] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=40 primeira-linha=4
+[HOST_SERVER][02:49:05] cmd=email_init seq=4 -> status=0 (14 chars)
+[HOST_SERVER][02:49:05] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=32 primeira-linha=4
+[HOST_SERVER][02:49:05] cmd=union_init seq=4 -> status=0 (47 chars)
+[HOST_SERVER][02:49:05] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=40 primeira-linha=4
+[HOST_SERVER][02:49:05] cmd=draw_endurance_init seq=4 -> status=0 (43 chars)
+[HOST_SERVER][02:49:06] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=56 primeira-linha=4
+[HOST_SERVER][02:49:06] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][02:49:14] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=64 primeira-linha=4
+[HOST_SERVER][02:49:14] LEGACY_RECRUIT duplicate_transport_request_id command=ship_bounty
+[HOST_SERVER][02:49:14] LEGACY_RECRUIT command=ship_bounty account=74 draws=1 silver=0 gold=240
+[HOST_SERVER][02:49:14] cmd=ship_bounty seq=4 -> status=0 (135 chars)
+[HOST_SERVER][02:49:20] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=64 primeira-linha=4
+[HOST_SERVER][02:49:20] LEGACY_RECRUIT duplicate_transport_request_id command=ship_bounty
+[HOST_SERVER][02:49:20] LEGACY_RECRUIT command=ship_bounty account=74 draws=1 silver=0 gold=240
+[HOST_SERVER][02:49:20] cmd=ship_bounty seq=4 -> status=0 (636 chars)
+[HOST_SERVER][02:51:05] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=32 primeira-linha=4
+[HOST_SERVER][02:51:05] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][02:53:06] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=32 primeira-linha=4
+[HOST_SERVER][02:53:06] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][02:55:07] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=32 primeira-linha=4
+[HOST_SERVER][02:55:07] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][02:57:08] POST path=/iniServer?s=3vJ0DGc2M56mg-I6Tr8B5WwtsknTy8a_0dvNV55qMY4 bytes=32 primeira-linha=4
+[HOST_SERVER][02:57:08] cmd=keep_alive seq=4 -> status=0 (14 chars)
