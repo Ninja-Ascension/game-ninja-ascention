@@ -1,0 +1,43 @@
+{
+  "axmol": {
+    "tag": "v2.11.5",
+    "revision": "6c0dce6db4660feafe29dabb1ab3506ee76b0931",
+    "spine": "4.2",
+    "luajit": "2.1-7152e15 (explicit opt-in)",
+    "default_lua": "5.4.8"
+  },
+  "legacy": {
+    "tag": "cocos2d-x-3.5",
+    "revision": "f7e11a2467e4508738ad9cf4b3992da05f9d1e7c",
+    "old_json_parser_present": true,
+    "build_status": "See docs/TEST_RESULTS.md for native execution history"
+  },
+  "source_character_version": "2.1.27",
+  "attachment_types": [
+    "region",
+    "skinnedmesh"
+  ],
+  "direct_spine_compatible": false,
+  "csb_decode_matches_prior": true,
+  "csb_version": "2.1.0.0",
+  "csb_runtime_status": "See docs/TEST_RESULTS.md; this script only validates structure",
+  "csb_reference_candidates_missing": [
+    "Default/DemoPlayer.ExportJson",
+    "images/ui/login/button_gongguang.png",
+    "images/ui/login/fangchenmi.png"
+  ],
+  "toolchain": {
+    "cmake": "C:\\Program Files\\CMake\\bin\\cmake.EXE",
+    "cl": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+    "ninja": null,
+    "lua": null,
+    "luajit": null,
+    "visual_studio": "18.11.12315.225"
+  },
+  "network_policy": "No original main.lua, login or historical endpoints executed",
+  "native_probe": {
+    "exe_present": true,
+    "path": "build/windows-probe-native/bin/NinjaResourceProbe/Debug/NinjaResourceProbe.exe"
+  },
+  "production_gate": "NATIVE_BUILD_AND_RUN_DONE: probe exe present and exercised by the automated suite (battle smoke passes with original damage, victory/defeat/restart; see docs/TEST_RESULTS.md, 23 Oct 2026). Remaining gates: human visual/audio acceptance, broader character matrix, deeper original-simulator integration"
+}

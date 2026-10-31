@@ -1,0 +1,5898 @@
+[
+  {
+    "path": "assets/res/image/activity/passport/activity_passport_title_bg.png",
+    "width": 329,
+    "height": 111,
+    "bytes": 14627,
+    "sha256": "4af7abe76197559a31f8ca8abdc5b47f65a6dc9bae3cfbaef520b603f51c9f57",
+    "principal": false
+  },
+  {
+    "path": "assets/res/image/common/popup/common_popup_bg_1.png",
+    "width": 648,
+    "height": 421,
+    "bytes": 32040,
+    "sha256": "7afbc6a50a74b4753c90153751fc7f0055c2708f2177e6b76b6c8f7c16991b94",
+    "principal": false
+  },
+  {
+    "path": "assets/res/image/login/login_bg.png",
+    "width": 852,
+    "height": 436,
+    "bytes": 149225,
+    "sha256": "2334cf6412db4efebb15eecfe3af92411c3af6ad06c464240f8c188c71c811c4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/image/recruit/recruit_bg_1.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 340392,
+    "sha256": "c84cd4a52811553c68fb70572c59597b2e17b7d65671bd9592fa88b2008b84b6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/image/recruit/recruit_bg_2.png",
+    "width": 1138,
+    "height": 640,
+    "bytes": 354222,
+    "sha256": "fbb6c11ce8848923d471957eeae2aca4559a0c7fe9a0286bb8368a3d48d3d030",
+    "principal": false
+  },
+  {
+    "path": "assets/res/image/recruit/recruit_bg_bar_01.png",
+    "width": 1624,
+    "height": 74,
+    "bytes": 33020,
+    "sha256": "23261afbab23e9f39a5b58b2cff0e3e60d520b560c40e6f9da3d156147268c27",
+    "principal": false
+  },
+  {
+    "path": "assets/res/image/recruit/recruit_bg_bar_02.png",
+    "width": 1624,
+    "height": 60,
+    "bytes": 34896,
+    "sha256": "aa031b88c3762f0c02f7a1c2275ba759ffe7a380d5366d8a7ed336d957d25856",
+    "principal": false
+  },
+  {
+    "path": "assets/res/image/recruit/recruit_bg_bar_03.png",
+    "width": 573,
+    "height": 95,
+    "bytes": 23314,
+    "sha256": "74a0dbd324939c8354aaad68f56bc13608b897404d91489b00c7e5e200837653",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/bg_gonghuizhan.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 53758,
+    "sha256": "5605e9e03e6d8b8b80d05fe48ca74ef2aed083689ecd5f7a7f322a550dc20d9e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/bg_jinjichang.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 51438,
+    "sha256": "a1fec67a1428d5da0a14b8624bda78286e1382cc697adf1309a4fb20f295b752",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/bg_kfrjdz.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 52342,
+    "sha256": "a7cf59befae000df623c2cc28409e1aff1ba84b76f3e38fe0cd93d024f2b1dc9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/bg_kfxdjjc.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 56724,
+    "sha256": "cbe675f2b833f382303b63a33846155a686715e90c681e5265c3b2d38720574b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/bg_kuafukuangzhan.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 65965,
+    "sha256": "66c8e99d6b6fd854bf77d0277ba9f239dd60e60a329f98e4a1fd34313baa18c4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/bg_kuafuwangzhe.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 50055,
+    "sha256": "7fd8aec6082eed6a5ca8d681f8ff0107a87a6a79f201442d2f583749c1ac97ef",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/bg_wangzhezhizhan.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 46994,
+    "sha256": "b89a6c70e24d5ba176cac3ce4cb59c0d9bb6b28dc2e8709dfd6983ed1e1605cc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/hb_bg.png",
+    "width": 49,
+    "height": 47,
+    "bytes": 187,
+    "sha256": "90d286040f69a9c193a64b1c632d32d6a2a1e934b8e657dc244de9abac463d95",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/ranking_reward_bg.png",
+    "width": 259,
+    "height": 335,
+    "bytes": 24137,
+    "sha256": "699100ddf99190e725de191d275e1f3b1f0ac15fd50f893744404432eb719d37",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/six_paths_bg.png",
+    "width": 1679,
+    "height": 937,
+    "bytes": 2710599,
+    "sha256": "ab962d39071a2a320c24a4e8466f49ce3c7f5f855e0b3fc663374d3a2425598d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/six_paths_bg_wide.png",
+    "width": 1700,
+    "height": 708,
+    "bytes": 2489944,
+    "sha256": "39281daf446c7c887d319755f3a84084b0ceccc9c0a41831f32b45705b72711c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/six_paths_ring_bg.png",
+    "width": 360,
+    "height": 360,
+    "bytes": 8236,
+    "sha256": "56c4742efef03e5a36233368670626e453fdc8157844643a5ef6f26934d97d67",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/yy_bg_1.png",
+    "width": 978,
+    "height": 472,
+    "bytes": 51751,
+    "sha256": "4a7ebffbd4e591ad904b606ed747d9cab736b002696931e12591f8e8ec25d2ea",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/yy_bg_2.png",
+    "width": 978,
+    "height": 472,
+    "bytes": 65354,
+    "sha256": "72e5ffcd28e8bee43f1a66d4f8a4410fd8273e35ec70ac758b4b65d0c9b2e48f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/activity/yy_bg_3.png",
+    "width": 978,
+    "height": 472,
+    "bytes": 54140,
+    "sha256": "96ff167ba1890d685533612f50113a9ff4ece72d66629cd46013e702f3a87b1a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/Official_Notice_bg.png",
+    "width": 777,
+    "height": 490,
+    "bytes": 193619,
+    "sha256": "be02a94d74102d658901ff87be872f144223b5860d0fe60a607dc0d02e33588a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/bar_dark_bg.png",
+    "width": 100,
+    "height": 100,
+    "bytes": 91,
+    "sha256": "05c1d5fc58a4515223c0c124ef4a380ce918eacf17ad3afb7d27dc599f55fbeb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/bar_name_bg.png",
+    "width": 72,
+    "height": 226,
+    "bytes": 4890,
+    "sha256": "749bc1f4f0598c930e8a93bdb82d1fe29a6d516f26cf3b0da3ddfb6290c87e0b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/bar_white_bg.png",
+    "width": 100,
+    "height": 100,
+    "bytes": 91,
+    "sha256": "06d558fe4f052cfc2891d8520566f817702f0134d46bee015fff41a91282bebd",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/bg_erjibiaoti.png",
+    "width": 304,
+    "height": 50,
+    "bytes": 516,
+    "sha256": "97e7d6e49e7c3e5be94a577a216e2f4b2e555034c89cb55bb5adc3386058a1a9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/bg_shuxing.png",
+    "width": 314,
+    "height": 140,
+    "bytes": 4105,
+    "sha256": "4f21dc690d8d30edd43fe9d98e8fbbb487ef15a60ecc0ecdc0559586ddaa4a5c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/bg_top.png",
+    "width": 172,
+    "height": 28,
+    "bytes": 235,
+    "sha256": "d4bee1eb55f939eca1422325fdee2df639e7afcfdac6c1b32c65c484a74ae261",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/bg_up1.png",
+    "width": 216,
+    "height": 64,
+    "bytes": 1484,
+    "sha256": "9a8e8983f87acf1290f381afe05d52ea06fdc7632975306f5e004df883d1df58",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/bg_up2.png",
+    "width": 330,
+    "height": 50,
+    "bytes": 1041,
+    "sha256": "3c5934bc30e21f7fbd31831e8d6053f560d13b264f2e95a9855f39e7aa6ef09f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/button_bg.png",
+    "width": 640,
+    "height": 119,
+    "bytes": 6659,
+    "sha256": "889a74fd380265b8d377a509fd282c57312c24e8a488ffdedaff045ff944a1af",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/cz_bg_2.png",
+    "width": 20,
+    "height": 31,
+    "bytes": 146,
+    "sha256": "dc00843d4e8111d86c0f4d7a277e86f3a4ec4e5e29d0a0a59ebb0becf88f47c3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/hqtj_bg_02.png",
+    "width": 674,
+    "height": 90,
+    "bytes": 8718,
+    "sha256": "a4f78729a90cba71e0716c2a8c418e7be53d865964dcb2a03f45e1fc69229693",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/jianbian_bg.png",
+    "width": 82,
+    "height": 182,
+    "bytes": 624,
+    "sha256": "ac7117870558b76013c17d89ee42bcf87e8f1b482fb888fdd6479c042dbb6f22",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/sm_title_bg.png",
+    "width": 630,
+    "height": 66,
+    "bytes": 19709,
+    "sha256": "ee7fd1bd95d3f09f083f3b3766c5be8f604a91595c26dc73ad20c8a70c30e073",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/super_skill_name_bg.png",
+    "width": 35,
+    "height": 160,
+    "bytes": 257,
+    "sha256": "a3a3f4d35c1001e07894515a52c835d9a72ea5c296fdf1805623cba691a4f04a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/tianming_shuliang_bg.png",
+    "width": 95,
+    "height": 25,
+    "bytes": 280,
+    "sha256": "66c7893ddaf67020b9c7c2d55e99af9d4ce1fcde41c89a819aae81a3881e93c7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/zdsl_bg_1.png",
+    "width": 847,
+    "height": 46,
+    "bytes": 10908,
+    "sha256": "792f6b8e085d8f2015222fa28b856fd0da3f8ba113f3369ad588cd621c281255",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bar/zhanshi_name_bg.png",
+    "width": 362,
+    "height": 70,
+    "bytes": 315,
+    "sha256": "9c73e917386ab6958f4d6592e1b7df5b9cf5c0113bf27e2120d77ffc31ee7ee3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/boshu_bg.png",
+    "width": 366,
+    "height": 80,
+    "bytes": 2983,
+    "sha256": "e77ac5a15757734337ab045edffa8f55be4e584558555ae1fc9d2e4bf08bb852",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/bossjieshao_bg.png",
+    "width": 128,
+    "height": 420,
+    "bytes": 2077,
+    "sha256": "5119a224bdaf349f918710c395a558cb48d4740a864ec66e68f05cf00ce74b65",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/bossjieshao_title_bg.png",
+    "width": 86,
+    "height": 38,
+    "bytes": 362,
+    "sha256": "443460cc56ddf00b22f2fecb6825c65f96c1eb88b2873893e8b0d3cb9be4b01b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/bossxx/bossxx_bg_01.png",
+    "width": 922,
+    "height": 422,
+    "bytes": 73603,
+    "sha256": "c25b75650a052761b2fe496b2a74b3c01afd042bd6f5a0e1a1f268b7f7118b62",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/f_win/star_bg.png",
+    "width": 68,
+    "height": 66,
+    "bytes": 2739,
+    "sha256": "e74747fa1abbe97b64e971aa57356e7fe737abad91e67acd05dbadad384c2fc1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/f_win/zdsl_bg_1.png",
+    "width": 847,
+    "height": 46,
+    "bytes": 6126,
+    "sha256": "e360a5ab66e87b65b0af6c62a5666bdf6c0c493635e482fae96d3826495f1aab",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/f_win/zdsl_bg_2.png",
+    "width": 844,
+    "height": 130,
+    "bytes": 26302,
+    "sha256": "69d69a9c93588e1cd7b3e75fcdf5339d9bc8cc90e2e521475ac8db78ae82fa1e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/f_win/zdsl_bg_3.png",
+    "width": 843,
+    "height": 136,
+    "bytes": 8692,
+    "sha256": "0768a60d90f7be3d8d98ddbbe1cfac9c7758c16e98bde1e4a413b12c8806e91f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/zdsj/zdsj_bg_01.png",
+    "width": 607,
+    "height": 351,
+    "bytes": 5296,
+    "sha256": "f4d3ee0e4963215902fe185acca22216fa15da96466e953460729176ed63fe27",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/battle/zdsj/zdsj_bg_02.png",
+    "width": 547,
+    "height": 40,
+    "bytes": 4394,
+    "sha256": "b802a972d1e7f82a767b074a8fdf01b7381797c2f636915611f9c7aca696eacf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/bg/arena_activy_bg.png",
+    "width": 1024,
+    "height": 404,
+    "bytes": 152894,
+    "sha256": "473fba5c9033cd2a5bac1616db3b73e11ff07f1155c1dc2a4690b1013a981b84",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/arenastorage_bg.png",
+    "width": 1624,
+    "height": 498,
+    "bytes": 282638,
+    "sha256": "c4141d20335f5734fb92019898084b3e25f5f73b197055688516d9c3859b705b",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/arenastorage_bg_0.png",
+    "width": 1624,
+    "height": 498,
+    "bytes": 289144,
+    "sha256": "2ba5a137f267679a239a63627a9556828b64345a6ce28357c1f89dc161fd6c46",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/battle_king_bg.png",
+    "width": 812,
+    "height": 510,
+    "bytes": 105469,
+    "sha256": "0e3f8ab2c2f75969294c0d8388bf3559ccaa390b00fdd15116474cf8ac9057eb",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/battle_king_bg_0.png",
+    "width": 812,
+    "height": 510,
+    "bytes": 114679,
+    "sha256": "a4ec06b1a233d684b9b9ed52119582c65fa5b849e13594e424eb2cd23852a24f",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/battle_king_bg_1.png",
+    "width": 1624,
+    "height": 498,
+    "bytes": 218163,
+    "sha256": "2bf13c5beb81f1b18c25dde1a0c97b1a1ef8b7ad85d7a2045610e058b899d1a1",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/boss_bg.png",
+    "width": 1136,
+    "height": 501,
+    "bytes": 181940,
+    "sha256": "09ef464c621f1803849892c340fa403ea032f3d5bff7c36cc93493e9916d421d",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/buzhen_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 398149,
+    "sha256": "db3525af35a311a4a09144b046476026ae4531f63681bbad667c7a083075e13d",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/gamesatart_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 338159,
+    "sha256": "cf9ff600eac8bc6edbf724ce13692843a54a440278a12a8394c63355ce478349",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/home_bg_1.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 258937,
+    "sha256": "af17474e7a70e68d8576923bf0360126d4f89d49a392fc16a405762642fccd96",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/hy_zhaomu_bg.png",
+    "width": 1138,
+    "height": 640,
+    "bytes": 313653,
+    "sha256": "4b48060a832a021626904c844c669e7774953660f7c07063c8ceb83f9a631e1b",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/legion_bg.png",
+    "width": 3462,
+    "height": 659,
+    "bytes": 838659,
+    "sha256": "d1c053b8c9bdc122c9b51ac2102f0aa7d5e33c13c3835d0f5a7279c94aa198ac",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/mythical_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 364039,
+    "sha256": "03fd39089524592f97c65dc425bea534974e88b4b8c98ab16d12350a1fcf5461",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/packsbg.png",
+    "width": 812,
+    "height": 510,
+    "bytes": 193656,
+    "sha256": "3b5b595f1665837286ff71396e32820bceee668f10f76c72420a65dcb0a041ea",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/packsbg_1.png",
+    "width": 812,
+    "height": 510,
+    "bytes": 261254,
+    "sha256": "64ba3484de59ceed53a561805a343c7c5fc847ff6bb03e303a031061cf958262",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/pve_npc_bg.png",
+    "width": 510,
+    "height": 510,
+    "bytes": 20528,
+    "sha256": "43a8cac41992f5aa11e2846579da71b20b67ea6ee441c716e78103110a2db24a",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/pve_tow_bg.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 287082,
+    "sha256": "3aa6cdd9c7c6d7ce08f6c40509b610fc550b08275939bf3923c1a9e37e572183",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/qianghua_bg.png",
+    "width": 1138,
+    "height": 640,
+    "bytes": 354879,
+    "sha256": "f495190721ebe7db701244f1581a6ae58a0597b7231a774f3b13590d094253e8",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_hub_bg.png",
+    "width": 1280,
+    "height": 720,
+    "bytes": 525076,
+    "sha256": "82fac706920e9d873b34818c8cb46120642187e347bd2992c9534b896864127c",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_hub_bg2.png",
+    "width": 1400,
+    "height": 640,
+    "bytes": 892723,
+    "sha256": "03167bea4d59f8afcb2b971d2aaafdbd5bed8c58c9a9116ffd0b00c2388d69c2",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_hub_kaguya.png",
+    "width": 1400,
+    "height": 640,
+    "bytes": 943889,
+    "sha256": "ffce6073795f3619f4690492a9be4f8908e3343fd5d19b19aace86aa4fd12f10",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_hub_space.png",
+    "width": 1400,
+    "height": 640,
+    "bytes": 319813,
+    "sha256": "7b8362bb48ccbd05d64dedac7f8cf40435b9cfb8864798d225f2b68902b5aa29",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_map_1.png",
+    "width": 1122,
+    "height": 712,
+    "bytes": 872687,
+    "sha256": "3c13584299deb52a490a9b72150434b59e1e4cc591c02e6852ca2ec369aa3f83",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_map_2.png",
+    "width": 1122,
+    "height": 712,
+    "bytes": 804530,
+    "sha256": "2cc4771e8546216591d8aeb0258297d4ca279285d2ecda903f1343bea0a0904b",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_map_3.png",
+    "width": 1122,
+    "height": 712,
+    "bytes": 460873,
+    "sha256": "912d0f9c3e9b1a9427aec36b8c2b17bfa1d86ef2bd694bb2e2fa6e27a51f33d0",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_map_4.png",
+    "width": 1122,
+    "height": 712,
+    "bytes": 347969,
+    "sha256": "f25e755c58f7526d9cb3ff12236190644e06a5668338e7e9d7d46a08fa0277df",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_map_5.png",
+    "width": 1122,
+    "height": 712,
+    "bytes": 634989,
+    "sha256": "f0a6f8fbc4066a77d31117adbb371d2f0f2209c5ba4b85c4f91f9ccd6344b080",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_map_6.png",
+    "width": 1122,
+    "height": 712,
+    "bytes": 73132,
+    "sha256": "bd60e34e1cd9cbd818839c608de902bf1e73c0466c129a8b8f39bfdafcfbdfc3",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_void_a.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 604579,
+    "sha256": "02c1dd14062dc7726d5041a1bffadd808829f3f334c7143089edcae95aa4c418",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_void_b.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 587672,
+    "sha256": "c700d1f61fcef1fff588c6ac235701d3788274f0f93f725e2316d1499739d3e8",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_void_core.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 22042,
+    "sha256": "b8a5d216fbfea9b2c66d074d5bcf078863451a307f0862662be9623f03793fa6",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_wbg_1.png",
+    "width": 1136,
+    "height": 501,
+    "bytes": 314422,
+    "sha256": "b71bf2036a822fc58684de992ae8ed3da02d4f093f5696b9b0e9f4a7d7250e8a",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_wbg_2.png",
+    "width": 1136,
+    "height": 501,
+    "bytes": 325977,
+    "sha256": "eff4fd7c53b4f28858b69e9dccd49a963d89965d454e28b0d0187c0a64efcbad",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_wbg_3.png",
+    "width": 1136,
+    "height": 501,
+    "bytes": 329148,
+    "sha256": "f2014838afd0f34deac863ce9139604a09f554ffcbe9a09ce0b463aa7269b261",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_wbg_4.png",
+    "width": 1136,
+    "height": 501,
+    "bytes": 331157,
+    "sha256": "c1db383e421605e453e6019d3748fe4f89c9b8540ef248110367e962144e2a97",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_wbg_5.png",
+    "width": 1136,
+    "height": 501,
+    "bytes": 326977,
+    "sha256": "e8487eb596e4d6308d5530545e390624d6499affbc62e2429125566418700e63",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/rift_wbg_6.png",
+    "width": 1136,
+    "height": 501,
+    "bytes": 319784,
+    "sha256": "9db96e926fff102951fbda48b4769fd0891d055273f260acc24c410da3535025",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/shop_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 193901,
+    "sha256": "11f37634941158953b124a6a58433e90d84b9f2c1ce21da220fbb172f75951b0",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/szhj_cj_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 225346,
+    "sha256": "5855832ec429802e3ef1465802dfbaf511ac6f51fa62e10eeadee0e392f15c5c",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/tianfu_bg.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 196015,
+    "sha256": "7b1d45044d1380508f4789296f582d8d1e45bbffc2e7c2798d79289f0d24012c",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/ts_bg_1.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 92737,
+    "sha256": "f83cf89bccd675b6205a5c3e51ee1cf9f97b6b867a0e194882c8c6a5ad316e26",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/update_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 1158316,
+    "sha256": "61daa87e1a9bcf894d185c700261f56d999e0217b7bc625da6cac7d086290f14",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/vip_chouka_bg.png",
+    "width": 1624,
+    "height": 510,
+    "bytes": 180201,
+    "sha256": "ad895fc5d375655adc42d8ccea7cee614868b5d81d6b771c7bf86c40e87bba0b",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/wanxiangshan_bg.png",
+    "width": 1624,
+    "height": 510,
+    "bytes": 257244,
+    "sha256": "caf9a1fa7457ea1d4f9d1afc433591d727a30ea270d4ebae683969e6b69f3720",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/xinxi_bg.png",
+    "width": 510,
+    "height": 510,
+    "bytes": 127715,
+    "sha256": "5fc4ed4c682a1285ab7f7829558c522e0cdd23f0d88e6589321e7c8701276704",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/zhengba_di.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 75377,
+    "sha256": "f766c7d2ee588591a3e9d7db8934b723753b5821c3ec52e8568d997261ba763e",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/bg/zr_bg_01.png",
+    "width": 1624,
+    "height": 566,
+    "bytes": 239548,
+    "sha256": "013a53d81707e1ce05ea188b8969913293002717cf723ad11120d1e488948b7c",
+    "principal": true
+  },
+  {
+    "path": "assets/res/images/ui/button/evo/jinhua_bg_01.png",
+    "width": 1624,
+    "height": 498,
+    "bytes": 224533,
+    "sha256": "3a8738bb56108ac8be1d45baea7733ae58b287c383f188454e746efb8611586c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/button/icon_bg.png",
+    "width": 125,
+    "height": 125,
+    "bytes": 3952,
+    "sha256": "bacbbad52211b696b2e4f0511b27138c6e3cf115903cd7c863db7a66c17db710",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/button/tianming_shuliang_bg.png",
+    "width": 95,
+    "height": 25,
+    "bytes": 286,
+    "sha256": "b0c667ea7871ca066091f24bf44eb761cedb0d86f03960cf82c947a0c9f018d1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/battle_win_bg.png",
+    "width": 718,
+    "height": 262,
+    "bytes": 16619,
+    "sha256": "7bc181f679ac77ced107090cbb0b4b1c148d29a7106bf926be926cf4c1ace78f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/battle_win_bg_1.png",
+    "width": 810,
+    "height": 496,
+    "bytes": 15937,
+    "sha256": "700f4ae8306d1ffc6b75740cdef8233bf478156801426a8c7953377cf623dedf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/battle_win_bg_2.png",
+    "width": 765,
+    "height": 509,
+    "bytes": 92678,
+    "sha256": "c64e6642dbcfc7cc07009b0bebd6c59504e7f7c6536c52c49db85cd8e79ea90d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/beibao_bg.png",
+    "width": 512,
+    "height": 394,
+    "bytes": 87793,
+    "sha256": "57a41aeaf507d4037dc9ed346e7451cf5db717366129da9f9a9d8bdb3aac4cbf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/bg_levelup.png",
+    "width": 228,
+    "height": 131,
+    "bytes": 921,
+    "sha256": "7c2c0983e31e3397c5c0cce61a7a4d61e719affcfa4ae989544ce09b34db8dda",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/bg_yun_1.png",
+    "width": 272,
+    "height": 116,
+    "bytes": 17286,
+    "sha256": "613914bdb8b48c17d46e57a2225681ec185f735b1b15864509ec2dca545390b2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/bg_yun_2.png",
+    "width": 500,
+    "height": 200,
+    "bytes": 29142,
+    "sha256": "1397d3975416c0b2ff3039cb266d834c94e7b8ce9ecaa8c341665dfa7b506a1c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/bg_yun_3.png",
+    "width": 306,
+    "height": 68,
+    "bytes": 12703,
+    "sha256": "919df7c951aec2d514490a4e7d3224f2270ee2b5315628103e72d13fbbc570b5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/bg_yun_3_1.png",
+    "width": 170,
+    "height": 68,
+    "bytes": 785,
+    "sha256": "e086316516a362ad9e94ff885a2726c0fe3a07d74ab6174f812b889016ec3fc6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/boss_bg.png",
+    "width": 478,
+    "height": 480,
+    "bytes": 58713,
+    "sha256": "604e9b9baab92a7f42d3514b6b70b9d9455117a52da374e50122cc672f89fbc3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/home_bg_pic.png",
+    "width": 350,
+    "height": 162,
+    "bytes": 115,
+    "sha256": "3d32f0d9a8e2be81593098365ab08cab2e5d34c930aa97f66e4c5c9f45559588",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/home_tips_bg.png",
+    "width": 62,
+    "height": 62,
+    "bytes": 395,
+    "sha256": "ad4198f24fe65a7e00456674c997347413973d5db8926493b806b5eb6ce8c92a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/qiandao_box_bg.png",
+    "width": 642,
+    "height": 402,
+    "bytes": 129137,
+    "sha256": "069ae40c1581138d7d2db4875fcd446e9cc26bfe29c6614dbb3e6d06ba9eeca9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/qianghua_button_bg.png",
+    "width": 160,
+    "height": 498,
+    "bytes": 39010,
+    "sha256": "3a30cdac4daa8278007f35dc427e82053939c50d6785e7768241eabbddb72eb7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/qianghua_button_bg_1.png",
+    "width": 160,
+    "height": 498,
+    "bytes": 37346,
+    "sha256": "e76b0e33c1f0c1d37f729204a1a8a1cbf8f8fff13b627ff1ef2bc3baedc19adf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/qianghua_button_bg_2.png",
+    "width": 160,
+    "height": 498,
+    "bytes": 37996,
+    "sha256": "a7f4de18c42f95f73c878ae67ed7ea64902d221fd4533c6fa379bd807563fdb7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/tz_bg_03.png",
+    "width": 158,
+    "height": 45,
+    "bytes": 4201,
+    "sha256": "065abdf39989c1b8063ac5503c74443fa630e89735c6e9833155d2c2fadb491e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/decorative/window_box_bg.png",
+    "width": 446,
+    "height": 246,
+    "bytes": 35960,
+    "sha256": "a6f845f8b5f763ff059cdef8b9facaa403aeaccf819a51e6a30603ea60542d97",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/dialogue/duihua_bg.png",
+    "width": 251,
+    "height": 108,
+    "bytes": 690,
+    "sha256": "a534c215ffce9294750c5fac5d044deecb2b3a02928cc5c0e52157066dc8331d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/edit_box/share/share_bg_1.png",
+    "width": 870,
+    "height": 516,
+    "bytes": 139181,
+    "sha256": "676aca10d9300c889da374f9ddc7a3b70689699da3187323ab509bfe6b87699a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/edit_box/share/share_bg_2.png",
+    "width": 870,
+    "height": 516,
+    "bytes": 177991,
+    "sha256": "35d80bbbb35b54118e8ae546222f0ed6dd04e8145bbbba1dbfee7e407d901330",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/effice/effect_artifact_bg/effect_artifact_bg.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 51415,
+    "sha256": "6fe0d9c920901cdee11a3fb1710bdf5d6341ebeb42d07bdef89d1eeafc4914e4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/effice/effect_shop_bg/effect_shop_bg0.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 31541,
+    "sha256": "2a3c315d27153f2d20c0a1ebefad0fad5ed14bb00a7a8f1bc1ca74e53dc70358",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/effice/effect_ui_bg/effect_ui_bg0.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 57561,
+    "sha256": "9f595308886c949864a9614d5ee14f6186bdc82d1df9ec7dfdf127660f809b6b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/effice/effect_yangcheng_bg/effect_yangcheng_bg0.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 67971,
+    "sha256": "380f7410daf197356bf2102ab8ab6abd80d5c98635262c364a42d0e68c6f0f95",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/effice/effice_super_skill_bg/effice_super_skill_bg0.png",
+    "width": 16,
+    "height": 16,
+    "bytes": 102,
+    "sha256": "fe973d77cb6fe300f60051e4325ca64232858623514bb13864a4912db0a48047",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/login/shuru_bg.png",
+    "width": 265,
+    "height": 50,
+    "bytes": 542,
+    "sha256": "7da5d9c47d95959f35abbc87317bdf3a5cc00db8dc2495c986d8c21e24cfb756",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/login/shuru_bg_1.png",
+    "width": 116,
+    "height": 92,
+    "bytes": 408,
+    "sha256": "2531631483c557b8aabf7f656c2b4070db678af9c3f0b20bcd30e0fc291ac0d1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/arena_bg_1.png",
+    "width": 1624,
+    "height": 94,
+    "bytes": 10271,
+    "sha256": "2804228e4c5a7bdd577aa803ef6a4b4a58bb8e8d35feacf75e66713c85e17216",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/arena_bg_2.png",
+    "width": 1624,
+    "height": 102,
+    "bytes": 11658,
+    "sha256": "9b654b736e8d9208a4ed6790aa037f4f2d588d1f0fd852af26afd6997dee3b56",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/arena_bg_3.png",
+    "width": 192,
+    "height": 108,
+    "bytes": 8156,
+    "sha256": "c63fc5da23920c5193560b6578e18a3d2f89dc439cf322f56d7e5bf50180de46",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/bg_jingjichang.png",
+    "width": 188,
+    "height": 30,
+    "bytes": 340,
+    "sha256": "98cee6a33a60124c51968df5c4860174aa7ba49d3a3e8d872df92994031f9198",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/cross_total_war/cross_total_bg_1.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 161593,
+    "sha256": "7b62f3b84f4c1eedff703fee41a29620780b98b4d92cf5bef570bfee80822f6d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/cross_total_war/cross_total_bg_2.png",
+    "width": 1624,
+    "height": 76,
+    "bytes": 17638,
+    "sha256": "f133c4944dc64a83e7aad710e34a1f77828f69a5eddff8ad3b7ae54763f9924e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/jiesuan/jj_bg_01.png",
+    "width": 841,
+    "height": 134,
+    "bytes": 4247,
+    "sha256": "7553881a9116bcc7adc01607055c00d098b2a5ab88be56e47e49d677ae9d4455",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/jiesuan/jj_bg_02.png",
+    "width": 841,
+    "height": 134,
+    "bytes": 4471,
+    "sha256": "fbc375b802a9ff591b28632e401d6e8ac961c8e4313fa4937e9fce64ce740f59",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/jjc_jf_bg_1.png",
+    "width": 650,
+    "height": 106,
+    "bytes": 4957,
+    "sha256": "df0b3eddf9b5b413c88f750f9418db5ff268c42880bd597fc9ed9acaa8bee7f5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/jjc_phb_bg_02.png",
+    "width": 774,
+    "height": 30,
+    "bytes": 3010,
+    "sha256": "35377a09ebd0465113d2a3010ba96119c758a3940bc063db67001bf3e3db0779",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/jjc_phb_bg_1.png",
+    "width": 719,
+    "height": 106,
+    "bytes": 11419,
+    "sha256": "fd2c713b8c24f4322d4ea9cc28a9d700af644f40f198be33b7feff20a7cde2f6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/jjc_phb_bg_title.png",
+    "width": 852,
+    "height": 80,
+    "bytes": 7871,
+    "sha256": "e46d89bef029674f76ee81e883ebd56537ece0d4c646ed0f011ba281e8f17ae4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/arena/team_arena/team_arena_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 274456,
+    "sha256": "bad8753c25c67ae3888f1fd23114b179a684d216ad35b1693a31cffb5483d446",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/bg_fury_tower_1.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 202628,
+    "sha256": "260b2b44223c7174e74d5febefded02bfd28b1bd6ef8fcde2204b8ac91c23aa3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/bg_fury_tower_2.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 155518,
+    "sha256": "a82431ef7e0c89705cf4922c8a3b635c9bce67bd2b057a6a5f4c69940bb1537a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/bg_huodong.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 50833,
+    "sha256": "de16a0e3df5d1cc846579596e983f11a7f0ab8eb825c6d821134a7b921d2960e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/bg_jinghua.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 48701,
+    "sha256": "ab69486c1c88a216fafa7319bd8f5693f800977f6e968afa141f81ef1f324234",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/bg_shilian.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 52243,
+    "sha256": "48d59d4564b576989d41ee2f46a829e6302bfb160f425c0609f237716d179ae3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/bg_tansuo.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 52282,
+    "sha256": "9f953709075cf9494fa7705c62c2e46fc7b297f1dcf5ccf48618e00729763d0a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/bg_tansuo_f.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 67704,
+    "sha256": "4c9ef68fcad65e3a37d9142061bfe0c067c452deebc79056cbc84a2830706931",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/huodong_guanka_pic_bg_1.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 220985,
+    "sha256": "6a2e89f6912dbab3c33b84fbc894b6ac1903914c84c0ed862669569aed37c6cb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/huodong_guanka_pic_bg_2.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 230930,
+    "sha256": "dd509b8fc71f94c1f045ea87f8208e14eb24496c6d68e59c377a8c5c000d5c82",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/huodong_guanka_pic_bg_3.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 235782,
+    "sha256": "66f8e3069946cbc67b6f4267aa0dd25f971f85ba06fb5f37b2008b92cb3025cf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/huodong_guanka_pic_bg_4.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 238207,
+    "sha256": "2bbc1612677dd4495a73e0d4d35db5479555570a0d8bd71fc63845925ef7a3f0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/ndxz_bg_01.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 18758,
+    "sha256": "47866ce22a741d0a117328683b984d10e61081bd57c1478833618086c92709cd",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/ndxz_bg_02.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 19354,
+    "sha256": "439be3a7a9e68cd89459bf3e64b185fcaaaf4f30f0a809935db32f3c50681aef",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/ndxz_bg_03.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 19217,
+    "sha256": "7fc7771f80bba316d9db0e4c2cafe1d95d352190ec49e696c1a2793d3dd37973",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/ndxz_bg_04.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 19123,
+    "sha256": "8d75813a7fc19292ee6aa4b46654834438e10de40b945d4844c4bff1560a3b39",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/ndxz_bg_05.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 19375,
+    "sha256": "eac392dc5174d5a26448cd5403722e3ff444d2d49b85a487f383b0b63ed693bf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/ndxz_bg_06.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 19612,
+    "sha256": "432ba404f2cc097c54397c0d287bc076d8997e4ea3ebf798f651a769fd8e8f10",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/tz_bg_02.png",
+    "width": 873,
+    "height": 149,
+    "bytes": 31209,
+    "sha256": "d8323a351611becdc29e09cfc7549b3728980d891fcdb6dc6f6a71feaeae37b0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/play/tz_bg_04.png",
+    "width": 226,
+    "height": 43,
+    "bytes": 1048,
+    "sha256": "1f1beb286fe0b469f7c5cec4192b8efa6ea2f3dc915be8e0be36f385bbed5b42",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/bg_exp.png",
+    "width": 176,
+    "height": 22,
+    "bytes": 661,
+    "sha256": "0114a76df46580a80ffe89b3e28cf5cbef1b37fc1afd419f5a2f560db879c191",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/bg_jingyantiao.png",
+    "width": 351,
+    "height": 23,
+    "bytes": 460,
+    "sha256": "4630d0a45d3f6b440d5efd9efea72597aa10e003245daf647d26773256b70069",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/huadong/huadong_bg.png",
+    "width": 260,
+    "height": 22,
+    "bytes": 194,
+    "sha256": "8534c7dfa345d4ddfa4591a39f6c3d67b3106370d31f69ed0184950e963ec9ed",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/hy_loading_bg.png",
+    "width": 460,
+    "height": 18,
+    "bytes": 4460,
+    "sha256": "dddaa53ff05438c7d6166925acf501b871aa60a785be25bc9cfa5dcafb9ec47b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/legiong_lv_loading_bg.png",
+    "width": 449,
+    "height": 56,
+    "bytes": 5350,
+    "sha256": "c1f615861127b1b68f94324e41c8e3997b52e9c86399f092f0baf8f1b4c8e5fc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/pj_jindutiao_bg.png",
+    "width": 418,
+    "height": 32,
+    "bytes": 1123,
+    "sha256": "cd47cf33017e0b7574bd6fa855730f308b045c30d35af1dde34012027a4f0ca3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/pj_jindutiao_bg_loading.png",
+    "width": 418,
+    "height": 32,
+    "bytes": 314,
+    "sha256": "a4c97d58ebebdbc2061d6e3b76c1a14a9a24ab57fcc751a7b705752459fb4081",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/qhds_jindutia_bg.png",
+    "width": 148,
+    "height": 24,
+    "bytes": 483,
+    "sha256": "80e86a871e5a914cdccec988395c935b39c0e60efe7aebe40450d5264a2c4dc6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/qianghua_jindu_bg.png",
+    "width": 350,
+    "height": 28,
+    "bytes": 367,
+    "sha256": "d04dcfe6dac5f387bf97b09762be2a7bc208ad5e532629826e81e0e5e5044d7c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/shop_chongzhi_loading_bg.png",
+    "width": 336,
+    "height": 42,
+    "bytes": 6041,
+    "sha256": "22d06533a2d7af9d661d1d9e92fcc0fdb71fb3e863b2283ab92779f118709b31",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/sm_pve_loading_bg.png",
+    "width": 340,
+    "height": 16,
+    "bytes": 644,
+    "sha256": "96bcd268fe54298b770c76d6f71c2a3105d5a76d8b568d5ff383309d134e059a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pragress/sm_role_streng_lading_bg.png",
+    "width": 443,
+    "height": 31,
+    "bytes": 117,
+    "sha256": "78896d260aa4bf776c40d12c583d08cd782fbfcbc37814f1f85e9786e5900076",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/jy_pve_name_bg.png",
+    "width": 314,
+    "height": 142,
+    "bytes": 8024,
+    "sha256": "38641adbb2705ea3ebc2ae0b95ccb6fca418413742348c7e0f680e0cd93c6298",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/jy_pve_role_bg_1.png",
+    "width": 252,
+    "height": 232,
+    "bytes": 17600,
+    "sha256": "fd9bed42e32a4ce117c7cc5a8d5b562b8ff657999e0ebed46227593e5e09b066",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/jy_pve_role_bg_2.png",
+    "width": 252,
+    "height": 232,
+    "bytes": 15692,
+    "sha256": "dc718220ef7745f8a6123efaf2d1586a3ca88962a733796a285a524082d2210b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/lv_2_res/gq_bg_03.png",
+    "width": 18,
+    "height": 15,
+    "bytes": 122,
+    "sha256": "b57836ce1c1e2c6c2b4bcc0dde51b442e6944466064c311bbfe918aeb0a4554e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/lv_2_res/gq_bg_04.png",
+    "width": 19,
+    "height": 224,
+    "bytes": 152,
+    "sha256": "cef0610847c9ba624798710d865966020f6d0cb113be75fa03016d1451fc3628",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/lv_2_res/gq_bg_05.png",
+    "width": 411,
+    "height": 68,
+    "bytes": 8265,
+    "sha256": "864584a061b70d61e689cd9c1ed2e16b7e9075e22756794d14f6f156b8b74640",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/lv_2_res/gq_bg_06.png",
+    "width": 411,
+    "height": 68,
+    "bytes": 8057,
+    "sha256": "2274bd8e7234f08b78bd4caa2e3e8f115fb53de6f33a4215842025d29973ca22",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/lv_2_res/gq_bg_07.png",
+    "width": 411,
+    "height": 68,
+    "bytes": 4129,
+    "sha256": "94b305b13daa864b4d5538a36244630f01668d609cf19ab52f789f38ab97760e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/pve_dup_name_bg.png",
+    "width": 262,
+    "height": 42,
+    "bytes": 2801,
+    "sha256": "1d336b7d911bd560395f3fd772a37f919ac57f0eca43c9fc35be9ab37073801c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/pve_sn/pve_dup_tow_name_bg.png",
+    "width": 324,
+    "height": 36,
+    "bytes": 1137,
+    "sha256": "12c2796fe45f47cc5718837ff5271123102752f308e885bd29dafced9375206c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/quality/icon_skill_bg.png",
+    "width": 88,
+    "height": 88,
+    "bytes": 2206,
+    "sha256": "d279617f78a6984db0dc768dee11d0ee097313f68d41087ca588250b753b08c6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/quality/tf_bg_0.png",
+    "width": 98,
+    "height": 114,
+    "bytes": 2032,
+    "sha256": "1a75bd283f03d00ac0efe4f02e84803debc4c938348ae85a218afa4e3af4bf83",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/quality/tf_bg_1.png",
+    "width": 98,
+    "height": 114,
+    "bytes": 2197,
+    "sha256": "33bf53f9922659af45cfe997d41c0754ba15183edc557b1236f25d7696475dac",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/quality/tf_bg_2.png",
+    "width": 98,
+    "height": 114,
+    "bytes": 2032,
+    "sha256": "1a75bd283f03d00ac0efe4f02e84803debc4c938348ae85a218afa4e3af4bf83",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/quality/tf_bg_3.png",
+    "width": 98,
+    "height": 114,
+    "bytes": 2097,
+    "sha256": "cb87f8284bce339884a9656823facfd10c9b362c641e3e1d36c3502d00258e6a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/quality/zhuangbeicuilian/beibao_bg.png",
+    "width": 512,
+    "height": 394,
+    "bytes": 61630,
+    "sha256": "feec58db3262d9051f6d2aaaade4c166941da2412ac1204f402aac433da6a139",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/quality/zhuangbeicuilian/xinxi_bg.png",
+    "width": 510,
+    "height": 510,
+    "bytes": 127715,
+    "sha256": "5fc4ed4c682a1285ab7f7829558c522e0cdd23f0d88e6589321e7c8701276704",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/bg_gonggao.png",
+    "width": 158,
+    "height": 144,
+    "bytes": 318,
+    "sha256": "1855dcbedc3d7fd41c478060353cbc7c66c300c49cfd7a782fb84c83878efbd9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/bg_gonggao_1.png",
+    "width": 50,
+    "height": 58,
+    "bytes": 346,
+    "sha256": "527133cd7a92ae1fb303b24206645646e92bfae1e7b1c8c69b29a412f7374cf9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/bg_price.png",
+    "width": 27,
+    "height": 29,
+    "bytes": 231,
+    "sha256": "70988ac6cfa18c6db74bb2e3f438d406fdeb411c7e0dfea8f391c802859d7939",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/bg_shenwang.png",
+    "width": 23,
+    "height": 34,
+    "bytes": 164,
+    "sha256": "efb34ee45ba2de1edc7ad50122046ed5f800e3f9e14b179d2235e6d56166f782",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/icon_bg_2.png",
+    "width": 106,
+    "height": 106,
+    "bytes": 683,
+    "sha256": "2010cff939181560947073e327e28f36156122b3f7d424ef8a8f0d5714436089",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/jt_paper2_bg.png",
+    "width": 476,
+    "height": 272,
+    "bytes": 654,
+    "sha256": "9173b5be10b307302f75506d636d1390ba828175d98f495b266e490a099c6e1c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/kd_slot_bg.png",
+    "width": 76,
+    "height": 74,
+    "bytes": 938,
+    "sha256": "c64b64e6111cce4c983151353ac532a1eceff6ffb2f3d4e465f817e3bfac4b75",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/server_bg.png",
+    "width": 100,
+    "height": 100,
+    "bytes": 211,
+    "sha256": "6350e9e0b23394c5d88322bc0835e9af84af893685b861bd0426857e8d257739",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/slots/slot_box_bg.png",
+    "width": 82,
+    "height": 82,
+    "bytes": 389,
+    "sha256": "74964f77a0742a3db68da7ce01ecc7502e32d62bba2c29566aa081dc4342bb99",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GHZ_res/ghz_open_bg.png",
+    "width": 1138,
+    "height": 498,
+    "bytes": 226000,
+    "sha256": "5335d42249d01fee610b785c82e97c4c0e90fab4a88c4c17f451bc9ae923220e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GHZ_res/legion_icon_bg.png",
+    "width": 84,
+    "height": 80,
+    "bytes": 3551,
+    "sha256": "f9f62b8ecd394926c931f8850170df058c3d3a7f5cbe1d445864848c8d3f3f0e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GHZ_res/legion_icon_bg_1.png",
+    "width": 84,
+    "height": 80,
+    "bytes": 3551,
+    "sha256": "f9f62b8ecd394926c931f8850170df058c3d3a7f5cbe1d445864848c8d3f3f0e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/adventure/game_bg.png",
+    "width": 1138,
+    "height": 320,
+    "bytes": 137273,
+    "sha256": "f08c4ab58846d866b55365625140dffa1a10b0d2e8a5d66e967a5446d14f6c6c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/adventure/game_bg_1.png",
+    "width": 1138,
+    "height": 66,
+    "bytes": 45662,
+    "sha256": "73669364faaca777bcfa7e28fb28b4b2d990e58dd42505a186ec7df37cce3812",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/adventure/game_bg_2.png",
+    "width": 1138,
+    "height": 74,
+    "bytes": 47732,
+    "sha256": "01abc25cab8141ec0275a13ddfbdd69444ea53cfc0a391e17cfeccc887113b3b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/adventure/xqsj_bg_01.png",
+    "width": 324,
+    "height": 250,
+    "bytes": 24483,
+    "sha256": "7fa468535a6b89727e2fd9aaae6c66e3516e8dbb0bbd5b2200d3542d548ae5d9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/adventure/xqsj_bg_02.png",
+    "width": 631,
+    "height": 234,
+    "bytes": 2281,
+    "sha256": "8e50d0806ef23f041c0b5f5388f24b4c16cb410e6f23d5767b33d7dba7d44820",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/fuben/ghpve_bg.png",
+    "width": 1624,
+    "height": 500,
+    "bytes": 230833,
+    "sha256": "d617089e9f01145b5fcbdc3c912e46efa37da808bd2248b3b2e7f2f3396226fd",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/fuben/npc_hp_bg.png",
+    "width": 157,
+    "height": 11,
+    "bytes": 155,
+    "sha256": "d71b59c082358bb74a0fb4eb87e31f49904ab0471b4bebdc36a3d138a8df49c0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/legion_bg_dec.png",
+    "width": 372,
+    "height": 644,
+    "bytes": 29633,
+    "sha256": "cf8c924141cdecafa28dced9f276766b2a416f1a7ec42c1b91087fea7559e282",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/legion_bg_dec_1.png",
+    "width": 146,
+    "height": 510,
+    "bytes": 36931,
+    "sha256": "cb488d7ae17634c535f09bf940890ff2efe5dda3a29d5da6739f60a3b86c6a62",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/legion_bg_dec_2.png",
+    "width": 146,
+    "height": 510,
+    "bytes": 26636,
+    "sha256": "b14aa8d8666546b43836369703561e26ac2087041c558aab36b1f68d5bbb7c90",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/legion_bg_line.png",
+    "width": 1624,
+    "height": 12,
+    "bytes": 8696,
+    "sha256": "d1cdf1609bbfd5b6ac8d5f88e28c7da72851b1c25e53f1fb5e15922b52057f29",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/legion_title_bg.png",
+    "width": 266,
+    "height": 116,
+    "bytes": 16270,
+    "sha256": "d2ed3cc875cf2d7d1377f0688d21854cdad58a733016095a32d7e7b28f5b04a1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/note_bg.png",
+    "width": 700,
+    "height": 442,
+    "bytes": 62887,
+    "sha256": "c829e6617431321d4e84e9f4047e064b44bf79085217e51238621ae73ac5dfc4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/note_bg_1.png",
+    "width": 700,
+    "height": 442,
+    "bytes": 98977,
+    "sha256": "f2d3e01b7dc54da2b95575345440e27bdb2d06144fae950d3e1a0a7328362d39",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/note_bg_2.png",
+    "width": 718,
+    "height": 447,
+    "bytes": 106397,
+    "sha256": "f6d6816bd299690c6f1eb0b109f6a25c180a1b6cb3d0cd63162a2b6cc9bb3004",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/note_bg_3.png",
+    "width": 408,
+    "height": 326,
+    "bytes": 34010,
+    "sha256": "9776d528d6c848de5cbac4909bb39d84e2237332977cf35c7dfb10ef402d16d5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/note_bg_4.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 301070,
+    "sha256": "df692abdef1acce713473dda8420b33a5ce868a8d975e9c265b0f052b043eb53",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/yanjiuyuan/nlw_bg_01.png",
+    "width": 24,
+    "height": 22,
+    "bytes": 158,
+    "sha256": "ac2b2529c85b7db675bb0ae78a41980c7dee6d04ec71b66de569985d5888362c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/yanjiuyuan/nlw_bg_02.png",
+    "width": 289,
+    "height": 410,
+    "bytes": 19389,
+    "sha256": "320573771aa54b1e20becc4cc98084f201f9f9923caa02a270ed7f87b01dba9e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/GH_res/yanjiuyuan/nlw_bg_03.png",
+    "width": 264,
+    "height": 50,
+    "bytes": 502,
+    "sha256": "2c7e7a562ff80e57fda49d8918245f39b8a4d5d761d76d16b008843d3f3b6489",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/NIUDAN_res/niudan_bg.png",
+    "width": 1624,
+    "height": 516,
+    "bytes": 171635,
+    "sha256": "2f1493af2e217531d57eb1d35aed8ceac4be13f910b5a5dcf85cf4b7f9f679db",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/NIUDAN_res/niudan_bg_0.png",
+    "width": 1624,
+    "height": 516,
+    "bytes": 249849,
+    "sha256": "d236a5daad2836a30a5e1de3b583d490061b0ee448efcdab47c8c117ef11958a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/NIUDAN_res/niudan_bg_title.png",
+    "width": 354,
+    "height": 140,
+    "bytes": 14325,
+    "sha256": "b9a4c16330dbc84e33f9a7899f2cabcc3c3a710d3fee07e477b826cf88f67bb7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/NIUDAN_res/niudan_bg_title_0.png",
+    "width": 363,
+    "height": 154,
+    "bytes": 16309,
+    "sha256": "9e7d290de8e98a7bc58cdc7c38a6dbc391f37f9ed1260c45774ab7dd4edb8c38",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/SL_res/sl_phb_bg_02.png",
+    "width": 774,
+    "height": 38,
+    "bytes": 4775,
+    "sha256": "2be6f7c59bd1c0d646998b0372fd1f61623760157775aaa90a27d8f136dfb315",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/SQ_res/sq_bg.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 247344,
+    "sha256": "7ac82d57f6ed4176a8a2366965c69bd313eae92877bbc9401a48312a1c5d91ba",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/FightSpirit/icon_bg.png",
+    "width": 111,
+    "height": 496,
+    "bytes": 661,
+    "sha256": "0c509b9de60e018423007366f6f90ddb70858d0bca66d9405a31048666a9da75",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/FightSpirit/zh_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 266342,
+    "sha256": "92fc2baf365bd78a31e0fe9c8e2148c3cd1cabef0c91f5822237d5bc2d4965f5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/FightSpirit/zhanhun_button_bg.png",
+    "width": 175,
+    "height": 522,
+    "bytes": 40600,
+    "sha256": "a5a574a1e5923fe1e9f565a0d476b9506b9b79cd76586bf5b1e771ca68a52399",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/Illustration/Illustration_bg.png",
+    "width": 881,
+    "height": 394,
+    "bytes": 140326,
+    "sha256": "b5221b0af39b6e22097b704abd8215b422a1b1e8a5d4743b0a5123ae3944a5f4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/combination_card/combination_card_bg_1.png",
+    "width": 1153,
+    "height": 620,
+    "bytes": 240230,
+    "sha256": "60d9a09738a14d059d3067afcbf4dc0ecfb436c67d2f050731b7a1ba819e89ca",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/combination_card/combination_card_bg_2.png",
+    "width": 1624,
+    "height": 735,
+    "bytes": 9536,
+    "sha256": "9d9239d5351d290b1a8e1e0a5c904760c1af906d83e8cc0cfea15eeae4ec49e5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/jiesuo_bg.png",
+    "width": 158,
+    "height": 45,
+    "bytes": 2850,
+    "sha256": "244eb422fdcdfd7759facbbb5a65427bc8857220cba78ab5690a1b68ca65d4cc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/ninja_biographies/ninja_biographies_0_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 228640,
+    "sha256": "e8486db0d78ebf2b617dbcbfc07d224555021c50f33823370d0d7e5f004fcd10",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/ninja_biographies/ninja_biographies_bg.png",
+    "width": 960,
+    "height": 482,
+    "bytes": 181521,
+    "sha256": "8572bef06985e6a491e7ff379995d597fdd9f4f5428b07a029f2d469e84931ad",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/ninja_biographies/ninja_biographies_bg_1.png",
+    "width": 380,
+    "height": 492,
+    "bytes": 85746,
+    "sha256": "fe2dc3411d0263b8cdcd1d5fa2ecfd9cf097f6851451249486315ca4a7ddd5f5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/ninja_biographies/ninja_biographies_bg_1_0.png",
+    "width": 397,
+    "height": 358,
+    "bytes": 32977,
+    "sha256": "658505eb6993a5e13a2dd7d59e56503270fa1d29d1701b7119518171b7bad538",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/ninja_biographies/ninja_biographies_imprint_bg.png",
+    "width": 771,
+    "height": 522,
+    "bytes": 172030,
+    "sha256": "d6239556e4440830c3af45fbe53cd143d29bbbfe370c293486268aed8aef9381",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/ninja_biographies/ninja_biographies_task_bg.png",
+    "width": 1204,
+    "height": 644,
+    "bytes": 123281,
+    "sha256": "3ba1ba0f123f4a88f8fa4f5c958bd2efbac33d593c4779ddf47da8d986df84db",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/ninja_biographies/rlz_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 161736,
+    "sha256": "62a9cf395763c70461deafa4266e1b6ebb38b1d59077f164c9289512574a1a2b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_02.png",
+    "width": 630,
+    "height": 362,
+    "bytes": 11731,
+    "sha256": "2057ea0faaf56c8d65a12f9b23c27bb6b9740e2cb249a8bcbb9e0a5cf87c2195",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_03.png",
+    "width": 564,
+    "height": 114,
+    "bytes": 4497,
+    "sha256": "86028bf705c941fb892f9ba6d3137ca9fcb273cf93fb193045b87c63c89c03bc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_04.png",
+    "width": 208,
+    "height": 102,
+    "bytes": 1410,
+    "sha256": "52f5c79e6c1838438bd394d483d72c19af04d0a24de8ac343e2cc62640175915",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_05.png",
+    "width": 208,
+    "height": 102,
+    "bytes": 133,
+    "sha256": "6a4e30ba3a93f922eb39cfd8f76a98b0e35d46523d0bcb925922b27d59eaa414",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_kuang1.png",
+    "width": 98,
+    "height": 114,
+    "bytes": 2032,
+    "sha256": "1a75bd283f03d00ac0efe4f02e84803debc4c938348ae85a218afa4e3af4bf83",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_kuang2.png",
+    "width": 84,
+    "height": 99,
+    "bytes": 2413,
+    "sha256": "cf0f9eb45dd44004f9738048337c05a499a4dc0d07bf14afa98ce2a9322624af",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_kuang3.png",
+    "width": 84,
+    "height": 99,
+    "bytes": 2390,
+    "sha256": "7b18cf66df3a2bdf3eac9a53b18873d00221b4cb643756ea5cd9b7506b0e0409",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_kuang4.png",
+    "width": 84,
+    "height": 99,
+    "bytes": 2257,
+    "sha256": "22a394c94ef773eb190b57b0840f000d656138f84ec2624ac014d82218668482",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_kuang5.png",
+    "width": 41,
+    "height": 21,
+    "bytes": 375,
+    "sha256": "ccf902d4bdcea6745476cf07c3f6fc5d48749babbd0fca5370c3effa462c3af3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_kuang6.png",
+    "width": 41,
+    "height": 21,
+    "bytes": 420,
+    "sha256": "8bf0c9c7853a67eef8e05f10084e3a7791a4cc7c21802d4d2c7861ff77352c36",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/tf_bg_kuang7.png",
+    "width": 41,
+    "height": 21,
+    "bytes": 431,
+    "sha256": "9593040b21d4014b9cc783284697986b296d6d1b289772bb3e6e1f870b1fd1e1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/zd_bg_01.png",
+    "width": 209,
+    "height": 27,
+    "bytes": 109,
+    "sha256": "fc207032405d33d693a94899b9e59b89fb2d580954c7e5b1f1be97b1030f0c2a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TF_res/zd_bg_tfkuang.png",
+    "width": 98,
+    "height": 114,
+    "bytes": 2902,
+    "sha256": "f62ce3a27fb0cf27fb9eee9cfec263edc96246ed35c6dcab02f9c4c3079dbb3c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TS/bar_boss_name_bg.png",
+    "width": 207,
+    "height": 48,
+    "bytes": 490,
+    "sha256": "8b77dd2161f0427cf26781180bd818c9f2a618a095a08e99a2ca85e2ac1d7bc0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TS/dec_boss_bg.png",
+    "width": 685,
+    "height": 631,
+    "bytes": 100999,
+    "sha256": "514c77e8c4e9126864d69bad9050182065414b60e1a42355a6529e20955bbbde",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/TS/dqtzxx_bg.png",
+    "width": 228,
+    "height": 48,
+    "bytes": 1342,
+    "sha256": "4459df964c1f1ea6c8afa0bdb86a60a7c9071c5bfcb32878b6805312abdd09a2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/XTZY/yindao_bg_01.png",
+    "width": 1138,
+    "height": 218,
+    "bytes": 71536,
+    "sha256": "367ebb249c9c46c0813d6c58d4ad519ae34a77c8d8fa7894eccc17e9e32b8745",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/bar_boss_name_bg.png",
+    "width": 125,
+    "height": 46,
+    "bytes": 4120,
+    "sha256": "79658fe03955ef0fd1df742b91359327dc8836c3839a8673b60a56b2eddaa6f8",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/boss_bg.png",
+    "width": 361,
+    "height": 367,
+    "bytes": 30294,
+    "sha256": "9af10b58fd0145eb6c260f88cfe7e7ba1b85e944bc787137d579e4b38fe2faa7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/boss_special_text_bg.png",
+    "width": 210,
+    "height": 52,
+    "bytes": 1796,
+    "sha256": "089bd79f2b4c5f85d88d08089e2cf386dbd38cccaa79542e010a3c211cd73cd3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/boss_top_bg.png",
+    "width": 210,
+    "height": 270,
+    "bytes": 19076,
+    "sha256": "fc6add5a7ec9d6646138685e6aac9a9fda397eaea102e630da4f5ce8526a9bcf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/rift_bg_1.png",
+    "width": 361,
+    "height": 367,
+    "bytes": 62390,
+    "sha256": "8ae48cf81ddc2fd04af2eb3db97f5a68f51374b0db31796310669388be76cff0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/rift_bg_2.png",
+    "width": 361,
+    "height": 367,
+    "bytes": 82612,
+    "sha256": "6eae577241e3ea4c45271dd07a792c6bd0674a1288cf21cf34686a65b5e6f43c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/rift_bg_3.png",
+    "width": 361,
+    "height": 367,
+    "bytes": 84029,
+    "sha256": "f852cbd2a2a165890b9346df366d3512af357c7eca887f12f59dbdc0705a5d15",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/rift_bg_4.png",
+    "width": 361,
+    "height": 367,
+    "bytes": 99864,
+    "sha256": "f85f0f3aebdaebb3d7b5a0af41641f83d4269bb36b077fb7487f8b3effb1158d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/rift_bg_5.png",
+    "width": 361,
+    "height": 367,
+    "bytes": 66030,
+    "sha256": "1288cfd2028c1f572c7b34d99fecc5e2bf73c7a1c04209daf62745c5ccf505c0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/boss/rift_bg_6.png",
+    "width": 361,
+    "height": 367,
+    "bytes": 101344,
+    "sha256": "6adb12c9d9d6160e8cced05eaaca9090f81ef17d607af9d28a0a80030c5b0ba7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/chat/sjlt_bg_02.png",
+    "width": 40,
+    "height": 40,
+    "bytes": 204,
+    "sha256": "498147b1ce0c02f22aae7add542f781fdc8a85dddcd1e58f8c32fd9ccb2caaaa",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/chat/sjlt_bg_dhk.png",
+    "width": 41,
+    "height": 26,
+    "bytes": 324,
+    "sha256": "03cfa080700e00890467eb90e34750fe5ca3367375c6ee7b2c34d7e4cf3f88d9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/chat/sjlt_bg_dhk_1.png",
+    "width": 41,
+    "height": 32,
+    "bytes": 317,
+    "sha256": "7b9527290225772d3122576e35fe3a104c7e7b8c333dea8abdf2e25be2ebe4e5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/battle_blue_bg.png",
+    "width": 661,
+    "height": 147,
+    "bytes": 6205,
+    "sha256": "9c07cdd4c09b1a565f2472f8f1a71eabaddc6ba38a850aa8b369456ba5d369c4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/battle_red_bg.png.png",
+    "width": 661,
+    "height": 147,
+    "bytes": 5550,
+    "sha256": "debb9807a0393974c86804d6d36479feda4c4f68871935c0566c5232ae853627",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/bg_paihagn_0.png",
+    "width": 288,
+    "height": 73,
+    "bytes": 13842,
+    "sha256": "45ea4b29e3077a644d5bb52db8d496961f9bcc9e7e0ca6d404843e8a0feff3e0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/bg_paihagn_2.png",
+    "width": 294,
+    "height": 70,
+    "bytes": 4180,
+    "sha256": "481282cf55837e5506d50013862e37c81e1505b04c5ad54c8ebf908e29855202",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/ico_1_bg.png",
+    "width": 206,
+    "height": 47,
+    "bytes": 2265,
+    "sha256": "3a017372988777152c33a0e475da1c683061afe4b8699fad4cb197708904cbcc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/ico_2_bg.png",
+    "width": 206,
+    "height": 47,
+    "bytes": 2493,
+    "sha256": "47944173bab895360616116beb2fd1c37d8464b8a5d537971d1bad3f08fa6200",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/ico_3_bg.png",
+    "width": 206,
+    "height": 47,
+    "bytes": 1998,
+    "sha256": "cc078f1510db4e76f2b110347d69bc8fec90fafede5e935b347b996ab6726e85",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/poster_text_bg.png",
+    "width": 545,
+    "height": 82,
+    "bytes": 4982,
+    "sha256": "d06632b7a87ce78fd2fbb2ecce37479bfd65a079964d044f5c277dda1b94621c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/cross_service/wxs_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 382000,
+    "sha256": "f2f4a93732cb5b82ed71fb0fb8f6d4c8c11ebf2afd49aa76b1d83954ec22d128",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/fortune_bag/fortune_bag_bg_1.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 62777,
+    "sha256": "274d374db8163a928b10aab55f3c12d7645c0d2365f5df78edb8d9db7e6f1bd4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/fortune_bag/fortune_bag_bg_2.png",
+    "width": 708,
+    "height": 477,
+    "bytes": 109237,
+    "sha256": "661a234098ec600fbc52ff77cf0f64fe784d63e33eda029912dc854e53aac6c4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/kfkh/100day_bg.png",
+    "width": 480,
+    "height": 572,
+    "bytes": 26173,
+    "sha256": "54d84cfb5867fff1cf0248abbf52755bec5d89a7499ad6d8137901f315da07e3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/kfkh/seven_lab_bg.png",
+    "width": 42,
+    "height": 71,
+    "bytes": 541,
+    "sha256": "5c5697b77e7c8d2f26d98770fac44df2cfa1cc4ce325ecec3f818efd5929a3a7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/kfkh/seven_lab_bg_1.png",
+    "width": 164,
+    "height": 413,
+    "bytes": 957,
+    "sha256": "2e60a61ce9b9d1388faf5b3553bacb96eb563a80dabae94ff8ffbc09be7b6b05",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/shop/csdj_bg_01.png",
+    "width": 411,
+    "height": 55,
+    "bytes": 1373,
+    "sha256": "1c551767794cec9f9c051a4d66b04dbcd32f20362f6ed41d9365bff70f68ee0d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/shop/jxsdh_bg_02.png",
+    "width": 178,
+    "height": 31,
+    "bytes": 180,
+    "sha256": "b8cafb7694c7ba4786fefcbc2be167e9c2b74de60501df57df29c9c30024e30f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/Pray/pray_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 446891,
+    "sha256": "2f0e9ec3571f2fbc52b9c4dd46c3eb96833e937ec3af119e865fea49264e3429",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/act_great_adventure/adventure_run_bg.png",
+    "width": 930,
+    "height": 560,
+    "bytes": 250594,
+    "sha256": "561d1a969ea0e00c33fe5ecdd96007e2ffadf5b484048c6f04e776050bab7170",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/active_list_bg.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 29583,
+    "sha256": "21d94555e596aa3a676531737c6cab7abd2e6359eb6ba1e762649c3fc4e5bd50",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/active_list_bg_0.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 21944,
+    "sha256": "6a245541d5bf6118958d80f1f693ba82ec7a77833cf9c7bd6bfd5cfa1fb7fd3a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_1.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 103494,
+    "sha256": "c3b5e2a031071b70565681e9346b6559161df2634d26c74ba9240e5155b025b7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_10.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98247,
+    "sha256": "395e8f1417b4b92e14a6b3b873b9ebf5ca5fa4c3121426bff4e56e86800ef0c5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_11.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 104505,
+    "sha256": "97bd8e7c84a2e4d8a56a7bdef7032f34460f3e82f04bfbd06be444dd06d75427",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_12.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 117887,
+    "sha256": "6485f9629aa27b00ff29939f75f782882b431f22a26065cab564f5ff640875f5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_13.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 96622,
+    "sha256": "d55f2a3cf1e582ac11874a17e7543ff6ebc4a1693aa968d4700ee238b18c3277",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_14.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 100501,
+    "sha256": "ae21edbf17a0f00614d3add0bb6fd92d27c2d3159baf5128104289bd2f8c13b4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_15.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97718,
+    "sha256": "cce53852ad0344ce2dafdc7ce6a0a064f14eea5ceda849b4e28167cb558fada3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_16.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 102278,
+    "sha256": "0f1d2939bef030b7f929455f2987c619a2547a5c4ddc1ca4b1f4fc2ad2cce5d6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_17.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 92020,
+    "sha256": "c8be70552b369ebaa4d817536fd67b777471a6bea375f3181e6273fc39c226c7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_18.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 89517,
+    "sha256": "9e5b7920826a7342944bcb0227a33084ad998dc691f0dfd70ae226d1e14e04fd",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_19.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 108880,
+    "sha256": "84901c167e8ef1b6f76b95d6d7164c5ab6dfbdf9b77412918858617dbbe18ee1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_2.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97001,
+    "sha256": "728890592b6b6c08f3b7001f107c9cf771b8dc579086f5b94b831008fe20b2f7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_20.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 110272,
+    "sha256": "07b51661562d783944658479fcb22c5131904756ddec98f6e6e7dde0ecb87003",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_21.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 101361,
+    "sha256": "03bfab14b6057643caa3361c0aafd01dafa6cebdaa16ef105c857d8499835340",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_22.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 101430,
+    "sha256": "a4954f38c650810cbf2aebe260f29d0437b6d1b78e858a70f7e5f617c8ad1c5c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_23.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 95122,
+    "sha256": "392ce9efa896c3f2675afa8551ebe7f6223e47f5a36f8970e58e660df70f8057",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_24.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98793,
+    "sha256": "289c8877f1eab3bb0973d20db138e4aa6ae989a0b3678214d4c2fe489d48835c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_25.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 121904,
+    "sha256": "87c77d5d6c63d1e5b8060b55881076e3813fcb528c7ea63b16a43aae198c5031",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_26.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99313,
+    "sha256": "633dce269454f79f56356188aa102f09dff32b1d7cfb7b6e02b54e2a1f0cced1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_27.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 93376,
+    "sha256": "bec511655f25ec5c887c36ebb93b991beb0e54ee0721014cfc1ff25abcaae683",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_28.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 110576,
+    "sha256": "a58e3da6e09364d91d10769cdc9da95f0b9d3c78963384211057945ef835a67e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_29.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 70290,
+    "sha256": "428be689026c1c4651b06c7ff23854ad19ab55e6f6cbb097814b1e4bd2ce78eb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_3.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97986,
+    "sha256": "be3823856d5be7fd638bb03aa65a80a58a088306198522922c06c187332b497e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_30.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 63935,
+    "sha256": "9b01c093062bb890f986457749de0b59a1fdacdc16c0491b9a0d047e2b824857",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_31.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99306,
+    "sha256": "1e91b743b01a406dd10ef06ed256386103adca8536ea8cd96eefaafef109ae3b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_32.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 81062,
+    "sha256": "e444d9e8624637a107bfa740e183b6f9fe8458488848a052097c14a64cbecf46",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_33.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 106681,
+    "sha256": "60a586745f6dee22ef44e9500dd242450a69b685735bc3ab415fa2da70c89a79",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_34.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 112306,
+    "sha256": "965aebfd5fd44f452a873b5e5ff0b5baa17b00144fc7e1166f825e51da803f49",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_35.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 93665,
+    "sha256": "97b3cdef7d7a815f46c37096ce2151323d8012509adb36aa4f54d56e26b533bc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_36.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 92340,
+    "sha256": "b92c880de7e65f8c32ba59ee6818042f559be4badd1a0972968c1ddf6b4fc996",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_37.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 100980,
+    "sha256": "d173db38e2f84cb578d971f730bef57942b71895769f17aa9e958a8ab92a0bba",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_38.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 85426,
+    "sha256": "35b812c6f799cea6e93cb7409be23c17c8e429aca0c16998e2c10a8eb7d2b1d0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_39.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 82724,
+    "sha256": "24a122525f64571108d229b6a86644b8d4935e92cd668756d531c511146905df",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_4.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98078,
+    "sha256": "b412b303898af267577fd12b46565f0af5639d8c0f577e41a0d0301f11a4c186",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_40.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 91574,
+    "sha256": "717a6583262a16ec63cb90f89c7bd21d4900d61ca31f73337388e404b5ac1ca6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_41.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 104515,
+    "sha256": "100cc11c2d4338369d6f9fcef7a709f8343aa8d5ca1e8f1b09ad0b89409f506b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_42.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 110583,
+    "sha256": "da9829276a4401052ee8312a1369182fedda9668fed19a2c5c0cdbf4567a19a0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_43.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 128560,
+    "sha256": "bae7204314d706dc2d537ce22266af5cccd8946cc9b76059725c45f9b0daeed2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_44.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 96845,
+    "sha256": "e48ed7faaa98d8d7b65d01dc5fcbe1335e1266656ab1bdf1db70e51d168fe173",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_45.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99234,
+    "sha256": "43fe6d151e35d0c36319ab4f1f1fd7b8f100bb46dba5c781fec680614a680b79",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_46.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 103587,
+    "sha256": "8fd65c797cc9744b28369190fbb50b3f523c737c1fff3ca8428f6f2e14899faa",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_47.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97647,
+    "sha256": "840bd3d9ff15183e70dba35d91ae101acbec709e4d2044f094c15ee8a8525a68",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_48.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 101545,
+    "sha256": "fadb85b9af8e52d1c59abc6cd00b82909e478698093ff4a21ee5683006d3a04a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_49.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 111010,
+    "sha256": "708190867ff76e1c0aa7031d446fda7f4814868856e77ebb34fd3133be3a0c5d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_5.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 84748,
+    "sha256": "9f0859300450c3250c7510aedf8d9f55bcbdb164129a67e3c8798c18e8b7c5da",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_50.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 105796,
+    "sha256": "3cb19a7a4eef31caa2fa6741e248a62f01ee3f3781c07b3cef91be3db3ac9891",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_51.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 106840,
+    "sha256": "6f8422187c2d6cc01986f2a7f8c27fdfdf183882ca3ba9a811d7918ff0f739ab",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_52.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98288,
+    "sha256": "03ade9c35bec93d275ac0638369ee934d1a110756d3905b366e02840c4b8b529",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_53.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97586,
+    "sha256": "e3b4df3c13d63d8fb077a06181961321b9298a675dbb85666e5ca6d5578c9f51",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_54.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 87607,
+    "sha256": "3401de3484f52d2e60e566d968b5a050aead91bcc0290aa36057e6e14ae0a122",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_55.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98715,
+    "sha256": "6194f4fc3b741d289396996bbf5f3bc3b796185fc7f9765372e55b63f827e1f5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_56.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 105845,
+    "sha256": "fa79905232c3533ab12dc5b30afb5c1ec26d868bb93a290f53b4f552d2ea3da6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_57.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 93996,
+    "sha256": "c3dd7d5f7bec29ee3f0f6339c00a3fcf9548833a835fd4f59e640ee64a5ae504",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_58.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98434,
+    "sha256": "415b7f898f839cf8b5e402ec120e61153ef878012b4ffebbe3d5a6e3f3780a4b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_59.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 110777,
+    "sha256": "29bc2df592ed56ed26750438365204057c8a7818ea1a2d1352fc573e03e2490e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_6.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97056,
+    "sha256": "0f638a791dd8ea8fa9a7ff30e954c549f2b14b6fec06b9f2568c6a8e8afc1398",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_60.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 107456,
+    "sha256": "19f16461d2d233bf750480a2991956200d0f579bce3476064d93e617c68b5d37",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_61.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 103742,
+    "sha256": "c8d2f668b9e379684179b1afc040a9353b485469dfbb15e9932f30d360004c13",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_62.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 115983,
+    "sha256": "d7b2c18a54d68c9dc61d3ed6c88f8bb67a9c67321c6aeb79646fd507972fb82a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_63.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 108708,
+    "sha256": "1c922ad09054219fd3a45813d21c25c62bbf5b297f76bf68ebeb51e8bc9d9b05",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_64.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 309752,
+    "sha256": "594ea7b1333d92a27be6e6e09f147324a7fb7045d2825ecd168da0bb1421399a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_65.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 480575,
+    "sha256": "948c2e2344c33a44b5a47e06dc5f020c2654699ac66461a72f0946fe5065b7cb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_66.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 314339,
+    "sha256": "59b1b12721ced959a72845b1191473fae727cabc8d96ed940f8ae3bb6808f16d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_67.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 131905,
+    "sha256": "4feafc06417e1eb19466846fa500a1cd347a1151092212f92a8cdb653b2ef35e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_68.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 132548,
+    "sha256": "eb9fb41ec457ba14c8a52cfccb697d579ed4fd0d8448977b8b9ccb4551840d7c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_69.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 267735,
+    "sha256": "2313833c445b27c4489bfd062d2029a313e21ba1c00eacb4be8b3089056ccb68",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_7.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 72495,
+    "sha256": "95f5cb1ca726bed8351cdc72adba313f5725bc68d521b370af64dbbc5ae18084",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_70.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 126724,
+    "sha256": "84190740644b35bbd05220ab82e43cd7b2cf8eead26e83ec324720ea22044831",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_71.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 120922,
+    "sha256": "544d3e725b0275bd58c7650306b6bf958ba9e0ef014171d6a1066e30e3e93602",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_72.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 120603,
+    "sha256": "c293514bbd6318592c5b33daed8cfb14745ea28646cb8eebb024deaa734c2684",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_73.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99977,
+    "sha256": "b654b0c82e4201734292a447bc620237c36e6c43c39d7c4f8bea79372d137438",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_74.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 107817,
+    "sha256": "95007aa4672475a18e4db8f0ad3dfdfe5089ff7fc9679c52970a1bf2d9cc743b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_75.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 114218,
+    "sha256": "b63b000569ba6fe2d405db8b44277f4ca072e748c2cc38e2fa1666e4fa68d08a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_76.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 122543,
+    "sha256": "55381da5228c2c0664c86603056669c31784e9540996f893655d72e51ee6a0f3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_77.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99261,
+    "sha256": "5b2452c853dd93ea521a59dc1196d870a8deae7b16c8ea763c57ba47b40fabd9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_78.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 102295,
+    "sha256": "ef608de0a03d0cf58b0223987c5cdf57b14d49eb68159073f58fff8b83faa607",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_79.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 100635,
+    "sha256": "faf20e80080f21c142b14b44cec9de1ad751f09abf341712fe6eea73e7fe14a4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_8.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 82472,
+    "sha256": "788ea563b70969f67b25d2ee9a3b08166ad9cb33d826adf06621aab9e0a14a53",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_80.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 109547,
+    "sha256": "d6aebd83a227a98a1783db8ee9072a82f72f7749cb149ea48b4f74207fd20268",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_81.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 81806,
+    "sha256": "eec708effa76ce41e9c92bce1eca6170e9d9e0b8097077bb85b4191c9582cfcd",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_82.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98460,
+    "sha256": "520bb41aefe4f440ba99d2952a8b3a38140181a5e0de5153f33b3d84828e404a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_83.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 92388,
+    "sha256": "ef8a6ff11916b40a0f4817cdb838b89000131438ee02f2b0c012fa3a6811c517",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_84.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 115529,
+    "sha256": "41f0e7e49734debb5f733f95e3eb95862e766a41f463d968de1dc82e61ed3c07",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_85.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 126779,
+    "sha256": "f7521b55b8596d6e6910061c15228783b124ee2b8ac5a7e1fb25aeb05302fcfa",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_86.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 118064,
+    "sha256": "82c608b55c01905b89282b55966fec14370e14d0f1eede2be4c3ed5e16d2228b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_87.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 118363,
+    "sha256": "95d5ca6fcb908806855075ac1c81ac775320dd2b5274c7c39335e58f21e9d2e0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_88.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 148505,
+    "sha256": "64e031b118e1e07a952891ed367891a235d2b852f8d0982188145854b0d78e81",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_89.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 138054,
+    "sha256": "8036236e4758c91faf7a0e67ce1b6988477a1b742cdeb57a779e79d132b3d6e7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_9.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99727,
+    "sha256": "3ebecf954c2ff036394f18b3a6484a0f35e057d46bf43fbcf687241565082a0e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_90.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 111209,
+    "sha256": "0e16e528b7498eaf559e04e021ecfcd3da311c987c19ef1d3837c868ebb28280",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_91.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 135979,
+    "sha256": "dd0a9e35d454860548facf12f3821a53c5f950a4906d731e35f1666b308c24ea",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_92.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 135986,
+    "sha256": "441bea16a8efa5d0a43ac4410a197ba28312b26820bff1e990e575b2079bf230",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/april_fools_bg_93.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 124956,
+    "sha256": "e03ade99485b5734c596a375749526f0b69da51b39706ce6d3b6698d8be3f530",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/christmas_romance/christmas_romance_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 358398,
+    "sha256": "2d9c4996f1e50707b4eda7f22933255688637fa9bec308344ef5c7c938b43353",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/command_world/command_world_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 270634,
+    "sha256": "af012fff8d6309e6b6375ee7579de6743139a5437784e2811dbb6122f4802019",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/command_world/command_world_bg_2.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 380917,
+    "sha256": "7451ddf0f527c07b74315adac2ad436bd1aad84338e166542d964a49dbbeb9a4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/command_world/command_world_server_bg.png",
+    "width": 376,
+    "height": 550,
+    "bytes": 71487,
+    "sha256": "e6a213710b88229de53483ddc200b605231323aad20a67229c446327fa33902a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/cz_bg_1.png",
+    "width": 278,
+    "height": 188,
+    "bytes": 18498,
+    "sha256": "117fedde2cd1fc9a73e716367807a1453a7c0d8270d2776fba32dfe45118bf37",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/deyf/deyf_hd_bg.png",
+    "width": 1624,
+    "height": 516,
+    "bytes": 163366,
+    "sha256": "bcaa8fc47dbfcf348b146b5c17fae6d4c593d4024d6ada41c6557d7cb7341d54",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/egg_prom/egg_prom_bg.png",
+    "width": 831,
+    "height": 398,
+    "bytes": 122677,
+    "sha256": "70697d06a921d9c91adeb0b2b97353f620f5a189bd283c382af1d0758a37d1c3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/egg_prom/egg_prom_bg_2.png",
+    "width": 802,
+    "height": 240,
+    "bytes": 23565,
+    "sha256": "3a7f1a110639b55fdcb00daa8f8f016faacd572dadedc5a9ceef593e1f84da0d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/group_buy/group_buy_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 418952,
+    "sha256": "6bf745c7d224498d4f4a6640e1139113697f6ea9bc2ec1aba7daa70d93ae500f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/hd_button_bg.png",
+    "width": 163,
+    "height": 636,
+    "bytes": 44973,
+    "sha256": "5057a34b6d76457a3488a6c8e3e5a102283e59e19d1b48acd8487a14557d312c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/hd_list_bg.png",
+    "width": 214,
+    "height": 462,
+    "bytes": 13163,
+    "sha256": "851fa07f858770b916750fbcef0f25efaa418974bea0dc54f659281dadd9c31d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/hd_list_bg_1.png",
+    "width": 404,
+    "height": 492,
+    "bytes": 41113,
+    "sha256": "4fcb710e624e8b9c01022accdd0a9e962111d92e209cd5279d2a1f4d703f53d4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/hd_list_title_bg.png",
+    "width": 242,
+    "height": 32,
+    "bytes": 3777,
+    "sha256": "b8b96fd42eb2ca1b3f7e3a02578ca7698859912fa64db91aff673045fe9fafba",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/hd_list_title_bg_1.png",
+    "width": 184,
+    "height": 50,
+    "bytes": 4872,
+    "sha256": "72ca58991611f6ccf0b12154ddba8e450cb20845ea1e9f6475ccc654a1eb2772",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/hd_list_title_bg_2.png",
+    "width": 242,
+    "height": 32,
+    "bytes": 3678,
+    "sha256": "1dec3c8336849abe054626d875be75d617afb3e64a0578bac019d3627bf090d5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/hd_tili_bg.png",
+    "width": 1624,
+    "height": 488,
+    "bytes": 150292,
+    "sha256": "d007d6de58f635bdd0ab7739926c80feed3d32cd3ded1aa835b04d465fd3f84f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/hf_text_bg.png",
+    "width": 472,
+    "height": 183,
+    "bytes": 21431,
+    "sha256": "72e3df3cddbc32cfcab2e792ee80f6bfa7c3a5c0675735aea1c4fe31fa6dbc51",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/lim_pool/lim_pool_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 143108,
+    "sha256": "eef2c5b86ca69ec85cda591b24a712ababb419feb4fd204c4caf14d5617f9ca8",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/rescue_station/rescue_station_background.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 300215,
+    "sha256": "3d95b812e1af0842c4571c6f4c6c58e8f3f8cec98699c691e82cdd049d080c7a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/rescue_station/rescue_station_background_1.png",
+    "width": 325,
+    "height": 141,
+    "bytes": 1950,
+    "sha256": "af3130e4d5992ade75ee91e2d6b944bf5f15e54a99e8b1c4f11cc4af965962b2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/rvip_bg.png",
+    "width": 1068,
+    "height": 499,
+    "bytes": 128578,
+    "sha256": "b9aa3703365987de89060c1b4defad430744d89d9249e9ab312c21e2f5defdf7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/secret_treasure/secret_treasure_bg_1.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 291785,
+    "sha256": "f8ba0a51800c694b22cad2b94add1bdd5b3311b2a2947d22526bc568650c0fbe",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/secret_treasure/secret_treasure_bg_2.png",
+    "width": 902,
+    "height": 627,
+    "bytes": 123436,
+    "sha256": "c1dd2bb87e6d15dd4c533ee8592362980de41c23ccace7a9cda3a8a6b2dd4841",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/service_carnival/service_carnival_bg_bar.png",
+    "width": 1624,
+    "height": 74,
+    "bytes": 33020,
+    "sha256": "23261afbab23e9f39a5b58b2cff0e3e60d520b560c40e6f9da3d156147268c27",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/service_carnival/service_carnival_ph_bg_1.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 340392,
+    "sha256": "c84cd4a52811553c68fb70572c59597b2e17b7d65671bd9592fa88b2008b84b6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/sevenDay_recharge/sevenDay_recharge_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 280774,
+    "sha256": "f4121c73928966780c5554438fcbe666f2b88d4c3c7b452e6f7a77fed434bab9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/sm_hd_title_bg.png",
+    "width": 630,
+    "height": 70,
+    "bytes": 23592,
+    "sha256": "ebf9bfeb958e3a0ef5306637aebdf23b865329f4c067c3195b28c401f6067865",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/sm_hd_title_bg_1.png",
+    "width": 630,
+    "height": 70,
+    "bytes": 23803,
+    "sha256": "3f2dd37b764c62d9779be77df126e06526feca8212bd7ac4862c7407578882e7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/summer_drink/summer_drink_bg.png",
+    "width": 989,
+    "height": 660,
+    "bytes": 89861,
+    "sha256": "1df14b5b9a2f9b1913de5f5c62fe0ff35951d12116cb282bd39b5c934f606e8e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/tequanka_bg.png",
+    "width": 252,
+    "height": 337,
+    "bytes": 30316,
+    "sha256": "a23815880a4b50be80fc80b390c2f546723f72b3b7c754b520bdaa825caf40f0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/tequanka_bg_2.png",
+    "width": 113,
+    "height": 39,
+    "bytes": 4131,
+    "sha256": "9b3f964af90f8835b91dbaf832ec9f6b773a0f046221d664ce0d482476acac6c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/tl_lq_bg.png",
+    "width": 160,
+    "height": 208,
+    "bytes": 14174,
+    "sha256": "dc6aa6eb6520fa0b71356baaecf92a022553779f04cd6e48bb6ce3fcdf02b14b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/tl_lq_bg_0.png",
+    "width": 54,
+    "height": 184,
+    "bytes": 5356,
+    "sha256": "bbc4d9c4fd2819d119c8c4eaa9d57f52283a6c0d98612af49f0f4cf6f8351874",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/tl_lq_bg_1.png",
+    "width": 16,
+    "height": 156,
+    "bytes": 2321,
+    "sha256": "ff6ad090171d598e982e2f1a636ffc82bd2b72f71c5ae16beff6e052c311e2ad",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/training_camp/icon_exp_bg.png",
+    "width": 50,
+    "height": 50,
+    "bytes": 1850,
+    "sha256": "939997105df7e1cdae81e34e1abc3b773d64d58dc9feb6223674b8ee83b790cc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/training_camp/package_bg_1.png",
+    "width": 200,
+    "height": 50,
+    "bytes": 2380,
+    "sha256": "4fb17024e70f7da29dfa5598d0be9fcc3ed941e2d9b72e56c39f3359e1ef2fea",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/training_camp/package_bg_2.png",
+    "width": 200,
+    "height": 50,
+    "bytes": 4493,
+    "sha256": "9761c0732eddd3ad200dbe7cef67f307ded66a630b438e3ed88a572cf9836972",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/training_camp/package_bg_3.png",
+    "width": 196,
+    "height": 325,
+    "bytes": 29430,
+    "sha256": "fe5754e700bdf5f3167fee9ed659a637d308c8d49b009b1e211342ad20a42f0b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/training_camp/training_camp_icon_bg.png",
+    "width": 120,
+    "height": 38,
+    "bytes": 371,
+    "sha256": "f6bbbd0c944efdfa6bc65f32ffcbdce93d39693100796d2ba71bf706bf687c06",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/training_camp/training_reward_view_bg.png",
+    "width": 170,
+    "height": 330,
+    "bytes": 19932,
+    "sha256": "4aa268fe4e767d8b5c4afd702af8fb3b91dc6783a299d54704be03e57290c77f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/user_return/user_return_bg_1.png",
+    "width": 1624,
+    "height": 504,
+    "bytes": 217959,
+    "sha256": "cc15c5c030bd085e11eabf89e994cfffa0d888a046f8ff16d99be09f175619a6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/user_return/user_return_bg_2.png",
+    "width": 1624,
+    "height": 504,
+    "bytes": 255591,
+    "sha256": "be2ab87561d4c6f9bc32893266b74352f888fef0e26a35dfa3d2330ec318595e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/user_return/user_return_bg_3.png",
+    "width": 1624,
+    "height": 504,
+    "bytes": 248823,
+    "sha256": "aa342c5e12d275ba4129bfaff164ee2395e764e35ebd6851ada59e94fa6c1591",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/user_return/user_return_bg_4.png",
+    "width": 720,
+    "height": 419,
+    "bytes": 114047,
+    "sha256": "6226bc16ab16858235bff59cc47421f8c5963a933bca38e8082ab581a35c87a1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/user_return/user_return_bg_5.png",
+    "width": 1624,
+    "height": 548,
+    "bytes": 333339,
+    "sha256": "c7d12f5869f7cffd5c462cc322229fdc66f368704b4577abcea6802cc9dddb5d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/user_return/user_return_btn_bg.png",
+    "width": 160,
+    "height": 498,
+    "bytes": 35982,
+    "sha256": "cdf48555162cd0178484164005dbbd4880b0525bde7e64078e9177d09e0244c7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/vip_bg_11.png",
+    "width": 943,
+    "height": 525,
+    "bytes": 32190,
+    "sha256": "e66cfb105b14fc5f47460aa7b6fe5ce8f9d52b3a4a9e2757433ed361bb1022fc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/yueka_bg.png",
+    "width": 1624,
+    "height": 458,
+    "bytes": 152298,
+    "sha256": "9792e5e0c626fb4d01961a48383aa3ba1a2b3d63cd9b6ba356b3227347de034e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/yy_bg_02.png",
+    "width": 255,
+    "height": 358,
+    "bytes": 5916,
+    "sha256": "0da354a2f6aea66329e5e27527889e58e97f9d9e2b1d3139f9d3926005df2bed",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/yy_bg_03.png",
+    "width": 255,
+    "height": 358,
+    "bytes": 5653,
+    "sha256": "4c3c112cac3c4f598e541b54065e64ddd6aa622ac4c8e9aa0a880721672e7def",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/yy_bg_05.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 28364,
+    "sha256": "4c266e1d586552cfd26bbbaf1de5038404e7959581b79a14ae665889cbdebbf6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/yy_bg_06.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 28420,
+    "sha256": "e9eb5d84c2eff78c3272b6dc8315b77b85de654322f813ceafb377146de825d3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/yy_bg_07.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 28631,
+    "sha256": "23935b5e23e3dc7b19cce8c675ac7a7ea73dfff1cb923d4ab51adbc1ad46d23d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/yy_bg_07_1.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 22589,
+    "sha256": "6184199344c5439ccedda6749d490b89a0f5258baca29e9091fc5dbe5cfb307c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/zhaomu_bg.png",
+    "width": 1624,
+    "height": 432,
+    "bytes": 227006,
+    "sha256": "8c1a18f08cbf5fb89e4b6b74b9fd23a984c1b438910f828a637186b372477c51",
+    "principal": false
+  },
+  {
+    "path": "assets/res/images/ui/text/sm_hd/zhongshenka_bg.png",
+    "width": 885,
+    "height": 533,
+    "bytes": 291039,
+    "sha256": "6c68f2f57c18f5e6e5a70ceb7680aa795497c35b4d3e1bf853f2defa31019c6e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/bg_gonghuizhan.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 53608,
+    "sha256": "edc06b96f15bba2e5ece83b2a38c164b57e189a535c87166209d3eaf634a1e39",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/bg_jinjichang.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 52332,
+    "sha256": "8741feb73cce00df3e39197bbb342fdca8c73958af237f8fcc982ea5b9c50903",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/bg_kfrjdz.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 53767,
+    "sha256": "5a94d0cd8cdda68ac87745e41059bbae45206b087c29102328ecb670e0b16beb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/bg_kfxdjjc.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 59678,
+    "sha256": "702847c1d3f9dcfe548a785db17836dba66d979da2db095b9cdaff4454d39bac",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/bg_kuafukuangzhan.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 66640,
+    "sha256": "292c0cf857f3a77a5988dfc75e463112f7cffdf9d10e0149a96444ba25cd7c19",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/bg_kuafuwangzhe.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 49560,
+    "sha256": "b40bfd5aa69cada929da17aaf688326eb8fb1c013d331cd245efc8c93957ccff",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/bg_wangzhezhizhan.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 46355,
+    "sha256": "4c074af2981f2503413c891ecbdee54d2cd74ddd0736be68a5ce6d02ee55f9db",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/hb_bg.png",
+    "width": 49,
+    "height": 47,
+    "bytes": 195,
+    "sha256": "fdf19ee3c0e2bcf4d5cdf758279cbe26a312396813112e6fba284c338befc7e5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/ranking_reward_bg.png",
+    "width": 259,
+    "height": 335,
+    "bytes": 24145,
+    "sha256": "0968017506d46ee3900f0cacd3f6630fa3ebc2dfa6f60928dbcccc5cdd65e4d9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/yy_bg_1.png",
+    "width": 978,
+    "height": 472,
+    "bytes": 51702,
+    "sha256": "34753add348baa92bb0ac8462f7d6cf699510bc4a97118c664341ae5b43cc976",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/yy_bg_2.png",
+    "width": 978,
+    "height": 472,
+    "bytes": 68480,
+    "sha256": "2ccf8e9b68d688ea9a21b1e8cdbd8883604de4f2b44dd31f728de7a62012f8d4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/activity/yy_bg_3.png",
+    "width": 978,
+    "height": 472,
+    "bytes": 55792,
+    "sha256": "9522ee7d92824abaece9efdedab8f80a658cb4239da9eb515969dc7c6319f0eb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/bar_dark_bg.png",
+    "width": 100,
+    "height": 100,
+    "bytes": 99,
+    "sha256": "a643b8c2f2541f431aaaa08dd060fc10a759b7b074d03fe303425fc69cb9fa1a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/bar_name_bg.png",
+    "width": 72,
+    "height": 226,
+    "bytes": 4898,
+    "sha256": "e022289a0e9b2039cffbe1552b36e8a69099f9883140bb1c90c10bedc59b172c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/bar_white_bg.png",
+    "width": 100,
+    "height": 100,
+    "bytes": 99,
+    "sha256": "f4277a96203470316c0271ab1925603c5c3242eca61accbaf51b90ab39100564",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/bg_erjibiaoti.png",
+    "width": 304,
+    "height": 50,
+    "bytes": 524,
+    "sha256": "9f5c2962785f7eb79c5738bab397840da5524daf9c51dd2942cb441721f81061",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/bg_shuxing.png",
+    "width": 314,
+    "height": 140,
+    "bytes": 4113,
+    "sha256": "46be4ab0c97b176d777c1b1dfd52bdcba277ee10e87a4a0e7c9ca094711cb242",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/bg_top.png",
+    "width": 172,
+    "height": 28,
+    "bytes": 243,
+    "sha256": "a4767b6e31d1e13fda2a870b1a5d8c41fa3a3b9bcc2af67ea9caa5d04a4288d6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/bg_up1.png",
+    "width": 216,
+    "height": 64,
+    "bytes": 1492,
+    "sha256": "50e11e9a5b673e8f12d034dd8220a3c3338a46d69a295d5bd71027b8f7b8b0e5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/bg_up2.png",
+    "width": 330,
+    "height": 50,
+    "bytes": 1049,
+    "sha256": "13d8d1d5384669196166dc7c854d54d4accd90bf90d6f5ce7221b29542c74d30",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/button_bg.png",
+    "width": 640,
+    "height": 119,
+    "bytes": 6667,
+    "sha256": "3bb050e070e035c6aeaca31678baa365c0194940b071f551ffdd64a15c708d35",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/cz_bg_2.png",
+    "width": 20,
+    "height": 31,
+    "bytes": 154,
+    "sha256": "d9d67ed1f9bc04a5b7d27b5f4e819d0d65ba3ebf1b8f4d224e92c238d2a8ce86",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/hqtj_bg_02.png",
+    "width": 674,
+    "height": 90,
+    "bytes": 8726,
+    "sha256": "15056ebc17b84e4981a34d539e5d925ce7fa5f57f54acf87fd31cbc929dc87a7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/jianbian_bg.png",
+    "width": 82,
+    "height": 182,
+    "bytes": 632,
+    "sha256": "636fd955ad771af09f708678811255311799993a238d53f25c2ae6cbed649894",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/sm_title_bg.png",
+    "width": 630,
+    "height": 66,
+    "bytes": 19717,
+    "sha256": "b2fe4a28d90daf816e868555a42a4845054ab05ab2cabfd73d0e7f5997a728b1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/super_skill_name_bg.png",
+    "width": 35,
+    "height": 160,
+    "bytes": 265,
+    "sha256": "8f2ab4ddf3a9d7e9cbd8b0471cab4b02a091167f83e4d9733546814dfd9bfe31",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/tianming_shuliang_bg.png",
+    "width": 95,
+    "height": 25,
+    "bytes": 288,
+    "sha256": "e6a3982a2935798bd412cd1f40967951ee124ae339a82ba7cc48fde1c952b0bc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/zdsl_bg_1.png",
+    "width": 847,
+    "height": 46,
+    "bytes": 10916,
+    "sha256": "4be67920677e08d1880dc42e8fa6ac5359dd0e6314827a1ea112ce9a3c7a0ebd",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/bar/zhanshi_name_bg.png",
+    "width": 362,
+    "height": 70,
+    "bytes": 323,
+    "sha256": "1e04fb91026ed6c8aa15bed930f6e2bbbffc979cde88020a1ba49cab64583ca9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/boshu_bg.png",
+    "width": 366,
+    "height": 80,
+    "bytes": 7900,
+    "sha256": "b3d4d4ecffcc5a4a8a504421e35287dce034c121dcef442e64120f1509c626df",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/bossjieshao_bg.png",
+    "width": 128,
+    "height": 420,
+    "bytes": 2085,
+    "sha256": "6d106754c3e84a79630efcc8308589223747de8ccfe464a3a453fbb72f8cc691",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/bossjieshao_title_bg.png",
+    "width": 86,
+    "height": 38,
+    "bytes": 370,
+    "sha256": "aa351c1a367ef83c7a39df94ac65a85cfc8d9cc2afc26eda2c6640fa762be642",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/bossxx/bossxx_bg_01.png",
+    "width": 922,
+    "height": 422,
+    "bytes": 73611,
+    "sha256": "89c202a408ceeb4871ee3f555865a571e580e69ebdb232177794fe65637e866e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/f_win/star_bg.png",
+    "width": 68,
+    "height": 66,
+    "bytes": 2747,
+    "sha256": "4ea69a07becabcacbc44f82f3a1505d660150fcff6e59b90cefac77ae5ac447a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/f_win/zdsl_bg_1.png",
+    "width": 847,
+    "height": 46,
+    "bytes": 6134,
+    "sha256": "be26f897018ee644438c9bc92a42e728c4ac44183d6c45e8b59d2fad8ef57872",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/f_win/zdsl_bg_2.png",
+    "width": 844,
+    "height": 130,
+    "bytes": 26310,
+    "sha256": "39ea07c8dfd2843fbf47c986e4641c4fbee65d40fc17f41d7d5f85261ac96234",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/f_win/zdsl_bg_3.png",
+    "width": 843,
+    "height": 136,
+    "bytes": 8700,
+    "sha256": "ee0971adcce236d837821c18e66927e4774aecf4ce3ffe880d4e2bb635bb8ca6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/zdsj/zdsj_bg_01.png",
+    "width": 607,
+    "height": 351,
+    "bytes": 5304,
+    "sha256": "fdafe304338ed2ae7e7aedd8142d27b548e58cb8eeb3283f2d8e9b28bb1f3830",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/battle/zdsj/zdsj_bg_02.png",
+    "width": 547,
+    "height": 40,
+    "bytes": 4402,
+    "sha256": "48536f22e8848a0d0310213d0581bfab320d41043a8476c5e6cae323c622f170",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/button/evo/jinhua_bg_01.png",
+    "width": 1624,
+    "height": 498,
+    "bytes": 224541,
+    "sha256": "7fe717684787cad7a2432159088ffb4f59ed77bc7af3ff7c9e2df0a5560ef6f9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/battle_win_bg.png",
+    "width": 718,
+    "height": 262,
+    "bytes": 16627,
+    "sha256": "d30b9e87c8ee5c8a640aad17ecdcfb31b010ff1c392d37a557afbd00f471f988",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/battle_win_bg_1.png",
+    "width": 810,
+    "height": 496,
+    "bytes": 15945,
+    "sha256": "4fa61b34b8e3f22448605cca1aaca164d5f2e9176031c3a1497d895b611ce0e9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/battle_win_bg_2.png",
+    "width": 765,
+    "height": 509,
+    "bytes": 92686,
+    "sha256": "69e2d00588aeb8f643610072eb1e4920ad503d6e3d77fe8502978475a410499a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/beibao_bg.png",
+    "width": 512,
+    "height": 394,
+    "bytes": 87801,
+    "sha256": "1d79ada725f6f2800edc2ada723e27aa3c04ea5ecdbdee9f0e0b66ab735549b3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/bg_levelup.png",
+    "width": 228,
+    "height": 131,
+    "bytes": 929,
+    "sha256": "8d4b2d2eba600b9fc1a357b9cb5d2a5c27ebe3abc397881e062e749f4efdcfee",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/bg_yun_1.png",
+    "width": 272,
+    "height": 116,
+    "bytes": 17294,
+    "sha256": "5254bce4fe5f5ed5b788f00961d4bd5c573d3c38ee0a8fca30a9e9a83c6d6ef1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/bg_yun_2.png",
+    "width": 500,
+    "height": 200,
+    "bytes": 29150,
+    "sha256": "be32f527f029633a2ed3fd6c711a55688434d04f063efb2d5a1a0ff494a0a951",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/bg_yun_3.png",
+    "width": 306,
+    "height": 68,
+    "bytes": 12711,
+    "sha256": "9d1b81cf97343b0344c771c4807378f0cd41f678c0f8089f937d9846ed42e9c1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/bg_yun_3_1.png",
+    "width": 170,
+    "height": 68,
+    "bytes": 793,
+    "sha256": "ef79118bfe22cbb16339c41d311dda3658a7d9cc9c4202157c14957038f33753",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/boss_bg.png",
+    "width": 478,
+    "height": 480,
+    "bytes": 58721,
+    "sha256": "dabaf6cfc4c3e796f9ccbb51a0790940f7341ddb8abf6470f934b01d9ad81d4f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/home_tips_bg.png",
+    "width": 62,
+    "height": 62,
+    "bytes": 403,
+    "sha256": "99b637bb64ef223eddf764a1136eb1516fc6ee0d38f9a5247303665bba34470d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/qiandao_box_bg.png",
+    "width": 642,
+    "height": 402,
+    "bytes": 129145,
+    "sha256": "50505369d20b2a8936551163dbbbeefe8c63fd50d145200201d4b00caf5d30e4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/qianghua_button_bg.png",
+    "width": 160,
+    "height": 498,
+    "bytes": 39018,
+    "sha256": "80b25bdb99b45ad12a08a54312fb8e441b30d25d9cca4bf80a516478b6383705",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/qianghua_button_bg_1.png",
+    "width": 160,
+    "height": 498,
+    "bytes": 37354,
+    "sha256": "a4b667355b2b588540dfa4cef6479dd4274b96edaec3c17bb1281310446182f7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/tz_bg_03.png",
+    "width": 158,
+    "height": 45,
+    "bytes": 4209,
+    "sha256": "bfba529bed17d5bee469c3029a2924f458216a5853126c091c26e9dae9b8659b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/decorative/window_box_bg.png",
+    "width": 446,
+    "height": 246,
+    "bytes": 35968,
+    "sha256": "2127bffa016b5a33fd94b019dde9889a1264aee91a6c300651c8682a0aee5912",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/dialogue/duihua_bg.png",
+    "width": 251,
+    "height": 108,
+    "bytes": 698,
+    "sha256": "52024e5c31eff7c0a854132304fecc5c754da478a78bbb964d9af285821c1ebe",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/edit_box/share/share_bg_1.png",
+    "width": 870,
+    "height": 516,
+    "bytes": 139189,
+    "sha256": "79e5206a25e5adc340734ffa6ac0385c586f04ddd75a839ab008f59920846cef",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/edit_box/share/share_bg_2.png",
+    "width": 870,
+    "height": 516,
+    "bytes": 177999,
+    "sha256": "bae097fc02aed814e21b937084eaf3af40ad06fd3f43fa3377d46935c9d69c6e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/effice/effect_artifact_bg/effect_artifact_bg.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 51423,
+    "sha256": "c30f2bc68d3a3e57f8be9608ba91e0d1a2350d41dc0d84d328442b65f107bd36",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/effice/effect_shop_bg/effect_shop_bg0.png",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 31549,
+    "sha256": "53a83c13b31a7abb9328d5c0e2adb631adac45f401adaff3e8dd8e71b036fa33",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/effice/effect_ui_bg/effect_ui_bg0.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 57569,
+    "sha256": "213191e41a6fb59b4e54030b0c30517d08fd6efd5465b41b696c8ec76bc5dfde",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/effice/effect_yangcheng_bg/effect_yangcheng_bg0.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 67979,
+    "sha256": "121f4904c9730a9b875a7702dd018e9e30315267facb7b64b6e0a11ab09bc004",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/effice/effice_super_skill_bg/effice_super_skill_bg0.png",
+    "width": 16,
+    "height": 16,
+    "bytes": 110,
+    "sha256": "227a2c0a2c2cd377f5ef86d8e7d3f9da28de20d5efd1f0c665939925078dc211",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/login/shuru_bg.png",
+    "width": 265,
+    "height": 50,
+    "bytes": 550,
+    "sha256": "eb899fb2d44375299d0dc7109143bd06c49122c5bef2d22a980915ea5c08c179",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/login/shuru_bg_1.png",
+    "width": 116,
+    "height": 92,
+    "bytes": 416,
+    "sha256": "8fa9a2778f5513a98b6a7ab92606f0ef5d94df17f72df8b302dc02b6f56daaf5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/arena_bg_1.png",
+    "width": 1624,
+    "height": 94,
+    "bytes": 10279,
+    "sha256": "028732dbbc9d4df1ed876e87eab6278e16b5e4547d570f2d6a66035fa4cef2cc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/arena_bg_2.png",
+    "width": 1624,
+    "height": 102,
+    "bytes": 11666,
+    "sha256": "deffe1247f7b35c9ca51007b393980c692cc3cd38c567f49584770cbc15c6b09",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/arena_bg_3.png",
+    "width": 192,
+    "height": 108,
+    "bytes": 8164,
+    "sha256": "bf9344121f96eaefbef53be4e2fb8d0f84d6e259aa45a3361a8491bbf5184953",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/bg_jingjichang.png",
+    "width": 188,
+    "height": 30,
+    "bytes": 348,
+    "sha256": "f375edee6d18651de1ce6919a7ee688694c58ac61649bec3bfca3562e398d4e5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/jiesuan/jj_bg_01.png",
+    "width": 841,
+    "height": 134,
+    "bytes": 4255,
+    "sha256": "c961b704d1d005eb811aefae7d0f5499a17983e8d8b52f37fb14ac43f6a09549",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/jiesuan/jj_bg_02.png",
+    "width": 841,
+    "height": 134,
+    "bytes": 4479,
+    "sha256": "e7f91d133ce63c4a238a154ab6b5d054ac8cf2f97749f1e9a122a421f5a54fdc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/jjc_jf_bg_1.png",
+    "width": 650,
+    "height": 106,
+    "bytes": 4965,
+    "sha256": "6574578ce2cb0b8de1ae5846e8ad5533a64f160cc0e8372633e4a98de4ac17f3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/jjc_phb_bg_02.png",
+    "width": 592,
+    "height": 34,
+    "bytes": 5015,
+    "sha256": "0571bfede37493fa5f224ef1c5fd73fb32d15af0e4514e34d3de1149adc84b9b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/jjc_phb_bg_1.png",
+    "width": 719,
+    "height": 106,
+    "bytes": 11427,
+    "sha256": "2e726c8cf515144c3846b96137c61dc958cfc3340461cf4467f3c7e408e76015",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/arena/jjc_phb_bg_title.png",
+    "width": 852,
+    "height": 80,
+    "bytes": 8009,
+    "sha256": "c06e009bb83979fab26e72c4fd48612620c226517b31724f8d5a1e93f2b3ccb4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/bg_huodong.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 50052,
+    "sha256": "5351dad0222f620e9d4aafcd24962a1e2fb4cfc49e4a73fde39b920121f8761b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/bg_jinghua.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 48132,
+    "sha256": "97c2804b681482f0431d924f66792367900d16a56c98455157536712d4c53f01",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/bg_shilian.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 51763,
+    "sha256": "aa68557e83b66f063f1a8f1432509ea87dfbe55c934f25974fc42727179dc404",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/bg_tansuo.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 53374,
+    "sha256": "6852b1376d40bbf11e43134290d9515cac6a01beb32ac66bb2650edd42a731df",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/bg_tansuo_f.png",
+    "width": 278,
+    "height": 506,
+    "bytes": 67869,
+    "sha256": "a3fbfdb7f7ddd5840fba2bb550d3b5c430cec7c42fd37ff11f38a30bf55d1597",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/huodong_guanka_pic_bg_1.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 236212,
+    "sha256": "884c3331857c9d0d18f2b03a446c6fd2df3f2bdbf409b914fa1c4097b4ab5b1a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/huodong_guanka_pic_bg_2.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 222078,
+    "sha256": "e583496d8393421fb1ed1724740ec09ec9c9f549f1d1e17c4085c446ab3adefc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/huodong_guanka_pic_bg_3.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 231981,
+    "sha256": "77bdd3be11e07978bb9f5cc976adc9c24a757f6c3a250eac81a485f0a4eb7ee1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/huodong_guanka_pic_bg_4.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 241642,
+    "sha256": "a242a7f48d4454ab8cfcbcde8a012fd621d545e91e4c547babc842725b7f7249",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/ndxz_bg_01.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 20644,
+    "sha256": "a195448cc1561bfdbeab31beaf4c300393ce3093d3d6c44c23f090f233c9753d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/ndxz_bg_02.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 19210,
+    "sha256": "92890b829016a310de3edd750a64f134e480a6cd0167cbe7b3243a6ec91a8a4f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/ndxz_bg_03.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 18578,
+    "sha256": "32ebac3486d9c5b716f28f64d67a0d08fc8b73a234802c5f4e56be5aff8b746e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/ndxz_bg_04.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 19876,
+    "sha256": "1632cd7b9a10b57a0e22b0b5106a8b65cdc697b71faedf49583e5d25ac834718",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/ndxz_bg_05.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 19794,
+    "sha256": "76e5fdc416441821a34c73d1fc1295d843ab9ddbd6f0cc9377fe70df139c9870",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/ndxz_bg_06.png",
+    "width": 154,
+    "height": 320,
+    "bytes": 18470,
+    "sha256": "4240a60beb50bf824985d6f4323f90e90010bdda239ce95e573d98025896ab24",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/tz_bg_02.png",
+    "width": 873,
+    "height": 149,
+    "bytes": 31217,
+    "sha256": "20149cd482d0a07cb626e0dbf55e2fa9c951933fa5960cb14a21b770a9a34a98",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/play/tz_bg_04.png",
+    "width": 226,
+    "height": 43,
+    "bytes": 1056,
+    "sha256": "15ddc3a9c56df0054d877053d3445cf949686bb6fa96522d97f42308778b3737",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/bg_exp.png",
+    "width": 176,
+    "height": 22,
+    "bytes": 669,
+    "sha256": "8ab527d78ce324100c4ba7793cd0086b9139b1a92af05f294fa50558d8a663be",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/bg_jingyantiao.png",
+    "width": 351,
+    "height": 23,
+    "bytes": 468,
+    "sha256": "fd1445d5bf7ab0753febd7514e465bf01fde29cc51165444363ac50b24ec4c42",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/huadong/huadong_bg.png",
+    "width": 260,
+    "height": 22,
+    "bytes": 202,
+    "sha256": "0956313e3cd3ec332dec7efdcf2fb3754fcffb0aa76a8a312362639616337bed",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/hy_loading_bg.png",
+    "width": 460,
+    "height": 18,
+    "bytes": 4468,
+    "sha256": "6660980b5388b54cdf4f0dfa804c48607a6ee1c5c78bf9b0a323a723213dd8ba",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/legiong_lv_loading_bg.png",
+    "width": 449,
+    "height": 56,
+    "bytes": 5358,
+    "sha256": "79fb467bba6194fd028297cd27e54c31fbf4d0d9d4b8b5bad7122f411c4823c4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/pj_jindutiao_bg.png",
+    "width": 418,
+    "height": 32,
+    "bytes": 1131,
+    "sha256": "7d0dcdb0c290475f01bbe9033719261d12de1e5234c22f160559863897c796ea",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/pj_jindutiao_bg_loading.png",
+    "width": 418,
+    "height": 32,
+    "bytes": 322,
+    "sha256": "38f2246f2892fe29f98ddddc5cea7c21b6118595bf4069fac7d6ed15d3ff4020",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/qhds_jindutia_bg.png",
+    "width": 148,
+    "height": 24,
+    "bytes": 491,
+    "sha256": "b0d5887342a193307214bc508591e8c3f3a1d669ebd11b6462c1d2f4f7009dc4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/qianghua_jindu_bg.png",
+    "width": 350,
+    "height": 28,
+    "bytes": 375,
+    "sha256": "18802419a2770c558f2f64ab95f79cdedeaf6e3ac8a62fd1f7a17fdfba19d2ae",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/shop_chongzhi_loading_bg.png",
+    "width": 336,
+    "height": 42,
+    "bytes": 6049,
+    "sha256": "dc11394284fd83cd8ca79cc2ded20092e06551e95ce1b62ccf39a248574e3141",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/sm_pve_loading_bg.png",
+    "width": 340,
+    "height": 16,
+    "bytes": 652,
+    "sha256": "d324e41ed0eca51ee53708fbea27d40889426a5b88cd9e70fba6a1156bbd1a37",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pragress/sm_role_streng_lading_bg.png",
+    "width": 443,
+    "height": 31,
+    "bytes": 125,
+    "sha256": "d5358d164f8b8b1a5531903bc2a37a978be4bf7dbd0acd7541eb3336ba97a932",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/jy_pve_name_bg.png",
+    "width": 314,
+    "height": 142,
+    "bytes": 8032,
+    "sha256": "d5cdee6b0ddbd24e680662a608231f5cdfe235b9a766ad24df2e0ca93e966b48",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/jy_pve_role_bg_1.png",
+    "width": 252,
+    "height": 232,
+    "bytes": 17608,
+    "sha256": "cdf14b3b11182462ae12162f3ca478dcc89241091cd523d430a39bf7aadbe46e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/jy_pve_role_bg_2.png",
+    "width": 252,
+    "height": 232,
+    "bytes": 15700,
+    "sha256": "8d2b6e75e369a07f0a9c5200300a7f1a46a5aae4c5c33a556974ce11bfad97ec",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/lv_2_res/gq_bg_03.png",
+    "width": 18,
+    "height": 15,
+    "bytes": 130,
+    "sha256": "1affa19c50cb4468c4cd7dd7ca32f3eaf38be55f87d07c93463e9c1d196907c9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/lv_2_res/gq_bg_04.png",
+    "width": 19,
+    "height": 224,
+    "bytes": 160,
+    "sha256": "a1a93ebe3270361644d2de1f4062f94fe2c19a662ecb1969c4d21eb360819798",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/lv_2_res/gq_bg_05.png",
+    "width": 411,
+    "height": 68,
+    "bytes": 8273,
+    "sha256": "ec0c986ee4dc6fe68c5bf617aad2b964d16c4f6f2c8ad44bbf5824ef23a48054",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/lv_2_res/gq_bg_06.png",
+    "width": 411,
+    "height": 68,
+    "bytes": 8065,
+    "sha256": "6b8e09e32f97845baabc63401b348b029a075f00e868d0e925e103e1299f46d7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/lv_2_res/gq_bg_07.png",
+    "width": 411,
+    "height": 68,
+    "bytes": 4137,
+    "sha256": "c83365792e249fabdd7f77c462271cf7c2686be68e645ddd4fbdee4719fa59aa",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/pve_dup_name_bg.png",
+    "width": 262,
+    "height": 42,
+    "bytes": 2809,
+    "sha256": "fc56281688b10461b5126027117a6246d6b7eb1f7c48e68c17ec7b6ba8a06db7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/pve_sn/pve_dup_tow_name_bg.png",
+    "width": 324,
+    "height": 36,
+    "bytes": 1145,
+    "sha256": "65de50b432bbd7ac177c8cf570478afbdba63d0a2da7fc522d79fe88cdba5ef0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/slots/bg_gonggao.png",
+    "width": 158,
+    "height": 144,
+    "bytes": 326,
+    "sha256": "432b6d253cfeab2cd491980366511ba66c84dd3dd9b901868b2bd9668e2aaa86",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/slots/bg_gonggao_1.png",
+    "width": 50,
+    "height": 58,
+    "bytes": 354,
+    "sha256": "f204bf9fcbc522c20f4f5207c13bec4d423a5c4cedefff35d732a40245f0d4ba",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/slots/bg_price.png",
+    "width": 27,
+    "height": 29,
+    "bytes": 239,
+    "sha256": "2de280fca8924990c7a8d0bcb351547a7289819cbb5af441e01d078e04ce52f8",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/slots/bg_shenwang.png",
+    "width": 23,
+    "height": 34,
+    "bytes": 172,
+    "sha256": "978adc3c49fbef31b3a3046537f530c35d5a03e89d2599f3ed41fa9ed0afdb26",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/slots/jt_paper2_bg.png",
+    "width": 476,
+    "height": 272,
+    "bytes": 662,
+    "sha256": "0e14c703c1efb5ffe991b1d38089ee2a77886e5050344578b9fee7451f2afe87",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/slots/kd_slot_bg.png",
+    "width": 76,
+    "height": 74,
+    "bytes": 946,
+    "sha256": "b01eb90a10709b6b6ca5c7ec481b0fb01d5aab9913f12d1871047d3a3cc33c32",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/slots/server_bg.png",
+    "width": 100,
+    "height": 100,
+    "bytes": 219,
+    "sha256": "f40618296141328948eca3cda145dc503c01f732d90f0f5f60dd54d7f7623ea4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/slots/slot_box_bg.png",
+    "width": 82,
+    "height": 82,
+    "bytes": 397,
+    "sha256": "bf6a612c550f2e74fd46dfb817ac6d7654dc6404356899aee7cd27033e65df8a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GHZ_res/ghz_open_bg.png",
+    "width": 1138,
+    "height": 498,
+    "bytes": 226008,
+    "sha256": "70534c33a9e26960c7cc7d7c7dff2e1b3bc33560a19667a2a3e4fd07f2ebeb0d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GHZ_res/legion_icon_bg.png",
+    "width": 84,
+    "height": 80,
+    "bytes": 3559,
+    "sha256": "8561143a8fb399a74ed42d00ea14e579c39831814465220e09489a319adcbe82",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GHZ_res/legion_icon_bg_1.png",
+    "width": 84,
+    "height": 80,
+    "bytes": 3559,
+    "sha256": "8561143a8fb399a74ed42d00ea14e579c39831814465220e09489a319adcbe82",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/adventure/game_bg.png",
+    "width": 1138,
+    "height": 320,
+    "bytes": 137281,
+    "sha256": "011c2c0a6c80a44752dee1578447588575dba0a0895a98c46d7042e3012341cb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/adventure/game_bg_1.png",
+    "width": 1138,
+    "height": 66,
+    "bytes": 45670,
+    "sha256": "f8600d300f568d8bb9874b6e8efc0d262920fc3f86ebc83bc046075ee6328077",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/adventure/game_bg_2.png",
+    "width": 1138,
+    "height": 74,
+    "bytes": 47740,
+    "sha256": "8e13744b0a652bcd0cfe0399a8cd34512ee09c9d0009e8ae6a054d015deb4874",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/adventure/xqsj_bg_01.png",
+    "width": 324,
+    "height": 250,
+    "bytes": 24491,
+    "sha256": "d4cb9ee96e330c8e4aafd28b378845023aa638b95ca655f42c849ee3080cdad7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/adventure/xqsj_bg_02.png",
+    "width": 631,
+    "height": 234,
+    "bytes": 2289,
+    "sha256": "7a3163fa1a2e8541f82ffa11b3d8a3a83a5f002af185b851a9cfb54e52cbe995",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/fuben/ghpve_bg.png",
+    "width": 1624,
+    "height": 500,
+    "bytes": 230841,
+    "sha256": "b317eb919b5fc8303eef7ddebd53b4e13a1749ed3a20c3a9646bfe2962bec294",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/fuben/npc_hp_bg.png",
+    "width": 157,
+    "height": 11,
+    "bytes": 163,
+    "sha256": "e58cc2970f2ad49bebd1d5b312430a64597358a350a248a15ac3b9c8ef1ae44c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/legion_bg_dec.png",
+    "width": 372,
+    "height": 644,
+    "bytes": 29641,
+    "sha256": "751eb8bf0f08982d295e213025c3db07426308dabc476974bc083cebaa948aa4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/legion_bg_dec_1.png",
+    "width": 146,
+    "height": 510,
+    "bytes": 36939,
+    "sha256": "ff897522739038c06b136fd784aef3a958f29532aa94247aa8f602c38f4d2044",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/legion_bg_line.png",
+    "width": 1624,
+    "height": 12,
+    "bytes": 8704,
+    "sha256": "b5008e792745fcb6c278e76d9f25d2db3ee8b726861e17dfef8b06e1197c2998",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/legion_title_bg.png",
+    "width": 266,
+    "height": 116,
+    "bytes": 16278,
+    "sha256": "24a86dadead41d219945b6aedc9f9f24d587e0db63c412fff28ccfc6c74429d8",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/note_bg.png",
+    "width": 700,
+    "height": 442,
+    "bytes": 62895,
+    "sha256": "49e6e73629edbd5ecf23613e47b12347b08d97f1af3feaa30129f83dcc320741",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/note_bg_1.png",
+    "width": 700,
+    "height": 442,
+    "bytes": 98985,
+    "sha256": "5da1593f0fcfbc2ecd128c88ecbe1d8b539fb04c24f8e930a73c84ca45cfac6e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/yanjiuyuan/nlw_bg_01.png",
+    "width": 24,
+    "height": 22,
+    "bytes": 166,
+    "sha256": "2574cac3c7ffab04eb0c446cad021773ebe2f6764f62784f8b73574282c1f130",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/yanjiuyuan/nlw_bg_02.png",
+    "width": 289,
+    "height": 410,
+    "bytes": 19397,
+    "sha256": "732ecae41f9c5f26111b2bc96f6606c3e68bd8f3455e44ba337f05936cd5e367",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/GH_res/yanjiuyuan/nlw_bg_03.png",
+    "width": 264,
+    "height": 50,
+    "bytes": 510,
+    "sha256": "6111ec85ea3132410711c1394284019fc90396dfdeff2630d9ce2476f7645660",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/NIUDAN_res/niudan_bg.png",
+    "width": 1624,
+    "height": 516,
+    "bytes": 167207,
+    "sha256": "0c0ba0d3e268ddef9de69c7d932abd9d81870384e19d95775ee7c83e3a2a01bf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/NIUDAN_res/niudan_bg_title.png",
+    "width": 354,
+    "height": 140,
+    "bytes": 14253,
+    "sha256": "d8d26ab9a96e737c538ae4ac630915a635549323c74d756ff1d2163f78d776d2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/NIUDAN_res/niudan_bg_title_0.png",
+    "width": 363,
+    "height": 154,
+    "bytes": 16632,
+    "sha256": "2a5285d1b6f9aa0fe6a29add29a49a8c847bd75f20cedb4b16dcea3198a25e24",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/SL_res/sl_phb_bg_02.png",
+    "width": 774,
+    "height": 38,
+    "bytes": 6524,
+    "sha256": "0a676f6e76b47942b8d8cabfd18319bb684bd1b223e5e25ec50361d4e01ebb80",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/SQ_res/sq_bg.png",
+    "width": 1624,
+    "height": 514,
+    "bytes": 247352,
+    "sha256": "77fc905095913310efeda86122249108030294876c4776d085242646dc530c67",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/jiesuo_bg.png",
+    "width": 158,
+    "height": 45,
+    "bytes": 2858,
+    "sha256": "549b6943a47ac94bae6df3e44b37ec6061274c166c0d0a10d047f2c542512936",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_02.png",
+    "width": 630,
+    "height": 362,
+    "bytes": 11739,
+    "sha256": "e2e38523b9f608a94f4a0c216f5e3c36d437d41da5b8032eae97d5a9aeeaa7ab",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_03.png",
+    "width": 564,
+    "height": 114,
+    "bytes": 4505,
+    "sha256": "c5651381f1515c23364b5ee8e6b20fe4802ce18b8e59e63e55089c94807e1b97",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_04.png",
+    "width": 208,
+    "height": 102,
+    "bytes": 1418,
+    "sha256": "7f777970ceaae1b152d0a66e7f5e1baaad59cdba463fe943ea07babafb4072c6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_05.png",
+    "width": 208,
+    "height": 102,
+    "bytes": 141,
+    "sha256": "a31e7deda03ccef2e581e0373320ec34b2c956556f00c0eba611ab803e7df41f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_kuang1.png",
+    "width": 98,
+    "height": 114,
+    "bytes": 2040,
+    "sha256": "150ef5055199c68bdacff65ce2c28a4e2ae6519c260ffcc500342a55c6678fd9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_kuang2.png",
+    "width": 84,
+    "height": 99,
+    "bytes": 2421,
+    "sha256": "f58a46b8fbe375857f4be71ad745c299d17df09a6b68c8bda2214d7b472b8e3e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_kuang3.png",
+    "width": 84,
+    "height": 99,
+    "bytes": 2398,
+    "sha256": "955d0cb3d3486f719ba2cd0bbaeccfd7171c26284bf13cf8ac850e454c7fea90",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_kuang4.png",
+    "width": 84,
+    "height": 99,
+    "bytes": 2265,
+    "sha256": "4a078a843ad2189945efd1b4be69c3c65da32ec1e18d5d524881eefab2e9a78a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_kuang5.png",
+    "width": 41,
+    "height": 21,
+    "bytes": 383,
+    "sha256": "d398d1fbcbbd2d287b086bf1f0cf9025892143ae894c2bfa35f93128334c04c5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_kuang6.png",
+    "width": 41,
+    "height": 21,
+    "bytes": 428,
+    "sha256": "f65b6b2d96cc27339880cf6cd7709ca9a070169efc06736f00037c029bd83ffb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/tf_bg_kuang7.png",
+    "width": 41,
+    "height": 21,
+    "bytes": 439,
+    "sha256": "30a2ffe1574c5e83b60e534949a77dd4cda5e533de64e1042667c4cb00c98f96",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TF_res/zd_bg_tfkuang.png",
+    "width": 98,
+    "height": 114,
+    "bytes": 2910,
+    "sha256": "4b4bb6a2af388763880f4d7b96d5db19d09b5f2d9011d52207ac1354e8ea1abb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TS/bar_boss_name_bg.png",
+    "width": 207,
+    "height": 48,
+    "bytes": 498,
+    "sha256": "31cf6e973127b4dbf80438ad63d0e0cd08718f356f1096dd4792335e29ab90b4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TS/dec_boss_bg.png",
+    "width": 685,
+    "height": 631,
+    "bytes": 101007,
+    "sha256": "6b2c266113485cda8f7fe53e29f9460ef138783c1aeaf345c02a4306f4926828",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/TS/dqtzxx_bg.png",
+    "width": 228,
+    "height": 48,
+    "bytes": 1350,
+    "sha256": "2a0b06c8d45457385b753a9774a0e08b1e17271c9905e3bd35e2ad4700bdfa2a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/XTZY/yindao_bg_01.png",
+    "width": 1138,
+    "height": 218,
+    "bytes": 71544,
+    "sha256": "d3a902aa0d707791819761b4ebc85a68a22b62f60abb1949fbb8c9c9b008b9a8",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/boss/bar_boss_name_bg.png",
+    "width": 125,
+    "height": 46,
+    "bytes": 4128,
+    "sha256": "ad4423c1c502681800b66a42bdd357e235c52b77c83b5bd5946fcfc1c3f1ac1b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/boss/boss_bg.png",
+    "width": 361,
+    "height": 367,
+    "bytes": 30302,
+    "sha256": "79a52c4d33eed7264365e632f919aef1d0f36bc7e62d5edf078dffc5d022ae6c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/boss/boss_special_text_bg.png",
+    "width": 210,
+    "height": 52,
+    "bytes": 1804,
+    "sha256": "9106c101e1af7320ba99d508c3ed21851b3c63e4d653e1f8c735de985508019f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/boss/boss_top_bg.png",
+    "width": 210,
+    "height": 270,
+    "bytes": 19084,
+    "sha256": "d960d3001fab35fc87bbc8aad37d738827f8507dd8fe5343c123d7333d8da738",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/chat/sjlt_bg_02.png",
+    "width": 40,
+    "height": 40,
+    "bytes": 212,
+    "sha256": "24d989d63d0e2cb1a067adf94c90d5cf100eac9ea0aeda6bd5b3d4458e6db07d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/chat/sjlt_bg_dhk.png",
+    "width": 41,
+    "height": 26,
+    "bytes": 332,
+    "sha256": "8d5f06e4b8e052a8250626cf0cf898d8849959e6ee9b8b2ad5622e2ec5813c28",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/chat/sjlt_bg_dhk_1.png",
+    "width": 41,
+    "height": 32,
+    "bytes": 325,
+    "sha256": "1cfc8ccbe513be11d82c7cec05cbe16eb6d38735d4b626d9939ba64afc2b292f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/battle_blue_bg.png",
+    "width": 661,
+    "height": 147,
+    "bytes": 25349,
+    "sha256": "4bc8cc0a757320b72d3f12449f422246df340b5178add4827e1a273ffdb443c1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/battle_red_bg.png.png",
+    "width": 661,
+    "height": 147,
+    "bytes": 22412,
+    "sha256": "2f81c2c66e2122d9cf380a6b2e8d8a574bd7cba7ce6f42af29792eca8a56d2c0",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/bg_paihagn_0.png",
+    "width": 288,
+    "height": 73,
+    "bytes": 13662,
+    "sha256": "b2959d01dd0e293da9712541bfe32e4c2e7a569e5ad3d325e07f89eaf3e578c5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/bg_paihagn_2.png",
+    "width": 294,
+    "height": 70,
+    "bytes": 4188,
+    "sha256": "24bfae3dc6fddf3add35e521f40982302070ac7090c87ba42c43f320d9cdd63f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/ico_1_bg.png",
+    "width": 206,
+    "height": 47,
+    "bytes": 2273,
+    "sha256": "4365815bc49ca5c16d8f1e28ca4100b8e4dd98e77726755b8958a3cdec7587a2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/ico_2_bg.png",
+    "width": 206,
+    "height": 47,
+    "bytes": 2501,
+    "sha256": "b17a274f60bfff438f6ffd357ed6cc681065be15ebd39c81fb4d13baed3d4a16",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/ico_3_bg.png",
+    "width": 206,
+    "height": 47,
+    "bytes": 2006,
+    "sha256": "93058a640ba5f7c5ed0e2845283b9b3c1b8c2a4f1c542e4731dd03ef342f0761",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/poster_text_bg.png",
+    "width": 545,
+    "height": 82,
+    "bytes": 4990,
+    "sha256": "bb6a364a5cc978c662dfd2adee0990be0f21b47fe7dc1620902da562f125b564",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/cross_service/wxs_bg.png",
+    "width": 1624,
+    "height": 640,
+    "bytes": 382008,
+    "sha256": "5f43a478e8271a8794d8136278a6a2669fbc9640eb0210a8ca198719f04b692e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/fortune_bag/fortune_bag_bg_1.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 69838,
+    "sha256": "5da1795b17151a9fc3327e2238fd5a33e391bba8ec5bcbc5f9f6e9cba9166f20",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/kfkh/100day_bg.png",
+    "width": 480,
+    "height": 572,
+    "bytes": 26181,
+    "sha256": "a362f2904b5125bcddd8295e99bf1d1dd8ebeefe4b52efab6f16f1857261a78d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/kfkh/seven_lab_bg.png",
+    "width": 42,
+    "height": 71,
+    "bytes": 549,
+    "sha256": "8c6139e37d0bd59276b7782955b8e663be0aaa82f4a2c71260b9809fd8d6f6db",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/kfkh/seven_lab_bg_1.png",
+    "width": 164,
+    "height": 413,
+    "bytes": 965,
+    "sha256": "315417eced2f9e6e6fc9c1dfa25b2a7122663f78136d762e3860185e2c5e02d5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/shop/csdj_bg_01.png",
+    "width": 411,
+    "height": 55,
+    "bytes": 1381,
+    "sha256": "3cf787a6ded687ce47fdadaa6578b31d0807c323c4db7d90706345e86c5372e1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/shop/jxsdh_bg_02.png",
+    "width": 178,
+    "height": 31,
+    "bytes": 188,
+    "sha256": "4dac4c6ac65d60cc0d8643d3430ee277c5323c889d10c31d1e887d069b6693d9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/act_great_adventure/adventure_run_bg.png",
+    "width": 930,
+    "height": 560,
+    "bytes": 250602,
+    "sha256": "cf5334fe0ef04602a7bfc883c4815a004d6aa96215fccb2c75b6a18e829438da",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/active_list_bg.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 29591,
+    "sha256": "68586f07776874eac85ff9381ceba4888fec0d63dd82cc3b632fa4bf1ac15820",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/active_list_bg_0.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 21952,
+    "sha256": "ddb3d1ddc6259e659ca53ac39bdd61a65bb4223696447c057b42289b170815af",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_1.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 106496,
+    "sha256": "87d454dea828e95cc7a51b15f26d7d491b379e78c952ba651a56d7b4b15a9389",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_10.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 102409,
+    "sha256": "4a98344db75bb3cbbacf6599a0a89f89eb1b2a3726a8d4d1601cea2b16d27a74",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_11.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 108180,
+    "sha256": "f11b087ee34dcd76531e5c78d000264b07659fc56d0862b7ed844b0f65b1e3d5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_12.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 122372,
+    "sha256": "4f799b02d5c848241d64a6ba9ee4ef219151a8040cca0ba148c4f70b27421fe1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_13.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98036,
+    "sha256": "2a9d79e04d5110c6117cfed535944f8b6b635bed25ef87bf6d5d8fd52c5d9489",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_14.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 108450,
+    "sha256": "ecb3a71af1f33f7890f810ab25d008bfd48cece8e09fec93ff71ed75346f8a91",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_15.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 104451,
+    "sha256": "2f0595c9332fc351a6d32bd225abc1744c6dba67418bce85f3aab7624d2a5e05",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_16.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 108183,
+    "sha256": "6a7d582baf679927cb2fe22ef3336ffa2104587b4e4ea9e27a1eaa9676343023",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_17.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97900,
+    "sha256": "491d2dfe509264db6aec9c768593d7b29e9a551a3401b950240aaa2290e6d2a4",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_18.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97907,
+    "sha256": "5ba26112aaecb2c2b97d729a68cc67c4e641f0eadba484900a40c951eb455508",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_19.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 110042,
+    "sha256": "3e96bb75d23fec2441f43e2215f18eecc7535e752d646cf286209db778cc52be",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_2.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 103740,
+    "sha256": "1f542a73e0f88bf224dfabaca788699743eebd99c9343d615103c343ddc361eb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_20.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 122925,
+    "sha256": "0d055595501a58129d1b079a66b798b675af4779b6c1c3d62873e06fda5b5610",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_21.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 106537,
+    "sha256": "6b2fcd1daa91aca77b3707627056b74f0b5c4dd018d57f9157a48af4b27ca320",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_22.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 114713,
+    "sha256": "ac61f0cf271f3cf0308e3dc91c81b6c2ce8bba71828d59788522174ffa03710e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_23.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 100712,
+    "sha256": "f1a6c8888183257fd4282513f3048579bef864cd60ce7a59dc1248054d54693a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_24.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 102376,
+    "sha256": "ba12f2b8f626dce982f8de034da90b45ceefd961e77e90222c652037fc4876dc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_25.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 125670,
+    "sha256": "02dc577ba42b78689339979f7a942f292206154bbfd2982864311b58241b0549",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_26.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 101643,
+    "sha256": "39f2571146c2760349d8f7e69721be3c2d25a930cf72a046305cec09189b26ca",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_27.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 100214,
+    "sha256": "ed9402f508ae5372b37d193bf019989b23168667de9f64bd97a35c3bb1795ac5",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_28.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 114416,
+    "sha256": "0f270bec7d7396eb059e66edb5136411c9a10217f7114ed20ae3d64d23125778",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_29.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 76719,
+    "sha256": "0c7e388e3ebced389f5c04824546252ab4104fe9b140aa8fe5f7e2f878e15870",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_3.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 101612,
+    "sha256": "8221d3a9993fd5885f86cae0b4953dadb3966b9c837841009b7dc69480619517",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_30.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 69665,
+    "sha256": "b889dd9454b6389f38b8fa337c24d25a5c18c2c5e038f405062aeea310d9cdeb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_31.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 69960,
+    "sha256": "e69233648b774c1736c1b7b8095f44f3129153c2b51c10209e4bc3975b12e894",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_32.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 82721,
+    "sha256": "0e2efc382c4355bc76976ce32b0bdf59eb1aa92f9922d61c181b18bfe20d50f2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_33.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 113597,
+    "sha256": "5c988a8666c15b4f76056b2dc15d8761f2c3752eca37f59728b60a0229c96ce6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_34.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 114494,
+    "sha256": "e9ef8a29c72b9d92895b4cf87495079590281b60d905e419fdf82d9a645b1a17",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_35.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 102566,
+    "sha256": "43b2fbb605a7b0d586d0f88cccdb511b59ce5f7dded5853bf557c3fd0616a893",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_36.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 95817,
+    "sha256": "7f7475a0f72fa3e97b1e87523b1e4247e6a7221e5b834c591c808852873940a3",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_37.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 108137,
+    "sha256": "740b4275e7958712cd5d51f83c00b3d553841abbe3ac76b05cb54a16e5d49532",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_38.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 90362,
+    "sha256": "b2e285b852455aadb510f99ffedafff819cd2b9be753dc6c04388c6f2bad8503",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_39.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 88874,
+    "sha256": "ccc2b9e54994563af71084b9df2d950c1e68f812395386000317edaedf4e252b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_4.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 105235,
+    "sha256": "c8da2437b1e1ed376b8fc992716b47ce56520fb17da8384a676d0c5d376a7e7a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_40.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99103,
+    "sha256": "2b91ca600625929b695f7132da32c307eebe48a0212747b68c6ba2644110d71f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_41.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 106072,
+    "sha256": "bc03ad5da75c7ee73c1f0d6da19b9c974a0cff4a2459cc728a7866a608c4b67d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_42.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 111753,
+    "sha256": "de699ad49cad9c2640740d6360a6468619b4352fc05bb05386a74f4ffa3a62e8",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_43.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 127634,
+    "sha256": "c5a00b269fb8cf9a2df4c2fc9a73959c909ca5da5e3bb49bc1ca0724f5655dbf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_44.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 97674,
+    "sha256": "24a15fc6ae18fc43a963d4eea1beac2a83ef25bb4eced476d78263c06edf863a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_45.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98632,
+    "sha256": "2a3b3d24a5fe212a8ea9200582f6aa89cfd9c43ae385dd1a8eb7d9777b8e933a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_46.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 105375,
+    "sha256": "75e84518f5660f82a13234c9c3fdbadec561b77aa0506f8b9c4c2e6df7955faf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_47.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 107694,
+    "sha256": "00135186baa18db562fa45950e6661417cb78269dcfea4e6efcd10fa3536d8fe",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_48.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 100732,
+    "sha256": "266f49889ebed22a009021be8dae92db535bda94ded586ae398e10ea442eaaab",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_49.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 109497,
+    "sha256": "4f482d834c2526ff982006cfae1bc50a7db537e46efd3e7988bf51632af496ee",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_5.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 94786,
+    "sha256": "80fe0f6a9aa5e0aa692ffb65e0247ecfc3f188bb6c907d33d5b77f17d1b30bd9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_50.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 107757,
+    "sha256": "7c0c92041494969ef21ea85192c5f50e1f37d6b2794b1c3c6987c7183c447963",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_51.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 107541,
+    "sha256": "70f132932ed4ac2e6908af1c23cbf82c43b389f7d4dbedc58c828a40d115d6ee",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_52.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99101,
+    "sha256": "673ab6f743b48aa3daddcce2ec2dfe36a4bd9460d1099d10a9d829655a835f39",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_53.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99667,
+    "sha256": "15dcebd686baaa5a216046b508d657e4f5bb60e5ccb40d277e18aa5674e75aba",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_54.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 100930,
+    "sha256": "1622772eb9ef3147f7590a6f1643c53f5acdda049836bbea08deab55dd23a241",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_55.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 98501,
+    "sha256": "2308e5a5fb58e13a002d18abe8b2d8eca3d48eb2b03ca887c4ca1941fc91946d",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_56.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 105922,
+    "sha256": "730cacfb554df3e74569cb65932a688a44ed9d7faad68a42ef199944a58e9676",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_57.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 95640,
+    "sha256": "a7db401897c01a66439ce0c94e00d42bf0a33095db27b01101aade076f9cf5ac",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_58.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 99071,
+    "sha256": "d128d99ad234a6a21c2cac962ccae8fdaac65037175d8ff8a92c9ffba256c5af",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_59.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 112241,
+    "sha256": "aa716ef4c9c52df8e7f3df13d96dc5fe2e333d829ba816a57dd7a6ea462a8545",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_6.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 100720,
+    "sha256": "27f3a7bc365af33672a129c7578b7da90b2ee63dc3380a6833a196fd0edacb7e",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_60.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 106682,
+    "sha256": "61a623f7bf01260f9c83a00cf06d9212d37c86c952cd036f18aa4697f70f53ed",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_61.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 102018,
+    "sha256": "aaa2ef75136e2fd6a4d8a1b2da80ddfe7c0d341c08b478ea6d898c7fa1959d41",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_62.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 121879,
+    "sha256": "d48845a94684a7530a871dc1b68e183239990bc45678ecf0ca1bed24f5f4ba66",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_63.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 106826,
+    "sha256": "3f01e775c7512e4a7b1ee203b714e94f78453ecbfb9813204a7da16840d5cb1b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_64.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 309281,
+    "sha256": "2e73f8a13f920ce5b5755c22d6eba0de40f663e5ba11cd20b8c0e417c007ca14",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_65.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 474297,
+    "sha256": "8ff83aa08b8ae374632a3c38ebbe774b20b3c37afe771b3087ed0417abe098f9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_66.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 315775,
+    "sha256": "23627a97a9ad2754ccbc81c5f8835683dee4a41f53b574517a9a6fc6b126368f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_67.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 140469,
+    "sha256": "989fcd48415192618e41542441cbe025e889daca369e63f317fdbe2a018ef046",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_68.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 139004,
+    "sha256": "82952acb3a347d5a5b45b517882ed90584ea148ea321dc1e30b7e06c4e790ccd",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_69.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 267149,
+    "sha256": "915ae54373b4c172453191ccc2b19235d844b00780403b1662d6b7f4cef37c3b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_7.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 81931,
+    "sha256": "2299c4900c9674723637c134e79e3740cee1a4ec839510b47a4993caef74ad04",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_70.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 124154,
+    "sha256": "ae90d2c038a39d2a8b376ed7c38d07825b32467f305ded023b652d3c2aabe262",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_71.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 124287,
+    "sha256": "4d912bd0bb86f1a62fa856e068eabc31148c44467d3d472e6d70c3a20d9962f9",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_8.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 91391,
+    "sha256": "5327045f41eebef9676d27a0c90bce684496e6b9a6b01ad482600fcb363c0ccf",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/april_fools_bg_9.png",
+    "width": 960,
+    "height": 640,
+    "bytes": 106041,
+    "sha256": "fc29f721c9c4d85db5e670650f8840a6b02ea3291429e030350b4a750aa1e149",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/cz_bg_1.png",
+    "width": 278,
+    "height": 188,
+    "bytes": 18506,
+    "sha256": "5370fad805186b2df465aa7d004a95ffcf4c3d1b20c1be71e1d379d44dfbc9dc",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/deyf/deyf_hd_bg.png",
+    "width": 1624,
+    "height": 516,
+    "bytes": 167713,
+    "sha256": "9609df367c832d27d05a5326ec27465c011043f702179f57983a6d2958ce5646",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/hd_button_bg.png",
+    "width": 163,
+    "height": 636,
+    "bytes": 44981,
+    "sha256": "5cfb4451cf8a549c8346ad64c040a64f1e685410234072f90d81622ab8371055",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/hd_list_bg.png",
+    "width": 214,
+    "height": 462,
+    "bytes": 13171,
+    "sha256": "93d1b1ba75cbaed70c84fc2c6198eda8e0a25b337873c96192a226742cc4f680",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/hd_list_bg_1.png",
+    "width": 404,
+    "height": 492,
+    "bytes": 41121,
+    "sha256": "bd5b3bf307c156436cf050abb6c2f360113f0392bb034e7475006c5f1fbd2443",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/hd_list_title_bg.png",
+    "width": 242,
+    "height": 32,
+    "bytes": 3785,
+    "sha256": "8fc8912b77b3578c6bd41a65e2d461ef97395be2661191b57e8621d0ceeaf3d6",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/hd_list_title_bg_1.png",
+    "width": 184,
+    "height": 50,
+    "bytes": 3866,
+    "sha256": "a41f6cefb55428ebbc38234045bfd2e30278cd62ced4f6d998b04d3230537a03",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/hd_list_title_bg_2.png",
+    "width": 242,
+    "height": 32,
+    "bytes": 3686,
+    "sha256": "586b36eb6ed25451476eea655edcf8d71b336606bbb268b1b0c381d15e923dd2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/hd_tili_bg.png",
+    "width": 1624,
+    "height": 488,
+    "bytes": 150300,
+    "sha256": "174f79c558e2ef4fe673519577f63e3a6e428d8d6cae6ac0956888143a3c04d1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/hf_text_bg.png",
+    "width": 472,
+    "height": 183,
+    "bytes": 21439,
+    "sha256": "1daeafcd8b74f3d1ebeac861e21b81180db3c9b371a3b1fc8442e82bc15c93da",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/rvip_bg.png",
+    "width": 1068,
+    "height": 499,
+    "bytes": 133622,
+    "sha256": "0e3f4d22c965e7c194c11fbe87f49cbfb0aeb03b45081bc29a75d56d1085e145",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/sm_hd_title_bg.png",
+    "width": 630,
+    "height": 70,
+    "bytes": 23600,
+    "sha256": "f0a538f984c1141fb7b7707e2f66004a0d5cac6cf0c3d034f37f6891f4b318af",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/sm_hd_title_bg_1.png",
+    "width": 630,
+    "height": 70,
+    "bytes": 23811,
+    "sha256": "0b42fcba0e5d07f87ba3d271dbc571162628010992331ab1eac89844e18a839f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/tl_lq_bg.png",
+    "width": 160,
+    "height": 208,
+    "bytes": 14182,
+    "sha256": "33f9138d5bb8964b7a720e74b6bfa6e31de8171fa5b3fe97356501715695b4e7",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/tl_lq_bg_0.png",
+    "width": 54,
+    "height": 184,
+    "bytes": 5364,
+    "sha256": "1fdf44b9f80f3f1248e214cbb36719e4f0528c4dd70b9ad129245f74f93d2ba2",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/tl_lq_bg_1.png",
+    "width": 16,
+    "height": 156,
+    "bytes": 2329,
+    "sha256": "dd0875363c23388057c49e8e167e9e9776d857f86a93564761f7b3d85520440b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/training_camp/icon_exp_bg.png",
+    "width": 50,
+    "height": 50,
+    "bytes": 1858,
+    "sha256": "d7366ad69e6c8f4727c540c5d298f78d96bceec7b4c7ff31d41f03aa8c294058",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/training_camp/package_bg_1.png",
+    "width": 170,
+    "height": 35,
+    "bytes": 1680,
+    "sha256": "94cbbdc2977a09dfeffaf5b9ddb916b11469e0d0ef1b33514b91a89edd59ce1a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/training_camp/package_bg_2.png",
+    "width": 170,
+    "height": 35,
+    "bytes": 2919,
+    "sha256": "dbbe1ff9f76fc6ab1cdf04145798f7bc12483d00d28f0ac7c82eb488e975209b",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/training_camp/package_bg_3.png",
+    "width": 196,
+    "height": 325,
+    "bytes": 29438,
+    "sha256": "17926d970e731ba2cc2eb891e194f37e49cb7c4f965b93751e4a7ecb54f8477f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/training_camp/training_camp_icon_bg.png",
+    "width": 120,
+    "height": 38,
+    "bytes": 379,
+    "sha256": "4d45b8f398d9d673f7d020a62df8bde0507a3ae7fec6fef7f890c02a09411390",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/training_camp/training_reward_view_bg.png",
+    "width": 170,
+    "height": 330,
+    "bytes": 19940,
+    "sha256": "49e770df3357b63ee3b137134dd2bf50f74c7453bc9d0fdee2b0793168ac591c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/vip_bg_11.png",
+    "width": 943,
+    "height": 525,
+    "bytes": 32198,
+    "sha256": "b97f8752f53b102ccb0e8c93f05fdecdac220f48eb87c4ee8bb9bc43bc47ce22",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/yueka_bg.png",
+    "width": 1624,
+    "height": 458,
+    "bytes": 152306,
+    "sha256": "4a0dcb50ac16c36056742908fe668ae9a0dd1789545df7f275c26fb22766ab7a",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/yy_bg_05.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 28372,
+    "sha256": "3c6771bb7c6b03ffed6cd4322515ae73154058df7acf67e0abf44ee99eb6759f",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/yy_bg_06.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 28599,
+    "sha256": "840a76647bd84ae8e18643ca2f1faa7eff0a555ac6030ad65a33f5065ac1b044",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/yy_bg_07.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 28639,
+    "sha256": "5befa903bd8ce83c234c62ca180b93b2d6cc1024333d662d999b47d4acc4a6eb",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/yy_bg_07_1.png",
+    "width": 211,
+    "height": 300,
+    "bytes": 26856,
+    "sha256": "88705bc2f466134efc33833477de612edf73e214803237a529acf56149986df1",
+    "principal": false
+  },
+  {
+    "path": "assets/res/language/zh_TW/images/ui/text/sm_hd/zhaomu_bg.png",
+    "width": 1624,
+    "height": 432,
+    "bytes": 227014,
+    "sha256": "8425f1a61974532fe81e1b70215f29fa01e50e2e80f88f17d2408a81298c9e3c",
+    "principal": false
+  },
+  {
+    "path": "assets/res/sprite/spirte_npc_bg.png",
+    "width": 16,
+    "height": 16,
+    "bytes": 111,
+    "sha256": "9ed315a5b83722e3972a573c8df4387d2b4ea6c2adeb67b4544deeedc1a3acc7",
+    "principal": false
+  },
+  {
+    "path": "res/drawable-hdpi/com_facebook_tooltip_black_background.9.png",
+    "width": 90,
+    "height": 72,
+    "bytes": 1933,
+    "sha256": "f6ee151cd51b35c56b627c8052820c13732878418c402a81ac01662b73d5d84d",
+    "principal": false
+  },
+  {
+    "path": "res/drawable-hdpi/com_facebook_tooltip_blue_background.9.png",
+    "width": 90,
+    "height": 72,
+    "bytes": 2576,
+    "sha256": "a1807e16c0a99aa83c8ceb137b69b439413deb3e68b5c07634912393cae7d9d6",
+    "principal": false
+  },
+  {
+    "path": "res/drawable-mdpi/com_facebook_tooltip_black_background.9.png",
+    "width": 60,
+    "height": 48,
+    "bytes": 1331,
+    "sha256": "ff51abb4a41be6d51036f67babab7ca69c816c994a63a03d35a5142c313e0a09",
+    "principal": false
+  },
+  {
+    "path": "res/drawable-mdpi/com_facebook_tooltip_blue_background.9.png",
+    "width": 60,
+    "height": 48,
+    "bytes": 1560,
+    "sha256": "8cdd583092ee840e1b7faeb8b82a46c5b5309da916b0ede910e4eccbafce7ed9",
+    "principal": false
+  },
+  {
+    "path": "res/drawable-xhdpi/com_facebook_tooltip_black_background.9.png",
+    "width": 120,
+    "height": 96,
+    "bytes": 3156,
+    "sha256": "7c839e79a17c5a03be9a2a1407158eb13d691f35444da3f9eb7df6654de967ea",
+    "principal": false
+  },
+  {
+    "path": "res/drawable-xhdpi/com_facebook_tooltip_blue_background.9.png",
+    "width": 120,
+    "height": 96,
+    "bytes": 3842,
+    "sha256": "31611d9f45e1f28e27b2bce97192b12ae0f8815cfa5c420c76be988fad284417",
+    "principal": false
+  }
+]
