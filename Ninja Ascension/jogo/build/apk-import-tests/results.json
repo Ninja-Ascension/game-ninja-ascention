@@ -1,0 +1,62 @@
+[
+  {
+    "test": "test_hero_stats_local.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_index_local.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_mythical_local.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_constellation_local.py",
+    "exit": 1,
+    "tail": "exchange seq=7 motivo=bencao_nao_comprada\r\n[HOST_SERVER][02:02:35] cmd=constellation_exchange seq=7 -> status=-1 (47 chars)\r\n[HOST_SERVER][02:02:35] ESCULTURA cmd=constellation_buy conta=1 pedido=1|0|3\r\n[HOST_SERVER][02:02:35] cmd=constellation_buy seq=7 -> status=0 (1475 chars)\r\n[HOST_SERVER][02:02:35] ESCULTURA cmd=constellation_exchange conta=1 pedido=1|0|1\r\n[HOST_SERVER][02:02:35] cmd=constellation_exchange seq=7 -> status=0 (1467 chars)\r\n[HOST_SERVER][02:02:35] recusa cmd=constellation_buy seq=7 motivo='9999'\r\n[HOST_SERVER][02:02:35] cmd=constellation_buy seq=7 -> status=-1 (29 chars)\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\Administrator\\Desktop\\Ninja Ascension\\jogo\\tools\\test_constellation_local.py\", line 49, in <module>\r\n    assert school.combat_bonus(db, conta, ship, mould)[0][1] > 0\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError\r\n"
+  },
+  {
+    "test": "test_saga_local.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_mudra_local.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_normal_campaign_persistence.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_sessao_publica.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_power_parity.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_treasure_local.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_ninja_school_local.py",
+    "exit": 0,
+    "tail": "passed"
+  },
+  {
+    "test": "test_perfil_e_nivel.py",
+    "exit": 0,
+    "tail": "passed"
+  }
+]

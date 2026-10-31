@@ -1,0 +1,20 @@
+[HOST_SERVER][02:02:35] recusa cmd=constellation_buy seq=7 motivo=nivel_insuficiente
+[HOST_SERVER][02:02:35] cmd=constellation_buy seq=7 -> status=-1 (41 chars)
+[HOST_SERVER][02:02:35] ESCULTURA cmd=constellation_buy conta=1 pedido=1|0|1
+[HOST_SERVER][02:02:35] cmd=constellation_buy seq=7 -> status=0 (1471 chars)
+[HOST_SERVER][02:02:35] cmd=constellation_buy seq=7 -> status=0 (1471 chars)
+[HOST_SERVER][02:02:35] recusa cmd=constellation_buy seq=7 motivo=bencao_ja_comprada
+[HOST_SERVER][02:02:35] cmd=constellation_buy seq=7 -> status=-1 (41 chars)
+[HOST_SERVER][02:02:35] recusa cmd=constellation_exchange seq=7 motivo=bencao_nao_comprada
+[HOST_SERVER][02:02:35] cmd=constellation_exchange seq=7 -> status=-1 (47 chars)
+[HOST_SERVER][02:02:35] ESCULTURA cmd=constellation_buy conta=1 pedido=1|0|3
+[HOST_SERVER][02:02:35] cmd=constellation_buy seq=7 -> status=0 (1475 chars)
+[HOST_SERVER][02:02:35] ESCULTURA cmd=constellation_exchange conta=1 pedido=1|0|1
+[HOST_SERVER][02:02:35] cmd=constellation_exchange seq=7 -> status=0 (1467 chars)
+[HOST_SERVER][02:02:35] recusa cmd=constellation_buy seq=7 motivo='9999'
+[HOST_SERVER][02:02:35] cmd=constellation_buy seq=7 -> status=-1 (29 chars)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\Ninja Ascension\jogo\tools\test_constellation_local.py", line 49, in <module>
+    assert school.combat_bonus(db, conta, ship, mould)[0][1] > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,20 @@
+[HOST_SERVER][02:02:34] login_init: 0 itens no inventario da conta 1
+[HOST_SERVER][02:02:34] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][02:02:34] login_init conta=stats_test user_id=1 sessao='sqy...(43)'
+[HOST_SERVER][02:02:34] LOGIN_LAYOUT prefix=90 items=0 separate_characters=3
+[HOST_SERVER][02:02:35] login_init: 3860 itens no inventario da conta 1
+[HOST_SERVER][02:02:35] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][02:02:35] login_init conta=stats_test user_id=1 sessao='sqy...(43)'
+[HOST_SERVER][02:02:35] LOGIN_LAYOUT prefix=90 items=3860 separate_characters=3
+[HOST_SERVER][02:02:35] cmd=login_init seq=9 -> status=0 (249858 chars)
+[HOST_SERVER][02:02:35] HERO_QUALITY conta=1 ship=100013 qualidade=0->1 ryo=5000
+[HOST_SERVER][02:02:35] cmd=ship_grow_up seq=2 -> status=0 (80302 chars)
+[HOST_SERVER][02:02:35] cmd=ship_grow_up seq=2 -> status=0 (80302 chars)
+[HOST_SERVER][02:02:35] HERO_DEVELOPMENT conta=1 ship=100013 cmd=ship_awaken salvo
+[HOST_SERVER][02:02:35] cmd=ship_awaken seq=3 -> status=0 (80349 chars)
+[HOST_SERVER][02:02:35] login_init: 3860 itens no inventario da conta 1
+[HOST_SERVER][02:02:35] login_init: enviando 3 personagem(ns) no login
+[HOST_SERVER][02:02:35] login_init conta=stats_test user_id=1 sessao='sqy...(43)'
+[HOST_SERVER][02:02:35] LOGIN_LAYOUT prefix=90 items=3860 separate_characters=3
+[HOST_SERVER][02:02:35] cmd=login_init seq=10 -> status=0 (249860 chars)
+HERO_STATS_TEST_PASSED Advance +5, star +20, no speed per level, bond bonuses, battle HP and idempotency
