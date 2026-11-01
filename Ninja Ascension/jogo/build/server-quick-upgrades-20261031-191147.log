@@ -50,3 +50,1198 @@
 [HOST_SERVER][19:19:03] cmd=daily_mission_init seq=4 -> status=0 (5168 chars)
 [HOST_SERVER][19:19:04] POST path=/iniServer?s=X0tYfU3VYE-6_iFRgP6Yq61kFur48p5XdDwkN70_0KY bytes=32 primeira-linha=4
 [HOST_SERVER][19:19:04] cmd=dinner_time seq=4 -> status=0 (109 chars)
+[HOST_SERVER][20:14:16] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][20:14:21] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][20:14:21] login ok conta=ItachiBR sessao='vDr...(43)' perfil_user_id=2
+[HOST_SERVER][20:14:21] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][20:14:21] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=48 primeira-linha=1
+[HOST_SERVER][20:14:21] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][20:14:22] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=80 primeira-linha=2
+[HOST_SERVER][20:14:22] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][20:14:23] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=56 primeira-linha=3
+[HOST_SERVER][20:14:23] vali_register conta=ItachiBR sessao='vDr...(43)'
+[HOST_SERVER][20:14:23] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][20:14:23] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=152 primeira-linha=4
+[HOST_SERVER][20:14:23] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][20:14:23] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:14:23] login_init conta=RenegadoBR user_id=2 sessao='vDr...(43)'
+[HOST_SERVER][20:14:25] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][20:14:28] cmd=login_init seq=4 -> status=0 (261189 chars)
+[HOST_SERVER][20:14:33] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=32 primeira-linha=4
+[HOST_SERVER][20:14:33] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][20:14:37] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=32 primeira-linha=4
+[HOST_SERVER][20:14:37] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][20:14:37] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=40 primeira-linha=4
+[HOST_SERVER][20:14:37] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][20:14:37] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=32 primeira-linha=4
+[HOST_SERVER][20:14:37] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][20:14:37] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=40 primeira-linha=4
+[HOST_SERVER][20:14:37] cmd=draw_endurance_init seq=4 -> status=0 (186 chars)
+[HOST_SERVER][20:14:37] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=56 primeira-linha=4
+[HOST_SERVER][20:14:37] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][20:14:58] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=32 primeira-linha=4
+[HOST_SERVER][20:14:58] cmd=ship_purify_init seq=4 -> status=0 (573 chars)
+[HOST_SERVER][20:15:01] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=48 primeira-linha=4
+[HOST_SERVER][20:15:01] cmd=ship_purify_team_manager seq=4 -> status=0 (60 chars)
+[HOST_SERVER][20:15:13] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=40 primeira-linha=4
+[HOST_SERVER][20:15:14] cmd=user_card_info_init seq=4 -> status=0 (150196 chars)
+[HOST_SERVER][20:15:20] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=64 primeira-linha=4
+[HOST_SERVER][20:15:22] INDEX cmd=user_card_info_advance conta=62 carta=198
+[HOST_SERVER][20:15:22] cmd=user_card_info_advance seq=4 -> status=0 (98227 chars)
+[HOST_SERVER][20:15:25] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=64 primeira-linha=4
+[HOST_SERVER][20:15:28] INDEX cmd=user_card_info_advance conta=62 carta=198
+[HOST_SERVER][20:15:28] cmd=user_card_info_advance seq=4 -> status=0 (98198 chars)
+[HOST_SERVER][20:15:32] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=32 primeira-linha=4
+[HOST_SERVER][20:15:32] cmd=ship_talent_init seq=4 -> status=0 (150194 chars)
+[HOST_SERVER][20:15:39] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=40 primeira-linha=4
+[HOST_SERVER][20:15:39] cmd=local_event_init seq=4 -> status=0 (9469 chars)
+[HOST_SERVER][20:15:51] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=32 primeira-linha=4
+[HOST_SERVER][20:15:51] cmd=ship_purify_init seq=4 -> status=0 (200 chars)
+[HOST_SERVER][20:15:57] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=40 primeira-linha=4
+[HOST_SERVER][20:15:57] [NINJA_TRIAL_TRACE] init recebido seq=4
+[HOST_SERVER][20:15:57] [NINJA_TRIAL_TRACE] init campos=1 id_perfil_presente=True
+[HOST_SERVER][20:16:00] [NINJA_TRIAL_TRACE] init resposta seq=4 floor=10 npcs=1369,1381,1344 navios=136
+[HOST_SERVER][20:16:00] cmd=three_kingdoms_init seq=4 -> status=0 (4302 chars)
+[HOST_SERVER][20:16:27] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=24 primeira-linha=4
+[HOST_SERVER][20:16:27] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:16:45] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=1104 primeira-linha=4
+[HOST_SERVER][20:16:50] cmd=three_kingdoms_launch seq=4 -> status=0 (4305 chars)
+[HOST_SERVER][20:16:59] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=1072 primeira-linha=4
+[HOST_SERVER][20:17:02] [NINJA_TRIAL_TRACE] buffs floor=12 count=1 cost=40 stars_left=17
+[HOST_SERVER][20:17:04] cmd=three_kingdoms_launch seq=4 -> status=0 (4295 chars)
+[HOST_SERVER][20:18:51] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=24 primeira-linha=4
+[HOST_SERVER][20:18:51] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:20:52] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=24 primeira-linha=4
+[HOST_SERVER][20:20:52] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:21:47] POST path=/iniServer?s=vDrv6vLwOXhpODgZE8hOnlBox8GYBt-jvE3EwyOyy34 bytes=48 primeira-linha=4
+[HOST_SERVER][20:21:47] recusa cmd=ship_rebirth_init seq=4 motivo=pedido_de_renascimento_invalido
+[HOST_SERVER][20:21:47] cmd=ship_rebirth_init seq=4 -> status=-1 (54 chars)
+[HOST_SERVER][20:22:06] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][20:22:12] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][20:22:12] login ok conta=ItachiBR sessao='nAJ...(43)' perfil_user_id=2
+[HOST_SERVER][20:22:12] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][20:22:12] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=1
+[HOST_SERVER][20:22:12] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][20:22:12] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=80 primeira-linha=2
+[HOST_SERVER][20:22:12] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][20:22:13] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=56 primeira-linha=3
+[HOST_SERVER][20:22:13] vali_register conta=ItachiBR sessao='nAJ...(43)'
+[HOST_SERVER][20:22:13] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][20:22:14] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=152 primeira-linha=4
+[HOST_SERVER][20:22:14] login_init: 496 itens no inventario da conta 62
+[HOST_SERVER][20:22:14] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:22:14] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:22:16] LOGIN_LAYOUT prefix=90 items=496 separate_characters=136
+[HOST_SERVER][20:22:18] cmd=login_init seq=4 -> status=0 (261159 chars)
+[HOST_SERVER][20:22:22] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=32 primeira-linha=4
+[HOST_SERVER][20:22:22] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][20:22:27] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=32 primeira-linha=4
+[HOST_SERVER][20:22:27] cmd=ship_purify_init seq=4 -> status=0 (200 chars)
+[HOST_SERVER][20:22:27] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=40 primeira-linha=4
+[HOST_SERVER][20:22:27] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][20:22:27] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=32 primeira-linha=4
+[HOST_SERVER][20:22:27] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][20:22:27] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=40 primeira-linha=4
+[HOST_SERVER][20:22:27] cmd=draw_endurance_init seq=4 -> status=0 (186 chars)
+[HOST_SERVER][20:22:27] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=56 primeira-linha=4
+[HOST_SERVER][20:22:27] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][20:23:15] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=40 primeira-linha=4
+[HOST_SERVER][20:23:15] USAR_ITEM conta=62 item=62000351 qtd=1 escolha=0
+[HOST_SERVER][20:23:15] cmd=prop_use seq=4 -> status=0 (18600 chars)
+[HOST_SERVER][20:24:26] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=24 primeira-linha=4
+[HOST_SERVER][20:24:26] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:24:46] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=64 primeira-linha=4
+[HOST_SERVER][20:24:46] SHOP_LOCAL cmd=ship_bounty conta=62 resultados=1 gold_delta=-80
+[HOST_SERVER][20:24:46] cmd=ship_bounty seq=4 -> status=0 (18669 chars)
+[HOST_SERVER][20:25:15] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=32 primeira-linha=4
+[HOST_SERVER][20:25:15] cmd=secret_shop_init seq=4 -> status=0 (214 chars)
+[HOST_SERVER][20:25:19] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=40 primeira-linha=4
+[HOST_SERVER][20:25:19] cmd=arena_shop_init seq=4 -> status=0 (360 chars)
+[HOST_SERVER][20:25:23] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=32 primeira-linha=4
+[HOST_SERVER][20:25:23] cmd=glories_shop_init seq=4 -> status=0 (425 chars)
+[HOST_SERVER][20:25:27] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=32 primeira-linha=4
+[HOST_SERVER][20:25:27] cmd=union_shop_init seq=4 -> status=0 (363 chars)
+[HOST_SERVER][20:25:32] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=40 primeira-linha=4
+[HOST_SERVER][20:25:32] cmd=daily_mission_init seq=4 -> status=0 (5170 chars)
+[HOST_SERVER][20:25:57] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:25:57] cmd=battlefield_report_get seq=4 -> status=0 (386 chars)
+[HOST_SERVER][20:25:57] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=32 primeira-linha=4
+[HOST_SERVER][20:26:01] cmd=arena_init seq=4 -> status=0 (1538 chars)
+[HOST_SERVER][20:26:27] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=24 primeira-linha=4
+[HOST_SERVER][20:26:27] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:27:02] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:27:02] [PENDENTE] cmd=the_kings_battle_self_init seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][20:27:02] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=120 primeira-linha=4
+[HOST_SERVER][20:27:02] login_init_again: 498 itens no inventario da conta 62
+[HOST_SERVER][20:27:02] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:27:02] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:27:04] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:27:07] cmd=login_init_again seq=4 -> status=0 (261232 chars)
+[HOST_SERVER][20:27:10] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:27:10] [PENDENTE] cmd=the_kings_battle_self_init seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][20:27:11] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=120 primeira-linha=4
+[HOST_SERVER][20:27:11] login_init_again: 498 itens no inventario da conta 62
+[HOST_SERVER][20:27:11] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:27:11] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:27:13] ATUALIZACAO GET /atualizacao/manifesto.json de 143.255.108.49
+[HOST_SERVER][20:27:13] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:27:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/cocostudio/shop/recruit_legacy_settlement_animation.csb de 143.255.108.49
+[HOST_SERVER][20:27:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/cocostudio/shop/recruit_legacy_settlement_ten.csb de 143.255.108.49
+[HOST_SERVER][20:27:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/cocostudio/shop/recruit_settlement_shici_1.csb de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/cocostudio/shop/recruit_settlement_shici_hundred.csb de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/configs/app.config de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/configs/res/config.lua de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/configs/activity_config.txt de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/configs/ship_config.txt de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/arena_shop_info.txt de 143.255.108.49
+[HOST_SERVER][20:27:15] cmd=login_init_again seq=4 -> status=0 (261232 chars)
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/card_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/christmas_mall.txt de 143.255.108.49
+[HOST_SERVER][20:27:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/constellation_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/daily_mission_param.txt de 143.255.108.49
+[HOST_SERVER][20:27:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/egg_ball_achievement_task.txt de 143.255.108.49
+[HOST_SERVER][20:27:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/equipment_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/face_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/fate_relationship_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/function_param.txt de 143.255.108.49
+[HOST_SERVER][20:27:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/glories_shop_info.txt de 143.255.108.49
+[HOST_SERVER][20:27:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/mega_ship.txt de 143.255.108.49
+[HOST_SERVER][20:27:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/mystical_shop_info.txt de 143.255.108.49
+[HOST_SERVER][20:27:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/prop_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/role_rescue_shop.txt de 143.255.108.49
+[HOST_SERVER][20:27:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/scene_reward_ex.txt de 143.255.108.49
+[HOST_SERVER][20:27:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/ship_evo_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/ship_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/ship_silk_bag_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/ship_spirit_group.txt de 143.255.108.49
+[HOST_SERVER][20:27:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/skill_influence.txt de 143.255.108.49
+[HOST_SERVER][20:27:19] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:27:19] [PENDENTE] cmd=the_kings_battle_self_init seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][20:27:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/skill_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:19] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=120 primeira-linha=4
+[HOST_SERVER][20:27:19] login_init_again: 498 itens no inventario da conta 62
+[HOST_SERVER][20:27:19] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:27:19] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:27:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/talent_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/title_param.txt de 143.255.108.49
+[HOST_SERVER][20:27:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/top_up_goods.txt de 143.255.108.49
+[HOST_SERVER][20:27:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/data/mould/word_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1512731.atlas de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1512731.json de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1512731.png de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514131.atlas de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514131.json de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514131.png de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514631.atlas de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514631.json de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514631.png de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514931.atlas de 143.255.108.49
+[HOST_SERVER][20:27:21] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514931.json de 143.255.108.49
+[HOST_SERVER][20:27:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1514931.png de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1515031.atlas de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1515031.json de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1515031.png de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516531.atlas de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516531.json de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516531.png de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516831.atlas de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516831.json de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_1516831.png de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512711.atlas de 143.255.108.49
+[HOST_SERVER][20:27:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512711.json de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512711.png de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512721.atlas de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512721.json de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512721.png de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512731.atlas de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512731.json de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_512731.png de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514111.atlas de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514111.json de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514111.png de 143.255.108.49
+[HOST_SERVER][20:27:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514121.atlas de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514121.json de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514121.png de 143.255.108.49
+[HOST_SERVER][20:27:24] cmd=login_init_again seq=4 -> status=0 (261232 chars)
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514131.atlas de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514131.json de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514131.png de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514611.atlas de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514611.json de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514611.png de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514621.atlas de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514621.json de 143.255.108.49
+[HOST_SERVER][20:27:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514621.png de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514631.atlas de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514631.json de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514631.png de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514911.atlas de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514911.json de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514911.png de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514921.atlas de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514921.json de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514921.png de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514931.atlas de 143.255.108.49
+[HOST_SERVER][20:27:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514931.json de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_514931.png de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515011.atlas de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515011.json de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515011.png de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515021.atlas de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515021.json de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515021.png de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515031.atlas de 143.255.108.49
+[HOST_SERVER][20:27:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515031.json de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_515031.png de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516511.atlas de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516511.json de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516511.png de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516521.atlas de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516521.json de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516521.png de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516531.atlas de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516531.json de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516531.png de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516811.atlas de 143.255.108.49
+[HOST_SERVER][20:27:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516811.json de 143.255.108.49
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516811.png de 143.255.108.49
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516821.atlas de 143.255.108.49
+[HOST_SERVER][20:27:28] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:27:28] [PENDENTE] cmd=the_kings_battle_self_init seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516821.json de 143.255.108.49
+[HOST_SERVER][20:27:28] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=120 primeira-linha=4
+[HOST_SERVER][20:27:28] login_init_again: 498 itens no inventario da conta 62
+[HOST_SERVER][20:27:28] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:27:28] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516821.png de 143.255.108.49
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516831.atlas de 143.255.108.49
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516831.json de 143.255.108.49
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_516831.png de 143.255.108.49
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_vacio.atlas de 143.255.108.49
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_vacio.json de 143.255.108.49
+[HOST_SERVER][20:27:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/effect/effice_vacio.png de 143.255.108.49
+[HOST_SERVER][20:27:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/fonts/ReggaeOne-Regular.ttf de 143.255.108.49
+[HOST_SERVER][20:27:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_512701.png de 143.255.108.49
+[HOST_SERVER][20:27:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_514101.png de 143.255.108.49
+[HOST_SERVER][20:27:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_514601.png de 143.255.108.49
+[HOST_SERVER][20:27:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_514901.png de 143.255.108.49
+[HOST_SERVER][20:27:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_515001.png de 143.255.108.49
+[HOST_SERVER][20:27:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_516501.png de 143.255.108.49
+[HOST_SERVER][20:27:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/big_head/big_head_516801.png de 143.255.108.49
+[HOST_SERVER][20:27:30] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:27:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_512701.png de 143.255.108.49
+[HOST_SERVER][20:27:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_514101.png de 143.255.108.49
+[HOST_SERVER][20:27:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_514601.png de 143.255.108.49
+[HOST_SERVER][20:27:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_514901.png de 143.255.108.49
+[HOST_SERVER][20:27:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_515001.png de 143.255.108.49
+[HOST_SERVER][20:27:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_516501.png de 143.255.108.49
+[HOST_SERVER][20:27:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/face/rage_head/rage_name_516801.png de 143.255.108.49
+[HOST_SERVER][20:27:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/gamesatart_bg.png de 143.255.108.49
+[HOST_SERVER][20:27:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/home_bg_1.png de 143.255.108.49
+[HOST_SERVER][20:27:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/home_bg_halloween.png de 143.255.108.49
+[HOST_SERVER][20:27:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/update_bg.png de 143.255.108.49
+[HOST_SERVER][20:27:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/bg/update_bg_halloween.png de 143.255.108.49
+[HOST_SERVER][20:27:32] cmd=login_init_again seq=4 -> status=0 (261232 chars)
+[HOST_SERVER][20:27:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_3.atlas de 143.255.108.49
+[HOST_SERVER][20:27:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_3.json de 143.255.108.49
+[HOST_SERVER][20:27:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_3.png de 143.255.108.49
+[HOST_SERVER][20:27:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_32.png de 143.255.108.49
+[HOST_SERVER][20:27:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_33.png de 143.255.108.49
+[HOST_SERVER][20:27:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_34.png de 143.255.108.49
+[HOST_SERVER][20:27:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_3/effect_hunka_35.png de 143.255.108.49
+[HOST_SERVER][20:27:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_4.atlas de 143.255.108.49
+[HOST_SERVER][20:27:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_4.json de 143.255.108.49
+[HOST_SERVER][20:27:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_4.png de 143.255.108.49
+[HOST_SERVER][20:27:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_42.png de 143.255.108.49
+[HOST_SERVER][20:27:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_43.png de 143.255.108.49
+[HOST_SERVER][20:27:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_44.png de 143.255.108.49
+[HOST_SERVER][20:27:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_4/effect_hunka_45.png de 143.255.108.49
+[HOST_SERVER][20:27:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_5.atlas de 143.255.108.49
+[HOST_SERVER][20:27:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_5.json de 143.255.108.49
+[HOST_SERVER][20:27:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_5.png de 143.255.108.49
+[HOST_SERVER][20:27:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_52.png de 143.255.108.49
+[HOST_SERVER][20:27:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_53.png de 143.255.108.49
+[HOST_SERVER][20:27:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_54.png de 143.255.108.49
+[HOST_SERVER][20:27:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_5/effect_hunka_55.png de 143.255.108.49
+[HOST_SERVER][20:27:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_6.atlas de 143.255.108.49
+[HOST_SERVER][20:27:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_6.json de 143.255.108.49
+[HOST_SERVER][20:27:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_6.png de 143.255.108.49
+[HOST_SERVER][20:27:37] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:27:37] [PENDENTE] cmd=the_kings_battle_self_init seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][20:27:37] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=120 primeira-linha=4
+[HOST_SERVER][20:27:37] login_init_again: 498 itens no inventario da conta 62
+[HOST_SERVER][20:27:37] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:27:37] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:27:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_62.png de 143.255.108.49
+[HOST_SERVER][20:27:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_63.png de 143.255.108.49
+[HOST_SERVER][20:27:37] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_64.png de 143.255.108.49
+[HOST_SERVER][20:27:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_6/effect_hunka_65.png de 143.255.108.49
+[HOST_SERVER][20:27:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_7.atlas de 143.255.108.49
+[HOST_SERVER][20:27:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_7.json de 143.255.108.49
+[HOST_SERVER][20:27:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_7.png de 143.255.108.49
+[HOST_SERVER][20:27:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_72.png de 143.255.108.49
+[HOST_SERVER][20:27:38] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_73.png de 143.255.108.49
+[HOST_SERVER][20:27:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_74.png de 143.255.108.49
+[HOST_SERVER][20:27:39] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:27:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunka_7/effect_hunka_75.png de 143.255.108.49
+[HOST_SERVER][20:27:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_3/effect_hunkabiaoqian_3.atlas de 143.255.108.49
+[HOST_SERVER][20:27:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_3/effect_hunkabiaoqian_3.json de 143.255.108.49
+[HOST_SERVER][20:27:39] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_3/effect_hunkabiaoqian_3.png de 143.255.108.49
+[HOST_SERVER][20:27:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_4/effect_hunkabiaoqian_4.atlas de 143.255.108.49
+[HOST_SERVER][20:27:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_4/effect_hunkabiaoqian_4.json de 143.255.108.49
+[HOST_SERVER][20:27:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_4/effect_hunkabiaoqian_4.png de 143.255.108.49
+[HOST_SERVER][20:27:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_5/effect_hunkabiaoqian_5.atlas de 143.255.108.49
+[HOST_SERVER][20:27:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_5/effect_hunkabiaoqian_5.json de 143.255.108.49
+[HOST_SERVER][20:27:40] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_5/effect_hunkabiaoqian_5.png de 143.255.108.49
+[HOST_SERVER][20:27:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_6/effect_hunkabiaoqian_6.atlas de 143.255.108.49
+[HOST_SERVER][20:27:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_6/effect_hunkabiaoqian_6.json de 143.255.108.49
+[HOST_SERVER][20:27:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_6/effect_hunkabiaoqian_6.png de 143.255.108.49
+[HOST_SERVER][20:27:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_7/effect_hunkabiaoqian_7.atlas de 143.255.108.49
+[HOST_SERVER][20:27:41] cmd=login_init_again seq=4 -> status=0 (261232 chars)
+[HOST_SERVER][20:27:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_7/effect_hunkabiaoqian_7.json de 143.255.108.49
+[HOST_SERVER][20:27:41] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_hunkabiaoqian_7/effect_hunkabiaoqian_7.png de 143.255.108.49
+[HOST_SERVER][20:27:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_3/effect_xdxiaobiaoqian_3.atlas de 143.255.108.49
+[HOST_SERVER][20:27:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_3/effect_xdxiaobiaoqian_3.json de 143.255.108.49
+[HOST_SERVER][20:27:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_3/effect_xdxiaobiaoqian_3.png de 143.255.108.49
+[HOST_SERVER][20:27:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_4/effect_xdxiaobiaoqian_4.atlas de 143.255.108.49
+[HOST_SERVER][20:27:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_4/effect_xdxiaobiaoqian_4.json de 143.255.108.49
+[HOST_SERVER][20:27:42] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_4/effect_xdxiaobiaoqian_4.png de 143.255.108.49
+[HOST_SERVER][20:27:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_5/effect_xdxiaobiaoqian_5.atlas de 143.255.108.49
+[HOST_SERVER][20:27:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_5/effect_xdxiaobiaoqian_5.json de 143.255.108.49
+[HOST_SERVER][20:27:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_5/effect_xdxiaobiaoqian_5.png de 143.255.108.49
+[HOST_SERVER][20:27:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_6/effect_xdxiaobiaoqian_6.atlas de 143.255.108.49
+[HOST_SERVER][20:27:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_6/effect_xdxiaobiaoqian_6.json de 143.255.108.49
+[HOST_SERVER][20:27:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_6/effect_xdxiaobiaoqian_6.png de 143.255.108.49
+[HOST_SERVER][20:27:43] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_7/effect_xdxiaobiaoqian_7.atlas de 143.255.108.49
+[HOST_SERVER][20:27:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_7/effect_xdxiaobiaoqian_7.json de 143.255.108.49
+[HOST_SERVER][20:27:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/effice/effect_xdxiaobiaoqian_7/effect_xdxiaobiaoqian_7.png de 143.255.108.49
+[HOST_SERVER][20:27:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1512701.png de 143.255.108.49
+[HOST_SERVER][20:27:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1514101.png de 143.255.108.49
+[HOST_SERVER][20:27:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1514601.png de 143.255.108.49
+[HOST_SERVER][20:27:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1514901.png de 143.255.108.49
+[HOST_SERVER][20:27:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1515001.png de 143.255.108.49
+[HOST_SERVER][20:27:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1516501.png de 143.255.108.49
+[HOST_SERVER][20:27:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_1516801.png de 143.255.108.49
+[HOST_SERVER][20:27:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2512701.png de 143.255.108.49
+[HOST_SERVER][20:27:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2514101.png de 143.255.108.49
+[HOST_SERVER][20:27:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2514601.png de 143.255.108.49
+[HOST_SERVER][20:27:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2514901.png de 143.255.108.49
+[HOST_SERVER][20:27:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2515001.png de 143.255.108.49
+[HOST_SERVER][20:27:45] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:27:45] [PENDENTE] cmd=the_kings_battle_self_init seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][20:27:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2516501.png de 143.255.108.49
+[HOST_SERVER][20:27:46] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=120 primeira-linha=4
+[HOST_SERVER][20:27:46] login_init_again: 498 itens no inventario da conta 62
+[HOST_SERVER][20:27:46] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:27:46] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_2516801.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_512701.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_514101.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_514601.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_514901.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_515001.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_516501.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/props/props_516801.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_512701.png de 143.255.108.49
+[HOST_SERVER][20:27:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_514101.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_514601.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_514901.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_515001.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_516501.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/pve_sn/props_516801.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_512721.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_512731.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_512741.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_512742.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514121.png de 143.255.108.49
+[HOST_SERVER][20:27:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514131.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514141.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514142.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514621.png de 143.255.108.49
+[HOST_SERVER][20:27:48] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514631.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514641.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514642.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514643.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514921.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514931.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514941.png de 143.255.108.49
+[HOST_SERVER][20:27:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_514942.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_515021.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_515031.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_515041.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_515042.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516521.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516531.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516541.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516542.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516821.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516831.png de 143.255.108.49
+[HOST_SERVER][20:27:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516841.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/skills/skills_516842.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/PHB_res/phn_btn_tab_7_1.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/PHB_res/phn_btn_tab_7_2.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:50] cmd=login_init_again seq=4 -> status=0 (261232 chars)
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/de/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:51] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/es/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:52] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fil/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:53] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/fr/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:54] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:27:54] [PENDENTE] cmd=the_kings_battle_self_init seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:54] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:54] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=120 primeira-linha=4
+[HOST_SERVER][20:27:54] login_init_again: 498 itens no inventario da conta 62
+[HOST_SERVER][20:27:54] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:27:54] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/id/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:55] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ko/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/data/mould/word_mould.txt de 143.255.108.49
+[HOST_SERVER][20:27:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:56] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:57] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/pt_BR/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:57] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/ru/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:58] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/tr/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:27:59] cmd=login_init_again seq=4 -> status=0 (261232 chars)
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:27:59] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/vi/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_CN/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/data/EggPromRecharge.lua de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_512701.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_514101.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_514601.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_514901.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_515001.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_516501.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/face/rage_head/rage_name_516801.png de 143.255.108.49
+[HOST_SERVER][20:28:00] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_31/effect_31.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_31/effect_310.plist de 143.255.108.49
+[HOST_SERVER][20:28:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_32_1/effect_32_1.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_32_1/effect_32_10.plist de 143.255.108.49
+[HOST_SERVER][20:28:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_achievement/effect_achievement.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_achievement/effect_achievement0.plist de 143.255.108.49
+[HOST_SERVER][20:28:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_achievement_1/effect_achievement_1.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_achievement_1/effect_achievement_10.plist de 143.255.108.49
+[HOST_SERVER][20:28:01] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_adv_gameover/effect_adv_gameover.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_adv_gameover/effect_adv_gameover0.plist de 143.255.108.49
+[HOST_SERVER][20:28:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_adv_wanmei/effect_adv_wanmei.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_adv_wanmei/effect_adv_wanmei0.plist de 143.255.108.49
+[HOST_SERVER][20:28:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_home_activty_1/effect_home_activty_1.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_quality_box_1/effect_quality_box_1.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_skill_on/effect_skill_on.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_skill_on/effect_skill_on0.plist de 143.255.108.49
+[HOST_SERVER][20:28:02] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_super_skill_on/effect_super_skill_on.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_super_skill_on/effect_super_skill_on0.plist de 143.255.108.49
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_tiaoguojuqing/effect_tiaoguojuqing.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effect_tiaoguojuqing/effect_tiaoguojuqing0.plist de 143.255.108.49
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effice_equ_qh/effice_equ_qh.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effice_equ_qh/effice_equ_qh0.plist de 143.255.108.49
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/effice/effice_zidong/effice_zidong.ExportJson de 143.255.108.49
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_101.png de 143.255.108.49
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_102.png de 143.255.108.49
+[HOST_SERVER][20:28:03] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=48 primeira-linha=4
+[HOST_SERVER][20:28:03] [PENDENTE] cmd=the_kings_battle_self_init seq=4 OBRIGATORIO E NAO IMPLEMENTADO
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_103.png de 143.255.108.49
+[HOST_SERVER][20:28:03] POST path=/iniServer?s=nAJy-MJ73_hL6OqZlavRRFcANU2VSmYOJvyP36ljMdQ bytes=120 primeira-linha=4
+[HOST_SERVER][20:28:03] login_init_again: 498 itens no inventario da conta 62
+[HOST_SERVER][20:28:03] login_init_again: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:28:03] login_init conta=RenegadoBR user_id=2 sessao='nAJ...(43)'
+[HOST_SERVER][20:28:03] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_104.png de 143.255.108.49
+[HOST_SERVER][20:28:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_105.png de 143.255.108.49
+[HOST_SERVER][20:28:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_106.png de 143.255.108.49
+[HOST_SERVER][20:28:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_107.png de 143.255.108.49
+[HOST_SERVER][20:28:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/language/zh_TW/images/ui/text/title/title_108.png de 143.255.108.49
+[HOST_SERVER][20:28:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512721.atlas de 143.255.108.49
+[HOST_SERVER][20:28:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512721.json de 143.255.108.49
+[HOST_SERVER][20:28:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512721_action.png de 143.255.108.49
+[HOST_SERVER][20:28:04] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512731.atlas de 143.255.108.49
+[HOST_SERVER][20:28:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512731.json de 143.255.108.49
+[HOST_SERVER][20:28:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_512731_action.png de 143.255.108.49
+[HOST_SERVER][20:28:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514121.atlas de 143.255.108.49
+[HOST_SERVER][20:28:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514121.json de 143.255.108.49
+[HOST_SERVER][20:28:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514121_action.png de 143.255.108.49
+[HOST_SERVER][20:28:05] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:28:05] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514121_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122.atlas de 143.255.108.49
+[HOST_SERVER][20:28:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122.json de 143.255.108.49
+[HOST_SERVER][20:28:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122_action.png de 143.255.108.49
+[HOST_SERVER][20:28:06] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122_action_3.png de 143.255.108.49
+[HOST_SERVER][20:28:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514122_action_4.png de 143.255.108.49
+[HOST_SERVER][20:28:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514131.atlas de 143.255.108.49
+[HOST_SERVER][20:28:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514131.json de 143.255.108.49
+[HOST_SERVER][20:28:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611.atlas de 143.255.108.49
+[HOST_SERVER][20:28:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611.json de 143.255.108.49
+[HOST_SERVER][20:28:07] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611_action.png de 143.255.108.49
+[HOST_SERVER][20:28:08] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:08] cmd=login_init_again seq=4 -> status=0 (261232 chars)
+[HOST_SERVER][20:28:08] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514611_action_3.png de 143.255.108.49
+[HOST_SERVER][20:28:08] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631.atlas de 143.255.108.49
+[HOST_SERVER][20:28:08] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631.json de 143.255.108.49
+[HOST_SERVER][20:28:08] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631_action.png de 143.255.108.49
+[HOST_SERVER][20:28:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514631_action_3.png de 143.255.108.49
+[HOST_SERVER][20:28:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514632.atlas de 143.255.108.49
+[HOST_SERVER][20:28:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514632.json de 143.255.108.49
+[HOST_SERVER][20:28:09] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514632_action.png de 143.255.108.49
+[HOST_SERVER][20:28:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514632_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514911.atlas de 143.255.108.49
+[HOST_SERVER][20:28:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514911.json de 143.255.108.49
+[HOST_SERVER][20:28:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514911_action.png de 143.255.108.49
+[HOST_SERVER][20:28:10] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514911_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514921.atlas de 143.255.108.49
+[HOST_SERVER][20:28:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514921.json de 143.255.108.49
+[HOST_SERVER][20:28:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514921_action.png de 143.255.108.49
+[HOST_SERVER][20:28:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514931.atlas de 143.255.108.49
+[HOST_SERVER][20:28:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514931.json de 143.255.108.49
+[HOST_SERVER][20:28:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514932.atlas de 143.255.108.49
+[HOST_SERVER][20:28:11] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_514932.json de 143.255.108.49
+[HOST_SERVER][20:28:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515021.atlas de 143.255.108.49
+[HOST_SERVER][20:28:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515021.json de 143.255.108.49
+[HOST_SERVER][20:28:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515021_action.png de 143.255.108.49
+[HOST_SERVER][20:28:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515021_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031.atlas de 143.255.108.49
+[HOST_SERVER][20:28:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031.json de 143.255.108.49
+[HOST_SERVER][20:28:12] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031_action.png de 143.255.108.49
+[HOST_SERVER][20:28:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:13] ATUALIZACAO GET /atualizacao/manifesto.json de 45.177.105.186
+[HOST_SERVER][20:28:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515031_action_3.png de 143.255.108.49
+[HOST_SERVER][20:28:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515032.atlas de 143.255.108.49
+[HOST_SERVER][20:28:13] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515032.json de 143.255.108.49
+[HOST_SERVER][20:28:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_515032_action.png de 143.255.108.49
+[HOST_SERVER][20:28:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516511.atlas de 143.255.108.49
+[HOST_SERVER][20:28:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516511.json de 143.255.108.49
+[HOST_SERVER][20:28:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516511_action.png de 143.255.108.49
+[HOST_SERVER][20:28:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516521.atlas de 143.255.108.49
+[HOST_SERVER][20:28:14] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516521.json de 143.255.108.49
+[HOST_SERVER][20:28:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516521_action.png de 143.255.108.49
+[HOST_SERVER][20:28:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516531.atlas de 143.255.108.49
+[HOST_SERVER][20:28:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516531.json de 143.255.108.49
+[HOST_SERVER][20:28:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516531_action.png de 143.255.108.49
+[HOST_SERVER][20:28:15] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516531_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516532.atlas de 143.255.108.49
+[HOST_SERVER][20:28:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516532.json de 143.255.108.49
+[HOST_SERVER][20:28:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516821.atlas de 143.255.108.49
+[HOST_SERVER][20:28:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516821.json de 143.255.108.49
+[HOST_SERVER][20:28:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516821_action.png de 143.255.108.49
+[HOST_SERVER][20:28:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/effect_516821_action_2.png de 143.255.108.49
+[HOST_SERVER][20:28:16] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701.atlas de 143.255.108.49
+[HOST_SERVER][20:28:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701.json de 143.255.108.49
+[HOST_SERVER][20:28:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_action1.png de 143.255.108.49
+[HOST_SERVER][20:28:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_action2.png de 143.255.108.49
+[HOST_SERVER][20:28:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_action9.png de 143.255.108.49
+[HOST_SERVER][20:28:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_hurt.png de 143.255.108.49
+[HOST_SERVER][20:28:17] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_run.png de 143.255.108.49
+[HOST_SERVER][20:28:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_512701_stand2.png de 143.255.108.49
+[HOST_SERVER][20:28:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101.atlas de 143.255.108.49
+[HOST_SERVER][20:28:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101.json de 143.255.108.49
+[HOST_SERVER][20:28:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_action1.png de 143.255.108.49
+[HOST_SERVER][20:28:18] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_action2.png de 143.255.108.49
+[HOST_SERVER][20:28:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_hurt.png de 143.255.108.49
+[HOST_SERVER][20:28:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_run.png de 143.255.108.49
+[HOST_SERVER][20:28:19] POST path=/iniServer bytes=112 primeira-linha=0
+[HOST_SERVER][20:28:19] login ok conta=ItachiBR sessao='SHs...(43)' perfil_user_id=2
+[HOST_SERVER][20:28:19] cmd=platform_user_login seq=0 -> status=0 (109 chars)
+[HOST_SERVER][20:28:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514101_stand2.png de 143.255.108.49
+[HOST_SERVER][20:28:19] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=48 primeira-linha=1
+[HOST_SERVER][20:28:19] cmd=search_user_platform seq=1 -> status=0 (110 chars)
+[HOST_SERVER][20:28:19] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=80 primeira-linha=2
+[HOST_SERVER][20:28:19] cmd=new_get_server_list seq=2 -> status=0 (86 chars)
+[HOST_SERVER][20:28:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601.atlas de 143.255.108.49
+[HOST_SERVER][20:28:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601.json de 143.255.108.49
+[HOST_SERVER][20:28:19] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_action1.png de 143.255.108.49
+[HOST_SERVER][20:28:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_action2.png de 143.255.108.49
+[HOST_SERVER][20:28:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_action4.png de 143.255.108.49
+[HOST_SERVER][20:28:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_hurt.png de 143.255.108.49
+[HOST_SERVER][20:28:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514601_run.png de 143.255.108.49
+[HOST_SERVER][20:28:20] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=56 primeira-linha=3
+[HOST_SERVER][20:28:20] vali_register conta=ItachiBR sessao='SHs...(43)'
+[HOST_SERVER][20:28:20] cmd=vali_register seq=3 -> status=0 (36 chars)
+[HOST_SERVER][20:28:20] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=152 primeira-linha=4
+[HOST_SERVER][20:28:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901.atlas de 143.255.108.49
+[HOST_SERVER][20:28:20] login_init: 498 itens no inventario da conta 62
+[HOST_SERVER][20:28:20] login_init: enviando 136 personagem(ns) no login
+[HOST_SERVER][20:28:20] login_init conta=RenegadoBR user_id=2 sessao='SHs...(43)'
+[HOST_SERVER][20:28:20] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901.json de 143.255.108.49
+[HOST_SERVER][20:28:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_action1.png de 143.255.108.49
+[HOST_SERVER][20:28:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_action2.png de 143.255.108.49
+[HOST_SERVER][20:28:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_action9.png de 143.255.108.49
+[HOST_SERVER][20:28:21] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_hurt.png de 143.255.108.49
+[HOST_SERVER][20:28:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_run.png de 143.255.108.49
+[HOST_SERVER][20:28:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_514901_stand2.png de 143.255.108.49
+[HOST_SERVER][20:28:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001.atlas de 143.255.108.49
+[HOST_SERVER][20:28:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001.json de 143.255.108.49
+[HOST_SERVER][20:28:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_action1.png de 143.255.108.49
+[HOST_SERVER][20:28:22] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_action2.png de 143.255.108.49
+[HOST_SERVER][20:28:23] LOGIN_LAYOUT prefix=90 items=498 separate_characters=136
+[HOST_SERVER][20:28:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_hurt.png de 143.255.108.49
+[HOST_SERVER][20:28:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_run.png de 143.255.108.49
+[HOST_SERVER][20:28:23] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_515001_stand2.png de 143.255.108.49
+[HOST_SERVER][20:28:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501.atlas de 143.255.108.49
+[HOST_SERVER][20:28:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501.json de 143.255.108.49
+[HOST_SERVER][20:28:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_action1.png de 143.255.108.49
+[HOST_SERVER][20:28:24] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_action2.png de 143.255.108.49
+[HOST_SERVER][20:28:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_action2_2.png de 143.255.108.49
+[HOST_SERVER][20:28:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_action3.png de 143.255.108.49
+[HOST_SERVER][20:28:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_hurt.png de 143.255.108.49
+[HOST_SERVER][20:28:25] cmd=login_init seq=4 -> status=0 (261226 chars)
+[HOST_SERVER][20:28:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_run.png de 143.255.108.49
+[HOST_SERVER][20:28:25] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516501_stand2.png de 143.255.108.49
+[HOST_SERVER][20:28:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801.atlas de 143.255.108.49
+[HOST_SERVER][20:28:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801.json de 143.255.108.49
+[HOST_SERVER][20:28:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_action1.png de 143.255.108.49
+[HOST_SERVER][20:28:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_action2.png de 143.255.108.49
+[HOST_SERVER][20:28:26] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_action3.png de 143.255.108.49
+[HOST_SERVER][20:28:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_hurt.png de 143.255.108.49
+[HOST_SERVER][20:28:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_run.png de 143.255.108.49
+[HOST_SERVER][20:28:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/res/sprite/spirte_516801_stand2.png de 143.255.108.49
+[HOST_SERVER][20:28:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/activity/ActivityAddEnergy.lua de 143.255.108.49
+[HOST_SERVER][20:28:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/activity/LocalEventWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:27] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/activity/dailytask/DailyTask.lua de 143.255.108.49
+[HOST_SERVER][20:28:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/BattleReward.lua de 143.255.108.49
+[HOST_SERVER][20:28:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/SmArenaBattleReward.lua de 143.255.108.49
+[HOST_SERVER][20:28:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/fight/Fight.lua de 143.255.108.49
+[HOST_SERVER][20:28:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/fight/FightUI.lua de 143.255.108.49
+[HOST_SERVER][20:28:28] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/landscape/FightRole.lua de 143.255.108.49
+[HOST_SERVER][20:28:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/battle/report/BattleObject.lua de 143.255.108.49
+[HOST_SERVER][20:28:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/cells/activity/activity_icon_cell.lua de 143.255.108.49
+[HOST_SERVER][20:28:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/cells/ship/ship_icon_cell.lua de 143.255.108.49
+[HOST_SERVER][20:28:29] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/cells/ship/sm_ship_seat_cell.lua de 143.255.108.49
+[HOST_SERVER][20:28:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/chat/ChatUnionPage.lua de 143.255.108.49
+[HOST_SERVER][20:28:30] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=32 primeira-linha=4
+[HOST_SERVER][20:28:30] cmd=user_create_time seq=4 -> status=0 (36 chars)
+[HOST_SERVER][20:28:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/formation/mega/MegaSmallTree.lua de 143.255.108.49
+[HOST_SERVER][20:28:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/Home.lua de 143.255.108.49
+[HOST_SERVER][20:28:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/home/HomeHero.lua de 143.255.108.49
+[HOST_SERVER][20:28:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/activity/event_banner/FuryEventBanner.lua de 143.255.108.49
+[HOST_SERVER][20:28:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/activity/server_recharge_rank/FuryServerRechargeRank.lua de 143.255.108.49
+[HOST_SERVER][20:28:30] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/activity/wonderful/SmCheckInInfoWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/Campaign.lua de 143.255.108.49
+[HOST_SERVER][20:28:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/arena/Arena.lua de 143.255.108.49
+[HOST_SERVER][20:28:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/digitalpurify/PurifyBattleVictoryWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/digitalpurify/PurifyChoiceWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/furytower/FuryModePass.lua de 143.255.108.49
+[HOST_SERVER][20:28:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/furytower/FuryTowers.lua de 143.255.108.49
+[HOST_SERVER][20:28:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/trialtower/AdditionSelect.lua de 143.255.108.49
+[HOST_SERVER][20:28:31] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/trialtower/GuanQia.lua de 143.255.108.49
+[HOST_SERVER][20:28:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/trialtower/SmTrialTowerVipSkipTip.lua de 143.255.108.49
+[HOST_SERVER][20:28:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/campaign/trialtower/TrialTower.lua de 143.255.108.49
+[HOST_SERVER][20:28:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cells/arena/arena_ladder_seat_cell.lua de 143.255.108.49
+[HOST_SERVER][20:28:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cells/arena/arena_war_report_seat_cell.lua de 143.255.108.49
+[HOST_SERVER][20:28:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/artifact/SmCultivateArtifactInfo.lua de 143.255.108.49
+[HOST_SERVER][20:28:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/illustration/Illustration.lua de 143.255.108.49
+[HOST_SERVER][20:28:32] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/matrix/AlloyMatrixGetReword.lua de 143.255.108.49
+[HOST_SERVER][20:28:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/roleBiography/RoleBiographyChapter.lua de 143.255.108.49
+[HOST_SERVER][20:28:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/roleBiography/RoleBiographyDivine.lua de 143.255.108.49
+[HOST_SERVER][20:28:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/cultivate/soulward/SoulWardingWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/explore/activity_copy/ActivityCopyWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/explore/activity_copy/BattleReadyWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/explore/activity_copy/ChoiceDifficultyWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/player/SmPlayerSystemSetPage.lua de 143.255.108.49
+[HOST_SERVER][20:28:33] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/SmShopChestStore.lua de 143.255.108.49
+[HOST_SERVER][20:28:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/SmShopPropBuyListView.lua de 143.255.108.49
+[HOST_SERVER][20:28:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/SmShopTab.lua de 143.255.108.49
+[HOST_SERVER][20:28:34] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=32 primeira-linha=4
+[HOST_SERVER][20:28:34] cmd=ship_purify_init seq=4 -> status=0 (200 chars)
+[HOST_SERVER][20:28:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/TreasureChestOfferSuccess.lua de 143.255.108.49
+[HOST_SERVER][20:28:34] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=40 primeira-linha=4
+[HOST_SERVER][20:28:34] cmd=email_init seq=4 -> status=0 (26 chars)
+[HOST_SERVER][20:28:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/shop/TreasureChestOfferSuccessTen.lua de 143.255.108.49
+[HOST_SERVER][20:28:34] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=32 primeira-linha=4
+[HOST_SERVER][20:28:34] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][20:28:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/l_digital/system/FuryProgressRank.lua de 143.255.108.49
+[HOST_SERVER][20:28:34] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=40 primeira-linha=4
+[HOST_SERVER][20:28:34] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/LDuplicateWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:34] cmd=draw_endurance_init seq=4 -> status=0 (186 chars)
+[HOST_SERVER][20:28:34] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=56 primeira-linha=4
+[HOST_SERVER][20:28:34] cmd=get_web_recharge_state seq=4 -> status=0 (34 chars)
+[HOST_SERVER][20:28:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/pve/LPVENewMap.lua de 143.255.108.49
+[HOST_SERVER][20:28:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/landscape/duplicate/pve/LPVENpcRewardBox.lua de 143.255.108.49
+[HOST_SERVER][20:28:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/login/Manager/AccountSysFloatingWindow.lua de 143.255.108.49
+[HOST_SERVER][20:28:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/login/Manager/AccountSysManager.lua de 143.255.108.49
+[HOST_SERVER][20:28:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/mission/Mission.lua de 143.255.108.49
+[HOST_SERVER][20:28:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/mission/TutorialSkip.lua de 143.255.108.49
+[HOST_SERVER][20:28:35] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/notification/push_notification_shop.lua de 143.255.108.49
+[HOST_SERVER][20:28:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/notification/push_notification_sm_hero_develop.lua de 143.255.108.49
+[HOST_SERVER][20:28:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/operation/platformSDKAccess/platformSDKAccessType_36.lua de 143.255.108.49
+[HOST_SERVER][20:28:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/packs/FightSpirit/FightSpiritHandle.lua de 143.255.108.49
+[HOST_SERVER][20:28:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/packs/hero/SmAutoUpgrade.lua de 143.255.108.49
+[HOST_SERVER][20:28:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/packs/hero/SmRoleStrengthenTabUpProduct.lua de 143.255.108.49
+[HOST_SERVER][20:28:36] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/packs/prop/SmPropWarehouse.lua de 143.255.108.49
+[HOST_SERVER][20:28:44] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolCommander.lua de 143.255.108.49
+[HOST_SERVER][20:28:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolCommanderCopy.lua de 143.255.108.49
+[HOST_SERVER][20:28:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolCommanderCopyExxx.lua de 143.255.108.49
+[HOST_SERVER][20:28:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParser.lua de 143.255.108.49
+[HOST_SERVER][20:28:45] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParserCopy.lua de 143.255.108.49
+[HOST_SERVER][20:28:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParserCopyEx.lua de 143.255.108.49
+[HOST_SERVER][20:28:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/protocol/ProtocolParserCopyExx.lua de 143.255.108.49
+[HOST_SERVER][20:28:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/red_alert_time/mail/MailInBox.lua de 143.255.108.49
+[HOST_SERVER][20:28:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/red_alert_time/mail/MailOtherInfo.lua de 143.255.108.49
+[HOST_SERVER][20:28:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/red_alert_time/mail/MailPresentationAttack.lua de 143.255.108.49
+[HOST_SERVER][20:28:46] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/red_alert_time/mail/MailPresentationDefensive.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/red_alert_time/mail/MailPresentationInvestigation.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/red_alert_time/utils/combatEffectivenessUp.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/reward/DrawRareReward.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/HeroRecruitPreviewFour.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/HeroRecruitPreviewOne.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/HeroRecruitPreviewThree.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/HeroRecruitPreviewTwo.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitGeneralView.lua de 143.255.108.49
+[HOST_SERVER][20:28:47] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitLegacySuccess.lua de 143.255.108.49
+[HOST_SERVER][20:28:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitLegacySuccessTen.lua de 143.255.108.49
+[HOST_SERVER][20:28:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitListView.lua de 143.255.108.49
+[HOST_SERVER][20:28:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitOfCamp.lua de 143.255.108.49
+[HOST_SERVER][20:28:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitOfCampAmation.lua de 143.255.108.49
+[HOST_SERVER][20:28:48] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitSuccess.lua de 143.255.108.49
+[HOST_SERVER][20:28:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/HeroRecruitSuccessTen.lua de 143.255.108.49
+[HOST_SERVER][20:28:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/LHeroRecruitGeneralViewTen.lua de 143.255.108.49
+[HOST_SERVER][20:28:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/shop/recruit/SmGeneralsCard.lua de 143.255.108.49
+[HOST_SERVER][20:28:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/client/utils/FuryHelpPopup.lua de 143.255.108.49
+[HOST_SERVER][20:28:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/cocos/cocos2d/json.lua de 143.255.108.49
+[HOST_SERVER][20:28:49] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/frameworks/app.lua de 143.255.108.49
+[HOST_SERVER][20:28:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/frameworks/network/NetworkAdaptor.lua de 143.255.108.49
+[HOST_SERVER][20:28:50] ATUALIZACAO GET /atualizacao/arquivos/01_conteudo_apk/assets/src/frameworks/network/NetworkProtocol.lua de 143.255.108.49
+[HOST_SERVER][20:28:50] ATUALIZACAO GET /atualizacao/arquivos/DIAGNOSTICO.cmd de 143.255.108.49
+[HOST_SERVER][20:28:50] ATUALIZACAO GET /atualizacao/arquivos/Ninja%20Revolution.exe de 143.255.108.49
+[HOST_SERVER][20:28:50] ATUALIZACAO GET /atualizacao/arquivos/build/windows-probe-native/bin/NinjaResourceProbe/Debug/NinjaResourceProbe.exe de 143.255.108.49
+[HOST_SERVER][20:28:51] ATUALIZACAO GET /atualizacao/arquivos/port/lua/account_ui.lua de 143.255.108.49
+[HOST_SERVER][20:28:51] ATUALIZACAO GET /atualizacao/arquivos/port/lua/arena_journal_reader.lua de 143.255.108.49
+[HOST_SERVER][20:28:51] ATUALIZACAO GET /atualizacao/arquivos/port/lua/arena_replay.lua de 143.255.108.49
+[HOST_SERVER][20:28:51] ATUALIZACAO GET /atualizacao/arquivos/port/lua/battle_lifecycle.lua de 143.255.108.49
+[HOST_SERVER][20:28:51] ATUALIZACAO GET /atualizacao/arquivos/port/lua/boot_map.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/desktop_layout.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/esconder_dialogos.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/fast_json.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/fight_test_access.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/formation_lifetime.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/hero_ui_compat.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/home_hero_base_effect.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/home_hero_labels.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/host_logo.lua de 143.255.108.49
+[HOST_SERVER][20:28:52] ATUALIZACAO GET /atualizacao/arquivos/port/lua/initial_tutorial.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/menu_boot_probe.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/mobile_boot.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/native_spine.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/profile_parser_dependencies.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_character_presentation.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_lobby.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_results.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/recruit_visible_hero.lua de 143.255.108.49
+[HOST_SERVER][20:28:53] ATUALIZACAO GET /atualizacao/arquivos/port/lua/saga_layout.lua de 143.255.108.49
+[HOST_SERVER][20:28:54] ATUALIZACAO GET /atualizacao/arquivos/port/lua/shop_local.lua de 143.255.108.49
+[HOST_SERVER][20:28:54] ATUALIZACAO GET /atualizacao/arquivos/port/lua/texture_async_compat.lua de 143.255.108.49
+[HOST_SERVER][20:28:54] ATUALIZACAO GET /atualizacao/arquivos/port/lua/tutorial_battle_skip.lua de 143.255.108.49
+[HOST_SERVER][20:28:54] ATUALIZACAO GET /atualizacao/arquivos/port/lua/tutorial_disabled.lua de 143.255.108.49
+[HOST_SERVER][20:28:54] ATUALIZACAO GET /atualizacao/arquivos/port/lua/tutorial_guide_visual.lua de 143.255.108.49
+[HOST_SERVER][20:28:54] ATUALIZACAO GET /atualizacao/arquivos/port/resources/fight_test_access.json de 143.255.108.49
+[HOST_SERVER][20:28:54] ATUALIZACAO GET /atualizacao/arquivos/port/resources/game-icon.png de 143.255.108.49
+[HOST_SERVER][20:28:55] ATUALIZACAO GET /atualizacao/manifesto.json de 143.255.108.49
+[HOST_SERVER][20:28:55] ATUALIZACAO GET /atualizacao/arquivos/NinjaAscension.exe de 143.255.108.49
+[HOST_SERVER][20:28:56] ATUALIZACAO GET /atualizacao/manifesto.json de 143.255.108.49
+[HOST_SERVER][20:29:02] POST path=/iniServer bytes=48 primeira-linha=0
+[HOST_SERVER][20:29:02] search_user_platform sem sessao (modo publico): pedindo login
+[HOST_SERVER][20:29:02] cmd=search_user_platform seq=0 -> status=0 (24 chars)
+[HOST_SERVER][20:29:13] POST path=/iniServer bytes=72 primeira-linha=1
+[HOST_SERVER][20:29:14] conta criada id=75 nome=xcw...
+[HOST_SERVER][20:29:14] cmd=platform_user_register seq=1 -> status=0 (41 chars)
+[HOST_SERVER][20:29:14] POST path=/iniServer bytes=72 primeira-linha=2
+[HOST_SERVER][20:29:14] login ok conta=xcw3788345 sessao='Iq4...(43)' perfil_user_id=15
+[HOST_SERVER][20:29:14] cmd=platform_user_login seq=2 -> status=0 (111 chars)
+[HOST_SERVER][20:29:14] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=80 primeira-linha=3
+[HOST_SERVER][20:29:14] cmd=new_get_server_list seq=3 -> status=0 (86 chars)
+[HOST_SERVER][20:29:19] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=64 primeira-linha=4
+[HOST_SERVER][20:29:19] vali_register conta=xcw3788345 sessao='Iq4...(43)'
+[HOST_SERVER][20:29:19] cmd=vali_register seq=4 -> status=0 (38 chars)
+[HOST_SERVER][20:29:19] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=152 primeira-linha=5
+[HOST_SERVER][20:29:19] login_init: 0 itens no inventario da conta 75
+[HOST_SERVER][20:29:19] login_init: enviando 1 personagem(ns) no login
+[HOST_SERVER][20:29:19] login_init conta=xcw3788345 user_id=15 sessao='Iq4...(43)'
+[HOST_SERVER][20:29:19] LOGIN_LAYOUT prefix=90 items=0 separate_characters=1
+[HOST_SERVER][20:29:19] cmd=login_init seq=5 -> status=0 (44115 chars)
+[HOST_SERVER][20:29:19] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:19] cmd=user_create_time seq=5 -> status=0 (36 chars)
+[HOST_SERVER][20:29:23] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=32 primeira-linha=5
+[HOST_SERVER][20:29:23] cmd=tutorial_start seq=5 -> status=0 (32 chars)
+[HOST_SERVER][20:29:23] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:23] tutorial etapa=30101 conta_id=75 salva
+[HOST_SERVER][20:29:23] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:29:23] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=56 primeira-linha=5
+[HOST_SERVER][20:29:23] battle_result_start tipo=0 cena=1 npc=1196 dif=1 sender=1,4008,1,2 -> 2 batalha(s)
+[HOST_SERVER][20:29:23] cmd=battle_result_start seq=5 -> status=0 (23 chars)
+[HOST_SERVER][20:29:24] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:24] tutorial etapa=30102 conta_id=75 salva
+[HOST_SERVER][20:29:24] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:29:25] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=32 primeira-linha=5
+[HOST_SERVER][20:29:25] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][20:29:35] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:35] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:35] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:36] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:36] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:36] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:38] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:38] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:38] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:39] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:39] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:39] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:40] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:40] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:40] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:41] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:41] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:41] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:42] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:42] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:42] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:43] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:43] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:43] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:51] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:51] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:51] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:53] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:53] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:53] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:29:55] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:29:55] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:29:55] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:00] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:00] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:00] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:01] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:01] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:01] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:02] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:02] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:02] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:09] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:09] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:09] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:13] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:13] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:13] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:19] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:19] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:19] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:33] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=24 primeira-linha=4
+[HOST_SERVER][20:30:33] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:30:37] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:37] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:37] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:41] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:41] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:41] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:46] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:46] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:46] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:46] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:46] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:46] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:47] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:47] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:47] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:47] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:47] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:47] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:48] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:48] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:48] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:49] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:49] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:49] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:50] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:50] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:50] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:50] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:50] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:50] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:50] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:50] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:50] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:51] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:51] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:51] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:54] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:54] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:54] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:55] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:55] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:55] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:56] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:56] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:56] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:56] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:56] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:56] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:57] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:57] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:57] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:57] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:57] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:57] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:58] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:58] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:58] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:30:59] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:30:59] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:30:59] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:10] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:10] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:10] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:11] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:11] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:11] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:12] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:12] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:12] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:13] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:13] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:13] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:13] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:13] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:13] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:14] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:14] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:14] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:15] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:15] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:15] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:18] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:18] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:18] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:19] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:19] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:19] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:19] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:19] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:19] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:20] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:20] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:20] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:21] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:21] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:21] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:26] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=32 primeira-linha=5
+[HOST_SERVER][20:31:26] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][20:31:31] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:31] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:31] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:34] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:34] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:34] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:31:34] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:34] cmd=get_resource seq=5 -> status=0 (21 chars)
+[HOST_SERVER][20:31:34] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:31:34] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:31:34] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:05] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:05] tutorial etapa=30201 conta_id=75 salva
+[HOST_SERVER][20:32:05] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:32:06] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=48 primeira-linha=5
+[HOST_SERVER][20:32:06] HARD_COPY_FORMATION conta_id=75 resposta=-1 (usa formacao atual)
+[HOST_SERVER][20:32:06] cmd=get_hard_copy_user_formation seq=5 -> status=0 (35 chars)
+[HOST_SERVER][20:32:06] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:06] cmd=draw_endurance_init seq=5 -> status=0 (43 chars)
+[HOST_SERVER][20:32:07] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:07] tutorial etapa=30202 conta_id=75 salva
+[HOST_SERVER][20:32:07] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:32:07] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:07] tutorial etapa=30203 conta_id=75 salva
+[HOST_SERVER][20:32:07] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:32:08] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:08] tutorial etapa=30204 conta_id=75 salva
+[HOST_SERVER][20:32:08] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:32:09] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:09] tutorial etapa=30206 conta_id=75 salva
+[HOST_SERVER][20:32:09] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:32:09] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:09] cmd=get_copy_clear_user_info seq=5 -> status=0 (36 chars)
+[HOST_SERVER][20:32:10] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:10] tutorial etapa=30207 conta_id=75 salva
+[HOST_SERVER][20:32:10] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:32:10] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=56 primeira-linha=5
+[HOST_SERVER][20:32:10] battle_result_start tipo=0 cena=1 npc=1 dif=1 sender=1,4001,1,2 -> 2 batalha(s)
+[HOST_SERVER][20:32:10] cmd=battle_result_start seq=5 -> status=0 (23 chars)
+[HOST_SERVER][20:32:10] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:10] tutorial etapa=30208 conta_id=75 salva
+[HOST_SERVER][20:32:10] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:32:12] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=32 primeira-linha=5
+[HOST_SERVER][20:32:12] cmd=keep_alive seq=5 -> status=0 (14 chars)
+[HOST_SERVER][20:32:14] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:14] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:14] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:15] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:15] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:15] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:16] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:16] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:16] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:16] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:16] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:16] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:18] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:18] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:18] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:20] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=32 primeira-linha=4
+[HOST_SERVER][20:32:20] cmd=ship_purify_init seq=4 -> status=0 (200 chars)
+[HOST_SERVER][20:32:20] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:20] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:20] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:20] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:20] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:20] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:34] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=24 primeira-linha=4
+[HOST_SERVER][20:32:34] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:32:43] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:43] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:43] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:47] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:47] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:47] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:47] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:47] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:47] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:49] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:49] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:49] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:51] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:51] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:51] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:53] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:53] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:53] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:55] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:55] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:55] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:57] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:57] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:57] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:32:58] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:32:58] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:32:58] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:33:03] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=32 primeira-linha=4
+[HOST_SERVER][20:33:03] cmd=fury_tower_view seq=4 -> status=0 (66 chars)
+[HOST_SERVER][20:33:11] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:33:11] recusa cmd=education_change seq=5 motivo=fora_do_tutorial_inicial
+[HOST_SERVER][20:33:11] cmd=education_change seq=5 -> status=-1 (46 chars)
+[HOST_SERVER][20:33:11] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=64 primeira-linha=5
+[HOST_SERVER][20:33:11] PVE resultado salvo cena=1 npc=1 estrelas=3 nivel=2 primeira_vitoria=True
+[HOST_SERVER][20:33:11] cmd=battle_result_verify seq=5 -> status=0 (28395 chars)
+[HOST_SERVER][20:33:14] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=48 primeira-linha=5
+[HOST_SERVER][20:33:14] HARD_COPY_FORMATION conta_id=75 resposta=-1 (usa formacao atual)
+[HOST_SERVER][20:33:14] cmd=get_hard_copy_user_formation seq=5 -> status=0 (35 chars)
+[HOST_SERVER][20:33:14] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:33:14] tutorial etapa=30302 conta_id=75 salva
+[HOST_SERVER][20:33:14] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:33:15] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:33:15] tutorial etapa=30303 conta_id=75 salva
+[HOST_SERVER][20:33:15] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:33:17] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:33:17] tutorial etapa=30304 conta_id=75 salva
+[HOST_SERVER][20:33:17] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:33:18] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:33:18] tutorial etapa=30305 conta_id=75 salva
+[HOST_SERVER][20:33:18] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:33:24] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=48 primeira-linha=4
+[HOST_SERVER][20:33:24] HARD_COPY_FORMATION conta_id=62 resposta=-1 (usa formacao atual)
+[HOST_SERVER][20:33:24] cmd=get_hard_copy_user_formation seq=4 -> status=0 (35 chars)
+[HOST_SERVER][20:33:42] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=32 primeira-linha=4
+[HOST_SERVER][20:33:42] cmd=union_persion_list seq=4 -> status=0 (222 chars)
+[HOST_SERVER][20:33:43] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=32 primeira-linha=4
+[HOST_SERVER][20:33:43] cmd=union_init seq=4 -> status=0 (165 chars)
+[HOST_SERVER][20:33:43] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=32 primeira-linha=4
+[HOST_SERVER][20:33:43] cmd=union_persion_list seq=4 -> status=0 (222 chars)
+[HOST_SERVER][20:34:11] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=40 primeira-linha=5
+[HOST_SERVER][20:34:11] tutorial etapa=1202 conta_id=75 salva
+[HOST_SERVER][20:34:11] cmd=education_change seq=5 -> status=0 (34 chars)
+[HOST_SERVER][20:34:35] POST path=/iniServer?s=SHs0H2Woe42BLjaEU8qWqDWcgIfmVFkHJpkGwTwjOf0 bytes=24 primeira-linha=4
+[HOST_SERVER][20:34:35] cmd=keep_alive seq=4 -> status=0 (14 chars)
+[HOST_SERVER][20:35:15] POST path=/iniServer?s=Iq476X5VvZWyd1VWKxxAYysQI8nQS3emHA_slGz_UrA bytes=32 primeira-linha=5
+[HOST_SERVER][20:35:15] cmd=keep_alive seq=5 -> status=0 (14 chars)

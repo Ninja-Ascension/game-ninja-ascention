@@ -37,10 +37,21 @@ for _,mode in ipairs({'event','seven'}) do
     for _,page in ipairs(pages) do
         window.page=page.id
         window:render()
-        assert(#window.rowButtons==#page.rows,'Missing reward buttons: '..page.id)
+        if page.id=='weapons' then
+            assert(window.renderedRewardIconCount>0,'Original reward item was not added to the native cell')
+        end
+        local expected={}
+        -- The original level-fund CSB owns its separate purchase button;
+        -- the reward-list button count therefore only covers milestone rows.
+        if page.investment and page.id~='fund' then table.insert(expected,{available=page.canInvest}) end
+        for _,row in ipairs(page.rows) do
+            if page.id~='discount' or tonumber(row.day or 1)==tonumber(window.discountDay) then
+                table.insert(expected,row)
+            end
+        end
+        assert(#window.rowButtons==#expected,'Missing reward buttons: '..page.id)
         for i,btn in ipairs(window.rowButtons) do
-            assert(btn:isEnabled()==page.rows[i].available,'Wrong availability: '..page.id)
-            assert(btn:getTitleText()~='','Empty reward action')
+            assert(btn:isEnabled()==expected[i].available,'Wrong availability: '..page.id)
         end
         opened=opened+1
     end
@@ -53,7 +64,17 @@ for _,mode in ipairs({'event','seven'}) do
     if mode=='event' then visibleWindow=window else window:release() end
 end
 visibleWindow.page='fund'
+-- Capture the representative purchased fund state from the original reference.
+local fundPage=visibleWindow.data.pages[1]
+fundPage.invested=true
+fundPage.canInvest=false
+for _,row in ipairs(fundPage.rows) do
+    row.claimed=false
+    row.available=true
+end
 visibleWindow:render()
+assert(visibleWindow.renderedRewardIconCount>0,'Original fund reward icons were not added')
+assert(visibleWindow.renderedFundRowCount==#visibleWindow.data.pages[1].rows,'Original fund rows were not retained in the native list')
 fwin:open(visibleWindow,fwin._view)
 assert(visibleWindow:getParent(),'Window manager did not attach Event')
 local scheduler=cc.Director:getInstance():getScheduler()

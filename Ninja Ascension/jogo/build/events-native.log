@@ -36,5 +36,13 @@ REAL_CHAIN_AUTO_ARMED mode=pure-game boot@tick1 logo@tick3 check@tick4
 RESOURCE_PROBE_STARTED; pure game mode (probe shell behind NR_PROBE_PROBE_UI/NR_PROBE_TEST_MODE)
 REAL_CHAIN_BOOT_OK
 HOST_LOGO_SCRIPT_OK
+HOST_XHR_ATTEMPT url=http://127.0.0.1:18080/iniServer bytes=312 timeout=30.0
+HOST_XHR_ATTEMPT url=http://127.0.0.1:18080/iniServer bytes=312 timeout=30.0
 REAL_CHAIN_CHECK ret=0
+HOST_XHR_ATTEMPT url=http://127.0.0.1:18080/iniServer bytes=312 timeout=30.0
+HOST_XHR_ATTEMPT url=http://127.0.0.1:18080/iniServer bytes=312 timeout=30.0
+HOST_XHR_DONE status=200 bytes=24
+HOST_XHR_DONE status=200 bytes=24
+HOST_XHR_DONE status=200 bytes=24
+HOST_XHR_DONE status=200 bytes=24
 PROBE_EXIT

@@ -54,7 +54,23 @@ def age(db, account):
 
 def period(c):
     today=day_key()
-    return today if c['period']=='daily' else today[:7] if c['period']=='monthly' else 'once'
+    if c['period']=='daily': return today
+    if c['period']=='monthly': return today[:7]
+    if c['period']=='edition': return str(c.get('edition_id') or 'edition')
+    return 'once'
+
+
+def event_window(c, now=None):
+    """Return the current server-edition day, or None outside its window."""
+    schedule=c.get('schedule')
+    if not schedule: return 1
+    current=dt.datetime.fromtimestamp(time.time() if now is None else now,dt.timezone.utc)
+    start=dt.datetime.fromisoformat(schedule['start_at'].replace('Z','+00:00'))
+    end=dt.datetime.fromisoformat(schedule['end_at'].replace('Z','+00:00'))
+    if start.tzinfo is None or end.tzinfo is None: raise ValueError('fuso_do_evento_ausente')
+    if current<start or current>=end: return None
+    offset=dt.timezone(dt.timedelta(minutes=int(schedule.get('utc_offset_minutes',0))))
+    return (current.astimezone(offset).date()-start.astimezone(offset).date()).days+1
 
 
 def metric(db, account, c, kind):
@@ -105,19 +121,33 @@ def payload(db,account,mode='event',reward=None):
     for c in configuration():
         if (c['period']=='seven') != (mode=='seven'): continue
         page=dict(c);page['rows']=[]
+        day=event_window(c)
+        page['eventDay']=day
+        page['eventActive']=day is not None
         invested=claimed(db,account,c,'invest') if c.get('investment') else True
         page['invested']=invested
         page['canInvest']=not invested and int(vip_local.grade(db,account))>=c.get('vip',0) and wallet['gold']>=c.get('investment',0)
         for r in c['rows']:
             row=dict(r);row['claimed']=claimed(db,account,c,r['id'])
             row['progress']=metric(db,account,c,r['metric'])
-            row['available']=not row['claimed'] and invested and row['progress']>=r['target'] and wallet['gold']>=r.get('cost',0)
+            gold_cost=r.get('cost',r.get('cost_gold',0));ryo_cost=r.get('cost_ryo',0)
+            row['available']=(day is not None and not row['claimed'] and invested
+                              and row['progress']>=r['target'] and wallet['gold']>=gold_cost
+                              and wallet['ryo']>=ryo_cost and int(vip_local.grade(db,account))>=int(r.get('vip',0))
+                              and (not r.get('day') or day>=int(r['day'])))
             row['reason']=''
-            if c['period']=='seven' and not c['day']<=days<=8:
+            if day is None:
+                row['reason']='Edição encerrada ou ainda não iniciada'
+            elif r.get('day') and day<int(r['day']):
+                row['reason']='Oferta ainda não liberada'
+            elif int(vip_local.grade(db,account))<int(r.get('vip',0)):
+                row['reason']='VIP %s necessário'%r['vip']
+            elif wallet['gold']<gold_cost: row['reason']='Gold insuficiente'
+            elif wallet['ryo']<ryo_cost: row['reason']='Ryo insuficiente'
+            elif c['period']=='seven' and not c['day']<=days<=8:
                 row['available']=False;row['reason']='Evento encerrado' if days>8 else 'Dia ainda bloqueado'
             elif not invested: row['reason']='Adquira o Fundo (VIP %s)'%c['vip']
             elif row['progress']<r['target']: row['reason']='Meta incompleta'
-            elif wallet['gold']<r.get('cost',0): row['reason']='Gold insuficiente'
             page['rows'].append(row)
         pages.append(page)
     return dict(mode=mode,pages=pages,balance=wallet,accountDay=days,serverTime=int(time.time()),rewards=reward or [])
@@ -125,36 +155,65 @@ def payload(db,account,mode='event',reward=None):
 
 def grant(db,account,rewards):
     from scene_rewards_local import _apply_npc_reward
-    normal=[]
+    normal=[];new_ships=[];delivered=[]
     for ident,kind,n in rewards:
         if n<=0: raise ValueError('premio_invalido')
-        if kind==12: db._conn.execute('UPDATE local_resources SET food=food+? WHERE conta_id=?',(n,account))
+        if kind==12:
+            db._conn.execute('UPDATE local_resources SET food=food+? WHERE conta_id=?',(n,account))
+            delivered.append((ident,kind,n))
+        elif kind==13:
+            import recruitment_local as heroes
+            import normal_recruit as recruit
+            known={int(m):int(s) for s,m in heroes.all_owned(db,account)}
+            for _ in range(n):
+                mould=int(ident)
+                if mould not in known:
+                    ship=1000000000+int(account)*10000+mould
+                    db._conn.execute('INSERT INTO local_synthesized VALUES (?,?,?)',(account,mould,ship))
+                    known[mould]=ship;new_ships.append((ship,mould));delivered.append((mould,13,1))
+                else:
+                    fragment,amount=recruit.fragment(mould)
+                    db._conn.execute('INSERT INTO local_inventory VALUES (?,?,?,?) ON CONFLICT(conta_id,mould) DO UPDATE SET quantity=quantity+excluded.quantity',(account,fragment,account*1000000+fragment,amount))
+                    delivered.append((fragment,6,amount))
         else: normal.append((ident,kind,n))
+    delivered.extend(normal)
     _apply_npc_reward(db,account,normal)
+    return delivered,new_ships
 
 
 def mutate(db,account,cid,entry):
     c=next((x for x in configuration() if x['id']==cid),None)
     if not c: raise ValueError('campanha_invalida')
     if claimed(db,account,c,entry): raise ValueError('premio_ja_coletado')
+    day=event_window(c)
+    if day is None: raise ValueError('edicao_indisponivel')
+    r=None
+    if entry!='invest':
+        r=next((x for x in c['rows'] if x['id']==entry),None)
+        if not r: raise ValueError('premio_invalido')
+        if r.get('day') and day<int(r['day']): raise ValueError('oferta_ainda_nao_liberada')
     if c['period']=='seven' and not c['day']<=age(db,account)<=8: raise ValueError('dia_indisponivel')
+    cost=0;ryo_cost=0
     if entry=='invest':
         import vip_local
         if not c.get('investment'): raise ValueError('investimento_invalido')
         if int(vip_local.grade(db,account))<c['vip']: raise ValueError('vip_insuficiente')
         cost=c['investment'];rewards=[]
     else:
-        r=next((x for x in c['rows'] if x['id']==entry),None)
-        if not r: raise ValueError('premio_invalido')
         if c.get('investment') and not claimed(db,account,c,'invest'): raise ValueError('fundo_nao_adquirido')
         if metric(db,account,c,r['metric'])<r['target']: raise ValueError('meta_incompleta')
-        cost=r.get('cost',0);rewards=r['rewards']
+        cost=r.get('cost',r.get('cost_gold',0));ryo_cost=r.get('cost_ryo',0);rewards=r['rewards']
+        import vip_local
+        if int(vip_local.grade(db,account))<int(r.get('vip',0)): raise ValueError('vip_insuficiente')
     if balance(db,account)['gold']<cost: raise ValueError('gold_insuficiente')
+    if balance(db,account)['ryo']<ryo_cost: raise ValueError('ryo_insuficiente')
     db._conn.execute('UPDATE local_resources SET gold=gold-? WHERE conta_id=?',(cost,account))
+    db._conn.execute('UPDATE local_campaign SET silver=silver-? WHERE conta_id=?',(ryo_cost,account))
     record(db,account,'spend',cost)
-    grant(db,account,rewards)
+    record(db,account,'ryo_spend',ryo_cost)
+    delivered,new_ships=grant(db,account,rewards)
     db._conn.execute('INSERT INTO local_event_claims VALUES(?,?,?,?,?)',(account,cid,period(c),entry,json.dumps(rewards)))
-    return rewards
+    return delivered,new_ships
 
 
 def install(server):
@@ -180,13 +239,23 @@ def install(server):
                     return str(seq)+' '+old[1].split(' ',1)[1]
                 db._conn.execute('INSERT OR IGNORE INTO local_campaign(conta_id) VALUES(?)',(account,))
                 db._conn.execute('INSERT OR IGNORE INTO local_resources(conta_id) VALUES(?)',(account,))
-                rewards=mutate(db,account,f[2],f[3]);info=payload(db,account,f[1],rewards)
+                rewards,new_ships=mutate(db,account,f[2],f[3]);info=payload(db,account,f[1],rewards)
                 from hero_training_local import inventory_tokens
                 from shop_local import state_tokens
                 wallet=info['balance']
                 tokens=[str(seq),cmd,'0','22',str(wallet['ryo']),'25','0',str(wallet['gold'])]
                 if any(r[1]==12 for r in rewards):tokens+=['29',str(sum(r[2] for r in rewards if r[1]==12)),str(wallet['food'])]
-                tokens+=inventory_tokens(db,account)+state_tokens(db,account)+[PARSER,encode_payload(info)]
+                tokens+=inventory_tokens(db,account)+state_tokens(db,account)
+                if new_ships:
+                    import recruitment_local as heroes
+                    import normal_recruit as recruit
+                    for hero in new_ships: tokens+=heroes.one_ship_tokens(db,account,hero)
+                    recruit_state=recruit.state_payload(db,account)
+                    recruit_state['localEventNewShips']=[str(ship) for ship,mould in new_ships]
+                    tokens+=['15005',json.dumps(recruit_state,separators=(',',':'))]
+                tokens += ['171','7',str(len(rewards))]
+                for reward in rewards: tokens += list(map(str,reward))
+                tokens += [PARSER,encode_payload(info)]
                 reply=' '.join(tokens)
                 db._conn.execute('INSERT INTO local_event_receipts VALUES(?,?,?,?)',(account,f[4],signature,reply))
             return reply

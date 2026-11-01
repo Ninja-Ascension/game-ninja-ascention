@@ -420,7 +420,7 @@ function OpenServerListCellNew:initDraw()
 	self:drawReward()
 
     -- 领取开服基金奖励的按钮事件响应
-    fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_kf_01"),       nil, 
+	fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_kf_01"),       nil, 
     {
         terminal_name = self.interfaceType == self._enum_type._ACTIVITY_TYPE_FUND and "open_server_list_cell_new_draw_fund_reward" or "open_server_list_cell_new_draw_welfare_reward",
         current_button_name = "Button_kf_01",

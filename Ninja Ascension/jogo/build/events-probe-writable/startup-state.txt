@@ -1,2 +1,4 @@
 scene=true
+UserInformationHeroStorageClassA visible=true children=1
+UserInformationHeroStorageClassA visible=true children=1
 LocalEventWindowClass visible=true children=1

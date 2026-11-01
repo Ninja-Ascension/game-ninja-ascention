@@ -15,6 +15,16 @@ with tempfile.TemporaryDirectory(prefix='events-test-',dir=root/'build',ignore_c
     import events_local as events
     db=server.BANCO
     try:
+        # Run a complete seven-day sale edition in an isolated config. The
+        # production schedule remains tied to the selected wiki server.
+        campaign_config=json.loads(events.CONFIG.read_text(encoding='utf8'))
+        sale=next(c for c in campaign_config['campaigns'] if c['id']=='discount')
+        sale['schedule']={'start_at':dt.datetime.now(dt.timezone.utc).isoformat(),
+                          'end_at':(dt.datetime.now(dt.timezone.utc)+dt.timedelta(days=1)).isoformat(),
+                          'utc_offset_minutes':-180}
+        test_config=Path(folder)/'events-test.json'
+        test_config.write_text(json.dumps(campaign_config,ensure_ascii=False),encoding='utf8')
+        events.CONFIG=test_config
         account=db.criar_conta('eventstest','Testing123!')['id']
         server._sessao_conexao['token']=db.abrir_sessao(account)
         uid=str(db.perfil(account)['user_id'])
@@ -50,10 +60,30 @@ with tempfile.TemporaryDirectory(prefix='events-test-',dir=root/'build',ignore_c
         (root/'build/events-login.txt').write_text(server.resposta_login_init('1',''),encoding='utf8')
         (root/'build/events-native-fixture.json').write_text(json.dumps({'event':events.payload(db,account,'event'),'seven':events.payload(db,account,'seven')},ensure_ascii=False),encoding='utf8')
         success(request('local_event_action','event','fund','invest','invest:1'))
+        # Server-scheduled shop: both currencies and VIP gates are enforced.
+        sale_rows=next(c for c in events.configuration() if c['id']=='discount')['rows']
+        assert len(sale_rows)==14 and all(r['day']==(i+1)//2 for i,r in enumerate(sale_rows,1))
+        before=snapshot()
+        assert request('local_event_action','event','discount','4','future:4').split(' ')[2]!='0'
+        assert snapshot()==before
+        sale['schedule']={'start_at':(dt.datetime.now(dt.timezone.utc)-dt.timedelta(days=6)).isoformat(),
+                          'end_at':(dt.datetime.now(dt.timezone.utc)+dt.timedelta(days=1)).isoformat(),
+                          'utc_offset_minutes':-180}
+        test_config.write_text(json.dumps(campaign_config,ensure_ascii=False),encoding='utf8')
+        before=events.balance(db,account)
+        bought=success(request('local_event_action','event','discount','4','sale:4'))
+        assert bought['rewards']==[[47,13,1]]
+        after=events.balance(db,account)
+        assert after['gold']==before['gold']-400 and after['ryo']==before['ryo']-2000
+        assert db._conn.execute('SELECT COUNT(*) FROM local_synthesized WHERE conta_id=? AND mould=47',(account,)).fetchone()[0]==1
+        saved=snapshot()
+        assert request('local_event_action','event','discount','4','sale:4')==request('local_event_action','event','discount','4','sale:4')
+        assert snapshot()==saved
         total=0
         for c in events.configuration():
             mode='seven' if c['period']=='seven' else 'event'
             for row in c['rows']:
+                if c['id']=='discount' and row['id']=='4': continue
                 key=(c['id']+':'+row['id']).replace('_','-')
                 reply=request('local_event_action',mode,c['id'],row['id'],key)
                 payload=success(reply)
