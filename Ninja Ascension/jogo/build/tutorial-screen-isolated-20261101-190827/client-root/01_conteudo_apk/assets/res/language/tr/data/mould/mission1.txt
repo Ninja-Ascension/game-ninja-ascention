@@ -1,0 +1,55 @@
+1	1	2点击NPC	15	0否	0	nc0	0	0	10101	-1	0剧情事件	7对话	0	1	110801	110801	Zabuza	O Ninjaların daha önce başarısız olmasına şaşmamalı, rakipleri  "Kopya Ninja"  Kakashi'ydi.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	2	2点击NPC	15	0否	0	nc0	0	0	10102	-1	0剧情事件	7对话	0	0	111501	111501	Kakashi	Bu kadar çabuk geleceklerini beklemiyordum......	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	3	2点击NPC	15	0否	0	nc0	0	0	10103	-1	0剧情事件	7对话	0	0	111501	111501	Kakashi	Bu, Hidden Mist'ten kaçak Ninja Zabuza Momochi değil mi?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	4	2点击NPC	15	0否	0	nc0	0	0	10104	-1	0剧情事件	7对话	0	0	110201	110201	Naruto	Haha, geliyorum, sahne sırası bende.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	5	2点击NPC	15	0否	0	nc0	0	0	10105	-1	0剧情事件	6请求战斗	0	3	4005,4005	3000	1	1	15	2	0	0	0	0	0	0	0	0	0	0	0	0
+20	1	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 3})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	2	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102002	-1	0剧情事件	7对话	0	0	1000021	1000021	Naruto	Ah......Her gün kedi aramak, çocuklara bakmak......Düzgün bir görev yok mu?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	3	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102003	-1	0剧情事件	7对话	0	1	1000016	1000016	Iruka	Aptal! Daha acemisiniz. Herkes bu süreçten geçmek zorunda. Daha geniş deneyim kazanmak için önce basit görevlerle başla.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	4	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102004	-1	0剧情事件	7对话	0	1	102301	102301	Üçüncü Hokage	O zaman sana C rütbeli bir görev veriyorum: bir kişiyi korumak.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	5	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102005	-1	0剧情事件	7对话	0	1	1000003	1000003	Tazuna	Ne, bunlar küçük çocuk, gerçekten Ninja mısınız? Özellikle şu bücür.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	6	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102006	-1	0剧情事件	7对话	0	0	1000009	1000009	Naruto	Bücür......Lanet olsun! Benden mi bahsediyorsun? Seni öldüreceğim! 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	7	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102007	-1	0剧情事件	7对话	0	0	111501	111501	Kakashi	Korumamız gereken kişi o, aptal.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	8	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102008	-1	0剧情事件	7对话	0	1	1000003	1000003	Tazuna	Ben ünlü köprü ustası Tazuna'yım. Dalga Ülkesi'ne dönüp köprüyü tamamlayana kadar beni canınız pahasına korumalısınız.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	1	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 4})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	2	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104002	-1	0剧情事件	2切换背景音效	0	9	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+40	3	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104003	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	İki yılda bir yapılan Chuunin Sınavı Konohagakure köyünde başlamak üzere, her ülkeden pek çok Ninja akın ediyor.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	4	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104004	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Aynı zamanda Konohagakure köyünün içinde de bu sınavın adayları tartışılıyor.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	5	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104005	-1	0剧情事件	7对话	0	1	102301	102301	Üçüncü Hokage	Pekâlâ, sorumlu olduğunuz acemiler arasında uygun aday var mı?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	6	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104006	-1	0剧情事件	7对话	0	0	111501	111501	Kakashi	Kakashi'nin Team 7'sinden, Kakashi adına Sasuke, Naruto ve Sakura'yı Chuunin Sınavına katılmaları için öneriyorum.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	7	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104007	-1	0剧情事件	7对话	0	0	112401	112401	Kurenai	Yuhi'nin 8. Takımından, Yuhi adına Hinata Hyuga, Kiba ve Shino Aburame'yi Chuunin Sınavına katılmaları için öneriyorum.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	8	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104008	-1	0剧情事件	7对话	0	0	112601	112601	Asuma	Asuma'nın 10. Takımından, Asuma adına Ino, Shikamaru ve Choji'yi Chuunin Sınavına katılmaları için öneriyorum.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	9	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104009	-1	0剧情事件	7对话	0	1	102301	102301	Üçüncü Hokage	Hımm......Bu biraz şaşırtıcı......	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	1	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 5})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	2	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105002	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Ölüm Ormanı'ndaki bir dizi iniş çıkıştan sonra Chuunin Sınavının ön elemesini yalnızca dokuz kişi geçti.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	3	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105003	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Bir ay sonra, büyük bir seyirci kitlesini toplayan Chuunin Sınavı finali başlamak üzere......	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	4	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105004	-1	0剧情事件	7对话	0	1	111501	111501	Kakashi	Bu kadar......Halletmem gereken acil bir işim var, seninle ilgilenemem.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	5	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105005	-1	0剧情事件	7对话	0	0	1000009	1000009	Naruto	Sasuke'nin eğitimine yardım etmeye mi çalışıyorsun?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	6	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105006	-1	0剧情事件	7对话	0	1	111501	111501	Kakashi	Öyle deme! Seninle antrenman yapacak birini buldum, benden bile güçlü. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	1	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 6})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	2	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106002	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Chuunin Sınavı Orochimaru'nun sabotajıyla sona erdi. Gaara kontrolden çıkınca Temari ve Kankuro onu alıp geçici olarak geri çekildi. Sasuke fırsatı değerlendirip peşlerine düştü.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	3	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106003	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Konoha tarafında ise Gaara'nın peşine düşmek için aceleyle bir takım kuruldu.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	4	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106004	-1	0剧情事件	7对话	0	1	111501	111501	Kakashi	Uzun zamandır görev almıyorduk, Naruto bu sefer çok heyecanlı olmalı. Dikkatli olmalısın, bu Dalga Ülkesi'nden beri almadığın A rütbeli bir görev.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	5	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106005	-1	0剧情事件	7对话	0	1	111501	111501	Kakashi	Sakura, git Shikamaru ile Naruto'nun içinde olduğu illüzyonu boz, sonra birlikte Sasuke'nin izini sürün.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	6	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106006	-1	0剧情事件	7对话	0	0	150501	150501	Sakura	Ah…Evet!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	1	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 7})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	2	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107002	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Üçüncü Hokage vefat ettikten sonra Konohagakure köyü yeni Hokage adayına karar vermeye başladı, aynı sırada Naruto "Konoha Sannin"inden biri olan Jiraiya ile bir yolculuğa çıktı.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	3	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107003	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Yeni Hokage adayı, Birinci Hokage'nin torunu ve yine "Sannin"den biri olan Tsunade.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	4	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107004	-1	0剧情事件	7对话	0	1	103001	103001	Jiraiya	Bu basit bir gezi değil. Harika bir kadın Ninja bulacağız.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	5	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107005	-1	0剧情事件	7对话	0	0	110201	110201	Naruto	Umarım antrenmanımı geciktirmez.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	6	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107006	-1	0剧情事件	7对话	0	1	103001	103001	Jiraiya	Doğru kişiyle gidiyorsun, Sasuke'nin Chidori'sinden daha karşı konulmaz Genjutsu kullanabilirim. Bu yolculukta sana öğreteceğim.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	1	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 8})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	2	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108002	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Sasuke'nin bedenini ele geçirmek için Orochimaru, adamları Sound Five'ı Sasuke'yi karşılamak üzere Konohagakure köyüne gizlice gönderdi; Sasuke de intikam alacak gücü elde etmek için Orochimaru'ya katılmaya razıydı.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	3	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108003	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Konohagakure tarafı Sasuke'nin ihanet ettiğini fark etti ve onu geri getirme görevi verdi; bu görevden sorumlu kişi yeni Chuunin olan Shikamaru'ydu.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	4	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108004	-1	0剧情事件	7对话	0	1	1000018	1000018	Shikamaru	Durum bu......O halde hemen yola çıkalım.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	5	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108005	-1	0剧情事件	7对话	0	0	1000008	1000008	Naruto	Lanet olsun......Şu Sasuke yok mu!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	6	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108006	-1	0剧情事件	7对话	0	0	110201	110201	Choji	Hı hı, bu görev o kadar kolay görünmüyor.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	7	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108007	-1	0剧情事件	7对话	0	0	151101	151101	Kiba	Bu göreve mutlaka katılmalıyım.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	8	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108008	-1	0剧情事件	7对话	0	0	111701	111701	Neji 	Gidelim.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	9	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108009	-1	0剧情事件	7对话	0	1	1000011	1000011	Sakura	Naruto......Bu hayatım boyunca senden tek isteğim......Sasuke'yi geri getireceğine eminim!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	10	1进入场景	8	0否	0	sc0m1	feg:1-0	0	1080010	-1	0剧情事件	7对话	0	0	110201	110201	Naruto	Sasuke'yi geri getireceğim, bu bizim ömürlük sözümüz!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	1	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 9})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	2	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109002	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Orochimaru 3 yılda bir yeniden bedenlendiği için Sasuke şimdilik iyi olacak.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	3	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109003	-1	0剧情事件	7对话	0	0	0	0	Anlatıcı	Sasuke'yi geri getirecek güce sahip olmak için Naruto, Jiraiya'yı takip eder ve yeni antrenman yolculuğuna başlar.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	4	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109004	-1	0剧情事件	7对话	0	1	103001	103001	Jiraiya	Şeytani antrenmanıma hazır ol.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	5	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109005	-1	0剧情事件	7对话	0	0	110201	110201	Naruto	Anlaşıldı!	0	0	0	0	0	0	0	0	0	0	0	0	0	0

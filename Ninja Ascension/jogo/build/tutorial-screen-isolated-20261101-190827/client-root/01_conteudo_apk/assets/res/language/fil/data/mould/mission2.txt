@@ -1,0 +1,679 @@
+1	1	3战斗开始	1196v1	0否	0	0	0	0	20101	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	2	3战斗开始	1196v1	0否	0	0	0	0	20102	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_loading_execute_mission",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	3	3战斗开始	1196v1	0否	0	0	0	0	20103	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_hide_mission_ui_control",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	4	3战斗开始	1196v1	0否	0	0	0	0	20104	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_hide_mission_ui_control",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	5	3战斗开始	1196v1	0否	0	0	0	0	20105	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_module_frf_change",0,1) 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	6	3战斗开始	1196v1	0否	0	0	0	0	20106	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_role_controller_select_target_effect_visible", 0, false)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	7	3战斗开始	1196v1	0否	0	0	0	0	20107	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_shanxian	-170	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	8	3战斗开始	1196v1	0否	0	0	0	0	20108	-1	1战斗事件	10播放音效	0	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	9	3战斗开始	1196v1	0否	0	0	0	0	20109	-1	1战斗事件	48变更战斗角色	0	0	1	19882	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	10	3战斗开始	1196v1	0否	0	0	0	0	201010	-1	1战斗事件	24等待CD	0	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	11	3战斗开始	1196v1	0否	0	0	0	0	201011	-1	1战斗事件	7对话	0	0	1000013	1000013	Naruto	Nasa unahan na ang Konohagakure…	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	12	3战斗开始	1196v1	0否	0	0	0	0	201012	-1	1战斗事件	24等待CD	0	300	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	13	3战斗开始	1196v1	0否	0	0	0	0	201013	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_shanxian	380	-190	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+1	14	3战斗开始	1196v1	0否	0	0	0	0	201014	-1	1战斗事件	10播放音效	0	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	15	3战斗开始	1196v1	0否	0	0	0	0	201015	-1	1战斗事件	48变更战斗角色	0	1	6	19886	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	16	3战斗开始	1196v1	0否	0	0	0	0	201016	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_shanxian	280	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+1	17	3战斗开始	1196v1	0否	0	0	0	0	201017	-1	1战斗事件	10播放音效	0	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	18	3战斗开始	1196v1	0否	0	0	0	0	201018	-1	1战斗事件	48变更战斗角色	0	1	4	19887	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	19	3战斗开始	1196v1	0否	0	0	0	0	201019	-1	1战斗事件	24等待CD	0	400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	20	3战斗开始	1196v1	0否	0	0	0	0	201020	-1	1战斗事件	7对话	0	1	102201	102201	Itachi	Naruto, mas malakas ka na ngayon!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	21	3战斗开始	1196v1	0否	0	0	0	0	201021	-1	1战斗事件	7对话	0	0	1000015	1000015	Naruto	Ikaw ay…… ang…… ni Sasuke	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	22	3战斗开始	1196v1	0否	0	0	0	0	201022	-1	1战斗事件	24等待CD	0	400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	23	3战斗开始	1196v1	0否	0	0	0	0	201023	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_shanxian	-340	-100	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	24	3战斗开始	1196v1	0否	0	0	0	0	201024	-1	1战斗事件	10播放音效	0	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	25	3战斗开始	1196v1	0否	0	0	0	0	201025	-1	1战斗事件	48变更战斗角色	0	0	5	19884	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	26	3战斗开始	1196v1	0否	0	0	0	0	201026	-1	1战斗事件	24等待CD	0	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	27	3战斗开始	1196v1	0否	0	0	0	0	201027	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_shanxian	-260	-190	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	28	3战斗开始	1196v1	0否	0	0	0	0	201028	-1	1战斗事件	10播放音效	0	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	29	3战斗开始	1196v1	0否	0	0	0	0	201029	-1	1战斗事件	48变更战斗角色	0	0	3	19883	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	30	3战斗开始	1196v1	0否	0	0	0	0	201030	-1	1战斗事件	24等待CD	0	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	31	3战斗开始	1196v1	0否	0	0	0	0	201031	-1	1战斗事件	7对话	0	0	1000036	1000036	Sasuke	Itachi Uchiha!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	32	3战斗开始	1196v1	0否	0	0	0	0	201032	-1	1战斗事件	7对话	0	1	102201	102201	Itachi	Sasuke,mukhang mas malakas ka na ngayon, kaya……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	33	3战斗开始	1196v1	0否	0	0	0	0	201033	-1	1战斗事件	50变改角色出手状态	0	1,2,3,4,5,6	1	1,2,3,4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	34	3战斗开始	1196v1	0否	0	0	0	0	201034	-1	1战斗事件	34战斗继续	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	35	3战斗开始	1196v1	0否	0	0	0	0	201035	-1	1战斗事件	35增加角色怒气	1	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	36	3战斗开始	1196v1	0否	0	0	0	0	201036	-1	1战斗事件	7对话	1	0	1000020	1000020	Sakura	……Huwag kang tumingin sa mga mata niya!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	37	3战斗开始	1196v1	0否	0	0	0	0	201037	-1	1战斗事件	35增加角色怒气	1	0	5	1000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	38	3战斗开始	1196v1	0否	0	0	0	0	201038	-1	1战斗事件	3点击UI	1	FightQTEControllerClass	ListView_battle_head	1	0|Panel_head_role_xy	0	0	0	0	0	0	0	0	0	0	0	state_machine.excute("fight_qte_controller_update_role_cell_state", 0, {"root_lock", {2,3}, "root_active", {1}})	2	0	0
+1	39	3战斗开始	1196v1	0否	0	0	0	0	201039	-1	1战斗事件	33战斗暂停	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	40	3战斗开始	1196v1	0否	0	0	0	0	201040	-1	1战斗事件	7对话	1	1	102201	102201	Itachi	Hindi masama! Hindi ako makapaniwalang nabasag mo ang Moon Reader ko. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	41	3战斗开始	1196v1	0否	0	0	0	0	201041	-1	1战斗事件	24等待CD	1	200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	42	3战斗开始	1196v1	0否	0	0	0	0	201042	-1	1战斗事件	5在当前场景背景上面绘制光效	1	sprite/effice_juqing_yanwu	120	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+1	43	3战斗开始	1196v1	0否	0	0	0	0	201043	-1	1战斗事件	10播放音效	1	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	44	3战斗开始	1196v1	0否	0	0	0	0	201044	-1	1战斗事件	48变更战斗角色	1	1	1	19888	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	45	3战斗开始	1196v1	0否	0	0	0	0	201045	-1	1战斗事件	5在当前场景背景上面绘制光效	1	sprite/effice_juqing_yanwu	200	-100	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+1	46	3战斗开始	1196v1	0否	0	0	0	0	201046	-1	1战斗事件	10播放音效	1	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	47	3战斗开始	1196v1	0否	0	0	0	0	201047	-1	1战斗事件	48变更战斗角色	1	1	2	19889	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	48	3战斗开始	1196v1	0否	0	0	0	0	201048	-1	1战斗事件	5在当前场景背景上面绘制光效	1	sprite/effice_juqing_yanwu	240	-180	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+1	49	3战斗开始	1196v1	0否	0	0	0	0	201049	-1	1战斗事件	10播放音效	1	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	50	3战斗开始	1196v1	0否	0	0	0	0	201050	-1	1战斗事件	48变更战斗角色	1	1	3	19890	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	51	3战斗开始	1196v1	0否	0	0	0	0	201051	-1	1战斗事件	24等待CD	1	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	52	3战斗开始	1196v1	0否	0	0	0	0	201052	-1	1战斗事件	7对话	1	0	1000036	1000036	Sasuke	Ngayon, pati ang kidlat ay yumuyuko sa kapangyarihan ko! 	0	0	0	1016	0	0	0	0	0	0	0	0	0	0
+1	53	3战斗开始	1196v1	0否	0	0	0	0	201053	-1	1战斗事件	34战斗继续	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	54	3战斗开始	1196v1	0否	0	0	0	0	201054	-1	1战斗事件	35增加角色怒气	1	0	3	1000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	55	3战斗开始	1196v1	0否	0	0	0	0	201055	-1	1战斗事件	3点击UI	1	FightQTEControllerClass	ListView_battle_head	2	0|Panel_head_role_xy	0	0	0	0	0	0	0	0	0	0	0	state_machine.excute("fight_qte_controller_update_role_cell_state", 0, {"root_lock", {1,3}, "root_active", {2}})	2	0	0
+1	56	3战斗开始	1196v1	0否	0	0	0	0	201056	-1	1战斗事件	33战斗暂停	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	57	3战斗开始	1196v1	0否	0	0	0	0	201057	-1	1战斗事件	34战斗继续	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	58	3战斗开始	1196v1	0否	0	0	0	0	201058	-1	1战斗事件	7对话	1	0	1000014	1000014	Naruto	Magandang pagkakataon!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	59	3战斗开始	1196v1	0否	0	0	0	0	201059	-1	1战斗事件	35增加角色怒气	1	0	1	1000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	60	3战斗开始	1196v1	0否	0	0	0	0	201060	-1	1战斗事件	3点击UI	1	FightQTEControllerClass	ListView_battle_head	3	0|Panel_head_role_xy	0	0	0	0	0	0	0	0	0	0	0	state_machine.excute("fight_qte_controller_update_role_cell_state", 0, {"root_lock", {1,2}, "root_active", {3}})	2	0	0
+1	61	3战斗开始	1196v1	0否	0	0	0	0	201061	-1	1战斗事件	33战斗暂停	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	62	3战斗开始	1196v1	0否	0	0	0	0	201062	-1	1战斗事件	42暂停战斗切场	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	63	3战斗开始	1196v1	0否	0	0	0	0	201063	-1	1战斗事件	7对话	4	0	1000015	1000015	Naruto	… Clone ba ito?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	64	3战斗开始	1196v1	0否	0	0	0	0	201064	-1	1战斗事件	7对话	4	0	1000036	1000036	Sasuke	Huwag mong subukang tumakas!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	65	3战斗开始	1196v1	0否	0	0	0	0	201065	-1	1战斗事件	24等待CD	4	200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	66	3战斗开始	1196v1	0否	0	0	0	0	201066	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_shanxian_chu	-260	-190	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	67	3战斗开始	1196v1	0否	0	0	0	0	201067	-1	1战斗事件	10播放音效	4	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	68	3战斗开始	1196v1	0否	0	0	0	0	201068	-1	1战斗事件	48变更战斗角色	4	0	3	19866	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	69	3战斗开始	1196v1	0否	0	0	0	0	201069	-1	1战斗事件	24等待CD	4	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	70	3战斗开始	1196v1	0否	0	0	0	0	201070	-1	1战斗事件	7对话	4	0	1000019	1000019	Sakura	Sasuke! Sandali! 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	71	3战斗开始	1196v1	0否	0	0	0	0	201071	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_shanxian_chu	-340	-100	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	72	3战斗开始	1196v1	0否	0	0	0	0	201072	-1	1战斗事件	10播放音效	4	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	73	3战斗开始	1196v1	0否	0	0	0	0	201073	-1	1战斗事件	48变更战斗角色	4	0	5	19867	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	74	3战斗开始	1196v1	0否	0	0	0	0	201074	-1	1战斗事件	24等待CD	4	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	75	3战斗开始	1196v1	0否	0	0	0	0	201075	-1	1战斗事件	7对话	4	0	1000013	1000013	Naruto	……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	76	3战斗开始	1196v1	0否	0	0	0	0	201076	-1	1战斗事件	7对话	4	0	1000014	1000014	Naruto	Hindi na ako makapaghintay……Kailangan kong makarating sa Konohagakure agad!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	77	3战斗开始	1196v1	0否	0	0	0	0	201077	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_shanxian_chu	-170	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	78	3战斗开始	1196v1	0否	0	0	0	0	201078	-1	1战斗事件	10播放音效	4	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	79	3战斗开始	1196v1	0否	0	0	0	0	201079	-1	1战斗事件	48变更战斗角色	4	0	1	19868	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	80	3战斗开始	1196v1	0否	0	0	0	0	201080	-1	1战斗事件	33战斗暂停	4	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	81	3战斗开始	1196v1	0否	0	0	0	0	201081	-1	1战斗事件	28执行脚本	4	state_machine.excute("fight_role_controller_battle_lock_attack_for_mission", 0, true)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	82	3战斗开始	1196v1	0否	0	0	0	0	201082	-1	1战斗事件	43开始战斗切场	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	83	3战斗开始	1196v1	0否	0	0	0	0	201083	-1	1战斗事件	24等待CD	4	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	84	3战斗开始	1196v1	0否	0	0	0	0	201084	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_shanxian	340	-100	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+1	85	3战斗开始	1196v1	0否	0	0	0	0	201085	-1	1战斗事件	10播放音效	4	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	86	3战斗开始	1196v1	0否	0	0	0	0	201086	-1	1战斗事件	48变更战斗角色	4	1	5	19891	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	87	3战斗开始	1196v1	0否	0	0	0	0	201087	-1	1战斗事件	24等待CD	4	200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	88	3战斗开始	1196v1	0否	0	0	0	0	201088	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_shanxian	-340	-100	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	89	3战斗开始	1196v1	0否	0	0	0	0	201089	-1	1战斗事件	10播放音效	4	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	90	3战斗开始	1196v1	0否	0	0	0	0	201090	-1	1战斗事件	48变更战斗角色	4	0	5	19885	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	91	3战斗开始	1196v1	0否	0	0	0	0	201091	-1	1战斗事件	24等待CD	4	200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	92	3战斗开始	1196v1	0否	0	0	0	0	201092	-1	1战斗事件	7对话	4	0	1000017	1000017	Tsunade	Pain, ano ang gusto mo?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	93	3战斗开始	1196v1	0否	0	0	0	0	201093	-1	1战斗事件	24等待CD	4	200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	94	3战斗开始	1196v1	0否	0	0	0	0	201094	-1	1战斗事件	7对话	4	1	102801	102801	Pain	Sabihin mo kung saan nagtatago si Naruto. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	95	3战斗开始	1196v1	0否	0	0	0	0	201095	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_yanwu	-170	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	96	3战斗开始	1196v1	0否	0	0	0	0	201096	-1	1战斗事件	10播放音效	4	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	97	3战斗开始	1196v1	0否	0	0	0	0	201097	-1	1战斗事件	48变更战斗角色	4	0	1	19893	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	98	3战斗开始	1196v1	0否	0	0	0	0	201098	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_yanwu	-260	-190	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	99	3战斗开始	1196v1	0否	0	0	0	0	201099	-1	1战斗事件	10播放音效	4	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	100	3战斗开始	1196v1	0否	0	0	0	0	2010100	-1	1战斗事件	48变更战斗角色	4	0	3	19894	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	101	3战斗开始	1196v1	0否	0	0	0	0	2010101	-1	1战斗事件	24等待CD	4	300	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	102	3战斗开始	1196v1	0否	0	0	0	0	2010102	-1	1战斗事件	7对话	4	0	171101	171101	Anbu	Protektahan si master Hokage!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	103	3战斗开始	1196v1	0否	0	0	0	0	2010103	-1	1战斗事件	24等待CD	4	300	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	104	3战斗开始	1196v1	0否	0	0	0	0	2010104	-1	1战斗事件	7对话	4	1	1000037	1000037	Pain	…… Huwag kang masyadong kumpiyansa!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	105	3战斗开始	1196v1	0否	0	0	0	0	2010105	-1	1战斗事件	34战斗继续	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	106	3战斗开始	1196v1	0否	0	0	0	0	2010106	-1	1战斗事件	28执行脚本	4	state_machine.excute("fight_role_controller_change_to_next_attack_role", 0, nil)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	107	3战斗开始	1196v1	0否	0	0	0	0	2010107	-1	1战斗事件	24等待CD	4	10400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	108	3战斗开始	1196v1	0否	0	0	0	0	2010108	-1	1战斗事件	7对话	4	0	1000017	1000017	Tsunade	Mas mahina kayo kaysa sa kanya! Umalis na kayo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	109	3战斗开始	1196v1	0否	0	0	0	0	2010109	-1	1战斗事件	24等待CD	4	300	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	110	3战斗开始	1196v1	0否	0	0	0	0	2010110	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_shanxian_chu	-170	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	111	3战斗开始	1196v1	0否	0	0	0	0	2010111	-1	1战斗事件	10播放音效	4	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	112	3战斗开始	1196v1	0否	0	0	0	0	2010112	-1	1战斗事件	48变更战斗角色	4	0	1	19865	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	113	3战斗开始	1196v1	0否	0	0	0	0	2010113	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_shanxian_chu	-260	-190	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	114	3战斗开始	1196v1	0否	0	0	0	0	2010114	-1	1战斗事件	10播放音效	4	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	115	3战斗开始	1196v1	0否	0	0	0	0	2010115	-1	1战斗事件	48变更战斗角色	4	0	3	19864	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	116	3战斗开始	1196v1	0否	0	0	0	0	2010116	-1	1战斗事件	24等待CD	4	200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	117	3战斗开始	1196v1	0否	0	0	0	0	2010117	-1	1战斗事件	7对话	4	0	1000017	1000017	Tsunade	Halika! Pain, ipagtatanggol ko ang Konohagakure kahit buhay ko ang kapalit!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	118	3战斗开始	1196v1	0否	0	0	0	0	2010118	-1	1战斗事件	24等待CD	4	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	119	3战斗开始	1196v1	0否	0	0	0	0	2010119	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/effice_juqing_yanwu	-170	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+1	120	3战斗开始	1196v1	0否	0	0	0	0	2010120	-1	1战斗事件	10播放音效	4	27	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	121	3战斗开始	1196v1	0否	0	0	0	0	2010121	-1	1战斗事件	48变更战斗角色	4	0	1	19881	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	122	3战斗开始	1196v1	0否	0	0	0	0	2010122	-1	1战斗事件	24等待CD	4	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	123	3战斗开始	1196v1	0否	0	0	0	0	2010123	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/juqing_cg2	0	0	1	WarshipGirlPushInfoClass	0	1	animation	1	0	0	0	0	0.5	0.5	0	0	0	0
+1	124	3战斗开始	1196v1	0否	0	0	0	0	2010124	-1	1战斗事件	7对话	4	0	110203	110203	Naruto	Ako ba ang hinahanap mo?!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	125	3战斗开始	1196v1	0否	0	0	0	0	2010125	-1	1战斗事件	7对话	4	0	1000017	1000017	Tsunade	Naruto……ikaw……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	126	3战斗开始	1196v1	0否	0	0	0	0	2010126	-1	1战斗事件	7对话	4	1	102801	102801	Pain	……Mabuti, hindi ko na kailangang hanapin ka…	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	127	3战斗开始	1196v1	0否	0	0	0	0	2010127	-1	1战斗事件	35增加角色怒气	4	0	1	1000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	128	3战斗开始	1196v1	0否	0	0	0	0	2010128	-1	1战斗事件	3点击UI	4	FightQTEControllerClass	ListView_battle_head	3	0|Panel_head_role_xy	0	0	0	0	0	0	0	0	0	0	0	state_machine.excute("fight_qte_controller_update_role_cell_state", 0, {"root_lock", {1,2}, "root_active", {3}})	2	0	0
+1	129	3战斗开始	1196v1	0否	0	0	0	0	2010129	-1	1战斗事件	33战斗暂停	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	130	3战斗开始	1196v1	0否	0	0	0	0	2010130	-1	1战斗事件	10播放音效	4	1017	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	131	3战斗开始	1196v1	0否	0	0	0	0	2010131	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/juqing_cg1	0	0	1	WarshipGirlPushInfoClass	0	1	animation	1	0	0	0	0	0.5	0.5	0	0	0	0
+1	132	3战斗开始	1196v1	0否	0	0	0	0	3010132	-1	2教学事件	2切换背景音效	4	14	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+1	133	3战斗开始	1196v1	0否	0	0	0	0	2010133	-1	1战斗事件	18发送资源	4	8-0,1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	134	3战斗开始	1196v1	0否	0	0	0	0	2010134	-1	1战斗事件	28执行脚本	4	state_machine.excute("fight_module_frf_change",0,0) 	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	135	3战斗开始	1196v1	0否	0	0	0	0	2010135	-1	1战斗事件	5在当前场景背景上面绘制光效	4	sprite/juqing_cg3	0	0	1	WarshipGirlPushInfoClass	0	1	animation	1	0	0	0	0	0.5	0.5	0	0	0	0
+1	136	3战斗开始	1196v1	0否	0	0	0	0	2010136	-1	1战斗事件	28执行脚本	4	state_machine.excute("menu_window_open_mission",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	1	7连击进度条开始	1v1	0否	0	0	0	0	201001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	2	7连击进度条开始	1v1	0否	0	0	0	0	201002	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_role_controller_select_target_effect_visible", 0, true)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	3	7连击进度条开始	1v1	0否	0	0	0	0	201003	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_hide_mission_ui_control",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	4	7连击进度条开始	1v1	0否	0	0	0	0	201004	-1	1战斗事件	44角色释放技能	0	0	4	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	5	7连击进度条开始	1v1	0否	0	0	0	0	201005	-1	1战斗事件	44角色释放技能	0	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	6	7连击进度条开始	1v1	0否	0	0	0	0	201006	-1	1战斗事件	7对话	0	0	160101	160101	Iruka	Naruto,naaalala mo pa ba na napapalakas ng combo ang atake?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	7	7连击进度条开始	1v1	0否	0	0	0	0	201007	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Um ... um ... ano 'yon?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	8	7连击进度条开始	1v1	0否	0	0	0	0	201008	-1	1战斗事件	7对话	0	0	160101	160101	Iruka	Sabi na nga ba... Ganoon pa rin! Makipagtulungan ka sa akin at gamitin ang combo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	9	7连击进度条开始	1v1	0否	0	0	0	0	201009	-1	1战斗事件	3点击UI	0	FightSceneClass	master-2	0	0	0,30	0,50	I-click ang kalabang Ninja para magsimulang umatake!	0	0	0	0	0	0	0	0	0	0	0	0
+10	10	7连击进度条开始	1v1	0否	0	0	0	0	2010010	-1	1战斗事件	29暂停战斗绘制	0	-1	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	11	7连击进度条开始	1v1	0否	0	0	0	0	-2	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_qte_controller_save_guide_perfect_pos", 0, 0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	12	7连击进度条开始	1v1	0否	0	0	0	0	2010011	-1	1战斗事件	3点击UI	0	FightQTEControllerClass	Panel_xiangyin	0	0	220,16,130,0	0,50	Kapag lumiit nang husto ang Combo circle, lalabas ang pinakamagandang pagkakataon para sa Combo!	0	0	0	0	0	0	0	0	0	0	0	0
+10	13	7连击进度条开始	1v1	0否	0	0	0	0	-2	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_qte_controller_unsave_guide_perfect_pos", 0, 0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	14	7连击进度条开始	1v1	0否	0	0	0	0	2010012	-1	1战斗事件	33战斗暂停	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	15	7连击进度条开始	1v1	0否	0	0	0	0	2010013	-1	1战斗事件	42暂停战斗切场	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	16	7连击进度条开始	1v1	0否	0	0	0	0	2010014	-1	1战斗事件	33战斗暂停	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+10	17	7连击进度条开始	1v1	0否	0	0	0	0	2010015	-1	1战斗事件	43开始战斗切场	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	1	7连击进度条开始	1v2	0否	0	0	0	0	201101	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	2	7连击进度条开始	1v2	0否	0	0	0	0	201102	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_hide_mission_ui_control",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	3	7连击进度条开始	1v2	0否	0	0	0	0	201103	-1	1战斗事件	44角色释放技能	0	0	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	4	7连击进度条开始	1v2	0否	0	0	0	0	201104	-1	1战斗事件	44角色释放技能	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	5	7连击进度条开始	1v2	0否	0	0	0	0	201105	-1	1战斗事件	7对话	0	0	160101	160101	Iruka	Kapag lumitaw ang "Skill" sa icon, ang pag-atake ay magpapagana ng secret jutsu!	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+11	7	7连击进度条开始	1v2	0否	0	0	0	0	201107	-1	1战斗事件	3点击UI	0	FightQTEControllerClass	ListView_battle_head	2	0|Panel_head_role_xy	0	0,50	Kapag lumitaw ang %|5|Skill% malapit sa icon ng Ninja, i-tap ito para gamitin ang Special Skill	0	0	0	0	0	0	0	0	0	0	0	0
+11	8	7连击进度条开始	1v2	0否	0	0	0	0	201108	-1	1战斗事件	29暂停战斗绘制	0	-1	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	9	7连击进度条开始	1v2	0否	0	0	0	0	201109	-1	1战斗事件	3点击UI	0	FightQTEControllerClass	Panel_xiangyin	0	0	220,16,130,0	0,50	Subukan ulit at makuha ang %|5|Perfect%!	0	0	0	0	0	0	0	0	0	0	0	0
+11	10	7连击进度条开始	1v2	0否	0	0	0	0	2011010	-1	1战斗事件	33战斗暂停	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	11	7连击进度条开始	1v2	0否	0	0	0	0	2011011	-1	1战斗事件	24等待CD	0	1000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	12	7连击进度条开始	1v2	0否	0	0	0	0	2011012	-1	1战斗事件	49角色行动状态	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	13	7连击进度条开始	1v2	0否	0	0	0	0	2011013	-1	1战斗事件	49角色行动状态	2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	14	7连击进度条开始	1v2	0否	0	0	0	0	2011014	-1	1战斗事件	7对话	3	0	1000008	1000008	Naruto	Tingnan ang bago kong technique--ang 2000 Combo ni Naruto!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	15	7连击进度条开始	1v2	0否	0	0	0	0	2011015	-1	1战斗事件	35增加角色怒气	3	0	2	1050	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+11	16	7连击进度条开始	1v2	0否	0	0	0	0	2011016	-1	1战斗事件	3点击UI	3	FightQTEControllerClass	ListView_battle_head	2	0|Panel_head_role_xy	0	0,50	Puno ang Chakra, i-slide ang icon para gamitin ang %|5| Secret Jutsu %!	0	0	0	0	0	0	0	0	0	2	0	0
+11	17	7连击进度条开始	1v2	0否	0	0	0	0	2011017	-1	1战斗事件	16返回战斗	3	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+12	1	4战斗结束	1v2	0否	0	0	0	0	201201	-1	1战斗事件	7对话	0	0	160101	160101	Iruka	Hindi ako makapaniwalang may ganitong secret jutsu pala!	0	0	0	1030	0	0	0	0	0	0	0	0	0	0
+12	2	4战斗结束	1v2	0否	0	0	0	0	201202	-1	1战斗事件	17战斗结束	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	1	3战斗开始	2v1	0否	0	0	0	0	202001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	2	3战斗开始	2v1	0否	0	0	0	0	202002	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_hide_mission_ui_control",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	3	3战斗开始	2v1	0否	0	0	0	0	202003	-1	1战斗事件	7对话	0	0	160101	160101	Iruka	Naruto, maging mahusay sa pag-obserba ng formation ng kalaban sa laban.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	4	3战斗开始	2v1	0否	0	0	0	0	202004	-1	1战斗事件	7对话	0	0	160101	160101	Iruka	Unahing patayin ang kalabang Ninja na mababa ang HP para mas pumabor sa iyo ang laban!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	5	3战斗开始	2v1	0否	0	0	0	0	202005	-1	1战斗事件	3点击UI	0	FightSceneClass	master-3	0	0	0,30	120,100	I-click ang kahit sinong Ninja sa Front Row ng kalaban para palitan ang Attack Target	0	0	0	0	0	0	0	0	0	0	0	0
+20	6	3战斗开始	2v1	0否	0	0	0	0	202006	-1	1战斗事件	3点击UI	0	FightSceneClass	master-3	0	0	0,30	120,50	I-click ulit para magsimulang umatake 	0	0	0	0	0	0	0	0	0	0	0	0
+20	7	3战斗开始	2v1	0否	0	0	0	0	202007	-1	1战斗事件	28执行脚本	0	state_machine.excute("window_lock_set_swallow_touches",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	8	3战斗开始	2v1	0否	0	0	0	0	202008	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	1	3战斗开始	2v2	0否	0	0	0	0	202201	-1	1战斗事件	7对话	0	0	150501	150501	Sakura	Wow!! Si Sasuke!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	1	3战斗开始	2v2	0否	0	0	0	0	202201	-1	1战斗事件	7对话	0	0	1000021	1000021	Naruto	Siya ang pinakasikat na lalaki sa mga babae……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	1	3战斗开始	2v2	0否	0	0	0	0	202201	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Ano ang gusto mong gawin? 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	1	3战斗开始	2v2	0否	0	0	0	0	202201	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Alam kong may binabalak ka!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	2	3战斗开始	2v2	0否	0	0	0	0	202202	-1	1战斗事件	34战斗继续	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	3	3战斗开始	2v2	0否	0	0	0	0	202203	-1	1战斗事件	33战斗暂停	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	4	3战斗开始	2v2	0否	0	0	0	0	202204	-1	1战斗事件	24等待CD	0	3000	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	5	3战斗开始	2v2	0否	0	0	0	0	202205	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Hmp! Ang daya nito! Ako ay...hindi pa ako handa……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	6	3战斗开始	2v2	0否	0	0	0	0	202206	-1	1战斗事件	7对话	0	0	1000038	1000038	Sakura	Naruto, mahilig ka lang talagang magyabang ……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	7	3战斗开始	2v2	0否	0	0	0	0	202207	-1	1战斗事件	35增加角色怒气	0	0	6	1050	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+22	8	3战斗开始	2v2	0否	0	0	0	0	202208	-1	1战斗事件	3点击UI	0	FightQTEControllerClass	ListView_battle_head	1	0|Panel_head_role_xy	0	500,50	Gamitin ang %|5| Blood Locking Jutsu% ni Sakura para gamutin si Naruto!	0	0	0	0	0	0	0	0	0	2	0	0
+22	9	3战斗开始	2v2	0否	0	0	0	0	202209	-1	1战斗事件	34战斗继续	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+23	3	4战斗结束	2v2	0否	0	0	0	0	202303	-1	1战斗事件	17战斗结束	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	1	3战斗开始	3v1	0否	0	0	0	0	203001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	2	3战斗开始	3v1	0否	0	0	0	0	203002	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_hide_mission_ui_control",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	3	3战斗开始	3v1	0否	0	0	0	0	203003	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_role_controller_battle_formation_info",0,{{1,1,1,1,1,1},{0,0,0,0,1,0}})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	4	3战斗开始	3v1	0否	0	0	0	0	203004	-1	1战斗事件	7对话	0	0	160101	160101	Iruka	Sa mga susunod na ninja mission, kikilos tayo nang grupo-grupo, na binubuo ng 3 ninja	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	5	3战斗开始	3v1	0否	0	0	0	0	203005	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Oh, kung gayon partner ko si Sakura, sino ang pangatlo?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	6	3战斗开始	3v1	0否	0	0	0	0	203006	-1	1战斗事件	24等待CD	0	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	7	3战斗开始	3v1	0否	0	0	0	0	203007	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_shanxian	-170	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,-130,0	0.5	0.5	0	0	0	0
+30	8	3战斗开始	3v1	0否	0	0	0	0	203008	-1	1战斗事件	10播放音效	0	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	9	3战斗开始	3v1	0否	0	0	0	0	203009	-1	1战斗事件	48变更战斗角色	0	0	1	19920	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	10	3战斗开始	3v1	0否	0	0	0	0	2030010	-1	1战斗事件	24等待CD	0	300	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	11	3战斗开始	3v1	0否	0	0	0	0	2030011	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	12	3战斗开始	3v1	0否	0	0	0	0	2030012	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Bakit si Sasuke?!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	13	3战斗开始	3v1	0否	0	0	0	0	2030013	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Tanga…huwag kang pabigat sa grupo……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+30	14	3战斗开始	3v1	0否	0	0	0	0	2030014	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	1	3战斗开始	3v2	0否	0	0	0	0	203201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	2	3战斗开始	3v2	0否	0	0	0	0	203202	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_hide_mission_ui_control",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	3	3战斗开始	3v2	0否	0	0	0	0	203203	-1	1战斗事件	7对话	0	1	160201	160201	Konohamaru	Huling laban na natin, kuya Naruto! 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	4	3战斗开始	3v2	0否	0	0	0	0	203204	-1	1战斗事件	24等待CD	0	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	5	3战斗开始	3v2	0否	0	0	0	0	203205	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_yanwu	380	-190	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+32	6	3战斗开始	3v2	0否	0	0	0	0	203206	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_yanwu	280	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+32	7	3战斗开始	3v2	0否	0	0	0	0	203207	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_yanwu	120	-20	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+32	8	3战斗开始	3v2	0否	0	0	0	0	203208	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_yanwu	200	-100	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+32	9	3战斗开始	3v2	0否	0	0	0	0	203209	-1	1战斗事件	5在当前场景背景上面绘制光效	0	sprite/effice_juqing_yanwu	240	-180	1	FightMapClass	1	1	animation	1	0	0	0	0,130,0	0.5	0.5	0	0	0	0
+32	10	3战斗开始	3v2	0否	0	0	0	0	2032010	-1	1战斗事件	10播放音效	0	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	11	3战斗开始	3v2	0否	0	0	0	0	2032011	-1	1战斗事件	10播放音效	0	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	12	3战斗开始	3v2	0否	0	0	0	0	2032012	-1	1战斗事件	10播放音效	0	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	13	3战斗开始	3v2	0否	0	0	0	0	2032013	-1	1战斗事件	10播放音效	0	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	14	3战斗开始	3v2	0否	0	0	0	0	2032014	-1	1战斗事件	10播放音效	0	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	15	3战斗开始	3v2	0否	0	0	0	0	2032015	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_role_controller_visible_formation",0,{1,"1,2,3,4,6",1})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	16	3战斗开始	3v2	0否	0	0	0	0	2032016	-1	1战斗事件	24等待CD	0	600	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	17	3战斗开始	3v2	0否	0	0	0	0	2032017	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Ang dami mong pinatulong! Anong klaseng Ninja ka?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	18	3战斗开始	3v2	0否	0	0	0	0	2032018	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Hmm, isang atake lang ang kailangan ko para talunin ang taong ito.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	19	3战斗开始	3v2	0否	0	0	0	0	2032019	-1	1战斗事件	35增加角色怒气	0	0	1	1050	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+32	20	3战斗开始	3v2	0否	0	0	0	0	2032020	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+33	1	4战斗结束	3v2	0否	0	0	0	0	203301	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	1	3战斗开始	4v1	0否	0	0	0	0	204001	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_mission_fight_controler",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	2	3战斗开始	4v1	0否	0	0	0	0	204002	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	3	3战斗开始	4v1	0否	0	0	0	0	204003	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Hindi ko alam kung saan nagpunta si Sasuke, puro pa-cool lang ang alam niya.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	4	3战斗开始	4v1	0否	0	0	0	0	204004	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	1	3战斗开始	5v1	0否	0	0	0	0	205001	-1	1战斗事件	28执行脚本	0	state_machine.excute("fight_ui_mission_fight_controler",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	2	3战斗开始	5v1	0否	0	0	0	0	205002	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	3	3战斗开始	5v1	0否	0	0	0	0	205003	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Ang bagal mo talaga, huling-huli.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	4	3战斗开始	5v1	0否	0	0	0	0	205004	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Hmp, ikaw ang gustong mag-isa!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	5	3战斗开始	5v1	0否	0	0	0	0	205005	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Tama na ang pagpapabagal, kundi hindi mo ako mahahabol, i-click ang Speed Up Button sa kanan ng screen para bumilis.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	6	3战斗开始	5v1	0否	0	0	0	0	205006	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Susubukan ko…...eh, bakit nawala na naman si Sakura?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	7	3战斗开始	5v1	0否	0	0	0	0	205007	-1	1战斗事件	28执行脚本	0	state_machine.excute("window_lock_set_swallow_touches",0,0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	8	3战斗开始	5v1	0否	0	0	0	0	205008	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+51	1	3战斗开始	5v2	0否	0	0	0	0	205101	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+51	2	3战斗开始	5v2	0否	0	0	0	0	205102	-1	1战斗事件	7对话	0	1	150501	150501	Sakura	Naruto!Sasuke! Nahanap ko na kung nasaan si Kakashi.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+51	3	3战斗开始	5v2	0否	0	0	0	0	205103	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Talaga? Ayos!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+51	4	3战斗开始	5v2	0否	0	0	0	0	205104	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Hindi iyan si Sakura, huwag kang magpaloko.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+51	5	3战斗开始	5v2	0否	0	0	0	0	205105	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ano'ng sinabi mo?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+51	6	3战斗开始	5v2	0否	0	0	0	0	205106	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+52	1	4战斗结束	5v2	0否	0	0	0	0	205201	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Karapat-dapat kang maging miyembro ng Uchiha clan,nakita mo ang tunay sa likod ng transformation ko. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+52	2	4战斗结束	5v2	0否	0	0	0	0	205202	-1	1战斗事件	7对话	0	1	150501	150501	Sakura	Sasuke!Naruto! Nandito ako!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+52	3	4战斗结束	5v2	0否	0	0	0	0	205203	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Hmm, si Sakura talaga ito.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+52	4	4战斗结束	5v2	0否	0	0	0	0	205204	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Paano mo nalaman?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+52	5	4战斗结束	5v2	0否	0	0	0	0	205205	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Kung si Sakura talaga,pangalan ko ang una niyang tatawagin.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+52	6	4战斗结束	5v2	0否	0	0	0	0	205206	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Uh, at ito……  Kasalanan ko……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+52	7	4战斗结束	5v2	0否	0	0	0	0	205207	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	1	3战斗开始	7v1	0否	0	0	0	0	207001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	2	3战斗开始	7v1	0否	0	0	0	0	207002	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	May dalawang kampanilya ako rito, kung makukuha ninyo ang mga ito, tapos ang mission ninyo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	3	3战斗开始	7v1	0否	0	0	0	0	207003	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Ang hindi makakakuha ng kampanilya ay mawawalan ng karapatang maging Ninja.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	4	3战斗开始	7v1	0否	0	0	0	0	207004	-1	1战斗事件	7对话	0	0	1000011	1000011	Sakura	Ano...... Tatlo tayo, pero dalawa lang ang kampanilya? Ibig sabihin, may maiiwan…	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	5	3战斗开始	7v1	0否	0	0	0	0	207005	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+71	1	3战斗开始	7v2	0否	0	0	0	0	207101	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+71	2	3战斗开始	7v2	0否	0	0	0	0	207102	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	…… Transformation na naman? Kamukha ko talaga, guwapo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+71	3	3战斗开始	7v2	0否	0	0	0	0	207103	-1	1战斗事件	7对话	0	0	150501	150501	Sakura	Kaya…… Sino ba talaga ang totoong Naruto?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+71	4	3战斗开始	7v2	0否	0	0	0	0	207104	-1	1战斗事件	7对话	0	1	110201	110201	Naruto	Sakura, ako ang totoo, peke ang katabi mo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+71	5	3战斗开始	7v2	0否	0	0	0	0	207105	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ano!Kanina pa ako kasama ni Sakura, siyempre ako ang totoo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+71	6	3战斗开始	7v2	0否	0	0	0	0	207106	-1	1战斗事件	7对话	0	0	1000012	1000012	Sakura	Kayong dalawa na ang bahala!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+71	7	3战斗开始	7v2	0否	0	0	0	0	207107	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+92	1	3战斗开始	9v2	0否	0	0	0	0	209201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+92	2	3战斗开始	9v2	0否	0	0	0	0	209202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Sasuke! Bakit lagi mong gustong mag-isa?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+92	3	3战斗开始	9v2	0否	0	0	0	0	209203	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Kaysa makipagtulungan sa inyo, mas madali kong matatapos ang mission nang mag-isa.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+92	4	3战斗开始	9v2	0否	0	0	0	0	209204	-1	1战斗事件	7对话	0	0	1000011	1000011	Sakura	Sasuke……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+92	5	3战斗开始	9v2	0否	0	0	0	0	209205	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+93	1	4战斗结束	9v2	0否	0	0	0	0	209301	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Kayo,gutom na ba kayo? Kain na tayo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+93	2	4战斗结束	9v2	0否	0	0	0	0	209302	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	At ang bell test na ito…… Bagsak kayong lahat! Tumigil na kayo sa pagiging Ninja!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+93	3	4战斗结束	9v2	0否	0	0	0	0	209303	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ano? Bakit?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+93	4	4战斗结束	9v2	0否	0	0	0	0	209304	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	1	3战斗开始	11v2	0否	0	0	0	0	2011201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	2	3战斗开始	11v2	0否	0	0	0	0	2011202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Bakit mo sinabing hindi na kami puwedeng maging Ninja? Hindi lang namin nakuha ang kampanilya!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	3	3战斗开始	11v2	0否	0	0	0	0	2011203	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Sa tingin ninyo baka walang halaga ang pagiging Ninja, naisip ba ninyo kung bakit ako nagsagawa ng team test?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	4	3战斗开始	11v2	0否	0	0	0	0	2011204	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Ang sagot ay…… teamwork!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	5	3战斗开始	11v2	0否	0	0	0	0	2011205	-1	1战斗事件	7对话	0	0	1000011	1000011	Sakura	Dalawa lang ang kampanilya, paano kami magtutulungan?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	6	3战斗开始	11v2	0否	0	0	0	0	2011206	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Sinadya ko iyon, sa ganitong sitwasyon, kung may isang handang isantabi ang sariling interes at piliing makipagtulungan, karapat-dapat siyang maging Ninja!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	7	3战斗开始	11v2	0否	0	0	0	0	2011207	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	8	3战斗开始	11v2	0否	0	0	0	0	2011208	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Bibigyan ko kayo ng isa pang huling pagkakataon!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+112	9	3战斗开始	11v2	0否	0	0	0	0	2011209	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+113	1	4战斗结束	11v2	0否	0	0	0	0	2011301	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Ang sinumang lumalabag sa mga patakaran ng Shinobi World ay tinatawag na basura.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+113	2	4战斗结束	11v2	0否	0	0	0	0	2011302	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Pero ang mga taong pinababayaan ang kasama ay mas masahol pa sa basura!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+113	3	4战斗结束	11v2	0否	0	0	0	0	2011303	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Tapos na ang test! Pasado kayong lahat! Simula bukas - magsisimula ng mission ang Team 7!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+113	4	4战斗结束	11v2	0否	0	0	0	0	2011304	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Astig! Ninja na ako!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+113	5	4战斗结束	11v2	0否	0	0	0	0	2011305	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+123	6	4战斗结束	12v2	0否	0	0	0	0	2012306	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	C-rank mission lang ito. Bakit tayo inaatake ng mga Ninja?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+123	7	4战斗结束	12v2	0否	0	0	0	0	2012307	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Gusto kong malaman kung ano ang pakay nila……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+123	8	4战斗结束	12v2	0否	0	0	0	0	2012308	-1	1战斗事件	7对话	0	1	1000003	1000003	Tazuna	……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+123	9	4战斗结束	12v2	0否	0	0	0	0	2012309	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+130	1	3战斗开始	13v1	0否	0	0	0	0	2013001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+130	2	3战斗开始	13v1	0否	0	0	0	0	2013002	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Hoy, Mr.Tazuna, ikaw ba ang pakay nila? Lampas na ito sa mission natin.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+130	3	3战斗开始	13v1	0否	0	0	0	0	2013003	-1	1战斗事件	7对话	0	1	1000003	1000003	Tazuna	……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+130	4	3战斗开始	13v1	0否	0	0	0	0	2013004	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Baka may pinagdadaanan ka, pero masyado na itong mahirap hawakan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+130	5	3战斗开始	13v1	0否	0	0	0	0	2013005	-1	1战斗事件	7对话	0	0	1000011	1000011	Sakura	Masyado pang maaga para sa amin ang ganitong mission, at nasugatan si Naruto kanina, kailangan niyang gamutin ang sugat…...	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+130	6	3战斗开始	13v1	0否	0	0	0	0	2013006	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Okay lang ako! Gagamitin ko ang Kunai na ito para protektahan si Mr. Tazuna! Tuloy ang mission!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+130	7	3战斗开始	13v1	0否	0	0	0	0	2013007	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+133	1	4战斗结束	13v2	0否	0	0	0	0	2013301	-1	1战斗事件	7对话	0	1	1000003	1000003	Tazuna	Mr. Kakashi, may aaminin ako sa iyo……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+133	2	4战斗结束	13v2	0否	0	0	0	0	2013302	-1	1战斗事件	7对话	0	1	1000003	1000003	Tazuna	Ang totoo, may isang taong nagngangalang Gato na gustong pumatay sa akin, gagawin niya ang lahat para pigilan akong magtayo ng tulay para sa Land of Waves, para masolo niya ang ekonomiya ng dagat…...  	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+133	3	4战斗结束	13v2	0否	0	0	0	0	2013303	-1	1战斗事件	7对话	0	1	1000003	1000003	Tazuna	Pero napakahirap ng Land of Waves, hindi ko kayang bayaran ang mataas na bounty ng B-rank mission, kaya…… Kung hindi ninyo ako poprotektahan, siguradong mamamatay ako……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+133	4	4战斗结束	13v2	0否	0	0	0	0	2013304	-1	1战斗事件	7对话	0	1	1000003	1000003	Tazuna	…… Hindi na mahalaga iyon, ang tanging nagmamalasakit sa akin ay ang mahal kong 10 taong gulang na apo…… At habang buhay na kamumuhian ng anak kong babae ang Konohagakure……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+133	5	4战斗结束	13v2	0否	0	0	0	0	2013305	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Sige na nga…… Wala tayong magagawa……  Patuloy ka naming poprotektahan!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+133	6	4战斗结束	13v2	0否	0	0	0	0	2013306	-1	1战斗事件	7对话	0	1	1000003	1000003	Tazuna	(Kuha ko na!)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+133	7	4战斗结束	13v2	0否	0	0	0	0	2013307	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+150	1	3战斗开始	3000v1	0否	0	0	0	0	2015001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+150	2	3战斗开始	3000v1	0否	0	0	0	0	2015002	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Lahat umatras! Protektahan si Mr. Tazuna!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+150	3	3战斗开始	3000v1	0否	0	0	0	0	2015003	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+152	1	3战斗开始	3000v2	0否	0	0	0	0	2015201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+152	2	3战斗开始	3000v2	0否	0	0	0	0	2015202	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Medyo mahirap gamitin ang technique na ito ngayon.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+152	3	3战斗开始	3000v2	0否	0	0	0	0	2015203	-1	1战斗事件	7对话	0	1	110801	110801	Zabuza Momochi	Hmm, ang bilis kong nakita ang maalamat na Sharingan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+152	4	3战斗开始	3000v2	0否	0	0	0	0	2015204	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Sharingan!?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+152	5	3战斗开始	3000v2	0否	0	0	0	0	2015205	-1	1战斗事件	7对话	0	0	1000004	1000004	Kakashi	Zabuza, ako ang kalaban mo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+152	6	3战斗开始	3000v2	0否	0	0	0	0	2015206	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ano'ng nangyari sa mata niya?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+152	7	3战斗开始	3000v2	0否	0	0	0	0	2015207	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+153	1	4战斗结束	3000v2	0否	0	0	0	0	2015301	-1	1战斗事件	7对话	0	0	1000004	1000004	Kakashi	Tapos na!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+153	2	4战斗结束	3000v2	0否	0	0	0	0	2015302	-1	1战斗事件	7对话	0	1	1000007	1000007	Zabuza Momochi	(Ilang lumilipad na karayom ang tumama sa leeg ni Zabuza mula sa dilim!)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+153	3	4战斗结束	3000v2	0否	0	0	0	0	2015303	-1	1战斗事件	7对话	0	1	1000002	1000002	？？？	Salamat,malaking tulong iyon, matagal na akong naghahanap ng pagkakataong patayin siya.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+153	4	4战斗结束	3000v2	0否	0	0	0	0	2015304	-1	1战斗事件	7对话	0	0	1000004	1000004	Kakashi	Ang maskarang ito…… taga-assassination team ka ng Hidden Mist?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+153	5	4战斗结束	3000v2	0否	0	0	0	0	2015305	-1	1战斗事件	7对话	0	1	1000002	1000002	？？？	Mission kong habulin at patayin ang mga traydor na Ninja, kukunin ko ang bangkay.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+153	6	4战斗结束	3000v2	0否	0	0	0	0	2015306	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+160	1	3战斗开始	16v1	0否	0	0	0	0	2016001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+160	2	3战斗开始	16v1	0否	0	0	0	0	2016002	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ang isang napakalakas na tulad ni Zabuza ay madaling napatay ng isang batang tulad natin!Ano pa ang pinagkaiba natin sa mga tanga! Hindi ako makapaniwala! 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+160	3	3战斗开始	16v1	0否	0	0	0	0	2016003	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Naiintindihan ko ang pagkadismaya mo, pero iyan ang totoo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+160	4	3战斗开始	16v1	0否	0	0	0	0	2016004	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	May mas bata pa sa iyo, pero mas malakas pa sila kaysa sa akin.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+160	5	3战斗开始	16v1	0否	0	0	0	0	2016005	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	…… 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+160	6	3战斗开始	16v1	0否	0	0	0	0	2016006	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Tara na. Kailangan nating ihatid si Mr. Tazuna pauwi.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+160	7	3战斗开始	16v1	0否	0	0	0	0	2016007	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+163	1	4战斗结束	16v2	0否	0	0	0	0	2016301	-1	1战斗事件	7对话	0	1	1000003	1000003	Tazuna	Nandito na tayo, ito ang bahay ko, pagod kayong lahat, magpahinga kayong mabuti!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+163	2	4战斗结束	16v2	0否	0	0	0	0	2016302	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+170	1	3战斗开始	17v1	0否	0	0	0	0	2017001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+170	2	3战斗开始	17v1	0否	0	0	0	0	2017002	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Patay na si Zabuza, bakit ba ako balisa……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+170	3	3战斗开始	17v1	0否	0	0	0	0	2017003	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+172	1	3战斗开始	17v2	0否	0	0	0	0	2017201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+172	2	3战斗开始	17v2	0否	0	0	0	0	2017202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ikaw ay……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+172	3	3战斗开始	17v2	0否	0	0	0	0	2017203	-1	1战斗事件	7对话	0	1	112801	112801	Haku	…… Ikaw pala!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+172	4	3战斗开始	17v2	0否	0	0	0	0	2017204	-1	1战斗事件	7对话	0	0	1000021	1000021	Naruto	Ate, ano ang ginagawa mo rito?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+172	5	3战斗开始	17v2	0否	0	0	0	0	2017205	-1	1战斗事件	7对话	0	1	112801	112801	Haku	Nangunguha ng halamang gamot, at……  lalaki ako.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+172	6	3战斗开始	17v2	0否	0	0	0	0	2017206	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Ano!? (Mas maganda pa kaysa kay Sakura……)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+172	7	3战斗开始	17v2	0否	0	0	0	0	2017207	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+173	1	4战斗结束	17v2	0否	0	0	0	0	2017301	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Malamang buhay pa si Zabuza!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+173	2	4战斗结束	17v2	0否	0	0	0	0	2017302	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Mali man ako o hindi, kailangan ninyong mag-training ngayon.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+173	3	4战斗结束	17v2	0否	0	0	0	0	2017303	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Ang maghanda bago mahuli ang lahat ay isa rin sa mga bakal na patakaran ng mga Ninja.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+173	4	4战斗结束	17v2	0否	0	0	0	0	2017304	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+190	1	3战斗开始	19v1	0否	0	0	0	0	2019001	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+190	2	3战斗开始	19v1	0否	0	0	0	0	2019002	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Hamog…… Parating na ang kalaban!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+190	3	3战斗开始	19v1	0否	0	0	0	0	2019003	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+192	1	3战斗开始	19v2	0否	0	0	0	0	2019201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+192	2	3战斗开始	19v2	0否	0	0	0	0	2019202	-1	1战斗事件	7对话	0	1	110801	110801	Zabuza Momochi	Ilang araw na ang lumipas, Kakashi. Kasama mo pa rin ang mga walang silbing bata, nanginginig silang lahat!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+192	3	3战斗开始	19v2	0否	0	0	0	0	2019203	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Sabik na sabik na ako!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+192	4	3战斗开始	19v2	0否	0	0	0	0	2019204	-1	1战斗事件	7对话	0	1	112801	112801	Haku	Hindi ko hahayaang saktan mo ulit si Mr. Zabuza.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+192	5	3战斗开始	19v2	0否	0	0	0	0	2019205	-1	1战斗事件	7对话	0	0	111501	111501	Kakashi	Kasama nga niya ang batang iyon.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+192	6	3战斗开始	19v2	0否	0	0	0	0	2019206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+193	1	4战斗结束	19v2	0否	0	0	0	0	2019301	-1	1战斗事件	7对话	0	0	1000004	1000004	Kakashi	Zabuza,kamatayan lang ang kinabukasan mo, heto-- Lightning Cutter！	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+193	2	4战斗结束	19v2	0否	0	0	0	0	2019302	-1	1战斗事件	7对话	0	1	112801	112801	Haku	Oh ah! (Lumipad siya at hinarangan ang Lightning Cutter ni Kakashi,at tumagos ito sa katawan niya.)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+193	3	4战斗结束	19v2	0否	0	0	0	0	2019303	-1	1战斗事件	7对话	0	0	1000004	1000004	Kakashi	!!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+193	4	4战斗结束	19v2	0否	0	0	0	0	2019304	-1	1战斗事件	7对话	0	1	1000007	1000007	Zabuza Momochi	Kamatayan lang ang kinabukasan ko? Kakashi, mali ka na naman.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+193	5	4战斗结束	19v2	0否	0	0	0	0	2019305	-1	1战斗事件	7对话	0	0	1000004	1000004	Kakashi	Ang batang ito…… patay na……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+193	6	4战斗结束	19v2	0否	0	0	0	0	2019306	-1	1战斗事件	7对话	0	1	1000007	1000007	Zabuza Momochi	Napakagaling na kasangkapan! Malaki ang naitulong niya sa huling sandali!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+193	7	4战斗结束	19v2	0否	0	0	0	0	2019307	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+212	1	3战斗开始	21v2	0否	0	0	0	0	2021201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+212	2	3战斗开始	21v2	0否	0	0	0	0	2021202	-1	1战斗事件	7对话	0	1	1000033	1000033	Lee	Ikaw na may matapang na mga mata, sandali lang.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+212	3	3战斗开始	21v2	0否	0	0	0	0	2021203	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Ano ba……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+212	4	3战斗开始	21v2	0否	0	0	0	0	2021204	-1	1战斗事件	7对话	0	1	1000033	1000033	Lee	Ako si Rock Lee, gusto kong makita kung uubra ang taktika ko sa isang Uchiha na kilala bilang Genius Clan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+212	5	3战斗开始	21v2	0否	0	0	0	0	2021205	-1	1战斗事件	7对话	0	1	1000033	1000033	Lee	Lumaban ka!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+212	6	3战斗开始	21v2	0否	0	0	0	0	2021206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	1	4战斗结束	21v2	0否	0	0	0	0	2021301	-1	1战斗事件	7对话	0	1	1000033	1000033	Lee	Kayang lampasan ng sipag ang henyo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	2	4战斗结束	21v2	0否	0	0	0	0	2021302	-1	1战斗事件	7对话	0	1	111201	111201	Guy	Lee, tigil!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	3	4战斗结束	21v2	0否	0	0	0	0	2021303	-1	1战斗事件	7对话	0	0	1000012	1000012	Sakura	Isa pang makapal ang kilay!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	4	4战斗结束	21v2	0否	0	0	0	0	2021304	-1	1战斗事件	7对话	0	1	111201	111201	Guy	Ang Mr. Kakashi ninyo, kumusta na siya?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	5	4战斗结束	21v2	0否	0	0	0	0	2021305	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Magkakilala kayo?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	6	4战斗结束	21v2	0否	0	0	0	0	2021306	-1	1战斗事件	7对话	0	1	111201	111201	Guy	(Biglang lumitaw sa likod ni Sasuke) Tinatawag kaming "walang hanggang magkaribal". Ang score namin ay 50-49. Mas malakas ako sa kanya!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	7	4战斗结束	21v2	0否	0	0	0	0	2021307	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	Napakabilis……sa isang kisap-mata……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	8	4战斗结束	21v2	0否	0	0	0	0	2021308	-1	1战斗事件	7对话	0	1	111201	111201	Guy	Pumunta na tayong lahat sa classroom. Magsisimula na ang unang test.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+213	9	4战斗结束	21v2	0否	0	0	0	0	2021309	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+232	1	3战斗开始	23v2	0否	0	0	0	0	2023201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+232	2	3战斗开始	23v2	0否	0	0	0	0	2023202	-1	1战斗事件	7对话	0	1	1000030	1000030	Orochimaru	Hey hey hey, nahanap ko na kayo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+232	3	3战斗开始	23v2	0否	0	0	0	0	2023203	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Sino ka?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+232	4	3战斗开始	23v2	0否	0	0	0	0	2023204	-1	1战斗事件	7对话	0	1	1000031	1000031	Orochimaru	Kaya pala magkapatid kayo, nakikita ko sa mga mata mo na mas malakas ka kaysa kay Inochi.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+232	5	3战斗开始	23v2	0否	0	0	0	0	2023205	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	!!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+232	6	3战斗开始	23v2	0否	0	0	0	0	2023206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+233	1	4战斗结束	23v2	0否	0	0	0	0	2023301	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	Sino ka ba talaga?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+233	2	4战斗结束	23v2	0否	0	0	0	0	2023302	-1	1战斗事件	7对话	0	1	1000031	1000031	Orochimaru	Ako si Orochimaru, kung gusto mo akong makita ulit, gawin mo ang lahat para makapasa sa test na ito!(Biglang kinagat niya ang leeg ni Sasuke)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+233	3	4战斗结束	23v2	0否	0	0	0	0	2023303	-1	1战斗事件	7对话	0	0	1000024	1000024	Sasuke	Ah……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+233	4	4战斗结束	23v2	0否	0	0	0	0	2023304	-1	1战斗事件	7对话	0	0	1000004	1000004	Naruto	Sasuke, ayos ka lang ba?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+233	5	4战斗结束	23v2	0否	0	0	0	0	2023305	-1	1战斗事件	7对话	0	1	1000031	1000031	Orochimaru	Siguradong lalapit ka sa akin, ako lang ang makapagbibigay sa iyo ng kapangyarihan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+233	6	4战斗结束	23v2	0否	0	0	0	0	2023306	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	…… 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+233	7	4战斗结束	23v2	0否	0	0	0	0	2023307	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	1	3战斗开始	25v2	0否	0	0	0	0	2025201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	2	3战斗开始	25v2	0否	0	0	0	0	2025202	-1	1战斗事件	7对话	0	1	1000022	1000022	Kabuto	ee……?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	3	3战斗开始	25v2	0否	0	0	0	0	2025203	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	Kung tama ang pagkakaalala ko, Kabuto ang pangalan mo? Bakit ka pagala-gala rito?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	4	3战斗开始	25v2	0否	0	0	0	0	2025204	-1	1战斗事件	7对话	0	1	1000022	1000022	Kabuto	Huwag kayong mag-alala, hindi ako kalaban…… Nakakolekta na ako ng isang pares ng scroll.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	5	3战斗开始	25v2	0否	0	0	0	0	2025205	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	…… !!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	6	3战斗开始	25v2	0否	0	0	0	0	2025206	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	…… Magharap tayo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	7	3战斗开始	25v2	0否	0	0	0	0	2025207	-1	1战斗事件	7对话	0	1	111601	111601	Kabuto	Seryoso ka ba?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	8	3战斗开始	25v2	0否	0	0	0	0	2025208	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+253	1	4战斗结束	25v2	0否	0	0	0	0	2025301	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Sasuke,tinulungan tayo ni senior Kabuto! Wala ka bang konsensya!  	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+253	2	4战斗结束	25v2	0否	0	0	0	0	2025302	-1	1战斗事件	7对话	0	0	1000011	1000011	Sakura	Sasuke,hindi tama iyan……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+253	3	4战斗结束	25v2	0否	0	0	0	0	2025303	-1	1战斗事件	7对话	0	1	1000022	1000022	Kabuto	Sa tingin ko hindi ka pa nakakapagpasya. Kung gusto mo talagang agawin ito, dapat ginawa mo na nang hindi ko napapansin. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+253	4	4战斗结束	25v2	0否	0	0	0	0	2025304	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	…… 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+253	5	4战斗结束	25v2	0否	0	0	0	0	2025305	-1	1战斗事件	7对话	0	1	1000022	1000022	Kabuto	Mukhang hindi ka naman nakakainis, ituturo ko sa iyo ang daan, mag-usap tayo habang naglalakad.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+253	6	4战斗结束	25v2	0否	0	0	0	0	2025306	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	1	3战斗开始	26v2	0否	0	0	0	0	2026201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	2	3战斗开始	26v2	0否	0	0	0	0	2026202	-1	1战斗事件	7对话	0	1	150301	150301	Shikamaru	Naku, nakasalubong natin ang pasaway……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	3	3战斗开始	26v2	0否	0	0	0	0	2026203	-1	1战斗事件	7对话	0	1	151201	151201	Ino	Mukhang hindi pa ninyo nakokolekta ang lahat ng scroll, nakahanap na kami ng dalawang set.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	4	3战斗开始	26v2	0否	0	0	0	0	2026204	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Ano? Kung gayon……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	5	3战斗开始	26v2	0否	0	0	0	0	2026205	-1	1战斗事件	7对话	0	1	150301	150301	Shikamaru	Alam ko, hinintay ko talaga ito, alang-alang sa mga Ninja ng Konohagakure, kunin mo na…	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	6	3战斗开始	26v2	0否	0	0	0	0	2026206	-1	1战斗事件	7对话	0	1	151201	151201	Ino	Sandali! Sakura, maglaban tayo! Kapag nanalo ka, ibibigay ko sa iyo ang scroll!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	7	3战斗开始	26v2	0否	0	0	0	0	2026207	-1	1战斗事件	7对话	0	0	150501	150501	Sakura	Sige, deal!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	8	3战斗开始	26v2	0否	0	0	0	0	2026208	-1	1战斗事件	7对话	0	1	150301	150301	Shikamaru	Hay, nakakainis talaga ang mga babae …	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+262	9	3战斗开始	26v2	0否	0	0	0	0	2026209	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+263	1	4战斗结束	26v2	0否	0	0	0	0	2026301	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Kaya nakolekta na ang lahat ng scroll!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+263	2	4战斗结束	26v2	0否	0	0	0	0	2026302	-1	1战斗事件	7对话	0	1	150301	150301	Shikamaru	Pumasok na tayo sa tore, para iwas-gulo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+263	3	4战斗结束	26v2	0否	0	0	0	0	2026303	-1	1战斗事件	7对话	0	1	151201	151201	Ino	Sige, sa iyo na ang scroll, at akin si Sasuke!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+263	4	4战斗结束	26v2	0否	0	0	0	0	2026304	-1	1战斗事件	7对话	0	0	110501	110501	Sasuke	…… 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+263	5	4战斗结束	26v2	0否	0	0	0	0	2026305	-1	1战斗事件	7对话	0	0	1000012	1000012	Sakura	Nagbibiro ka ba?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+263	6	4战斗结束	26v2	0否	0	0	0	0	2026306	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+272	1	3战斗开始	27v2	0否	0	0	0	0	2027201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+272	2	3战斗开始	27v2	0否	0	0	0	0	2027202	-1	1战斗事件	7对话	0	1	151101	151101	Kiba	Haha,ang suwerte ko, ang kalaban ko pala ay ikaw na huling-huli,ibig sabihin, pasado na ako sa test!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+272	3	3战斗开始	27v2	0否	0	0	0	0	2027203	-1	1战斗事件	7对话	0	0	1000021	1000021	Naruto	Hmp! Tama na! Paalisin mo ang aso mo sa laban, makakaapekto iyan sa exam!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+272	4	3战斗开始	27v2	0否	0	0	0	0	2027204	-1	1战斗事件	7对话	0	1	151101	151101	Kiba	Tanga,kasama ko si Akamaru. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+272	5	3战斗开始	27v2	0否	0	0	0	0	2027205	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Hindi ba't labag iyan sa patakaran?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+272	6	3战斗开始	27v2	0否	0	0	0	0	2027206	-1	1战斗事件	7对话	0	1	1000034	1000034	Hayate	Ayon sa patakaran ... ang mga hayop at insekto ay kabilang sa Ninja tools……  Ehem……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+272	7	3战斗开始	27v2	0否	0	0	0	0	2027207	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+273	1	4战斗结束	27v2	0否	0	0	0	0	2027301	-1	1战斗事件	7对话	0	1	151101	151101	Kiba	Tingnan mo ako!(umikot sa likod ni Naruto)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+273	2	4战斗结束	27v2	0否	0	0	0	0	2027302	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Puff--! (Nagkataong utot pala)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+273	3	4战斗结束	27v2	0否	0	0	0	0	2027303	-1	1战斗事件	7对话	0	1	151101	151101	Kiba	Hmm ahahahah--	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+273	4	4战斗结束	27v2	0否	0	0	0	0	2027304	-1	1战斗事件	7对话	0	1	112401	112401	Kurenai	Sampung libong beses na mas matalas ang pang-amoy niya kaysa sa ordinaryong tao... Ngayon…	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+273	5	4战斗结束	27v2	0否	0	0	0	0	2027305	-1	1战斗事件	7对话	0	0	150501	150501	Sakura	Naruto, magandang pagkakataon!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+273	6	4战斗结束	27v2	0否	0	0	0	0	2027306	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Uzu--maki--Naru--to…… Combo！	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+273	7	4战斗结束	27v2	0否	0	0	0	0	2027307	-1	1战斗事件	7对话	0	1	1000034	1000034	Hayate	Ang round na ito--panalo si Naruto!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+273	8	4战斗结束	27v2	0否	0	0	0	0	2027308	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+292	1	3战斗开始	29v3	0否	0	0	0	0	2029201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+292	2	3战斗开始	29v3	0否	0	0	0	0	2029202	-1	1战斗事件	7对话	0	1	103001	103001	Jiraiya	hey-hey-hey…… (sinisilip ang mga babaeng naliligo sa hot spring)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+292	3	3战斗开始	29v3	0否	0	0	0	0	2029203	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Ah--	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+292	4	3战斗开始	29v3	0否	0	0	0	0	2029204	-1	1战斗事件	7对话	0	1	103001	103001	Jiraiya	Ano ba…… Tumahimik ka, paano kung mahuli tayo?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+292	5	3战斗开始	29v3	0否	0	0	0	0	2029205	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+293	1	4战斗结束	29v3	0否	0	0	0	0	2029301	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Grabe…… sino ang napakamanyak na ito?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+293	2	4战斗结束	29v3	0否	0	0	0	0	2029302	-1	1战斗事件	7对话	0	1	103001	103001	Jiraiya	Ako ang Hermit of Toads, ang kagalang-galang na si Jiraiya mula sa Mount Myoboku.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+293	3	4战斗结束	29v3	0否	0	0	0	0	2029303	-1	1战斗事件	7对话	0	0	1000021	1000021	Naruto	Her……Hermit?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+293	4	4战斗结束	29v3	0否	0	0	0	0	2029304	-1	1战斗事件	7对话	0	1	103001	103001	Jiraiya	(Hmm!? Ang batang ito ay……)	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+293	5	4战斗结束	29v3	0否	0	0	0	0	2029305	-1	1战斗事件	7对话	0	1	103001	103001	Jiraiya	Sige, bata, ikaw at ako,dahil itinadhana ang pagkikita natin,tuturuan kita ng isang malakas na ninjutsu! Makakatulong din ito sa susunod mong test.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+293	6	4战斗结束	29v3	0否	0	0	0	0	2029306	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Talaga?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+293	7	4战斗结束	29v3	0否	0	0	0	0	2029307	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+312	1	3战斗开始	31v3	0否	0	0	0	0	2031201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+312	2	3战斗开始	31v3	0否	0	0	0	0	2031202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Tatalunin kita!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+312	3	3战斗开始	31v3	0否	0	0	0	0	2031203	-1	1战斗事件	7对话	0	1	111701	111701	Neji 	Hmmm, gusto ko talagang makita ang itsura mo kapag hinarap mo ang katotohanan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+312	4	3战斗开始	31v3	0否	0	0	0	0	2031204	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Tigilan mo ako! Simulan na natin!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+312	5	3战斗开始	31v3	0否	0	0	0	0	2031205	-1	1战斗事件	7对话	0	1	111701	111701	Neji 	Gusto mong maging Hokage, di ba? Tumigil ka na sa pangangarap, nakatakda na ang kapalaran ng bawat isa mula pagkapanganak!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+312	6	3战斗开始	31v3	0否	0	0	0	0	2031206	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Huwag kang laging padalos-dalos sa konklusyon!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+312	7	3战斗开始	31v3	0否	0	0	0	0	2031207	-1	1战斗事件	7对话	0	1	1000029	1000029	Neji 	Awakening……  Walang makakatakas sa mga mata ko!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+312	8	3战斗开始	31v3	0否	0	0	0	0	2031208	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+313	1	4战斗结束	31v3	0否	0	0	0	0	2031301	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Huwag kang laging seryoso, at paulit-ulit na sinasabing hindi na mababago ang kapalaran!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+313	2	4战斗结束	31v3	0否	0	0	0	0	2031302	-1	1战斗事件	7对话	0	0	1000021	1000021	Naruto	Hindi ka katulad ko. Henyo ka.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+313	3	4战斗结束	31v3	0否	0	0	0	0	2031303	-1	1战斗事件	7对话	0	1	111701	111701	Neji 	……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+313	4	4战斗结束	31v3	0否	0	0	0	0	2031304	-1	1战斗事件	7对话	0	0	150501	150501	Sakura	Magaling!Naruto!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+313	5	4战斗结束	31v3	0否	0	0	0	0	2031305	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+332	1	3战斗开始	33v3	0否	0	0	0	0	2033201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+332	2	3战斗开始	33v3	0否	0	0	0	0	2033202	-1	1战斗事件	7对话	0	1	150301	150301	Shikamaru	Talaga…… Hindi sumipot ang Sasuke na 'yon, kaya napaaga ang laban ko.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+332	3	3战斗开始	33v3	0否	0	0	0	0	2033203	-1	1战斗事件	7对话	0	1	150301	150301	Shikamaru	Ang laban ko lang ang nagbago nang malaki…… O susuko na lang kaya ako……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+332	4	3战斗开始	33v3	0否	0	0	0	0	2033204	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Shikamaru!Kaya mo 'yan!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+332	5	3战斗开始	33v3	0否	0	0	0	0	2033205	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+333	1	4战斗结束	33v3	0否	0	0	0	0	2033301	-1	1战斗事件	7对话	0	1	112601	112601	Asuma	Hay…… Ang Shikamaru na 'to, wala siyang ganang lumaban……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+333	2	4战斗结束	33v3	0否	0	0	0	0	2033302	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+342	1	3战斗开始	34v3	0否	0	0	0	0	2034201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+342	2	3战斗开始	34v3	0否	0	0	0	0	2034202	-1	1战斗事件	7对话	0	0	150301	150301	Shikamaru	Gustong makita ng lahat ang laban ni Sasuke, supporting player lang tayo...	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+342	3	3战斗开始	34v3	0否	0	0	0	0	2034203	-1	1战斗事件	7对话	0	1	112201	112201	Temari 	Kung hindi mo ako aatakihin, hindi ako magiging mabait!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+342	4	3战斗开始	34v3	0否	0	0	0	0	2034204	-1	1战斗事件	7对话	0	0	150301	150301	Shikamaru	Hay ... ang sigla niya …	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+342	5	3战斗开始	34v3	0否	0	0	0	0	2034205	-1	1战斗事件	7对话	0	0	150301	150301	Shikamaru	Ang totoo, wala sa akin kung hindi ako maging Chuunin, pero bilang lalaki, paano ako matatalo sa babae?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+342	6	3战斗开始	34v3	0否	0	0	0	0	2034206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+343	1	4战斗结束	34v3	0否	0	0	0	0	2034301	-1	1战斗事件	7对话	0	0	150301	150301	Shikamaru	Hay, naiinggit ako sa mga ulap sa langit, ang laya nila…	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+343	2	4战斗结束	34v3	0否	0	0	0	0	2034302	-1	1战斗事件	7对话	0	1	112201	112201	Temari 	Hindi puwede... Ang katawan ko…	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+343	3	4战斗结束	34v3	0否	0	0	0	0	2034303	-1	1战斗事件	7对话	0	0	150301	150301	Shikamaru	Tapos na rin ang Shadow imitation …	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+343	4	4战斗结束	34v3	0否	0	0	0	0	2034304	-1	1战斗事件	7对话	0	0	150301	150301	Shikamaru	Kaya...... (itinaas ang kamay)... Susuko na ako.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+343	5	4战斗结束	34v3	0否	0	0	0	0	2034305	-1	1战斗事件	7对话	0	1	112201	112201	Temari 	Ano……!?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+343	6	4战斗结束	34v3	0否	0	0	0	0	2034306	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+362	1	3战斗开始	36v3	0否	0	0	0	0	2036201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+362	2	3战斗开始	36v3	0否	0	0	0	0	2036202	-1	1战斗事件	7对话	0	1	111501	111501	Kakashi	Pasensya na,huli kami……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+362	3	3战斗开始	36v3	0否	0	0	0	0	2036203	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Mr. Kakashi, nandito ka na!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+362	4	3战斗开始	36v3	0否	0	0	0	0	2036204	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Laban ko na ba?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+362	5	3战斗开始	36v3	0否	0	0	0	0	2036205	-1	1战斗事件	7对话	0	0	150501	150501	Sakura	Sasuke!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+362	6	3战斗开始	36v3	0否	0	0	0	0	2036206	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Tamang-tama, naipagpaliban ang laban mo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+362	7	3战斗开始	36v3	0否	0	0	0	0	2036207	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+363	1	4战斗结束	36v3	0否	0	0	0	0	2036301	-1	1战斗事件	7对话	0	0	150301	150301	Shikamaru	Naruto, pumunta na tayo sa mga manonood.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+363	2	4战斗结束	36v3	0否	0	0	0	0	2036302	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Sige!Tara na!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+363	3	4战斗结束	36v3	0否	0	0	0	0	2036303	-1	1战斗事件	7对话	0	1	1000027	1000027	Gaara	Hmm……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+363	4	4战斗结束	36v3	0否	0	0	0	0	2036304	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+372	1	3战斗开始	37v3	0否	0	0	0	0	2037201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+372	2	3战斗开始	37v3	0否	0	0	0	0	2037202	-1	1战斗事件	7对话	0	1	1000027	1000027	Gaara	Ina…… Ang dugong ito…… siguradong napakasarap……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+372	3	3战斗开始	37v3	0否	0	0	0	0	2037203	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	Ano ang sinasabi niya……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+372	4	3战斗开始	37v3	0否	0	0	0	0	2037204	-1	1战斗事件	7对话	0	1	112301	112301	Gaara	Halika……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+372	5	3战斗开始	37v3	0否	0	0	0	0	2037205	-1	1战斗事件	7对话	0	1	112201	112201	Temari 	Mukhang kumalma na rin siya sa wakas……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+372	6	3战斗开始	37v3	0否	0	0	0	0	2037206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+373	1	4战斗结束	37v3	0否	0	0	0	0	2037301	-1	1战斗事件	7对话	0	1	1000028	1000028	Gaara	Ano itong mainit……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+373	2	4战斗结束	37v3	0否	0	0	0	0	2037302	-1	1战斗事件	7对话	0	1	1000028	1000028	Gaara	Oh, ahhhhhhh……Dugo! Dugo ko ito!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+373	3	4战斗结束	37v3	0否	0	0	0	0	2037303	-1	1战斗事件	7对话	0	1	110601	110601	Kankuro	Kamay iyon ng bagay na iyon……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+373	4	4战斗结束	37v3	0否	0	0	0	0	2037304	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	Ano ba iyon……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+373	5	4战斗结束	37v3	0否	0	0	0	0	2037305	-1	1战斗事件	7对话	0	1	1000030	1000030	Orochimaru	Tapos na ang nakakabagot na laban, iikot na ang gulong ng kasaysayan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+373	6	4战斗结束	37v3	0否	0	0	0	0	2037306	-1	1战斗事件	7对话	0	0	102301	102301	Third Hokage	Ikaw…… Orochimaru！	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+373	7	4战斗结束	37v3	0否	0	0	0	0	2037307	-1	1战斗事件	7对话	0	1	1000031	1000031	Orochimaru	Matagal na tayong hindi nagkita, Master Sarutobi.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+373	8	4战斗结束	37v3	0否	0	0	0	0	2037308	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+392	1	3战斗开始	39v3	0否	0	0	0	0	2039201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+392	2	3战斗开始	39v3	0否	0	0	0	0	2039202	-1	1战斗事件	7对话	0	1	102501	102501	Orochimaru	Sinabi ko nang bilisan mong pumili ng Fifth Hokage, dahil mamamatay ka rito!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+392	3	3战斗开始	39v3	0否	0	0	0	0	2039203	-1	1战斗事件	7对话	0	0	102301	102301	Hiruzen	Alam kong darating din ito, pero hindi ganoon kadaling kunin ang ulo ko, Orochimaru.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+392	4	3战斗开始	39v3	0否	0	0	0	0	2039204	-1	1战斗事件	7对话	0	1	1000031	1000031	Orochimaru	Hoy, hoy, master, huwag kang pabaya.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+392	5	3战斗开始	39v3	0否	0	0	0	0	2039205	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+393	1	4战斗结束	39v3	0否	0	0	0	0	2039301	-1	1战斗事件	7对话	0	1	1000032	1000032	Orochimaru	Ang pakiramdam na ito ay……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+393	2	4战斗结束	39v3	0否	0	0	0	0	2039302	-1	1战斗事件	7对话	0	0	102301	102301	Hiruzen	Corpse Demon Seal Exhaustion ……Kailangan mong ibigay ang kaluluwa mo sa Shinigami……Isa itong jutsu na buhay ang kapalit. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+393	3	4战斗结束	39v3	0否	0	0	0	0	2039303	-1	1战斗事件	7对话	0	1	1000032	1000032	Orochimaru	Ito ba ang ninjutsu na nag-seal kay Kyuubi Kitsune……Iyon na iyon?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+393	4	4战斗结束	39v3	0否	0	0	0	0	2039304	-1	1战斗事件	7对话	0	0	102301	102301	Hiruzen	Sumama ka sa akin sa impiyerno, Orochimaru……dati kong estudyante.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+393	5	4战斗结束	39v3	0否	0	0	0	0	2039305	-1	1战斗事件	7对话	0	1	1000032	1000032	Orochimaru	Huwag kang magbiro! Matandang ito! Kalimutan mo na!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+393	6	4战斗结束	39v3	0否	0	0	0	0	2039306	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+412	1	3战斗开始	41v3	0否	0	0	0	0	2041201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+412	2	3战斗开始	41v3	0否	0	0	0	0	2041202	-1	1战斗事件	7对话	0	0	1000023	1000023	Sasuke	Huwag mong subukang tumakas!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+412	3	3战斗开始	41v3	0否	0	0	0	0	2041203	-1	1战斗事件	7对话	0	1	112201	112201	Temari 	Hmp……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+412	4	3战斗开始	41v3	0否	0	0	0	0	2041204	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+413	1	4战斗结束	41v3	0否	0	0	0	0	2041301	-1	1战斗事件	7对话	0	1	110601	110601	Kankuro	Temari,mauna na kayo ni Gaara…… Ako na ang bahala rito!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+413	2	4战斗结束	41v3	0否	0	0	0	0	2041302	-1	1战斗事件	7对话	0	0	150801	150801	Shino Aburame	Hindi,ako ang kalaban mo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+413	3	4战斗结束	41v3	0否	0	0	0	0	2041303	-1	1战斗事件	7对话	0	1	110601	110601	Kankuro	ikaw ay……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+413	4	4战斗结束	41v3	0否	0	0	0	0	2041304	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+432	1	3战斗开始	43v3	0否	0	0	0	0	2043201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+432	2	3战斗开始	43v3	0否	0	0	0	0	2043202	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Shino……Bakit ka nandito?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+432	3	3战斗开始	43v3	0否	0	0	0	0	2043203	-1	1战斗事件	7对话	0	1	150801	150801	Shino Aburame	Nang umalis ka sa exam hall, nag-iwan ako ng amoy ng babaeng insekto sa iyo. Ang lalaking insekto lang ng parehong uri ang nakakaamoy nito.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+432	4	3战斗开始	43v3	0否	0	0	0	0	2043204	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+433	1	4战斗结束	43v3	0否	0	0	0	0	2043301	-1	1战斗事件	7对话	0	1	150801	150801	Shino Aburame	Sundan mo si Gaara.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+433	2	4战斗结束	43v3	0否	0	0	0	0	2043302	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+462	1	3战斗开始	44v3	0否	0	0	0	0	2046201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+462	2	3战斗开始	44v3	0否	0	0	0	0	2046202	-1	1战斗事件	7对话	0	1	110601	110601	Kankuro	Wala ka talagang naiintindihan! Sa tingin ko hindi mo pa nararanasan... Ang tunay na lagim ng mundo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+462	3	3战斗开始	44v3	0否	0	0	0	0	2046203	-1	1战斗事件	7对话	0	0	150801	150801	Shino Aburame	Siguro...... Gusto mong maranasan ko ang lagim na iyon?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+462	4	3战斗开始	44v3	0否	0	0	0	0	2046204	-1	1战斗事件	7对话	0	1	110601	110601	Kankuro	Hindi…… Kapag natalo mo ako at hinanap si Gaara,makikita mo……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+462	5	3战斗开始	44v3	0否	0	0	0	0	2046205	-1	1战斗事件	7对话	0	1	110601	110601	Kankuro	Pero……  hindi ka makakaalis dito!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+462	6	3战斗开始	44v3	0否	0	0	0	0	2046206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+463	1	4战斗结束	44v3	0否	0	0	0	0	2046301	-1	1战斗事件	7对话	0	1	110601	110601	Kankuro	Saan nanggaling ang mga insektong ito?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+463	2	4战斗结束	44v3	0否	0	0	0	0	2046302	-1	1战斗事件	7对话	0	0	150801	150801	Shino Aburame	Ayokong ulitin ang sinabi ko. Nag-iwan ako ng babaeng insekto sa headband mo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+463	3	4战斗结束	44v3	0否	0	0	0	0	2046303	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+472	1	3战斗开始	47v3	0否	0	0	0	0	2047201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+472	2	3战斗开始	47v3	0否	0	0	0	0	2047202	-1	1战斗事件	7对话	0	1	1000027	1000027	Gaara	Para sa iyo…… Ano ba talaga sila?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+472	3	3战斗开始	47v3	0否	0	0	0	0	2047203	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Mga kasama ko silang lahat! Kapag sinaktan mo sila! Bubugbugin kita!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+472	4	3战斗开始	47v3	0否	0	0	0	0	2047204	-1	1战斗事件	7对话	0	1	1000028	1000028	Gaara	Mahalin mo lang ang sarili mo! Lumaban para sa sarili mo! Iyan ang kahulugan ng pinakamalakas!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+472	5	3战斗开始	47v3	0否	0	0	0	0	2047205	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	May halimaw din sa katawan niya…… katulad ko siya…… 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+472	6	3战斗开始	47v3	0否	0	0	0	0	2047206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	1	4战斗结束	47v3	0否	0	0	0	0	2047301	-1	1战斗事件	7对话	0	1	112301	112301	Gaara	Bakit…… napakalakas ng taong ito……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	2	4战斗结束	47v3	0否	0	0	0	0	2047302	-1	1战斗事件	7对话	0	0	1000010	1000010	Naruto	Ang mag-isa…… Napakasakit, di ba? Alam ko ang nararamdaman mo……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	3	4战斗结束	47v3	0否	0	0	0	0	2047303	-1	1战斗事件	7对话	0	1	112301	112301	Gaara	!!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	4	4战斗结束	47v3	0否	0	0	0	0	2047304	-1	1战斗事件	7对话	0	0	1000010	1000010	Naruto	Pero…… Nahanap ko na ang mga taong mahalaga sa akin…… Hindi ko hahayaang saktan mo sila……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	5	4战斗结束	47v3	0否	0	0	0	0	2047305	-1	1战斗事件	7对话	0	1	112301	112301	Gaara	Bakit…… handa kang gawin ang lahat para sa iba……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	6	4战斗结束	47v3	0否	0	0	0	0	2047306	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Dahil pinalaya nila ako mula sa pag-iisa…… at kinikilala nila ako! Sila ang pinakamahalaga kong mga kasama!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	7	4战斗结束	47v3	0否	0	0	0	0	2047307	-1	1战斗事件	7对话	0	1	112301	112301	Gaara	…… Para sa pinakamamahal na mga tao sa paligid mo, sakripisyo, sakripisyo…… Iyon ba ang dahilan kung bakit ka ganoon kalakas?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	8	4战斗结束	47v3	0否	0	0	0	0	2047308	-1	1战斗事件	7对话	0	1	112301	112301	Gaara	Ako rin……  Balang araw… …	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+473	9	4战斗结束	47v3	0否	0	0	0	0	2047309	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	1	3战斗开始	49v3	0否	0	0	0	0	2049201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	2	3战斗开始	49v3	0否	0	0	0	0	2049202	-1	1战斗事件	7对话	0	1	102201	102201	Itachi	Naruto, sumama ka sa amin.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	3	3战斗开始	49v3	0否	0	0	0	0	2049203	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Si Sasuke ba…… Hindi…… Sino siya? Parehong Sharingan ni Sasuke……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	4	3战斗开始	49v3	0否	0	0	0	0	2049204	-1	1战斗事件	7对话	0	1	112701	112701	Kisame Hoshigaki 	Hindi ko inasahang nasa katawan ng batang ito ang Nine-Tails.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	5	3战斗开始	49v3	0否	0	0	0	0	2049205	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Sino ka at bakit mo kilala ang Kyuubi Kitsune?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	6	3战斗开始	49v3	0否	0	0	0	0	2049206	-1	1战斗事件	7对话	0	1	1000023	1000023	Sasuke	Palakas ako nang palakas araw-araw……   Para lang patayin ka!Itachi!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	7	3战斗开始	49v3	0否	0	0	0	0	2049207	-1	1战斗事件	7对话	0	1	102201	102201	Itachi	Matagal-tagal na rin, Sasuke.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	8	3战斗开始	49v3	0否	0	0	0	0	2049208	-1	1战斗事件	7对话	0	0	103001	103001	Jiraiya	Hindi ko maibibigay sa iyo si Naruto.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	9	3战斗开始	49v3	0否	0	0	0	0	2049209	-1	1战斗事件	7对话	0	1	112701	112701	Kisame Hoshigaki 	Si Jiraiya, isa sa mga Sannin…… Problema iyan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+492	10	3战斗开始	49v3	0否	0	0	0	0	20492010	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+493	1	4战斗结束	49v3	0否	0	0	0	0	2049301	-1	1战斗事件	7对话	0	0	103001	103001	Jiraiya	Hinayaan pa silang makatakas……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+493	2	4战斗结束	49v3	0否	0	0	0	0	2049302	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Manyakis na Hermit……Ayos lang ba si Sasuke?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+493	3	4战斗结束	49v3	0否	0	0	0	0	2049303	-1	1战斗事件	7对话	0	1	103001	103001	Jiraiya	Mukhang malubhang nasaktan ang isip niya……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+493	4	4战斗结束	49v3	0否	0	0	0	0	2049304	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Hindi ba ako ang pakay nila? Kung gayon, ako ang pupunta at hahanap sa kanila!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+493	5	4战斗结束	49v3	0否	0	0	0	0	2049305	-1	1战斗事件	7对话	0	1	103001	103001	Jiraiya	hmp…… Mahirap na ngang protektahan ka para hindi ka nila mahanap, huwag kang mamatay nang walang saysay!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+493	6	4战斗结束	49v3	0否	0	0	0	0	2049306	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Tatakbo na lang ba ako palagi? Mag-aalala araw-araw?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+493	7	4战斗结束	49v3	0否	0	0	0	0	2049307	-1	1战斗事件	7对话	0	1	103001	103001	Jiraiya	Kung ayaw mo nito, bilisan mong lumakas!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+493	8	4战斗结束	49v3	0否	0	0	0	0	2049308	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	1	3战斗开始	51v3	0否	0	0	0	0	2051201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	2	3战斗开始	51v3	0否	0	0	0	0	2051202	-1	1战斗事件	7对话	0	0	103001	103001	Jiraiya	Tsunade? Nahanap din kita sa wakas.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	3	3战斗开始	51v3	0否	0	0	0	0	2051203	-1	1战斗事件	7对话	0	1	102601	102601	Tsunade	Jiraiya? Bakit ka nandito?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	4	3战斗开始	51v3	0否	0	0	0	0	2051204	-1	1战斗事件	7对话	0	0	103001	103001	Jiraiya	Hindi na ako magpapaligoy-ligoy, gusto ng village na ikaw ang maging Fifth Hokage!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	5	3战斗开始	51v3	0否	0	0	0	0	2051205	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	！！！！！！！！！	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	6	3战斗开始	51v3	0否	0	0	0	0	2051206	-1	1战斗事件	7对话	0	1	1000017	1000017	Tsunade	…… Walang kuwenta ang Hokage, tanga lang ang gagawa niyan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	7	3战斗开始	51v3	0否	0	0	0	0	2051207	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ang lakas ng loob mong pagtawanan ang Hokage sa harap ko! Babae ka man, bubugbugin pa rin kita!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	8	3战斗开始	51v3	0否	0	0	0	0	2051208	-1	1战斗事件	7对话	0	1	1000017	1000017	Tsunade	Ganyan ka makipag-usap sa akin, ang lakas ng loob mo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+512	9	3战斗开始	51v3	0否	0	0	0	0	2051209	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+513	1	4战斗结束	51v3	0否	0	0	0	0	2051301	-1	1战斗事件	7对话	0	1	102601	102601	Tsunade	Bata, bakit mahalaga sa iyo ang titulong Hokage?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+513	2	4战斗结束	51v3	0否	0	0	0	0	2051302	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Hindi kita gusto…… Kailangan kong manahin ang titulong Hokage… … Pangarap kong maging Hokage.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+513	3	4战斗结束	51v3	0否	0	0	0	0	2051303	-1	1战斗事件	7对话	0	1	1000017	1000017	Tsunade	……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+513	4	4战斗结束	51v3	0否	0	0	0	0	2051304	-1	1战斗事件	7对话	0	1	102601	102601	Tsunade	Kung gayon, magpustahan tayo. Kung matututunan mo ang ninjutsu na iyon sa loob ng isang linggo, aaminin kong puwede kang maging Hokage.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+513	5	4战斗结束	51v3	0否	0	0	0	0	2051305	-1	1战斗事件	7对话	0	1	102601	102601	Tsunade	Kung hindi mo matutunan…… Akin ang lahat ng pera mo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+513	6	4战斗结束	51v3	0否	0	0	0	0	2051306	-1	1战斗事件	7对话	0	0	1000009	1000009	Naruto	Ah……  Ang wallet ko! Kailan mo iyan nakuha?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+513	7	4战斗结束	51v3	0否	0	0	0	0	2051307	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+532	1	3战斗开始	53v3	0否	0	0	0	0	2053201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+532	2	3战斗开始	53v3	0否	0	0	0	0	2053202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Kailangan kong doblehin ang pagsasanay ko! Shadow clone technique!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+532	3	3战斗开始	53v3	0否	0	0	0	0	2053203	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+533	1	4战斗结束	53v3	0否	0	0	0	0	2053301	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+542	1	3战斗开始	54v3	0否	0	0	0	0	2054201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+542	2	3战斗开始	54v3	0否	0	0	0	0	2054202	-1	1战斗事件	7对话	0	0	110201	110201	Naruto	Senior Kabuto…… bakit ka nandito?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+542	3	3战斗开始	54v3	0否	0	0	0	0	2054203	-1	1战斗事件	7对话	0	1	111601	111601	Kabuto	Naruto, napakabagal mo talaga, kaya pala hindi mo matalo si Sasuke.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+542	4	3战斗开始	54v3	0否	0	0	0	0	2054204	-1	1战斗事件	7对话	0	0	103001	103001	Jiraiya	Naruto, tauhan siya ni Orochimaru.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+542	5	3战斗开始	54v3	0否	0	0	0	0	2054205	-1	1战斗事件	7对话	0	1	111601	111601	Kabuto	Tama,ako ang espiya ng Hidden Sound Shinobi .	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+542	6	3战斗开始	54v3	0否	0	0	0	0	2054206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+543	1	4战斗结束	54v3	0否	0	0	0	0	2054301	-1	1战斗事件	7对话	0	1	111601	111601	Kabuto	Kapag nawala ang buhay mo, ganoon din ang pangarap mo	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+543	2	4战斗结束	54v3	0否	0	0	0	0	2054302	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Sa totoo lang, ito ang aking Shinobido!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+543	3	4战斗结束	54v3	0否	0	0	0	0	2054303	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Hindi ako mamamatay hangga't hindi ako nagiging Hokage!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+543	4	4战斗结束	54v3	0否	0	0	0	0	2054304	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+562	1	3战斗开始	56v3	0否	0	0	0	0	2056201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+562	2	3战斗开始	56v3	0否	0	0	0	0	2056202	-1	1战斗事件	7对话	0	0	103001	103001	Jiraiya	Mula ngayon, hindi na kami tatawaging "Sannin" kasama si Orochimaru。	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+562	3	3战斗开始	56v3	0否	0	0	0	0	2056203	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+563	1	4战斗结束	56v3	0否	0	0	0	0	2056301	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+572	1	3战斗开始	57v3	0否	0	0	0	0	2057201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+572	2	3战斗开始	57v3	0否	0	0	0	0	2057202	-1	1战斗事件	7对话	0	1	102501	102501	Orochimaru	Hmp,nanginginig ka kapag nakakita ng dugo. Bakit mo ito ginagawa para sa isang Genin ng Konoha?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+572	3	3战斗开始	57v3	0否	0	0	0	0	2057203	-1	1战斗事件	7对话	0	0	1000017	1000017	Tsunade	Ginagawa ko ito para protektahan ang Konoha... Dahil magiging Hokage ang batang ito!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+572	4	3战斗开始	57v3	0否	0	0	0	0	2057204	-1	1战斗事件	7对话	0	1	1000031	1000031	Orochimaru	Hee hee, huwag kang tanga……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+572	5	3战斗开始	57v3	0否	0	0	0	0	2057205	-1	1战斗事件	7对话	0	0	1000017	1000017	Tsunade	Itataya ko ang buhay ko rito, sa pangalan ng Fifth Hokage!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+572	6	3战斗开始	57v3	0否	0	0	0	0	2057206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+573	1	4战斗结束	57v3	0否	0	0	0	0	2057301	-1	1战斗事件	7对话	0	1	102501	102501	Orochimaru	Tsunade…… Kung hindi ako aasa sa iyo, may iba pa akong paraan para maibalik ang mga kamay ko.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+573	2	4战斗结束	57v3	0否	0	0	0	0	2057302	-1	1战斗事件	7对话	0	1	1000031	1000031	Orochimaru	Wawasakin ko ang Konoha! Hanggang sa muli, Tsunade,Jiraiya.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+573	3	4战斗结束	57v3	0否	0	0	0	0	2057303	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+592	1	3战斗开始	59v3	0否	0	0	0	0	2059201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+592	2	3战斗开始	59v3	0否	0	0	0	0	2059202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Hindi ka makakatakas! Iwan mo si Sasuke!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+592	3	3战斗开始	59v3	0否	0	0	0	0	2059203	-1	1战斗事件	7对话	0	1	150701	150701	Kidomaru	Ako dapat ang nagsasabi niyan. Mag-ingat ka sa paa mo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+592	4	3战斗开始	59v3	0否	0	0	0	0	2059204	-1	1战斗事件	7对话	0	0	1000018	1000018	Shikamaru	Spider Web!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+592	5	3战斗开始	59v3	0否	0	0	0	0	2059205	-1	1战斗事件	7对话	0	1	150701	150701	Kidomaru	Napakatibay ng Spider Web ko, kaya nitong hilahin ang dalawang elepante!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+592	6	3战斗开始	59v3	0否	0	0	0	0	2059206	-1	1战斗事件	7对话	0	0	111701	111701	Neji 	Spider Web na may halong Chakra? Mukhang ako lang ang makakatapat sa ninjutsu ng taong ito……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+592	7	3战斗开始	59v3	0否	0	0	0	0	2059207	-1	1战斗事件	7对话	0	0	1000029	1000029	Neji 	Walang laban ang anumang bagay na may chakra sa Gentle Fist na sumisira sa target!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+592	8	3战斗开始	59v3	0否	0	0	0	0	2059208	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+593	1	4战斗结束	59v3	0否	0	0	0	0	2059301	-1	1战斗事件	7对话	0	1	150701	150701	Kidomaru	Wala pang nakasakit sa akin nang ganito mula kay Kimimaro... Hayop ka…	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+593	2	4战斗结束	59v3	0否	0	0	0	0	2059302	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+612	1	3战斗开始	61v3	0否	0	0	0	0	2061201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+612	2	3战斗开始	61v3	0否	0	0	0	0	2061202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Humabol ka!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+612	3	3战斗开始	61v3	0否	0	0	0	0	2061203	-1	1战斗事件	7对话	0	1	150901	150901	Tayuya 	Halika! Mga tanga!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+612	4	3战斗开始	61v3	0否	0	0	0	0	2061204	-1	1战斗事件	7对话	0	0	1000018	1000018	Shikamaru	Huwag mong maliitin ang mga kasama ko!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+612	5	3战斗开始	61v3	0否	0	0	0	0	2061205	-1	1战斗事件	7对话	0	1	150901	150901	Tayuya 	Halika at pakinggan ang himig ng kamatayan na tutugtugin ko para sa iyo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+612	6	3战斗开始	61v3	0否	0	0	0	0	2061206	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+613	1	4战斗结束	61v3	0否	0	0	0	0	2061301	-1	1战斗事件	7对话	0	1	150901	150901	Tayuya 	(Tinangay ng buhawi) Hmp! sino 'yan!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+613	2	4战斗结束	61v3	0否	0	0	0	0	2061302	-1	1战斗事件	7对话	0	0	112201	112201	Temari 	Nakipag-alyansa ang Shinobi ng Sunagakure sa Konohagakure!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+613	3	4战斗结束	61v3	0否	0	0	0	0	2061303	-1	1战斗事件	7对话	0	0	1000018	1000018	Shikamaru	…… Ikaw?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+613	4	4战斗结束	61v3	0否	0	0	0	0	2061304	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+632	1	3战斗开始	63v3	0否	0	0	0	0	2063201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+632	2	3战斗开始	63v3	0否	0	0	0	0	2063202	-1	1战斗事件	7对话	0	1	151301	151301	Tayuya 	Mga hangal, ang lakas ng loob ninyong pumasok sa lungga ng leon!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+632	3	3战斗开始	63v3	0否	0	0	0	0	2063203	-1	1战斗事件	7对话	0	0	151101	151101	Kiba	…… Ang amoy na ito……  Dumating din ba sila?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+632	4	3战斗开始	63v3	0否	0	0	0	0	2063204	-1	1战斗事件	7对话	0	0	110601	110601	Kankuro	……Yo,mga kasama mula sa Konoha.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+632	5	3战斗开始	63v3	0否	0	0	0	0	2063205	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+633	1	4战斗结束	63v3	0否	0	0	0	0	2063301	-1	1战斗事件	7对话	0	0	110601	110601	Kankuro	……Tapos na!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+633	2	4战斗结束	63v3	0否	0	0	0	0	2063302	-1	1战斗事件	7对话	0	0	151101	151101	Kiba	Noong magkaaway, kakila-kilabot silang kalaban, at ngayon ay naging mapagkakatiwalaang kasama……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+633	3	4战斗结束	63v3	0否	0	0	0	0	2063303	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+642	1	3战斗开始	64v3	0否	0	0	0	0	2064201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+642	2	3战斗开始	64v3	0否	0	0	0	0	2064202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ibalik si Sasuke!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+642	3	3战斗开始	64v3	0否	0	0	0	0	2064203	-1	1战斗事件	7对话	0	1	111401	111401	Kimimaro 	Pero si Sasuke,sa sarili niyang kagustuhan ay sasama sa mahal na Orochimaru.  	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+642	4	3战斗开始	64v3	0否	0	0	0	0	2064204	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	1	4战斗结束	64v3	0否	0	0	0	0	2064301	-1	1战斗事件	7对话	0	1	111401	111401	Kimimaro 	Malapit nang matapos ang unang hakbang ng ambisyon ni Orochimaru.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	2	4战斗结束	64v3	0否	0	0	0	0	2064302	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Hmp……Napakalakas niya……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	3	4战斗结束	64v3	0否	0	0	0	0	2064303	-1	1战斗事件	7对话	0	0	1000033	1000033	Lee	Leaf Coiling Whirlwind!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	4	4战斗结束	64v3	0否	0	0	0	0	2064304	-1	1战斗事件	7对话	0	1	111401	111401	Kimimaro 	Isa pang tutulong?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	5	4战斗结束	64v3	0否	0	0	0	0	2064305	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Makapal na kilay!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	6	4战斗结束	64v3	0否	0	0	0	0	2064306	-1	1战斗事件	7对话	0	0	110301	110301	Lee	Naruto,sundan mo si Sasuke,ako na ang bahala sa taong ito.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	7	4战斗结束	64v3	0否	0	0	0	0	2064307	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Mag-ingat ka……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	8	4战斗结束	64v3	0否	0	0	0	0	2064308	-1	1战斗事件	7对话	0	0	112301	112301	Gaara	Nandito pa ako.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	9	4战斗结束	64v3	0否	0	0	0	0	2064309	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Gaara……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	10	4战斗结束	64v3	0否	0	0	0	0	20643010	-1	1战斗事件	7对话	0	0	112301	112301	Gaara	Huwag kang mag-alala at sige na, malaki ang utang ko sa Konoha…... 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+643	11	4战斗结束	64v3	0否	0	0	0	0	20643011	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+662	1	3战斗开始	66v3	0否	0	0	0	0	2066201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+662	2	3战斗开始	66v3	0否	0	0	0	0	2066202	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+663	1	4战斗结束	66v3	0否	0	0	0	0	2066301	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Sasuke…… Bumalik ka……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+663	2	4战斗结束	66v3	0否	0	0	0	0	2066302	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	1	3战斗开始	67v3	0否	0	0	0	0	2067201	-1	1战斗事件	15开始战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	2	3战斗开始	67v3	0否	0	0	0	0	2067202	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Sasuke!Tigilan mo na ang pagtakas!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	3	3战斗开始	67v3	0否	0	0	0	0	2067203	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Hi……Huling-huli……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	4	3战斗开始	67v3	0否	0	0	0	0	2067204	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Sinabi ko rin kay Sakura, hayaan niya ako.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	5	3战斗开始	67v3	0否	0	0	0	0	2067205	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	…… 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	6	3战斗开始	67v3	0否	0	0	0	0	2067206	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Bakit ganyan ka tumingin sa akin……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	7	3战斗开始	67v3	0否	0	0	0	0	2067207	-1	1战斗事件	7对话	0	0	1000010	1000010	Naruto	Bakit…… ganito ka……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	8	3战斗开始	67v3	0否	0	0	0	0	2067208	-1	1战斗事件	7对话	0	1	1000023	1000023	Sasuke	May sarili akong landas... Walang makakapigil.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	9	3战斗开始	67v3	0否	0	0	0	0	2067209	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Ayoko nang may kinalaman sa Konoha. Umalis ka na.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	10	3战斗开始	67v3	0否	0	0	0	0	20672010	-1	1战斗事件	7对话	0	0	1000010	1000010	Naruto	Hinahabol ka ng lahat…… itinataya ang buhay nila……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	11	3战斗开始	67v3	0否	0	0	0	0	20672011	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Napakahirap talaga para sa inyo.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	12	3战斗开始	67v3	0否	0	0	0	0	20672012	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	Ano ang tingin mo sa mga kasama mo sa Konoha?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+672	13	3战斗开始	67v3	0否	0	0	0	0	20672013	-1	1战斗事件	16返回战斗	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+673	1	4战斗结束	67v3	0否	0	0	0	0	2067301	-1	1战斗事件	7对话	0	0	1000010	1000010	Naruto	Para sa iyo…...Hindi na ba ako kasama?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+673	2	4战斗结束	67v3	0否	0	0	0	0	2067302	-1	1战斗事件	7对话	0	1	110501	110501	Sasuke	Hindi……Para sa akin,ikaw na ang matalik kong kaibigan……	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+673	3	4战斗结束	67v3	0否	0	0	0	0	2067303	-1	1战斗事件	7对话	0	1	1000024	1000024	Sasuke	Dahil diyan……karapat-dapat kang patayin	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+673	4	4战斗结束	67v3	0否	0	0	0	0	2067304	-1	1战斗事件	7对话	0	0	1000008	1000008	Naruto	…… 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+673	5	4战斗结束	67v3	0否	0	0	0	0	2067305	-1	1战斗事件	7对话	0	0	1000026	1000026	Naruto	Hindi kita hahayaang pumunta kay Orochimaru,kahit baliin ko pa ang mga kamay at paa mo para pigilan ka!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+673	6	4战斗结束	67v3	0否	0	0	0	0	2067306	-1	1战斗事件	7对话	0	1	1000024	1000024	Sasuke	…… 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+673	7	4战斗结束	67v3	0否	0	0	0	0	2067307	-1	1战斗事件	7对话	0	1	1000025	1000025	Sasuke	Halika!Naruto!Ako mismo ang puputol sa ugnayang ito!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+673	8	4战斗结束	67v3	0否	0	0	0	0	2067308	-1	1战斗事件	17战斗结束	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
