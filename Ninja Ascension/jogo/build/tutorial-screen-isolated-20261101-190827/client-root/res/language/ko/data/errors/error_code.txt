@@ -1,0 +1,612 @@
+1	-1	알 수 없는 오류	알 수 없는 오류	unkownerror	2012/10/22 18:18	2012/10/22 18:18
+2	-2	시스템이&nbsp;바쁩니다.&nbsp;잠시&nbsp;후&nbsp;다시&nbsp;시도하세요.	시스템이&nbsp;바쁩니다.&nbsp;잠시&nbsp;후&nbsp;다시&nbsp;시도하세요.	unkown error	2012/10/23 15:08	2012/10/23 15:08
+3	-3	코드&nbsp;오류	코드&nbsp;오류	unkown error	2012/10/22 20:05	2012/10/22 20:05
+4	-4	시스템 오류	시스템 오류	unkown error	2012/10/23 15:08	2012/10/23 15:09
+5	-5	사용자&nbsp;정보가&nbsp;만료되었습니다.&nbsp;다시&nbsp;로그인하세요!	사용자&nbsp;정보가&nbsp;만료되었습니다.&nbsp;다시&nbsp;로그인하세요!	unkown error	2012/10/22 18:20	2012/10/22 18:20
+6	-6	무효 숫자 ID	무효 숫자 ID	unkown error	2012/10/23 15:46	2012/10/23 15:46
+7	-7	오늘의&nbsp;일일&nbsp;퀘스트를&nbsp;완료했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요!	오늘의&nbsp;일일&nbsp;퀘스트를&nbsp;완료했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요!	unkown error	2012/10/23 15:46	2012/10/23 15:46
+8	-8	일일&nbsp;퀘스트를&nbsp;수락했습니다	일일&nbsp;퀘스트를&nbsp;수락했습니다	unkown error	2012/10/23 15:46	2012/10/23 15:46
+9	-9	일일&nbsp;퀘스트를&nbsp;완료했습니다	일일&nbsp;퀘스트를&nbsp;완료했습니다	unkown error	2012/10/23 15:48	2012/10/23 15:48
+10	-10	일일&nbsp;퀘스트&nbsp;상태가&nbsp;맞지&nbsp;않습니다	일일&nbsp;퀘스트&nbsp;상태가&nbsp;맞지&nbsp;않습니다	unkown error	2012/10/23 15:49	2012/10/23 15:49
+11	-11	유효하지&nbsp;않은&nbsp;일일&nbsp;퀘스트	유효하지&nbsp;않은&nbsp;일일&nbsp;퀘스트	unkown error	2012/10/23 16:01	2012/10/23 16:01
+12	-12	완료하지&nbsp;않은&nbsp;일일&nbsp;퀘스트가&nbsp;있어&nbsp;이&nbsp;일일&nbsp;퀘스트를&nbsp;수락할&nbsp;수&nbsp;없습니다.	완료하지&nbsp;않은&nbsp;일일&nbsp;퀘스트가&nbsp;있어&nbsp;이&nbsp;일일&nbsp;퀘스트를&nbsp;수락할&nbsp;수&nbsp;없습니다.	unkown error	2012/10/23 16:01	2012/10/23 16:01
+13	-13	임무를&nbsp;아직&nbsp;달성하지&nbsp;못했습니다.&nbsp;일일&nbsp;퀘스트&nbsp;미완료.	임무를&nbsp;아직&nbsp;달성하지&nbsp;못했습니다.&nbsp;일일&nbsp;퀘스트&nbsp;미완료.	unkown error	2012/10/23 16:10	2012/10/23 16:10
+14	-14	활약도&nbsp;보너스&nbsp;데이터가&nbsp;없어&nbsp;상품을&nbsp;받을&nbsp;수&nbsp;없습니다.	활약도&nbsp;보너스&nbsp;데이터가&nbsp;없어&nbsp;상품을&nbsp;받을&nbsp;수&nbsp;없습니다.	unkown error	2012/10/23 15:46	2012/10/23 15:46
+15	-15	사용자&nbsp;활약도가&nbsp;부족합니다	사용자&nbsp;활약도가&nbsp;부족합니다	unkown error	2012/10/23 19:47	2012/10/23 19:47
+16	-16	골드가&nbsp;부족합니다	골드가&nbsp;부족합니다	unkown error	2012/10/24 12:24	2012/10/24 12:24
+17	-17	사용자&nbsp;보관함이&nbsp;가득&nbsp;찼습니다	사용자&nbsp;보관함이&nbsp;가득&nbsp;찼습니다	unkown error	2012/10/24 12:24	2012/10/24 12:24
+18	-18	오늘의&nbsp;새로고침&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	오늘의&nbsp;새로고침&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2012/10/24 14:31	2012/10/24 14:31
+19	-19	구매&nbsp;아이템이&nbsp;존재하지&nbsp;않습니다	구매&nbsp;아이템이&nbsp;존재하지&nbsp;않습니다	unkown error	2012/10/30 11:10	2012/10/30 11:10
+20	-20	주문이&nbsp;존재하지&nbsp;않습니다	주문이&nbsp;존재하지&nbsp;않습니다	unkown error	2012/10/30 13:23	2012/10/30 13:23
+21	-21	주문&nbsp;확인&nbsp;중	주문&nbsp;확인&nbsp;중	unkown error	2012/10/31 21:39	2012/10/31 21:39
+22	-22	구매&nbsp;실패	구매&nbsp;실패	unkown error	2012/10/30 13:35	2012/10/30 13:35
+23	-23	첫&nbsp;구매&nbsp;보너스를&nbsp;획득했습니다!	첫&nbsp;구매&nbsp;보너스를&nbsp;획득했습니다!	unkown error	2012/10/31 21:39	2012/10/31 21:39
+24	-24	이&nbsp;기능은&nbsp;아직&nbsp;열리지&nbsp;않았습니다!	이&nbsp;기능은&nbsp;아직&nbsp;열리지&nbsp;않았습니다!	unkown error	2012/10/31 21:39	2012/10/31 21:39
+25	-25	사용자와&nbsp;무기&nbsp;정보가&nbsp;일치하지&nbsp;않습니다	사용자와&nbsp;무기&nbsp;정보가&nbsp;일치하지&nbsp;않습니다	unkown error	2012/11/1 10:45	2012/11/1 10:45
+26	-26	두루마리가&nbsp;부족합니다.&nbsp;아이콘을&nbsp;눌러&nbsp;획득처를&nbsp;확인하세요	두루마리가&nbsp;부족합니다.&nbsp;아이콘을&nbsp;눌러&nbsp;획득처를&nbsp;확인하세요	unkown error	2012/11/1 10:47	2012/11/1 10:47
+27	-27	진화에&nbsp;필요한&nbsp;아이템이&nbsp;부족합니다	진화에&nbsp;필요한&nbsp;아이템이&nbsp;부족합니다	unkown error	2012/11/1 10:49	2012/11/1 10:49
+28	-28	체력&nbsp;교환&nbsp;데이터를&nbsp;가져올&nbsp;수&nbsp;없습니다	체력&nbsp;교환&nbsp;데이터를&nbsp;가져올&nbsp;수&nbsp;없습니다	unkown error	2012/11/1 11:43	2012/11/1 11:43
+29	-29	무기&nbsp;레벨업&nbsp;데이터를&nbsp;가져올&nbsp;수&nbsp;없습니다	무기&nbsp;레벨업&nbsp;데이터를&nbsp;가져올&nbsp;수&nbsp;없습니다	unkown error	2012/11/1 11:59	2012/11/1 11:59
+30	-30	패키지를&nbsp;이미&nbsp;받았습니다.&nbsp;내일&nbsp;다시&nbsp;오세요!	패키지를&nbsp;이미&nbsp;받았습니다.&nbsp;내일&nbsp;다시&nbsp;오세요!	unkown error	2012/11/1 21:41	2012/11/1 21:41
+31	-31	일일&nbsp;최대&nbsp;구매&nbsp;횟수에&nbsp;도달했습니다!	일일&nbsp;최대&nbsp;구매&nbsp;횟수에&nbsp;도달했습니다!	unkown error	2012/11/3 11:30	2012/11/3 11:30
+32	-32	오늘 구매 가능한 의협령 횟수를 모두 사용했습니다	오늘 구매 가능한 의협령 횟수를 모두 사용했습니다	unkown error	2012/11/3 13:20	2012/11/3 13:20
+33	-33	협의령이 상한에 도달했습니다. 어서 사용하세요!	협의령이 상한에 도달했습니다. 어서 사용하세요!	unkown error	2012/11/3 13:23	2012/11/3 13:23
+34	-34	최대&nbsp;보관량을&nbsp;초과했습니다!	최대&nbsp;보관량을&nbsp;초과했습니다!	unkown error	2012/11/3 14:19	2012/11/3 14:19
+35	-35	유효하지&nbsp;않은&nbsp;가방&nbsp;확장	유효하지&nbsp;않은&nbsp;가방&nbsp;확장	unkown error	2012/11/3 14:23	2012/11/3 14:23
+36	-36	진형의&nbsp;최대&nbsp;슬롯에&nbsp;도달하여&nbsp;진행할&nbsp;수&nbsp;없습니다	진형의&nbsp;최대&nbsp;슬롯에&nbsp;도달하여&nbsp;진행할&nbsp;수&nbsp;없습니다	unkown error	2012/11/3 14:41	2012/11/3 14:41
+37	-37	이미&nbsp;최고&nbsp;품질에&nbsp;도달하여&nbsp;새로고침할&nbsp;필요가&nbsp;없습니다	이미&nbsp;최고&nbsp;품질에&nbsp;도달하여&nbsp;새로고침할&nbsp;필요가&nbsp;없습니다	unkown error	2012/11/3 14:48	2012/11/3 14:48
+38	-38	발굴&nbsp;한도를&nbsp;초과할&nbsp;수&nbsp;없습니다	발굴&nbsp;한도를&nbsp;초과할&nbsp;수&nbsp;없습니다	unkown error	2012/11/3 15:42	2012/11/3 15:42
+39	-39	아직&nbsp;발굴&nbsp;중입니다	아직&nbsp;발굴&nbsp;중입니다	unkown error	2012/11/3 15:45	2012/11/3 15:45
+40	-40	경기장&nbsp;구매&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요!	경기장&nbsp;구매&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요!	unkown error	2012/11/3 19:47	2012/11/3 19:47
+41	-41	자원&nbsp;광산이&nbsp;없습니다.&nbsp;먼저&nbsp;자원&nbsp;광산을&nbsp;건설하세요	자원&nbsp;광산이&nbsp;없습니다.&nbsp;먼저&nbsp;자원&nbsp;광산을&nbsp;건설하세요	unkown error	2012/11/9 14:03	2012/11/9 14:03
+42	-42	무기가&nbsp;존재하지&nbsp;않습니다	무기가&nbsp;존재하지&nbsp;않습니다	unkown error	2012/11/14 15:51	2012/11/14 15:51
+43	-43	무기와&nbsp;사용자&nbsp;정보가&nbsp;일치하지&nbsp;않습니다	무기와&nbsp;사용자&nbsp;정보가&nbsp;일치하지&nbsp;않습니다	unkown error	2012/11/14 15:52	2012/11/14 15:52
+44	-44	무기&nbsp;레벨은&nbsp;당신의&nbsp;레벨을&nbsp;초과할&nbsp;수&nbsp;없습니다	무기&nbsp;레벨은&nbsp;당신의&nbsp;레벨을&nbsp;초과할&nbsp;수&nbsp;없습니다	unkown error	2012/11/14 15:57	2012/11/14 15:57
+45	-45	무기&nbsp;레벨이&nbsp;최대입니다.&nbsp;레벨업할&nbsp;수&nbsp;없습니다	무기&nbsp;레벨이&nbsp;최대입니다.&nbsp;레벨업할&nbsp;수&nbsp;없습니다	unkown error	2012/11/14 15:58	2012/11/14 15:58
+46	-46	료가&nbsp;부족합니다	료가&nbsp;부족합니다	unkown error	2012/11/14 16:00	2012/11/14 16:00
+47	-47	개조서가 부족하여 장비를 강화할 수 없습니다	개조서가 부족하여 장비를 강화할 수 없습니다	unkown error	2012/11/14 16:07	2012/11/14 16:07
+48	-48	강화&nbsp;실패!	강화&nbsp;실패!	unkown error	2012/11/14 16:26	2012/11/14 16:26
+49	-49	구매&nbsp;완료	구매&nbsp;완료	unkown error	2012/11/14 18:17	2012/11/14 18:17
+50	-50	강화&nbsp;쿨타임&nbsp;중입니다.&nbsp;쿨타임을&nbsp;초기화하세요	강화&nbsp;쿨타임&nbsp;중입니다.&nbsp;쿨타임을&nbsp;초기화하세요	unkown error	2012/11/14 20:43	2012/11/14 20:43
+51	-51	서버&nbsp;오픈&nbsp;대기&nbsp;중입니다!	서버&nbsp;오픈&nbsp;대기&nbsp;중입니다!	unkown error	2012/11/14 20:43	2012/11/14 20:43
+52	-52	현상금이&nbsp;부족하여&nbsp;진행할&nbsp;수&nbsp;없습니다	현상금이&nbsp;부족하여&nbsp;진행할&nbsp;수&nbsp;없습니다	unkown error	2012/11/24 10:33	2012/11/24 10:33
+53	-53	소탕&nbsp;쿨타임&nbsp;중입니다.&nbsp;쿨타임을&nbsp;초기화하세요	소탕&nbsp;쿨타임&nbsp;중입니다.&nbsp;쿨타임을&nbsp;초기화하세요	unkown error	2012/11/27 18:43	2012/11/27 18:43
+54	-54	서버&nbsp;점검&nbsp;중입니다.&nbsp;나중에&nbsp;로그인하세요.	서버&nbsp;점검&nbsp;중입니다.&nbsp;나중에&nbsp;로그인하세요.	unkown error	2012/11/29 13:39	2012/11/29 13:39
+55	-55	보상이&nbsp;만료되었습니다.&nbsp;문제가&nbsp;있으면&nbsp;GM에게&nbsp;문의하세요	보상이&nbsp;만료되었습니다.&nbsp;문제가&nbsp;있으면&nbsp;GM에게&nbsp;문의하세요	unkown error	2012/12/13 12:39	2012/12/13 12:39
+56	-56	이미&nbsp;이&nbsp;닌자를&nbsp;보유하고&nbsp;있습니다.&nbsp;기존&nbsp;닌자를&nbsp;해산하세요	이미&nbsp;이&nbsp;닌자를&nbsp;보유하고&nbsp;있습니다.&nbsp;기존&nbsp;닌자를&nbsp;해산하세요	unkown error	2012/12/13 14:27	2012/12/13 14:27
+57	-57	보관소가&nbsp;가득&nbsp;찼습니다.&nbsp;먼저&nbsp;닌자를&nbsp;해산하세요	보관소가&nbsp;가득&nbsp;찼습니다.&nbsp;먼저&nbsp;닌자를&nbsp;해산하세요	unkown error	2012/12/13 14:45	2012/12/13 14:45
+58	-58	닌자가&nbsp;존재하지&nbsp;않습니다	닌자가&nbsp;존재하지&nbsp;않습니다	unkown error	2012/12/13 14:46	2012/12/13 14:46
+59	-59	먼저&nbsp;주점을&nbsp;건설하세요	먼저&nbsp;주점을&nbsp;건설하세요	unkown error	2012/12/13 14:46	2012/12/13 14:46
+60	-60	닌자&nbsp;경험치&nbsp;설정&nbsp;데이터가&nbsp;없습니다	닌자&nbsp;경험치&nbsp;설정&nbsp;데이터가&nbsp;없습니다	unkown error	2012/12/13 14:47	2012/12/13 14:47
+61	-61	가방&nbsp;공간이&nbsp;부족합니다!	가방&nbsp;공간이&nbsp;부족합니다!	unkown error	2012/12/15 2:23	2012/12/15 2:23
+62	-62	레벨이&nbsp;부족하여&nbsp;사용할&nbsp;수&nbsp;없습니다!	레벨이&nbsp;부족하여&nbsp;사용할&nbsp;수&nbsp;없습니다!	unkown error	2012/12/20 16:02	2012/12/20 16:02
+63	-63	오늘의&nbsp;구매&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	오늘의&nbsp;구매&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2012/12/21 16:56	2012/12/21 16:56
+64	-64	오늘의&nbsp;도전&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	오늘의&nbsp;도전&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2012/12/22 11:10	2012/12/22 11:10
+65	-65	사용자&nbsp;권한이&nbsp;부족합니다.&nbsp;구매하여&nbsp;사용자&nbsp;권한을&nbsp;올리세요	사용자&nbsp;권한이&nbsp;부족합니다.&nbsp;구매하여&nbsp;사용자&nbsp;권한을&nbsp;올리세요	unkown error	2012/12/27 20:28	2012/12/27 20:28
+66	-66	이&nbsp;페이지의&nbsp;초기화&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	이&nbsp;페이지의&nbsp;초기화&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2012/12/28 10:02	2012/12/28 10:02
+67	-67	바람 조개가 부족하여 무풍 지대에 도전할 수 없습니다	바람 조개가 부족하여 무풍 지대에 도전할 수 없습니다	unkown error	2012/12/27 20:28	2012/12/27 20:28
+68	-68	계정&nbsp;또는&nbsp;비밀번호가&nbsp;틀렸습니다	계정&nbsp;또는&nbsp;비밀번호가&nbsp;틀렸습니다	unkown error	2012/12/28 15:30	2012/12/28 15:30
+69	-69	잠긴&nbsp;계정입니다!&nbsp;로그인할&nbsp;수&nbsp;없습니다	잠긴&nbsp;계정입니다!&nbsp;로그인할&nbsp;수&nbsp;없습니다	unkown error	2012/12/29 12:27	2012/12/29 12:27
+70	-70	비최초&nbsp;출시&nbsp;라이브러리가&nbsp;존재하지&nbsp;않습니다	비최초&nbsp;출시&nbsp;라이브러리가&nbsp;존재하지&nbsp;않습니다	unkown error	2013/1/18 18:56	2013/1/18 18:56
+71	-71	사용자&nbsp;닌자&nbsp;보상이&nbsp;존재하지&nbsp;않습니다	사용자&nbsp;닌자&nbsp;보상이&nbsp;존재하지&nbsp;않습니다	unkown error	2013/1/27 1:38	2013/1/27 1:38
+72	-72	베이스 오류	베이스 오류	unkown error	2013/1/26 18:52	2013/1/26 18:52
+73	-73	아이템이&nbsp;존재하지&nbsp;않습니다	아이템이&nbsp;존재하지&nbsp;않습니다	unkown error	2013/1/26 19:23	2013/1/26 19:23
+74	-74	아이템이&nbsp;부족합니다	아이템이&nbsp;부족합니다	unkown error	2013/1/27 1:38	2013/1/27 1:38
+75	-75	별자리석이&nbsp;부족합니다	별자리석이&nbsp;부족합니다	unkown error	2013/1/27 1:38	2013/1/27 1:38
+76	-76	사용자 상태가 비정상입니다	사용자 상태가 비정상입니다	unkown error	2013/1/27 1:38	2013/1/27 1:38
+77	-77	오늘은&nbsp;이미&nbsp;식사를&nbsp;했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요!	오늘은&nbsp;이미&nbsp;식사를&nbsp;했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요!	unkown error	2013/2/27 15:54	2013/2/27 15:54
+78	-78	이&nbsp;전투&nbsp;슬롯은&nbsp;잠겨&nbsp;있습니다	이&nbsp;전투&nbsp;슬롯은&nbsp;잠겨&nbsp;있습니다	unkown error	2013/3/5 11:52	2013/3/5 11:52
+79	-79	먼저&nbsp;발굴하세요	먼저&nbsp;발굴하세요	unkown error	2013/3/9 11:16	2013/3/9 11:16
+80	-80	폭약을 모두 사용했습니다. 다음에 다시 폭파하세요!	폭약을 모두 사용했습니다. 다음에 다시 폭파하세요!	unkown error	2013/3/11 12:44	2013/3/11 12:44
+81	-81	레벨이&nbsp;부족하여&nbsp;구매할&nbsp;수&nbsp;없습니다	레벨이&nbsp;부족하여&nbsp;구매할&nbsp;수&nbsp;없습니다	unkown error	2013/3/11 12:39	2013/3/11 12:39
+82	-82	구매&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다	구매&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다	unkown error	2013/3/11 12:43	2013/3/11 12:43
+83	-83	가방&nbsp;공간이&nbsp;부족하여&nbsp;해산할&nbsp;수&nbsp;없습니다	가방&nbsp;공간이&nbsp;부족하여&nbsp;해산할&nbsp;수&nbsp;없습니다	unkown error	2013/3/15 15:24	2013/3/15 15:24
+84	-84	샤먼&nbsp;가방이&nbsp;부족하여&nbsp;해산할&nbsp;수&nbsp;없습니다	샤먼&nbsp;가방이&nbsp;부족하여&nbsp;해산할&nbsp;수&nbsp;없습니다	unkown error	2013/3/15 15:29	2013/3/15 15:29
+85	-85	닌자&nbsp;유형이&nbsp;맞지&nbsp;않아&nbsp;배치할&nbsp;수&nbsp;없습니다	닌자&nbsp;유형이&nbsp;맞지&nbsp;않아&nbsp;배치할&nbsp;수&nbsp;없습니다	unkown error	2013/3/15 20:37	2013/3/15 20:37
+86	-86	이미&nbsp;최대치에&nbsp;도달하여&nbsp;성장할&nbsp;수&nbsp;없습니다	이미&nbsp;최대치에&nbsp;도달하여&nbsp;성장할&nbsp;수&nbsp;없습니다	unkown error	2013/3/27 10:29	2013/3/27 10:29
+87	-87	사용&nbsp;가능한&nbsp;닌자가&nbsp;없습니다	사용&nbsp;가능한&nbsp;닌자가&nbsp;없습니다	unkown error	2013/3/27 10:43	2013/3/27 10:43
+88	-88	이&nbsp;아이템은&nbsp;판매할&nbsp;수&nbsp;없습니다	이&nbsp;아이템은&nbsp;판매할&nbsp;수&nbsp;없습니다	unkown error	2013/3/30 17:05	2013/3/30 17:05
+89	-89	이&nbsp;닌자는&nbsp;해산할&nbsp;수&nbsp;없습니다	이&nbsp;닌자는&nbsp;해산할&nbsp;수&nbsp;없습니다	unkown error	2013/4/9 14:02	2013/4/9 14:02
+90	-90	이&nbsp;닌자는&nbsp;반드시&nbsp;파티에&nbsp;있어야&nbsp;합니다	이&nbsp;닌자는&nbsp;반드시&nbsp;파티에&nbsp;있어야&nbsp;합니다	unkown error	2013/4/9 14:05	2013/4/9 14:05
+91	-91	이&nbsp;퀘스트는&nbsp;포기할&nbsp;수&nbsp;없습니다	이&nbsp;퀘스트는&nbsp;포기할&nbsp;수&nbsp;없습니다	unkown error	2013/4/19 10:54	2013/4/19 10:54
+92	-92	빈&nbsp;무기&nbsp;슬롯이&nbsp;없습니다.&nbsp;닌자&nbsp;품질을&nbsp;올리세요	빈&nbsp;무기&nbsp;슬롯이&nbsp;없습니다.&nbsp;닌자&nbsp;품질을&nbsp;올리세요	unkown error	2013/4/24 16:27	2013/4/24 16:27
+93	-93	파티에&nbsp;보라&nbsp;또는&nbsp;보라-주황&nbsp;닌자가&nbsp;있어야&nbsp;전투할&nbsp;수&nbsp;있습니다	파티에&nbsp;보라&nbsp;또는&nbsp;보라-주황&nbsp;닌자가&nbsp;있어야&nbsp;전투할&nbsp;수&nbsp;있습니다	unkown error	2013/4/24 17:56	2013/4/24 17:56
+94	-94	파티에&nbsp;주황&nbsp;닌자가&nbsp;있어야&nbsp;전투할&nbsp;수&nbsp;있습니다	파티에&nbsp;주황&nbsp;닌자가&nbsp;있어야&nbsp;전투할&nbsp;수&nbsp;있습니다	unkown error	2013/4/24 17:56	2013/4/24 17:56
+95	-95	여왕&nbsp;도전&nbsp;쿨타임&nbsp;중	여왕&nbsp;도전&nbsp;쿨타임&nbsp;중	unkown error	2013/4/26 22:28	2013/4/26 22:28
+96	-96	닌자&nbsp;품질이&nbsp;부족하여&nbsp;장착할&nbsp;수&nbsp;없습니다	닌자&nbsp;품질이&nbsp;부족하여&nbsp;장착할&nbsp;수&nbsp;없습니다	unkown error	2013/5/4 3:07	2013/5/4 3:07
+97	-97	닌자&nbsp;품질이&nbsp;부족하여&nbsp;레벨업할&nbsp;수&nbsp;없습니다	닌자&nbsp;품질이&nbsp;부족하여&nbsp;레벨업할&nbsp;수&nbsp;없습니다	unkown error	2013/5/4 3:19	2013/5/4 3:19
+98	-98	닌자&nbsp;품질이&nbsp;부족하여&nbsp;이&nbsp;능력을&nbsp;사용할&nbsp;수&nbsp;없습니다	닌자&nbsp;품질이&nbsp;부족하여&nbsp;이&nbsp;능력을&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2013/5/4 16:55	2013/5/4 16:55
+99	-99	이&nbsp;슬롯은&nbsp;잠겨&nbsp;있습니다	이&nbsp;슬롯은&nbsp;잠겨&nbsp;있습니다	unkown error	2013/5/4 17:55	2013/5/4 17:55
+100	-100	가방&nbsp;또는&nbsp;샤먼&nbsp;가방이&nbsp;부족합니다.&nbsp;먼저&nbsp;정리하세요	가방&nbsp;또는&nbsp;샤먼&nbsp;가방이&nbsp;부족합니다.&nbsp;먼저&nbsp;정리하세요	unkown error	2013/5/8 16:32	2013/5/8 16:32
+101	-101	소탕할&nbsp;수&nbsp;있는&nbsp;던전이&nbsp;없습니다	소탕할&nbsp;수&nbsp;있는&nbsp;던전이&nbsp;없습니다	unkown error	2013/5/11 13:23	2013/5/11 13:23
+102	-102	초기화할&nbsp;캠페인이&nbsp;없습니다	초기화할&nbsp;캠페인이&nbsp;없습니다	unkown error	2013/5/13 16:38	2013/5/13 16:38
+103	-103	체력이&nbsp;가득&nbsp;찼습니다.&nbsp;사용할&nbsp;수&nbsp;없습니다	체력이&nbsp;가득&nbsp;찼습니다.&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2013/5/17 11:03	2013/5/17 11:03
+104	-104	무기&nbsp;가방이&nbsp;부족합니다	무기&nbsp;가방이&nbsp;부족합니다	unkown error	2013/5/18 19:40	2013/5/18 19:40
+105	-105	보물&nbsp;상자&nbsp;가방이&nbsp;부족합니다	보물&nbsp;상자&nbsp;가방이&nbsp;부족합니다	unkown error	2013/5/18 19:40	2013/5/18 19:40
+106	-106	재료&nbsp;가방이&nbsp;부족합니다	재료&nbsp;가방이&nbsp;부족합니다	unkown error	2013/5/18 19:41	2013/5/18 19:41
+107	-107	비서&nbsp;상태&nbsp;오류	비서&nbsp;상태&nbsp;오류	unkown error	2013/5/23 14:44	2013/5/23 14:44
+108	-108	레벨을&nbsp;건너뛰어&nbsp;놀릴&nbsp;수&nbsp;없습니다	레벨을&nbsp;건너뛰어&nbsp;놀릴&nbsp;수&nbsp;없습니다	unkown error	2013/5/23 15:54	2013/5/23 15:54
+109	-109	인연이&nbsp;부족합니다	인연이&nbsp;부족합니다	unkown error	2013/5/23 15:58	2013/5/23 15:58
+110	-110	특권은&nbsp;활성화한&nbsp;다음&nbsp;날부터&nbsp;적용됩니다	특권은&nbsp;활성화한&nbsp;다음&nbsp;날부터&nbsp;적용됩니다	unkown error	2013/5/29 11:26	2013/5/29 11:26
+111	-111	이벤트&nbsp;중이며&nbsp;자동&nbsp;전투&nbsp;중입니다.&nbsp;이벤트가&nbsp;끝난&nbsp;후&nbsp;도전하세요	이벤트&nbsp;중이며&nbsp;자동&nbsp;전투&nbsp;중입니다.&nbsp;이벤트가&nbsp;끝난&nbsp;후&nbsp;도전하세요	unkown error	2013/6/15 20:33	2013/6/15 20:33
+112	-112	부활&nbsp;중입니다.&nbsp;잠시&nbsp;후&nbsp;다시&nbsp;시도하세요	부활&nbsp;중입니다.&nbsp;잠시&nbsp;후&nbsp;다시&nbsp;시도하세요	unkown error	2013/6/15 20:46	2013/6/15 20:46
+113	-113	보스가&nbsp;봉인되었습니다	보스가&nbsp;봉인되었습니다	unkown error	2013/6/17 17:44	2013/6/17 17:44
+114	-114	보스가&nbsp;아직&nbsp;깨어나지&nbsp;않았습니다	보스가&nbsp;아직&nbsp;깨어나지&nbsp;않았습니다	unkown error	2013/6/17 17:44	2013/6/17 17:44
+115	-115	이벤트가&nbsp;끝나지&nbsp;않아&nbsp;확인할&nbsp;수&nbsp;없습니다	이벤트가&nbsp;끝나지&nbsp;않아&nbsp;확인할&nbsp;수&nbsp;없습니다	unkown error	2013/6/25 14:25	2013/6/25 14:25
+116	-116	이&nbsp;진형은&nbsp;이미&nbsp;해제되었습니다	이&nbsp;진형은&nbsp;이미&nbsp;해제되었습니다	unkown error	2013/6/27 14:45	2013/6/27 14:45
+117	-117	이&nbsp;진형&nbsp;슬롯은&nbsp;수동으로&nbsp;해제할&nbsp;수&nbsp;없습니다	이&nbsp;진형&nbsp;슬롯은&nbsp;수동으로&nbsp;해제할&nbsp;수&nbsp;없습니다	unkown error	2013/6/27 14:50	2013/6/27 14:51
+118	-118	현상금&nbsp;레벨이&nbsp;너무&nbsp;낮아&nbsp;진행할&nbsp;수&nbsp;없습니다	현상금&nbsp;레벨이&nbsp;너무&nbsp;낮아&nbsp;진행할&nbsp;수&nbsp;없습니다	unkown error	2013/6/27 14:54	2013/6/27 14:54
+119	-119	이벤트&nbsp;기간에는&nbsp;오프라인&nbsp;전투&nbsp;상태를&nbsp;변경할&nbsp;수&nbsp;없습니다	이벤트&nbsp;기간에는&nbsp;오프라인&nbsp;전투&nbsp;상태를&nbsp;변경할&nbsp;수&nbsp;없습니다	unkown error	2013/6/29 18:29	2013/6/29 18:29
+120	-120	골드가&nbsp;부족하여&nbsp;월드&nbsp;보스&nbsp;오프라인&nbsp;상태를&nbsp;종료합니다	골드가&nbsp;부족하여&nbsp;월드&nbsp;보스&nbsp;오프라인&nbsp;상태를&nbsp;종료합니다	unkown error	2013/7/1 10:27	2013/7/1 10:27
+121	-121	슬롯을&nbsp;순서대로&nbsp;해제하세요	슬롯을&nbsp;순서대로&nbsp;해제하세요	unkown error	2013/7/6 17:26	2013/7/6 17:26
+122	-122	레벨이&nbsp;부족하여&nbsp;획득할&nbsp;수&nbsp;없습니다	레벨이&nbsp;부족하여&nbsp;획득할&nbsp;수&nbsp;없습니다	unkown error	2013/7/8 16:06	2013/7/8 16:06
+123	-123	오늘은&nbsp;이미&nbsp;신청했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	오늘은&nbsp;이미&nbsp;신청했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	unkown error	2013/7/8 16:25	2013/7/8 16:25
+124	-124	신청&nbsp;횟수가&nbsp;부족합니다	신청&nbsp;횟수가&nbsp;부족합니다	unkown error	2013/7/8 16:34	2013/7/8 16:34
+125	-125	최대&nbsp;전투&nbsp;슬롯에&nbsp;도달했습니다	최대&nbsp;전투&nbsp;슬롯에&nbsp;도달했습니다	unkown error	2013/7/8 18:55	2013/7/8 18:55
+126	-126	이미&nbsp;획득했습니다	이미&nbsp;획득했습니다	unkown error	2013/7/9 21:02	2013/7/9 21:02
+127	-127	주입할&nbsp;샤먼이&nbsp;없습니다	주입할&nbsp;샤먼이&nbsp;없습니다	unkown error	2013/7/12 15:14	2013/7/12 15:14
+128	-128	샤먼&nbsp;슬롯이&nbsp;아직&nbsp;열리지&nbsp;않았습니다	샤먼&nbsp;슬롯이&nbsp;아직&nbsp;열리지&nbsp;않았습니다	unkown error	2013/7/12 15:55	2013/7/12 15:55
+129	-129	같은&nbsp;샤먼을&nbsp;장착할&nbsp;수&nbsp;없습니다	같은&nbsp;샤먼을&nbsp;장착할&nbsp;수&nbsp;없습니다	unkown error	2013/7/12 20:02	2013/7/12 20:02
+130	-130	이미&nbsp;해제됨	이미&nbsp;해제됨	unkown error	2013/7/22 16:44	2013/7/22 16:44
+131	-131	사용자명&nbsp;또는&nbsp;비밀번호가&nbsp;비어&nbsp;있습니다	사용자명&nbsp;또는&nbsp;비밀번호가&nbsp;비어&nbsp;있습니다	unkown error	2013/9/7 10:33	2013/9/7 10:33
+132	-132	사용자명&nbsp;길이가&nbsp;올바르지&nbsp;않습니다	사용자명&nbsp;길이가&nbsp;올바르지&nbsp;않습니다	unkown error	2013/9/7 10:34	2013/9/7 10:34
+133	-133	사용자명&nbsp;또는&nbsp;비밀번호에&nbsp;허용되지&nbsp;않는&nbsp;문자가&nbsp;있습니다.	사용자명&nbsp;또는&nbsp;비밀번호에&nbsp;허용되지&nbsp;않는&nbsp;문자가&nbsp;있습니다.	unkown error	2013/9/7 10:34	2013/9/7 10:34
+134	-134	이미&nbsp;등록된&nbsp;사용자명입니다	이미&nbsp;등록된&nbsp;사용자명입니다	unkown error	2013/9/7 10:34	2013/9/7 10:34
+135	-135	유효하지&nbsp;않은&nbsp;사용자명&nbsp;또는&nbsp;비밀번호	유효하지&nbsp;않은&nbsp;사용자명&nbsp;또는&nbsp;비밀번호	unkown error	2013/9/7 10:34	2013/9/7 10:34
+136	-136	사용자와&nbsp;닌자&nbsp;데이터가&nbsp;일치하지&nbsp;않습니다	사용자와&nbsp;닌자&nbsp;데이터가&nbsp;일치하지&nbsp;않습니다	unkown error	2013/9/10 16:28	2013/9/10 16:28
+137	-137	닌자가&nbsp;비활성화되었습니다	닌자가&nbsp;비활성화되었습니다	unkown error	2013/9/10 16:52	2013/9/10 16:52
+138	-138	닌자를&nbsp;장착하세요	닌자를&nbsp;장착하세요	unkown error	2013/9/10 17:01	2013/9/10 17:01
+139	-139	닌자&nbsp;정보&nbsp;이상	닌자&nbsp;정보&nbsp;이상	unkown error	2013/9/10 17:03	2013/9/10 17:03
+140	-140	일일&nbsp;학습&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	일일&nbsp;학습&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	unkown error	2013/9/10 17:24	2013/9/10 17:24
+141	-141	충전&nbsp;기능이&nbsp;닫혀&nbsp;있습니다	충전&nbsp;기능이&nbsp;닫혀&nbsp;있습니다	unkownerror	2013/9/16 11:56	2013/9/16 11:56
+142	-142	로그인&nbsp;오류(tipcat)	로그인&nbsp;오류(tipcat)	unkown error	2013/9/16 18:43	2013/9/16 18:43
+143	-143	91&nbsp;로그인&nbsp;오류	91&nbsp;로그인&nbsp;오류	unkown error	2013/9/16 18:55	2013/9/16 18:55
+144	-144	91dj&nbsp;로그인&nbsp;오류	91dj&nbsp;로그인&nbsp;오류	unkown error	2013/9/16 19:01	2013/9/16 19:01
+145	-145	Duo&nbsp;Ku&nbsp;로그인&nbsp;오류	Duo&nbsp;Ku&nbsp;로그인&nbsp;오류	unkown error	2013/9/16 19:50	2013/9/16 19:50
+146	-146	Mi&nbsp;로그인&nbsp;오류	Mi&nbsp;로그인&nbsp;오류	unkown error	2013/9/17 11:57	2013/9/17 11:57
+147	-147	바다의&nbsp;방랑자	바다의&nbsp;방랑자	unkown error	2013/10/9 14:46	2013/10/9 14:46
+148	-148	초급 견습 해적	초급 견습 해적	unkown error	2013/10/9 14:46	2013/10/9 14:46
+149	-149	중급 견습 해적	중급 견습 해적	unkown error	2013/10/9 14:47	2013/10/9 14:47
+150	-150	고급 견습 해적	고급 견습 해적	unkown error	2013/10/9 14:47	2013/10/9 14:47
+151	-151	초급 해적	초급 해적	unkown error	2013/10/9 14:47	2013/10/9 14:47
+152	-152	중급 해적	중급 해적	unkown error	2013/10/9 14:47	2013/10/9 14:47
+153	-153	고급 해적	고급 해적	unkown error	2013/10/9 14:48	2013/10/9 14:48
+154	-154	해상 닌자	해상 닌자	unkown error	2013/10/9 14:48	2013/10/9 14:48
+155	-155	해상 광전 닌자	해상 광전 닌자	unkown error	2013/10/9 14:48	2013/10/9 14:48
+156	-156	해상 닌자	해상 닌자	unkown error	2013/10/9 14:48	2013/10/9 14:48
+157	-157	해상 광전 닌자	해상 광전 닌자	unkown error	2013/10/9 14:49	2013/10/9 14:49
+158	-158	해적 부선장	해적 부선장	unkown error	2013/10/9 14:49	2013/10/9 14:49
+159	-159	해적 선장	해적 선장	unkown error	2013/10/9 14:49	2013/10/9 14:49
+160	-160	해적단 참모	해적단 참모	unkown error	2013/10/9 14:49	2013/10/9 14:49
+161	-161	해적단 두목	해적단 두목	unkown error	2013/10/9 14:50	2013/10/9 14:50
+162	-162	바다의 재앙	바다의 재앙	unkown error	2013/10/9 14:50	2013/10/9 14:50
+163	-163	해적 제독	해적 제독	unkown error	2013/10/9 14:50	2013/10/9 14:50
+164	-164	바다의 패자	바다의 패자	unkown error	2013/10/9 14:50	2013/10/9 14:50
+165	-165	바다의 심판자	바다의 심판자	unkown error	2013/10/9 14:50	2013/10/9 14:50
+166	-166	칠무해	칠무해	unkown error	2013/10/9 14:51	2013/10/9 14:51
+167	-167	해적 사황 넷째	해적 사황 넷째	unkown error	2013/10/9 14:51	2013/10/9 14:51
+168	-168	해적 사황 셋째	해적 사황 셋째	unkown error	2013/10/9 14:51	2013/10/9 14:51
+169	-169	해적 사황 둘째	해적 사황 둘째	unkown error	2013/10/9 14:51	2013/10/9 14:52
+170	-170	해적 사황 첫째	해적 사황 첫째	unkown error	2013/10/9 14:52	2013/10/9 14:52
+171	-171	해적왕	해적왕	unkown error	2013/10/9 14:52	2013/10/9 14:52
+172	-172	[x]이(가)&nbsp;[y]을(를)&nbsp;쓰러뜨리고&nbsp;경기장&nbsp;정상에&nbsp;올랐습니다!	[x]이(가)&nbsp;[y]을(를)&nbsp;쓰러뜨리고&nbsp;경기장&nbsp;정상에&nbsp;올랐습니다!	unkown error	2013/10/9 15:27	2013/10/9 15:27
+173	-173	[x]은(는)&nbsp;거침없이&nbsp;[y]연승을&nbsp;거두고&nbsp;있습니다!	[x]은(는)&nbsp;거침없이&nbsp;[y]연승을&nbsp;거두고&nbsp;있습니다!	unkown error	2013/10/9 15:28	2013/10/9 15:28
+174	-174	[x]연승&nbsp;중이던&nbsp;[y]이(가)&nbsp;[z]에게&nbsp;패배했습니다.&nbsp;[y]의&nbsp;연승&nbsp;기록이&nbsp;멈췄습니다!	[x]연승&nbsp;중이던&nbsp;[y]이(가)&nbsp;[z]에게&nbsp;패배했습니다.&nbsp;[y]의&nbsp;연승&nbsp;기록이&nbsp;멈췄습니다!	unkown error	2013/10/9 15:28	2013/10/9 15:28
+175	-175	[x]의&nbsp;순위가&nbsp;[y]&nbsp;상승했습니다.&nbsp;[x]은(는)&nbsp;경기장의&nbsp;빛나는&nbsp;별이&nbsp;되었습니다!	[x]의&nbsp;순위가&nbsp;[y]&nbsp;상승했습니다.&nbsp;[x]은(는)&nbsp;경기장의&nbsp;빛나는&nbsp;별이&nbsp;되었습니다!	unkown error	2013/10/9 15:29	2013/10/9 15:29
+176	-176	%x%님이&nbsp;VIP&nbsp;%y%이(가)&nbsp;되었습니다.&nbsp;지금&nbsp;바로&nbsp;VIP&nbsp;특권을&nbsp;누리세요!	%x%님이&nbsp;VIP&nbsp;%y%이(가)&nbsp;되었습니다.&nbsp;지금&nbsp;바로&nbsp;VIP&nbsp;특권을&nbsp;누리세요!	unkown error	2013/10/9 15:52	2013/10/9 15:52
+177	-177	닌자&nbsp;%x%님이&nbsp;호화&nbsp;첫&nbsp;구매&nbsp;패키지를&nbsp;받아&nbsp;%y%을(를)&nbsp;획득했습니다.	닌자&nbsp;%x%님이&nbsp;호화&nbsp;첫&nbsp;구매&nbsp;패키지를&nbsp;받아&nbsp;%y%을(를)&nbsp;획득했습니다.	unkown error	2013/10/9 15:53	2013/10/9 15:53
+178	-178	%x%님이&nbsp;%y%을(를)&nbsp;열어&nbsp;%z%을(를)&nbsp;획득했습니다.&nbsp;축하합니다!&nbsp;희귀&nbsp;아이템은&nbsp;모두&nbsp;보물&nbsp;상자&nbsp;안에!	%x%님이&nbsp;%y%을(를)&nbsp;열어&nbsp;%z%을(를)&nbsp;획득했습니다.&nbsp;축하합니다!&nbsp;희귀&nbsp;아이템은&nbsp;모두&nbsp;보물&nbsp;상자&nbsp;안에!	unkown error	2013/10/9 15:53	2013/10/9 15:53
+179	-179	닌자&nbsp;%x%님이&nbsp;상점에서&nbsp;%y%(으)로&nbsp;%z%을(를)&nbsp;획득하여&nbsp;서버&nbsp;최강의&nbsp;닌자가&nbsp;되려&nbsp;합니다!	닌자&nbsp;%x%님이&nbsp;상점에서&nbsp;%y%(으)로&nbsp;%z%을(를)&nbsp;획득하여&nbsp;서버&nbsp;최강의&nbsp;닌자가&nbsp;되려&nbsp;합니다!	unkown error	2013/10/9 15:53	2013/10/9 15:54
+180	-180	닌자&nbsp;%x%님이&nbsp;상점에서&nbsp;%y%(으)로&nbsp;%z%을(를)&nbsp;획득하여&nbsp;서버&nbsp;최강의&nbsp;닌자가&nbsp;되려&nbsp;합니다!	닌자&nbsp;%x%님이&nbsp;상점에서&nbsp;%y%(으)로&nbsp;%z%을(를)&nbsp;획득하여&nbsp;서버&nbsp;최강의&nbsp;닌자가&nbsp;되려&nbsp;합니다!	unkown error	2013/10/9 15:54	2013/10/9 15:54
+181	-181	닌자&nbsp;%x%님이&nbsp;%y%을(를)&nbsp;%z%(으)로&nbsp;진화시켜&nbsp;더욱&nbsp;강해졌습니다!	닌자&nbsp;%x%님이&nbsp;%y%을(를)&nbsp;%z%(으)로&nbsp;진화시켜&nbsp;더욱&nbsp;강해졌습니다!	unkown error	2013/10/9 15:54	2013/10/9 15:54
+182	-182	닌자&nbsp;%x%님이&nbsp;칩&nbsp;%y%을(를)&nbsp;%z%레벨로&nbsp;강화하여&nbsp;한층&nbsp;더&nbsp;강해졌습니다!	닌자&nbsp;%x%님이&nbsp;칩&nbsp;%y%을(를)&nbsp;%z%레벨로&nbsp;강화하여&nbsp;한층&nbsp;더&nbsp;강해졌습니다!	unkown error	2013/10/9 15:55	2013/10/9 15:55
+183	-183	닌자&nbsp;%x%님이&nbsp;%y%을(를)&nbsp;제작하여&nbsp;서버&nbsp;전체를&nbsp;제패하려&nbsp;합니다!	닌자&nbsp;%x%님이&nbsp;%y%을(를)&nbsp;제작하여&nbsp;서버&nbsp;전체를&nbsp;제패하려&nbsp;합니다!	unkown error	2013/10/9 15:55	2013/10/9 15:55
+184	-184	%x%이(가) 당신의 영지에서 철수하여 자유를 되찾았습니다	%x%이(가) 당신의 영지에서 철수하여 자유를 되찾았습니다	unkown error	2013/10/9 16:12	2013/10/9 16:12
+185	-185	친구&nbsp;%x%님의&nbsp;도움이&nbsp;성공하여&nbsp;자유를&nbsp;되찾았습니다!	친구&nbsp;%x%님의&nbsp;도움이&nbsp;성공하여&nbsp;자유를&nbsp;되찾았습니다!	unkown error	2013/10/9 16:12	2013/10/9 16:12
+186	-186	%x%님이&nbsp;%y%님을&nbsp;돕는&nbsp;데&nbsp;성공하여&nbsp;영지를&nbsp;잃었습니다	%x%님이&nbsp;%y%님을&nbsp;돕는&nbsp;데&nbsp;성공하여&nbsp;영지를&nbsp;잃었습니다	unkown error	2013/10/9 16:12	2013/10/9 16:12
+187	-187	친구&nbsp;%x%님이&nbsp;당신을&nbsp;돕는&nbsp;데&nbsp;실패했습니다	친구&nbsp;%x%님이&nbsp;당신을&nbsp;돕는&nbsp;데&nbsp;실패했습니다	unkown error	2013/10/9 16:13	2013/10/9 16:13
+188	-188	친구&nbsp;%x%님이&nbsp;당신의&nbsp;영지를&nbsp;돕는&nbsp;데&nbsp;실패했습니다	친구&nbsp;%x%님이&nbsp;당신의&nbsp;영지를&nbsp;돕는&nbsp;데&nbsp;실패했습니다	unkown error	2013/10/9 16:13	2013/10/9 16:13
+189	-189	%x%님이&nbsp;당신을&nbsp;쓰러뜨리고&nbsp;영지&nbsp;일부를&nbsp;빼앗았습니다	%x%님이&nbsp;당신을&nbsp;쓰러뜨리고&nbsp;영지&nbsp;일부를&nbsp;빼앗았습니다	unkown error	2013/10/9 16:14	2013/10/9 16:14
+190	-190	%x%님이&nbsp;%y%님을&nbsp;쓰러뜨리고&nbsp;당신의&nbsp;새&nbsp;주인이&nbsp;되었습니다	%x%님이&nbsp;%y%님을&nbsp;쓰러뜨리고&nbsp;당신의&nbsp;새&nbsp;주인이&nbsp;되었습니다	unkown error	2013/10/9 16:15	2013/10/9 16:15
+191	-191	&nbsp;%x%님이&nbsp;당신&nbsp;공격에&nbsp;실패했습니다	&nbsp;%x%님이&nbsp;당신&nbsp;공격에&nbsp;실패했습니다	unkown error	2013/10/9 16:16	2013/10/9 16:16
+192	-192	%x%님이&nbsp;당신을&nbsp;쓰러뜨려&nbsp;당신은&nbsp;그의&nbsp;영지가&nbsp;되었습니다	%x%님이&nbsp;당신을&nbsp;쓰러뜨려&nbsp;당신은&nbsp;그의&nbsp;영지가&nbsp;되었습니다	unkown error	2013/10/9 16:16	2013/10/9 16:16
+193	-193	%x%님이&nbsp;당신을&nbsp;공격했지만&nbsp;당신에게&nbsp;패배했습니다	%x%님이&nbsp;당신을&nbsp;공격했지만&nbsp;당신에게&nbsp;패배했습니다	unkown error	2013/10/9 16:17	2013/10/9 16:17
+194	-194	%x%님이&nbsp;세금으로&nbsp;당신의&nbsp;동전&nbsp;%y%을(를)&nbsp;가져갔습니다	%x%님이&nbsp;세금으로&nbsp;당신의&nbsp;동전&nbsp;%y%을(를)&nbsp;가져갔습니다	unkown error	2013/10/9 16:17	2013/10/9 16:17
+195	-195	%x%에서&nbsp;%y%님이&nbsp;당신에게&nbsp;도전했습니다.&nbsp;순위가&nbsp;%z%(으)로&nbsp;하락했습니다!	%x%에서&nbsp;%y%님이&nbsp;당신에게&nbsp;도전했습니다.&nbsp;순위가&nbsp;%z%(으)로&nbsp;하락했습니다!	unkown error	2013/10/9 16:17	2013/10/9 16:17
+196	-196	%x%에서&nbsp;%y%님이&nbsp;당신에게&nbsp;도전했습니다.&nbsp;*레벨은&nbsp;변하지&nbsp;않았습니다.*	%x%에서&nbsp;%y%님이&nbsp;당신에게&nbsp;도전했습니다.&nbsp;*레벨은&nbsp;변하지&nbsp;않았습니다.*	unkown error	2013/10/9 16:19	2013/10/9 16:19
+197	-197	당신의 속지 %x%의 반란이 실패하여 진압되었습니다	당신의 속지 %x%의 반란이 실패하여 진압되었습니다	unkown error	2013/10/9 16:19	2013/10/9 16:19
+198	-198	당신의 속지 %x%의 반란이 성공하여 자유를 되찾았습니다	당신의 속지 %x%의 반란이 성공하여 자유를 되찾았습니다	unkown error	2013/10/9 16:19	2013/10/9 16:19
+199	-199	도전하려는 결투 순위가 존재하지 않거나 이미 변경되었습니다	도전하려는 결투 순위가 존재하지 않거나 이미 변경되었습니다	unkown error	2013/10/10 15:22	2013/10/10 15:22
+200	-200	자신에게&nbsp;도전할&nbsp;수&nbsp;없습니다	자신에게&nbsp;도전할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 15:23	2013/10/10 15:23
+201	-201	받을&nbsp;보상이&nbsp;없습니다.&nbsp;다음&nbsp;보상&nbsp;수령&nbsp;시간:	받을&nbsp;보상이&nbsp;없습니다.&nbsp;다음&nbsp;보상&nbsp;수령&nbsp;시간:	unkown error	2013/10/10 15:25	2013/10/10 15:25
+202	-202	경기장&nbsp;보상을&nbsp;받았습니다.&nbsp;다음&nbsp;보상&nbsp;수령&nbsp;시간:	경기장&nbsp;보상을&nbsp;받았습니다.&nbsp;다음&nbsp;보상&nbsp;수령&nbsp;시간:	unkown error	2013/10/10 15:27	2013/10/10 15:27
+203	-203	틀이&nbsp;존재하지&nbsp;않습니다	틀이&nbsp;존재하지&nbsp;않습니다	unkown error	2013/10/10 15:29	2013/10/10 15:29
+204	-204	명성이&nbsp;부족합니다	명성이&nbsp;부족합니다	unkown error	2013/10/10 15:32	2013/10/10 15:32
+205	-205	알비다,로빈,나미,여제	알비다,로빈,나미,여제	unkown error	2013/10/10 15:37	2013/10/10 15:37
+206	-206	퀘스트&nbsp;상태가&nbsp;일치하지&nbsp;않습니다	퀘스트&nbsp;상태가&nbsp;일치하지&nbsp;않습니다	unkown error	2013/10/10 15:41	2013/10/10 15:41
+207	-207	퀘스트&nbsp;유형이&nbsp;일치하지&nbsp;않습니다	퀘스트&nbsp;유형이&nbsp;일치하지&nbsp;않습니다	unkown error	2013/10/10 15:41	2013/10/10 15:41
+208	-208	오늘의&nbsp;보상을&nbsp;이미&nbsp;받았습니다.&nbsp;중복&nbsp;수령할&nbsp;수&nbsp;없습니다	오늘의&nbsp;보상을&nbsp;이미&nbsp;받았습니다.&nbsp;중복&nbsp;수령할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 15:45	2013/10/10 15:45
+209	-209	NPC&nbsp;오류	NPC&nbsp;오류	unkown error	2013/10/10 15:48	2013/10/10 15:48
+210	-210	체력이&nbsp;부족합니다	체력이&nbsp;부족합니다	unkown error	2013/10/10 15:51	2013/10/10 15:51
+211	-211	먼저&nbsp;이전&nbsp;난이도를&nbsp;완료하세요	먼저&nbsp;이전&nbsp;난이도를&nbsp;완료하세요	unkown error	2013/10/10 15:54	2013/10/10 15:54
+212	-212	하루에&nbsp;한&nbsp;번만&nbsp;공격할&nbsp;수&nbsp;있습니다	하루에&nbsp;한&nbsp;번만&nbsp;공격할&nbsp;수&nbsp;있습니다	unkown error	2013/10/10 15:56	2013/10/10 15:56
+213	-213	공격하려는&nbsp;대상이&nbsp;존재하지&nbsp;않습니다	공격하려는&nbsp;대상이&nbsp;존재하지&nbsp;않습니다	unkown error	2013/10/10 15:57	2013/10/10 15:57
+214	-214	닌자와&nbsp;사용자&nbsp;정보가&nbsp;일치하지&nbsp;않습니다	닌자와&nbsp;사용자&nbsp;정보가&nbsp;일치하지&nbsp;않습니다	unkown error	2013/10/10 16:03	2013/10/10 16:03
+215	-215	이&nbsp;무기는&nbsp;장착되어&nbsp;있습니다	이&nbsp;무기는&nbsp;장착되어&nbsp;있습니다	unkown error	2013/10/10 16:27	2013/10/10 16:27
+216	-216	무기&nbsp;유형이&nbsp;맞지&nbsp;않아&nbsp;장착할&nbsp;수&nbsp;없습니다	무기&nbsp;유형이&nbsp;맞지&nbsp;않아&nbsp;장착할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 16:29	2013/10/10 16:29
+217	-217	이&nbsp;무기는&nbsp;구매할&nbsp;수&nbsp;없습니다	이&nbsp;무기는&nbsp;구매할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 16:32	2013/10/10 16:32
+218	-218	vipx만&nbsp;이&nbsp;아이템을&nbsp;구매할&nbsp;수&nbsp;있습니다.&nbsp;구매하여&nbsp;vip&nbsp;레벨을&nbsp;올리세요	vipx만&nbsp;이&nbsp;아이템을&nbsp;구매할&nbsp;수&nbsp;있습니다.&nbsp;구매하여&nbsp;vip&nbsp;레벨을&nbsp;올리세요	unkown error	2013/10/10 16:34	2013/10/10 16:34
+219	-219	철이&nbsp;부족합니다	철이&nbsp;부족합니다	unkown error	2013/10/10 16:41	2013/10/10 16:41
+220	-220	파티에&nbsp;닌자가&nbsp;최소&nbsp;1명&nbsp;있어야&nbsp;합니다	파티에&nbsp;닌자가&nbsp;최소&nbsp;1명&nbsp;있어야&nbsp;합니다	unkown error	2013/10/10 16:44	2013/10/10 16:44
+221	-221	닌자가&nbsp;오프라인이거나&nbsp;존재하지&nbsp;않습니다	닌자가&nbsp;오프라인이거나&nbsp;존재하지&nbsp;않습니다	unkown error	2013/10/10 16:51	2013/10/10 16:51
+222	-222	요청이&nbsp;만료되었습니다	요청이&nbsp;만료되었습니다	unkown error	2013/10/10 16:54	2013/10/10 16:54
+223	-223	자신을&nbsp;친구로&nbsp;추가할&nbsp;수&nbsp;없습니다	자신을&nbsp;친구로&nbsp;추가할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 16:56	2013/10/10 16:56
+224	-224	이미&nbsp;추가한&nbsp;친구입니다	이미&nbsp;추가한&nbsp;친구입니다	unkown error	2013/10/10 16:57	2013/10/10 16:57
+225	-225	자원이&nbsp;부족합니다	자원이&nbsp;부족합니다	unkown error	2013/10/10 17:00	2013/10/10 17:00
+226	-226	메시지를&nbsp;보내&nbsp;주셔서&nbsp;감사합니다.&nbsp;고객센터의&nbsp;답변을&nbsp;기다려&nbsp;주세요	메시지를&nbsp;보내&nbsp;주셔서&nbsp;감사합니다.&nbsp;고객센터의&nbsp;답변을&nbsp;기다려&nbsp;주세요	unkown error	2013/10/10 17:02	2013/10/10 17:02
+227	-227	빈&nbsp;메시지는&nbsp;보낼&nbsp;수&nbsp;없습니다	빈&nbsp;메시지는&nbsp;보낼&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:04	2013/10/10 17:04
+228	-228	메시지는&nbsp;200자를&nbsp;넘을&nbsp;수&nbsp;없습니다	메시지는&nbsp;200자를&nbsp;넘을&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:05	2013/10/10 17:05
+229	-229	이&nbsp;영지를&nbsp;잃었습니다	이&nbsp;영지를&nbsp;잃었습니다	unkown error	2013/10/10 17:06	2013/10/10 17:06
+230	-230	영지가&nbsp;존재하지&nbsp;않습니다	영지가&nbsp;존재하지&nbsp;않습니다	unkown error	2013/10/10 17:09	2013/10/10 17:09
+231	-231	자유를&nbsp;되찾았습니다!	자유를&nbsp;되찾았습니다!	unkown error	2013/10/10 17:10	2013/10/10 17:10
+232	-232	쿨타임이&nbsp;끝나지&nbsp;않아&nbsp;식민지에서&nbsp;세금을&nbsp;걷을&nbsp;수&nbsp;없습니다.	쿨타임이&nbsp;끝나지&nbsp;않아&nbsp;식민지에서&nbsp;세금을&nbsp;걷을&nbsp;수&nbsp;없습니다.	unkown error	2013/10/10 17:11	2013/10/10 17:11
+233	-233	이&nbsp;영지에서&nbsp;세금을&nbsp;걷을&nbsp;권한이&nbsp;없습니다	이&nbsp;영지에서&nbsp;세금을&nbsp;걷을&nbsp;권한이&nbsp;없습니다	unkown error	2013/10/10 17:13	2013/10/10 17:13
+234	-234	이미&nbsp;점령됨	이미&nbsp;점령됨	unkown error	2013/10/10 17:15	2013/10/10 17:15
+235	-235	자신을&nbsp;공격할&nbsp;수&nbsp;없습니다!	자신을&nbsp;공격할&nbsp;수&nbsp;없습니다!	unkown error	2013/10/10 17:21	2013/10/10 17:21
+236	-236	점령당했습니다.	점령당했습니다.	unkown error	2013/10/10 17:22	2013/10/10 17:22
+237	-237	자신을&nbsp;약탈할&nbsp;수&nbsp;없습니다	자신을&nbsp;약탈할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:23	2013/10/10 17:23
+238	-238	친구&nbsp;사이이므로&nbsp;점령할&nbsp;수&nbsp;없습니다	친구&nbsp;사이이므로&nbsp;점령할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:25	2013/10/10 17:25
+239	-239	친구가&nbsp;아니므로&nbsp;도울&nbsp;수&nbsp;없습니다	친구가&nbsp;아니므로&nbsp;도울&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:25	2013/10/10 17:25
+240	-240	친구&nbsp;사이이므로&nbsp;약탈할&nbsp;수&nbsp;없습니다	친구&nbsp;사이이므로&nbsp;약탈할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:27	2013/10/10 17:27
+241	-241	영지가&nbsp;없습니다	영지가&nbsp;없습니다	unkown error	2013/10/10 17:28	2013/10/10 17:28
+242	-242	영지를&nbsp;잃었습니다	영지를&nbsp;잃었습니다	unkown error	2013/10/10 17:29	2013/10/10 17:29
+243	-243	캐릭터가 정지되었습니다. 자세한 내용은 고객센터에 문의하세요	캐릭터가 정지되었습니다. 자세한 내용은 고객센터에 문의하세요	unkown error	2013/10/10 17:31	2013/10/10 17:31
+244	-244	의협령이 부족합니다	의협령이 부족합니다	unkown error	2013/10/10 17:38	2013/10/10 17:38
+245	-245	지금은&nbsp;골드를&nbsp;생산할&nbsp;수&nbsp;없습니다	지금은&nbsp;골드를&nbsp;생산할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:40	2013/10/10 17:40
+246	-246	이&nbsp;샤먼은&nbsp;교환할&nbsp;수&nbsp;없습니다	이&nbsp;샤먼은&nbsp;교환할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:50	2013/10/10 17:50
+247	-247	필요한&nbsp;조각이&nbsp;부족합니다	필요한&nbsp;조각이&nbsp;부족합니다	unkown error	2013/10/10 17:50	2013/10/10 17:50
+248	-248	샤먼&nbsp;가방이&nbsp;가득&nbsp;찼습니다	샤먼&nbsp;가방이&nbsp;가득&nbsp;찼습니다	unkown error	2013/10/10 17:58	2013/10/10 17:58
+249	-249	이&nbsp;아이템은&nbsp;합성에&nbsp;사용할&nbsp;수&nbsp;없습니다	이&nbsp;아이템은&nbsp;합성에&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 17:58	2013/10/10 17:58
+250	-250	합성하려면&nbsp;x이(가)&nbsp;필요합니다	합성하려면&nbsp;x이(가)&nbsp;필요합니다	unkown error	2013/10/10 18:05	2013/10/10 18:05
+251	-251	아이템&nbsp;수량은&nbsp;0보다&nbsp;작을&nbsp;수&nbsp;없습니다	아이템&nbsp;수량은&nbsp;0보다&nbsp;작을&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 18:08	2013/10/10 18:08
+252	-252	아이템&nbsp;유형이&nbsp;일치하지&nbsp;않습니다	아이템&nbsp;유형이&nbsp;일치하지&nbsp;않습니다	unkown error	2013/10/10 18:14	2013/10/10 18:14
+253	-253	이&nbsp;닌자는&nbsp;최대&nbsp;레벨에&nbsp;도달하여&nbsp;레벨업할&nbsp;수&nbsp;없습니다	이&nbsp;닌자는&nbsp;최대&nbsp;레벨에&nbsp;도달하여&nbsp;레벨업할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 18:16	2013/10/10 18:16
+254	-254	구매&nbsp;수량은&nbsp;0보다&nbsp;커야&nbsp;합니다	구매&nbsp;수량은&nbsp;0보다&nbsp;커야&nbsp;합니다	unkown error	2013/10/10 19:09	2013/10/10 19:09
+255	-255	이&nbsp;아이템은&nbsp;구매할&nbsp;수&nbsp;없습니다	이&nbsp;아이템은&nbsp;구매할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 19:10	2013/10/10 19:10
+256	-256	명성이&nbsp;부족합니다	명성이&nbsp;부족합니다	unkown error	2013/10/10 19:12	2013/10/10 19:12
+257	-257	판매&nbsp;수량은&nbsp;0보다&nbsp;작을&nbsp;수&nbsp;없습니다	판매&nbsp;수량은&nbsp;0보다&nbsp;작을&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 19:15	2013/10/10 19:15
+258	-258	이미&nbsp;사용&nbsp;중인&nbsp;사용자명입니다	이미&nbsp;사용&nbsp;중인&nbsp;사용자명입니다	unkown error	2013/10/10 19:16	2013/10/10 19:17
+259	-259	이미&nbsp;사용&nbsp;중인&nbsp;캐릭터명입니다	이미&nbsp;사용&nbsp;중인&nbsp;캐릭터명입니다	unkown error	2013/10/10 19:17	2013/10/10 19:18
+260	-260	먼저&nbsp;시련&nbsp;슬롯을&nbsp;해제하세요	먼저&nbsp;시련&nbsp;슬롯을&nbsp;해제하세요	unkown error	2013/10/10 19:20	2013/10/10 19:20
+261	-261	전함이&nbsp;이미&nbsp;시련&nbsp;중입니다	전함이&nbsp;이미&nbsp;시련&nbsp;중입니다	unkown error	2013/10/10 19:23	2013/10/10 19:23
+262	-262	훈련할&nbsp;수&nbsp;없습니다.&nbsp;함선&nbsp;레벨은&nbsp;경험치&nbsp;레벨보다&nbsp;x레벨&nbsp;이상&nbsp;높을&nbsp;수&nbsp;없습니다	훈련할&nbsp;수&nbsp;없습니다.&nbsp;함선&nbsp;레벨은&nbsp;경험치&nbsp;레벨보다&nbsp;x레벨&nbsp;이상&nbsp;높을&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 19:29	2013/10/10 19:29
+263	-263	이&nbsp;NPC는&nbsp;소탕할&nbsp;수&nbsp;없습니다	이&nbsp;NPC는&nbsp;소탕할&nbsp;수&nbsp;없습니다	unkown error	2013/10/10 19:45	2013/10/10 19:45
+264	-264	중요&nbsp;아이템이&nbsp;부족합니다	중요&nbsp;아이템이&nbsp;부족합니다	unkown error	2013/10/10 19:48	2013/10/10 19:48
+265	-265	로그인&nbsp;오류	로그인&nbsp;오류	unkown error	2013/10/18 16:14	2013/10/18 16:14
+266	-266	내용에&nbsp;특수&nbsp;문자가&nbsp;있습니다	내용에&nbsp;특수&nbsp;문자가&nbsp;있습니다	unkown error	2013/10/19 14:59	2013/10/19 14:59
+267	-267	부활할&nbsp;필요가&nbsp;없습니다	부활할&nbsp;필요가&nbsp;없습니다	unkown error	2013/10/22 14:38	2013/10/22 14:38
+268	-268	360&nbsp;로그인&nbsp;오류	360&nbsp;로그인&nbsp;오류	unkown error	2013/10/23 14:11	2013/10/23 14:11
+269	-269	uc&nbsp;로그인&nbsp;오류	uc&nbsp;로그인&nbsp;오류	unkown error	2013/10/28 11:47	2013/10/28 11:47
+270	-270	무효한 cdkey입니다	무효한 cdkey입니다	unkown error	2013/11/8 20:57	2013/11/8 20:57
+271	-271	이미&nbsp;사용된&nbsp;cdkey입니다	이미&nbsp;사용된&nbsp;cdkey입니다	unkown error	2013/11/8 21:18	2013/11/8 21:18
+272	-272	보상&nbsp;수령&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다	보상&nbsp;수령&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다	unkown error	2013/11/8 21:29	2013/11/8 21:29
+273	-273	이&nbsp;cdkey는&nbsp;사용&nbsp;중입니다	이&nbsp;cdkey는&nbsp;사용&nbsp;중입니다	unkown error	2013/11/9 16:39	2013/11/9 16:39
+274	-274	해당 상품은 이미 매진되었습니다	해당 상품은 이미 매진되었습니다	unkown error	2013/11/16 10:34	2013/11/16 10:34
+275	-275	구매하지&nbsp;않았습니다	구매하지&nbsp;않았습니다	unkown error	2013/11/18 17:02	2013/11/18 17:02
+276	-276	재고가&nbsp;없어&nbsp;구매할&nbsp;수&nbsp;없습니다	재고가&nbsp;없어&nbsp;구매할&nbsp;수&nbsp;없습니다	unkown error	2013/11/18 20:54	2013/11/18 20:54
+277	-277	pp&nbsp;로그인&nbsp;오류	pp&nbsp;로그인&nbsp;오류	unkown error	2013/11/22 14:23	2013/11/22 14:23
+278	-278	아직&nbsp;닌자가&nbsp;없습니다	아직&nbsp;닌자가&nbsp;없습니다	unkown error	2013/11/22 14:59	2013/11/22 14:59
+279	-279	동기화&nbsp;로그인&nbsp;오류	동기화&nbsp;로그인&nbsp;오류	unkown error	2013/11/29 12:57	2013/11/29 12:57
+280	-280	itools&nbsp;로그인&nbsp;오류	itools&nbsp;로그인&nbsp;오류	unkown error	2013/12/6 17:03	2013/12/6 17:03
+281	-281	이&nbsp;아이템은&nbsp;일괄&nbsp;사용할&nbsp;수&nbsp;없습니다	이&nbsp;아이템은&nbsp;일괄&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2013/12/17 11:01	2013/12/17 11:01
+282	-282	데이터&nbsp;예시를&nbsp;찾을&nbsp;수&nbsp;없습니다	데이터&nbsp;예시를&nbsp;찾을&nbsp;수&nbsp;없습니다	unkown error	2013/12/20 18:06	2013/12/20 18:06
+283	-283	오늘의&nbsp;공격&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	오늘의&nbsp;공격&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2013/12/24 13:54	2013/12/24 13:54
+284	-284	체력이&nbsp;부족합니다	체력이&nbsp;부족합니다	unkown error	2013/12/25 10:14	2013/12/25 10:14
+285	-285	구매액이&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	구매액이&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/1/2 21:50	2014/1/2 21:50
+286	-286	소비액이&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	소비액이&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/1/2 21:50	2014/1/2 21:50
+287	-287	유효하지&nbsp;않은&nbsp;초대&nbsp;코드	유효하지&nbsp;않은&nbsp;초대&nbsp;코드	unkown error	2014/1/3 18:15	2014/1/3 18:15
+288	-288	같은&nbsp;휴대폰의&nbsp;캐릭터에는&nbsp;초대&nbsp;코드를&nbsp;사용할&nbsp;수&nbsp;없습니다	같은&nbsp;휴대폰의&nbsp;캐릭터에는&nbsp;초대&nbsp;코드를&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2014/1/3 18:15	2014/1/3 18:15
+289	-289	같은&nbsp;기기의&nbsp;다른&nbsp;캐릭터에&nbsp;같은&nbsp;초대&nbsp;코드를&nbsp;사용할&nbsp;수&nbsp;없습니다	같은&nbsp;기기의&nbsp;다른&nbsp;캐릭터에&nbsp;같은&nbsp;초대&nbsp;코드를&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2014/1/3 18:15	2014/1/3 18:15
+290	-290	활약도가&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	활약도가&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/1/3 18:15	2014/1/3 18:15
+291	-291	샤먼을&nbsp;찾을&nbsp;수&nbsp;없습니다	샤먼을&nbsp;찾을&nbsp;수&nbsp;없습니다	unkown error	2014/1/8 17:10	2014/1/8 17:10
+292	-292	승리&nbsp;횟수가&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	승리&nbsp;횟수가&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/1/8 20:33	2014/1/8 20:33
+293	-293	소탕할&nbsp;캠페인이&nbsp;없습니다	소탕할&nbsp;캠페인이&nbsp;없습니다	unkown error	2014/1/11 16:05	2014/1/11 16:05
+294	-294	캐릭터&nbsp;로그인&nbsp;중	캐릭터&nbsp;로그인&nbsp;중	unkown error	2014/1/23 21:56	2014/1/23 21:56
+295	-295	월간&nbsp;카드를&nbsp;구매하지&nbsp;않았습니다	월간&nbsp;카드를&nbsp;구매하지&nbsp;않았습니다	unkown error	2014/1/23 21:57	2014/1/23 21:57
+296	-296	월간&nbsp;카드&nbsp;보상은&nbsp;하루에&nbsp;한&nbsp;번만&nbsp;받을&nbsp;수&nbsp;있습니다	월간&nbsp;카드&nbsp;보상은&nbsp;하루에&nbsp;한&nbsp;번만&nbsp;받을&nbsp;수&nbsp;있습니다	unkown error	2014/1/23 21:58	2014/1/23 21:58
+297	-297	이미&nbsp;월간&nbsp;카드를&nbsp;구매했습니다.&nbsp;중복&nbsp;구매하지&nbsp;마세요	이미&nbsp;월간&nbsp;카드를&nbsp;구매했습니다.&nbsp;중복&nbsp;구매하지&nbsp;마세요	unkown error	2014/1/23 21:58	2014/1/23 21:58
+298	-298	진행도가&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	진행도가&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/2/14 17:33	2014/2/14 17:33
+299	-299	새&nbsp;비밀번호는&nbsp;비워&nbsp;둘&nbsp;수&nbsp;없습니다	새&nbsp;비밀번호는&nbsp;비워&nbsp;둘&nbsp;수&nbsp;없습니다	unkown error	2014/2/21 18:58	2014/2/21 18:58
+300	-300	두&nbsp;번&nbsp;입력한&nbsp;비밀번호가&nbsp;일치하지&nbsp;않습니다	두&nbsp;번&nbsp;입력한&nbsp;비밀번호가&nbsp;일치하지&nbsp;않습니다	unkown error	2014/2/21 18:58	2014/2/21 18:58
+301	-301	이메일&nbsp;형식이&nbsp;올바르지&nbsp;않습니다	이메일&nbsp;형식이&nbsp;올바르지&nbsp;않습니다	unkown error	2014/2/27 19:18	2014/2/27 19:18
+302	-302	보상&nbsp;획득	보상&nbsp;획득	unkown error	2014/3/2 18:08	2014/3/2 18:08
+303	-303	별이&nbsp;부족합니다	별이&nbsp;부족합니다	unkown error	2014/3/2 18:33	2014/3/2 18:33
+304	-304	레벨이&nbsp;부족하여&nbsp;공격할&nbsp;수&nbsp;없습니다	레벨이&nbsp;부족하여&nbsp;공격할&nbsp;수&nbsp;없습니다	unkown error	2014/3/3 17:27	2014/3/3 17:27
+305	-305	아직&nbsp;전투에서&nbsp;나가지&nbsp;않았습니다	아직&nbsp;전투에서&nbsp;나가지&nbsp;않았습니다	unkown error	2014/3/4 16:21	2014/3/4 16:21
+306	-306	전투&nbsp;데이터&nbsp;오류	전투&nbsp;데이터&nbsp;오류	unkown error	2014/3/5 13:15	2014/3/5 13:15
+307	-307	같은&nbsp;닌자는&nbsp;동시에&nbsp;출전할&nbsp;수&nbsp;없습니다	같은&nbsp;닌자는&nbsp;동시에&nbsp;출전할&nbsp;수&nbsp;없습니다	unkown error	2014/3/5 19:58	2014/3/5 19:58
+308	-308	주인공&nbsp;레벨을&nbsp;초과할&nbsp;수&nbsp;없습니다	주인공&nbsp;레벨을&nbsp;초과할&nbsp;수&nbsp;없습니다	unkown error	2014/3/7 16:15	2014/3/7 16:15
+309	-309	레벨이&nbsp;부족합니다	레벨이&nbsp;부족합니다	unkown error	2014/3/7 18:48	2014/3/7 18:48
+310	-310	원한이&nbsp;부족합니다	원한이&nbsp;부족합니다	unkown error	2014/3/7 23:58	2014/3/7 23:58
+311	-311	이&nbsp;아이템은&nbsp;판매할&nbsp;수&nbsp;없습니다	이&nbsp;아이템은&nbsp;판매할&nbsp;수&nbsp;없습니다	unkown error	2014/3/12 18:01	2014/3/12 18:01
+312	-312	체력이&nbsp;부족합니다	체력이&nbsp;부족합니다	unkown error	2014/3/13 18:19	2014/3/13 18:19
+313	-313	대상의&nbsp;조각이&nbsp;부족하여&nbsp;훔칠&nbsp;수&nbsp;없습니다	대상의&nbsp;조각이&nbsp;부족하여&nbsp;훔칠&nbsp;수&nbsp;없습니다	unkown error	2014/3/13 18:38	2014/3/13 18:38
+314	-314	조각이&nbsp;부족하여&nbsp;합성할&nbsp;수&nbsp;없습니다	조각이&nbsp;부족하여&nbsp;합성할&nbsp;수&nbsp;없습니다	unkown error	2014/3/13 22:39	2014/3/13 22:39
+315	-315	일수가&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	일수가&nbsp;부족하여&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/3/14 19:49	2014/3/14 19:49
+316	-316	식사&nbsp;시간이&nbsp;아직&nbsp;되지&nbsp;않았습니다	식사&nbsp;시간이&nbsp;아직&nbsp;되지&nbsp;않았습니다	unkown error	2014/3/14 20:40	2014/3/14 20:40
+317	-317	이벤트가&nbsp;종료되었습니다.&nbsp;다음&nbsp;회차에&nbsp;참여하세요.	이벤트가&nbsp;종료되었습니다.&nbsp;다음&nbsp;회차에&nbsp;참여하세요.	unkown error	2014/3/16 12:11	2014/3/16 12:11
+318	-318	무료&nbsp;시간&nbsp;종료	무료&nbsp;시간&nbsp;종료	unkown error	2014/3/16 16:07	2014/3/16 16:07
+319	-319	이벤트가&nbsp;끝나지&nbsp;않아&nbsp;받을&nbsp;수&nbsp;없습니다	이벤트가&nbsp;끝나지&nbsp;않아&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/3/16 20:28	2014/3/16 20:28
+320	-320	이미&nbsp;교환했습니다	이미&nbsp;교환했습니다	unkown error	2014/3/17 18:57	2014/3/17 18:57
+321	-321	상품을&nbsp;찾을&nbsp;수&nbsp;없습니다	상품을&nbsp;찾을&nbsp;수&nbsp;없습니다	unkown error	2014/3/17 18:58	2014/3/17 18:58
+322	-322	몬스터&nbsp;혼이&nbsp;부족합니다	몬스터&nbsp;혼이&nbsp;부족합니다	unkown error	2014/3/17 19:07	2014/3/17 19:07
+323	-323	보물&nbsp;유형&nbsp;오류	보물&nbsp;유형&nbsp;오류	unkown error	2014/3/17 21:42	2014/3/17 21:42
+324	-324	잘못된&nbsp;보물	잘못된&nbsp;보물	unkown error	2014/3/18 0:04	2014/3/18 0:04
+325	-325	진화한&nbsp;닌자는&nbsp;분해할&nbsp;수&nbsp;없습니다	진화한&nbsp;닌자는&nbsp;분해할&nbsp;수&nbsp;없습니다	unkown error	2014/3/18 20:45	2014/3/18 20:45
+326	-326	4성&nbsp;미만&nbsp;닌자는&nbsp;분해할&nbsp;수&nbsp;없습니다	4성&nbsp;미만&nbsp;닌자는&nbsp;분해할&nbsp;수&nbsp;없습니다	unkown error	2014/3/18 21:01	2014/3/18 21:02
+327	-327	오늘의&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	오늘의&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2014/3/19 11:51	2014/3/19 11:51
+328	-328	지금&nbsp;받을&nbsp;보상이&nbsp;없습니다	지금&nbsp;받을&nbsp;보상이&nbsp;없습니다	unkown error	2014/3/19 14:26	2014/3/19 14:26
+329	-329	오늘은&nbsp;이미&nbsp;선물을&nbsp;보냈습니다	오늘은&nbsp;이미&nbsp;선물을&nbsp;보냈습니다	unkown error	2014/3/21 2:17	2014/3/21 2:17
+330	-330	친구&nbsp;수&nbsp;한도에&nbsp;도달했습니다	친구&nbsp;수&nbsp;한도에&nbsp;도달했습니다	unkown error	2014/3/21 3:30	2014/3/21 3:30
+331	-331	체력이&nbsp;가득&nbsp;차서&nbsp;받을&nbsp;수&nbsp;없습니다	체력이&nbsp;가득&nbsp;차서&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/3/21 12:20	2014/3/21 12:20
+332	-332	오늘의&nbsp;체력&nbsp;수령&nbsp;횟수가&nbsp;한도에&nbsp;도달하여&nbsp;받을&nbsp;수&nbsp;없습니다	오늘의&nbsp;체력&nbsp;수령&nbsp;횟수가&nbsp;한도에&nbsp;도달하여&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2014/3/21 12:24	2014/3/21 12:24
+333	-333	선물&nbsp;지급&nbsp;중이므로&nbsp;도전할&nbsp;수&nbsp;없습니다	선물&nbsp;지급&nbsp;중이므로&nbsp;도전할&nbsp;수&nbsp;없습니다	unkown error	2014/3/31 15:27	2014/3/31 15:27
+334	-334	이&nbsp;아이템의&nbsp;교환&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	이&nbsp;아이템의&nbsp;교환&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2014/3/31 21:35	2014/3/31 21:35
+335	-335	보상&nbsp;데이터&nbsp;오류	보상&nbsp;데이터&nbsp;오류	unkown error	2014/4/2 10:38	2014/4/2 10:38
+336	-336	아직&nbsp;열리지&nbsp;않음	아직&nbsp;열리지&nbsp;않음	unkown error	2014/4/3 19:50	2014/4/3 19:51
+337	-337	캠페인&nbsp;별이&nbsp;부족하여&nbsp;점등할&nbsp;수&nbsp;없습니다	캠페인&nbsp;별이&nbsp;부족하여&nbsp;점등할&nbsp;수&nbsp;없습니다	unkown error	2014/4/3 19:58	2014/4/3 19:58
+338	-338	5성&nbsp;미만&nbsp;보물은&nbsp;분해할&nbsp;수&nbsp;없습니다	5성&nbsp;미만&nbsp;보물은&nbsp;분해할&nbsp;수&nbsp;없습니다	unkown error	2014/4/9 20:41	2014/4/9 20:41
+339	-339	장착한&nbsp;보물은&nbsp;분해할&nbsp;수&nbsp;없습니다	장착한&nbsp;보물은&nbsp;분해할&nbsp;수&nbsp;없습니다	unkown error	2014/4/9 20:48	2014/4/9 20:48
+340	-340	연금술&nbsp;아이템이&nbsp;부족합니다	연금술&nbsp;아이템이&nbsp;부족합니다	unkown error	2014/4/10 15:31	2014/4/10 15:31
+341	-341	연금술&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다	연금술&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다	unkown error	2014/4/10 15:42	2014/4/10 15:42
+342	-342	이&nbsp;보물은&nbsp;연금술에&nbsp;사용할&nbsp;수&nbsp;없습니다	이&nbsp;보물은&nbsp;연금술에&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2014/4/10 16:15	2014/4/10 16:15
+343	-343	연금술서가&nbsp;부족합니다	연금술서가&nbsp;부족합니다	unkown error	2014/4/10 23:51	2014/4/10 23:51
+344	-344	이&nbsp;무기는&nbsp;연금술에&nbsp;사용할&nbsp;수&nbsp;없습니다	이&nbsp;무기는&nbsp;연금술에&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2014/4/11 21:23	2014/4/11 21:23
+345	-345	강화한&nbsp;적&nbsp;없는&nbsp;보물은&nbsp;연금술에&nbsp;사용할&nbsp;수&nbsp;없습니다	강화한&nbsp;적&nbsp;없는&nbsp;보물은&nbsp;연금술에&nbsp;사용할&nbsp;수&nbsp;없습니다	unkown error	2014/4/11 21:37	2014/4/11 21:37
+346	-346	빠른&nbsp;로그인&nbsp;오류	빠른&nbsp;로그인&nbsp;오류	unkown error	2014/4/14 16:41	2014/4/14 16:41
+347	-347	오늘의&nbsp;새로고침&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다.&nbsp;VIP&nbsp;레벨을&nbsp;올리면&nbsp;한도가&nbsp;늘어납니다.	오늘의&nbsp;새로고침&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다.&nbsp;VIP&nbsp;레벨을&nbsp;올리면&nbsp;한도가&nbsp;늘어납니다.	unkown error	2014/4/16 11:42	2014/4/16 11:42
+348	-348	닌자&nbsp;데이터&nbsp;오류	닌자&nbsp;데이터&nbsp;오류	unkown error	2014/4/16 20:25	2014/4/16 20:25
+349	-349	무기&nbsp;데이터&nbsp;오류	무기&nbsp;데이터&nbsp;오류	unkown error	2014/4/16 22:12	2014/4/16 22:12
+350	-350	성장&nbsp;플랜을&nbsp;구매하지&nbsp;않았습니다	성장&nbsp;플랜을&nbsp;구매하지&nbsp;않았습니다	unkown error	2014/4/21 15:47	2014/4/21 15:47
+351	-351	PP&nbsp;로그인이&nbsp;만료되었습니다.&nbsp;다시&nbsp;로그인하세요	PP&nbsp;로그인이&nbsp;만료되었습니다.&nbsp;다시&nbsp;로그인하세요	unkown error	2014/4/21 15:47	2014/4/21 15:47
+352	-352	격려&nbsp;카운트다운&nbsp;중	격려&nbsp;카운트다운&nbsp;중	unkown error	2014/4/25 22:46	2014/4/25 22:46
+353	-353	오늘의&nbsp;발굴&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	오늘의&nbsp;발굴&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2014/5/5 14:28	2014/5/5 14:28
+354	-354	월요일~토요일&nbsp;8:00-23:00에&nbsp;상대를&nbsp;새로고침하세요	월요일~토요일&nbsp;8:00-23:00에&nbsp;상대를&nbsp;새로고침하세요	unkown error	2014/5/5 14:28	2014/5/5 14:28
+355	-355	월요일~토요일&nbsp;8:00-23:00에&nbsp;도전하세요	월요일~토요일&nbsp;8:00-23:00에&nbsp;도전하세요	unkown error	2014/5/5 14:28	2014/5/5 14:28
+356	-356	월요일~토요일&nbsp;8:00-23:01에&nbsp;복수하세요	월요일~토요일&nbsp;8:00-23:01에&nbsp;복수하세요	unkown error	2014/5/5 14:28	2014/5/5 14:28
+357	-357	약관&nbsp;형식&nbsp;오류	약관&nbsp;형식&nbsp;오류	unkown error	2014/5/5 14:28	2014/5/5 14:28
+358	-358	격려&nbsp;레벨이&nbsp;상한에&nbsp;도달했습니다	격려&nbsp;레벨이&nbsp;상한에&nbsp;도달했습니다	unkown error	2014/5/5 14:28	2014/5/5 14:28
+359	-359	소탕&nbsp;중이므로&nbsp;전투할&nbsp;수&nbsp;없습니다	소탕&nbsp;중이므로&nbsp;전투할&nbsp;수&nbsp;없습니다	unkown error	2014/5/27 11:17	2014/5/27 11:17
+360	-360	소탕&nbsp;중이므로&nbsp;초기화할&nbsp;수&nbsp;없습니다	소탕&nbsp;중이므로&nbsp;초기화할&nbsp;수&nbsp;없습니다	unkown error	2014/5/27 11:17	2014/5/27 11:17
+361	-361	이미&nbsp;이&nbsp;조각을&nbsp;보유하고&nbsp;있어&nbsp;훔칠&nbsp;수&nbsp;없습니다	이미&nbsp;이&nbsp;조각을&nbsp;보유하고&nbsp;있어&nbsp;훔칠&nbsp;수&nbsp;없습니다	unkown error	2014/5/27 11:17	2014/5/27 11:17
+362	-362	서버&nbsp;이름이&nbsp;모두&nbsp;사용되었습니다.&nbsp;이름을&nbsp;직접&nbsp;입력하세요	서버&nbsp;이름이&nbsp;모두&nbsp;사용되었습니다.&nbsp;이름을&nbsp;직접&nbsp;입력하세요	unkown error	2014/5/27 11:17	2014/5/27 11:17
+363	-363	닉네임은&nbsp;비워&nbsp;둘&nbsp;수&nbsp;없습니다	닉네임은&nbsp;비워&nbsp;둘&nbsp;수&nbsp;없습니다	unkown error	2014/5/27 11:17	2014/5/27 11:17
+364	-364	닉네임에&nbsp;금지된&nbsp;문자가&nbsp;포함되어&nbsp;있습니다	닉네임에&nbsp;금지된&nbsp;문자가&nbsp;포함되어&nbsp;있습니다	unkown error	2014/5/27 11:17	2014/5/27 11:17
+365	-365	아직&nbsp;남은&nbsp;횟수가&nbsp;있어&nbsp;구매할&nbsp;수&nbsp;없습니다	아직&nbsp;남은&nbsp;횟수가&nbsp;있어&nbsp;구매할&nbsp;수&nbsp;없습니다	unkown error	2014/5/5 14:28	2014/5/5 14:28
+366	-366	최대&nbsp;구매&nbsp;횟수를&nbsp;초과했습니다.&nbsp;vip&nbsp;레벨을&nbsp;올리세요	최대&nbsp;구매&nbsp;횟수를&nbsp;초과했습니다.&nbsp;vip&nbsp;레벨을&nbsp;올리세요	unkown error	2014/5/27 11:17	2014/5/27 11:17
+367	-367	이미&nbsp;사용&nbsp;중인&nbsp;이름입니다.&nbsp;다른&nbsp;이름을&nbsp;사용하세요	이미&nbsp;사용&nbsp;중인&nbsp;이름입니다.&nbsp;다른&nbsp;이름을&nbsp;사용하세요	unkown error	2014/7/2 17:32	2014/7/2 17:32
+368	-368	이미&nbsp;길드에&nbsp;소속되어&nbsp;있습니다.&nbsp;길드를&nbsp;탈퇴한&nbsp;후&nbsp;새로&nbsp;창설하세요	이미&nbsp;길드에&nbsp;소속되어&nbsp;있습니다.&nbsp;길드를&nbsp;탈퇴한&nbsp;후&nbsp;새로&nbsp;창설하세요	unkown error	2014/7/2 20:05	2014/7/2 20:05
+369	-369	이름은&nbsp;비워&nbsp;둘&nbsp;수&nbsp;없습니다	이름은&nbsp;비워&nbsp;둘&nbsp;수&nbsp;없습니다	unkown error	2014/7/2 20:05	2014/7/2 20:05
+370	-370	중복&nbsp;제출하지&nbsp;마세요	중복&nbsp;제출하지&nbsp;마세요	unkown error	2014/7/2 22:57	2014/7/2 22:57
+371	-371	진행할&nbsp;권한이&nbsp;없습니다	진행할&nbsp;권한이&nbsp;없습니다	unkown error	2014/7/3 10:22	2014/7/3 10:22
+372	-372	비밀번호&nbsp;변경&nbsp;실패	비밀번호&nbsp;변경&nbsp;실패	unkown error	2014/7/3 10:56	2014/7/3 10:56
+373	-373	비밀번호&nbsp;형식이&nbsp;올바르지&nbsp;않습니다	비밀번호&nbsp;형식이&nbsp;올바르지&nbsp;않습니다	unkown error	2014/7/3 11:12	2014/7/3 11:12
+374	-374	내용은&nbsp;비워&nbsp;둘&nbsp;수&nbsp;없습니다	내용은&nbsp;비워&nbsp;둘&nbsp;수&nbsp;없습니다	unkown error	2014/7/3 11:59	2014/7/3 11:59
+375	-375	내용이&nbsp;제한을&nbsp;초과했습니다.&nbsp;줄여&nbsp;주세요	내용이&nbsp;제한을&nbsp;초과했습니다.&nbsp;줄여&nbsp;주세요	unkown error	2014/7/3 12:04	2014/7/3 12:04
+376	-376	길드가&nbsp;존재하지&nbsp;않거나&nbsp;해산되었습니다	길드가&nbsp;존재하지&nbsp;않거나&nbsp;해산되었습니다	unkown error	2014/7/3 15:42	2014/7/3 15:42
+377	-377	길드&nbsp;건설&nbsp;쿨타임&nbsp;중	길드&nbsp;건설&nbsp;쿨타임&nbsp;중	unkown error	2014/7/3 16:18	2014/7/3 16:18
+378	-378	잘못된 비밀번호	잘못된 비밀번호	unkown error	2014/7/3 18:18	2014/7/3 18:18
+379	-379	멤버&nbsp;수가&nbsp;한도에&nbsp;도달했습니다	멤버&nbsp;수가&nbsp;한도에&nbsp;도달했습니다	unkown error	2014/7/4 22:52	2014/7/4 22:52
+380	-380	오늘&nbsp;이미&nbsp;길드를&nbsp;창설했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	오늘&nbsp;이미&nbsp;길드를&nbsp;창설했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	unkown error	2014/7/5 15:05	2014/7/5 15:05
+381	-381	부길드장&nbsp;수가&nbsp;한도에&nbsp;도달했습니다	부길드장&nbsp;수가&nbsp;한도에&nbsp;도달했습니다	unkown error	2014/7/5 15:52	2014/7/5 15:52
+382	-382	해당&nbsp;사용자는&nbsp;이미&nbsp;길드에&nbsp;소속되어&nbsp;있습니다	해당&nbsp;사용자는&nbsp;이미&nbsp;길드에&nbsp;소속되어&nbsp;있습니다	unkown error	2014/7/5 16:14	2014/7/5 16:14
+383	-383	조건을&nbsp;충족하지&nbsp;않았습니다	조건을&nbsp;충족하지&nbsp;않았습니다	unkown error	2014/7/6 1:13	2014/7/6 1:13
+384	-384	오늘의&nbsp;결투&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	오늘의&nbsp;결투&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	unkown error	2014/7/6 1:22	2014/7/6 1:22
+385	-385	추방되었습니다	추방되었습니다	unkown error	2014/7/7 10:33	2014/7/7 10:33
+386	-386	보상&nbsp;획득	보상&nbsp;획득	unkown error	2014/7/7 15:58	2014/7/7 15:58
+387	-387	남은&nbsp;공헌도가&nbsp;부족하여&nbsp;교환할&nbsp;수&nbsp;없습니다	남은&nbsp;공헌도가&nbsp;부족하여&nbsp;교환할&nbsp;수&nbsp;없습니다	unkown error	2014/7/7 16:23	2014/7/7 16:23
+388	-388	일시적으로&nbsp;플레이할&nbsp;수&nbsp;없습니다	일시적으로&nbsp;플레이할&nbsp;수&nbsp;없습니다	unkown error	2014/7/7 18:25	2014/7/7 18:25
+389	-389	모든&nbsp;사람은&nbsp;이&nbsp;상품을&nbsp;하루에&nbsp;한&nbsp;번&nbsp;교환할&nbsp;수&nbsp;있습니다	모든&nbsp;사람은&nbsp;이&nbsp;상품을&nbsp;하루에&nbsp;한&nbsp;번&nbsp;교환할&nbsp;수&nbsp;있습니다	unkown error	2014/7/8 14:23	2014/7/8 14:23
+390	-390	공헌도가&nbsp;부족하여&nbsp;레벨업할&nbsp;수&nbsp;없습니다	공헌도가&nbsp;부족하여&nbsp;레벨업할&nbsp;수&nbsp;없습니다	unkown error	2014/7/11 0:44	2014/7/11 0:45
+391	-391	대전당&nbsp;레벨이&nbsp;부족합니다.&nbsp;대전당&nbsp;레벨을&nbsp;올리세요	대전당&nbsp;레벨이&nbsp;부족합니다.&nbsp;대전당&nbsp;레벨을&nbsp;올리세요	unkown error	2014/7/11 0:46	2014/7/11 0:46
+392	-392	상점&nbsp;레벨이&nbsp;부족하여&nbsp;교환할&nbsp;수&nbsp;없습니다	상점&nbsp;레벨이&nbsp;부족하여&nbsp;교환할&nbsp;수&nbsp;없습니다	unkown error	2014/7/13 0:05	2014/7/13 0:05
+393	-393	신청한&nbsp;길드&nbsp;수가&nbsp;한도에&nbsp;도달했습니다	신청한&nbsp;길드&nbsp;수가&nbsp;한도에&nbsp;도달했습니다	unkown error	2014/7/2 17:32	2014/7/2 17:32
+394	-394	팀원&nbsp;수가&nbsp;가득&nbsp;찼습니다	팀원&nbsp;수가&nbsp;가득&nbsp;찼습니다	unkown error	2014/7/12 14:39	2014/7/12 14:39
+395	-395	파티가 해산됐습니다	파티가 해산됐습니다	unkown error	2014/7/12 15:08	2014/7/12 15:08
+396	-396	팀원&nbsp;수가&nbsp;부족합니다	팀원&nbsp;수가&nbsp;부족합니다	unkown error	2014/7/12 16:37	2014/7/12 16:37
+397	-397	오늘의&nbsp;공격&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	오늘의&nbsp;공격&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;내일&nbsp;다시&nbsp;오세요	unkown error	2014/7/12 19:07	2014/7/12 19:07
+398	-398	자신의&nbsp;팀에&nbsp;참가할&nbsp;수&nbsp;없습니다	자신의&nbsp;팀에&nbsp;참가할&nbsp;수&nbsp;없습니다	unkown error	2014/7/17 15:41	2014/7/17 15:41
+399	-399	길드장과&nbsp;부길드장만&nbsp;참여할&nbsp;수&nbsp;있습니다	길드장과&nbsp;부길드장만&nbsp;참여할&nbsp;수&nbsp;있습니다	unkown error	2014/7/23 10:15	2014/7/23 10:15
+400	-400	이미&nbsp;해당&nbsp;지역에&nbsp;참여했습니다	이미&nbsp;해당&nbsp;지역에&nbsp;참여했습니다	unkown error	2014/7/23 10:20	2014/7/23 10:20
+401	-401	길드&nbsp;레벨이&nbsp;부족하여&nbsp;공격할&nbsp;수&nbsp;없습니다	길드&nbsp;레벨이&nbsp;부족하여&nbsp;공격할&nbsp;수&nbsp;없습니다	unkown error	2014/7/23 12:13	2014/7/23 12:13
+402	-402	공격할&nbsp;성의&nbsp;수가&nbsp;한도에&nbsp;도달했습니다	공격할&nbsp;성의&nbsp;수가&nbsp;한도에&nbsp;도달했습니다	unkown error	2014/7/21 18:14	2014/7/21 18:14
+403	-403	일시적으로&nbsp;전장에&nbsp;들어갈&nbsp;수&nbsp;없습니다	일시적으로&nbsp;전장에&nbsp;들어갈&nbsp;수&nbsp;없습니다	unkown error	2014/7/23 20:38	2014/7/23 20:38
+404	-404	길드가&nbsp;전투에&nbsp;참가하지&nbsp;않아&nbsp;전장에&nbsp;들어갈&nbsp;수&nbsp;없습니다	길드가&nbsp;전투에&nbsp;참가하지&nbsp;않아&nbsp;전장에&nbsp;들어갈&nbsp;수&nbsp;없습니다	unkown error	2014/7/23 21:15	2014/7/23 21:15
+405	-405	연승&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다	연승&nbsp;횟수가&nbsp;한도에&nbsp;도달했습니다	unkown error	2014/7/22 20:11	2014/7/22 20:11
+406	-406	시간이&nbsp;끝나지&nbsp;않았습니다	시간이&nbsp;끝나지&nbsp;않았습니다	unkown error	2014/7/22 20:13	2014/7/22 20:13
+407	-407	전투&nbsp;중이므로&nbsp;나갈&nbsp;수&nbsp;없습니다	전투&nbsp;중이므로&nbsp;나갈&nbsp;수&nbsp;없습니다	unkown error	2014/8/6 12:50	2014/8/6 12:50
+408	-408	길드&nbsp;이벤트가&nbsp;진행&nbsp;중입니다.&nbsp;이벤트가&nbsp;끝난&nbsp;후&nbsp;해산하세요	길드&nbsp;이벤트가&nbsp;진행&nbsp;중입니다.&nbsp;이벤트가&nbsp;끝난&nbsp;후&nbsp;해산하세요	unkown error	2014/7/22 20:00	2014/7/22 20:00
+409	-409	길드가&nbsp;이&nbsp;지역을&nbsp;점령하지&nbsp;않았습니다.&nbsp;보상&nbsp;없음	길드가&nbsp;이&nbsp;지역을&nbsp;점령하지&nbsp;않았습니다.&nbsp;보상&nbsp;없음	unkown error	2014/7/23 9:28	2014/7/23 9:28
+410	-410	이미&nbsp;이&nbsp;지역을&nbsp;점령했습니다.&nbsp;참여할&nbsp;필요가&nbsp;없습니다	이미&nbsp;이&nbsp;지역을&nbsp;점령했습니다.&nbsp;참여할&nbsp;필요가&nbsp;없습니다	unkown error	2014/7/23 10:56	2014/7/23 10:56
+411	-411	전투&nbsp;정보를&nbsp;처리&nbsp;중입니다.&nbsp;잠시&nbsp;기다려&nbsp;주세요.	전투&nbsp;정보를&nbsp;처리&nbsp;중입니다.&nbsp;잠시&nbsp;기다려&nbsp;주세요.	unkown error	2014/8/5 20:46	2014/8/5 20:46
+412	-412	신청&nbsp;기간이&nbsp;끝났습니다	신청&nbsp;기간이&nbsp;끝났습니다	unkown error	2014/8/12 21:16	2014/8/12 21:16
+413	-413	세트&nbsp;유형&nbsp;오류	세트&nbsp;유형&nbsp;오류	unkown error	2014/10/10 10:54	2014/10/10 10:55
+414	-414	세트는&nbsp;주인공만&nbsp;착용할&nbsp;수&nbsp;있습니다	세트는&nbsp;주인공만&nbsp;착용할&nbsp;수&nbsp;있습니다	unkown error	2014/10/15 10:44	2014/10/15 10:44
+415	-415	강화한&nbsp;세트는&nbsp;분해할&nbsp;수&nbsp;없습니다	강화한&nbsp;세트는&nbsp;분해할&nbsp;수&nbsp;없습니다	unkown error	2014/10/15 10:43	2014/10/15 10:44
+416	-416	이&nbsp;닌자를&nbsp;획득하지&nbsp;않았습니다.&nbsp;이&nbsp;스킬은&nbsp;당분간&nbsp;배울&nbsp;수&nbsp;없습니다.	이&nbsp;닌자를&nbsp;획득하지&nbsp;않았습니다.&nbsp;이&nbsp;스킬은&nbsp;당분간&nbsp;배울&nbsp;수&nbsp;없습니다.	unkown error	2014/10/21 0:28	2014/10/21 0:28
+417	-417	오늘의&nbsp;플레이&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	오늘의&nbsp;플레이&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2014/10/21 17:54	2014/10/21 17:54
+418	-418	아직&nbsp;배우지&nbsp;않은&nbsp;스킬입니다	아직&nbsp;배우지&nbsp;않은&nbsp;스킬입니다	unkown error	2014/10/22 18:38	2014/10/22 18:38
+419	-419	지금이&nbsp;최적의&nbsp;조합입니다.&nbsp;변경할&nbsp;필요가&nbsp;없습니다	지금이&nbsp;최적의&nbsp;조합입니다.&nbsp;변경할&nbsp;필요가&nbsp;없습니다	unkown error	2014/10/27 8:16	2014/10/27 8:16
+420	-420	스킬이&nbsp;최대&nbsp;레벨에&nbsp;도달했습니다	스킬이&nbsp;최대&nbsp;레벨에&nbsp;도달했습니다	unkown error	2014/10/27 23:32	2014/10/27 23:32
+421	-421	새&nbsp;게임을&nbsp;시작하기&nbsp;전에&nbsp;지난번&nbsp;결과를&nbsp;먼저&nbsp;받으세요	새&nbsp;게임을&nbsp;시작하기&nbsp;전에&nbsp;지난번&nbsp;결과를&nbsp;먼저&nbsp;받으세요	unkown error	2014/10/28 2:02	2014/10/28 2:02
+422	-422	VIP&nbsp;레벨이&nbsp;부족합니다	VIP&nbsp;레벨이&nbsp;부족합니다	unkown error	2014/10/29 23:05	2014/10/29 23:05
+423	-423	이&nbsp;닌자&nbsp;슬롯은&nbsp;해제되었습니다	이&nbsp;닌자&nbsp;슬롯은&nbsp;해제되었습니다	unkown error	2014/10/29 23:05	2014/10/29 23:05
+424	-424	골드&nbsp;50을&nbsp;보유해야&nbsp;한&nbsp;번&nbsp;소환할&nbsp;수&nbsp;있습니다	골드&nbsp;50을&nbsp;보유해야&nbsp;한&nbsp;번&nbsp;소환할&nbsp;수&nbsp;있습니다	unkown error	2014/10/22 18:38	2014/10/22 18:38
+425	-425	골드&nbsp;500을&nbsp;보유해야&nbsp;열&nbsp;번&nbsp;소환할&nbsp;수&nbsp;있습니다	골드&nbsp;500을&nbsp;보유해야&nbsp;열&nbsp;번&nbsp;소환할&nbsp;수&nbsp;있습니다	unkown error	2014/10/27 8:16	2014/10/27 8:16
+426	-426	이&nbsp;기능을&nbsp;사용하려면&nbsp;동전&nbsp;150,000개&nbsp;이상이&nbsp;필요합니다	이&nbsp;기능을&nbsp;사용하려면&nbsp;동전&nbsp;150,000개&nbsp;이상이&nbsp;필요합니다	unkown error	2014/10/27 23:32	2014/10/27 23:32
+427	-427	이&nbsp;기능을&nbsp;사용하려면&nbsp;동전&nbsp;750,000개&nbsp;이상이&nbsp;필요합니다	이&nbsp;기능을&nbsp;사용하려면&nbsp;동전&nbsp;750,000개&nbsp;이상이&nbsp;필요합니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+428	-428	샤먼&nbsp;가방이&nbsp;가득&nbsp;찼습니다	샤먼&nbsp;가방이&nbsp;가득&nbsp;찼습니다	unkown error	2014/10/29 23:05	2014/10/29 23:05
+429	-429	VIP5&nbsp;또는&nbsp;레벨&nbsp;70&nbsp;이상이어야&nbsp;사용할&nbsp;수&nbsp;있습니다!	VIP5&nbsp;또는&nbsp;레벨&nbsp;70&nbsp;이상이어야&nbsp;사용할&nbsp;수&nbsp;있습니다!	unkown error	2014/10/29 23:05	2014/10/29 23:05
+430	-430	현재&nbsp;샤먼보다&nbsp;높아&nbsp;선택하거나&nbsp;흡수할&nbsp;수&nbsp;없습니다!	현재&nbsp;샤먼보다&nbsp;높아&nbsp;선택하거나&nbsp;흡수할&nbsp;수&nbsp;없습니다!	unkown error	2014/10/29 23:05	2014/10/29 23:05
+431	-431	강력한&nbsp;보스가&nbsp;이미&nbsp;나타났으므로&nbsp;소환할&nbsp;필요가&nbsp;없습니다	강력한&nbsp;보스가&nbsp;이미&nbsp;나타났으므로&nbsp;소환할&nbsp;필요가&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+432	-432	사용&nbsp;가능한&nbsp;샤먼이&nbsp;없습니다	사용&nbsp;가능한&nbsp;샤먼이&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+433	-433	이미&nbsp;같은&nbsp;샤먼을&nbsp;장착했습니다	이미&nbsp;같은&nbsp;샤먼을&nbsp;장착했습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+434	-434	이&nbsp;기능을&nbsp;사용하려면&nbsp;동전&nbsp;320,000개&nbsp;이상이&nbsp;필요합니다	이&nbsp;기능을&nbsp;사용하려면&nbsp;동전&nbsp;320,000개&nbsp;이상이&nbsp;필요합니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+435	-435	샤먼&nbsp;레벨&nbsp;최대입니다.&nbsp;캐릭터&nbsp;레벨을&nbsp;올려&nbsp;샤먼&nbsp;레벨&nbsp;상한을&nbsp;올리세요	샤먼&nbsp;레벨&nbsp;최대입니다.&nbsp;캐릭터&nbsp;레벨을&nbsp;올려&nbsp;샤먼&nbsp;레벨&nbsp;상한을&nbsp;올리세요	unkown error	2014/10/28 2:02	2014/10/28 2:02
+436	-436	아직&nbsp;해제되지&nbsp;않았습니다.&nbsp;먼저&nbsp;레벨을&nbsp;올리세요	아직&nbsp;해제되지&nbsp;않았습니다.&nbsp;먼저&nbsp;레벨을&nbsp;올리세요	unkown error	2014/10/28 2:02	2014/10/28 2:02
+437	-437	아이템을&nbsp;사용할&nbsp;수&nbsp;없습니다!	아이템을&nbsp;사용할&nbsp;수&nbsp;없습니다!	unkown error	2014/10/28 2:02	2014/10/28 2:02
+438	-438	사용&nbsp;가능한&nbsp;료&nbsp;구역이&nbsp;없습니다	사용&nbsp;가능한&nbsp;료&nbsp;구역이&nbsp;없습니다	unkown error	2014/10/29 23:05	2014/10/29 23:05
+439	-439	가능한&nbsp;한&nbsp;빨리&nbsp;비어&nbsp;있는&nbsp;료&nbsp;구역을&nbsp;점령하세요	가능한&nbsp;한&nbsp;빨리&nbsp;비어&nbsp;있는&nbsp;료&nbsp;구역을&nbsp;점령하세요	unkown error	2014/10/29 23:05	2014/10/29 23:05
+440	-440	점령한&nbsp;료&nbsp;구역도,&nbsp;지원&nbsp;중인&nbsp;료&nbsp;채굴자도&nbsp;없습니다	점령한&nbsp;료&nbsp;구역도,&nbsp;지원&nbsp;중인&nbsp;료&nbsp;채굴자도&nbsp;없습니다	unkown error	2014/10/29 23:05	2014/10/29 23:05
+441	-441	골드&nbsp;구역을&nbsp;점령하세요	골드&nbsp;구역을&nbsp;점령하세요	unkown error	2014/10/28 2:02	2014/10/28 2:02
+442	-442	이미 채굴 구역을 보유하고 있어 더 이상 지원할 수 없습니다	이미 채굴 구역을 보유하고 있어 더 이상 지원할 수 없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+443	-443	이미&nbsp;료&nbsp;구역을&nbsp;지원했습니다.&nbsp;다시&nbsp;지원할&nbsp;수&nbsp;없습니다	이미&nbsp;료&nbsp;구역을&nbsp;지원했습니다.&nbsp;다시&nbsp;지원할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+444	-444	료&nbsp;구역&nbsp;지원&nbsp;병력이&nbsp;한도에&nbsp;도달했습니다	료&nbsp;구역&nbsp;지원&nbsp;병력이&nbsp;한도에&nbsp;도달했습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+445	-445	점령한&nbsp;료&nbsp;구역이&nbsp;없어&nbsp;지원자를&nbsp;약탈할&nbsp;수&nbsp;없습니다	점령한&nbsp;료&nbsp;구역이&nbsp;없어&nbsp;지원자를&nbsp;약탈할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+446	-446	이&nbsp;료&nbsp;구역의&nbsp;점령자이므로&nbsp;약탈할&nbsp;수&nbsp;없습니다	이&nbsp;료&nbsp;구역의&nbsp;점령자이므로&nbsp;약탈할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+447	-447	점령한&nbsp;료&nbsp;구역이&nbsp;최대입니다.&nbsp;골드&nbsp;구역에서&nbsp;더&nbsp;많은&nbsp;료&nbsp;구역을&nbsp;점령하세요	점령한&nbsp;료&nbsp;구역이&nbsp;최대입니다.&nbsp;골드&nbsp;구역에서&nbsp;더&nbsp;많은&nbsp;료&nbsp;구역을&nbsp;점령하세요	unkown error	2014/10/28 2:02	2014/10/28 2:02
+448	-448	이미&nbsp;골드&nbsp;구역의&nbsp;료&nbsp;구역을&nbsp;점령했습니다	이미&nbsp;골드&nbsp;구역의&nbsp;료&nbsp;구역을&nbsp;점령했습니다	unkown error	2014/10/29 23:05	2014/10/29 23:05
+449	-449	당신의&nbsp;료&nbsp;구역이&nbsp;아니므로&nbsp;점령을&nbsp;연장할&nbsp;수&nbsp;없습니다	당신의&nbsp;료&nbsp;구역이&nbsp;아니므로&nbsp;점령을&nbsp;연장할&nbsp;수&nbsp;없습니다	unkown error	2014/10/29 23:05	2014/10/29 23:05
+450	-450	료&nbsp;구역에&nbsp;점령자가&nbsp;없어&nbsp;지원할&nbsp;수&nbsp;없습니다	료&nbsp;구역에&nbsp;점령자가&nbsp;없어&nbsp;지원할&nbsp;수&nbsp;없습니다	unkown error	2014/10/29 23:05	2014/10/29 23:05
+451	-451	연장&nbsp;횟수가&nbsp;더&nbsp;이상&nbsp;없습니다	연장&nbsp;횟수가&nbsp;더&nbsp;이상&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+452	-452	명예가&nbsp;부족합니다	명예가&nbsp;부족합니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+453	-453	피로도가&nbsp;부족합니다	피로도가&nbsp;부족합니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+454	-454	동전이&nbsp;부족합니다	동전이&nbsp;부족합니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+455	-455	오늘의&nbsp;탐험&nbsp;초기화&nbsp;횟수가&nbsp;더&nbsp;이상&nbsp;없습니다	오늘의&nbsp;탐험&nbsp;초기화&nbsp;횟수가&nbsp;더&nbsp;이상&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+456	-456	현재&nbsp;층의&nbsp;입구에서만&nbsp;자동&nbsp;탐험할&nbsp;수&nbsp;있습니다	현재&nbsp;층의&nbsp;입구에서만&nbsp;자동&nbsp;탐험할&nbsp;수&nbsp;있습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+457	-457	점수&nbsp;또는&nbsp;아이템이&nbsp;부족하여&nbsp;교환할&nbsp;수&nbsp;없습니다	점수&nbsp;또는&nbsp;아이템이&nbsp;부족하여&nbsp;교환할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+458	-458	재료가&nbsp;부족하여&nbsp;합성할&nbsp;수&nbsp;없습니다	재료가&nbsp;부족하여&nbsp;합성할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+459	-459	무기를&nbsp;넣으세요	무기를&nbsp;넣으세요	unkown error	2014/10/28 2:02	2014/10/28 2:02
+460	-460	이동 중…	이동 중…	unkown error	2014/10/28 2:02	2014/10/28 2:02
+461	-461	상대의&nbsp;친구&nbsp;목록이&nbsp;가득&nbsp;차서&nbsp;추가할&nbsp;수&nbsp;없습니다	상대의&nbsp;친구&nbsp;목록이&nbsp;가득&nbsp;차서&nbsp;추가할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+462	-462	등록하지&nbsp;않았거나&nbsp;탈락하여&nbsp;전투&nbsp;기록을&nbsp;업데이트할&nbsp;수&nbsp;없습니다	등록하지&nbsp;않았거나&nbsp;탈락하여&nbsp;전투&nbsp;기록을&nbsp;업데이트할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+463	-463	아직&nbsp;격려&nbsp;시간이&nbsp;아닙니다.&nbsp;다음&nbsp;경기&nbsp;시작&nbsp;전에&nbsp;격려하세요	아직&nbsp;격려&nbsp;시간이&nbsp;아닙니다.&nbsp;다음&nbsp;경기&nbsp;시작&nbsp;전에&nbsp;격려하세요	unkown error	2014/10/28 2:02	2014/10/28 2:02
+464	-464	하루에&nbsp;한&nbsp;번&nbsp;보낼&nbsp;수&nbsp;있습니다	하루에&nbsp;한&nbsp;번&nbsp;보낼&nbsp;수&nbsp;있습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+465	-465	Lv65&nbsp;이후&nbsp;등록할&nbsp;수&nbsp;있습니다	Lv65&nbsp;이후&nbsp;등록할&nbsp;수&nbsp;있습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+466	-466	크로스&nbsp;서버&nbsp;닌자왕이&nbsp;종료되어&nbsp;전투&nbsp;기록을&nbsp;업데이트할&nbsp;수&nbsp;없습니다	크로스&nbsp;서버&nbsp;닌자왕이&nbsp;종료되어&nbsp;전투&nbsp;기록을&nbsp;업데이트할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+467	-467	이번&nbsp;라운드의&nbsp;전투를&nbsp;확인할&nbsp;수&nbsp;없습니다	이번&nbsp;라운드의&nbsp;전투를&nbsp;확인할&nbsp;수&nbsp;없습니다	unkown error	2014/10/28 2:02	2014/10/28 2:02
+468	-468	이미&nbsp;격려했습니다.&nbsp;다음&nbsp;경기&nbsp;시작&nbsp;전에&nbsp;다시&nbsp;격려하세요	이미&nbsp;격려했습니다.&nbsp;다음&nbsp;경기&nbsp;시작&nbsp;전에&nbsp;다시&nbsp;격려하세요	unkown error	2014/10/28 2:02	2014/10/28 2:02
+469	-469	새&nbsp;크로스&nbsp;서버&nbsp;전투를&nbsp;준비&nbsp;중이므로&nbsp;입장할&nbsp;수&nbsp;없습니다…	새&nbsp;크로스&nbsp;서버&nbsp;전투를&nbsp;준비&nbsp;중이므로&nbsp;입장할&nbsp;수&nbsp;없습니다…	unkown error	2014/10/28 2:02	2014/10/28 2:02
+470	-470	팀에&nbsp;있거나&nbsp;전투&nbsp;중인&nbsp;스승은&nbsp;참가할&nbsp;수&nbsp;없습니다	팀에&nbsp;있거나&nbsp;전투&nbsp;중인&nbsp;스승은&nbsp;참가할&nbsp;수&nbsp;없습니다	unkown error	2015/2/11 23:35	2015/2/11 23:35
+471	-471	스승이&nbsp;존재하지&nbsp;않습니다	스승이&nbsp;존재하지&nbsp;않습니다	unkown error	2015/2/11 23:35	2015/2/11 23:35
+472	-472	사용자와&nbsp;스승&nbsp;정보가&nbsp;일치하지&nbsp;않습니다	사용자와&nbsp;스승&nbsp;정보가&nbsp;일치하지&nbsp;않습니다	unkown error	2015/2/11 23:36	2015/2/11 23:36
+473	-473	스킬&nbsp;포인트가&nbsp;부족합니다	스킬&nbsp;포인트가&nbsp;부족합니다	unkown error	2015/2/12 13:58	2015/2/12 13:58
+474	-474	스킬&nbsp;레벨&nbsp;최대	스킬&nbsp;레벨&nbsp;최대	unkown error	2015/2/11 23:36	2015/2/11 23:36
+475	-475	스킬&nbsp;잠금&nbsp;최대	스킬&nbsp;잠금&nbsp;최대	unkown error	2015/2/12 13:58	2015/2/12 13:58
+476	-476	같은&nbsp;유형의&nbsp;스승이&nbsp;이미&nbsp;배치되었습니다	같은&nbsp;유형의&nbsp;스승이&nbsp;이미&nbsp;배치되었습니다	unkown error	2015/2/12 18:15	2015/2/12 18:15
+477	-477	스승의&nbsp;레벨은&nbsp;주인공&nbsp;레벨을&nbsp;초과할&nbsp;수&nbsp;없습니다	스승의&nbsp;레벨은&nbsp;주인공&nbsp;레벨을&nbsp;초과할&nbsp;수&nbsp;없습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+478	-478	전투&nbsp;중인&nbsp;스승은&nbsp;변경하거나&nbsp;해제할&nbsp;수&nbsp;없습니다	전투&nbsp;중인&nbsp;스승은&nbsp;변경하거나&nbsp;해제할&nbsp;수&nbsp;없습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+479	-479	연금술&nbsp;한도에&nbsp;도달했습니다	연금술&nbsp;한도에&nbsp;도달했습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+480	-480	배양액이&nbsp;부족합니다	배양액이&nbsp;부족합니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+481	-481	칩이&nbsp;부족합니다	칩이&nbsp;부족합니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+482	-482	이&nbsp;친구는&nbsp;차단&nbsp;목록에&nbsp;있습니다	이&nbsp;친구는&nbsp;차단&nbsp;목록에&nbsp;있습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+483	-483	업적&nbsp;미달성	업적&nbsp;미달성	unkown error	2015/2/12 20:59	2015/2/12 20:59
+484	-484	전투&nbsp;업적이&nbsp;부족합니다	전투&nbsp;업적이&nbsp;부족합니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+485	-485	보상&nbsp;유형을&nbsp;선택하세요	보상&nbsp;유형을&nbsp;선택하세요	unkown error	2015/2/12 20:59	2015/2/12 20:59
+486	-486	흠,&nbsp;자신을&nbsp;과대평가했군요!&nbsp;상위&nbsp;20위&nbsp;안에&nbsp;들면&nbsp;다시&nbsp;오세요.	흠,&nbsp;자신을&nbsp;과대평가했군요!&nbsp;상위&nbsp;20위&nbsp;안에&nbsp;들면&nbsp;다시&nbsp;오세요.	unkown error	2015/2/12 20:59	2015/2/12 20:59
+487	-487	기습자를 처치했습니다	기습자를 처치했습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+488	-488	오늘의 지원 횟수를 모두 사용했습니다	오늘의 지원 횟수를 모두 사용했습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+489	-489	침략자가&nbsp;패배했거나&nbsp;도망쳤습니다	침략자가&nbsp;패배했거나&nbsp;도망쳤습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+490	-490	꿈&nbsp;깨세요!&nbsp;자신에게&nbsp;메시지를&nbsp;보낼&nbsp;수&nbsp;없습니다	꿈&nbsp;깨세요!&nbsp;자신에게&nbsp;메시지를&nbsp;보낼&nbsp;수&nbsp;없습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+491	-491	한&nbsp;번에&nbsp;구매할&nbsp;수&nbsp;있는&nbsp;수량은&nbsp;10000을&nbsp;넘을&nbsp;수&nbsp;없습니다	한&nbsp;번에&nbsp;구매할&nbsp;수&nbsp;있는&nbsp;수량은&nbsp;10000을&nbsp;넘을&nbsp;수&nbsp;없습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+492	-492	테스트&nbsp;신청&nbsp;인원이&nbsp;가득&nbsp;찼습니다.&nbsp;자세한&nbsp;내용은&nbsp;공식&nbsp;QQ&nbsp;그룹에&nbsp;가입하세요:&nbsp;463573137!	테스트&nbsp;신청&nbsp;인원이&nbsp;가득&nbsp;찼습니다.&nbsp;자세한&nbsp;내용은&nbsp;공식&nbsp;QQ&nbsp;그룹에&nbsp;가입하세요:&nbsp;463573137!	unkown error	2015/2/12 20:59	2015/2/12 20:59
+493	-493	이&nbsp;계정은&nbsp;다른&nbsp;곳에서&nbsp;로그인되었습니다.&nbsp;다시&nbsp;로그인하세요!	이&nbsp;계정은&nbsp;다른&nbsp;곳에서&nbsp;로그인되었습니다.&nbsp;다시&nbsp;로그인하세요!	unkown error	2015/2/12 20:59	2015/2/12 20:59
+494	-494	칩 레벨이 이미 최대치입니다	칩 레벨이 이미 최대치입니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+495	-495	연장 횟수가 한도에 도달했습니다	연장 횟수가 한도에 도달했습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+496	-496	이미 출전한 닌자는 다시 출전할 수 없습니다	이미 출전한 닌자는 다시 출전할 수 없습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+497	-497	선점 한도에 도달했습니다	선점 한도에 도달했습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+498	-498	현재 건물은 보호 상태입니다	현재 건물은 보호 상태입니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+499	-499	침입자 발견	침입자 발견	unkown error	2015/2/12 20:59	2015/2/12 20:59
+500	-500	침입자 처치	침입자 처치	unkown error	2015/2/12 20:59	2015/2/12 20:59
+501	-501	공훈 랭킹	공훈 랭킹	unkown error	2015/2/12 20:59	2015/2/12 20:59
+502	-502	데미지 랭킹	데미지 랭킹	unkown error	2015/2/12 20:59	2015/2/12 20:59
+503	-503	영토 쟁탈전	영토 쟁탈전	unkown error	2015/2/12 20:59	2015/2/12 20:59
+504	-504	이 닌자는 출전 중이므로 판매할 수 없습니다	이 닌자는 출전 중이므로 판매할 수 없습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+505	-505	이 닌자는 출전 중이므로 사용할 수 없습니다	이 닌자는 출전 중이므로 사용할 수 없습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+506	-506	이 닌자는 출전 중이므로 분해할 수 없습니다	이 닌자는 출전 중이므로 분해할 수 없습니다	unkown error	2015/2/12 20:59	2015/2/12 20:59
+507	-507	이벤트가&nbsp;끝난&nbsp;후에만&nbsp;보상을&nbsp;받을&nbsp;수&nbsp;있습니다	이벤트가&nbsp;끝난&nbsp;후에만&nbsp;보상을&nbsp;받을&nbsp;수&nbsp;있습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+508	-508	구매&nbsp;한도에&nbsp;도달했습니다	구매&nbsp;한도에&nbsp;도달했습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+509	-509	길드장과&nbsp;부길드장만&nbsp;길드&nbsp;정보를&nbsp;변경할&nbsp;수&nbsp;있습니다	길드장과&nbsp;부길드장만&nbsp;길드&nbsp;정보를&nbsp;변경할&nbsp;수&nbsp;있습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+510	-510	길드&nbsp;레벨이&nbsp;너무&nbsp;낮아&nbsp;변경할&nbsp;수&nbsp;없습니다	길드&nbsp;레벨이&nbsp;너무&nbsp;낮아&nbsp;변경할&nbsp;수&nbsp;없습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+511	-511	24시간&nbsp;이내에는&nbsp;다른&nbsp;길드에&nbsp;신청하거나&nbsp;창설할&nbsp;수&nbsp;없습니다	24시간&nbsp;이내에는&nbsp;다른&nbsp;길드에&nbsp;신청하거나&nbsp;창설할&nbsp;수&nbsp;없습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+512	-512	표시할&nbsp;길드&nbsp;정보가&nbsp;없습니다	표시할&nbsp;길드&nbsp;정보가&nbsp;없습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+513	-513	길드장&nbsp;직위를&nbsp;다른&nbsp;길드원에게&nbsp;넘겨야만&nbsp;탈퇴할&nbsp;수&nbsp;있습니다.	길드장&nbsp;직위를&nbsp;다른&nbsp;길드원에게&nbsp;넘겨야만&nbsp;탈퇴할&nbsp;수&nbsp;있습니다.	unkown error	2015/9/23 0:17	2015/9/23 0:18
+514	-514	길드장이&nbsp;7일&nbsp;연속&nbsp;접속하지&nbsp;않으면&nbsp;다른&nbsp;길드원이&nbsp;길드장을&nbsp;해임할&nbsp;수&nbsp;있습니다.	길드장이&nbsp;7일&nbsp;연속&nbsp;접속하지&nbsp;않으면&nbsp;다른&nbsp;길드원이&nbsp;길드장을&nbsp;해임할&nbsp;수&nbsp;있습니다.	unkown error	2015/9/23 0:17	2015/9/23 0:18
+515	-515	오늘의&nbsp;모집&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	오늘의&nbsp;모집&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+516	-516	남은&nbsp;횟수가&nbsp;10회&nbsp;미만이라&nbsp;10연속&nbsp;뽑기를&nbsp;할&nbsp;수&nbsp;없습니다	남은&nbsp;횟수가&nbsp;10회&nbsp;미만이라&nbsp;10연속&nbsp;뽑기를&nbsp;할&nbsp;수&nbsp;없습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+517	-517	행운이&nbsp;부족하여&nbsp;교환할&nbsp;수&nbsp;없습니다	행운이&nbsp;부족하여&nbsp;교환할&nbsp;수&nbsp;없습니다	unkown error	2015/9/23 0:17	2015/9/23 0:18
+518	-518	이&nbsp;서버의&nbsp;접속&nbsp;닌자&nbsp;수가&nbsp;한도에&nbsp;도달했습니다.&nbsp;다른&nbsp;서버에&nbsp;로그인하세요!	이&nbsp;서버의&nbsp;접속&nbsp;닌자&nbsp;수가&nbsp;한도에&nbsp;도달했습니다.&nbsp;다른&nbsp;서버에&nbsp;로그인하세요!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+519	-519	길드전&nbsp;보상	길드전&nbsp;보상	unkown error	2016/1/25 21:58	2016/1/25 21:58
+520	-520	길드전&nbsp;중에는&nbsp;길드를&nbsp;탈퇴할&nbsp;수&nbsp;없습니다	길드전&nbsp;중에는&nbsp;길드를&nbsp;탈퇴할&nbsp;수&nbsp;없습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+521	-521	공격&nbsp;횟수를&nbsp;모두&nbsp;사용하여&nbsp;공격할&nbsp;수&nbsp;없습니다	공격&nbsp;횟수를&nbsp;모두&nbsp;사용하여&nbsp;공격할&nbsp;수&nbsp;없습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+522	-522	공격&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;공격할&nbsp;수&nbsp;없습니다	공격&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.&nbsp;공격할&nbsp;수&nbsp;없습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+523	-523	길드&nbsp;가입&nbsp;후&nbsp;48시간이&nbsp;지나야&nbsp;길드전에&nbsp;참가할&nbsp;수&nbsp;있습니다	길드&nbsp;가입&nbsp;후&nbsp;48시간이&nbsp;지나야&nbsp;길드전에&nbsp;참가할&nbsp;수&nbsp;있습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+524	-524	준비 기간이 끝났습니다. 전투를 준비하세요!	준비 기간이 끝났습니다. 전투를 준비하세요!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+525	-525	목표가 이미 처치되어 공격할 수 없습니다!	목표가 이미 처치되어 공격할 수 없습니다!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+526	-526	예비	예비	unkown error	2016/1/25 21:58	2016/1/25 21:58
+527	-527	예비	예비	unkown error	2016/1/25 21:58	2016/1/25 21:58
+528	-528	전투&nbsp;포인트가&nbsp;부족하여&nbsp;구매할&nbsp;수&nbsp;없습니다.	전투&nbsp;포인트가&nbsp;부족하여&nbsp;구매할&nbsp;수&nbsp;없습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+529	-529	오늘의&nbsp;구매&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.	오늘의&nbsp;구매&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+530	-530	수령함	수령함	unkown error	2016/1/25 21:58	2016/1/25 21:58
+531	-531	구매&nbsp;상한에&nbsp;도달했습니다.	구매&nbsp;상한에&nbsp;도달했습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+532	-532	도전&nbsp;횟수가&nbsp;상한에&nbsp;도달하여&nbsp;구매할&nbsp;필요가&nbsp;없습니다.	도전&nbsp;횟수가&nbsp;상한에&nbsp;도달하여&nbsp;구매할&nbsp;필요가&nbsp;없습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+533	-533	도전&nbsp;횟수가&nbsp;부족합니다.	도전&nbsp;횟수가&nbsp;부족합니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+534	-534	이번&nbsp;시즌이&nbsp;종료되어&nbsp;포인트&nbsp;상점을&nbsp;이용할&nbsp;수&nbsp;없습니다.	이번&nbsp;시즌이&nbsp;종료되어&nbsp;포인트&nbsp;상점을&nbsp;이용할&nbsp;수&nbsp;없습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+535	-535	전투&nbsp;포인트&nbsp;상점은&nbsp;현재&nbsp;시즌&nbsp;종료&nbsp;후&nbsp;열립니다	전투&nbsp;포인트&nbsp;상점은&nbsp;현재&nbsp;시즌&nbsp;종료&nbsp;후&nbsp;열립니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+536	-536	점수가&nbsp;부족하여&nbsp;구매할&nbsp;수&nbsp;없습니다.	점수가&nbsp;부족하여&nbsp;구매할&nbsp;수&nbsp;없습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+537	-537	크로스&nbsp;서버&nbsp;대회는&nbsp;레벨&nbsp;40에&nbsp;해제됩니다	크로스&nbsp;서버&nbsp;대회는&nbsp;레벨&nbsp;40에&nbsp;해제됩니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+538	-538	연승&nbsp;수가&nbsp;부족하여&nbsp;이&nbsp;보상을&nbsp;받을&nbsp;수&nbsp;없습니다	연승&nbsp;수가&nbsp;부족하여&nbsp;이&nbsp;보상을&nbsp;받을&nbsp;수&nbsp;없습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+539	-539	VIP3부터&nbsp;두&nbsp;배&nbsp;수익을&nbsp;열&nbsp;수&nbsp;있습니다.	VIP3부터&nbsp;두&nbsp;배&nbsp;수익을&nbsp;열&nbsp;수&nbsp;있습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+540	-540	제작&nbsp;재료가&nbsp;부족합니다.	제작&nbsp;재료가&nbsp;부족합니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+541	-541	닌자&nbsp;혼이&nbsp;부족합니다.	닌자&nbsp;혼이&nbsp;부족합니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+542	-542	닌자&nbsp;레벨이&nbsp;부족합니다.	닌자&nbsp;레벨이&nbsp;부족합니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+543	-543	이&nbsp;무기는&nbsp;이미&nbsp;착용&nbsp;중입니다.	이&nbsp;무기는&nbsp;이미&nbsp;착용&nbsp;중입니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+544	-544	착용할&nbsp;무기가&nbsp;없습니다.	착용할&nbsp;무기가&nbsp;없습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+545	-545	필요한 도약 아이템이 부족하여 도약할 수 없습니다	필요한 도약 아이템이 부족하여 도약할 수 없습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+546	-546	더&nbsp;많은&nbsp;닌자가&nbsp;필요합니다.	더&nbsp;많은&nbsp;닌자가&nbsp;필요합니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+547	-547	도약석이 부족합니다	도약석이 부족합니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+548	-548	크로스&nbsp;서버에&nbsp;연결되었습니다.&nbsp;다시&nbsp;눌러&nbsp;입장하세요!	크로스&nbsp;서버에&nbsp;연결되었습니다.&nbsp;다시&nbsp;눌러&nbsp;입장하세요!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+549	-549	각성이 이미 만렙에 도달했습니다	각성이 이미 만렙에 도달했습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+550	-550	친구가&nbsp;아닙니다.&nbsp;먼저&nbsp;추가하세요!	친구가&nbsp;아닙니다.&nbsp;먼저&nbsp;추가하세요!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+551	-551	길드&nbsp;건설이&nbsp;상한에&nbsp;도달했습니다.	길드&nbsp;건설이&nbsp;상한에&nbsp;도달했습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+552	-552	아쉽네요,&nbsp;상인이&nbsp;이미&nbsp;떠났습니다!	아쉽네요,&nbsp;상인이&nbsp;이미&nbsp;떠났습니다!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+553	-553	이미&nbsp;최대&nbsp;레벨이야!&nbsp;더&nbsp;이상&nbsp;찌르지&nbsp;마!	이미&nbsp;최대&nbsp;레벨이야!&nbsp;더&nbsp;이상&nbsp;찌르지&nbsp;마!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+554	-554	이&nbsp;무기의&nbsp;승성&nbsp;기능이&nbsp;열리지&nbsp;않았습니다.	이&nbsp;무기의&nbsp;승성&nbsp;기능이&nbsp;열리지&nbsp;않았습니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+555	-555	무기&nbsp;승성이&nbsp;이미&nbsp;최대&nbsp;레벨입니다!	무기&nbsp;승성이&nbsp;이미&nbsp;최대&nbsp;레벨입니다!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+556	-556	무기&nbsp;조각이&nbsp;부족하여&nbsp;승성할&nbsp;수&nbsp;없습니다	무기&nbsp;조각이&nbsp;부족하여&nbsp;승성할&nbsp;수&nbsp;없습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+557	-557	길드에&nbsp;가입해야&nbsp;아이템을&nbsp;사용할&nbsp;수&nbsp;있습니다!	길드에&nbsp;가입해야&nbsp;아이템을&nbsp;사용할&nbsp;수&nbsp;있습니다!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+558	-558	동일한 매직 카드가 이미 배치되어 있습니다	동일한 매직 카드가 이미 배치되어 있습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+559	-559	침입자 발견	침입자 발견	unkown error	2015/2/12 20:59	2015/2/12 20:59
+560	-560	침입자 처치	침입자 처치	unkown error	2015/2/12 20:59	2015/2/12 20:59
+561	-561	공훈 랭킹	공훈 랭킹	unkown error	2015/2/12 20:59	2015/2/12 20:59
+562	-562	데미지&nbsp;순위	데미지&nbsp;순위	unkown error	2015/2/12 20:59	2015/2/12 20:59
+563	-563	상대가 이미 사망했습니다	상대가 이미 사망했습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+564	-564	먼저 좀 쉬었다가 전투하세요	먼저 좀 쉬었다가 전투하세요	unkown error	2016/3/22 14:45	2016/3/22 14:45
+565	-565	세력전이 아직 열리지 않았습니다	세력전이 아직 열리지 않았습니다	unkown error	2016/3/22 19:02	2016/3/22 19:02
+566	-566	사용자 체력이 부족합니다	사용자 체력이 부족합니다	unkown error	2016/3/22 19:02	2016/3/22 19:02
+567	-567	캐릭터가 사망하여 조작할 수 없습니다	캐릭터가 사망하여 조작할 수 없습니다	unkown error	2016/3/22 19:03	2016/3/22 19:03
+568	-568	카드 횟수가 부족합니다	카드 횟수가 부족합니다	unkown error	2016/3/25 5:08	2016/3/25 5:08
+569	-569	카드 쿨타임이 끝나지 않았습니다	카드 쿨타임이 끝나지 않았습니다	unkown error	2016/3/25 5:08	2016/3/25 5:08
+570	-570	닌자여, 관직이 부족합니다	닌자여, 관직이 부족합니다	unkown error	2016/3/25 5:08	2016/3/25 5:08
+571	-571	닌자여, 조직 내 지위가 부족합니다	닌자여, 조직 내 지위가 부족합니다	unkown error	2016/3/25 5:08	2016/3/25 5:08
+572	-572	예비	예비	unkown error	2016/1/25 21:58	2016/1/25 21:58
+573	-573	예비	예비	unkown error	2016/1/25 21:58	2016/1/25 21:58
+574	-574	예비	예비	unkown error	2016/1/25 21:58	2016/1/25 21:58
+575	-575	예비	예비	unkown error	2016/1/25 21:58	2016/1/25 21:58
+576	-576	예비	예비	unkown error	2016/1/25 21:58	2016/1/25 21:58
+577	-577	닌자가&nbsp;패배했습니다	닌자가&nbsp;패배했습니다	unkown error	2016/5/30 17:00	2016/5/30 17:00
+578	-578	도전&nbsp;횟수가&nbsp;상한에&nbsp;도달했습니다	도전&nbsp;횟수가&nbsp;상한에&nbsp;도달했습니다	unkown error	2016/5/30 17:00	2016/5/30 17:00
+579	-579	먼저&nbsp;이전&nbsp;지점을&nbsp;격파하세요	먼저&nbsp;이전&nbsp;지점을&nbsp;격파하세요	unkown error	2016/5/30 17:00	2016/5/30 17:00
+580	-580	현재&nbsp;층을&nbsp;아직&nbsp;통과하지&nbsp;않아&nbsp;다음&nbsp;층에&nbsp;들어갈&nbsp;수&nbsp;없습니다	현재&nbsp;층을&nbsp;아직&nbsp;통과하지&nbsp;않아&nbsp;다음&nbsp;층에&nbsp;들어갈&nbsp;수&nbsp;없습니다	unkown error	2016/5/30 17:00	2016/5/30 17:00
+581	-581	먼저&nbsp;스테이지를&nbsp;완료하세요!	먼저&nbsp;스테이지를&nbsp;완료하세요!	unkown error	2016/5/30 17:00	2016/5/30 17:00
+582	-582	초기화&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	초기화&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2016/5/30 17:00	2016/5/30 17:00
+583	-583	먼저&nbsp;스테이지를&nbsp;완료하세요!	먼저&nbsp;스테이지를&nbsp;완료하세요!	unkown error	2016/5/30 17:00	2016/5/30 17:00
+584	-584	보물&nbsp;열기&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	보물&nbsp;열기&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2016/5/30 17:00	2016/5/30 17:00
+585	-585	현재&nbsp;층에서는&nbsp;빠른&nbsp;3성을&nbsp;사용할&nbsp;수&nbsp;없습니다.&nbsp;신중하게&nbsp;선택하세요.	현재&nbsp;층에서는&nbsp;빠른&nbsp;3성을&nbsp;사용할&nbsp;수&nbsp;없습니다.&nbsp;신중하게&nbsp;선택하세요.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+586	-586	소탕&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	소탕&nbsp;횟수를&nbsp;모두&nbsp;사용했습니다	unkown error	2016/1/25 21:58	2016/1/25 21:58
+587	-587	대상&nbsp;스테이지를&nbsp;3성으로&nbsp;클리어하면&nbsp;소탕&nbsp;기능이&nbsp;해제됩니다!	대상&nbsp;스테이지를&nbsp;3성으로&nbsp;클리어하면&nbsp;소탕&nbsp;기능이&nbsp;해제됩니다!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+588	-588	구매함	구매함	unkown error	2016/1/25 21:58	2016/1/25 21:58
+589	-589	수령함	수령함	unkown error	2016/1/25 21:58	2016/1/25 21:58
+590	-590	더&nbsp;많은&nbsp;닌자가&nbsp;필요합니다.	더&nbsp;많은&nbsp;닌자가&nbsp;필요합니다.	unkown error	2016/1/25 21:58	2016/1/25 21:58
+591	-591	0	0	unkown error	2016/1/25 21:58	2016/1/25 21:58
+592	-592	레벨&nbsp;선물&nbsp;패키지&nbsp;기간이&nbsp;지났습니다!	레벨&nbsp;선물&nbsp;패키지&nbsp;기간이&nbsp;지났습니다!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+593	-593	레벨이&nbsp;너무&nbsp;낮습니다!	레벨이&nbsp;너무&nbsp;낮습니다!	unkown error	2016/1/25 21:58	2016/1/25 21:58
+594	-594	스킬&nbsp;레벨은&nbsp;파티&nbsp;레벨을&nbsp;초과할&nbsp;수&nbsp;없습니다.	스킬&nbsp;레벨은&nbsp;파티&nbsp;레벨을&nbsp;초과할&nbsp;수&nbsp;없습니다.	unkown error	2012/11/14 15:57	2012/11/14 15:57
+595	-595	스킬&nbsp;포인트가&nbsp;부족합니다	스킬&nbsp;포인트가&nbsp;부족합니다	unkown error	2012/11/14 15:57	2012/11/14 15:57
+596	-596	아직&nbsp;쿨타임&nbsp;중입니다.&nbsp;잠시&nbsp;기다려&nbsp;주세요.	아직&nbsp;쿨타임&nbsp;중입니다.&nbsp;잠시&nbsp;기다려&nbsp;주세요.	unkown error	2012/11/14 15:57	2012/11/14 15:57
+597	-597	연동 메일을 잘못 입력했습니다. 다시 입력하세요	연동 메일을 잘못 입력했습니다. 다시 입력하세요	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+598	-598	연동 플레이어는 특수 서버에만 로그인할 수 있습니다. 다시 선택하여 로그인하세요	연동 플레이어는 특수 서버에만 로그인할 수 있습니다. 다시 선택하여 로그인하세요	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+599	-599	6-18자로&nbsp;입력하세요.&nbsp;숫자,&nbsp;영문자&nbsp;또는&nbsp;@._-만&nbsp;사용할&nbsp;수&nbsp;있습니다.	6-18자로&nbsp;입력하세요.&nbsp;숫자,&nbsp;영문자&nbsp;또는&nbsp;@._-만&nbsp;사용할&nbsp;수&nbsp;있습니다.	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+600	-600	유효하지 않은 계정	유효하지 않은 계정	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+601	-601	유효하지&nbsp;않은&nbsp;이메일	유효하지&nbsp;않은&nbsp;이메일	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+602	-602	이&nbsp;계정은&nbsp;이미&nbsp;이메일에&nbsp;연동되었습니다	이&nbsp;계정은&nbsp;이미&nbsp;이메일에&nbsp;연동되었습니다	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+603	-603	이미&nbsp;존재하는&nbsp;계정입니다	이미&nbsp;존재하는&nbsp;계정입니다	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+604	-604	기존&nbsp;비밀번호&nbsp;오류	기존&nbsp;비밀번호&nbsp;오류	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+605	-605	비정상&nbsp;주문입니다.&nbsp;GM에게&nbsp;문의하세요!	비정상&nbsp;주문입니다.&nbsp;GM에게&nbsp;문의하세요!	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+606	-606	쿠폰이 아직 만료되지 않아 판매할 수 없습니다！	쿠폰이 아직 만료되지 않아 판매할 수 없습니다！	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+607	-607	쿠폰이 만료되어 사용할 수 없습니다	쿠폰이 만료되어 사용할 수 없습니다	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+608	-608	오늘의 쿠폰 사용 한도에 도달하여 사용할 수 없습니다	쿠폰이 만료되어 사용할 수 없습니다	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+609	-609	나루토의 세계에 오신 것을 환영합니다	나루토의 세계에 오신 것을 환영합니다	unkownerror	2012/11/14 15:57	2012/11/14 15:57
+610	-610	계정 로그인 이상	계정 로그인 이상	2012/11/14 15:57	2012/11/14 15:57
+611	-611	이 구독 패키지는 이미 활성화되어 있습니다.	이 구독 패키지는 이미 활성화되어 있습니다.	2026/9/30 12:00	2026/9/30 12:00
+612	-612	이 구독 패키지는 이번 주에 이미 활성화했습니다.	이 구독 패키지는 이번 주에 이미 활성화했습니다.	2026/9/30 12:00	2026/9/30 12:00
