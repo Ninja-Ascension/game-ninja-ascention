@@ -9,6 +9,12 @@ namespace nr {
 class LegacyCharacter : public ax::Node {
     struct State;
     std::unique_ptr<State> state;
+    void updateFrame(float dt);
+    static LegacyCharacter* createProtected(const std::string& base, const std::string& atlas, float scale);
+#if defined(_WIN32) && defined(_MSC_VER)
+    static LegacyCharacter* createFrameGuarded(const std::string* base, const std::string* atlas, float scale);
+    static bool updateFrameGuarded(LegacyCharacter* character, float dt);
+#endif
 public:
     LegacyCharacter();
     ~LegacyCharacter() override;

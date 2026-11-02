@@ -1,7 +1,9 @@
 """LuaJIT tests of battle-scoped preload and actor identity contracts."""
 from pathlib import Path
 import ctypes,json
+import os
 root=Path(__file__).resolve().parents[1]
+build=Path(os.environ.get('NR_PROBE_BUILD',root/'build/windows-release'))
 module=json.dumps((root/'port/lua/battle_lifecycle.lua').as_posix())
 writable=json.dumps((root/'build').as_posix()+'/')
 script=f'''
@@ -53,11 +55,13 @@ assert(controller:executeCurrentSelectRoleFightDataAddAttacker({{attacker=0,atta
 controller:executeCurrentSelectRoleFightDataAddAttacker({{attacker='1',attackerPos='2'}})
 _ED={{battleData={{_heros={{['1']={{}}}},_armys={{}}}}}}
 local ok,err=pcall(controller.executeCurrentSelectRoleFightDataAddAttacker,controller,{{attacker='1',attackerPos='3'}})
-assert(not ok and err:find('Missing actor camp=1 seat=3',1,true))
+assert(ok and err==false,'missing actor action was not safely skipped')
+local valid,skipped=pcall(controller.executeCurrentSelectRoleFightDataAddAttacker,controller,{{attacker='bad',attackerPos='x'}})
+assert(valid and skipped==false,'invalid actor identity escaped the callback')
 assert(called==2,'missing actor action was silently executed')
-print('BATTLE_LIFECYCLE_PASSED preload scope, normal menu, exception cleanup, actor identities, missing-actor evidence')
+print('BATTLE_LIFECYCLE_PASSED preload scope, normal menu, exception cleanup, actor identities, guarded invalid actions')
 '''
-lua=ctypes.CDLL(str(root/'build/windows-probe-native/bin/NinjaResourceProbe/Debug/lua51.dll'))
+lua=ctypes.CDLL(str(build/'bin/NinjaResourceProbe/Release/lua51.dll'))
 lua.luaL_newstate.restype=ctypes.c_void_p
 lua.luaL_openlibs.argtypes=[ctypes.c_void_p]
 lua.luaL_loadstring.argtypes=[ctypes.c_void_p,ctypes.c_char_p]

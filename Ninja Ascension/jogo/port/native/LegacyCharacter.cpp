@@ -7,10 +7,14 @@
 #include <cmath>
 #include <cstdlib>
 #include <cstring>
+#include <limits>
 #include <stdexcept>
 #include "rapidjson/document.h"
 #include "lua-bindings/manual/LuaBasicConversions.h"
 #include "lua-bindings/manual/LuaEngine.h"
+#if defined(_WIN32) && defined(_MSC_VER)
+#include <windows.h>
+#endif
 
 extern "C" {
 char* _spUtil_readFile(const char* path,int* length) {
@@ -41,6 +45,9 @@ struct LegacyCharacter::State {
     float time=0,speed=1;
     bool paused=false;
     bool loop=true;
+    bool renderDisabled=false;
+    bool invalidAttachmentLogged=false;
+    bool renderErrorLogged=false;
     spAnimationStateData* mixing{};
     spAnimationState* player{};
     struct Event {int type,track,loops,intValue;float floatValue;std::string animation,name,text;};
@@ -49,11 +56,30 @@ struct LegacyCharacter::State {
 };
 LegacyCharacter::LegacyCharacter():state(std::make_unique<State>()){}
 LegacyCharacter::~LegacyCharacter()=default;
+#if defined(_WIN32) && defined(_MSC_VER)
+LegacyCharacter* LegacyCharacter::createFrameGuarded(const std::string* base,const std::string* atlas,float scale) {
+    __try {
+        return create(*base,*atlas,scale);
+    } __except(GetExceptionCode() == EXCEPTION_ACCESS_VIOLATION
+                   ? EXCEPTION_EXECUTE_HANDLER
+                   : EXCEPTION_CONTINUE_SEARCH) {
+        return nullptr;
+    }
+}
+#endif
+LegacyCharacter* LegacyCharacter::createProtected(const std::string& base,const std::string& atlas,float scale) {
+#if defined(_WIN32) && defined(_MSC_VER)
+    return createFrameGuarded(&base,&atlas,scale);
+#else
+    return create(base,atlas,scale);
+#endif
+}
 LegacyCharacter* LegacyCharacter::create(const std::string& base,const std::string& atlasFile,float dataScale) {
     auto node=std::make_unique<LegacyCharacter>();
     if(!node->init())throw std::runtime_error("Character node initialization failed");
     auto& s=*node->state;
     auto files=ax::FileUtils::getInstance();
+    if(!files)throw std::runtime_error("Legacy character file system unavailable");
     s.atlas=spAtlas_createFromFile(files->fullPathForFilename(atlasFile.empty()?base+".atlas":atlasFile).c_str(),nullptr);
     if(!s.atlas)throw std::runtime_error("Legacy character atlas failed");
     for(auto page=s.atlas->pages;page;page=page->next)
@@ -81,6 +107,7 @@ LegacyCharacter* LegacyCharacter::create(const std::string& base,const std::stri
         }
     }
     s.skeleton=spSkeleton_create(s.data);
+    if(!s.skeleton)throw std::runtime_error("Character skeleton allocation failed");
     for(int i=0;i<s.data->animationsCount;++i)
         if(std::string(s.data->animations[i]->name)=="00_daiji")s.animation=i;
     for(int i=0;i<s.skeleton->slotsCount;++i){
@@ -90,81 +117,153 @@ LegacyCharacter* LegacyCharacter::create(const std::string& base,const std::stri
     node->scheduleUpdate();node->update(0);node->autorelease();return node.release();
 }
 void LegacyCharacter::update(float dt) {
+#if defined(_WIN32) && defined(_MSC_VER)
+    // Keep the callback target alive while containing an access violation from
+    // malformed legacy Spine data. The handler deliberately avoids touching
+    // Spine state, which may be the source of the fault.
+    retain();
+    const bool accessViolation = updateFrameGuarded(this, dt);
+    if (accessViolation) {
+        unscheduleUpdate();
+        setVisible(false);
+        AXLOGE("Legacy Spine access violation; character hidden and update disabled.");
+    }
+    release();
+#else
+    updateFrame(dt);
+#endif
+}
+
+#if defined(_WIN32) && defined(_MSC_VER)
+bool LegacyCharacter::updateFrameGuarded(LegacyCharacter* character, float dt) {
+    __try {
+        character->updateFrame(dt);
+        return false;
+    } __except(GetExceptionCode() == EXCEPTION_ACCESS_VIOLATION
+                   ? EXCEPTION_EXECUTE_HANDLER
+                   : EXCEPTION_CONTINUE_SEARCH) {
+        return true;
+    }
+}
+#endif
+
+void LegacyCharacter::updateFrame(float dt) {
     ax::RefPtr<LegacyCharacter> keepAlive(this);
     auto& s=*state;
-    if(!s.paused)s.time+=dt*s.speed;
-    // AnimationState preserves discrete attachment/flip keys between frames.
-    // Resetting its slots each tick would undo keys that are not fired again.
-    if(!s.player)spSkeleton_setToSetupPose(s.skeleton);
-    // Each frame is evaluated from setup pose, so discrete attachment/flip keys
-    // must be applied from the start as well (lastTime=-1).
-    if(s.player){spAnimationState_update(s.player,s.paused?0:dt*s.speed);spAnimationState_apply(s.player,s.skeleton);}
-    else spAnimation_apply(s.data->animations[s.animation],s.skeleton,-1,s.time,s.loop,nullptr,nullptr);
-    spSkeleton_updateWorldTransform(s.skeleton);
-    for(int i=0;i<s.skeleton->slotsCount;++i){
-        auto sprite=s.sprites[i];auto slot=s.skeleton->drawOrder[i];auto a=slot->attachment;
-        sprite->setVisible(false);if(!a)continue;
-        std::vector<float> xy;float* uv=nullptr;int* indices=nullptr;int count=0;
-        int quadIndices[]={0,1,2,2,3,0};spAtlasRegion* region=nullptr;
-        float r=1,g=1,b=1,alpha=1;
-        if(a->type==SP_ATTACHMENT_REGION){
-            auto v=reinterpret_cast<spRegionAttachment*>(a);xy.resize(8);
-            spRegionAttachment_computeWorldVertices(v,slot->bone,xy.data());
-            uv=v->uvs;indices=quadIndices;count=6;region=static_cast<spAtlasRegion*>(v->rendererObject);
-            r=v->r;g=v->g;b=v->b;alpha=v->a;
-        }else if(a->type==SP_ATTACHMENT_MESH){
-            auto v=reinterpret_cast<spMeshAttachment*>(a);xy.resize(v->verticesCount);
-            spMeshAttachment_computeWorldVertices(v,slot,xy.data());
-            uv=v->uvs;indices=v->triangles;count=v->trianglesCount;region=static_cast<spAtlasRegion*>(v->rendererObject);
-            r=v->r;g=v->g;b=v->b;alpha=v->a;
-        }else if(a->type==SP_ATTACHMENT_SKINNED_MESH){
-            auto v=reinterpret_cast<spSkinnedMeshAttachment*>(a);xy.resize(v->uvsCount);
-            spSkinnedMeshAttachment_computeWorldVertices(v,slot,xy.data());
-            uv=v->uvs;indices=v->triangles;count=v->trianglesCount;region=static_cast<spAtlasRegion*>(v->rendererObject);
-            r=v->r;g=v->g;b=v->b;alpha=v->a;
-        }else continue; // Bounding boxes are deliberately non-rendering.
-        auto texture=static_cast<ax::Texture2D*>(region->page->rendererObject);
-        bool pma=texture->hasPremultipliedAlpha();
-        alpha*=slot->a*s.skeleton->a;
-        auto channel=[](float v){return static_cast<uint8_t>(std::clamp(v,0.f,1.f)*255);};
-        ax::Color4B color(channel(r*slot->r*s.skeleton->r*(pma?alpha:1)),
-                          channel(g*slot->g*s.skeleton->g*(pma?alpha:1)),
-                          channel(b*slot->b*s.skeleton->b*(pma?alpha:1)),channel(alpha));
-        std::vector<ax::V3F_C4B_T2F> verts(xy.size()/2);
-        std::vector<unsigned short> triangles(count);
-        for(size_t j=0;j<verts.size();++j){
-            if(!std::isfinite(xy[j*2])||!std::isfinite(xy[j*2+1]))throw std::runtime_error("Nonfinite character mesh");
-            verts[j].vertices=ax::Vec3(xy[j*2],xy[j*2+1],0);verts[j].colors=color;
-            verts[j].texCoords=ax::Tex2F(uv[j*2],uv[j*2+1]);
+    if(s.renderDisabled)return;
+    auto hideAll=[&](){for(auto& sprite:s.sprites)if(sprite)sprite->setVisible(false);};
+    auto failCharacter=[&](const char* reason){
+        if(!s.renderErrorLogged)AXLOGE("Legacy Spine frame disabled for {}: {}",getName(),reason);
+        s.renderErrorLogged=true;s.renderDisabled=true;hideAll();unscheduleUpdate();
+    };
+    auto skipAttachment=[&](const char* reason){
+        if(!s.invalidAttachmentLogged)AXLOGE("Legacy Spine attachment skipped for {}: {}",getName(),reason);
+        s.invalidAttachmentLogged=true;
+    };
+    try {
+        if(!s.skeleton||!s.data||s.data->animationsCount<=0||s.animation<0||s.animation>=s.data->animationsCount){
+            failCharacter("invalid skeleton or animation state");return;
         }
-        for(int j=0;j<count;++j){if(indices[j]<0 || indices[j]>=verts.size())throw std::runtime_error("Character mesh index out of range");triangles[j]=static_cast<unsigned short>(indices[j]);}
-        ax::TrianglesCommand::Triangles mesh(verts.data(),triangles.data(),static_cast<unsigned>(verts.size()),count);
-        ax::PolygonInfo polygon;polygon.setTriangles(mesh);polygon.setRect(ax::Rect(-2048,-2048,4096,4096));
-        sprite->setTexture(texture);sprite->setPolygonInfo(polygon);
-        auto blend=pma?ax::BlendFunc::ALPHA_PREMULTIPLIED:ax::BlendFunc::ALPHA_NON_PREMULTIPLIED;
-        if(slot->data->additiveBlending)blend.dst=ax::backend::BlendFactor::ONE;
-        sprite->setBlendFunc(blend);sprite->setVisible(true);
-    }
-    if(s.player&&!s.events.empty()){
-        auto pending=std::move(s.events);s.events.clear();
-        auto l=ax::LuaEngine::getInstance()->getLuaStack()->getLuaState();
-        for(const auto& e:pending){
-            int top=lua_gettop(l);lua_getglobal(l,"__nrSpineDispatch");
-            if(std::getenv("NR_SPINE_TRACE"))
-                AXLOGI("SPINE_DISPATCH type={} anim={} dispatchIsFunction={}",
-                    e.type,e.animation.c_str(),lua_isfunction(l,-1));
-            if(lua_isfunction(l,-1)){
-                object_to_luaval<ax::Node>(l,"ax.Node",this);lua_pushinteger(l,e.type);lua_newtable(l);
-                auto str=[&](const char* key,const std::string& value){lua_pushlstring(l,value.data(),value.size());lua_setfield(l,-2,key);};
-                str("animation",e.animation);lua_pushinteger(l,e.track);lua_setfield(l,-2,"trackIndex");
-                lua_pushinteger(l,e.loops);lua_setfield(l,-2,"loopCount");
-                lua_newtable(l);str("name",e.name);str("stringValue",e.text);
-                lua_pushinteger(l,e.intValue);lua_setfield(l,-2,"intValue");lua_pushnumber(l,e.floatValue);lua_setfield(l,-2,"floatValue");
-                lua_setfield(l,-2,"eventData");
-                if(lua_pcall(l,3,0,0)!=0)AXLOGE("Legacy Spine callback: {}",lua_tostring(l,-1));
+        if(!std::isfinite(dt)||!std::isfinite(s.speed)||!std::isfinite(s.time)){
+            failCharacter("non-finite frame timing");return;
+        }
+        if(!s.paused)s.time+=dt*s.speed;
+        // AnimationState preserves discrete attachment/flip keys between frames.
+        // Resetting its slots each tick would undo keys that are not fired again.
+        if(!s.player)spSkeleton_setToSetupPose(s.skeleton);
+        // Each frame is evaluated from setup pose, so discrete attachment/flip keys
+        // must be applied from the start as well (lastTime=-1).
+        if(s.player){spAnimationState_update(s.player,s.paused?0:dt*s.speed);spAnimationState_apply(s.player,s.skeleton);}
+        else spAnimation_apply(s.data->animations[s.animation],s.skeleton,-1,s.time,s.loop,nullptr,nullptr);
+        spSkeleton_updateWorldTransform(s.skeleton);
+        if(s.skeleton->slotsCount<0||s.sprites.size()<static_cast<size_t>(s.skeleton->slotsCount)
+            ||(s.skeleton->slotsCount>0&&!s.skeleton->drawOrder)){
+            failCharacter("invalid slot or draw-order array");return;
+        }
+        for(int i=0;i<s.skeleton->slotsCount;++i){
+            auto sprite=s.sprites[static_cast<size_t>(i)];auto slot=s.skeleton->drawOrder[i];
+            if(!sprite||!slot){failCharacter("missing slot sprite");return;}
+            auto a=slot->attachment;sprite->setVisible(false);if(!a)continue;
+            std::vector<float> xy;float* uv=nullptr;int* indices=nullptr;int count=0;int uvCount=0;
+            int quadIndices[]={0,1,2,2,3,0};spAtlasRegion* region=nullptr;
+            float r=1,g=1,b=1,alpha=1;
+            if(a->type==SP_ATTACHMENT_REGION){
+                auto v=reinterpret_cast<spRegionAttachment*>(a);if(!slot->bone){skipAttachment("region has no bone");continue;}
+                xy.resize(8);spRegionAttachment_computeWorldVertices(v,slot->bone,xy.data());
+                uv=v->uvs;uvCount=8;indices=quadIndices;count=6;region=static_cast<spAtlasRegion*>(v->rendererObject);
+                r=v->r;g=v->g;b=v->b;alpha=v->a;
+            }else if(a->type==SP_ATTACHMENT_MESH){
+                auto v=reinterpret_cast<spMeshAttachment*>(a);
+                if(v->verticesCount<6||v->verticesCount%2!=0||!v->vertices||!v->uvs||!v->triangles){skipAttachment("invalid mesh buffers");continue;}
+                xy.resize(static_cast<size_t>(v->verticesCount));spMeshAttachment_computeWorldVertices(v,slot,xy.data());
+                uv=v->uvs;uvCount=v->verticesCount;indices=v->triangles;count=v->trianglesCount;region=static_cast<spAtlasRegion*>(v->rendererObject);
+                r=v->r;g=v->g;b=v->b;alpha=v->a;
+            }else if(a->type==SP_ATTACHMENT_SKINNED_MESH){
+                auto v=reinterpret_cast<spSkinnedMeshAttachment*>(a);
+                if(v->uvsCount<6||v->uvsCount%2!=0||!v->uvs||!v->triangles||!v->bones||!v->weights){skipAttachment("invalid skinned-mesh buffers");continue;}
+                xy.resize(static_cast<size_t>(v->uvsCount));spSkinnedMeshAttachment_computeWorldVertices(v,slot,xy.data());
+                uv=v->uvs;uvCount=v->uvsCount;indices=v->triangles;count=v->trianglesCount;region=static_cast<spAtlasRegion*>(v->rendererObject);
+                r=v->r;g=v->g;b=v->b;alpha=v->a;
+            }else continue; // Bounding boxes are deliberately non-rendering.
+            if(!region||!region->page||!region->page->rendererObject||!uv||!indices
+                ||count<3||count%3!=0||xy.size()%2!=0||xy.empty()
+                ||xy.size()/2>std::numeric_limits<unsigned short>::max()
+                ||uvCount<0||static_cast<size_t>(uvCount)<xy.size()){
+                skipAttachment("missing texture region or inconsistent geometry");continue;
             }
-            lua_settop(l,top);
+            auto texture=static_cast<ax::Texture2D*>(region->page->rendererObject);if(!texture){skipAttachment("missing texture");continue;}
+            bool pma=texture->hasPremultipliedAlpha();alpha*=slot->a*s.skeleton->a;
+            if(!std::isfinite(r)||!std::isfinite(g)||!std::isfinite(b)||!std::isfinite(alpha)){
+                skipAttachment("non-finite color or alpha");continue;
+            }
+            auto channel=[](float v){return static_cast<uint8_t>(std::clamp(std::isfinite(v)?v:0.f,0.f,1.f)*255);};
+            ax::Color4B color(channel(r*slot->r*s.skeleton->r*(pma?alpha:1)),
+                              channel(g*slot->g*s.skeleton->g*(pma?alpha:1)),
+                              channel(b*slot->b*s.skeleton->b*(pma?alpha:1)),channel(alpha));
+            std::vector<ax::V3F_C4B_T2F> verts(xy.size()/2);std::vector<unsigned short> triangles(static_cast<size_t>(count));
+            bool valid=true;
+            for(size_t j=0;j<verts.size();++j){
+                if(!std::isfinite(xy[j*2])||!std::isfinite(xy[j*2+1])||!std::isfinite(uv[j*2])||!std::isfinite(uv[j*2+1])){valid=false;break;}
+                verts[j].vertices=ax::Vec3(xy[j*2],xy[j*2+1],0);verts[j].colors=color;
+                verts[j].texCoords=ax::Tex2F(uv[j*2],uv[j*2+1]);
+            }
+            for(int j=0;valid&&j<count;++j){
+                if(indices[j]<0||static_cast<size_t>(indices[j])>=verts.size()){valid=false;break;}
+                triangles[static_cast<size_t>(j)]=static_cast<unsigned short>(indices[j]);
+            }
+            if(!valid){skipAttachment("non-finite vertex/UV or out-of-range triangle index");continue;}
+            ax::TrianglesCommand::Triangles mesh(verts.data(),triangles.data(),static_cast<unsigned>(verts.size()),count);
+            ax::PolygonInfo polygon;polygon.setTriangles(mesh);polygon.setRect(ax::Rect(-2048,-2048,4096,4096));
+            sprite->setTexture(texture);sprite->setPolygonInfo(polygon);
+            auto blend=pma?ax::BlendFunc::ALPHA_PREMULTIPLIED:ax::BlendFunc::ALPHA_NON_PREMULTIPLIED;
+            if(slot->data&&slot->data->additiveBlending)blend.dst=ax::backend::BlendFactor::ONE;
+            sprite->setBlendFunc(blend);sprite->setVisible(true);
         }
+        if(s.player&&!s.events.empty()){
+            auto pending=std::move(s.events);s.events.clear();
+            auto l=ax::LuaEngine::getInstance()->getLuaStack()->getLuaState();
+            if(!l)return;
+            for(const auto& e:pending){
+                int top=lua_gettop(l);lua_getglobal(l,"__nrSpineDispatch");
+                if(std::getenv("NR_SPINE_TRACE"))
+                    AXLOGI("SPINE_DISPATCH type={} anim={} dispatchIsFunction={}",e.type,e.animation.c_str(),lua_isfunction(l,-1));
+                if(lua_isfunction(l,-1)){
+                    object_to_luaval<ax::Node>(l,"ax.Node",this);lua_pushinteger(l,e.type);lua_newtable(l);
+                    auto str=[&](const char* key,const std::string& value){lua_pushlstring(l,value.data(),value.size());lua_setfield(l,-2,key);};
+                    str("animation",e.animation);lua_pushinteger(l,e.track);lua_setfield(l,-2,"trackIndex");
+                    lua_pushinteger(l,e.loops);lua_setfield(l,-2,"loopCount");
+                    lua_newtable(l);str("name",e.name);str("stringValue",e.text);
+                    lua_pushinteger(l,e.intValue);lua_setfield(l,-2,"intValue");lua_pushnumber(l,e.floatValue);lua_setfield(l,-2,"floatValue");
+                    lua_setfield(l,-2,"eventData");
+                    if(lua_pcall(l,3,0,0)!=0)AXLOGE("Legacy Spine callback: {}",lua_tostring(l,-1));
+                }
+                lua_settop(l,top);
+            }
+        }
+    } catch(const std::exception& e) {
+        failCharacter(e.what());
+    } catch(...) {
+        failCharacter("unknown native render exception");
     }
 }
 void LegacyCharacter::registerLua(lua_State* l){
@@ -180,7 +279,9 @@ void LegacyCharacter::registerLua(lua_State* l){
         const char* json=luaL_checkstring(l,1);const char* atlas=luaL_checkstring(l,2);
         std::string base=json;if(base.size()>5&&base.substr(base.size()-5)==".json")base.resize(base.size()-5);
         try{
-            auto node=LegacyCharacter::create(base,atlas,static_cast<float>(luaL_optnumber(l,3,1)));
+            std::string atlasPath=atlas;
+            auto node=LegacyCharacter::createProtected(base,atlasPath,static_cast<float>(luaL_optnumber(l,3,1)));
+            if(!node){lua_pushnil(l);lua_pushliteral(l,"Legacy Spine access violation during character creation");return 2;}
             auto& s=*node->state;s.mixing=spAnimationStateData_create(s.data);s.player=spAnimationState_create(s.mixing);
             s.player->rendererObject=&s;
             s.player->listener=[](spAnimationState* p,int track,spEventType type,spEvent* event,int loops){
@@ -204,7 +305,9 @@ void LegacyCharacter::registerLua(lua_State* l){
                 // de fim de onda nunca era encontrado.
                 int mapped=static_cast<int>(type);
                 s->events.push_back({mapped,track,loops,event?event->intValue:0,event?event->floatValue:0,
-                    entry&&entry->animation?entry->animation->name:"",event?event->data->name:"",event&&event->stringValue?event->stringValue:""});
+                    entry&&entry->animation?entry->animation->name:"",
+                    event&&event->data&&event->data->name?event->data->name:"",
+                    event&&event->stringValue?event->stringValue:""});
             };
             object_to_luaval<ax::Node>(l,"ax.Node",node);return 1;
         }catch(const std::exception& e){lua_pushnil(l);lua_pushstring(l,e.what());return 2;}

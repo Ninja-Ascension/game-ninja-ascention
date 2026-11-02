@@ -123,11 +123,19 @@ function DrawRareReward:onUpdateDraw(beginIndex, rewardInfo, drawMaxCount)
 		local spacing = 150
 		for i = beginIndex, last do
 			local item = items[i]
+			local itemInfo = {item.prop_type,item.prop_item,item.item_value}
 			local cell = state_machine.excute("sm_item_icon_cell_create", 0,
-				{0,{item.prop_type,item.prop_item,item.item_value},true,true,false,true})
+				{0,itemInfo,true,true,false,true})
+			if not cell then
+				-- Preserve the original item cell when a native state-machine
+				-- callback is unavailable during this popup's transition.
+				cell = SmItemIconCell:new()
+				cell:init(0,itemInfo,true,true,false,true)
+			end
 			if cell then
 				row:addChild(cell)
 				cell:setVisible(true)
+				if cell.roots and cell.roots[1] then cell.roots[1]:setVisible(true) end
 				cell:setPosition(cc.p(size.width/2 - count*spacing/2 + (i-beginIndex)*spacing, size.height/2 - 30))
 			end
 		end
@@ -1297,6 +1305,14 @@ function DrawRareReward:init(_rewardType, _rewardInfo, _rewardSorting)
 	end
 	self._rewardType = _rewardType
 	self._rewardInfo = _rewardInfo
+	if tonumber(_rewardType) == 0 and self._rewardInfo == nil then
+		local latest = _ED._last_draw_scene_reward
+		if latest and tonumber(latest.show_reward_type) == 0
+			and tonumber(latest.show_reward_item_count) > 0 then
+			self._rewardInfo = latest
+		end
+		_ED._last_draw_scene_reward = nil
+	end
 	if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto then
 		if _rewardSorting ~= nil then
 			self._rewardSorting = _rewardSorting

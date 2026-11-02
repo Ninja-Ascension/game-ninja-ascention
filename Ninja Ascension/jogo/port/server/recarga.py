@@ -60,6 +60,8 @@ COMANDOS = {
     'chat_local': ['send_message','refush_msg'],
     'tutorial_synthesis': ['prop_compound'],
     'scene_rewards_local': ['draw_scene_rewad', 'one_key_draw_scene_reward', 'draw_scene_npc_rewad'],
+    'sweep_local': ['sweep'],
+    'file_island_local': ['file_island_task_info'],
     # tutorial_campaign ENVOLVE handle_battle_result_start do local_server
     # (linha 98: original = server.MINIMOS[...]). A chave pertence ao
     # local_server, entao NAO pode ser removida aqui: o modulo se limita a

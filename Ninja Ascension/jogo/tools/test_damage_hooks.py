@@ -1,7 +1,10 @@
 """Exercise installation order, including callbacks registered inside original methods."""
 from pathlib import Path
 import ctypes, json
+import os
 root=Path(__file__).resolve().parents[1]
+build=Path(os.environ.get('NR_PROBE_BUILD',root/'build/windows-probe-native'))
+config=os.environ.get('NR_PROBE_CONFIG','Debug')
 script='package.path='+json.dumps((root/'port/lua/?.lua').as_posix())+"..';'..package.path\n"+r'''
 local numbers=require('numeros_flutuantes')
 local panel=require('painel_de_dano')
@@ -62,10 +65,13 @@ fwin.find=function(self,name)
  return team
 end
 team:updateMaster()
-team:teamFightEnd();qte:qteToAutoNextAttackRole()
+team:teamFightEnd();qte:qteToAutoNextAttackRole(0)
 assert(finishes==0 and turns==0,'Tutorial advanced before TAP')
-team:skeepTeamFight();qte:qteToAutoNextAttackRole()
-assert(finishes==1 and damage==2 and turns==1,'TAP failed to release original flow')
+local tap={_datas={terminal_name='fight_qte_controller_qte_to_auto_next_attack_role_but'}}
+qte:qteToAutoNextAttackRole(tap)
+assert(turns==1 and team.__nr_tap_accepted,'Manual TAP did not reach original QTE handler')
+team:skeepTeamFight()
+assert(finishes==1 and damage==2,'TAP failed to release original flow')
 assert(resets==1,'Total DMG was not cleared at skill completion')
 tutorial=false
 team:updateMaster();team:teamFightEnd()
@@ -78,13 +84,20 @@ tutorial=false;team.hero.roleCamp=0
 team:updateMaster();team:teamFightEnd()
 assert(finishes==3,'Between-step tutorial state bypassed TAP')
 local guardCalls=0
-furyGuardTick=function() guardCalls=guardCalls+1 end
+local releaseCalls=0
+furyGuardRelease=function()
+ releaseCalls=releaseCalls+1
+ assert(wait.recovering and team.__nr_tap_accepted,'Watchdog recovery did not release the active TAP wait')
+ qte:qteToAutoNextAttackRole(0)
+end
+team.__nr_await_tap=true;team.__nr_tap_accepted=false
+furyGuardTick=function() guardCalls=guardCalls+1;if guardCalls==1 then furyGuardRelease() end end
 wait.installGuard();furyGuardTick()
-assert(guardCalls==0,'Introduction watchdog forced automatic progress')
+assert(guardCalls==1 and releaseCalls==1 and turns==2,'Introduction watchdog failed to recover a stalled TAP')
 team:skeepTeamFight()
 _ED._scene_npc_id=1200
 furyGuardTick()
-assert(guardCalls==1,'Unrelated watchdog changed')
+assert(guardCalls==2 and releaseCalls==1,'Unrelated watchdog changed')
 print('TUTORIAL_TAP_WAIT_PASSED tutorial wait, original TAP, automatic selection, normal battles, enemies')
 local visual=require('combat_visual_end')
 local countBefore=resets
@@ -395,8 +408,14 @@ require('formation_empty_slots').apply({roots={{}}},function(_,name)return plus[
 for _,button in pairs(plus) do assert(button.visible==false) end
 print('FORMATION_PLUS_PASSED all empty positions visible, six filled positions hidden')
 print('LOADER_MISSING_PROFILE_PASSED pre-login frames, empty identity, restored redirect, absent _ED, ownerless poll')
+local sourceRoot=package.path:match('^(.-)/port/lua/%?%.lua')
+local profilePath=assert(sourceRoot)..'/src/client/l_digital/player/SmPlayerInfomationPage.lua'
+local profileFile=assert(io.open(profilePath,'rb'))
+local profileSource=profileFile:read('*a');profileFile:close()
+assert(loadstring(profileSource,'@'..profilePath),'Profile page Lua syntax invalid')
+print('PROFILE_PAGE_SYNTAX_PASSED')
 '''
-lua=ctypes.CDLL(str(root/'build/windows-probe-native/bin/NinjaResourceProbe/Debug/lua51.dll'))
+lua=ctypes.CDLL(str(build/'bin/NinjaResourceProbe'/config/'lua51.dll'))
 lua.luaL_newstate.restype=ctypes.c_void_p
 for name,args in [('luaL_openlibs',[ctypes.c_void_p]),('luaL_loadstring',[ctypes.c_void_p,ctypes.c_char_p]),('lua_pcall',[ctypes.c_void_p,ctypes.c_int,ctypes.c_int,ctypes.c_int]),('lua_close',[ctypes.c_void_p]),('lua_tolstring',[ctypes.c_void_p,ctypes.c_int,ctypes.c_void_p])]:
  getattr(lua,name).argtypes=args

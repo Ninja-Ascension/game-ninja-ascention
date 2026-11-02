@@ -270,16 +270,25 @@ def install(server):
             if progress not in MISSIONS:
                 raise ValueError('etapa_ausente_no_acervo')
             definition=MISSIONS[progress]
+            # education_change is used by all three original mission catalogs.
+            # During the per-profile intro the client can emit progress from
+            # mission1/mission2 as well as mission3; restricting it to mission3
+            # (and chapter <= 7) made the server reject valid tutorial steps and
+            # surfaced the generic "unknown error" dialog. The marker has
+            # already been checked against MISSIONS above, so persist the
+            # original catalog entry without inventing progress or rewards.
             import initial_tutorial
-            if initial_tutorial.managed(db,account) and (definition[0]!=3 or int(definition[1][0])>7):
-                raise ValueError('fora_do_tutorial_inicial')
             mould = '%s:%s' % (definition[0],definition[1][0])
-            with db._lock:
+            completed_after_pain=False
+            with db._lock,db._conn:
                 previous=db._conn.execute('SELECT progress FROM tutorial_events WHERE conta_id=? AND mould=?',(account,mould)).fetchone()
                 if previous is None or MISSIONS.get(previous[0],(0,[], -1))[2]<=definition[2]:
                     db._conn.execute('INSERT OR REPLACE INTO tutorial_events VALUES (?,?,?)', (account,mould,progress))
-                db._conn.commit()
+                if progress in (2010135,2010136) and definition[0]==2 and definition[1][0]=='1':
+                    completed_after_pain=initial_tutorial.finish_after_pain_cutscene(db,account,progress)
             server.log('tutorial etapa=%s conta_id=%s salva' % (progress,account))
+            if completed_after_pain:
+                server.log('tutorial concluido apos Pain conta_id=%s progress=%s campanha=2-5 liberada' % (account,progress))
             if definition[0]==3 and definition[1][0]=='7' and int(definition[1][1])>=12:
                 with db._lock,db._conn:initial_tutorial.finish(db,account)
             return ' '.join([str(seq),'education_change','0']+(initial_tutorial.login_tokens(db,account) if initial_tutorial.managed(db,account) else []))

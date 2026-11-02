@@ -2,8 +2,10 @@
 import os,subprocess,sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
+build=Path(os.environ.get('NR_PROBE_BUILD',root/'build/windows-probe-native'))
+config=os.environ.get('NR_PROBE_CONFIG','Debug')
 subprocess.run([sys.executable,str(root/'tools/test_normal_recruit.py')],cwd=root,check=True,capture_output=True)
-exe=root/'build/windows-probe-native/bin/NinjaResourceProbe/Debug/NinjaResourceProbe.exe'
+exe=build/'bin/NinjaResourceProbe'/config/'NinjaResourceProbe.exe'
 for mode in ('single','ten'):
     env={k:v for k,v in os.environ.items() if not k.startswith('NR_PROBE_')}
     env.update(NR_ENABLE_TUTORIAL='0',NR_PROBE_NORMAL_RECRUIT='1',NR_PROBE_RECRUIT_UI='1',NR_PROBE_NO_DIALOG='1',NR_PROBE_TEST_MODE='host',NR_PROBE_BOOT_MAP='1',NR_PROBE_MENU_TEST='1')

@@ -386,16 +386,21 @@ function TuitionController:updateTouchPosition()
 		--> print("教学事件还没有准备好，请稍后。")
 		return
 	end
+	local recruitLobby = require("recruit_lobby")
+	if recruitLobby.isInitialTutorialRecruitBlock(self._mission) then
+		self:skipInitialRecruitSection()
+		return
+	end
 	
 	local root = self.roots[1]
 	local windowName = dms.atos(self._mission, mission_param.mission_param1)
+	local selectObjectName = zstring.split(dms.atos(self._mission, mission_param.mission_param2), "|")
 	TuitionController._waitUICD = dms.atoi(self._mission, mission_param.mission_param8)
 	if TuitionController._waitUICD > 0 then
 		TuitionController._waitUIOver = false
 	end
 	local window = fwin:find(windowName)
 	if window ~= nil or nil ~= TuitionController._nextTuitionUIObject then
-		local selectObjectName = zstring.split(dms.atos(self._mission, mission_param.mission_param2), "|")
 		local selectObject = nil 
 		if nil ~= window then
 			for i, v in pairs(window.roots) do
@@ -677,6 +682,22 @@ function TuitionController:updateTouchPosition()
 		self:hideWindow()
 		--> print("事件提供的教学窗口不存在：", windowName)
 	end
+end
+
+function TuitionController:skipInitialRecruitSection()
+	local recruitLobby = require("recruit_lobby")
+	if not recruitLobby.isInitialTutorialRecruitBlock(self._mission) then return false end
+	self._skip_recruit_block = true
+	if self._initial_recruit_skip_logged ~= true then
+		self._initial_recruit_skip_logged = true
+		print("INITIAL_RECRUIT_SKIP begin mission3_events4-17")
+		for _,name in ipairs({"NewRecruitMainClass","HeroRecruitListViewClass","HeroRecruitSuccessClass"}) do
+			local window = fwin:find(name)
+			if window ~= nil then fwin:close(window) end
+		end
+	end
+	self:giveUpMission()
+	return true
 end
 
 function TuitionController:showWindow()
@@ -1060,6 +1081,14 @@ end
 function TuitionController:onUpdate(dt)
 	if nil ~= self._mission and #self._mission == 0 then
 		return
+	end
+	local recruitLobby = require("recruit_lobby")
+	if recruitLobby.isInitialTutorialRecruitBlock(self._mission) then
+		self:skipInitialRecruitSection()
+		return
+	else
+		self._skip_recruit_block = nil
+		self._initial_recruit_skip_logged = nil
 	end
 	if TuitionController._waitCD > 0 then
 		TuitionController._waitCD = TuitionController._waitCD - dt

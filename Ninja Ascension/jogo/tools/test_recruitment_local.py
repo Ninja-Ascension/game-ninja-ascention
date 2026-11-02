@@ -18,7 +18,9 @@ with tempfile.TemporaryDirectory(prefix='recruit-test-',dir=root/'build') as fol
         assert 'new_recruitment_system 0 15005 ' in reply and ' 9 ' in reply and ' 14104 ' in reply
         first=recruit.owned(db,account)
         assert first and first[1]==50
-        assert reply==server.despacha(request),'Replayed draw changed the reward'
+        replay=server.despacha(request)
+        assert 'new_recruitment_system 0 15005 ' in replay,'Replayed tutorial draw failed'
+        assert recruit.owned(db,account)==first,'Replayed draw duplicated or changed the ninja'
         assert db._conn.execute('SELECT COUNT(*) FROM tutorial_recruit').fetchone()[0]==1
         (root/'build/recruit-test-draw.txt').write_text(reply,encoding='utf8')
         assert '"totalFreeDraw":0' in server.resposta_login_init('3','')

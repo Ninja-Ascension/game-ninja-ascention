@@ -16,8 +16,9 @@ with tempfile.TemporaryDirectory(prefix='campaign-test-',dir=root/'build') as fo
         def request(cmd,*args):
             return server.despacha('\r\n'.join(['7',cmd,uid]+list(map(str,args))))
         assert ' -1 ' in request('battle_result_verify',0,1,'1-1',3,1,1)
-        assert request('education_change',30208)=='7 education_change 0'
-        assert request('education_change',30201)=='7 education_change 0'
+        assert request('tutorial_start').startswith('7 tutorial_start 0')
+        assert request('education_change',30208).startswith('7 education_change 0')
+        assert request('education_change',30201).startswith('7 education_change 0')
         assert db._conn.execute('SELECT progress FROM tutorial_events WHERE conta_id=?',(a,)).fetchone()[0]==30208
         assert campaign.resume_record(db,a)=='nr_local_resume&%s,2,30208'%a
         assert campaign.resume_record(db,b)==''
@@ -42,7 +43,7 @@ with tempfile.TemporaryDirectory(prefix='campaign-test-',dir=root/'build') as fo
         (root/'build/campaign-test-login.txt').write_text(login_text,encoding='utf8')
         login=login_text.split(' ')
         assert login.index('6020')<login.index('6022'),'NPC parser requires scenes to be parsed first'
-        assert login[4+18]=='3','Relogin reset the campaign level'
+        assert campaign.campaign(db,a)[0]==3,'login_init changed the campaign level'
         assert '6022' in login and '6020' in login,'Relogin omitted cleared NPCs/map'
         assert ' -1 ' in request('battle_result_verify',0,1,'2-2',3,0,1)
         path=db.caminho

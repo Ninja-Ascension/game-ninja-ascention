@@ -3,6 +3,11 @@
 -------------------------------------------------------------------------------------------------------
 MoppingResults = class("MoppingResultsClass", Window)
 MoppingResults.__npcId = 0
+local sweepRequestSequence = 0
+local function newSweepRequestNonce()
+	sweepRequestSequence = sweepRequestSequence + 1
+	return tostring(os.time()) .. "_" .. tostring(sweepRequestSequence) .. "_" .. tostring(math.random(100000, 999999))
+end
 function MoppingResults:ctor()
     self.super:ctor()
     self.roots = {}
@@ -394,13 +399,14 @@ function MoppingResults:ctor()
                                         "" ..
                                         instance.npcId ..
                                             "\r\n" .. instance.difficultyIndex .. "\r\n" .. instance.sweepCount .. "\r\n" .. instance.sweepType .. "\r\n" .. instance.currentSceneID .. "\r\n" .. cs
+                                            .. "\r\n" .. newSweepRequestNonce()
                                 else
                                     protocol_command.sweep.param_list =
-                                        "" .. instance.npcId .. "\r\n" .. instance.difficultyIndex .. "\r\n" .. instance.sweepCount .. "\r\n" .. instance.sweepType .. "\r\n" .. instance.currentSceneID
+                                        "" .. instance.npcId .. "\r\n" .. instance.difficultyIndex .. "\r\n" .. instance.sweepCount .. "\r\n" .. instance.sweepType .. "\r\n" .. instance.currentSceneID .. "\r\n" .. newSweepRequestNonce()
                                 end
                             else
                                 protocol_command.sweep.param_list =
-                                    "" .. instance.npcId .. "\r\n" .. instance.difficultyIndex .. "\r\n" .. instance.sweepCount .. "\r\n" .. instance.sweepType .. "\r\n" .. instance.currentSceneID
+                                    "" .. instance.npcId .. "\r\n" .. instance.difficultyIndex .. "\r\n" .. instance.sweepCount .. "\r\n" .. instance.sweepType .. "\r\n" .. instance.currentSceneID .. "\r\n" .. newSweepRequestNonce()
                             end
                         end
                     else

@@ -68,7 +68,7 @@ target_compile_features(nr_layout PUBLIC cxx_std_20)
 target_include_directories(nr_layout PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/native" PRIVATE "${AX_ROOT}/3rdparty")
 add_executable(LayoutOverridesTests tests/LayoutOverridesTests.cpp)
 target_link_libraries(LayoutOverridesTests PRIVATE nr_layout)
-set(SPINE21 "${NR_ROOT}/build/deps/spine-2.1.25")
+set(SPINE21 "${NR_ROOT}/build/deps/spine-2.1.25" CACHE PATH "Pinned Spine 2.1.25 checkout")
 set(SPINE_REV "")
 if(GIT_FOUND)
   execute_process(COMMAND "${GIT_EXECUTABLE}" -C "${SPINE21}" rev-parse HEAD

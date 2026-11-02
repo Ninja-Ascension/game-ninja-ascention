@@ -894,6 +894,13 @@ def resposta_login_init(seq, texto="", nome_cmd="login_init"):
         sessao = BANCO.sessao_de(token, conta_pedida)
     except _contas.ErroConta as e:
         return recusa("login_init", seq, "sem_sessao_valida (%s)" % e.codigo)
+    import initial_tutorial
+    try:
+        if initial_tutorial.reconcile_advanced_profile(BANCO,sessao['conta_id']):
+            log('tutorial_cutoff_reconciled conta=%s checkpoint=202008 backup=integrity_ok' % sessao['conta_id'])
+    except Exception as e:
+        # A failed backup must never lead to a partial profile migration.
+        log('tutorial_cutoff_reconcile_failed conta=%s erro=%s' % (sessao['conta_id'],e))
     perfil = BANCO.perfil(sessao["conta_id"])
     user_id = str(perfil["user_id"])
     user_name = perfil["user_name"]
@@ -1002,7 +1009,7 @@ def resposta_login_init(seq, texto="", nome_cmd="login_init"):
         str(wallet[5]),                  # 28 jade
         str(BANCO.experiencia_tutorial(sessao["conta_id"]) if tutorial_enabled(BANCO,sessao['conta_id']) else max(1 if campaign_grade==1 else 0, __import__('player_level_local').estado(BANCO,sessao["conta_id"])[1])), # 29 user_experience; never "l1e0", which forces the intro battle (LoginLoading.lua:212)
         Z if tutorial_enabled(BANCO,sessao['conta_id']) else str(__import__('player_level_local').necessario(campaign_grade)), # 30 user_grade_need_experience
-        Z if tutorial_enabled(BANCO,sessao['conta_id']) else str(__import__('profile_local').head(BANCO,sessao["conta_id"])), # 31 persisted avatar
+        str(__import__('profile_local').head(BANCO,sessao["conta_id"])), # 31 persisted avatar; always a valid head asset, including tutorial accounts
         Z,                              # 32 user_image_id
         "1",                            # 33 user_gender (índice >=1)
         Z,                              # 34 user_train
@@ -1517,6 +1524,8 @@ import tutorial_synthesis as _tutorial_synthesis
 _tutorial_synthesis.install(sys.modules[__name__])
 import scene_rewards_local as _scene_rewards_local
 _scene_rewards_local.install(sys.modules[__name__])
+import sweep_local as _sweep_local
+_sweep_local.install(sys.modules[__name__])
 import ninja_trial_local as _ninja_trial_local
 _ninja_trial_local.install(sys.modules[__name__])
 import worldboss_local as _worldboss_local

@@ -28,7 +28,9 @@ def _draw_group(group_id):
         if wlow<=0 or whigh<wlow:continue
         if kind==6 and str(ident) not in data.tabela('prop_mould.txt'):
             raise ValueError('item_de_recompensa_ausente')
-        if kind not in (1,2,3,4,5,6,7,34):
+        if kind==66 and str(ident) not in data.tabela('ship_metal_mould.txt'):
+            raise ValueError('peca_de_mudra_ausente')
+        if kind not in (1,2,3,4,5,6,7,34,66):
             raise ValueError('tipo_de_recompensa_nao_suportado')
         entries.append((ident,kind,low,high,wlow,whigh))
     if not entries and draws:
@@ -103,6 +105,14 @@ def _apply_npc_reward(db,account,items):
         elif kind==4:db._conn.execute('UPDATE local_resources SET soul=soul+? WHERE conta_id=?',(amount,account))
         elif kind==5:db._conn.execute('UPDATE local_resources SET jade=jade+? WHERE conta_id=?',(amount,account))
         elif kind in (6,7):shop_local.grant(db,account,kind,ident,amount)
+        elif kind==66:
+            import mudra_local
+            mudra_local.schema(db)
+            if str(ident) not in data.tabela('ship_metal_mould.txt'):
+                raise ValueError('peca_de_mudra_ausente')
+            if amount>500:raise ValueError('quantidade_de_pecas_invalida')
+            for _ in range(amount):
+                db._conn.execute('INSERT INTO local_metals(conta_id,mould) VALUES (?,?)',(account,ident))
         elif kind==34:
             if ident!=-1:raise ValueError('id_de_ponto_de_talento_invalido')
             import ninja_school_local
@@ -212,7 +222,8 @@ def install(server):
                 silver=db._conn.execute('SELECT silver FROM local_campaign WHERE conta_id=?',(account,)).fetchone()[0]
                 resources=db._conn.execute('SELECT gold FROM local_resources WHERE conta_id=?',(account,)).fetchone()
                 gold=resources[0] if resources else 0
-            tokens=[str(seq),'draw_scene_npc_rewad','0','22',str(silver),'25',str(gold)]
+            gold_delta=sum(int(item[2]) for item in items if int(item[1])==2) if fresh else 0
+            tokens=[str(seq),'draw_scene_npc_rewad','0','22',str(silver),'25',str(gold_delta),str(gold)]
             tokens+=inventory_tokens(db,account)+scene_tokens(db,account)
             tokens+=['171','0',str(len(items))]
             for item in items:tokens+=list(map(str,item))
@@ -347,7 +358,8 @@ def install(server):
                 key=(int(item[0]),int(item[1]))
                 totals[key]=totals.get(key,0)+int(item[2])
             claimed_items=[[ident,kind,amount] for (ident,kind),amount in sorted(totals.items()) if amount>0]
-            tokens=[str(seq),'one_key_draw_scene_reward','0','22',str(silver[0]),'25',str(gold)]
+            gold_delta=sum(int(item[2]) for item in claimed_items if int(item[1])==2)
+            tokens=[str(seq),'one_key_draw_scene_reward','0','22',str(silver[0]),'25',str(gold_delta),str(gold)]
             tokens+=inventory_tokens(db,account)+scene_tokens(db,account)+['171','0',str(len(claimed_items))]
             for item in claimed_items:
                 tokens+=list(map(str,item))

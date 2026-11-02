@@ -4,6 +4,23 @@
 PveSuperMoppingInfoCell = class("PveSuperMoppingInfoCellClass", Window)
 PveSuperMoppingInfoCell.__size = nil
 
+local function cleanRaidLabel(value)
+    value = tostring(value or "")
+    value = value:gsub("&amp;nbsp;", " "):gsub("&nbsp;", " "):gsub("&#160;", " "):gsub("&#x0*[aA]0;", " ")
+    value = value:gsub("&amp;", "&"):gsub("%s+", " ")
+    return value:match("^%s*(.-)%s*$") or value
+end
+
+local function setRaidLabel(label, value)
+    if label == nil then return end
+    label:setString(cleanRaidLabel(value))
+    local size = label:getContentSize()
+    if size.width > 0 and size.height > 0 and label.setTextAreaSize then
+        label:ignoreContentAdaptWithSize(false)
+        label:setTextAreaSize(size)
+    end
+end
+
 -- 创建Cell实例
 local pve_super_mopping_info_cell_create_terminal = {
     _name = "pve_super_mopping_info_cell_create",
@@ -220,7 +237,7 @@ function PveSuperMoppingInfoCell:onUpdateDraw()
     local npc_info = dms.atos(dms["npc"], self.npc_id)
     local word_mould_id = dms.atos(npc_info, npc.npc_name)
     local word_mould_msg = getMessageForWordMouldID(word_mould_id)
-    Text_chapter:setString(word_mould_msg)
+    setRaidLabel(Text_chapter, word_mould_msg)
 
     -- 按钮文本
     local Button_sweep_10 = ccui.Helper:seekWidgetByName(self.roots[1], "Button_sweep_10")
