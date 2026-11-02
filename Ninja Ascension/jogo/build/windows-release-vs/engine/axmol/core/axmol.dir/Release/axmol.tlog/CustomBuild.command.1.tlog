@@ -1,0 +1,526 @@
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\CAMERACLEAR.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/cameraClear.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/cameraClear_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\CAMERACLEAR.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/cameraClear.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/cameraClear_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\COLOR.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/color.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/color_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\COLORNORMAL.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix "--defines=,MAX_DIRECTIONAL_LIGHT_NUM=1,MAX_POINT_LIGHT_NUM=1,MAX_SPOT_LIGHT_NUM=1" --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/colorNormal.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/colorNormal_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\COLORNORMALTEXTURE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix "--defines=,MAX_DIRECTIONAL_LIGHT_NUM=1,MAX_POINT_LIGHT_NUM=1,MAX_SPOT_LIGHT_NUM=1" --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/colorNormalTexture.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/colorNormalTexture_fs
+if %errorlevel% neq 0 goto :cmEnd
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/colorNormalTexture.frag "--defines=,MAX_DIRECTIONAL_LIGHT_NUM=1,MAX_POINT_LIGHT_NUM=1,MAX_SPOT_LIGHT_NUM=1,USE_NORMAL_MAPPING=1" --output=N:/jogo/build/windows-release-vs/runtime/axslc/colorNormalTexture_fs_1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\COLORTEXTURE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/colorTexture.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/colorTexture_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\DUALSAMPLER.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/dualSampler.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/dualSampler_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\DUALSAMPLER_GRAY.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/dualSampler_gray.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/dualSampler_gray_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\DUALSAMPLER_HSV.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/dualSampler_hsv.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/dualSampler_hsv_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\GRAYSCALE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/grayScale.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/grayScale_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\HSV.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/hsv.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/hsv_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\LABEL_DISTANCEGLOW.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/label_distanceGlow.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/label_distanceGlow_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\LABEL_DISTANCENORMAL.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/label_distanceNormal.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/label_distanceNormal_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\LABEL_DISTANCEOUTLINE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/label_distanceOutline.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/label_distanceOutline_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\LABEL_NORMAL.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/label_normal.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/label_normal_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\LABEL_OUTLINE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/label_outline.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/label_outline_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\LAYER_RADIALGRADIENT.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/layer_radialGradient.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/layer_radialGradient_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\LINECOLOR.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/lineColor.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/lineColor_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\LINECOLOR.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/lineColor.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/lineColor_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\PARTICLE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/particle.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/particle_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\PARTICLECOLOR.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/particleColor.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/particleColor_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\PARTICLETEXTURE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/particleTexture.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/particleTexture_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITION.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/position.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/position_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONCOLOR.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionColor.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionColor_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONCOLOR.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionColor.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionColor_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONCOLORLENGTHTEXTURE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionColorLengthTexture.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionColorLengthTexture_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONCOLORLENGTHTEXTURE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionColorLengthTexture.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionColorLengthTexture_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONCOLORTEXTUREASPOINTSIZE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionColorTextureAsPointsize.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionColorTextureAsPointsize_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONNORMALTEXTURE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix "--defines=,MAX_DIRECTIONAL_LIGHT_NUM=1,MAX_POINT_LIGHT_NUM=1,MAX_SPOT_LIGHT_NUM=1" --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionNormalTexture.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionNormalTexture_vs
+if %errorlevel% neq 0 goto :cmEnd
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionNormalTexture.vert "--defines=,MAX_DIRECTIONAL_LIGHT_NUM=1,MAX_POINT_LIGHT_NUM=1,MAX_SPOT_LIGHT_NUM=1,USE_NORMAL_MAPPING=1" --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionNormalTexture_vs_1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONTEXTURE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionTexture.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionTexture_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONTEXTURE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionTexture.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionTexture_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONTEXTURE3D.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionTexture3D.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionTexture3D_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONTEXTURECOLOR.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionTextureColor.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionTextureColor_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONTEXTURECOLOR.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionTextureColor.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionTextureColor_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONTEXTURECOLORALPHATEST.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionTextureColorAlphaTest.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionTextureColorAlphaTest_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONTEXTUREINSTANCE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionTextureInstance.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionTextureInstance_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\POSITIONUCOLOR.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/positionUColor.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/positionUColor_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\QUADCOLOR.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/quadColor.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/quadColor_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\QUADCOLOR.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/quadColor.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/quadColor_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\QUADTEXTURE.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/quadTexture.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/quadTexture_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\QUADTEXTURE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/quadTexture.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/quadTexture_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\SKINPOSITIONNORMALTEXTURE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix "--defines=,MAX_DIRECTIONAL_LIGHT_NUM=1,MAX_POINT_LIGHT_NUM=1,MAX_SPOT_LIGHT_NUM=1" --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/skinPositionNormalTexture.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/skinPositionNormalTexture_vs
+if %errorlevel% neq 0 goto :cmEnd
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/skinPositionNormalTexture.vert "--defines=,MAX_DIRECTIONAL_LIGHT_NUM=1,MAX_POINT_LIGHT_NUM=1,MAX_SPOT_LIGHT_NUM=1,USE_NORMAL_MAPPING=1" --output=N:/jogo/build/windows-release-vs/runtime/axslc/skinPositionNormalTexture_vs_1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\SKINPOSITIONTEXTURE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/skinPositionTexture.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/skinPositionTexture_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\SKYBOX.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/skybox.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/skybox_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\SKYBOX.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/skybox.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/skybox_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\TERRAIN.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/terrain.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/terrain_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\TERRAIN.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/terrain.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/terrain_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\VIDEOTEXTUREBGRA.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/videoTextureBGRA.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/videoTextureBGRA_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\VIDEOTEXTUREI420.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/videoTextureI420.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/videoTextureI420_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\VIDEOTEXTURENV12.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/videoTextureNV12.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/videoTextureNV12_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\RENDERER\SHADERS\VIDEOTEXTUREYUY2.FRAG
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --frag=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders/videoTextureYUY2.frag --output=N:/jogo/build/windows-release-vs/runtime/axslc/videoTextureYUY2_fs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\CORE\CMAKELISTS.TXT
+setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-file N:/jogo/build/windows-release-vs/engine/axmol/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

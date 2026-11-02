@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\io_service.cpp" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\xxsocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\lua\lua.hpp">
+      <Filter>bindings\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\luajit\lua.hpp">
+      <Filter>bindings\luajit</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\lyasio.hpp">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\yasio_axlua.hpp">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\yasio_sol.hpp">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\buffer_alloc.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\byte_buffer.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\compiler\feature_test.hpp">
+      <Filter>compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\config.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\endian_portable.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\errc.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\file.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\ibstream.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\ares.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\char_traits.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\concurrent_queue.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\epoll_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\eventfd_select_interrupter.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\evport_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\fp16.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\ifaddrs.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\inet_ntop.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\kqueue_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\mbedtls.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\object_pool.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\openssl.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\pipe_select_interrupter.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\poll_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\select_interrupter.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\select_io_watcher.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\socket.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\socket_select_interrupter.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\io_service.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\io_watcher.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\logging.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\memory.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\object_pool.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\object_pool_alloc.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\obstream.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\platform\yasio_jni.hpp">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\platform\yasio_unreal.hpp">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\pod_vector.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\ref_ptr.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\shared_mutex.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\singleton.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\split.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\ssl.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\strfmt.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\string.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\string_view.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\sz.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\thread_name.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\type_traits.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\utils.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\wtimer_hres.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\xxsocket.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\yasio.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\yasio_fwd.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\yasio.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bindings">
+      <UniqueIdentifier>{6EF45B20-B964-3AE0-B4BB-0A5A1853FE6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bindings\lua">
+      <UniqueIdentifier>{CD3C00B8-F82C-3FCC-975E-330ED3DF5917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bindings\luajit">
+      <UniqueIdentifier>{5C75693C-3EBC-3BE9-9154-3CECC07164FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compiler">
+      <UniqueIdentifier>{BEC6F4A1-FA23-3F38-92F5-B18705049079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl">
+      <UniqueIdentifier>{E65718A6-E716-3C57-93D9-CE172848CA1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{11642075-AFFD-35D0-BEBF-DFE7DB06096E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

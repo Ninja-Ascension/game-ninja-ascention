@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionFrame.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionFrameEasing.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionManagerEx.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionNode.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionObject.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimeline.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineCache.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineData.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineNode.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\BoneNode.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\CSLoader.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\Frame.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\SkeletonNode.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\SkinNode.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\TimeLine.cpp">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Armature.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ArmatureAnimation.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ArmatureDataManager.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ArmatureDefine.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\BatchNode.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Bone.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CocoLoader.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CocoStudio.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CocosStudioExtension.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ColliderDetector.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComAttribute.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComAudio.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComController.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComExtensionData.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComRender.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DataReaderHelper.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Datas.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DecorativeDisplay.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DictionaryHelper.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DisplayFactory.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DisplayManager.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\FlatBuffersSerialize.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\InputDelegate.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\LocalizationManager.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ProcessBase.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\SGUIReader.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\SSceneReader.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Skin.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\SpineSkeletonDataCache.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\SpriteFrameCacheHelper.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\TransformHelp.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\TriggerBase.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\TriggerMng.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\TriggerObj.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Tween.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetCallBackHandlerProtocol.cpp">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ArmatureNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\CheckBoxReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ComAudioReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\GameMapReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\GameNode3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ImageViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\LayoutReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Light3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ListViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\LoadingBarReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\MeshReader\MeshReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\MeshReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Node3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReader\NodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\NodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderProtocol.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\PageViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Particle3DReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ParticleReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ProjectNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RadioButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RadioButtonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\RichTextReader\RichTextReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RichTextReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ScrollViewReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SingleNodeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SliderReader\SliderReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SliderReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SpineSkeletonReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SpriteReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\TabControlReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TabControlReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextAtlasReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextBMFontReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextFieldReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextFieldReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextReader\TextReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader\UserCameraReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReader.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReaderProtocol.cpp">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionFrame.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionFrameEasing.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionManagerEx.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionNode.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionObject.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimeline.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineCache.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineData.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\ActionTimelineNode.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\BoneNode.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\CSLoader.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\Frame.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\SkeletonNode.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\SkinNode.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\TimeLine.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ActionTimeline\TimelineMacro.h">
+      <Filter>Source Files\src\cocostudio\ActionTimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Armature.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ArmatureAnimation.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ArmatureDataManager.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ArmatureDefine.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\BatchNode.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Bone.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CSLanguageDataBinary_generated.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CSParse3DBinary_generated.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CSParseBinary_generated.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CocoLoader.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CocoStudio.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CocosStudioExport.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\CocosStudioExtension.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ColliderDetector.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComAttribute.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComAudio.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComBase.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComController.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComExtensionData.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ComRender.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DataReaderHelper.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Datas.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DecorativeDisplay.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DictionaryHelper.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DisplayFactory.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\DisplayManager.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\FlatBuffersSerialize.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\InputDelegate.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\LocalizationManager.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\ProcessBase.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\SGUIReader.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\SSceneReader.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Skin.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\SpineSkeletonDataCache.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\SpriteFrameCacheHelper.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\TransformHelp.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\TriggerBase.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\TriggerMng.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\TriggerObj.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\Tween.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetCallBackHandlerProtocol.h">
+      <Filter>Source Files\src\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ArmatureNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ArmatureNodeReader\CSArmatureNode_generated.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ArmatureNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ButtonReader\ButtonReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\CheckBoxReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ComAudioReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\GameMapReader\GameMapReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\GameMapReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\GameNode3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ImageViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\LayoutReader\LayoutReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\LayoutReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\Light3DReader\Light3DReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Light3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ListViewReader\ListViewReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ListViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\LoadingBarReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\MeshReader\MeshReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\MeshReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\Node3DReader\Node3DReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Node3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReader\NodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\NodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderDefine.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\NodeReaderProtocol.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\PageViewReader\PageViewReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\PageViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\Particle3DReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ParticleReader\ParticleReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ParticleReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ProjectNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonGroupReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RadioButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\RadioButtonReader\RadioButtonReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RadioButtonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\RichTextReader\RichTextReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\RichTextReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\ScrollViewReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SingleNodeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\CSBoneBinary_generated.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SliderReader\SliderReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SliderReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SpineSkeletonReader\SpineSkeletonReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SpineSkeletonReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\SpriteReader\SpriteReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\SpriteReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\CSTabControl_generated.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TabControlReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TabControlReader\TabControlReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TabControlReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextAtlasReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextBMFontReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldExReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextFieldReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextFieldReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\TextReader\TextReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\TextReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader\UserCameraReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReader.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\cocostudio\WidgetReader\WidgetReaderProtocol.h">
+      <Filter>Source Files\src\cocostudio\WidgetReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C30CC49-B57B-3FC4-B923-8B5F8F35B8CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{12FD3F81-4D96-38EB-8898-F0E07AF0C605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio">
+      <UniqueIdentifier>{5441969B-0CFA-3D71-A245-15AB92DC0CED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\ActionTimeline">
+      <UniqueIdentifier>{550A137D-BE80-35FD-B09A-DBD78E948F64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader">
+      <UniqueIdentifier>{4AFF4DC3-D731-3257-AAF5-D269105238E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ArmatureNodeReader">
+      <UniqueIdentifier>{002250E1-5540-3967-A303-FBFD8C00A056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ButtonReader">
+      <UniqueIdentifier>{CA09654D-DFB3-3F76-A2A6-B1D2EABE4CED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\CheckBoxReader">
+      <UniqueIdentifier>{D197C568-81FF-3CC8-A9DE-F540D74C6820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ComAudioReader">
+      <UniqueIdentifier>{D309AFBB-EBE5-35D1-B89A-86866D5D2525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\GameMapReader">
+      <UniqueIdentifier>{5945AE31-A628-3EC2-8625-E7E7F7D1D02E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\GameNode3DReader">
+      <UniqueIdentifier>{FABB7076-9139-3DF1-AC1B-6BC92788BB27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ImageViewReader">
+      <UniqueIdentifier>{413F04D9-781C-3FFB-BE42-6C1AC4F88D70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\LayoutReader">
+      <UniqueIdentifier>{35CB2C95-858A-33CF-8833-0C743497261F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\Light3DReader">
+      <UniqueIdentifier>{436B824E-462A-3B21-A396-E6F16E3ABC54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ListViewReader">
+      <UniqueIdentifier>{25FE1094-05C0-30F7-A587-CD5D65C830F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\LoadingBarReader">
+      <UniqueIdentifier>{692A975C-2E9F-3BD2-AA73-18D617B27F5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\MeshReader">
+      <UniqueIdentifier>{93C67C54-2950-317D-8BD9-A313452BC305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\Node3DReader">
+      <UniqueIdentifier>{D49C0C80-81EF-3D8B-AFD2-506821A457E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\NodeReader">
+      <UniqueIdentifier>{0D2D706C-DBB8-3E7E-A505-903F97AD5ABE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\PageViewReader">
+      <UniqueIdentifier>{9B26AEBC-24D9-36E4-8944-F572EB831307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\Particle3DReader">
+      <UniqueIdentifier>{A6EC2901-8B77-317A-9EE3-D154B7BBC7F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ParticleReader">
+      <UniqueIdentifier>{C3F2139E-7B75-3926-98C4-BF4FA7754D1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ProjectNodeReader">
+      <UniqueIdentifier>{6745B09A-1FA7-340E-8543-623598E1AC2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\RadioButtonReader">
+      <UniqueIdentifier>{CEA8CB0E-139A-395D-88B4-3DB0492B9EAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\RichTextReader">
+      <UniqueIdentifier>{2C554EF7-5709-39A8-B44F-FAD4701DFDB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\ScrollViewReader">
+      <UniqueIdentifier>{BE8CFD29-1D3E-3691-B3A7-D2DC1AB36457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SingleNodeReader">
+      <UniqueIdentifier>{C40743B7-E00B-35C7-B3BA-89468220F6AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SkeletonReader">
+      <UniqueIdentifier>{B817E1F7-B409-36D0-AD55-619D425113EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SliderReader">
+      <UniqueIdentifier>{0DFB7DAB-301D-33CE-8AAD-AEB4768EF3D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SpineSkeletonReader">
+      <UniqueIdentifier>{0C1A964D-0875-3E48-9980-85EF8EBA743B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\SpriteReader">
+      <UniqueIdentifier>{BE83F01E-34BD-36C9-A2CD-6D234ADA46D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TabControlReader">
+      <UniqueIdentifier>{762F5BB5-440C-36A8-AA6C-9E5C1905FB37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TextAtlasReader">
+      <UniqueIdentifier>{12894652-A2E0-31AD-B17D-2940EDCD6452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TextBMFontReader">
+      <UniqueIdentifier>{A332928C-842A-3C84-87A2-FA45FED16E0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TextFieldReader">
+      <UniqueIdentifier>{39705A2A-46E5-3809-8E5C-637727233765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\TextReader">
+      <UniqueIdentifier>{B86F88B7-8A51-3DAA-80D7-3458ED8A4EC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\cocostudio\WidgetReader\UserCameraReader">
+      <UniqueIdentifier>{2DCEB90C-4B63-380A-BA00-4C2F3B81C6AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

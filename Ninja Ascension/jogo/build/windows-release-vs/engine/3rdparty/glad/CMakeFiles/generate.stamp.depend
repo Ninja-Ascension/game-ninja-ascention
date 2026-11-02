@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in
+N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/glad/CMakeLists.txt
+N:/jogo/build/windows-release-vs/CMakeFiles/cmake.verify_globs

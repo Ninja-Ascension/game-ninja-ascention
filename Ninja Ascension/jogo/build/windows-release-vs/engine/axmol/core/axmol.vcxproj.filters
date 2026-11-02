@@ -1,0 +1,2110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="N:\jogo\build\windows-release-vs\engine\axmol\core\CMakeFiles\axmol.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\axmol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionCamera.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionCatmullRom.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Action.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionEase.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionGrid3D.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionInstant.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionInterval.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionManager.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionPageTurn3D.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionProgressTimer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionTiledGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionTween.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\AnimationCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Animation.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\AtlasNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Camera.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\CameraBackgroundBrush.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ClippingNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ClippingRectangleNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ComponentContainer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Component.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\DrawNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FastTMXLayer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FastTMXTiledMap.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontAtlasCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontCharMap.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Font.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontFNT.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontFreeType.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Grid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\LabelAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Label.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Layer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Light.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Menu.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\MenuItem.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\MotionStreak.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Node.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\NodeGrid.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParallaxNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParticleBatchNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParticleExamples.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParticleSystem.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParticleSystemQuad.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ProgressTimer.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ProtectedNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\RenderTexture.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Scene.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\SpriteBatchNode.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Sprite.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\AnchoredSprite.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\SpriteFrameCache.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\SpriteFrame.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\AutoPolygon.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TextFieldTTF.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TileMapAtlas.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TMXObjectGroup.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TMXXMLParser.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Transition.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TransitionPageTurn.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TransitionProgress.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TweenFunction.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\SpriteSheetLoader.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\PlistSpriteSheetLoader.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionCoroutine.cpp">
+      <Filter>Source Files\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\StdC-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\FileUtils-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\Common-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\Application-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\Device-win32.cpp">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\RenderViewImpl.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\desktop\Device-desktop.cpp">
+      <Filter>Source Files\platform\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\SAXParser.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\RenderView.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\FileUtils.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\Image.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\FileStream.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\ApplicationBase.cpp">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\AffineTransform.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Vertex.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Mat4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\MathUtil.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Quaternion.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\TransformUtils.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Vec2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Vec3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Vec4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Rect.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Color.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\CallbackCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\CustomCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\GroupCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Material.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\MeshCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Pass.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\QuadCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\RenderCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\RenderState.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Renderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Technique.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Texture2D.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\TextureAtlas.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\TextureCache.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\TextureCube.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\TrianglesCommand.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Shaders.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ProgramManager.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ProgramStateRegistry.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\CommandBuffer.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\DepthStencilState.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\DriverBase.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ShaderModule.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Texture.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\PixelFormatUtils.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Types.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\VertexLayout.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Program.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ProgramState.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ShaderCache.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\RenderPassDescriptor.cpp">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\OpenGLState.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\BufferGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\CommandBufferGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\CommandBufferGLES2.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\DepthStencilStateGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\DriverGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\ProgramGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\RenderPipelineGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\ShaderModuleGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\TextureGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\UtilsGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\RenderTargetGL.cpp">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\JobSystem.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\AutoreleasePool.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Configuration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Logging.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Controller.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Data.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\NinePatchImageParser.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Director.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Event.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventAcceleration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventCustom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventDispatcher.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventFocus.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventKeyboard.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListener.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerAcceleration.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerController.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerCustom.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerFocus.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerKeyboard.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerMouse.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventMouse.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventTouch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\IMEDispatcher.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\NS.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Profiling.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Properties.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Object.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Scheduler.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\ScriptSupport.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Touch.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\UserDefault.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Value.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\ObjectFactory.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\StencilStateManager.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\TGAlib.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\ZipUtils.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\atitc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\base64.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\FPSImages.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Random.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Types.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\UTF8.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Utils.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\SimpleTimer.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\etc1.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\etc2.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\pvr.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\s3tc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\astc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Controller-linux-win32.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\AsyncTaskPool.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Console.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIMediaPlayer.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIEditBox\UIEditBoxImpl-win32.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\axmol-ui.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIAbstractCheckButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UICheckBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIRadioButton.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\LayoutHelper.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIHBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIHelper.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIImageView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILayout.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILayoutManager.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILayoutParameter.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIListView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILoadingBar.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIPageView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIPageViewIndicator.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIRelativeBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIRichText.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIScale9Sprite.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIScrollView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIScrollViewBar.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UISlider.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIText.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITextAtlas.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITextBMFont.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITextField.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIVBox.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIWidget.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIEditBox\UIEditBox.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILayoutComponent.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIEditBox\UIEditBoxImpl-common.cpp">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITabControl.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITextFieldEx.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\Downloader.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\Downloader-curl.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\Uri.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\HttpClient.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\HttpCookie.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\WebSocket.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\AABB.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Animate3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Animation3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\AttachNode.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\BillBoard.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Bundle3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Bundle3DData.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\BundleReader.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Frustum.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Mesh.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MeshSkin.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MeshVertexIndexData.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MotionStreak3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\OBB.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\ObjLoader.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Plane.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Ray.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Skeleton3D.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Skybox.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MeshRenderer.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MeshMaterial.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Terrain.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\VertexAttribBinding.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\3DProgramInfo.cpp">
+      <Filter>Source Files\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsBody.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsContact.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsJoint.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsShape.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsWorld.cpp">
+      <Filter>Source Files\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3D.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DComponent.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DConstraint.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DDebugDrawer.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DObject.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DShape.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DWorld.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\PhysicsMeshRenderer.cpp">
+      <Filter>Source Files\physics3d</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMesh.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMeshAgent.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMeshDebugDraw.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMeshObstacle.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMeshUtils.cpp">
+      <Filter>Source Files\navmesh</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\AndroidMediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\MFUtils.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\MediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\MfMediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\VlcMediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\WmfMediaEngine.cpp">
+      <Filter>Source Files\media</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioEngine.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderManager.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoder.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderVorbis.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderOpus.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioPlayer.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioCache.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioEngineImpl.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioEffectsExtension.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderMp3.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderWav.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\axmol.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionPageTurn3D.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionTween.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Grid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\SpriteFrameCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Layer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionCamera.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParticleExamples.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Sprite.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\AnchoredSprite.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Node.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ComponentContainer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionProgressTimer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TweenFunction.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Light.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\AutoPolygon.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\AtlasNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ClippingNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\RenderTexture.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionInterval.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TMXXMLParser.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionInstant.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Label.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Component.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\LabelAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionCatmullRom.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParticleBatchNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ClippingRectangleNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionEase.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Scene.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ProtectedNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TextFieldTTF.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\AnimationCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FastTMXLayer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontAtlasCache.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Font.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParticleSystemQuad.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionGrid3D.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\CameraBackgroundBrush.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FastTMXTiledMap.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\MenuItem.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontFNT.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\SpriteBatchNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TransitionProgress.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\SpriteFrame.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TMXObjectGroup.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Animation.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\NodeGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontFreeType.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Action.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Transition.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TransitionPageTurn.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\FontCharMap.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParticleSystem.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ProgressTimer.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\TileMapAtlas.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionTiledGrid.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionManager.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\MotionStreak.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Menu.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\DrawNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\Camera.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ParallaxNode.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\SpriteSheetLoader.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\PlistSpriteSheetLoader.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\2d\ActionCoroutine.h">
+      <Filter>Source Files\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\Application-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\GL-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\FileUtils-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\StdC-win32.h">
+      <Filter>Source Files\platform\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\RenderViewImpl.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\Application.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\ApplicationBase.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\Common.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\Device.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\FileUtils.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\GL.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\RenderView.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\Image.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\PlatformConfig.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\PlatformDefine.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\PlatformMacros.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\SAXParser.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\StdC.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\IFileStream.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\FileStream.h">
+      <Filter>Source Files\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Vec2.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Mat4.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Quaternion.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\TransformUtils.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Vec4.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\AffineTransform.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Vertex.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Vec3.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\MathBase.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\MathUtil.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Math.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Rect.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\FastRNG.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\math\Color.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\CallbackCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\CustomCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\GroupCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Material.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\MeshCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Pass.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\PipelineDescriptor.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\QuadCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\RenderCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\RenderCommandPool.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Renderer.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\RenderState.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Shaders.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Technique.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\Texture2D.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\TextureAtlas.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\TextureCache.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\TextureCube.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\TrianglesCommand.h">
+      <Filter>Source Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Backend.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Buffer.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\CommandBuffer.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\DepthStencilState.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\DriverBase.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Enums.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Macros.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\PixelBufferDescriptor.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\PixelFormatUtils.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Program.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ProgramManager.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ProgramState.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ProgramStateRegistry.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\RenderPassDescriptor.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\RenderPipeline.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\RenderTarget.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ShaderCache.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\ShaderModule.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Texture.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\Types.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\VertexLayout.h">
+      <Filter>Source Files\renderer\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\OpenGLState.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\BufferGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\CommandBufferGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\CommandBufferGLES2.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\DepthStencilStateGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\DriverGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\MacrosGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\ProgramGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\RenderPipelineGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\RenderTargetGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\ShaderModuleGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\TextureGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\backend\opengl\UtilsGL.h">
+      <Filter>Source Files\renderer\backend\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\astc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\pvr.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\format.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Value.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerMouse.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\atitc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Data.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Macros.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventAcceleration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerKeyboard.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Controller.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Touch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\base64.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\s3tc.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\etc1.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\etc2.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\GameController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Logging.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Constants.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Event.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Types.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Enums.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Random.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Object.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Profiling.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\ObjectFactory.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Properties.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Vector.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventCustom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventKeyboard.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\NinePatchImageParser.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerCustom.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventDispatcher.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Utils.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventController.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\RefPtr.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Director.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerFocus.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\UserDefault.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Config.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\FPSImages.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\ZipUtils.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Map.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\UTF8.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\ScriptSupport.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventFocus.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Configuration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Protocols.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\TGAlib.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventMouse.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\IMEDelegate.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\NS.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\AutoreleasePool.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\StencilStateManager.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerTouch.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListenerAcceleration.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\firePngData.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventListener.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Scheduler.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\EventType.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\IMEDispatcher.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\PaddedString.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\JsonWriter.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\JobSystem.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\AsyncTaskPool.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\Console.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIMediaPlayer.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIEditBox\UIEditBoxImpl-win32.h">
+      <Filter>Source Files\ui\UIEditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\axmol-ui.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\GUIDefine.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\GUIExport.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIAbstractCheckButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UICheckBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\LayoutHelper.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIHBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIHelper.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIImageView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILayout.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILayoutComponent.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILayoutManager.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILayoutParameter.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIListView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UILoadingBar.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIPageView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIPageViewIndicator.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIRadioButton.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIRelativeBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIRichText.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIScale9Sprite.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIScrollView.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIScrollViewBar.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UISlider.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITabControl.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIText.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITextAtlas.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITextBMFont.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITextField.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UITextFieldEx.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIVBox.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\ui\UIWidget.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\Downloader-curl.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\IDownloaderImpl.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\Downloader.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\Uri.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\HttpClient.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\HttpResponse.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\HttpRequest.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\HttpCookie.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\network\WebSocket.h">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\BillBoard.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Frustum.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MeshVertexIndexData.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Plane.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Ray.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Mesh.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Animate3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Terrain.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\AnimationCurve.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MeshRenderer.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MeshMaterial.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\OBB.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Animation3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MotionStreak3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Skybox.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\MeshSkin.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\cocos3d.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\AABB.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Bundle3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\ObjLoader.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Bundle3DData.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\Skeleton3D.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\BundleReader.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\AttachNode.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\VertexAttribBinding.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\3d\3DProgramInfo.h">
+      <Filter>Source Files\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsContact.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsWorld.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsBody.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\cpCompat62.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsShape.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsHelper.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics\PhysicsJoint.h">
+      <Filter>Source Files\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DConstraint.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DShape.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3D.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DWorld.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\PhysicsMeshRenderer.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DObject.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DComponent.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\physics3d\Physics3DDebugDrawer.h">
+      <Filter>Source Files\physics3d</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMeshAgent.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMeshObstacle.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMeshUtils.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMeshDebugDraw.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\navmesh\NavMesh.h">
+      <Filter>Source Files\navmesh</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\AndroidMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\AvfMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\MFUtils.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\MediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\MfMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\VlcMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\media\WmfMediaEngine.h">
+      <Filter>Source Files\media</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\oal_port.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioEngine.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioMacros.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderManager.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoder.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderVorbis.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderOpus.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioPlayer.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioCache.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioEngineImpl.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioEffects.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioEffectsExtension.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderMp3.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\AudioDecoderWav.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\windows-release-vs\engine\axmol\core\CMakeFiles\axmol.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\cameraClear.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\cameraClear.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\color.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\colorNormal.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\colorNormalTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\colorTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\dualSampler.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\dualSampler_gray.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\dualSampler_hsv.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\grayScale.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\hsv.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\label_distanceGlow.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\label_distanceNormal.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\label_distanceOutline.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\label_normal.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\label_outline.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\layer_radialGradient.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\lineColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\lineColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\particle.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\particleColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\particleTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\position.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionColorLengthTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionColorLengthTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionColorTextureAsPointsize.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionNormalTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionTexture3D.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionTextureColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionTextureColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionTextureColorAlphaTest.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionTextureInstance.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\positionUColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\quadColor.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\quadColor.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\quadTexture.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\quadTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\skinPositionNormalTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\skinPositionTexture.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\skybox.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\skybox.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\terrain.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\terrain.vert">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\videoTextureBGRA.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\videoTextureI420.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\videoTextureNV12.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\renderer\shaders\videoTextureYUY2.frag">
+      <Filter>Source Files\renderer\shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\core\axmol.natvis" />
+    <Natvis Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\tsl-robin-map.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{6C97346E-DB07-3E41-B51A-C1D88FA6C110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C30CC49-B57B-3FC4-B923-8B5F8F35B8CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2d">
+      <UniqueIdentifier>{5FBC103C-FF44-3F5A-BA18-C24943D63602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3d">
+      <UniqueIdentifier>{BB173552-6AA9-3743-95AF-5122DFE605F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{18AF1FF7-0B20-38C9-A921-712C1D88780C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{64EBA0CB-B64E-32E0-ACE4-6AE161729E7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{4CB91431-B414-36FE-96C5-BAF9D4596C49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\media">
+      <UniqueIdentifier>{2FBDCF91-8745-3156-B35E-B50D55375FF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\navmesh">
+      <UniqueIdentifier>{6B9E5706-3B8A-373E-A216-6D2E1CA51B14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{75042DCE-A72D-3E62-9C6D-13700F5B67F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics">
+      <UniqueIdentifier>{55D8F104-8777-351B-B0D1-8BC5C69FD702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physics3d">
+      <UniqueIdentifier>{DFDB5EA7-B629-3481-8DE8-A62F3BAFBD56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform">
+      <UniqueIdentifier>{2A91D936-469A-310D-86E6-E164A83D731D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\desktop">
+      <UniqueIdentifier>{B448770C-C233-3021-99DE-405D32B42310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform\win32">
+      <UniqueIdentifier>{69FE23C3-F0EE-3F88-BC71-41FF75B43FDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{798CB662-F63C-310F-896F-B8CD7C1445A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\backend">
+      <UniqueIdentifier>{F83079F5-01CA-3266-8141-97B4CB7C71C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\backend\opengl">
+      <UniqueIdentifier>{B018156B-3BE6-3A6A-8946-6CDC2099233E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer\shaders">
+      <UniqueIdentifier>{BDA93BC2-160B-32F4-8B59-70DC15A8B64D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{69C59EA6-E444-3B6F-9BBB-0BE1071E669A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\UIEditBox">
+      <UniqueIdentifier>{46617961-0588-34F6-87DC-054E9967EDB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^N:\JOGO\BUILD\WINDOWS-RELEASE-VS\CMAKEFILES\1F2B77F8B3C750BA635359C805DE0ED9\GENERATE.STAMP.RULE
+setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file N:/jogo/build/windows-release-vs/NinjaResourceProbe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

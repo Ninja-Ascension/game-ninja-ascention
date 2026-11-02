@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2E607C09-C7FD-38AD-9C5C-AC568BFEB796}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>freetype</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\freetype.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">freetype.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">freetype</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include\freetype\config;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/zlib/_x/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FT2_BUILD_LIBRARY;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FT2_BUILD_LIBRARY;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include\freetype\config;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FT2_BUILD_LIBRARY;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include\freetype\config;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include\freetype\config\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FT2_BUILD_LIBRARY;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include\freetype\config;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/freetype/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-file N:/jogo/build/windows-release-vs/engine/3rdparty/freetype/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakePushCheckState.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CPack.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CPackComponent.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckSymbolExists.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPNG.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindZLIB.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\CPackConfig.cmake.in;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;N:\jogo\build\windows-release-vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\freetype.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftadvanc.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftbbox.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftbdf.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftbitmap.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftbzip2.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftcache.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftchapters.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftcid.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftcolor.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftdriver.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\fterrdef.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\fterrors.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftfntfmt.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftgasp.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftglyph.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftgxval.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftgzip.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftimage.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftincrem.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftlcdfil.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftlist.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftlogging.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftlzw.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftmac.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftmm.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftmodapi.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftmoderr.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftotval.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftoutln.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftparams.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftpfr.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftrender.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftsizes.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftsnames.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftstroke.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftsynth.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftsystem.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\fttrigon.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\fttypes.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ftwinfnt.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\otsvg.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\t1tables.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\ttnameid.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\tttables.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\tttags.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\ft2build.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\config\ftconfig.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\config\ftheader.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\config\ftmodule.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\config\ftoption.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\config\ftstdlib.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\config\integer-types.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\config\mac-support.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\config\public-macros.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\autohint.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\cffotypes.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\cfftypes.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\compiler-macros.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftcalc.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftdebug.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftdrv.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftgloadr.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\fthash.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftmemory.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftmmtypes.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftobjs.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftpsprop.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftrfork.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftserv.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftstream.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\fttrace.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\ftvalid.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\psaux.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\pshints.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\sfnt.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\svginterface.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\t1types.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\tttypes.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\freetype\internal\wofftypes.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\autofit\autofit.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftbase.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftbbox.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftbdf.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftbitmap.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftcid.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftfstype.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftgasp.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftglyph.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftgxval.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftinit.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftmm.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftotval.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftpatent.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftpfr.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftstroke.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftsynth.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\fttype1.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftwinfnt.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\bdf\bdf.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\bzip2\ftbzip2.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\cache\ftcache.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\cff\cff.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\cid\type1cid.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\gzip\ftgzip.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\lzw\ftlzw.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\pcf\pcf.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\pfr\pfr.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\psaux\psaux.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\pshinter\pshinter.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\psnames\psnames.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\raster\raster.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\sdf\sdf.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\sfnt\sfnt.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\smooth\smooth.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\svg\svg.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\truetype\truetype.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\type1\type1.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\type42\type42.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\winfonts\winfnt.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\builds\windows\ftsystem.c" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\builds\windows\ftdebug.c" />
+    <ResourceCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\src\base\ftver.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\ZERO_CHECK.vcxproj">
+      <Project>{A4336ABE-DE98-3D9C-A3D4-127E262B5DCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\png\png.vcxproj">
+      <Project>{0C0360F0-E546-3232-BC6E-AB0974EB252A}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

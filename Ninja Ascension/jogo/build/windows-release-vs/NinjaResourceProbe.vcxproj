@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D312B6E8-6C1B-3D34-83F0-D62C554E97F6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>NinjaResourceProbe</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="N:\jogo\build\windows-release-vs\NinjaResourceProbe.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\bin\NinjaResourceProbe\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NinjaResourceProbe.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NinjaResourceProbe</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting\lua-bindings\manual;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\tolua\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\lua-cjson\.;N:\jogo\build\deps\axmol-pinned-v2.11.5;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting;N:\jogo\build\deps\axmol-pinned-v2.11.5\core;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src;N:\jogo\port\native;N:\jogo\build\deps\spine-pinned-2.1.25\spine-c\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Inspector\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src\ImGui;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\assets-manager\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/lua/luajit/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/zlib/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/jpeg-turbo/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/openssl/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/curl/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/opus/_x/include" /Zc:char8_t- /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NR_ROOT="N:/";USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NR_ROOT=\"N:/\";USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting\lua-bindings\manual;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\tolua\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\lua-cjson\.;N:\jogo\build\deps\axmol-pinned-v2.11.5;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting;N:\jogo\build\deps\axmol-pinned-v2.11.5\core;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src;N:\jogo\port\native;N:\jogo\build\deps\spine-pinned-2.1.25\spine-c\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Inspector\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src\ImGui;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\assets-manager\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\luajit\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NR_ROOT="N:/";USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+      <IncludePaths>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting\lua-bindings\manual;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\tolua\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\lua-cjson\.;N:\jogo\build\deps\axmol-pinned-v2.11.5;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting;N:\jogo\build\deps\axmol-pinned-v2.11.5\core;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src;N:\jogo\port\native;N:\jogo\build\deps\spine-pinned-2.1.25\spine-c\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Inspector\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src\ImGui;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\assets-manager\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\luajit\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8 /MP /Zm2000</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting\lua-bindings\manual\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\tolua\.\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\lua-cjson\.\;N:\jogo\build\deps\axmol-pinned-v2.11.5\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include\;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src\;N:\jogo\port\native\;N:\jogo\build\deps\spine-pinned-2.1.25\spine-c\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Inspector\src\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src\ImGui\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\assets-manager\src\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\luajit\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>i;m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NR_ROOT="N:/";USING_LUAJIT=1;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting\lua-bindings\manual;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\tolua\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\lua-cjson\.;N:\jogo\build\deps\axmol-pinned-v2.11.5;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting;N:\jogo\build\deps\axmol-pinned-v2.11.5\core;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\cocostudio\src;N:\jogo\port\native;N:\jogo\build\deps\spine-pinned-2.1.25\spine-c\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Inspector\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src\ImGui;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\ImGui\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\assets-manager\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\luajit\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>			</Message>
+      <Command>setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -E copy_if_different N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/zlib/_x/lib/win32/x64/zlib1.dll N:/jogo/build/windows-release-vs/bin/NinjaResourceProbe/Release/zlib1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -E copy_if_different N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/lua/luajit/_x/lib/win32/x64/lua51.dll N:/jogo/build/windows-release-vs/bin/NinjaResourceProbe/Release/lua51.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -E copy N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/zlib/_x/lib/win32/x64/zlib1.dll N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/lua/luajit/_x/lib/win32/x64/lua51.dll N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/openssl/_x/lib/win32/x64/libssl-3-x64.dll N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/openssl/_x/lib/win32/x64/libcrypto-3-x64.dll N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/curl/_x/lib/win32/x64/libcurl.dll N:/jogo/build/windows-release-vs/bin/Release/OpenAL32.dll N:/jogo/build/windows-release-vs/bin/NinjaResourceProbe/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -E copy_if_different N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/angle/_x/lib/win32/x64/libGLESv2.dll N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/angle/_x/lib/win32/x64/libEGL.dll N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/angle/_x/lib/win32/x64/d3dcompiler_47.dll N:/jogo/build/windows-release-vs/bin/NinjaResourceProbe/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>lib\Release\axlua.lib;lib\Release\cocostudio.lib;Release\nr_layout.lib;Release\nr_spine21.lib;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\lib\win32\x64\zlib.lib;lib\Release\Inspector.lib;lib\Release\ImGui.lib;lib\Release\particle3d.lib;lib\Release\assets-manager.lib;lib\Release\GUI.lib;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\lua\luajit\_x\lib\win32\x64\lua51.lib;lib\Release\tolua.lib;lib\Release\lua-cjson.lib;lib\Release\axmol.lib;ws2_32.lib;userenv.lib;psapi.lib;winmm.lib;Version.lib;Iphlpapi.lib;lib\Release\fmt.lib;lib\Release\websocket-parser.lib;lib\Release\box2d.lib;lib\Release\chipmunk.lib;lib\Release\freetype.lib;lib\Release\png.lib;lib\Release\recast.lib;lib\Release\bullet.lib;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\lib\win32\x64\jpeg-static.lib;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\lib\win32\x64\libssl.lib;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\lib\win32\x64\libcrypto.lib;lib\Release\webp.lib;lib\Release\pugixml.lib;lib\Release\xxhash.lib;lib\Release\fastlz.lib;lib\Release\clipper2.lib;lib\Release\ConvertUTF.lib;lib\Release\poly2tri.lib;lib\Release\astcenc.lib;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\lib\win32\x64\libcurl_imp.lib;lib\Release\alcommon.lib;lib\Release\OpenAL32.lib;lib\Release\ogg.lib;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\lib\win32\x64\opus.lib;lib\Release\glad.lib;lib\Release\glfw.lib;lib\Release\unzip.lib;lib\Release\llhttp.lib;lib\Release\yasio.lib;lib\Release\simdjson.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DelayLoadDLLs>mf.dll;mfplat.dll</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>N:/jogo/build/windows-release-vs/Release/NinjaResourceProbe.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>N:/jogo/build/windows-release-vs/bin/NinjaResourceProbe/Release/NinjaResourceProbe.pdb</ProgramDataBaseFile>
+      <StackReserveSize>4194304</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\port\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/jogo/port/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-file N:/jogo/build/windows-release-vs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeASMCompiler.cmake.in;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeASMInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeASM_MASMInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeASM_NASMInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXCompiler.cmake.in;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXCompilerABI.cpp;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineASMCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineASM_MASMCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineASM_NASMCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineCXXCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeTestASMCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeTestASM_MASMCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeTestCXXCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeASMLinkerInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeASM_MASMLinkerInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeASM_NASMLinkerInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Determine-CXX.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;N:\jogo\build\deps\axmol-pinned-v2.11.5\1k\platforms.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\cmake\Modules\AXBuildHelpers.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\cmake\Modules\AXBuildSet.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\cmake\Modules\AXConfigDefine.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\cmake\Modules\AXConfigDepend.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\cmake\Modules\AXSLCC.cmake;N:\jogo\build\windows-release-vs\CMakeFiles\3.31.6\CMakeASM_MASMCompiler.cmake;N:\jogo\build\windows-release-vs\CMakeFiles\3.31.6\CMakeASM_NASMCompiler.cmake;N:\jogo\build\windows-release-vs\CMakeFiles\3.31.6\CMakeCCompiler.cmake;N:\jogo\build\windows-release-vs\CMakeFiles\3.31.6\CMakeCXXCompiler.cmake;N:\jogo\build\windows-release-vs\CMakeFiles\3.31.6\CMakeRCCompiler.cmake;N:\jogo\build\windows-release-vs\CMakeFiles\3.31.6\CMakeSystem.cmake;N:\jogo\build\windows-release-vs\CMakeFiles\cmake.verify_globs;N:\jogo\port\native\NinjaAscension.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="N:\jogo\port\native\ResourceProbe.cpp" />
+    <ClCompile Include="N:\jogo\port\native\LayoutEditor.cpp" />
+    <ClCompile Include="N:\jogo\port\native\LegacyCharacter.cpp" />
+    <ClCompile Include="N:\jogo\port\native\LocalBattle.cpp" />
+    <ClCompile Include="N:\jogo\port\native\protocol\NinjaProtoNatives.cpp" />
+    <ResourceCompile Include="N:\jogo\build\windows-release-vs\NinjaAscension.rc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\ZERO_CHECK.vcxproj">
+      <Project>{A4336ABE-DE98-3D9C-A3D4-127E262B5DCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{C5F0B95B-3F0B-3F6A-9C16-C79D4994D670}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\extensions\GUI\GUI.vcxproj">
+      <Project>{BEE2C28F-2BA2-3ED4-AF85-229A55E629C4}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\extensions\ImGui\ImGui.vcxproj">
+      <Project>{860C32BE-3EFC-3548-832E-D0AB9A77966D}</Project>
+      <Name>ImGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\extensions\Inspector\Inspector.vcxproj">
+      <Project>{CA31B8B3-C46A-3CC5-9F31-E1A4F2C7158E}</Project>
+      <Name>Inspector</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\openal\OpenAL.vcxproj">
+      <Project>{1088D317-0FE0-3CA0-A709-857B84E596B0}</Project>
+      <Name>OpenAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\SYNC_RESOURCE-NinjaResourceProbe-axslc.vcxproj">
+      <Project>{6C1E7F58-6570-38CA-BD61-B58EC6270BC5}</Project>
+      <Name>SYNC_RESOURCE-NinjaResourceProbe-axslc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\openal\alcommon.vcxproj">
+      <Project>{C09F3B2D-9680-3AA1-8670-F55335E9D168}</Project>
+      <Name>alcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\extensions\assets-manager\assets-manager.vcxproj">
+      <Project>{444F7CB3-EEAD-31D9-849F-5E95BD9E725B}</Project>
+      <Name>assets-manager</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\astcenc\astcenc.vcxproj">
+      <Project>{CCD29441-C648-3E78-9888-A1940C853714}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\extensions\scripting\lua-bindings\axlua.vcxproj">
+      <Project>{31E4852C-AFA6-324E-A6A8-439BDEBDBB1C}</Project>
+      <Name>axlua</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\axmol\core\axmol.vcxproj">
+      <Project>{3EF8231A-D7AA-3712-976D-26FC53075168}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\box2d\box2d.vcxproj">
+      <Project>{54069B2B-2791-31DB-80C1-CABEE1C47B79}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\bullet\bullet.vcxproj">
+      <Project>{5D86426B-6EA5-3719-9BF7-ECB9A0E2E937}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{A6BBE385-024E-34A5-A0D7-8E2264CB7EED}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\clipper2\clipper2.vcxproj">
+      <Project>{7B28A86C-DCD9-3A17-875F-A90F128A6470}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\extensions\cocostudio\cocostudio.vcxproj">
+      <Project>{BE16F929-AA4D-37FC-8C72-DFB497F4CFE2}</Project>
+      <Name>cocostudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\doctest\doctest.vcxproj">
+      <Project>{6B7D5316-3A00-379D-B82C-8D4540A96BCC}</Project>
+      <Name>doctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\fastlz\fastlz.vcxproj">
+      <Project>{DDB7260C-53DC-3890-89F3-62A8390A668C}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\fmt\fmt.vcxproj">
+      <Project>{B770E448-28DE-3B95-A495-5CD2D917D912}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\freetype.vcxproj">
+      <Project>{2E607C09-C7FD-38AD-9C5C-AC568BFEB796}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\glad\glad.vcxproj">
+      <Project>{7ED08A8B-5BA2-377E-A33E-72BDF465E27F}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{8E7B0EC5-4C48-3AC0-9C8B-C9D842A9B71E}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\llhttp\llhttp.vcxproj">
+      <Project>{08EFE9A7-E77A-3BB1-A7A3-411ADFC39C18}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\lua\lua-cjson\lua-cjson.vcxproj">
+      <Project>{E4434E65-D903-3DE6-8358-E49FFAD7D6A9}</Project>
+      <Name>lua-cjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\nr_layout.vcxproj">
+      <Project>{1ACFC432-D7DE-33A4-B624-9AD064E81403}</Project>
+      <Name>nr_layout</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\nr_spine21.vcxproj">
+      <Project>{870EB41C-3C9E-3408-95CD-214561B9CC3D}</Project>
+      <Name>nr_spine21</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\ogg\ogg.vcxproj">
+      <Project>{8B4D1A54-580B-3477-819E-6930C522B47B}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\extensions\Particle3D\particle3d.vcxproj">
+      <Project>{3B59B66E-E9D9-32A5-B18A-8EEF8AAEEB00}</Project>
+      <Name>particle3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\png\png.vcxproj">
+      <Project>{0C0360F0-E546-3232-BC6E-AB0974EB252A}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{CCD17030-FA4C-3421-9F06-4B16776599E5}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\pugixml\pugixml.vcxproj">
+      <Project>{299B6CD7-AC07-3402-994E-78A3F3472A87}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\recast\recast.vcxproj">
+      <Project>{0423995A-255F-399E-91D7-96ADD3DCACBC}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\simdjson\simdjson.vcxproj">
+      <Project>{3FC55229-D0B8-34AD-BF4D-161D764D4E4E}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\lua\tolua\tolua.vcxproj">
+      <Project>{B476A48F-0362-3849-9892-5855E9CF4A46}</Project>
+      <Name>tolua</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\unzip\unzip.vcxproj">
+      <Project>{ECDF878B-A845-3DDA-975D-A4FC20868980}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\webp\webp.vcxproj">
+      <Project>{373A8B58-DB85-3710-BCD3-C58E9E918605}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{E4044DA1-21B0-30D4-838F-5448C56ADB17}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\xxhash\xxhash.vcxproj">
+      <Project>{E171D637-6065-383A-B860-83034CCCA3D1}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\yasio\yasio.vcxproj">
+      <Project>{71713575-A2AB-33E3-9BF0-376E4C72867D}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

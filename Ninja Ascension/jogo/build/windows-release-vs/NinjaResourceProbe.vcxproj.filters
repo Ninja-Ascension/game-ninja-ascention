@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="N:\jogo\port\native\ResourceProbe.cpp">
+      <Filter>Source Files\native</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\port\native\LayoutEditor.cpp">
+      <Filter>Source Files\native</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\port\native\LegacyCharacter.cpp">
+      <Filter>Source Files\native</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\port\native\LocalBattle.cpp">
+      <Filter>Source Files\native</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\port\native\protocol\NinjaProtoNatives.cpp">
+      <Filter>Source Files\native\protocol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\port\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="N:\jogo\build\windows-release-vs\NinjaAscension.rc">
+      <Filter>Source Files\..\build\windows-release-vs</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C30CC49-B57B-3FC4-B923-8B5F8F35B8CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..">
+      <UniqueIdentifier>{DEEC0052-82A2-331B-8693-B5ECE51EE610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\build">
+      <UniqueIdentifier>{FE8171AD-49E2-3E96-9F55-43821BE892A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\build\windows-release-vs">
+      <UniqueIdentifier>{99E8A005-3B39-3877-8BBA-6D60B214A3BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\native">
+      <UniqueIdentifier>{9BCC6BB3-4B09-3D5E-B163-6569AE3F96C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\native\protocol">
+      <UniqueIdentifier>{1367D9A1-2A08-336C-89FA-D33883D07026}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B59B66E-E9D9-32A5-B18A-8EEF8AAEEB00}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>particle3d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="N:\jogo\build\windows-release-vs\engine\extensions\Particle3D\particle3d.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">particle3d.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">particle3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src;N:\jogo\build\deps\axmol-pinned-v2.11.5;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting;N:\jogo\build\deps\axmol-pinned-v2.11.5\core;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/zlib/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/jpeg-turbo/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/openssl/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/curl/_x/include" /external:I "N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/opus/_x/include" /Zc:char8_t- /utf-8 /Zm2000</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src;N:\jogo\build\deps\axmol-pinned-v2.11.5;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting;N:\jogo\build\deps\axmol-pinned-v2.11.5\core;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+      <IncludePaths>N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src;N:\jogo\build\deps\axmol-pinned-v2.11.5;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting;N:\jogo\build\deps\axmol-pinned-v2.11.5\core;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8 /MP /Zm2000</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\;N:\jogo\build\deps\axmol-pinned-v2.11.5\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio\;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include\;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\include\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /MP</AdditionalOptions>
+      <ErrorReporting>m2000</ErrorReporting>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NTCVT_CP_DEFAULT=CP_UTF8;AX_ENABLE_MFMEDIA=1;AX_ENABLE_PHYSICS=1;AX_ENABLE_3D=1;AX_ENABLE_3D_PHYSICS=1;AX_ENABLE_NAVMESH=1;AX_ENABLE_MEDIA=1;AX_ENABLE_AUDIO=1;AX_ENABLE_CONSOLE=1;AX_GLES_PROFILE=300;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;AX_SSE_INTRINSICS=1;__SSE4_1__=1;ZLIB_DLL=1;PNG_INTEL_SSE_OPT=1;CP_USE_CGTYPES=0;CP_USE_DOUBLES=0;BT_USE_SSE_IN_API=1;OPENSSL_SUPPRESS_DEPRECATED=1;P2T_STATIC_EXPORTS;ASTCENC_NEON=0;ASTCENC_SSE=41;ASTCENC_AVX=0;ASTCENC_POPCNT=1;ASTCENC_F16C=0;AX_ENABLE_OPUS=1;NOUNCRYPT=1;YASIO_SSL_BACKEND=1;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src;N:\jogo\build\deps\axmol-pinned-v2.11.5;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty;N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\scripting;N:\jogo\build\deps\axmol-pinned-v2.11.5\core;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\base;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\audio;N:\jogo\build\deps\axmol-pinned-v2.11.5\core\platform\win32;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\robin-map\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include\GLFW;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fmt\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\websocket-parser;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\png;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\box2d\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\chipmunk\include;N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\bullet\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\webp\src\webp;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\pugixml;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\xxhash\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\fastlz;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\clipper2\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ConvertUTF\.;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\poly2tri\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\astcenc\..;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\AL;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\ogg\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include\opus;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glad\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\glfw\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\unzip;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\llhttp\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\zlib\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\jpeg-turbo\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\curl\_x\include;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\opus\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/jogo/build/deps/axmol-pinned-v2.11.5/extensions/Particle3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-file N:/jogo/build/windows-release-vs/engine/extensions/Particle3D/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;N:\jogo\build\windows-release-vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\engine\extensions\Particle3D\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAffectorManager.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAffectorManager.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAlignAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAlignAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAlignAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUAlignAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBaseCollider.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBaseCollider.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBaseColliderTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBaseColliderTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBaseForceAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBaseForceAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBaseForceAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBaseForceAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBeamRender.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBeamRender.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBehaviour.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBehaviour.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBehaviourManager.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBehaviourManager.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBehaviourTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBehaviourTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBillboardChain.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBillboardChain.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBoxCollider.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBoxCollider.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBoxColliderTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBoxColliderTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBoxEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBoxEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBoxEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUBoxEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUCircleEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUCircleEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUCircleEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUCircleEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUCollisionAvoidanceAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUCollisionAvoidanceAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUCollisionAvoidanceAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUCollisionAvoidanceAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUColorAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUColorAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUColorAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUColorAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoAffectorEventHandler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoAffectorEventHandler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoAffectorEventHandlerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoAffectorEventHandlerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoEnableComponentEventHandler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoEnableComponentEventHandler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoEnableComponentEventHandlerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoEnableComponentEventHandlerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoExpireEventHandler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoExpireEventHandler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoExpireEventHandlerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoExpireEventHandlerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoFreezeEventHandler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoFreezeEventHandler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoFreezeEventHandlerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoFreezeEventHandlerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoPlacementParticleEventHandler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoPlacementParticleEventHandler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoPlacementParticleEventHandlerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoPlacementParticleEventHandlerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoScaleEventHandler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoScaleEventHandler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoScaleEventHandlerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoScaleEventHandlerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoStopSystemEventHandler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoStopSystemEventHandler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoStopSystemEventHandlerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDoStopSystemEventHandlerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDynamicAttribute.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDynamicAttribute.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDynamicAttributeTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUDynamicAttributeTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEmitterManager.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEmitterManager.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEventHandler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEventHandler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEventHandlerManager.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEventHandlerManager.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEventHandlerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUEventHandlerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUFlockCenteringAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUFlockCenteringAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUFlockCenteringAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUFlockCenteringAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUForceField.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUForceField.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUForceFieldAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUForceFieldAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUForceFieldAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUForceFieldAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUGeometryRotator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUGeometryRotator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUGeometryRotatorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUGeometryRotatorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUGravityAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUGravityAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUGravityAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUGravityAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUInterParticleCollider.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUInterParticleCollider.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUInterParticleColliderTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUInterParticleColliderTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUJetAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUJetAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUJetAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUJetAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULineAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULineAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULineAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULineAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULineEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULineEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULineEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULineEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULinearForceAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULinearForceAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULinearForceAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PULinearForceAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUListener.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUListener.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUMaterialManager.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUMaterialManager.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUMaterialTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUMaterialTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUMeshSurfaceEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUMeshSurfaceEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUMeshSurfaceEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUMeshSurfaceEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUNoise.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUNoise.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUObserverManager.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUObserverManager.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnClearObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnClearObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnClearObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnClearObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnCollisionObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnCollisionObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnCollisionObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnCollisionObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnCountObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnCountObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnCountObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnCountObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnEmissionObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnEmissionObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnEmissionObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnEmissionObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnEventFlagObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnEventFlagObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnEventFlagObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnEventFlagObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnExpireObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnExpireObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnExpireObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnExpireObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnPositionObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnPositionObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnPositionObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnPositionObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnQuotaObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnQuotaObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnQuotaObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnQuotaObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnRandomObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnRandomObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnRandomObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnRandomObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnTimeObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnTimeObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnTimeObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnTimeObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnVelocityObserver.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnVelocityObserver.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnVelocityObserverTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUOnVelocityObserverTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUParticleFollower.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUParticleFollower.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUParticleFollowerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUParticleFollowerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUParticleSystem3D.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUParticleSystem3D.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUParticleSystem3DTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUParticleSystem3DTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPathFollower.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPathFollower.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPathFollowerTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPathFollowerTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPlane.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPlane.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPlaneCollider.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPlaneCollider.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPlaneColliderTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPlaneColliderTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPointEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPointEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPointEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPointEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPositionEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPositionEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPositionEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUPositionEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURandomiser.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURandomiser.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURandomiserTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURandomiserTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURender.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURender.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURendererTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURendererTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURibbonTrail.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURibbonTrail.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURibbonTrailRender.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PURibbonTrailRender.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScaleAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScaleAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScaleAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScaleAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScaleVelocityAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScaleVelocityAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScaleVelocityAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScaleVelocityAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScriptCompiler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScriptCompiler.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScriptLexer.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScriptLexer.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScriptParser.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScriptParser.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScriptTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUScriptTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSimpleSpline.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSimpleSpline.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSineForceAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSineForceAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSineForceAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSineForceAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSlaveBehaviour.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSlaveBehaviour.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSlaveBehaviourTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSlaveBehaviourTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSlaveEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSlaveEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSlaveEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSlaveEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphere.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphere.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphereCollider.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphereCollider.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphereColliderTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphereColliderTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphereSurfaceEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphereSurfaceEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphereSurfaceEmitterTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUSphereSurfaceEmitterTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTechniqueTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTechniqueTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTextureAnimator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTextureAnimator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTextureAnimatorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTextureAnimatorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTextureRotator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTextureRotator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTextureRotatorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTextureRotatorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTranslateManager.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUTranslateManager.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUUtil.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUUtil.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVelocityMatchingAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVelocityMatchingAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVelocityMatchingAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVelocityMatchingAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVertexEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVertexEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVortexAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVortexAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVortexAffectorTranslator.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\PU\PUVortexAffectorTranslator.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\Particle3DAffector.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\Particle3DAffector.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\Particle3DEmitter.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\Particle3DEmitter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\Particle3DRender.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\Particle3DRender.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\ParticleSystem3D.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\Particle3D\src\Particle3D\ParticleSystem3D.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\ZERO_CHECK.vcxproj">
+      <Project>{A4336ABE-DE98-3D9C-A3D4-127E262B5DCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{C5F0B95B-3F0B-3F6A-9C16-C79D4994D670}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\openal\OpenAL.vcxproj">
+      <Project>{1088D317-0FE0-3CA0-A709-857B84E596B0}</Project>
+      <Name>OpenAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\openal\alcommon.vcxproj">
+      <Project>{C09F3B2D-9680-3AA1-8670-F55335E9D168}</Project>
+      <Name>alcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\astcenc\astcenc.vcxproj">
+      <Project>{CCD29441-C648-3E78-9888-A1940C853714}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\axmol\core\axmol.vcxproj">
+      <Project>{3EF8231A-D7AA-3712-976D-26FC53075168}</Project>
+      <Name>axmol</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\box2d\box2d.vcxproj">
+      <Project>{54069B2B-2791-31DB-80C1-CABEE1C47B79}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\bullet\bullet.vcxproj">
+      <Project>{5D86426B-6EA5-3719-9BF7-ECB9A0E2E937}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{A6BBE385-024E-34A5-A0D7-8E2264CB7EED}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\clipper2\clipper2.vcxproj">
+      <Project>{7B28A86C-DCD9-3A17-875F-A90F128A6470}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\doctest\doctest.vcxproj">
+      <Project>{6B7D5316-3A00-379D-B82C-8D4540A96BCC}</Project>
+      <Name>doctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\fastlz\fastlz.vcxproj">
+      <Project>{DDB7260C-53DC-3890-89F3-62A8390A668C}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\fmt\fmt.vcxproj">
+      <Project>{B770E448-28DE-3B95-A495-5CD2D917D912}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\freetype.vcxproj">
+      <Project>{2E607C09-C7FD-38AD-9C5C-AC568BFEB796}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\glad\glad.vcxproj">
+      <Project>{7ED08A8B-5BA2-377E-A33E-72BDF465E27F}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{8E7B0EC5-4C48-3AC0-9C8B-C9D842A9B71E}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\llhttp\llhttp.vcxproj">
+      <Project>{08EFE9A7-E77A-3BB1-A7A3-411ADFC39C18}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\ogg\ogg.vcxproj">
+      <Project>{8B4D1A54-580B-3477-819E-6930C522B47B}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\png\png.vcxproj">
+      <Project>{0C0360F0-E546-3232-BC6E-AB0974EB252A}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{CCD17030-FA4C-3421-9F06-4B16776599E5}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\pugixml\pugixml.vcxproj">
+      <Project>{299B6CD7-AC07-3402-994E-78A3F3472A87}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\recast\recast.vcxproj">
+      <Project>{0423995A-255F-399E-91D7-96ADD3DCACBC}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\simdjson\simdjson.vcxproj">
+      <Project>{3FC55229-D0B8-34AD-BF4D-161D764D4E4E}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\unzip\unzip.vcxproj">
+      <Project>{ECDF878B-A845-3DDA-975D-A4FC20868980}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\webp\webp.vcxproj">
+      <Project>{373A8B58-DB85-3710-BCD3-C58E9E918605}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{E4044DA1-21B0-30D4-838F-5448C56ADB17}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\xxhash\xxhash.vcxproj">
+      <Project>{E171D637-6065-383A-B860-83034CCCA3D1}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\yasio\yasio.vcxproj">
+      <Project>{71713575-A2AB-33E3-9BF0-376E4C72867D}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

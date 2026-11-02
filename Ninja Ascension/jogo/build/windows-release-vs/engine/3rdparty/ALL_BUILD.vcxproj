@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7833171C-4530-3B59-9A44-D40CE4F7C6B8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="N:\jogo\build\windows-release-vs\engine\3rdparty\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-file N:/jogo/build/windows-release-vs/engine/3rdparty/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;N:\jogo\build\deps\axmol-pinned-v2.11.5\1k\fetch.cmake;N:\jogo\build\windows-release-vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\engine\3rdparty\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\ZERO_CHECK.vcxproj">
+      <Project>{A4336ABE-DE98-3D9C-A3D4-127E262B5DCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\ConvertUTF\ConvertUTF.vcxproj">
+      <Project>{C5F0B95B-3F0B-3F6A-9C16-C79D4994D670}</Project>
+      <Name>ConvertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\astcenc\astcenc.vcxproj">
+      <Project>{CCD29441-C648-3E78-9888-A1940C853714}</Project>
+      <Name>astcenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\box2d\box2d.vcxproj">
+      <Project>{54069B2B-2791-31DB-80C1-CABEE1C47B79}</Project>
+      <Name>box2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\bullet\bullet.vcxproj">
+      <Project>{5D86426B-6EA5-3719-9BF7-ECB9A0E2E937}</Project>
+      <Name>bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\chipmunk\src\chipmunk.vcxproj">
+      <Project>{A6BBE385-024E-34A5-A0D7-8E2264CB7EED}</Project>
+      <Name>chipmunk</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\clipper2\clipper2.vcxproj">
+      <Project>{7B28A86C-DCD9-3A17-875F-A90F128A6470}</Project>
+      <Name>clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\doctest\doctest.vcxproj">
+      <Project>{6B7D5316-3A00-379D-B82C-8D4540A96BCC}</Project>
+      <Name>doctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\fastlz\fastlz.vcxproj">
+      <Project>{DDB7260C-53DC-3890-89F3-62A8390A668C}</Project>
+      <Name>fastlz</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\fmt\fmt.vcxproj">
+      <Project>{B770E448-28DE-3B95-A495-5CD2D917D912}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\freetype\freetype.vcxproj">
+      <Project>{2E607C09-C7FD-38AD-9C5C-AC568BFEB796}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\glad\glad.vcxproj">
+      <Project>{7ED08A8B-5BA2-377E-A33E-72BDF465E27F}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{8E7B0EC5-4C48-3AC0-9C8B-C9D842A9B71E}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\llhttp\llhttp.vcxproj">
+      <Project>{08EFE9A7-E77A-3BB1-A7A3-411ADFC39C18}</Project>
+      <Name>llhttp</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\lua\lua-cjson\lua-cjson.vcxproj">
+      <Project>{E4434E65-D903-3DE6-8358-E49FFAD7D6A9}</Project>
+      <Name>lua-cjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\ogg\ogg.vcxproj">
+      <Project>{8B4D1A54-580B-3477-819E-6930C522B47B}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\png\png.vcxproj">
+      <Project>{0C0360F0-E546-3232-BC6E-AB0974EB252A}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\poly2tri\poly2tri.vcxproj">
+      <Project>{CCD17030-FA4C-3421-9F06-4B16776599E5}</Project>
+      <Name>poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\pugixml\pugixml.vcxproj">
+      <Project>{299B6CD7-AC07-3402-994E-78A3F3472A87}</Project>
+      <Name>pugixml</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\recast\recast.vcxproj">
+      <Project>{0423995A-255F-399E-91D7-96ADD3DCACBC}</Project>
+      <Name>recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\simdjson\simdjson.vcxproj">
+      <Project>{3FC55229-D0B8-34AD-BF4D-161D764D4E4E}</Project>
+      <Name>simdjson</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\lua\tolua\tolua.vcxproj">
+      <Project>{B476A48F-0362-3849-9892-5855E9CF4A46}</Project>
+      <Name>tolua</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\unzip\unzip.vcxproj">
+      <Project>{ECDF878B-A845-3DDA-975D-A4FC20868980}</Project>
+      <Name>unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\webp\webp.vcxproj">
+      <Project>{373A8B58-DB85-3710-BCD3-C58E9E918605}</Project>
+      <Name>webp</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\websocket-parser\websocket-parser.vcxproj">
+      <Project>{E4044DA1-21B0-30D4-838F-5448C56ADB17}</Project>
+      <Name>websocket-parser</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\xxhash\xxhash.vcxproj">
+      <Project>{E171D637-6065-383A-B860-83034CCCA3D1}</Project>
+      <Name>xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\engine\3rdparty\yasio\yasio.vcxproj">
+      <Project>{71713575-A2AB-33E3-9BF0-376E4C72867D}</Project>
+      <Name>yasio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

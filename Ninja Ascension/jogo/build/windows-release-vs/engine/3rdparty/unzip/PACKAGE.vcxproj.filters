@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\windows-release-vs\CMakeFiles\583d2d0205523a067469a4668317bda7\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{51758E82-EBD3-3554-BB80-44984AA80E05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

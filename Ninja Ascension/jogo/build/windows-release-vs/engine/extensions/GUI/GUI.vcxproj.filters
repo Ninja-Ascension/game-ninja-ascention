@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\Control.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlButton.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlColourPicker.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlHuePicker.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlPotentiometer.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlSaturationBrightnessPicker.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlSlider.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlStepper.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlSwitch.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlUtils.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\Invocation.cpp">
+      <Filter>ControlExtension</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ScrollView\ScrollView.cpp">
+      <Filter>ScrollView</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ScrollView\TableView.cpp">
+      <Filter>ScrollView</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ScrollView\TableViewCell.cpp">
+      <Filter>ScrollView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\Control.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlButton.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlColourPicker.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlExtensions.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlHuePicker.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlPotentiometer.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlSaturationBrightnessPicker.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlSlider.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlStepper.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlSwitch.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\ControlUtils.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ControlExtension\Invocation.h">
+      <Filter>ControlExtension</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ScrollView\ScrollView.h">
+      <Filter>ScrollView</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ScrollView\TableView.h">
+      <Filter>ScrollView</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\src\GUI\ScrollView\TableViewCell.h">
+      <Filter>ScrollView</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\extensions\GUI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ControlExtension">
+      <UniqueIdentifier>{B2B52DD9-FA03-3072-BFAE-1CE88FF02002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScrollView">
+      <UniqueIdentifier>{CD79DEAC-8571-34FF-B2CB-17DEFEC7118A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

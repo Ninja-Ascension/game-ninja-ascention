@@ -1,0 +1,20 @@
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\EXTENSIONS\IMGUI\SHADERS\IMGUI_SPRITE.VERT
+setlocal
+N:\jogo\build\deps\axmol-pinned-v2.11.5\tools\external\axslcc\axslcc.exe --silent --err-format=msvc --lang=gles --profile=300 --automap --no-suffix --include-dirs=N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/shaders --vert=N:/jogo/build/deps/axmol-pinned-v2.11.5/extensions/ImGui/shaders/imgui_sprite.vert --output=N:/jogo/build/windows-release-vs/runtime/axslc/custom/imgui_sprite_vs
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^N:\JOGO\BUILD\DEPS\AXMOL-PINNED-V2.11.5\EXTENSIONS\IMGUI\CMAKELISTS.TXT
+setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-file N:/jogo/build/windows-release-vs/engine/extensions/ImGui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

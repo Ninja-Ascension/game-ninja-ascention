@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>N:\jogo\build\windows-release-vs\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>N:\jogo\build\windows-release-vs\bin\Release\OpenAL32.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>N:\jogo\build\windows-release-vs\x64\Release\SYNC_RESOURCE-NinjaResourceProbe-axslc</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>N:\jogo\build\windows-release-vs\bin\NinjaResourceProbe\Release\NinjaResourceProbe.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

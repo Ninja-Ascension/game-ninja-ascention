@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DebugDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourAssert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourCrowd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourDebugDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourLocalBoundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourNavMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourNavMeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourNavMeshQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourObstacleAvoidance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourPathCorridor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourPathQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourProximityGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourTileCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourTileCacheBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourCrowd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourDebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourLocalBoundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourNavMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourNavMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourNavMeshQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourObstacleAvoidance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourPathCorridor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourPathQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourProximityGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourTileCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\DetourTileCacheBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\recast\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D3E662AB-71A5-349A-B11C-134EB33F4428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3C30CC49-B57B-3FC4-B923-8B5F8F35B8CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

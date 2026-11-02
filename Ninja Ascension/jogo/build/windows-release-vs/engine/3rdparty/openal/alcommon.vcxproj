@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C09F3B2D-9680-3AA1-8670-F55335E9D168}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>alcommon</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="N:\jogo\build\windows-release-vs\engine\3rdparty\openal\alcommon.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">alcommon.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">alcommon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\jogo\build\windows-release-vs\engine\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:char8_t- /utf-8 /w14640</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4065;4127;4268;4324;5030;5051</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\jogo\build\windows-release-vs\engine\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>N:\jogo\build\windows-release-vs\engine\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8 /W4 /w14640 /wd4065 /wd4127 /wd4268 /wd4324 /wd5030 /wd5051</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>N:\jogo\build\windows-release-vs\engine\3rdparty\openal\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8 /W4 /w14640 /wd4065 /wd4127 /wd4268 /wd4324 /wd5030 /wd5051</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32;NOMINMAX;RESTRICT=__restrict;_CRT_SECURE_NO_WARNINGS;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\jogo\build\windows-release-vs\engine\3rdparty\openal;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/openal/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-file N:/jogo/build/windows-release-vs/engine/3rdparty/openal/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckFunctionExists.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckSourceCompiles.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckStructHasMember.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\CheckSymbolExists.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\FindPkgConfig.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\cmake\FindJACK.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\cmake\FindOpenSL.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\cmake\FindPortAudio.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\cmake\FindPulseAudio.cmake;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\config.h.in;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\openal.pc.in;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\version.h.in;N:\jogo\build\windows-release-vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\engine\3rdparty\openal\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\albit.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alcomplex.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alcomplex.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\aldeque.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alfstream.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alfstream.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\almalloc.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\almalloc.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alnumbers.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alnumeric.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alsem.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alsem.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alspan.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alstring.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\alstring.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\althrd_setname.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\althrd_setname.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\altraits.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\atomic.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\comptr.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\dynload.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\dynload.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\intrusive_ptr.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\opthelpers.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\phase_shifter.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\polyphase_resampler.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\polyphase_resampler.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\pragmadefs.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\ringbuffer.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\ringbuffer.h" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\strutils.cpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\strutils.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\vecmat.h" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openal\common\vector.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\ZERO_CHECK.vcxproj">
+      <Project>{A4336ABE-DE98-3D9C-A3D4-127E262B5DCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

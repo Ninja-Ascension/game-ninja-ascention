@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71713575-A2AB-33E3-9BF0-376E4C72867D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>yasio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+    <Import Project="N:\jogo\build\windows-release-vs\engine\3rdparty\yasio\yasio.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yasio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yasio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:char8_t- /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /GF /utf-8</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </MASM>
+    <NASM>
+      <IncludePaths>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>/GF /utf-8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;YASIO_SSL_BACKEND=1;NTCVT_CP_DEFAULT=CP_UTF8;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio;N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\openssl\_x\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule N:/jogo/build/deps/axmol-pinned-v2.11.5/3rdparty/yasio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\bin\cmake.exe" -SN:/jogo/port -BN:/jogo/build/windows-release-vs --check-stamp-file N:/jogo/build/windows-release-vs/engine/3rdparty/yasio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in;N:\jogo\build\windows-release-vs\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">N:\jogo\build\windows-release-vs\engine\3rdparty\yasio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\lua\lua.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\luajit\lua.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\lyasio.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\yasio_axlua.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\bindings\yasio_sol.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\buffer_alloc.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\byte_buffer.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\compiler\feature_test.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\config.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\endian_portable.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\errc.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\file.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\ibstream.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\ares.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\char_traits.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\concurrent_queue.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\epoll_io_watcher.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\eventfd_select_interrupter.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\evport_io_watcher.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\fp16.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\ifaddrs.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\inet_ntop.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\kqueue_io_watcher.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\mbedtls.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\object_pool.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\openssl.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\pipe_select_interrupter.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\poll_io_watcher.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\select_interrupter.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\select_io_watcher.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\socket.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\impl\socket_select_interrupter.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\io_service.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\io_watcher.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\logging.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\memory.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\object_pool.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\object_pool_alloc.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\obstream.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\platform\yasio_jni.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\platform\yasio_unreal.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\pod_vector.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\ref_ptr.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\shared_mutex.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\singleton.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\split.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\ssl.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\strfmt.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\string.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\string_view.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\sz.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\thread_name.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\type_traits.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\utils.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\wtimer_hres.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\xxsocket.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\yasio.hpp" />
+    <ClInclude Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\yasio_fwd.hpp" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\io_service.cpp" />
+    <ClCompile Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\xxsocket.cpp" />
+    <Natvis Include="N:\jogo\build\deps\axmol-pinned-v2.11.5\3rdparty\yasio\yasio\yasio.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="N:\jogo\build\windows-release-vs\ZERO_CHECK.vcxproj">
+      <Project>{A4336ABE-DE98-3D9C-A3D4-127E262B5DCF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+    <Import Project="C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

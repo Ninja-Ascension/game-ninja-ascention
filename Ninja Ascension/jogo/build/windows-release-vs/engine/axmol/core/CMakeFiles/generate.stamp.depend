@@ -1,0 +1,30 @@
+# CMake generation dependency list for this directory.
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CMakeDependentOption.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCSourceRuns.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/Administrator/Documents/GitHub/game-ninja-ascention/Ninja Ascension/jogo/build/ferramentas/cmake-3.31.6-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceRuns.cmake
+C:\Users\Administrator\Documents\GitHub\game-ninja-ascention\Ninja Ascension\jogo\build\ferramentas\cmake-3.31.6-windows-x86_64\share\cmake-3.31\Templates\MSBuild\nasm.props.in
+N:/jogo/build/deps/axmol-pinned-v2.11.5/cmake/Modules/AXConfigSIMD.cmake
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/2d/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/3d/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/audio/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/axmolver.h.in
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/base/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/math/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/navmesh/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/network/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/physics/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/physics3d/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/platform/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/CMakeLists.txt
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/renderer/RenderConsts.h.in
+N:/jogo/build/deps/axmol-pinned-v2.11.5/core/ui/CMakeLists.txt
+N:/jogo/build/windows-release-vs/CMakeFiles/cmake.verify_globs
