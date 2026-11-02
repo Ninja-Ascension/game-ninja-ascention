@@ -6206,6 +6206,9 @@ function parse_draw_scene_rewad(interpreter,datas,pos,strDatas,list,count)
 	end
 	table.insert(_ED.show_reward_list_group, 1, show_reward_view)	
 	table.insert(_ED.show_reward_list_group_ex, 1, show_reward_view)
+	-- Keep the exact response object for the immediately following reward popup.
+	-- Other parsers may consume the shared reward queue before the popup opens.
+	_ED._last_draw_scene_reward = show_reward_view.show_reward_type == 0 and show_reward_view or nil
 	-- print("===========奖励1===========")
 	-- debug.print_r(_ED.show_reward_list_group)
 

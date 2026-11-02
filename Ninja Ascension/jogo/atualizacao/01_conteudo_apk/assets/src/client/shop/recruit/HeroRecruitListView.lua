@@ -58,7 +58,11 @@ function HeroRecruitListView:ctor()
                         local Panel_ck_b_1 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_b_1")
                         if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
                         else
-                            Animations_openCard(instance,Panel_ck_f_1,Panel_ck_b_1)
+                            if __lua_project_id == __lua_project_l_naruto then
+                                require("recruit_lobby").showCardSide(instance,1,"front")
+                            else
+                                Animations_openCard(instance,Panel_ck_f_1,Panel_ck_b_1)
+                            end
                         end
                     else
                         local Panel_ck_f_2 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_f_2")
@@ -68,7 +72,11 @@ function HeroRecruitListView:ctor()
                             instance._isChangePage = not instance._isChangePage
                             instance.actions[1]:play("animation_close", false)
                             instance.action_updateTimes = 0
-                            Animations_openCard(instance,Panel_ck_f_2,Panel_ck_b_2)
+                            if __lua_project_id == __lua_project_l_naruto then
+                                require("recruit_lobby").showCardSide(instance,2,"front")
+                            else
+                                Animations_openCard(instance,Panel_ck_f_2,Panel_ck_b_2)
+                            end
                         end
                     end
                 end
@@ -98,6 +106,41 @@ function HeroRecruitListView:ctor()
                 end
                 local m_type = tonumber(params._datas.m_type)
                 local m_index = tonumber(params._datas.m_index)
+                if m_type == 1 and require("recruit_lobby").isInitialTutorialRecruitStep() then
+                    -- The tutorial's original mission still requests the guaranteed
+                    -- first Sakura through new_recruitment_system. Keep the classic
+                    -- Recruit panel, but let its free 1x control complete that step.
+                    _ED.new_prop_object = {}
+                    _ED.recruit_success_ship_id = nil
+                    _ED.new_reward_object = {}
+                    _ED.prop_chest_store_recruiting = true
+                    if _ED.newRecruitInfo then
+                        _ED.newRecruitInfo.doubleRemoveTimes = 0
+                        _ED.newRecruitInfo.doubleReward = nil
+                    end
+                    state_machine.lock("hero_recruit_list_view_a_recruiting")
+                    state_machine.lock("hero_recruit_list_view_ten_recruiting")
+                    app.load("client.shop.recruit.HeroRecruitSuccess")
+                    protocol_command.new_recruitment_system.param_list = "1"
+                    NetworkManager:register(protocol_command.new_recruitment_system.code, nil, nil, nil, instance, function(response)
+                        if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0
+                            and response.node ~= nil and response.node.roots ~= nil then
+                            if fwin:find("HeroRecruitSuccessClass") ~= nil then
+                                fwin:close(fwin:find("HeroRecruitSuccessClass"))
+                            end
+                            getSceneReward(64)
+                            _ED.show_reward_list_group_ex = {}
+                            local obj = HeroRecruitSuccess:new()
+                            obj:setRanking(herorIndex, 1, true)
+                            fwin:open(obj, fwin._ui)
+                            state_machine.excute("menu_hide_event", 0, "menu_hide_event.")
+                        end
+                        _ED.prop_chest_store_recruiting = false
+                        state_machine.unlock("hero_recruit_list_view_a_recruiting")
+                        state_machine.unlock("hero_recruit_list_view_ten_recruiting")
+                    end, false, nil)
+                    return true
+                end
                 if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
                     or __lua_project_id == __lua_project_l_pokemon 
                     or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
@@ -327,7 +370,11 @@ function HeroRecruitListView:ctor()
                     local Panel_ck_b_1 = ccui.Helper:seekWidgetByName(instance.roots[1], "Panel_ck_b_1")
                     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
                     else
-                        Animations_openCard(instance,Panel_ck_b_1,Panel_ck_f_1)
+                        if __lua_project_id == __lua_project_l_naruto then
+                            require("recruit_lobby").showCardSide(instance,1,"back")
+                        else
+                            Animations_openCard(instance,Panel_ck_b_1,Panel_ck_f_1)
+                        end
                     end
                 else
                 	if __lua_project_id == __lua_project_pokemon 
@@ -371,7 +418,11 @@ function HeroRecruitListView:ctor()
                     if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece then
                     else
                         instance._isChangePage = not instance._isChangePage
-                        Animations_openCard(instance,Panel_ck_b_2,Panel_ck_f_2)
+                        if __lua_project_id == __lua_project_l_naruto then
+                            require("recruit_lobby").showCardSide(instance,2,"back")
+                        else
+                            Animations_openCard(instance,Panel_ck_b_2,Panel_ck_f_2)
+                        end
                     end
                 else
                 	if __lua_project_id == __lua_project_pokemon 
@@ -1302,10 +1353,6 @@ function HeroRecruitListView:onEnterTransitionFinish()
 		action:gotoFrameAndPlay(0, action:getDuration(), false)
 	end
 	csbShopRecruitList:runAction(action)
-	-- O hook global pode ser instalado depois da janela em alguns caminhos do PC.
-	-- Aplicar o cabeçalho aqui, depois de criar a raiz real da tela.
-	require("recruit_lobby").apply(self)
-
 	if __lua_project_id == __lua_project_gragon_tiger_gate
         -- or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball
         -- or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 

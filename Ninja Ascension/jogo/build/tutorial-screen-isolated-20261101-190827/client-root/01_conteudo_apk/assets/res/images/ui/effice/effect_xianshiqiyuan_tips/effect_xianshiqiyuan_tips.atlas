@@ -1,0 +1,13 @@
+
+effect_xianshiqiyuan_tips.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tip
+  rotate: false
+  xy: 2, 49
+  size: 101, 54
+  orig: 101, 54
+  offset: 0, 0
+  index: -1

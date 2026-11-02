@@ -26,6 +26,13 @@ assert(type(text)=='string' and text~='','gameplay.json ausente')
 local config=json.decode(text)
 local override=os.getenv('NR_ENABLE_TUTORIAL')
 local M={enabled=os.getenv('NR_PROBE_TEST_MODE') and override=='1' or false}
+local function noteRoute(message)
+    print('HOST_TUTORIAL_ROUTE '..message)
+    local ok,path=pcall(function() return cc.FileUtils:getInstance():getWritablePath()..'tutorial-route.log' end)
+    if not ok or not path then return end
+    local opened,file=pcall(io.open,path,'a')
+    if opened and file then pcall(function() file:write(os.date('%Y-%m-%d %H:%M:%S')..' '..message..'\n');file:close() end) end
+end
 function M.install()
     if state_machine and state_machine._terminals then
         for name,terminal in pairs(state_machine._terminals) do
@@ -54,7 +61,31 @@ function M.install()
     if type(execute)=='function' and execute~=M.wrapper then
         M.wrapper=function(mould,...)
             if (mould==mission_mould_tuition or mould==mission_mould_battle) and not M.enabled then return false end
-            return execute(mould,...)
+            local args={...}
+            local startParam=args[5]
+            local initialState=_ED and _ED.nr_initial_tutorial
+            if mould==mission_mould_tuition and M.enabled and initialState=='playing' and startParam=='l1e0' then
+                if M.introRouteStarted then return true end
+                M.introRouteStarted=true
+                noteRoute('redirect state=playing tuition=l1e0 -> mission2/1196v1')
+                local result={xpcall(function()
+                    -- A retomada podia deixar a missão de Chakra ativa; limpa
+                    -- apenas o evento local para iniciar o roteiro original.
+                    if type(resetMission)=='function' then resetMission(true) end
+                    return execute(mission_mould_battle,nil,nil,nil,true,'1196v1',true)
+                end,debug.traceback)}
+                if not result[1] then
+                    M.introRouteStarted=false
+                    noteRoute('redirect FAILED '..tostring(result[2]))
+                    error(result[2],0)
+                end
+                if result[2]==false then
+                    M.introRouteStarted=false
+                    noteRoute('redirect unavailable mission2/1196v1')
+                end
+                return unpack(result,2)
+            end
+            return execute(mould,unpack(args))
         end
         executeMissionExt=M.wrapper
     end

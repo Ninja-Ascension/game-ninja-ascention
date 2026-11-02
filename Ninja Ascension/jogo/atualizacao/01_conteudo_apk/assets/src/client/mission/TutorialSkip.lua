@@ -97,7 +97,18 @@ function TutorialSkip.newbie()
         if w~=nil then fwin:close(w) end
         local args=TutorialSkip.pending
         TutorialSkip.pending=nil
-        if args~=nil then TutorialSkip.original(unpack(args,1,7)) end
+        if args~=nil then
+            local initial=require('initial_tutorial')
+            if initial.state=='playing' then
+                -- A escolha "fazer tutorial" usa o roteiro original de batalha
+                -- (1196v1: Itachi e depois Pain), em vez da antiga sequência
+                -- tuition que prendia o jogador no Recruit obrigatório.
+                local result=TutorialSkip.original(mission_mould_battle,nil,nil,nil,true,'1196v1',true)
+                print('HOST_TUTORIAL_ROUTE state=playing mission=1196v1 result='..tostring(result))
+            else
+                TutorialSkip.original(unpack(args,1,7))
+            end
+        end
     end,false,nil)
 end
 
@@ -118,6 +129,28 @@ local function loginAgain()
         fwin:open(LoginLoading:new():init(), fwin._screen)
         NetworkManager:register(protocol_command.user_create_time.code, nil, nil, nil, nil, nil, false, nil)
     end, false, nil)
+end
+
+function TutorialSkip.resumeAfterIntro()
+    loginAgain()
+end
+
+-- A escolha "fazer tutorial" termina no mesmo estado de campanha do skip.
+-- Recarrega o perfil autoritativo antes de voltar ao Menu para a sessão não
+-- continuar com o grade/progresso antigo e relançar as missões tuition.
+function TutorialSkip.completeAfterPain()
+    if TutorialSkip.busy then return false end
+    TutorialSkip.busy = true
+    protocol_command.education_change.param_list = '2010136'
+    NetworkManager:register(protocol_command.education_change.code, nil, nil, nil, nil, function(response)
+        if not (response.RESPONSE_SUCCESS and (tonumber(response.PROTOCOL_STATUS) or -1) >= 0) then
+            TutorialSkip.busy = false
+            print('HOST_TUTORIAL_EXIT Pain completion rejected; retry available')
+            return
+        end
+        TutorialSkip.resumeAfterIntro()
+    end, false, nil)
+    return true
 end
 
 function TutorialSkip.veteran()

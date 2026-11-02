@@ -114,6 +114,7 @@ function LPVEMainScene:ctor()
             _invoke = function(terminal, instance, params)
 				local sceneNameText = ccui.Helper:seekWidgetByName(instance.roots[1], "Text_1042")
 				local name = dms.string(dms["pve_scene"], params, pve_scene.scene_name)
+				name = zstring.exchangeFrom(name)
 				sceneNameText:setString(name)
                 return true
             end,

@@ -68,7 +68,38 @@ function M.armar()
     sp.SkeletonAnimation={}
     function sp.SkeletonAnimation:create(json,atlas,scale)
         local node,err=cc.nrSpineCreate(json,atlas,scale or 1)
-        assert(node,err or 'Native Spine creation failed')
+        if not node then
+            -- A missing or malformed optional illustration must not unwind a
+            -- battle/UI callback. Keep a harmless node in the scene so its
+            -- parent and the game flow remain valid; log the asset for repair.
+            print('HOST_NATIVE_SPINE fallback '..tostring(json)..' '..tostring(err))
+            node=cc.Node:create()
+            node.__nrFallback=true
+            node.animationNameList={}
+            node.__nrNames=node.animationNameList
+            function node:setAnimation(track,name,loop)
+                return {animation={name=name,duration=0},trackIndex=track}
+            end
+            function node:addAnimation(track,name,loop,delay) return nil end
+            function node:setTimeScale(speed) end
+            function node:setSpeedScale(speed) end
+            function node:setSkin(name) end
+            function node:setToSetupPose() end
+            function node:setMix(from,to,duration) end
+            function node:getAnimationDurationEx(name) return 0 end
+            function node:getMovementCountEx() return 0 end
+            function node:clearTracks() end
+            function node:playWithIndex(index) end
+            function node:getAnimation() return self end
+            function node:getArmature() return self end
+            function node:registerSpineEventHandler(handler,kind) end
+            function node:unregisterSpineEventHandler(kind) end
+            function node:setMovementEventCallFunc(handler) end
+            function node:setFrameEventCallFunc(handler) end
+            function node:setDebugSlotsEnabled(enabled) end
+            function node:setDebugBonesEnabled(enabled) end
+            return node
+        end
         for name,fn in pairs(methods) do node[name]=fn end
         node.animationNameList=cc.nrSpineCommand(node,'names')
         node.__nrNames=node.animationNameList  -- real names; callers may replace animationNameList

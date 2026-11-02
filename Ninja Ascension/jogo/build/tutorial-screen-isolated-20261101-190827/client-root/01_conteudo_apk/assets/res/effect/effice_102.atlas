@@ -1,0 +1,48 @@
+
+effice_102.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00000
+  rotate: false
+  xy: 145, 196
+  size: 37, 44
+  orig: 139, 157
+  offset: 57, 56
+  index: -1
+1_00002
+  rotate: false
+  xy: 74, 94
+  size: 62, 67
+  orig: 139, 157
+  offset: 38, 42
+  index: -1
+1_00004
+  rotate: false
+  xy: 74, 163
+  size: 69, 77
+  orig: 139, 157
+  offset: 35, 38
+  index: -1
+1_00006
+  rotate: false
+  xy: 2, 81
+  size: 70, 78
+  orig: 139, 157
+  offset: 36, 38
+  index: -1
+1_00008
+  rotate: false
+  xy: 2, 161
+  size: 70, 79
+  orig: 139, 157
+  offset: 36, 39
+  index: -1
+1_00010
+  rotate: false
+  xy: 2, 2
+  size: 68, 77
+  orig: 139, 157
+  offset: 37, 41
+  index: -1

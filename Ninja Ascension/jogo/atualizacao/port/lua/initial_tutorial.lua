@@ -6,6 +6,7 @@ function M.apply(value)
     _ED.nr_initial_tutorial=value
     local gate=require('tutorial_disabled')
     gate.enabled=value=='choice' or value=='playing'
+    if value~='playing' then gate.introRouteStarted=false end
     if value=='completed' and state_machine and state_machine.find('tuition_controller_exit') then
         state_machine.excute('tuition_controller_exit',0,'')
     end

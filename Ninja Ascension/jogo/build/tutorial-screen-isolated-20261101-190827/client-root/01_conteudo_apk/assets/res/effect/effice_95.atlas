@@ -1,0 +1,69 @@
+
+effice_95.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/hz1
+  rotate: false
+  xy: 2, 340
+  size: 164, 170
+  orig: 164, 170
+  offset: 0, 0
+  index: -1
+1/hz2
+  rotate: false
+  xy: 2, 168
+  size: 164, 170
+  orig: 164, 170
+  offset: 0, 0
+  index: -1
+1/hz3
+  rotate: false
+  xy: 334, 343
+  size: 164, 167
+  orig: 164, 170
+  offset: 0, 3
+  index: -1
+1/hz4
+  rotate: false
+  xy: 334, 174
+  size: 164, 167
+  orig: 164, 170
+  offset: 0, 0
+  index: -1
+1/hz5
+  rotate: true
+  xy: 2, 2
+  size: 164, 170
+  orig: 164, 170
+  offset: 0, 0
+  index: -1
+1/hz6
+  rotate: true
+  xy: 174, 2
+  size: 164, 169
+  orig: 164, 170
+  offset: 0, 0
+  index: -1
+1/hz7
+  rotate: false
+  xy: 168, 340
+  size: 164, 170
+  orig: 164, 170
+  offset: 0, 0
+  index: -1
+1/hz8
+  rotate: false
+  xy: 168, 168
+  size: 164, 170
+  orig: 164, 170
+  offset: 0, 0
+  index: -1
+1/yb
+  rotate: false
+  xy: 345, 90
+  size: 92, 82
+  orig: 103, 103
+  offset: 7, 13
+  index: -1

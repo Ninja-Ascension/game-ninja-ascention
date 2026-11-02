@@ -506,19 +506,46 @@ function LocalEventWindow:renderOriginalFund(panel,chosen,panelW,contentH)
             local rewardPanel=widget(rowRoot,"Panel_kfjj_03")
             if rewardPanel then
                 rewardPanel:removeAllChildren(true)
-                for _,item in ipairs(row.rewards or {}) do
-                    if tonumber(item[2])==2 then
-                        local icon=ResourcesIconCell:createCell()
+                app.load("client.cells.equip.equip_icon_cell")
+                app.load("client.cells.prop.prop_icon_cell")
+                app.load("client.cells.prop.prop_money_icon")
+                local reward=row.rewards and row.rewards[1]
+                if reward then
+                    local kind=tonumber(reward[2])
+                    local id=tonumber(reward[1])
+                    local count=tonumber(reward[3])
+                    local icon=nil
+                    if kind==1 then
+                        icon=propMoneyIcon:createCell()
+                        icon:init("1",-1,nil)
+                    elseif kind==2 then
+                        icon=ResourcesIconCell:createCell()
                         icon:init("2",0,-1,nil,nil,true,true,0)
-                        -- Keep the original reward icon inside its CSB slot without
-                        -- letting its 120px wrapper cover the row heading.
+                    elseif kind==12 then
+                        icon=ResourcesIconCell:createCell()
+                        icon:init("12",-1,-1)
+                    elseif kind==6 then
+                        icon=PropIconCell:createCell()
+                        if icon.hideNameAndCount then icon:hideNameAndCount() end
+                        icon:init(23,{user_prop_template=id,prop_number=-1},-1)
+                    elseif kind==7 then
+                        icon=EquipIconCell:createCell()
+                        if icon.hideNameAndCount then icon:hideNameAndCount() end
+                        icon:init(10,nil,id,nil)
+                    elseif kind==13 then
+                        icon=ResourcesIconCell:createCell()
+                        icon:init(tostring(id),0,count,nil,nil,true,true,0)
+                    else
+                        icon=ResourcesIconCell:createCell()
+                        icon:init(tostring(kind),0,count,nil,nil,true,true,0)
+                    end
+                    if icon then
                         local iconArea=rewardPanel:getContentSize()
                         icon:setScale(0.7)
                         icon:setPosition(cc.p(iconArea.width/2,iconArea.height/2))
                         icon:setLocalZOrder(100)
                         rewardPanel:addChild(icon)
                         self.renderedRewardIconCount=self.renderedRewardIconCount+1
-                        break
                     end
                 end
             end

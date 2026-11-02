@@ -1,0 +1,76 @@
+
+effect_dmx_6.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+6
+  rotate: false
+  xy: 2, 2
+  size: 66, 58
+  orig: 66, 58
+  offset: 0, 0
+  index: -1
+di
+  rotate: true
+  xy: 199, 194
+  size: 60, 54
+  orig: 60, 54
+  offset: 0, 0
+  index: -1
+heidong/1
+  rotate: false
+  xy: 2, 191
+  size: 64, 63
+  orig: 71, 72
+  offset: 4, 6
+  index: -1
+heidong/2
+  rotate: false
+  xy: 2, 62
+  size: 63, 62
+  orig: 71, 72
+  offset: 5, 6
+  index: -1
+heidong/3
+  rotate: true
+  xy: 67, 62
+  size: 62, 61
+  orig: 71, 72
+  offset: 3, 7
+  index: -1
+heidong/4
+  rotate: false
+  xy: 2, 126
+  size: 63, 63
+  orig: 71, 72
+  offset: 3, 3
+  index: -1
+heidong/5
+  rotate: false
+  xy: 134, 192
+  size: 63, 62
+  orig: 71, 72
+  offset: 4, 5
+  index: -1
+heidong/6
+  rotate: true
+  xy: 67, 126
+  size: 63, 60
+  orig: 71, 72
+  offset: 3, 6
+  index: -1
+heidong/7
+  rotate: false
+  xy: 129, 127
+  size: 62, 63
+  orig: 71, 72
+  offset: 4, 5
+  index: -1
+heidong/8
+  rotate: true
+  xy: 68, 192
+  size: 62, 64
+  orig: 71, 72
+  offset: 5, 4
+  index: -1

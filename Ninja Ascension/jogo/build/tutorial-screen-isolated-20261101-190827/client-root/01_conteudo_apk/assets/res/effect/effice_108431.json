@@ -1,0 +1,93 @@
+{
+"skeleton": { "hash": "wmLyw3kFRmWwanTJKCnTLkNqIP4", "spine": "2.1.27", "width": 4, "height": 4, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "baidi", "bone": "root", "attachment": "baidi" }
+],
+"skins": {
+	"default": {
+		"baidi": {
+			"baidi": { "width": 4, "height": 4 }
+		}
+	}
+},
+"events": {
+	"effice_108431": {}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1, "angle": 0, "curve": "stepped" },
+					{ "time": 5.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 5.4, "angle": 0, "curve": "stepped" },
+					{ "time": 5.5666, "angle": 0, "curve": "stepped" },
+					{ "time": 5.9, "angle": 0, "curve": "stepped" },
+					{ "time": 6.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.5666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 5.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 6.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.5666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 5.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 6.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.3333, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 1.4666, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 1.6, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 1.7333, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 1.8666, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 2, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 2.1333, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 2.2666, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 2.4, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 2.5333, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 3.3666, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 3.5333, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 3.7, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 3.8666, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 4.0333, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 4.2, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 4.3666, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 4.8333, "name": "effice_108431", "string": "hurt_after_fly_shake" },
+			{ "time": 4.9, "name": "effice_108431", "string": "kill" },
+			{ "time": 4.9333, "name": "effice_108431", "string": "hurt_after_repel_shake" },
+			{ "time": 4.9666, "name": "effice_108431", "string": "next" },
+			{ "time": 6.0333, "name": "effice_108431", "string": "unkill" }
+		]
+	}
+}
+}

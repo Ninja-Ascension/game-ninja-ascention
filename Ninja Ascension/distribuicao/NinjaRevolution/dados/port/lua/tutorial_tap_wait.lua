@@ -2,19 +2,36 @@
 local M={}
 function M.isIntroBattle()
     local user=_ED and _ED.user_info
-    return user~=nil and tonumber(user.user_grade)==1
-        and tonumber(user.user_experience)==0 and tonumber(_ED._scene_npc_id)==1196
+    if user==nil or tonumber(_ED._scene_npc_id)~=1196 then return false end
+    -- The Pain sequence grants XP before its final cutscene. For opted-in
+    -- tutorial profiles, the tutorial state and battle NPC remain authoritative
+    -- after that grant; requiring l1e0 made the final menu hook miss the exit.
+    local state=_ED.nr_initial_tutorial
+    local progress=tonumber(_ED._nr_current_mission_progress)
+    if state=='playing' or (state=='completed' and progress==2010136) then return true end
+    return tonumber(user.user_grade)==1 and tonumber(user.user_experience)==0
 end
 function M.installGuard()
     if package.__nr_tap_guard or type(furyGuardTick)~='function' then return end
     package.__nr_tap_guard=true
     local original=furyGuardTick
+    local originalRelease=furyGuardRelease
+    if type(originalRelease)=='function' then
+        furyGuardRelease=function(...)
+            local team=fwin:find('FightTeamControllerClass')
+            M.recovering=true
+            if team and team.__nr_await_tap then team.__nr_tap_accepted=true end
+            print('HOST_TUTORIAL_TAP watchdog recovery; releasing stalled mission input')
+            local result={pcall(originalRelease,...)}
+            M.recovering=false
+            if not result[1] then error(result[2],0) end
+            return unpack(result,2)
+        end
+    end
     furyGuardTick=function(...)
-        -- This watchdog clears mission locks and requests automatic attacks.
-        -- The recovered introduction must progress from its real events/input.
-        if M.isIntroBattle() then return end
-        local team=fwin:find('FightTeamControllerClass')
-        if team and team.__nr_await_tap then return end
+        -- Keep the mission watchdog active during the introduction too. The
+        -- reconstructed route can otherwise remain paused forever if a battle
+        -- QTE/input event is lost by the client.
         return original(...)
     end
 end
@@ -60,7 +77,22 @@ function M.installQTE(class)
     local original=class.qteToAutoNextAttackRole
     class.qteToAutoNextAttackRole=function(self,...)
         local team=fwin:find('FightTeamControllerClass')
-        if team and team.__nr_await_tap then return false end
+        if team and team.__nr_await_tap then
+            -- Automatic progression passes nil/0 here. The visible TAP button
+            -- passes its touch metadata, which must be allowed to release the
+            -- exact wait installed by updateMaster.
+            local params=select(1,...)
+            local ok,data=pcall(function() return params and params._datas end)
+            if not ok then data=nil end
+            if M.recovering then
+                team.__nr_tap_accepted=true
+            elseif type(data)~='table' or data.terminal_name~='fight_qte_controller_qte_to_auto_next_attack_role_but' then
+                return false
+            else
+                team.__nr_tap_accepted=true
+                print('HOST_TUTORIAL_TAP manual TAP accepted')
+            end
+        end
         return original(self,...)
     end
 end

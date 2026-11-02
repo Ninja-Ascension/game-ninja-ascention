@@ -1584,7 +1584,7 @@ function LDuplicateWindow:ctor()
 	                    if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
 	                        if response.node ~= nil and response.node.roots ~= nil and response.node.roots[1] ~= nil then
 								local getRewardWnd = DrawRareReward:new()
-								getRewardWnd:init(7)
+								getRewardWnd:init(0)
 								getRewardWnd:updateSortState(false)
 								fwin:open(getRewardWnd,fwin._ui)
 								

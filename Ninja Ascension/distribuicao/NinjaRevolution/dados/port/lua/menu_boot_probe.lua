@@ -45,8 +45,61 @@ local ok,err=xpcall(function()
     __lua_project_id=__lua_project_l_naruto
     _ED.user_info.user_id='1';_ED.user_info.user_grade='1';_ED.user_info.user_experience='1'
     _ED.user_info.user_food='60';_ED.user_info.max_user_food='60'
+    if os.getenv('NR_PROBE_SWEEP_LUA')=='1' then
+        app.load('client.duplicate.MoppingResults')
+        assert(MoppingResults and type(MoppingResults.init)=='function',
+            'MoppingResults Lua module did not load')
+        local proof=assert(io.open(NR_PROBE_ROOT..'build/sweep-lua-native-result.txt','w'))
+        proof:write('passed;MoppingResults loaded');proof:close()
+        return
+    end
+    if os.getenv('NR_PROBE_FAST_RAID')=='1' then
+        app.load('client.cells.duplicate.pve_super_mopping_cell')
+        local originalAtos=dms.atos
+        dms.atos=function(tableData,id)
+            if tableData==dms['pve_scene'] then
+                local row={};row[pve_scene.scene_name]='Naruto&nbsp;Uzumaki&amp;nbsp;1'
+                return row
+            end
+            return originalAtos(tableData,id)
+        end
+        local cell=PveSuperMoppingCell:createCell()
+        cell:init(24,{npc_stars={},npc_ids={}})
+        local title=assert(ccui.Helper:seekWidgetByName(cell.roots[1],'Text_chapter'))
+        assert(title:getString()=='Naruto Uzumaki 1','Raid chapter title still contains escaped spacing: '..title:getString())
+        local proof=assert(io.open(NR_PROBE_ROOT..'build/fast-raid-native-result.txt','w'))
+        proof:write('passed;title='..title:getString());proof:close()
+        cell:release()
+        return
+    end
     if os.getenv('NR_PROBE_EVENTS')=='1' then
         dofile(NR_PROBE_ROOT..'tools/probe_events.lua')
+        return
+    end
+    if os.getenv('NR_PROBE_CLAIM_ALL')=='1' then
+        app.load('client.login.LoginLoading');app.load('client.home.Menu')
+        app.load('client.reward.DrawRareReward')
+        NetworkManager.register=function() return {} end
+        local files=cc.FileUtils:getInstance()
+        NetworkProtocol.parser_func({resouce=files:getStringFromFile(NR_PROBE_ROOT..'build/claim-all-login.txt')})
+        NetworkProtocol.parser_func({resouce=files:getStringFromFile(NR_PROBE_ROOT..'build/claim-all-reply.txt')})
+        local received=assert(_ED._last_draw_scene_reward,'Claim All response never reached reward parser')
+        local count=tonumber(received.show_reward_item_count)
+        assert(count==8,'Expected eight aggregated Claim All rewards, got '..tostring(count))
+        local window=DrawRareReward:new();window:init(0);window:updateSortState(false);fwin:open(window,fwin._ui)
+        if not window.roots[1] then window:onEnterTransitionFinish() end
+        assert(window._rewardInfo==received,'Claim All popup lost the parser response')
+        assert(window._nativeRewardRow and window._nativeRewardRow:getChildrenCount()==5,'First original reward page must show five items')
+        for _,cell in ipairs(window._nativeRewardRow:getChildren()) do
+            assert(cell:isVisible() and cell.roots and cell.roots[1] and cell.roots[1]:isVisible(),'First-page reward cell hidden')
+        end
+        window:onCheckOver()
+        assert(window._nativeRewardRow:getChildrenCount()==3,'Second original reward page must show the remaining three items')
+        for _,cell in ipairs(window._nativeRewardRow:getChildren()) do
+            assert(cell:isVisible() and cell.roots and cell.roots[1] and cell.roots[1]:isVisible(),'Second-page reward cell hidden')
+        end
+        local result=assert(io.open(NR_PROBE_ROOT..'build/claim-all-native-result.txt','w'))
+        result:write('passed;items=8;pages=5+3');result:close()
         return
     end
     if os.getenv('NR_PROBE_RECRUIT_LAYOUT')=='1' then
@@ -1061,6 +1114,10 @@ end
 if os.getenv('NR_PROBE_LEGACY_RECRUIT_UI')=='1' then
     local result=assert(io.open(NR_PROBE_ROOT..'build/legacy-recruit-native/result.txt','w'))
     result:write(tostring(ok)..' '..tostring(err));result:close()
+end
+if os.getenv('NR_PROBE_CLAIM_ALL')=='1' and not ok then
+    local result=assert(io.open(NR_PROBE_ROOT..'build/claim-all-native-result.txt','w'))
+    result:write('failed: '..tostring(err));result:close()
 end
 if os.getenv('NR_PROBE_QUICK_UPGRADES')=='1' or os.getenv('NR_PROBE_TREASURE')=='1' or os.getenv('NR_PROBE_EQUIPMENT_DEVELOPMENT')=='1' or os.getenv('NR_PROBE_SAGA_UI')=='1' then
     local name=os.getenv('NR_PROBE_SAGA_UI')=='1' and 'saga-ui' or (os.getenv('NR_PROBE_EQUIPMENT_DEVELOPMENT')=='1' and 'equipment-development' or (os.getenv('NR_PROBE_TREASURE')=='1' and 'treasure' or 'quick-upgrades'))

@@ -1,0 +1,118 @@
+
+effice_81.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1052-1
+  rotate: false
+  xy: 2, 801
+  size: 252, 221
+  orig: 252, 222
+  offset: 0, 1
+  index: -1
+1052-10
+  rotate: false
+  xy: 764, 805
+  size: 252, 217
+  orig: 252, 218
+  offset: 0, 1
+  index: -1
+1052-2
+  rotate: false
+  xy: 2, 578
+  size: 252, 221
+  orig: 252, 222
+  offset: 0, 1
+  index: -1
+1052-3
+  rotate: false
+  xy: 256, 801
+  size: 252, 221
+  orig: 252, 222
+  offset: 0, 1
+  index: -1
+1052-4
+  rotate: false
+  xy: 2, 355
+  size: 252, 221
+  orig: 252, 222
+  offset: 0, 1
+  index: -1
+1052-5
+  rotate: false
+  xy: 256, 578
+  size: 252, 221
+  orig: 252, 222
+  offset: 0, 1
+  index: -1
+1052-6
+  rotate: false
+  xy: 510, 801
+  size: 252, 221
+  orig: 252, 222
+  offset: 0, 1
+  index: -1
+1052-7
+  rotate: false
+  xy: 2, 132
+  size: 252, 221
+  orig: 252, 222
+  offset: 0, 1
+  index: -1
+1052-8
+  rotate: false
+  xy: 256, 356
+  size: 252, 220
+  orig: 252, 222
+  offset: 0, 1
+  index: -1
+1052-9
+  rotate: false
+  xy: 510, 582
+  size: 252, 217
+  orig: 252, 218
+  offset: 0, 1
+  index: -1
+95-4
+  rotate: true
+  xy: 2, 63
+  size: 67, 192
+  orig: 120, 200
+  offset: 27, 2
+  index: -1
+HEIDIAN
+  rotate: false
+  xy: 86, 19
+  size: 71, 42
+  orig: 71, 42
+  offset: 0, 0
+  index: -1
+sdx1
+  rotate: false
+  xy: 2, 2
+  size: 82, 59
+  orig: 118, 68
+  offset: 9, 1
+  index: -1
+sdx2
+  rotate: false
+  xy: 256, 286
+  size: 106, 68
+  orig: 118, 68
+  offset: 12, 0
+  index: -1
+sdx3
+  rotate: false
+  xy: 764, 742
+  size: 82, 61
+  orig: 118, 68
+  offset: 8, 6
+  index: -1
+sdx4
+  rotate: false
+  xy: 510, 538
+  size: 118, 42
+  orig: 118, 68
+  offset: 0, 13
+  index: -1

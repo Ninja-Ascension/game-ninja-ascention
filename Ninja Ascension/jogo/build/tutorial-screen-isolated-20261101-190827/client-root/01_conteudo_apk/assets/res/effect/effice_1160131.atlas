@@ -1,0 +1,13 @@
+
+effice_1160131.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/guangxiao/dt
+  rotate: false
+  xy: 2, 2
+  size: 230, 129
+  orig: 230, 129
+  offset: 0, 0
+  index: -1

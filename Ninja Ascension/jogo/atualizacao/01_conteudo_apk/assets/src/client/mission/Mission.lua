@@ -488,6 +488,9 @@ local function SenderRecodeExt(instantSend)
 		end
 	    local missionProgress = dms.atos(mission, mission_progress)
 	    if missionProgress ~= nil and missionProgress ~="" and tonumber(missionProgress) > -1 then
+	        -- Exposto para o roteador local concluir o tutorial exatamente no
+	        -- terminal que vem depois da CG final de Pain (2010136).
+	        _ED._nr_current_mission_progress = tonumber(missionProgress)
             protocol_command.education_change.param_list = missionProgress
             if instantSend == nil or instantSend == true then
                 --Sender(protocol_command.education_change.code, nil, nil, nil, nil, nil,-1)

@@ -1,0 +1,55 @@
+
+effect_kdtxcj.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/bj
+  rotate: false
+  xy: 2, 125
+  size: 129, 129
+  orig: 129, 129
+  offset: 0, 0
+  index: -1
+image/cj
+  rotate: true
+  xy: 204, 5
+  size: 68, 40
+  orig: 68, 40
+  offset: 0, 0
+  index: -1
+image/cj-f
+  rotate: true
+  xy: 122, 2
+  size: 71, 39
+  orig: 71, 39
+  offset: 0, 0
+  index: -1
+image/q
+  rotate: false
+  xy: 133, 155
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+image/wq
+  rotate: false
+  xy: 2, 9
+  size: 118, 114
+  orig: 118, 114
+  offset: 0, 0
+  index: -1
+image/wz
+  rotate: true
+  xy: 163, 2
+  size: 71, 39
+  orig: 71, 39
+  offset: 0, 0
+  index: -1
+image/x
+  rotate: false
+  xy: 133, 75
+  size: 84, 78
+  orig: 84, 78
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+effect_xianshiqiyuan_enter.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 2, 74
+  size: 85, 46
+  orig: 85, 46
+  offset: 0, 0
+  index: -1
+men
+  rotate: false
+  xy: 2, 14
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+zi3
+  rotate: true
+  xy: 89, 28
+  size: 92, 31
+  orig: 92, 31
+  offset: 0, 0
+  index: -1

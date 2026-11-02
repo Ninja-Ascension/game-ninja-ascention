@@ -734,7 +734,7 @@ function LPVENpc:ctor()
 								if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
 								or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 								then
-									getRewardWnd:init(7,nil,reworld_sorting)
+									getRewardWnd:init(0)
 								else
 									getRewardWnd:init(7)
 								end

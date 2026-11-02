@@ -9,10 +9,6 @@
 -- 进度未到的功能入口封闭
 -- TipDlg.drawTextDailog(_function_unopened_tip_string)
 
--- TEMPORARIO: abrir o Recruit extraido para teste visual. Volte para false
--- para retornar ao recrutamento atual sem alterar o restante do Home.
-NR_RECRUIT_ORIGINAL_TEST = true
-
 Home = class("HomeClass", Window)
 Home.__userHeroFontName = nil
 
@@ -2342,14 +2338,13 @@ function Home:ctor()
             _instance = self,
             _state = 0,
             _invoke = function(terminal, instance, params)
-                if NR_RECRUIT_ORIGINAL_TEST == true then
-                    app.load("client.shop.recruit.HeroRecruitListView")
-                    if fwin:find("HeroRecruitListViewClass") == nil then
-                        fwin:open(HeroRecruitListView:new(), fwin._view)
-                    end
-                    return true
+                -- Bypass only the broken initial tutorial Recruit block.
+                -- All ordinary Recruit entries still use the original screen.
+                if require("recruit_lobby").openInitialTutorialRecruit() then return true end
+                app.load("client.shop.recruit.HeroRecruitListView")
+                if fwin:find("HeroRecruitListViewClass") == nil then
+                    fwin:open(HeroRecruitListView:new(), fwin._view)
                 end
-                state_machine.excute("new_recruit_main_window_open", 0, nil)
                 return true
             end,
             _terminal = nil,

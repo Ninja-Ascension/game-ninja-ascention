@@ -1,0 +1,7 @@
+2026-11-01 20:20:27 stage=character-screen-entered-during-battle tutorial=playing HomeHero=true HomeHeroVisible=true BattleScene=false BattleSceneVisible=false Fight=true FightVisible=true windows={HomeHeroClass:true,FightClass:true}
+2026-11-01 20:20:27 stage=character-screen-entered-during-battle-before-close tutorial=playing HomeHero=true HomeHeroVisible=true BattleScene=false BattleSceneVisible=false Fight=true FightVisible=true windows={HomeHeroClass:true,FightClass:true}
+2026-11-01 20:20:27 stage=character-screen-entered-during-battle-closed tutorial=playing HomeHero=false HomeHeroVisible=false BattleScene=false BattleSceneVisible=false Fight=true FightVisible=true windows={FightClass:true}
+2026-11-01 20:20:27 stage=tutorial-showWindow-begin tutorial=playing HomeHero=true HomeHeroVisible=true BattleScene=false BattleSceneVisible=false Fight=false FightVisible=false windows={HomeHeroClass:true}
+2026-11-01 20:20:27 stage=tutorial-showWindow-end tutorial=playing HomeHero=true HomeHeroVisible=true BattleScene=false BattleSceneVisible=false Fight=false FightVisible=false windows={HomeHeroClass:true}
+2026-11-01 20:20:27 stage=tutorial-executeMission-begin tutorial=playing HomeHero=true HomeHeroVisible=true BattleScene=false BattleSceneVisible=false Fight=false FightVisible=false windows={HomeHeroClass:true}
+2026-11-01 20:20:27 stage=tutorial-executeMission-end tutorial=playing HomeHero=true HomeHeroVisible=true BattleScene=false BattleSceneVisible=false Fight=false FightVisible=false windows={HomeHeroClass:true}

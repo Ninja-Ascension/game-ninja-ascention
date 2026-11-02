@@ -1,1 +1,10 @@
-true nil
+false ...ention/Ninja Ascension/jogo/port/lua/menu_boot_probe.lua:163: Saga distorted in widescreen
+stack traceback:
+	[C]: in function 'assert'
+	...ention/Ninja Ascension/jogo/port/lua/menu_boot_probe.lua:163: in function <...ention/Ninja Ascension/jogo/port/lua/menu_boot_probe.lua:4>
+	[C]: in function 'xpcall'
+	...ention/Ninja Ascension/jogo/port/lua/menu_boot_probe.lua:4: in main chunk
+	[C]: in function 'require'
+	host_logo.lua:20: in function <host_logo.lua:8>
+	[C]: in function 'xpcall'
+	host_logo.lua:8: in main chunk

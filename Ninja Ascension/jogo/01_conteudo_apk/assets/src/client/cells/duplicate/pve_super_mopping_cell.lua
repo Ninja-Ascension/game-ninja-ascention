@@ -4,6 +4,23 @@
 PveSuperMoppingCell = class("PveSuperMoppingCellClass", Window)
 PveSuperMoppingCell.__size = nil
 
+local function cleanRaidLabel(value)
+    value = tostring(value or "")
+    value = value:gsub("&amp;nbsp;", " "):gsub("&nbsp;", " "):gsub("&#160;", " "):gsub("&#x0*[aA]0;", " ")
+    value = value:gsub("&amp;", "&"):gsub("%s+", " ")
+    return value:match("^%s*(.-)%s*$") or value
+end
+
+local function setRaidLabel(label, value)
+    if label == nil then return end
+    label:setString(cleanRaidLabel(value))
+    local size = label:getContentSize()
+    if size.width > 0 and size.height > 0 and label.setTextAreaSize then
+        label:ignoreContentAdaptWithSize(false)
+        label:setTextAreaSize(size)
+    end
+end
+
 -- 创建Cell实例
 local pve_super_mopping_cell_create_terminal = {
     _name = "pve_super_mopping_cell_create",
@@ -112,7 +129,7 @@ function PveSuperMoppingCell:onUpdateDraw()
 
     self.Text_chapter = ccui.Helper:seekWidgetByName(root, "Text_chapter")
     local pve_scene_info = dms.atos(dms["pve_scene"], self.current_chapter_id)
-    self.Text_chapter:setString(pve_scene_info[pve_scene.scene_name])
+    setRaidLabel(self.Text_chapter, pve_scene_info[pve_scene.scene_name])
 
     -- 创建列表
     self.item_infos = {}

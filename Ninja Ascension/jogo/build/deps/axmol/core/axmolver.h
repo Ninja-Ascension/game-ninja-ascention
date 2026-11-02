@@ -16,13 +16,13 @@
 #define AX_GIT_PRESENT 1
 
 /* Define to the library build number from git commit count */
-#define AX_BUILD_NUM ""
+#define AX_BUILD_NUM "50"
 
 /* Define the branch being built */
-#define AX_GIT_BRANCH ""
+#define AX_GIT_BRANCH "main"
 
 /* Define the hash of the head commit */
-#define AX_GIT_COMMIT_HASH ""
+#define AX_GIT_COMMIT_HASH "79cef7e"
 
 /* Define the axmol version string */
 #define _AXSTR(R)      #R

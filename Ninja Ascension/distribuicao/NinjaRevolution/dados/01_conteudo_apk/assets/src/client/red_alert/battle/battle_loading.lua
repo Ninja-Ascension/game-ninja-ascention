@@ -135,6 +135,7 @@ function BattleLoading:onExit()
 end
 
 function BattleLoading:onProgress(progress)
+    local screenGuard=require('tutorial_screen_guard')
     progress = zstring.tonumber(progress)
     -- if __battle_load_clean_windows == progress then
     --     -- clean frame windows
@@ -201,10 +202,17 @@ function BattleLoading:onProgress(progress)
     -- end
     
     if self._loadCount == 1 then
+        screenGuard.note('battle-loading-cleanup-before')
+        -- HomeHero uses the frame layer and can be recreated by the initial
+        -- tutorial while battle windows are being built. Close that exact
+        -- screen before clearing layers and opening the battle scene.
+        screenGuard.closeCharacterScreen('battle-loading-cleanup')
         -- clean frame windows
         fwin:cleanView(fwin._frameview)
         fwin:cleanView(fwin._background)
-        -- fwin:cleanView(fwin._view)
+        -- Recruit and character screens live in _view. Leaving this layer
+        -- attached leaks the previous screen over the incoming battle.
+        fwin:cleanView(fwin._view)
         fwin:cleanView(fwin._dview)
         fwin:cleanView(fwin._viewdialog)
         fwin:cleanView(fwin._taskbar)
@@ -213,6 +221,7 @@ function BattleLoading:onProgress(progress)
         fwin:cleanView(fwin._notification)
         fwin:cleanView(fwin._screen)
         fwin:cleanView(fwin._system)
+        screenGuard.note('battle-loading-cleanup-after')
     elseif self._loadCount == 2 then
         ccs.ObjectFactory:destroyInstance()
         ccs.SceneReader:destroyInstance()
@@ -251,7 +260,9 @@ function BattleLoading:onProgress(progress)
     elseif self._loadCount == 8 then
         cc.SpriteFrameCache:getInstance():addSpriteFrames("images/ui/battle/battle_he.plist")
     elseif self._loadCount == 9 then
+        screenGuard.note('battle-scene-open-before')
         self._battleScene = state_machine.excute("battle_scene_window_open", 0, self._fight_type)
+        screenGuard.note('battle-scene-open-after')
     elseif self._loadCount == 10 then
         state_machine.excute("battle_map_window_open", 0, {self._battleScene})
     elseif self._loadCount == 11 then

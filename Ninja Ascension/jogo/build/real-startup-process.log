@@ -5,7 +5,7 @@
 	max_samples_allowed: 0
 	axmol.build_type: RELEASE
 	supports_OES_depth24: true
-	axmol.version: axmol-2.11.5-
+	axmol.version: axmol-2.11.5-6c0dce6
 	supports_ETC2: true
 	max_texture_size: 16384
 	vendor: Google Inc. (Microsoft)

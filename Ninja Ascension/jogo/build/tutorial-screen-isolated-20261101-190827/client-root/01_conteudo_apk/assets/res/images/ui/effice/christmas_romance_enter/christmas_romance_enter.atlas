@@ -1,0 +1,160 @@
+
+christmas_romance_enter.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daji
+  rotate: false
+  xy: 2, 2
+  size: 38, 45
+  orig: 40, 47
+  offset: 1, 1
+  index: -1
+di
+  rotate: false
+  xy: 265, 58
+  size: 92, 62
+  orig: 94, 64
+  offset: 1, 1
+  index: -1
+gx/huaban_1
+  rotate: false
+  xy: 139, 252
+  size: 137, 120
+  orig: 250, 250
+  offset: 57, 73
+  index: -1
+gx/huaban_10
+  rotate: true
+  xy: 133, 7
+  size: 125, 130
+  orig: 250, 250
+  offset: 70, 68
+  index: -1
+gx/huaban_13
+  rotate: true
+  xy: 278, 243
+  size: 126, 137
+  orig: 250, 250
+  offset: 69, 64
+  index: -1
+gx/huaban_16
+  rotate: true
+  xy: 866, 377
+  size: 126, 144
+  orig: 250, 250
+  offset: 69, 61
+  index: -1
+gx/huaban_19
+  rotate: true
+  xy: 139, 374
+  size: 129, 151
+  orig: 250, 250
+  offset: 66, 58
+  index: -1
+gx/huaban_22
+  rotate: false
+  xy: 2, 49
+  size: 129, 150
+  orig: 250, 250
+  offset: 64, 60
+  index: -1
+gx/huaban_25
+  rotate: false
+  xy: 2, 201
+  size: 130, 152
+  orig: 250, 250
+  offset: 62, 62
+  index: -1
+gx/huaban_28
+  rotate: true
+  xy: 292, 371
+  size: 132, 145
+  orig: 250, 250
+  offset: 60, 65
+  index: -1
+gx/huaban_31
+  rotate: false
+  xy: 411, 120
+  size: 133, 120
+  orig: 250, 250
+  offset: 59, 65
+  index: -1
+gx/huaban_34
+  rotate: false
+  xy: 691, 238
+  size: 134, 127
+  orig: 250, 250
+  offset: 58, 62
+  index: -1
+gx/huaban_37
+  rotate: false
+  xy: 554, 234
+  size: 135, 132
+  orig: 250, 250
+  offset: 57, 60
+  index: -1
+gx/huaban_4
+  rotate: false
+  xy: 417, 242
+  size: 135, 124
+  orig: 250, 250
+  offset: 59, 70
+  index: -1
+gx/huaban_40
+  rotate: true
+  xy: 727, 367
+  size: 136, 137
+  orig: 250, 250
+  offset: 56, 59
+  index: -1
+gx/huaban_46
+  rotate: true
+  xy: 439, 368
+  size: 135, 145
+  orig: 250, 250
+  offset: 56, 62
+  index: -1
+gx/huaban_49
+  rotate: false
+  xy: 2, 355
+  size: 135, 148
+  orig: 250, 250
+  offset: 56, 64
+  index: -1
+gx/huaban_55
+  rotate: true
+  xy: 586, 368
+  size: 135, 139
+  orig: 250, 250
+  offset: 56, 69
+  index: -1
+gx/huaban_58
+  rotate: false
+  xy: 134, 134
+  size: 137, 116
+  orig: 250, 250
+  offset: 56, 73
+  index: -1
+gx/huaban_60
+  rotate: false
+  xy: 273, 122
+  size: 136, 119
+  orig: 250, 250
+  offset: 57, 73
+  index: -1
+gx/huaban_7
+  rotate: false
+  xy: 546, 103
+  size: 130, 129
+  orig: 250, 250
+  offset: 65, 70
+  index: -1
+zi2
+  rotate: true
+  xy: 827, 299
+  size: 66, 31
+  orig: 68, 33
+  offset: 1, 1
+  index: -1

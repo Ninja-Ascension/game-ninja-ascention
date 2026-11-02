@@ -319,6 +319,7 @@ function LPVEScene:onUpdateDraw()
 	if self.copytype == 3 then
 		local sceneNameText = ccui.Helper:seekWidgetByName(root, "BitmapFontLabel_zhangjie_yx")
 		local name = dms.string(dms["pve_scene"], self.sceneID, pve_scene.scene_name)
+		name = zstring.exchangeFrom(name)
 		sceneNameText:setString(name)
 		sceneNameText:setMaxLineWidth(36)
 		local length = sceneNameText:getStringLength() -- 文字个数
@@ -328,6 +329,7 @@ function LPVEScene:onUpdateDraw()
 		if __lua_project_id == __lua_project_gragon_tiger_gate or __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto  or __lua_project_id == __lua_project_red_alert then
 			local sceneNameText = ccui.Helper:seekWidgetByName(root, "BitmapFontLabel_zhangjie")
 			local name = dms.string(dms["pve_scene"], self.sceneID, pve_scene.scene_name)
+			name = zstring.exchangeFrom(name)
 			sceneNameText:setString(name)
 			local length = sceneNameText:getStringLength() -- 文字个数
 			sceneNameText:setPositionY(sceneNameText:getPositionY() - length*20)
@@ -338,6 +340,7 @@ function LPVEScene:onUpdateDraw()
 		else
 			local sceneNameText = ccui.Helper:seekWidgetByName(root, "BitmapFontLabel_zhangjie")
 			local name = dms.string(dms["pve_scene"], self.sceneID, pve_scene.scene_name)
+			name = zstring.exchangeFrom(name)
 			sceneNameText:setString(_string_piece_info[97] .. self.sceneID .. _string_piece_info[98] .. name)
 			local length = sceneNameText:getStringLength() -- 文字个数
 			sceneNameText:setPositionY(sceneNameText:getPositionY() - length*20)

@@ -1,0 +1,146 @@
+
+effect_command_world.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a
+  rotate: true
+  xy: 153, 649
+  size: 80, 106
+  orig: 80, 106
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 887, 892
+  size: 124, 119
+  orig: 124, 119
+  offset: 0, 0
+  index: -1
+box1
+  rotate: false
+  xy: 142, 577
+  size: 88, 70
+  orig: 88, 70
+  offset: 0, 0
+  index: -1
+box2
+  rotate: true
+  xy: 270, 740
+  size: 120, 101
+  orig: 120, 101
+  offset: 0, 0
+  index: -1
+c
+  rotate: false
+  xy: 482, 773
+  size: 98, 100
+  orig: 98, 100
+  offset: 0, 0
+  index: -1
+guangxiao/g01
+  rotate: false
+  xy: 2, 141
+  size: 125, 128
+  orig: 136, 136
+  offset: 6, 4
+  index: -1
+guangxiao/g02
+  rotate: false
+  xy: 337, 875
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+guangxiao/g03
+  rotate: false
+  xy: 2, 409
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+guangxiao/g04
+  rotate: false
+  xy: 475, 875
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+guangxiao/g05
+  rotate: false
+  xy: 2, 271
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+guangxiao/lzxs_9_1
+  rotate: false
+  xy: 2, 9
+  size: 123, 130
+  orig: 145, 145
+  offset: 12, 6
+  index: -1
+guangxiao/lzxs_9_11
+  rotate: false
+  xy: 582, 794
+  size: 57, 79
+  orig: 145, 145
+  offset: 41, 40
+  index: -1
+guangxiao/lzxs_9_4
+  rotate: true
+  xy: 760, 893
+  size: 118, 125
+  orig: 145, 145
+  offset: 16, 7
+  index: -1
+guangxiao/lzxs_9_6
+  rotate: false
+  xy: 153, 731
+  size: 115, 125
+  orig: 145, 145
+  offset: 19, 9
+  index: -1
+guangxiao/lzxs_9_8
+  rotate: false
+  xy: 613, 895
+  size: 145, 116
+  orig: 145, 145
+  offset: 0, 17
+  index: -1
+guangxiao/ysks_40_14
+  rotate: false
+  xy: 373, 760
+  size: 107, 113
+  orig: 108, 114
+  offset: 1, 0
+  index: -1
+guangxiao/ysks_40_16
+  rotate: false
+  xy: 2, 547
+  size: 138, 137
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+guangxiao/ysks_40_18
+  rotate: false
+  xy: 173, 862
+  size: 162, 149
+  orig: 162, 150
+  offset: 0, 0
+  index: -1
+guangxiao/ysks_40_20
+  rotate: false
+  xy: 2, 858
+  size: 169, 153
+  orig: 170, 154
+  offset: 1, 0
+  index: -1
+guangxiao/ysks_40_21
+  rotate: true
+  xy: 2, 686
+  size: 170, 149
+  orig: 170, 150
+  offset: 0, 0
+  index: -1

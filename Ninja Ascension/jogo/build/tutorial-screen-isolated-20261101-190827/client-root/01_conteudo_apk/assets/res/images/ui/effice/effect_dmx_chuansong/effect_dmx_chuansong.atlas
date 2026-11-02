@@ -1,0 +1,62 @@
+
+effect_dmx_chuansong.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/t_extraglow_b_1_000
+  rotate: false
+  xy: 2, 60
+  size: 50, 62
+  orig: 70, 95
+  offset: 9, 11
+  index: -1
+img/t_extraglow_b_1_001
+  rotate: false
+  xy: 54, 61
+  size: 50, 61
+  orig: 70, 95
+  offset: 9, 12
+  index: -1
+img/t_extraglow_b_1_002
+  rotate: false
+  xy: 54, 4
+  size: 50, 55
+  orig: 70, 95
+  offset: 10, 18
+  index: -1
+img/t_extraglow_b_1_003
+  rotate: false
+  xy: 2, 2
+  size: 50, 56
+  orig: 70, 95
+  offset: 9, 22
+  index: -1
+img/t_extraglow_b_1_004
+  rotate: false
+  xy: 106, 68
+  size: 51, 54
+  orig: 70, 95
+  offset: 9, 26
+  index: -1
+img/t_extraglow_b_1_005
+  rotate: false
+  xy: 106, 13
+  size: 50, 53
+  orig: 70, 95
+  offset: 10, 29
+  index: -1
+img/t_extraglow_b_1_006
+  rotate: false
+  xy: 159, 73
+  size: 39, 49
+  orig: 70, 95
+  offset: 15, 33
+  index: -1
+img/t_extraglow_b_1_007
+  rotate: false
+  xy: 200, 77
+  size: 36, 45
+  orig: 70, 95
+  offset: 16, 35
+  index: -1

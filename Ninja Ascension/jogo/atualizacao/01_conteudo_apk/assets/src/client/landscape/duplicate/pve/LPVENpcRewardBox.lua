@@ -101,11 +101,7 @@ function LPVENpcRewardBox:ctor()
 							if __lua_project_id == __lua_project_l_digital or __lua_project_id == __lua_project_l_dragonball or __lua_project_id == __lua_project_l_dragonball2 
 							or __lua_project_id == __lua_project_l_pokemon or __lua_project_id == __lua_project_onepiece or __lua_project_id == __lua_project_l_naruto 
 							then
-									-- NPC claims arrive in parser 171's scene reward bucket (0).
-									-- Render the actual server drops, not the preview's sorting filter.
-									local rewards = _ED.show_reward_list_group_ex and _ED.show_reward_list_group_ex[1]
-									print("[NPC_CHEST_REWARD] scene="..tostring(sceneId).." npc="..tostring(response.node.npcId).." count="..tostring(rewards and rewards.show_reward_item_count))
-									getRewardWnd:init(7,rewards)
+								getRewardWnd:init(0)
 							else
 								getRewardWnd:init(7)
 							end

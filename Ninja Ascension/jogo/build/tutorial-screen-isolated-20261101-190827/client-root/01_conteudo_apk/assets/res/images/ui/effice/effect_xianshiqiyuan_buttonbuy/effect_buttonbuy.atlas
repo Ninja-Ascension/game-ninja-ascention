@@ -1,0 +1,27 @@
+
+effect_buttonbuy.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: false
+  xy: 2, 153
+  size: 343, 293
+  orig: 546, 426
+  offset: 103, 66
+  index: -1
+btn_1_3
+  rotate: false
+  xy: 2, 110
+  size: 100, 41
+  orig: 106, 47
+  offset: 2, 5
+  index: -1
+pray_button_bule_en
+  rotate: false
+  xy: 347, 406
+  size: 99, 40
+  orig: 99, 40
+  offset: 0, 0
+  index: -1

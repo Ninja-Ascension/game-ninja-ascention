@@ -1,0 +1,20 @@
+
+effect_xsss.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wz
+  rotate: false
+  xy: 2, 2
+  size: 84, 41
+  orig: 84, 41
+  offset: 0, 0
+  index: -1
+xsss
+  rotate: false
+  xy: 2, 45
+  size: 88, 68
+  orig: 88, 88
+  offset: 0, 5
+  index: -1

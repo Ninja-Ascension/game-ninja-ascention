@@ -11,8 +11,9 @@ function M.install()
             if destroy then return destroy(self,...) end
         end
     end
-    local terminal=state_machine and state_machine._terminals.formation_open_instance_window
-    if not terminal or terminal.__nr_lifetime then return end
+    local terminal=state_machine and state_machine._terminals
+        and state_machine._terminals.formation_open_instance_window
+    if not terminal or terminal.__nr_lifetime or type(terminal._invoke)~='function' then return end
     local invoke=terminal._invoke
     local index
     for i=1,100 do
@@ -20,7 +21,17 @@ function M.install()
         if not name then break end
         if name=='g_formationTigerGate' then index=i;break end
     end
-    assert(index,'Formation window cache upvalue missing')
+    -- The base Formation module may register this terminal before the
+    -- FormationTigerGate variant replaces it. Only the latter owns this cache;
+    -- defer installation until that terminal is loaded instead of crashing
+    -- every app.load during boot.
+    if not index then
+        if not terminal.__nr_lifetime_deferred then
+            terminal.__nr_lifetime_deferred=true
+            print('HOST_FORMATION_LIFETIME deferred; terminal has no FormationTigerGate cache')
+        end
+        return false
+    end
     terminal.__nr_lifetime=true
     terminal._invoke=function(...)
         if type(equipmentIsCanEvolution)~='function' or type(equipmentIsCanAwake)~='function' then

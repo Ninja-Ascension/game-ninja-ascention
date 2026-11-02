@@ -94,12 +94,55 @@ function M.installLoading(class)
         note('preload activity module only; no delayed Event window')
     end
     class.loadingFormation=function(self,...)
-        if not self.__nr_preloading_battle and require('tutorial_disabled').enabled then return formation(self,...) end
+        local tutorialState=_ED and _ED.nr_initial_tutorial or 'legacy'
+        local tutorialEnabled=false
+        pcall(function() tutorialEnabled=require('tutorial_disabled').enabled end)
+        if tutorialState=='choice' or tutorialState=='playing' then
+            app.load('client.formation.FormationTigerGate')
+            self.isLoadFormation=true
+            note('suppressed automatic Formation window during initial tutorial state='..tostring(tutorialState)
+                ..' gate='..tostring(tutorialEnabled)..'; module preloaded only')
+            return
+        end
+        if not self.__nr_preloading_battle and require('tutorial_disabled').enabled then
+            note('opening original Formation window state='..tostring(tutorialState))
+            return formation(self,...)
+        end
         app.load('client.formation.FormationTigerGate')
         self.isLoadFormation=true
         note('preload formation module only; no menu window')
     end
 end
+
+function M.installTutorialFormationGate()
+    local terminals=state_machine and state_machine._terminals
+    local terminal=terminals and terminals['formation_open_instance_window']
+    if type(terminal)~='table' or type(terminal._invoke)~='function' or terminal.__nr_tutorial_formation_gate then return end
+    terminal.__nr_tutorial_formation_gate=true
+    local invoke=terminal._invoke
+    terminal._invoke=function(...)
+        local tutorialState=_ED and _ED.nr_initial_tutorial or 'legacy'
+        local tutorialEnabled=false
+        pcall(function() tutorialEnabled=require('tutorial_disabled').enabled end)
+        if tutorialState~='choice' and tutorialState~='playing' and not tutorialEnabled then
+            return invoke(...)
+        end
+
+        local existing=fwin and (fwin:find('FormationTigerGateClass') or fwin:find('FormationClass'))
+        local released=false
+        local releaseTerminal=terminals and terminals['formation_release_instance_window']
+        if existing and releaseTerminal and state_machine and type(state_machine.excute)=='function' then
+            local ok,result=pcall(function() return state_machine.excute('formation_release_instance_window',0,0) end)
+            released=ok and result~=false
+        end
+        if existing and not released then pcall(function() fwin:close(existing) end) end
+        note('blocked formation_open_instance_window during initial tutorial state='..tostring(tutorialState)
+            ..' gate='..tostring(tutorialEnabled)..' existing='..tostring(existing~=nil))
+        return true
+    end
+    note('installed initial tutorial Formation open gate')
+end
+
 function M.installRoles(class)
     if type(class)~='table' or class.__nr_actor_contract then return end
     local execute=class.executeCurrentSelectRoleFightDataAddAttacker
@@ -126,10 +169,15 @@ function M.installRoles(class)
     end
     class.executeCurrentSelectRoleFightDataAddAttacker=function(self,data,...)
         -- Original protocol consumers use string keys for camp and seat.
-        local camp=tostring(data.attacker)
-        local seat=tonumber(data.attackerPos)
-        assert((camp=='0' or camp=='1') and seat and seat>=1 and seat==math.floor(seat),
-            'Invalid battle actor identity: '..camp..'/'..tostring(data.attackerPos))
+        local camp=tostring(type(data)=='table' and data.attacker or nil)
+        local seat=tonumber(type(data)=='table' and data.attackerPos or nil)
+        if not ((camp=='0' or camp=='1') and seat and seat>=1 and seat==math.floor(seat)) then
+            local message='Skipped invalid battle actor camp='..camp..' seat='
+                ..tostring(type(data)=='table' and data.attackerPos or nil)
+                ..' wave='..tostring(self.fightIndex)
+            note(message)
+            return false
+        end
         local key=tostring(seat)
         local actors
         if seat>6 then actors=camp=='0' and self._hero_animal_formation or self._master_animal_formation
@@ -144,7 +192,10 @@ function M.installRoles(class)
                 ..' heroSlots='..tostring(#(self.hero_slots or {}))
                 ..' enemySlots='..tostring(#(self.master_slots or {}))
             note(message)
-            error(message,0)
+            -- A bad action must not unwind a scheduled game callback and close
+            -- the client. Leave this one action out; the server remains the
+            -- authority for the battle result and the controller can continue.
+            return false
         end
         data.attacker=camp;data.attackerPos=key
         return execute(self,data,...)
@@ -200,6 +251,9 @@ function M.armar()
         visualEnd.install(rawget(_G,'FightRole'),'cleanAttackData',false)
         visualEnd.install(rawget(_G,'FightRoleController'),'nextBattle',true)
         energy.install(rawget(_G,'Menu'))
+        local tutorialScreen=require('tutorial_screen_guard')
+        tutorialScreen.installHomeHero(rawget(_G,'HomeHero'))
+        tutorialScreen.installTuitionController(rawget(_G,'TuitionController'))
         require('intro_menu_transition').install()
         require('pve_entry_ready').install()
         require('campaign_runtime').install()
@@ -211,6 +265,7 @@ function M.armar()
         require('quest_local').install()
         require('hero_ui_compat').install()
         require('formation_lifetime').install()
+        M.installTutorialFormationGate()
         require('formation_empty_slots').install(rawget(_G,'HomeHero'))
         require('recruit_visible_hero').install(rawget(_G,'HeroRecruitSuccess'))
         require('recruit_visible_hero').installTen(rawget(_G,'HeroRecruitSuccessTen'))

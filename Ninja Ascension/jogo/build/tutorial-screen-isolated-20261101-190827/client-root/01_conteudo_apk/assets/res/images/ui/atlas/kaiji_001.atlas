@@ -1,0 +1,118 @@
+
+kaiji_001.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kaiji/images/kaiji_001
+  rotate: false
+  xy: 0, 384
+  size: 1136, 640
+  orig: 1136, 640
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_002
+  rotate: false
+  xy: 343, 19
+  size: 189, 98
+  orig: 189, 98
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_003
+  rotate: true
+  xy: 751, 112
+  size: 272, 370
+  orig: 272, 370
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_004
+  rotate: true
+  xy: 1643, 559
+  size: 465, 230
+  orig: 465, 230
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_005
+  rotate: true
+  xy: 1136, 240
+  size: 273, 359
+  orig: 273, 359
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_006
+  rotate: true
+  xy: 1495, 267
+  size: 246, 164
+  orig: 246, 164
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_007
+  rotate: false
+  xy: 1121, 11
+  size: 322, 229
+  orig: 322, 229
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_008
+  rotate: false
+  xy: 0, 8
+  size: 343, 376
+  orig: 343, 376
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_009
+  rotate: false
+  xy: 1136, 513
+  size: 507, 511
+  orig: 507, 511
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_010
+  rotate: false
+  xy: 1659, 346
+  size: 180, 213
+  orig: 180, 213
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_011
+  rotate: false
+  xy: 1592, 27
+  size: 163, 162
+  orig: 163, 162
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_012
+  rotate: true
+  xy: 1755, 40
+  size: 149, 120
+  orig: 149, 120
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_013
+  rotate: false
+  xy: 343, 117
+  size: 408, 267
+  orig: 408, 267
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_014
+  rotate: true
+  xy: 1659, 189
+  size: 157, 190
+  orig: 157, 190
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_015
+  rotate: false
+  xy: 1443, 0
+  size: 149, 240
+  orig: 149, 240
+  offset: 0, 0
+  index: -1
+kaiji/images/kaiji_016
+  rotate: true
+  xy: 1873, 616
+  size: 408, 139
+  orig: 408, 139
+  offset: 0, 0
+  index: -1

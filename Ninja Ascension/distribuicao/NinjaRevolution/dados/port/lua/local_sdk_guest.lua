@@ -26,6 +26,18 @@
 
 local M = {}
 
+local function logFightStage(message)
+    print('HOST_FIGHT '..message)
+    local ok,path=pcall(function()
+        return cc.FileUtils:getInstance():getWritablePath()..'battle-native.log'
+    end)
+    if not ok or not path then return end
+    local opened,file=pcall(io.open,path,'a')
+    if opened and file then
+        pcall(function() file:write(os.date('%Y-%m-%d %H:%M:%S')..' '..message..'\n');file:close() end)
+    end
+end
+
 local ATAQUES_MAX = 400
 local ataques = 0
 local instalado = false
@@ -994,7 +1006,7 @@ function M.instalarSondaDeBatalhaFight()
     Classe.__nr_marca_new = true
     Classe.new = function(...)
         local objeto = newOriginal(...)
-        print('HOST_FIGHT instancia criada')
+        logFightStage('instance_created scene='..tostring(_ED and _ED._scene_npc_id))
         local alvos = { 'initFight', 'initBattleField', 'initFightOrder',
                         'initAttackerBattleInfo' }
         for _, nome in ipairs(alvos) do
@@ -1003,10 +1015,15 @@ function M.instalarSondaDeBatalhaFight()
                 objeto['__nr_marca_' .. nome] = true
                 local original = objeto[nome]
                 objeto[nome] = function(self, ...)
-                    print('HOST_FIGHT antes ' .. nome)
-                    local ret = { original(self, ...) }
-                    print('HOST_FIGHT depois ' .. nome)
-                    return unpack(ret)
+                    logFightStage('before '..nome..' wave='..tostring(self.fightIndex))
+                    local args={...}
+                    local ret={xpcall(function() return original(self,unpack(args)) end,debug.traceback)}
+                    if not ret[1] then
+                        logFightStage('FAILED '..nome..' '..tostring(ret[2]))
+                        error(ret[2],0)
+                    end
+                    logFightStage('after '..nome..' wave='..tostring(self.fightIndex))
+                    return unpack(ret,2)
                 end
             end
         end

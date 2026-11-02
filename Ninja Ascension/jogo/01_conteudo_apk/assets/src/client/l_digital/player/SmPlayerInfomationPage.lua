@@ -257,16 +257,25 @@ function SmPlayerInfomationPage:drawHead()
         Panel_player_icon:addChild(SpritKuang,0)
     
         local big_icon_path = ""
-        local pic = tonumber(_ED.user_info.user_head)
+        local pic = tonumber(_ED.user_info.user_head) or 1
         if pic >= 9 then
             big_icon_path = string.format("images/ui/props/props_%d.png", pic)
         else
             big_icon_path = string.format("images/ui/home/head_%d.png", pic)
         end
         local sprit = cc.Sprite:create(big_icon_path)
-        sprit:setAnchorPoint(cc.p(0.5,0.5))
-        sprit:setPosition(cc.p(Panel_player_icon:getContentSize().width / 2, Panel_player_icon:getContentSize().height / 2))
-        Panel_player_icon:addChild(sprit,0)
+        if sprit == nil then
+            print("PROFILE_HEAD missing avatar asset", tostring(big_icon_path), "head", tostring(pic))
+            big_icon_path = "images/ui/home/head_1.png"
+            sprit = cc.Sprite:create(big_icon_path)
+        end
+        if sprit ~= nil then
+            sprit:setAnchorPoint(cc.p(0.5,0.5))
+            sprit:setPosition(cc.p(Panel_player_icon:getContentSize().width / 2, Panel_player_icon:getContentSize().height / 2))
+            Panel_player_icon:addChild(sprit,0)
+        else
+            print("PROFILE_HEAD default avatar asset missing; continuing without avatar")
+        end
     end
 end
 

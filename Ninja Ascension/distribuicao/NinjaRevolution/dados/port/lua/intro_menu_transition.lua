@@ -6,6 +6,26 @@ function M.install()
     package.__nr_intro_menu=true
     local execute=state_machine.excute
     state_machine.excute=function(name,...)
+        local initial=require('initial_tutorial')
+        local progress=tonumber(_ED and _ED._nr_current_mission_progress)
+        local afterPain = name=='menu_window_open_mission'
+            and require('tutorial_tap_wait').isIntroBattle()
+            and (initial.state=='playing' or initial.state=='completed')
+            and progress==2010136
+        if afterPain then
+            -- Se 2010135 já confirmou a CG pós-Pain, só recarrega o perfil.
+            -- Se o cliente antigo pulou essa confirmação, 2010136 é fallback.
+            local path=cc.FileUtils:getInstance():getWritablePath()..'intro-menu.log'
+            local file=io.open(path,'a')
+            if file then file:write(os.date('%H:%M:%S')..' post-Pain terminal; state='..tostring(initial.state)..' marker=2010136\n');file:close() end
+            if initial.state=='completed' and TutorialSkip and type(TutorialSkip.resumeAfterIntro)=='function' then
+                return TutorialSkip.resumeAfterIntro()
+            end
+            if TutorialSkip and type(TutorialSkip.completeAfterPain)=='function' then
+                return TutorialSkip.completeAfterPain()
+            end
+            error('TutorialSkip.completeAfterPain unavailable at Pain tutorial terminal')
+        end
         if name=='menu_window_open_mission' and require('tutorial_tap_wait').isIntroBattle()
             and fwin:find('FightSceneClass') then
             -- The recovered mission emits this command without loading Menu.

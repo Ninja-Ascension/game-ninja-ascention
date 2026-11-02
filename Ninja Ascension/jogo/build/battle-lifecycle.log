@@ -19,3 +19,158 @@ stack traceback:
 	[C]: in function 'pcall'
 	[string "..."]:44: in main chunk
 19:10:11 Missing actor camp=1 seat=3 wave=nil rendered={2(string)} heroes={1(string)} armies={} enemyData={} heroSlots=0 enemySlots=0
+15:00:50 preload activity module only; no delayed Event window
+15:00:50 preload formation module only; no menu window
+15:00:50 preload activity module only; no delayed Event window
+15:00:50 preload formation module only; no menu window
+15:00:50 preload activity module only; no delayed Event window
+15:00:50 preload formation module only; no menu window
+15:00:50 attached battle preload methods to LoginLoading peer
+15:00:50 preload activity module only; no delayed Event window
+15:00:50 preload formation module only; no menu window
+15:00:50 initHero begin wave=nil
+15:00:50 initHero FAILED [string "..."]:37: original construction failure
+stack traceback:
+	[C]: in function 'error'
+	[string "..."]:37: in function <[string "..."]:37>
+	[C]: in function 'xpcall'
+	...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:116: in function <...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:113>
+	[C]: in function 'pcall'
+	[string "..."]:44: in main chunk
+15:00:50 Missing actor camp=1 seat=3 wave=nil rendered={2(string)} heroes={1(string)} armies={} enemyData={} heroSlots=0 enemySlots=0
+20:14:18 installed initial tutorial Formation open gate
+20:14:18 blocked formation_open_instance_window during initial tutorial state=playing gate=false existing=false
+20:14:18 blocked formation_open_instance_window during initial tutorial state=choice gate=false existing=false
+20:14:18 blocked formation_open_instance_window during initial tutorial state=legacy gate=true existing=false
+20:14:18 blocked formation_open_instance_window during initial tutorial state=playing gate=false existing=true
+20:20:00 preload activity module only; no delayed Event window
+20:20:00 suppressed automatic Formation window during initial tutorial state=legacy gate=true; module preloaded only
+20:20:00 suppressed automatic Formation window during initial tutorial state=legacy gate=true; module preloaded only
+20:20:27 preload activity module only; no delayed Event window
+20:20:27 preload formation module only; no menu window
+20:20:27 opening original Formation window state=legacy
+20:20:27 preload activity module only; no delayed Event window
+20:20:27 preload formation module only; no menu window
+20:20:27 preload activity module only; no delayed Event window
+20:20:27 preload formation module only; no menu window
+20:20:27 attached battle preload methods to LoginLoading peer
+20:20:27 preload activity module only; no delayed Event window
+20:20:27 preload formation module only; no menu window
+20:20:27 initHero begin wave=nil
+20:20:27 initHero FAILED [string "..."]:37: original construction failure
+stack traceback:
+	[C]: in function 'error'
+	[string "..."]:37: in function <[string "..."]:37>
+	[C]: in function 'xpcall'
+	...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:159: in function <...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:156>
+	[C]: in function 'pcall'
+	[string "..."]:44: in main chunk
+20:20:27 Missing actor camp=1 seat=3 wave=nil rendered={2(string)} heroes={1(string)} armies={} enemyData={} heroSlots=0 enemySlots=0
+20:20:40 installed initial tutorial Formation open gate
+20:20:40 installed initial tutorial Formation open gate
+20:20:40 blocked formation_open_instance_window during initial tutorial state=playing gate=false existing=false
+02:50:10 preload activity module only; no delayed Event window
+02:50:10 preload formation module only; no menu window
+02:50:10 opening original Formation window state=legacy
+02:50:10 preload activity module only; no delayed Event window
+02:50:10 preload formation module only; no menu window
+02:50:10 preload activity module only; no delayed Event window
+02:50:10 preload formation module only; no menu window
+02:50:10 attached battle preload methods to LoginLoading peer
+02:50:10 preload activity module only; no delayed Event window
+02:50:10 preload formation module only; no menu window
+02:50:10 initHero begin wave=nil
+02:50:10 initHero FAILED [string "..."]:37: original construction failure
+stack traceback:
+	[C]: in function 'error'
+	[string "..."]:37: in function <[string "..."]:37>
+	[C]: in function 'xpcall'
+	...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:159: in function <...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:156>
+	[C]: in function 'pcall'
+	[string "..."]:44: in main chunk
+02:50:10 Missing actor camp=1 seat=3 wave=nil rendered={2(string)} heroes={1(string)} armies={} enemyData={} heroSlots=0 enemySlots=0
+02:50:10 Skipped invalid battle actor camp=bad seat=x wave=nil
+03:01:25 preload activity module only; no delayed Event window
+03:01:25 preload formation module only; no menu window
+03:01:25 opening original Formation window state=legacy
+03:01:25 preload activity module only; no delayed Event window
+03:01:25 preload formation module only; no menu window
+03:01:25 preload activity module only; no delayed Event window
+03:01:25 preload formation module only; no menu window
+03:01:25 attached battle preload methods to LoginLoading peer
+03:01:25 preload activity module only; no delayed Event window
+03:01:25 preload formation module only; no menu window
+03:01:25 initHero begin wave=nil
+03:01:25 initHero FAILED [string "..."]:37: original construction failure
+stack traceback:
+	[C]: in function 'error'
+	[string "..."]:37: in function <[string "..."]:37>
+	[C]: in function 'xpcall'
+	...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:159: in function <...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:156>
+	[C]: in function 'pcall'
+	[string "..."]:44: in main chunk
+03:01:25 Missing actor camp=1 seat=3 wave=nil rendered={2(string)} heroes={1(string)} armies={} enemyData={} heroSlots=0 enemySlots=0
+03:01:25 Skipped invalid battle actor camp=bad seat=x wave=nil
+03:32:45 preload activity module only; no delayed Event window
+03:32:45 preload formation module only; no menu window
+03:32:45 opening original Formation window state=legacy
+03:32:45 preload activity module only; no delayed Event window
+03:32:45 preload formation module only; no menu window
+03:32:45 preload activity module only; no delayed Event window
+03:32:45 preload formation module only; no menu window
+03:32:45 attached battle preload methods to LoginLoading peer
+03:32:45 preload activity module only; no delayed Event window
+03:32:45 preload formation module only; no menu window
+03:32:45 initHero begin wave=nil
+03:32:45 initHero FAILED [string "..."]:37: original construction failure
+stack traceback:
+	[C]: in function 'error'
+	[string "..."]:37: in function <[string "..."]:37>
+	[C]: in function 'xpcall'
+	...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:159: in function <...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:156>
+	[C]: in function 'pcall'
+	[string "..."]:44: in main chunk
+03:32:45 Missing actor camp=1 seat=3 wave=nil rendered={2(string)} heroes={1(string)} armies={} enemyData={} heroSlots=0 enemySlots=0
+03:32:45 Skipped invalid battle actor camp=bad seat=x wave=nil
+03:43:15 preload activity module only; no delayed Event window
+03:43:15 preload formation module only; no menu window
+03:43:15 opening original Formation window state=legacy
+03:43:15 preload activity module only; no delayed Event window
+03:43:15 preload formation module only; no menu window
+03:43:15 preload activity module only; no delayed Event window
+03:43:15 preload formation module only; no menu window
+03:43:15 attached battle preload methods to LoginLoading peer
+03:43:15 preload activity module only; no delayed Event window
+03:43:15 preload formation module only; no menu window
+03:43:15 initHero begin wave=nil
+03:43:15 initHero FAILED [string "..."]:37: original construction failure
+stack traceback:
+	[C]: in function 'error'
+	[string "..."]:37: in function <[string "..."]:37>
+	[C]: in function 'xpcall'
+	...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:159: in function <...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:156>
+	[C]: in function 'pcall'
+	[string "..."]:44: in main chunk
+03:43:15 Missing actor camp=1 seat=3 wave=nil rendered={2(string)} heroes={1(string)} armies={} enemyData={} heroSlots=0 enemySlots=0
+03:43:15 Skipped invalid battle actor camp=bad seat=x wave=nil
+03:51:56 preload activity module only; no delayed Event window
+03:51:56 preload formation module only; no menu window
+03:51:56 opening original Formation window state=legacy
+03:51:56 preload activity module only; no delayed Event window
+03:51:56 preload formation module only; no menu window
+03:51:56 preload activity module only; no delayed Event window
+03:51:56 preload formation module only; no menu window
+03:51:56 attached battle preload methods to LoginLoading peer
+03:51:56 preload activity module only; no delayed Event window
+03:51:56 preload formation module only; no menu window
+03:51:56 initHero begin wave=nil
+03:51:56 initHero FAILED [string "..."]:37: original construction failure
+stack traceback:
+	[C]: in function 'error'
+	[string "..."]:37: in function <[string "..."]:37>
+	[C]: in function 'xpcall'
+	...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:159: in function <...ntion/Ninja Ascension/jogo/port/lua/battle_lifecycle.lua:156>
+	[C]: in function 'pcall'
+	[string "..."]:44: in main chunk
+03:51:56 Missing actor camp=1 seat=3 wave=nil rendered={2(string)} heroes={1(string)} armies={} enemyData={} heroSlots=0 enemySlots=0
+03:51:56 Skipped invalid battle actor camp=bad seat=x wave=nil
