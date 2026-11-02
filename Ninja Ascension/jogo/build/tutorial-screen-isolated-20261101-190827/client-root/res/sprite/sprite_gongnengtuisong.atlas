@@ -1,0 +1,62 @@
+
+sprite_gongnengtuisong.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dise
+  rotate: false
+  xy: 240, 351
+  size: 144, 52
+  orig: 144, 52
+  offset: 0, 0
+  index: -1
+fangge
+  rotate: false
+  xy: 240, 332
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+kjsc1
+  rotate: false
+  xy: 2, 227
+  size: 236, 176
+  orig: 236, 176
+  offset: 0, 0
+  index: -1
+kjsc2
+  rotate: false
+  xy: 2, 151
+  size: 165, 74
+  orig: 165, 74
+  offset: 0, 0
+  index: -1
+kt_1
+  rotate: false
+  xy: 2, 101
+  size: 140, 48
+  orig: 140, 48
+  offset: 0, 0
+  index: -1
+sg
+  rotate: false
+  xy: 169, 189
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+xx1
+  rotate: false
+  xy: 386, 389
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+yuanpian
+  rotate: false
+  xy: 2, 86
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1

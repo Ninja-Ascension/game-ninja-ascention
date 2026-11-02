@@ -1,0 +1,55 @@
+1	1	2点击NPC	15	0否	0	nc0	0	0	10101	-1	0剧情事件	7对话	0	1	110801	110801	Zabuza	Kaya pala natalo ang mga Ninja na iyon, ang kalaban nila ay ang  "Copy Ninja"  na si Kakashi.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	2	2点击NPC	15	0否	0	nc0	0	0	10102	-1	0剧情事件	7对话	0	0	111501	111501	Kakashi	Hindi ko inasahang ganito sila kabilis dumating......	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	3	2点击NPC	15	0否	0	nc0	0	0	10103	-1	0剧情事件	7对话	0	0	111501	111501	Kakashi	Hindi ba't iyan ang traydor na Ninja na si Zabuza Momochi mula sa Hidden Mist?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	4	2点击NPC	15	0否	0	nc0	0	0	10104	-1	0剧情事件	7对话	0	0	110201	110201	Naruto	Haha, nandito na ako, oras na ng palabas ko.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	5	2点击NPC	15	0否	0	nc0	0	0	10105	-1	0剧情事件	6请求战斗	0	3	4005,4005	3000	1	1	15	2	0	0	0	0	0	0	0	0	0	0	0	0
+20	1	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 3})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	2	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102002	-1	0剧情事件	7对话	0	0	1000021	1000021	Naruto	Ah......Araw-araw na lang, naghahanap ng pusa, nag-aalaga ng bata......Wala bang matinong mission?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	3	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102003	-1	0剧情事件	7对话	0	1	1000016	1000016	Iruka	Tanga! Mga baguhan pa lang kayo.Lahat ay dumaraan dito. Magsimula muna sa mga simpleng mission para lumawak ang karanasan.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	4	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102004	-1	0剧情事件	7对话	0	1	102301	102301	Third Hokage	Kung gayon, bibigyan ko kayo ng C-rank mission, ang protektahan ang isang tao.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	5	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102005	-1	0剧情事件	7对话	0	1	1000003	1000003	Tazuna	Ano, mga bata lang ito,Ninja ba talaga kayo? Lalo na 'yang pandak.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	6	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102006	-1	0剧情事件	7对话	0	0	1000009	1000009	Naruto	Pandak......Hmp! Ako ba ang tinutukoy mo?Papatayin kita! 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	7	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102007	-1	0剧情事件	7对话	0	0	111501	111501	Kakashi	Siya ang kailangan nating protektahan, tanga.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+20	8	1进入场景	3	0否	0	sc0m1	feg:1-0	0	102008	-1	0剧情事件	7对话	0	1	1000003	1000003	Tazuna	Ako ang sikat na master bridge builder,si Tazuna. Dapat ninyo akong ipagtanggol hanggang makabalik ako sa Land of Waves at matapos ang tulay.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	1	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 4})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	2	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104002	-1	0剧情事件	2切换背景音效	0	9	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+40	3	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104003	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Malapit nang magsimula ang Chuunin Exam na ginaganap dalawang beses sa isang taon sa Konohagakure, maraming Ninja ang dumarating mula sa bawat bansa.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	4	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104004	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Kasabay nito, pinag-uusapan din sa loob ng Konohagakure ang mga kandidato sa exam na ito.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	5	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104005	-1	0剧情事件	7对话	0	1	102301	102301	Third Hokage	Sige,may angkop bang kandidato mula sa mga baguhang hawak ninyo?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	6	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104006	-1	0剧情事件	7对话	0	0	111501	111501	Kakashi	Team 7 ni Kakashi,inirerekomenda ko sina Sasuke,Naruto at Sakura, sa pangalan ni Kakashi, na sumali sa Chuunin Exam.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	7	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104007	-1	0剧情事件	7对话	0	0	112401	112401	Kurenai	Team 8 ni Yuhi ,inirerekomenda ko sina Hinata Hyuga,Kiba at Shino Aburame , sa pangalan ni Yuhi, na sumali sa Chuunin Exam.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	8	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104008	-1	0剧情事件	7对话	0	0	112601	112601	Asuma	Team 10 ni Asuma ,inirerekomenda ko sina Ino,Shikamaru at Choji , sa pangalan ni Asuma, na sumali sa Chuunin Exam.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+40	9	1进入场景	4	0否	0	sc0m1	feg:1-0	0	104009	-1	0剧情事件	7对话	0	1	102301	102301	Third Hokage	Hmmm......Medyo nakakagulat......	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	1	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 5})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	2	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105002	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Matapos ang sunud-sunod na pagsubok sa Forest of Death, siyam na tao lang ang nakapasa sa preliminaries ng Chuunin Exam.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	3	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105003	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Makalipas ang isang buwan, magsisimula na ang finals ng Chuunin Exam na dinumog ng maraming manonood......	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	4	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105004	-1	0剧情事件	7对话	0	1	111501	111501	Kakashi	Iyon lang......May kailangan akong asikasuhin agad, hindi kita maaasikaso.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	5	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105005	-1	0剧情事件	7对话	0	0	1000009	1000009	Naruto	Tutulungan mo bang mag-training si Sasuke?	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+50	6	1进入场景	5	0否	0	sc0m1	feg:1-0	0	105006	-1	0剧情事件	7对话	0	1	111501	111501	Kakashi	Huwag kang ganyan! Nakahanap ako ng sasama sa iyo sa training, mas malakas pa siya sa akin. 	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	1	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 6})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	2	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106002	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Natapos ang Chuunin Exam dahil sa panggugulo ni Orochimaru. Dahil nawalan ng kontrol si Gaara, dinala siya nina Temari at Kankuro at pansamantalang umatras.Sinamantala ito ni Sasuke para habulin sila.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	3	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106003	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Samantala sa Konoha, pansamantalang binuo ang isang team para habulin si Gaara.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	4	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106004	-1	0剧情事件	7对话	0	1	111501	111501	Kakashi	Matagal na tayong walang natatanggap na mission, siguradong sabik na sabik si Naruto ngayon. Mag-ingat kayo, A-rank mission ito na hindi pa ninyo natatanggap mula noong Land of Waves.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	5	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106005	-1	0剧情事件	7对话	0	1	111501	111501	Kakashi	Sakura, alisin mo ang ilusyon kina Shikamaru at Naruto , at sabay ninyong sundan si Sasuke.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+60	6	1进入场景	6	0否	0	sc0m1	feg:1-0	0	106006	-1	0剧情事件	7对话	0	0	150501	150501	Sakura	Ah…Opo!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	1	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 7})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	2	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107002	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Matapos pumanaw ang Third Hokage, nagsimulang pumili ang Konohagakure ng bagong kandidato para maging Hokage, habang naglakbay naman si Naruto kasama si Jiraiya, isa sa mga "Konoha Sannin".	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	3	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107003	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Ang bagong kandidato para maging Hokage ay ang apo ng First Hokage--si Tsunade, isa rin sa mga "Konoha Sannin".	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	4	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107004	-1	0剧情事件	7对话	0	1	103001	103001	Jiraiya	Hindi ito simpleng biyahe. Hahanapin natin ang isang dakilang babaeng Ninja.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	5	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107005	-1	0剧情事件	7对话	0	0	110201	110201	Naruto	Sana hindi nito maantala ang training ko.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+70	6	1进入场景	7	0否	0	sc0m1	feg:1-0	0	107006	-1	0剧情事件	7对话	0	1	103001	103001	Jiraiya	Tama ang sinamahan mo,mas malakas na Genjutsu ang kaya kong gamitin kaysa sa Chidori ni Sasuke .Ituturo ko sa iyo sa biyaheng ito.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	1	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 8})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	2	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108002	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Para makuha ang katawan ni Sasuke,pinapasok ni Orochimaru ang mga tauhan niyang Sound Five sa Konohagakure para sunduin si Sasuke, habang handa rin si Sasuke na sumama kay Orochimaru para magkaroon ng kapangyarihang maghiganti.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	3	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108003	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Nalaman ng Konohagakure ang pagtataksil ni Sasuke at nagbigay ng mission para maibalik siya,at ang namamahala sa mission na ito ay si Shikamaru,na bagong Chuunin pa lang.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	4	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108004	-1	0剧情事件	7对话	0	1	1000018	1000018	Shikamaru	Ganoon pala......Kung gayon, umalis na tayo agad.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	5	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108005	-1	0剧情事件	7对话	0	0	1000008	1000008	Naruto	Hmp......Ang Sasuke na 'yon!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	6	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108006	-1	0剧情事件	7对话	0	0	110201	110201	Choji	Uh huh,mukhang hindi ganoon kadali ang mission na ito.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	7	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108007	-1	0剧情事件	7对话	0	0	151101	151101	Kiba	Kailangan kong sumali sa mission na ito.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	8	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108008	-1	0剧情事件	7对话	0	0	111701	111701	Neji 	Tara na.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	9	1进入场景	8	0否	0	sc0m1	feg:1-0	0	108009	-1	0剧情事件	7对话	0	1	1000011	1000011	Sakura	Naruto......Ito ang hiling ko habang buhay......Ibalik mo si Sasuke!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+80	10	1进入场景	8	0否	0	sc0m1	feg:1-0	0	1080010	-1	0剧情事件	7对话	0	0	110201	110201	Naruto	Ibabalik ko si Sasuke, ito ang pangako natin habang buhay!	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	1	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109001	-1	0剧情事件	28执行脚本	0	state_machine.excute("lduplicate_window_pve_quick_entrance", 0, {_type = 1, _sceneId = 9})	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	2	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109002	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Dahil nagre-reincarnate si Orochimaru tuwing 3 taon,ligtas pa si Sasuke sa ngayon.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	3	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109003	-1	0剧情事件	7对话	0	0	0	0	Tagapagsalaysay	Para magkaroon ng sapat na lakas na maibalik si Sasuke,sumama si Naruto kay Jiraiya at sinimulan ang bago niyang paglalakbay sa pagsasanay.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	4	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109004	-1	0剧情事件	7对话	0	1	103001	103001	Jiraiya	Maghanda ka sa napakahirap kong training.	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+90	5	1进入场景	9	0否	0	sc0m1	feg:1-0	0	109005	-1	0剧情事件	7对话	0	0	110201	110201	Naruto	Sige!	0	0	0	0	0	0	0	0	0	0	0	0	0	0

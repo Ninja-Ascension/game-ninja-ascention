@@ -1,0 +1,236 @@
+
+effect_107731.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/052
+  rotate: false
+  xy: 592, 682
+  size: 419, 340
+  orig: 559, 478
+  offset: 70, 69
+  index: -1
+gx/Flame_18_00023
+  rotate: false
+  xy: 548, 42
+  size: 398, 270
+  orig: 624, 351
+  offset: 108, 0
+  index: -1
+gx/Flame_33_00021
+  rotate: true
+  xy: 1013, 985
+  size: 37, 9
+  orig: 480, 270
+  offset: 224, 135
+  index: -1
+gx/fbao_5
+  rotate: false
+  xy: 948, 16
+  size: 65, 48
+  orig: 114, 140
+  offset: 40, 62
+  index: -1
+gx/jncc1
+  rotate: true
+  xy: 548, 427
+  size: 61, 36
+  orig: 262, 73
+  offset: 198, 1
+  index: -1
+gx/jncc3
+  rotate: true
+  xy: 948, 66
+  size: 246, 71
+  orig: 262, 73
+  offset: 12, 0
+  index: -1
+gx/jws_beiji02_newAnimation_00
+  rotate: false
+  xy: 592, 314
+  size: 398, 366
+  orig: 750, 600
+  offset: 153, 147
+  index: -1
+gx/jws_beiji02_newAnimation_01
+  rotate: false
+  xy: 592, 314
+  size: 398, 366
+  orig: 750, 600
+  offset: 153, 147
+  index: -1
+gx/jws_beiji02_newAnimation_02
+  rotate: false
+  xy: 2, 490
+  size: 588, 532
+  orig: 750, 600
+  offset: 65, 51
+  index: -1
+gx/jws_beiji02_newAnimation_03
+  rotate: false
+  xy: 2, 490
+  size: 588, 532
+  orig: 750, 600
+  offset: 65, 51
+  index: -1
+gx/jws_beiji02_newAnimation_04
+  rotate: false
+  xy: 2, 38
+  size: 544, 450
+  orig: 750, 600
+  offset: 115, 45
+  index: -1
+gx/jws_beiji02_newAnimation_05
+  rotate: false
+  xy: 2, 38
+  size: 544, 450
+  orig: 750, 600
+  offset: 115, 45
+  index: -1
+
+effect_1077312.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/051
+  rotate: false
+  xy: 704, 305
+  size: 186, 186
+  orig: 559, 478
+  offset: 59, 146
+  index: -1
+gx/053
+  rotate: true
+  xy: 401, 772
+  size: 250, 342
+  orig: 559, 478
+  offset: 245, 47
+  index: -1
+gx/054
+  rotate: true
+  xy: 743, 493
+  size: 214, 255
+  orig: 559, 478
+  offset: 268, 47
+  index: -1
+gx/Flame_18_00027
+  rotate: false
+  xy: 2, 760
+  size: 397, 262
+  orig: 624, 351
+  offset: 105, 8
+  index: -1
+gx/Flame_18_00031
+  rotate: false
+  xy: 2, 502
+  size: 390, 256
+  orig: 624, 351
+  offset: 108, 9
+  index: -1
+gx/Flame_18_00035
+  rotate: false
+  xy: 2, 16
+  size: 371, 212
+  orig: 624, 351
+  offset: 110, 22
+  index: -1
+gx/Flame_18_00039
+  rotate: false
+  xy: 401, 559
+  size: 340, 211
+  orig: 624, 351
+  offset: 117, 18
+  index: -1
+gx/Flame_33_00001
+  rotate: false
+  xy: 2, 230
+  size: 340, 270
+  orig: 480, 270
+  offset: 87, 0
+  index: -1
+gx/Flame_33_00005
+  rotate: true
+  xy: 745, 709
+  size: 313, 270
+  orig: 480, 270
+  offset: 71, 0
+  index: -1
+gx/Flame_33_00009
+  rotate: false
+  xy: 411, 334
+  size: 222, 223
+  orig: 480, 270
+  offset: 128, 31
+  index: -1
+gx/Flame_33_00013
+  rotate: false
+  xy: 446, 191
+  size: 135, 141
+  orig: 480, 270
+  offset: 175, 66
+  index: -1
+gx/Flame_33_00017
+  rotate: false
+  xy: 446, 3
+  size: 104, 94
+  orig: 480, 270
+  offset: 186, 103
+  index: -1
+gx/fbao_0
+  rotate: false
+  xy: 892, 353
+  size: 85, 138
+  orig: 114, 140
+  offset: 14, 0
+  index: -1
+gx/fbao_1
+  rotate: false
+  xy: 446, 99
+  size: 111, 90
+  orig: 114, 140
+  offset: 0, 29
+  index: -1
+gx/fbao_2
+  rotate: true
+  xy: 692, 207
+  size: 96, 100
+  orig: 114, 140
+  offset: 17, 29
+  index: -1
+gx/fbao_3
+  rotate: false
+  xy: 583, 222
+  size: 107, 90
+  orig: 114, 140
+  offset: 7, 23
+  index: -1
+gx/fbao_4
+  rotate: false
+  xy: 794, 221
+  size: 85, 82
+  orig: 114, 140
+  offset: 19, 32
+  index: -1
+gx/jncc2
+  rotate: true
+  xy: 344, 248
+  size: 252, 65
+  orig: 262, 73
+  offset: 2, 0
+  index: -1
+gx/jncc4
+  rotate: true
+  xy: 375, 2
+  size: 244, 69
+  orig: 262, 73
+  offset: 13, 0
+  index: -1
+gx/jncc5
+  rotate: true
+  xy: 635, 314
+  size: 243, 67
+  orig: 262, 73
+  offset: 14, 1
+  index: -1

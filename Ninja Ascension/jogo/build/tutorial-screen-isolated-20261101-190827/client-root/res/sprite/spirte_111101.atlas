@@ -1,0 +1,607 @@
+
+spirte_111101.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/baidi
+  rotate: false
+  xy: 876, 702
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+image/beiji/beiji1_1
+  rotate: false
+  xy: 678, 327
+  size: 193, 213
+  orig: 405, 486
+  offset: 125, 68
+  index: -1
+image/beiji/beiji1_5
+  rotate: false
+  xy: 797, 95
+  size: 225, 108
+  orig: 405, 486
+  offset: 87, 167
+  index: -1
+image/beiji/beiji2_1
+  rotate: false
+  xy: 347, 181
+  size: 185, 191
+  orig: 405, 486
+  offset: 131, 67
+  index: -1
+image/bisha/bisha_1
+  rotate: false
+  xy: 908, 806
+  size: 112, 168
+  orig: 648, 486
+  offset: 255, 157
+  index: -1
+image/bisha/bisha_2
+  rotate: false
+  xy: 2, 380
+  size: 238, 189
+  orig: 648, 486
+  offset: 195, 95
+  index: -1
+image/bisha/bisha_4
+  rotate: false
+  xy: 873, 205
+  size: 149, 167
+  orig: 648, 486
+  offset: 260, 86
+  index: -1
+image/bisha/jiao
+  rotate: true
+  xy: 252, 582
+  size: 89, 64
+  orig: 648, 486
+  offset: 285, 94
+  index: -1
+image/guangxiao/b1
+  rotate: false
+  xy: 882, 854
+  size: 24, 23
+  orig: 62, 58
+  offset: 20, 17
+  index: -1
+image/guangxiao/b2
+  rotate: false
+  xy: 612, 327
+  size: 60, 54
+  orig: 62, 58
+  offset: 2, 2
+  index: -1
+image/guangxiao/b3
+  rotate: false
+  xy: 242, 358
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+image/guangxiao/bj2
+  rotate: false
+  xy: 252, 537
+  size: 64, 43
+  orig: 77, 65
+  offset: 4, 1
+  index: -1
+image/guangxiao/bj3
+  rotate: false
+  xy: 252, 726
+  size: 65, 51
+  orig: 77, 65
+  offset: 6, 0
+  index: -1
+image/guangxiao/bj4
+  rotate: false
+  xy: 252, 673
+  size: 65, 51
+  orig: 77, 65
+  offset: 8, 5
+  index: -1
+image/guangxiao/gq1
+  rotate: true
+  xy: 560, 383
+  size: 154, 116
+  orig: 154, 116
+  offset: 0, 0
+  index: -1
+image/guangxiao/h
+  rotate: true
+  xy: 586, 652
+  size: 138, 31
+  orig: 138, 31
+  offset: 0, 0
+  index: -1
+image/guangxiao/hb2
+  rotate: false
+  xy: 242, 418
+  size: 68, 117
+  orig: 99, 158
+  offset: 18, 12
+  index: -1
+image/guangxiao/hb3
+  rotate: false
+  xy: 662, 207
+  size: 76, 118
+  orig: 99, 158
+  offset: 15, 12
+  index: -1
+image/guangxiao/hb5
+  rotate: false
+  xy: 740, 208
+  size: 83, 117
+  orig: 99, 158
+  offset: 9, 12
+  index: -1
+image/guangxiao/sbz4
+  rotate: true
+  xy: 126, 5
+  size: 169, 119
+  orig: 192, 147
+  offset: 12, 2
+  index: -1
+image/guangxiao/sbz5
+  rotate: true
+  xy: 2, 2
+  size: 172, 122
+  orig: 192, 147
+  offset: 11, 0
+  index: -1
+image/guangxiao/sbz6
+  rotate: true
+  xy: 240, 181
+  size: 175, 105
+  orig: 192, 147
+  offset: 9, 0
+  index: -1
+image/guangxiao/sc1
+  rotate: false
+  xy: 561, 598
+  size: 56, 52
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+image/guangxiao/sc2
+  rotate: true
+  xy: 561, 539
+  size: 57, 55
+  orig: 57, 57
+  offset: 0, 2
+  index: -1
+image/guangxiao/sd1
+  rotate: true
+  xy: 586, 832
+  size: 57, 33
+  orig: 124, 50
+  offset: 41, 11
+  index: -1
+image/guangxiao/sd2
+  rotate: true
+  xy: 886, 4
+  size: 89, 41
+  orig: 124, 50
+  offset: 29, 6
+  index: -1
+image/guangxiao/sd3
+  rotate: true
+  xy: 825, 222
+  size: 103, 46
+  orig: 124, 50
+  offset: 17, 4
+  index: -1
+image/guangxiao/sd4
+  rotate: false
+  xy: 908, 976
+  size: 114, 46
+  orig: 124, 50
+  offset: 9, 4
+  index: -1
+image/guangxiao/sd5
+  rotate: true
+  xy: 612, 206
+  size: 119, 48
+  orig: 124, 50
+  offset: 5, 2
+  index: -1
+image/guangxiao/zj0
+  rotate: true
+  xy: 586, 792
+  size: 38, 32
+  orig: 123, 87
+  offset: 79, 22
+  index: -1
+image/guangxiao/zj3
+  rotate: true
+  xy: 797, 2
+  size: 91, 87
+  orig: 123, 87
+  offset: 0, 0
+  index: -1
+image/guangxiao/zj4
+  rotate: false
+  xy: 929, 6
+  size: 75, 87
+  orig: 123, 87
+  offset: 1, 0
+  index: -1
+image/heidian
+  rotate: false
+  xy: 1020, 802
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+image/jineng/jineng_1
+  rotate: true
+  xy: 2, 571
+  size: 206, 248
+  orig: 648, 486
+  offset: 197, 88
+  index: -1
+image/jineng/jineng_2
+  rotate: false
+  xy: 619, 542
+  size: 255, 163
+  orig: 648, 486
+  offset: 149, 93
+  index: -1
+image/jineng/jineng_3
+  rotate: true
+  xy: 319, 543
+  size: 206, 240
+  orig: 648, 486
+  offset: 251, 94
+  index: -1
+image/pugong/pugong_1
+  rotate: false
+  xy: 534, 182
+  size: 76, 198
+  orig: 648, 486
+  offset: 284, 94
+  index: -1
+image/pugong/pugong_10
+  rotate: true
+  xy: 2, 176
+  size: 202, 236
+  orig: 648, 486
+  offset: 253, 93
+  index: -1
+image/pugong/pugong_11
+  rotate: false
+  xy: 319, 891
+  size: 300, 131
+  orig: 648, 486
+  offset: 123, 75
+  index: -1
+image/pugong/pugong_2
+  rotate: true
+  xy: 882, 555
+  size: 249, 136
+  orig: 648, 486
+  offset: 133, 94
+  index: -1
+image/pugong/pugong_4
+  rotate: false
+  xy: 612, 3
+  size: 183, 200
+  orig: 648, 486
+  offset: 281, 93
+  index: -1
+image/pugong/pugong_5
+  rotate: false
+  xy: 2, 779
+  size: 315, 243
+  orig: 648, 486
+  offset: 81, 94
+  index: -1
+image/pugong/pugong_6
+  rotate: false
+  xy: 319, 751
+  size: 265, 138
+  orig: 648, 486
+  offset: 258, 93
+  index: -1
+image/pugong/pugong_7
+  rotate: false
+  xy: 318, 382
+  size: 240, 159
+  orig: 648, 486
+  offset: 252, 92
+  index: -1
+image/pugong/pugong_8
+  rotate: false
+  xy: 621, 707
+  size: 259, 170
+  orig: 648, 486
+  offset: 123, 92
+  index: -1
+image/pugong/pugong_9
+  rotate: false
+  xy: 621, 879
+  size: 285, 143
+  orig: 648, 486
+  offset: 260, 92
+  index: -1
+image/yidong/yidong_1
+  rotate: false
+  xy: 402, 6
+  size: 193, 173
+  orig: 405, 486
+  offset: 110, 68
+  index: -1
+image/yidong/yidong_5
+  rotate: true
+  xy: 247, 5
+  size: 174, 153
+  orig: 405, 486
+  offset: 130, 68
+  index: -1
+image/yidong/yidong_6
+  rotate: true
+  xy: 876, 374
+  size: 179, 145
+  orig: 405, 486
+  offset: 110, 83
+  index: -1
+
+spirte_1111012.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/beiji/beiji1_2
+  rotate: false
+  xy: 2, 298
+  size: 197, 197
+  orig: 405, 486
+  offset: 110, 102
+  index: -1
+image/beiji/beiji1_3
+  rotate: true
+  xy: 201, 347
+  size: 148, 224
+  orig: 405, 486
+  offset: 146, 88
+  index: -1
+image/beiji/beiji1_4
+  rotate: true
+  xy: 241, 140
+  size: 205, 129
+  orig: 405, 486
+  offset: 110, 174
+  index: -1
+image/bisha/bisha_3
+  rotate: false
+  xy: 241, 28
+  size: 144, 110
+  orig: 648, 486
+  offset: 257, 95
+  index: -1
+image/daiji/daiji_1
+  rotate: true
+  xy: 372, 252
+  size: 78, 230
+  orig: 405, 486
+  offset: 165, 64
+  index: -1
+image/daiji/daiji_2
+  rotate: true
+  xy: 372, 172
+  size: 78, 230
+  orig: 405, 486
+  offset: 165, 64
+  index: -1
+image/daiji/daiji_3
+  rotate: false
+  xy: 161, 65
+  size: 78, 231
+  orig: 405, 486
+  offset: 165, 64
+  index: -1
+image/guangxiao/b4
+  rotate: false
+  xy: 712, 84
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+image/guangxiao/b5
+  rotate: false
+  xy: 128, 2
+  size: 62, 58
+  orig: 62, 58
+  offset: 0, 0
+  index: -1
+image/guangxiao/b6
+  rotate: false
+  xy: 776, 43
+  size: 58, 58
+  orig: 62, 58
+  offset: 4, 0
+  index: -1
+image/guangxiao/bj1
+  rotate: false
+  xy: 982, 339
+  size: 29, 37
+  orig: 77, 65
+  offset: 2, 2
+  index: -1
+image/guangxiao/bj5
+  rotate: false
+  xy: 836, 43
+  size: 58, 58
+  orig: 77, 65
+  offset: 16, 7
+  index: -1
+image/guangxiao/hb1
+  rotate: false
+  xy: 192, 3
+  size: 47, 60
+  orig: 99, 158
+  offset: 21, 14
+  index: -1
+image/guangxiao/hb4
+  rotate: false
+  xy: 548, 54
+  size: 82, 116
+  orig: 99, 158
+  offset: 9, 12
+  index: -1
+image/guangxiao/hb6
+  rotate: false
+  xy: 632, 66
+  size: 78, 112
+  orig: 99, 158
+  offset: 9, 17
+  index: -1
+image/guangxiao/l1
+  rotate: false
+  xy: 814, 133
+  size: 115, 39
+  orig: 117, 42
+  offset: 0, 1
+  index: -1
+image/guangxiao/l2
+  rotate: false
+  xy: 820, 218
+  size: 117, 36
+  orig: 117, 42
+  offset: 0, 2
+  index: -1
+image/guangxiao/l3
+  rotate: true
+  xy: 982, 378
+  size: 117, 40
+  orig: 117, 42
+  offset: 0, 2
+  index: -1
+image/guangxiao/l4
+  rotate: false
+  xy: 814, 174
+  size: 115, 42
+  orig: 117, 42
+  offset: 1, 0
+  index: -1
+image/guangxiao/sbz1
+  rotate: false
+  xy: 716, 227
+  size: 102, 105
+  orig: 192, 147
+  offset: 45, 7
+  index: -1
+image/guangxiao/sbz2
+  rotate: true
+  xy: 604, 180
+  size: 150, 110
+  orig: 192, 147
+  offset: 22, 5
+  index: -1
+image/guangxiao/sbz3
+  rotate: false
+  xy: 387, 55
+  size: 159, 115
+  orig: 192, 147
+  offset: 17, 3
+  index: -1
+image/guangxiao/sc3
+  rotate: true
+  xy: 712, 30
+  size: 52, 57
+  orig: 57, 57
+  offset: 5, 0
+  index: -1
+image/guangxiao/sc4
+  rotate: false
+  xy: 632, 11
+  size: 53, 53
+  orig: 57, 57
+  offset: 4, 1
+  index: -1
+image/guangxiao/sd6
+  rotate: false
+  xy: 2, 12
+  size: 124, 48
+  orig: 124, 50
+  offset: 0, 2
+  index: -1
+image/guangxiao/sw1
+  rotate: true
+  xy: 945, 225
+  size: 112, 30
+  orig: 142, 73
+  offset: 15, 17
+  index: -1
+image/guangxiao/sw2
+  rotate: false
+  xy: 776, 103
+  size: 109, 28
+  orig: 142, 73
+  offset: 17, 18
+  index: -1
+image/guangxiao/sw3
+  rotate: true
+  xy: 977, 226
+  size: 111, 30
+  orig: 142, 73
+  offset: 16, 17
+  index: -1
+image/guangxiao/sw4
+  rotate: false
+  xy: 387, 22
+  size: 115, 31
+  orig: 142, 73
+  offset: 13, 16
+  index: -1
+image/guangxiao/zj1
+  rotate: false
+  xy: 716, 144
+  size: 96, 81
+  orig: 123, 87
+  offset: 11, 2
+  index: -1
+image/guangxiao/zj2
+  rotate: false
+  xy: 820, 256
+  size: 123, 81
+  orig: 123, 87
+  offset: 0, 6
+  index: -1
+image/guangxiao/zj5
+  rotate: true
+  xy: 931, 165
+  size: 51, 46
+  orig: 123, 87
+  offset: 12, 7
+  index: -1
+image/pugong/pugong_3
+  rotate: true
+  xy: 2, 62
+  size: 234, 157
+  orig: 648, 486
+  offset: 270, 93
+  index: -1
+image/yidong/yidong_2
+  rotate: false
+  xy: 819, 339
+  size: 161, 156
+  orig: 405, 486
+  offset: 133, 68
+  index: -1
+image/yidong/yidong_3
+  rotate: false
+  xy: 631, 334
+  size: 186, 161
+  orig: 405, 486
+  offset: 127, 68
+  index: -1
+image/yidong/yidong_4
+  rotate: false
+  xy: 427, 332
+  size: 202, 163
+  orig: 405, 486
+  offset: 122, 68
+  index: -1

@@ -1,0 +1,160 @@
+
+sprite_wzzz_nuqiman.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fg1
+  rotate: false
+  xy: 251, 451
+  size: 27, 27
+  orig: 35, 35
+  offset: 4, 4
+  index: -1
+guany2
+  rotate: true
+  xy: 2, 352
+  size: 64, 48
+  orig: 72, 50
+  offset: 1, 1
+  index: -1
+gy1
+  rotate: false
+  xy: 2, 418
+  size: 61, 60
+  orig: 69, 66
+  offset: 4, 3
+  index: -1
+leiming2_0005
+  rotate: false
+  xy: 65, 423
+  size: 65, 21
+  orig: 70, 24
+  offset: 2, 1
+  index: -1
+leiming2_0006
+  rotate: false
+  xy: 334, 481
+  size: 77, 29
+  orig: 82, 33
+  offset: 3, 2
+  index: -1
+leiming2_0007
+  rotate: false
+  xy: 65, 446
+  size: 79, 32
+  orig: 81, 35
+  offset: 1, 1
+  index: -1
+leiming2_0008
+  rotate: false
+  xy: 146, 451
+  size: 50, 27
+  orig: 79, 31
+  offset: 27, 2
+  index: -1
+leiming2_0009
+  rotate: false
+  xy: 309, 457
+  size: 18, 21
+  orig: 21, 24
+  offset: 1, 2
+  index: -1
+leiming2_0010
+  rotate: false
+  xy: 280, 454
+  size: 27, 24
+  orig: 28, 30
+  offset: 0, 3
+  index: -1
+leiming_0001
+  rotate: true
+  xy: 2, 176
+  size: 40, 20
+  orig: 45, 24
+  offset: 3, 2
+  index: -1
+leiming_0002
+  rotate: true
+  xy: 2, 289
+  size: 61, 40
+  orig: 68, 46
+  offset: 3, 4
+  index: -1
+leiming_0003
+  rotate: false
+  xy: 2, 218
+  size: 31, 33
+  orig: 33, 40
+  offset: 1, 2
+  index: -1
+leiming_0004
+  rotate: false
+  xy: 2, 253
+  size: 38, 34
+  orig: 42, 40
+  offset: 2, 2
+  index: -1
+leiming_0005
+  rotate: false
+  xy: 413, 483
+  size: 49, 27
+  orig: 53, 31
+  offset: 2, 2
+  index: -1
+leiming_0006
+  rotate: false
+  xy: 464, 487
+  size: 46, 23
+  orig: 52, 29
+  offset: 3, 2
+  index: -1
+leiming_0007
+  rotate: false
+  xy: 198, 462
+  size: 51, 16
+  orig: 52, 17
+  offset: 1, 0
+  index: -1
+smt_5
+  rotate: true
+  xy: 2, 144
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+smt_6
+  rotate: true
+  xy: 2, 20
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+smt_7
+  rotate: true
+  xy: 2, 81
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+smt_8
+  rotate: true
+  xy: 2, 112
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+smt_9
+  rotate: true
+  xy: 2, 50
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+zbh_1
+  rotate: false
+  xy: 2, 480
+  size: 330, 30
+  orig: 330, 30
+  offset: 0, 0
+  index: -1

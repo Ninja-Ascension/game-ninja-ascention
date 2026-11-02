@@ -1,0 +1,408 @@
+
+effect_107711.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/Flame_04_00007
+  rotate: false
+  xy: 548, 207
+  size: 449, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_28_00036
+  rotate: false
+  xy: 548, 14
+  size: 473, 191
+  orig: 480, 270
+  offset: 7, 35
+  index: -1
+gx/Flame_28_00042
+  rotate: false
+  xy: 592, 479
+  size: 415, 174
+  orig: 480, 270
+  offset: 59, 50
+  index: -1
+gx/jws_beiji02_newAnimation_00
+  rotate: false
+  xy: 592, 655
+  size: 398, 366
+  orig: 750, 600
+  offset: 153, 147
+  index: -1
+gx/jws_beiji02_newAnimation_01
+  rotate: false
+  xy: 592, 655
+  size: 398, 366
+  orig: 750, 600
+  offset: 153, 147
+  index: -1
+gx/jws_beiji02_newAnimation_02
+  rotate: false
+  xy: 2, 489
+  size: 588, 532
+  orig: 750, 600
+  offset: 65, 51
+  index: -1
+gx/jws_beiji02_newAnimation_03
+  rotate: false
+  xy: 2, 489
+  size: 588, 532
+  orig: 750, 600
+  offset: 65, 51
+  index: -1
+gx/jws_beiji02_newAnimation_04
+  rotate: false
+  xy: 2, 37
+  size: 544, 450
+  orig: 750, 600
+  offset: 115, 45
+  index: -1
+gx/jws_beiji02_newAnimation_05
+  rotate: false
+  xy: 2, 37
+  size: 544, 450
+  orig: 750, 600
+  offset: 115, 45
+  index: -1
+gx/zhan
+  rotate: true
+  xy: 2, 4
+  size: 31, 65
+  orig: 122, 120
+  offset: 0, 14
+  index: -1
+
+effect_1077112.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/Flame_04_00009
+  rotate: false
+  xy: 2, 751
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00011
+  rotate: false
+  xy: 484, 751
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00013
+  rotate: true
+  xy: 2, 269
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00015
+  rotate: true
+  xy: 274, 269
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00019
+  rotate: false
+  xy: 2, 6
+  size: 480, 261
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00027
+  rotate: false
+  xy: 786, 27
+  size: 83, 84
+  orig: 480, 270
+  offset: 161, 60
+  index: -1
+gx/Flame_28_00024
+  rotate: false
+  xy: 546, 113
+  size: 473, 221
+  orig: 480, 270
+  offset: 7, 24
+  index: -1
+gx/Flame_28_00028
+  rotate: false
+  xy: 546, 531
+  size: 475, 218
+  orig: 480, 270
+  offset: 5, 24
+  index: -1
+gx/Flame_28_00034
+  rotate: false
+  xy: 546, 336
+  size: 475, 193
+  orig: 480, 270
+  offset: 5, 32
+  index: -1
+gx/bjc6
+  rotate: true
+  xy: 707, 17
+  size: 94, 77
+  orig: 100, 83
+  offset: 2, 3
+  index: -1
+gx/zhan1
+  rotate: false
+  xy: 484, 3
+  size: 121, 108
+  orig: 122, 120
+  offset: 1, 1
+  index: -1
+gx/zhan2
+  rotate: true
+  xy: 871, 36
+  size: 75, 120
+  orig: 122, 120
+  offset: 47, 0
+  index: -1
+gx/zhan3
+  rotate: false
+  xy: 607, 12
+  size: 98, 99
+  orig: 122, 120
+  offset: 22, 21
+  index: -1
+
+effect_1077113.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/Flame_04_00001
+  rotate: false
+  xy: 484, 2
+  size: 166, 132
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00005
+  rotate: false
+  xy: 2, 248
+  size: 432, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00017
+  rotate: false
+  xy: 2, 748
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00021
+  rotate: false
+  xy: 2, 520
+  size: 480, 226
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00023
+  rotate: false
+  xy: 484, 359
+  size: 480, 210
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_28_00010
+  rotate: false
+  xy: 2, 25
+  size: 480, 221
+  orig: 480, 270
+  offset: 0, 23
+  index: -1
+gx/Flame_28_00012
+  rotate: false
+  xy: 484, 795
+  size: 480, 223
+  orig: 480, 270
+  offset: 0, 22
+  index: -1
+gx/Flame_28_00014
+  rotate: false
+  xy: 484, 571
+  size: 480, 222
+  orig: 480, 270
+  offset: 0, 23
+  index: -1
+gx/Flame_28_00018
+  rotate: false
+  xy: 484, 136
+  size: 480, 221
+  orig: 480, 270
+  offset: 0, 23
+  index: -1
+gx/bjc3
+  rotate: true
+  xy: 800, 7
+  size: 127, 143
+  orig: 128, 144
+  offset: 1, 0
+  index: -1
+gx/bjc4
+  rotate: true
+  xy: 652, 7
+  size: 127, 146
+  orig: 130, 147
+  offset: 1, 1
+  index: -1
+
+effect_1077114.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/Flame_28_00004
+  rotate: false
+  xy: 2, 2
+  size: 461, 146
+  orig: 480, 270
+  offset: 17, 57
+  index: -1
+gx/Flame_28_00006
+  rotate: false
+  xy: 484, 371
+  size: 471, 208
+  orig: 480, 270
+  offset: 9, 27
+  index: -1
+gx/Flame_28_00008
+  rotate: false
+  xy: 484, 803
+  size: 480, 215
+  orig: 480, 270
+  offset: 0, 25
+  index: -1
+gx/Flame_28_00016
+  rotate: false
+  xy: 2, 359
+  size: 480, 215
+  orig: 480, 270
+  offset: 0, 25
+  index: -1
+gx/Flame_28_00020
+  rotate: false
+  xy: 2, 798
+  size: 480, 220
+  orig: 480, 270
+  offset: 0, 23
+  index: -1
+gx/Flame_28_00022
+  rotate: false
+  xy: 2, 576
+  size: 480, 220
+  orig: 480, 270
+  offset: 0, 24
+  index: -1
+gx/Flame_28_00026
+  rotate: false
+  xy: 484, 581
+  size: 472, 220
+  orig: 480, 270
+  offset: 8, 24
+  index: -1
+gx/Flame_28_00030
+  rotate: false
+  xy: 2, 150
+  size: 477, 207
+  orig: 480, 270
+  offset: 3, 28
+  index: -1
+gx/Flame_28_00032
+  rotate: false
+  xy: 484, 168
+  size: 477, 201
+  orig: 480, 270
+  offset: 3, 29
+  index: -1
+gx/Flame_28_00044
+  rotate: false
+  xy: 481, 7
+  size: 405, 159
+  orig: 480, 270
+  offset: 60, 62
+  index: -1
+gx/bjc5
+  rotate: false
+  xy: 888, 24
+  size: 121, 142
+  orig: 123, 146
+  offset: 0, 1
+  index: -1
+
+effect_1077115.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/Flame_04_00003
+  rotate: false
+  xy: 346, 500
+  size: 369, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+gx/Flame_04_00025
+  rotate: false
+  xy: 331, 352
+  size: 358, 146
+  orig: 480, 270
+  offset: 4, 14
+  index: -1
+gx/Flame_28_00002
+  rotate: false
+  xy: 331, 193
+  size: 337, 157
+  orig: 480, 270
+  offset: 79, 54
+  index: -1
+gx/Flame_28_00038
+  rotate: true
+  xy: 2, 144
+  size: 468, 187
+  orig: 480, 270
+  offset: 12, 39
+  index: -1
+gx/Flame_28_00040
+  rotate: false
+  xy: 346, 772
+  size: 459, 181
+  orig: 480, 270
+  offset: 20, 44
+  index: -1
+gx/Flame_28_00046
+  rotate: true
+  xy: 191, 232
+  size: 380, 138
+  orig: 480, 270
+  offset: 69, 76
+  index: -1
+gx/bjc1
+  rotate: false
+  xy: 807, 826
+  size: 124, 127
+  orig: 126, 128
+  offset: 1, 1
+  index: -1
+gx/bjc2
+  rotate: false
+  xy: 2, 2
+  size: 126, 140
+  orig: 128, 141
+  offset: 1, 0
+  index: -1
+gx/xjian
+  rotate: false
+  xy: 2, 614
+  size: 342, 339
+  orig: 596, 364
+  offset: 127, 12
+  index: -1

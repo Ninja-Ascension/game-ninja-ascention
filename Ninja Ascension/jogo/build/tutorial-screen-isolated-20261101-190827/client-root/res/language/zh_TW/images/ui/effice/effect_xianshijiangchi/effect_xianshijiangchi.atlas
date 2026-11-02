@@ -1,0 +1,20 @@
+
+effect_xianshijiangchi.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tu
+  rotate: false
+  xy: 2, 25
+  size: 74, 51
+  orig: 74, 54
+  offset: 0, 3
+  index: -1
+wz
+  rotate: false
+  xy: 2, 4
+  size: 60, 19
+  orig: 74, 54
+  offset: 7, 1
+  index: -1
