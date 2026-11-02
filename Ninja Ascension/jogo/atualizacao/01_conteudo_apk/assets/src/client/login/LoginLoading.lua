@@ -231,12 +231,7 @@ function LoginLoading:init(  )
 end
 
 function LoginLoading:shouldEnterInitialBattle()
-	local userId = _ED.user_info.user_id
-	if userId == "" or tonumber(userId) == 0 then
-		return true
-	end
-	return "l".._ED.user_info.user_grade.."e".._ED.user_info.user_experience == "l1e0"
-		and _ED.nr_initial_tutorial == "playing"
+	return _ED.nr_initial_tutorial == "playing" and type(_ED.battleData) == "table"
 end
 
 function LoginLoading:openInitialTutorialChoice(baseWindow)
