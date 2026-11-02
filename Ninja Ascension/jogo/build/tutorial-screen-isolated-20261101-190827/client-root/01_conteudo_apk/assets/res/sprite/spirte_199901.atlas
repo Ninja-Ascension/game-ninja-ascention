@@ -1,0 +1,110 @@
+
+spirte_199901.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dabiy
+  rotate: true
+  xy: 770, 132
+  size: 401, 247
+  orig: 401, 247
+  offset: 0, 0
+  index: -1
+guangxiao/h1
+  rotate: false
+  xy: 226, 3
+  size: 197, 131
+  orig: 223, 131
+  offset: 24, 0
+  index: -1
+guangxiao/h3
+  rotate: false
+  xy: 770, 2
+  size: 223, 128
+  orig: 223, 131
+  offset: 0, 0
+  index: -1
+guangxiao/h5
+  rotate: false
+  xy: 2, 3
+  size: 222, 131
+  orig: 223, 131
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 591
+  size: 801, 431
+  orig: 801, 431
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 136
+  size: 581, 453
+  orig: 581, 453
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 585, 60
+  size: 529, 183
+  orig: 529, 183
+  offset: 0, 0
+  index: -1
+xiaba
+  rotate: false
+  xy: 425, 51
+  size: 137, 83
+  orig: 137, 83
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 770, 557
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: -1
+zhouz
+  rotate: true
+  xy: 805, 535
+  size: 487, 201
+  orig: 487, 201
+  offset: 0, 0
+  index: -1
+
+spirte_1999012.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+er
+  rotate: false
+  xy: 620, 100
+  size: 365, 365
+  orig: 365, 365
+  offset: 0, 0
+  index: -1
+guangxiao/h2
+  rotate: false
+  xy: 227, 7
+  size: 210, 123
+  orig: 223, 131
+  offset: 13, 3
+  index: -1
+guangxiao/h4
+  rotate: false
+  xy: 2, 2
+  size: 223, 128
+  orig: 223, 131
+  offset: 0, 0
+  index: -1
+shouy
+  rotate: false
+  xy: 2, 132
+  size: 616, 333
+  orig: 616, 333
+  offset: 0, 0
+  index: -1

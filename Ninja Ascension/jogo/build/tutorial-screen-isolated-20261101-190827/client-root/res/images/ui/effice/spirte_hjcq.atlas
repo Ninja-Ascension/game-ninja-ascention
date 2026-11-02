@@ -1,0 +1,62 @@
+
+spirte_hjcq.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/props_6003
+  rotate: false
+  xy: 82, 80
+  size: 78, 80
+  orig: 80, 80
+  offset: 2, 0
+  index: -1
+images/props_6007
+  rotate: true
+  xy: 82, 3
+  size: 76, 80
+  orig: 80, 80
+  offset: 2, 0
+  index: -1
+images/props_6018
+  rotate: false
+  xy: 239, 80
+  size: 75, 80
+  orig: 80, 80
+  offset: 3, 0
+  index: -1
+images/props_6020
+  rotate: true
+  xy: 163, 5
+  size: 74, 80
+  orig: 80, 80
+  offset: 3, 0
+  index: -1
+images/props_6029
+  rotate: false
+  xy: 1, 81
+  size: 80, 79
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/props_6034
+  rotate: false
+  xy: 161, 80
+  size: 77, 80
+  orig: 80, 80
+  offset: 2, 0
+  index: -1
+images/props_6039
+  rotate: false
+  xy: 1, 1
+  size: 80, 79
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+images/tu
+  rotate: false
+  xy: 1, 161
+  size: 965, 823
+  orig: 965, 823
+  offset: 0, 0
+  index: -1

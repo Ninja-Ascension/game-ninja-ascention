@@ -1,0 +1,53 @@
+{
+"skeleton": { "hash": "3rPlBgkygjIg0YrRAAO4tyLIyGI", "spine": "2.1.27", "width": 101, "height": 54, "images": "D:\\98\\UI\\tips\\images" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "di", "parent": "root", "x": -0.64, "y": 3.3 },
+	{ "name": "zi", "parent": "di", "x": 0.48, "y": 0.48 }
+],
+"slots": [
+	{ "name": "di", "bone": "di", "attachment": "di" },
+	{ "name": "zi", "bone": "zi", "attachment": "zi" }
+],
+"skins": {
+	"default": {
+		"di": {
+			"di": { "x": 1.14, "y": -6.3, "width": 101, "height": 54 }
+		},
+		"zi": {
+			"zi": { "x": 0.66, "y": -0.79, "width": 73, "height": 18 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"di": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1,
+						"x": 0,
+						"y": 14.94,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

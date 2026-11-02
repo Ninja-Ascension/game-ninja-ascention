@@ -1,0 +1,48 @@
+
+sprite_wzzz_bzz.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: false
+  xy: 2, 33
+  size: 101, 29
+  orig: 101, 29
+  offset: 0, 0
+  index: -1
+jinjiechenggong1
+  rotate: true
+  xy: 62, 4
+  size: 27, 36
+  orig: 102, 40
+  offset: 0, 4
+  index: -1
+jinjiechenggong2
+  rotate: false
+  xy: 2, 2
+  size: 58, 29
+  orig: 102, 40
+  offset: 14, 1
+  index: -1
+jinjiechenggong3
+  rotate: false
+  xy: 105, 37
+  size: 51, 25
+  orig: 102, 40
+  offset: 49, 4
+  index: -1
+jinjiechenggong4
+  rotate: false
+  xy: 158, 41
+  size: 20, 21
+  orig: 102, 40
+  offset: 82, 0
+  index: -1
+sprite_wzzz_bzz1
+  rotate: false
+  xy: 180, 53
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1

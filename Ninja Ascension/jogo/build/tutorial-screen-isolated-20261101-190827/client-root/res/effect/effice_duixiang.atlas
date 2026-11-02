@@ -1,0 +1,48 @@
+
+effice_duixiang.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dd0
+  rotate: false
+  xy: 2, 117
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+dd1
+  rotate: false
+  xy: 2, 2
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+dd2
+  rotate: false
+  xy: 117, 117
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+dd3
+  rotate: false
+  xy: 117, 2
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+dd4
+  rotate: false
+  xy: 232, 117
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+dd5
+  rotate: false
+  xy: 232, 2
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1

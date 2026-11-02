@@ -1,0 +1,272 @@
+
+effect_hunkabiaoqian_5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: false
+  xy: 124, 310
+  size: 101, 70
+  orig: 118, 233
+  offset: 5, 18
+  index: -1
+11
+  rotate: true
+  xy: 100, 691
+  size: 94, 109
+  orig: 118, 233
+  offset: 6, 19
+  index: -1
+12
+  rotate: true
+  xy: 368, 913
+  size: 101, 146
+  orig: 118, 233
+  offset: 0, 26
+  index: -1
+13
+  rotate: false
+  xy: 2, 679
+  size: 96, 159
+  orig: 118, 233
+  offset: 11, 30
+  index: -1
+14
+  rotate: false
+  xy: 2, 840
+  size: 110, 174
+  orig: 118, 233
+  offset: 3, 40
+  index: -1
+15
+  rotate: false
+  xy: 2, 553
+  size: 110, 124
+  orig: 118, 233
+  offset: 4, 93
+  index: -1
+16
+  rotate: false
+  xy: 124, 482
+  size: 76, 108
+  orig: 118, 233
+  offset: 39, 110
+  index: -1
+183-1
+  rotate: false
+  xy: 202, 484
+  size: 74, 74
+  orig: 128, 128
+  offset: 29, 28
+  index: -1
+183-10
+  rotate: true
+  xy: 2, 430
+  size: 121, 120
+  orig: 128, 128
+  offset: 5, 0
+  index: -1
+183-11
+  rotate: false
+  xy: 2, 314
+  size: 120, 114
+  orig: 128, 128
+  offset: 5, 6
+  index: -1
+183-12
+  rotate: false
+  xy: 2, 199
+  size: 115, 113
+  orig: 128, 128
+  offset: 8, 6
+  index: -1
+183-13
+  rotate: false
+  xy: 114, 787
+  size: 115, 101
+  orig: 128, 128
+  offset: 8, 9
+  index: -1
+183-2
+  rotate: true
+  xy: 114, 592
+  size: 97, 95
+  orig: 128, 128
+  offset: 17, 16
+  index: -1
+183-3
+  rotate: false
+  xy: 2, 86
+  size: 113, 111
+  orig: 128, 128
+  offset: 9, 8
+  index: -1
+183-4
+  rotate: false
+  xy: 769, 893
+  size: 122, 121
+  orig: 128, 128
+  offset: 2, 2
+  index: -1
+183-5
+  rotate: false
+  xy: 643, 892
+  size: 124, 122
+  orig: 128, 128
+  offset: 0, 2
+  index: -1
+183-6
+  rotate: false
+  xy: 114, 890
+  size: 125, 124
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+183-7
+  rotate: false
+  xy: 516, 895
+  size: 125, 119
+  orig: 128, 128
+  offset: 0, 4
+  index: -1
+183-8
+  rotate: false
+  xy: 893, 894
+  size: 121, 120
+  orig: 128, 128
+  offset: 6, 4
+  index: -1
+183-9
+  rotate: true
+  xy: 241, 891
+  size: 123, 125
+  orig: 128, 128
+  offset: 4, 1
+  index: -1
+PNGen/effect_hunkabiaoqian-1_0
+  rotate: true
+  xy: 611, 871
+  size: 22, 28
+  orig: 328, 331
+  offset: 143, 96
+  index: -1
+PNGen/effect_hunkabiaoqian-1_1
+  rotate: false
+  xy: 482, 832
+  size: 24, 31
+  orig: 328, 331
+  offset: 143, 96
+  index: -1
+PNGen/effect_hunkabiaoqian-1_10
+  rotate: false
+  xy: 211, 692
+  size: 75, 93
+  orig: 328, 331
+  offset: 126, 143
+  index: -1
+PNGen/effect_hunkabiaoqian-1_11
+  rotate: false
+  xy: 211, 605
+  size: 75, 85
+  orig: 328, 331
+  offset: 126, 152
+  index: -1
+PNGen/effect_hunkabiaoqian-1_12
+  rotate: false
+  xy: 295, 816
+  size: 71, 73
+  orig: 328, 331
+  offset: 129, 164
+  index: -1
+PNGen/effect_hunkabiaoqian-1_13
+  rotate: false
+  xy: 516, 845
+  size: 50, 48
+  orig: 328, 331
+  offset: 139, 189
+  index: -1
+PNGen/effect_hunkabiaoqian-1_14
+  rotate: true
+  xy: 453, 830
+  size: 43, 27
+  orig: 328, 331
+  offset: 146, 210
+  index: -1
+PNGen/effect_hunkabiaoqian-1_15
+  rotate: false
+  xy: 568, 868
+  size: 41, 25
+  orig: 328, 331
+  offset: 148, 212
+  index: -1
+PNGen/effect_hunkabiaoqian-1_2
+  rotate: true
+  xy: 568, 840
+  size: 26, 38
+  orig: 328, 331
+  offset: 143, 96
+  index: -1
+PNGen/effect_hunkabiaoqian-1_3
+  rotate: false
+  xy: 485, 865
+  size: 29, 46
+  orig: 328, 331
+  offset: 143, 96
+  index: -1
+PNGen/effect_hunkabiaoqian-1_4
+  rotate: true
+  xy: 211, 560
+  size: 43, 75
+  orig: 328, 331
+  offset: 133, 96
+  index: -1
+PNGen/effect_hunkabiaoqian-1_5
+  rotate: true
+  xy: 368, 819
+  size: 54, 83
+  orig: 328, 331
+  offset: 133, 101
+  index: -1
+PNGen/effect_hunkabiaoqian-1_6
+  rotate: false
+  xy: 231, 803
+  size: 62, 85
+  orig: 328, 331
+  offset: 133, 111
+  index: -1
+PNGen/effect_hunkabiaoqian-1_7
+  rotate: false
+  xy: 124, 382
+  size: 74, 98
+  orig: 328, 331
+  offset: 126, 122
+  index: -1
+PNGen/effect_hunkabiaoqian-1_8
+  rotate: false
+  xy: 119, 211
+  size: 75, 97
+  orig: 328, 331
+  offset: 126, 132
+  index: -1
+PNGen/effect_hunkabiaoqian-1_9
+  rotate: false
+  xy: 196, 212
+  size: 75, 96
+  orig: 328, 331
+  offset: 126, 136
+  index: -1
+juexianshi_04
+  rotate: true
+  xy: 368, 875
+  size: 36, 115
+  orig: 36, 115
+  offset: 0, 0
+  index: -1
+juexianshi_05_en
+  rotate: true
+  xy: 2, 9
+  size: 75, 141
+  orig: 77, 146
+  offset: 1, 4
+  index: -1

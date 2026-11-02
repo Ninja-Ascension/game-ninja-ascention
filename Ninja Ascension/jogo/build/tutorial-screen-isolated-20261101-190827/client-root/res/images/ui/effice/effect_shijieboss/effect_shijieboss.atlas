@@ -1,0 +1,62 @@
+
+effect_shijieboss.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lgg
+  rotate: false
+  xy: 2, 400
+  size: 226, 41
+  orig: 226, 41
+  offset: 0, 0
+  index: -1
+tb
+  rotate: false
+  xy: 143, 330
+  size: 72, 68
+  orig: 72, 68
+  offset: 0, 0
+  index: -1
+wz
+  rotate: false
+  xy: 230, 415
+  size: 90, 26
+  orig: 90, 26
+  offset: 0, 0
+  index: -1
+wz2
+  rotate: false
+  xy: 2, 2
+  size: 66, 32
+  orig: 66, 32
+  offset: 0, 0
+  index: -1
+y1
+  rotate: false
+  xy: 2, 309
+  size: 139, 89
+  orig: 139, 89
+  offset: 0, 0
+  index: -1
+y2
+  rotate: false
+  xy: 2, 218
+  size: 139, 89
+  orig: 139, 89
+  offset: 0, 0
+  index: -1
+y3
+  rotate: false
+  xy: 2, 127
+  size: 139, 89
+  orig: 139, 89
+  offset: 0, 0
+  index: -1
+y4
+  rotate: false
+  xy: 2, 36
+  size: 139, 89
+  orig: 139, 89
+  offset: 0, 0
+  index: -1

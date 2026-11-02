@@ -1,0 +1,96 @@
+{
+"skeleton": { "hash": "Y/yJNBluz8WBo7qxgkQeoukMn44", "spine": "2.1.27", "width": 150.39, "height": 321.48, "images": "./images/" },
+"bones": [
+	{ "name": "root", "scaleX": 0.47, "scaleY": 0.47 },
+	{ "name": "gx", "parent": "root", "color": "ff2600ff" },
+	{ "name": "TXGX", "parent": "gx", "color": "ff2600ff" },
+	{ "name": "bone52", "parent": "TXGX", "y": 2485.38 },
+	{ "name": "gx/skil1_10005", "parent": "TXGX", "x": 1.36, "y": 2088.18 }
+],
+"slots": [
+	{ "name": "gx/skil1_10006", "bone": "gx/skil1_10005", "color": "ffffff00", "attachment": "gx/skil1_010009", "blend": "additive" },
+	{ "name": "gx/ywb1", "bone": "bone52", "color": "ffffff00", "attachment": "gx/ywb4" }
+],
+"skins": {
+	"default": {
+		"gx/skil1_10006": {
+			"gx/skil1_010001": { "x": -1.36, "y": 149.73, "width": 320, "height": 684 },
+			"gx/skil1_010003": { "x": -1.36, "y": 149.73, "width": 320, "height": 684 },
+			"gx/skil1_010005": { "x": -1.36, "y": 149.73, "width": 320, "height": 684 },
+			"gx/skil1_010007": { "x": -1.36, "y": 149.73, "width": 320, "height": 684 },
+			"gx/skil1_010009": { "x": -1.36, "y": 149.73, "width": 320, "height": 684 },
+			"gx/skil1_010011": { "x": -1.36, "y": 149.73, "width": 320, "height": 684 }
+		},
+		"gx/ywb1": {
+			"gx/ywb1": { "width": 119, "height": 62 },
+			"gx/ywb2": { "width": 119, "height": 62 },
+			"gx/ywb3": { "width": 119, "height": 62 },
+			"gx/ywb4": { "width": 119, "height": 62 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"gx/skil1_10006": {
+				"attachment": [
+					{ "time": 6.6333, "name": "gx/skil1_010001" },
+					{ "time": 6.7, "name": "gx/skil1_010003" },
+					{ "time": 6.7666, "name": "gx/skil1_010005" },
+					{ "time": 6.8333, "name": "gx/skil1_010007" },
+					{ "time": 6.9, "name": "gx/skil1_010009" },
+					{ "time": 6.9666, "name": "gx/skil1_010011" }
+				],
+				"color": [
+					{ "time": 6.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 6.9666, "color": "ffffffff" },
+					{ "time": 7.1, "color": "ffffff00" }
+				]
+			},
+			"gx/ywb1": {
+				"attachment": [
+					{ "time": 6.6333, "name": "gx/ywb1" },
+					{ "time": 6.7, "name": "gx/ywb2" },
+					{ "time": 6.7666, "name": "gx/ywb3" },
+					{ "time": 6.8333, "name": "gx/ywb4" }
+				],
+				"color": [
+					{ "time": 6.6333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 6.8333, "color": "ffffffff" },
+					{ "time": 6.9333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone52": {
+				"translate": [
+					{ "time": 6.6333, "x": 0, "y": -2201.95 }
+				],
+				"scale": [
+					{ "time": 6.6333, "x": 13.505, "y": 13.505, "curve": "stepped" },
+					{ "time": 6.7, "x": 15.462, "y": 15.462, "curve": "stepped" },
+					{ "time": 6.7666, "x": 17.418, "y": 17.418, "curve": "stepped" },
+					{ "time": 6.8333, "x": 19.375, "y": 19.375 }
+				]
+			},
+			"gx/skil1_10005": {
+				"rotate": [
+					{ "time": 6.6333, "angle": 1.5 }
+				],
+				"translate": [
+					{ "time": 6.6333, "x": 0, "y": -2120.8 }
+				],
+				"scale": [
+					{ "time": 6.6333, "x": 16.343, "y": 16.343 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 1.9666 },
+			{ "time": 3.4 },
+			{ "time": 4.8 }
+		]
+	}
+}
+}

@@ -1,0 +1,76 @@
+
+effice_head_81.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1064-1
+  rotate: false
+  xy: 357, 3
+  size: 69, 68
+  orig: 69, 68
+  offset: 0, 0
+  index: -1
+images/1064-10
+  rotate: false
+  xy: 286, 2
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+images/1064-2
+  rotate: false
+  xy: 428, 3
+  size: 69, 68
+  orig: 69, 68
+  offset: 0, 0
+  index: -1
+images/1064-3
+  rotate: false
+  xy: 641, 6
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+images/1064-4
+  rotate: false
+  xy: 570, 4
+  size: 69, 67
+  orig: 69, 67
+  offset: 0, 0
+  index: -1
+images/1064-5
+  rotate: false
+  xy: 499, 3
+  size: 69, 68
+  orig: 69, 68
+  offset: 0, 0
+  index: -1
+images/1064-6
+  rotate: false
+  xy: 2, 2
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+images/1064-7
+  rotate: false
+  xy: 73, 2
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+images/1064-8
+  rotate: false
+  xy: 144, 2
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+images/1064-9
+  rotate: false
+  xy: 215, 2
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1

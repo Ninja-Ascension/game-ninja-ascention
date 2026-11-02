@@ -80,6 +80,17 @@ function FightLoadingCell:init( nType )
 end
 
 function FightLoadingCell:createFight( ... )
+	if type(_ED.battleData) ~= "table" then
+		print("HOST_BATTLE_GUARD missing battleData scene=" .. tostring(_ED._current_scene_id)
+			.. " npc=" .. tostring(_ED._scene_npc_id) .. " type=" .. tostring(self.currentType))
+		self._unload = true
+		local loginWindow = fwin:find("LoginLoadingClass")
+		if loginWindow ~= nil then loginWindow._unload = false end
+		fwin:close(self)
+		local battleStart = fwin:find("BattleStartEffectClass")
+		if battleStart ~= nil then fwin:close(battleStart) end
+		return false
+	end
 	self.isLoadEffect = true
 	app.load("client.battle.fight.Fight")
 	app.load("client.battle.fight.FightEnum")
@@ -105,6 +116,7 @@ function FightLoadingCell:createFight( ... )
 	self.fightWindow:init(self.currentType, _ED._current_scene_id, _ED._scene_npc_id, _ED._npc_difficulty_index, _ED._npc_addition_params)
 	self.fightWindow:retain()
 	state_machine.excute("fight_begin_load_assets", 0, nil)
+	return true
 
 	-- local windowLock = fwin:find("WindowLockClass")
 	-- if windowLock == nil then
@@ -264,7 +276,7 @@ function FightLoadingCell:onUpdate( dt )
 		end
 		return
 	elseif self.totalNum >= 20 and self.totalNum <= 30 and self.isLoadEffect == false then
-		self:createFight()
+		if self:createFight() == false then return end
 	elseif self.totalNum >= 31 and self.totalNum <= 36 and self.isCreateCSB == false then
 		self.isCreateCSB = true
 		self.fightWindow:initTigerGateMap()

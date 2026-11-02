@@ -1,0 +1,223 @@
+
+effice_luck_draw_frame.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BianKuang_1
+  rotate: false
+  xy: 2, 770
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_10
+  rotate: false
+  xy: 386, 770
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_11
+  rotate: false
+  xy: 2, 258
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_12
+  rotate: false
+  xy: 130, 386
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_13
+  rotate: false
+  xy: 258, 514
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_14
+  rotate: false
+  xy: 386, 642
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_15
+  rotate: false
+  xy: 514, 770
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_16
+  rotate: false
+  xy: 2, 130
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_17
+  rotate: false
+  xy: 130, 258
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_18
+  rotate: false
+  xy: 258, 386
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_19
+  rotate: false
+  xy: 386, 514
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_2
+  rotate: false
+  xy: 2, 642
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_20
+  rotate: false
+  xy: 514, 642
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_21
+  rotate: false
+  xy: 642, 770
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_22
+  rotate: false
+  xy: 2, 2
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_23
+  rotate: false
+  xy: 130, 130
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_24
+  rotate: false
+  xy: 258, 258
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_25
+  rotate: false
+  xy: 386, 386
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_26
+  rotate: false
+  xy: 514, 514
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_27
+  rotate: false
+  xy: 642, 642
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_28
+  rotate: false
+  xy: 770, 770
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_29
+  rotate: false
+  xy: 130, 2
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_3
+  rotate: false
+  xy: 130, 770
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_30
+  rotate: false
+  xy: 258, 130
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_31
+  rotate: false
+  xy: 386, 258
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_4
+  rotate: false
+  xy: 2, 514
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_5
+  rotate: false
+  xy: 130, 642
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_6
+  rotate: false
+  xy: 258, 770
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_7
+  rotate: false
+  xy: 2, 386
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_8
+  rotate: false
+  xy: 130, 514
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1
+BianKuang_9
+  rotate: false
+  xy: 258, 642
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: -1

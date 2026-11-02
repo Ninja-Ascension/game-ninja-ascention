@@ -1,0 +1,20 @@
+
+effice_juqing_shanxian_chu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h
+  rotate: false
+  xy: 2, 2
+  size: 27, 145
+  orig: 32, 145
+  offset: 3, 0
+  index: -1
+tu
+  rotate: false
+  xy: 31, 79
+  size: 67, 68
+  orig: 72, 70
+  offset: 3, 0
+  index: -1

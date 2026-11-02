@@ -1,0 +1,27 @@
+
+sprite_wzzz_nuqitou.png
+size: 143,68
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fg1
+  rotate: false
+  xy: 114, 39
+  size: 27, 27
+  orig: 35, 35
+  offset: 4, 4
+  index: -1
+guany2
+  rotate: true
+  xy: 64, 2
+  size: 64, 48
+  orig: 72, 50
+  offset: 1, 1
+  index: -1
+gy1
+  rotate: true
+  xy: 2, 5
+  size: 61, 60
+  orig: 69, 66
+  offset: 4, 3
+  index: -1

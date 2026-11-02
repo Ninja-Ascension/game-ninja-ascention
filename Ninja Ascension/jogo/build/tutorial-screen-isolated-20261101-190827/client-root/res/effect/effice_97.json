@@ -1,0 +1,123 @@
+{
+"skeleton": { "hash": "Qgrsy3sH+CxndL4ZH9L5CMgBuEo", "spine": "2.1.27", "width": 333.08, "height": 459.33, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "scaleX": 1.096, "scaleY": 2.046 },
+	{ "name": "chakela", "parent": "bone", "x": 5.95, "y": 59.77, "scaleX": 0.74, "scaleY": 0.794 },
+	{ "name": "huo", "parent": "bone", "x": 4.79, "y": 85.92, "scaleY": 0.83 },
+	{ "name": "huo2", "parent": "bone", "x": 4.79, "y": 88.81, "scaleX": -1.03, "scaleY": 0.83 }
+],
+"slots": [
+	{ "name": "1588_1", "bone": "chakela", "color": "ffffff7a", "attachment": "1588_1", "blend": "additive" },
+	{ "name": "1748_1", "bone": "huo", "color": "ffffff3f", "attachment": "1748_1", "blend": "additive" },
+	{ "name": "1748_2", "bone": "huo2", "color": "ffffff47", "attachment": "1748_1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"1588_1": {
+			"1588_1": { "width": 363, "height": 198 },
+			"1588_2": { "width": 363, "height": 198 },
+			"1588_3": { "width": 363, "height": 198 },
+			"1588_4": { "width": 363, "height": 198 },
+			"1588_5": { "width": 363, "height": 198 },
+			"1588_6": { "width": 363, "height": 198 },
+			"1588_7": { "width": 363, "height": 198 },
+			"1588_8": { "width": 363, "height": 198 },
+			"1588_9": { "width": 363, "height": 198 },
+			"1588_10": { "width": 363, "height": 198 }
+		},
+		"1748_1": {
+			"1748_1": { "width": 295, "height": 267 },
+			"1748_2": { "width": 295, "height": 267 },
+			"1748_3": { "width": 295, "height": 267 },
+			"1748_4": { "width": 295, "height": 267 },
+			"1748_5": { "width": 295, "height": 267 },
+			"1748_6": { "width": 295, "height": 267 },
+			"1748_7": { "width": 295, "height": 267 },
+			"1748_8": { "width": 295, "height": 267 },
+			"1748_9": { "width": 295, "height": 267 },
+			"1748_10": { "width": 295, "height": 267 }
+		},
+		"1748_2": {
+			"1748_1": { "width": 295, "height": 267 },
+			"1748_2": { "width": 295, "height": 267 },
+			"1748_3": { "width": 295, "height": 267 },
+			"1748_4": { "width": 295, "height": 267 },
+			"1748_5": { "width": 295, "height": 267 },
+			"1748_6": { "width": 295, "height": 267 },
+			"1748_7": { "width": 295, "height": 267 },
+			"1748_8": { "width": 295, "height": 267 },
+			"1748_9": { "width": 295, "height": 267 },
+			"1748_10": { "width": 295, "height": 267 }
+		}
+	}
+},
+"animations": {
+	"standby": {
+		"slots": {
+			"1588_1": {
+				"attachment": [
+					{ "time": 0, "name": "1588_1" },
+					{ "time": 0.0666, "name": "1588_2" },
+					{ "time": 0.1333, "name": "1588_3" },
+					{ "time": 0.2, "name": "1588_4" },
+					{ "time": 0.2666, "name": "1588_5" },
+					{ "time": 0.3333, "name": "1588_6" },
+					{ "time": 0.4, "name": "1588_7" },
+					{ "time": 0.4666, "name": "1588_8" },
+					{ "time": 0.5333, "name": "1588_9" },
+					{ "time": 0.6, "name": "1588_10" },
+					{ "time": 0.6666, "name": "1588_1" }
+				]
+			},
+			"1748_1": {
+				"attachment": [
+					{ "time": 0, "name": "1748_1" },
+					{ "time": 0.0666, "name": "1748_2" },
+					{ "time": 0.1333, "name": "1748_3" },
+					{ "time": 0.2, "name": "1748_4" },
+					{ "time": 0.2666, "name": "1748_5" },
+					{ "time": 0.3333, "name": "1748_6" },
+					{ "time": 0.4, "name": "1748_7" },
+					{ "time": 0.4666, "name": "1748_8" },
+					{ "time": 0.5333, "name": "1748_9" },
+					{ "time": 0.6, "name": "1748_10" },
+					{ "time": 0.6666, "name": "1748_1" }
+				]
+			},
+			"1748_2": {
+				"attachment": [
+					{ "time": 0, "name": "1748_1" },
+					{ "time": 0.0666, "name": "1748_2" },
+					{ "time": 0.1333, "name": "1748_3" },
+					{ "time": 0.2, "name": "1748_4" },
+					{ "time": 0.2666, "name": "1748_5" },
+					{ "time": 0.3333, "name": "1748_6" },
+					{ "time": 0.4, "name": "1748_7" },
+					{ "time": 0.4666, "name": "1748_8" },
+					{ "time": 0.5333, "name": "1748_9" },
+					{ "time": 0.6, "name": "1748_10" },
+					{ "time": 0.6666, "name": "1748_1" }
+				]
+			}
+		},
+		"bones": {
+			"chakela": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 19.65 }
+				]
+			},
+			"huo": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 4.62 }
+				]
+			},
+			"huo2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -3.46 }
+				]
+			}
+		}
+	}
+}
+}

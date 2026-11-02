@@ -1,0 +1,250 @@
+
+effice_1108931.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bt/tx/dabiy
+  rotate: false
+  xy: 251, 43
+  size: 195, 69
+  orig: 195, 69
+  offset: 0, 0
+  index: -1
+bt/tx/datuiy
+  rotate: false
+  xy: 837, 404
+  size: 145, 225
+  orig: 145, 225
+  offset: 0, 0
+  index: -1
+bt/tx/datuiz
+  rotate: true
+  xy: 909, 664
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+bt/tx/jiaoy
+  rotate: true
+  xy: 663, 504
+  size: 125, 172
+  orig: 125, 172
+  offset: 0, 0
+  index: -1
+bt/tx/shenti
+  rotate: false
+  xy: 2, 498
+  size: 659, 521
+  orig: 659, 521
+  offset: 0, 0
+  index: -1
+bt/tx/tou
+  rotate: false
+  xy: 909, 836
+  size: 113, 183
+  orig: 113, 183
+  offset: 0, 0
+  index: -1
+bt/tx/toufay
+  rotate: true
+  xy: 2, 50
+  size: 62, 247
+  orig: 62, 247
+  offset: 0, 0
+  index: -1
+bt/tx/toufaz
+  rotate: true
+  xy: 2, 3
+  size: 45, 233
+  orig: 45, 233
+  offset: 0, 0
+  index: -1
+bt/tx/toufazh
+  rotate: false
+  xy: 984, 515
+  size: 32, 147
+  orig: 32, 147
+  offset: 0, 0
+  index: -1
+bt/tx/weiba
+  rotate: false
+  xy: 2, 114
+  size: 661, 382
+  orig: 661, 382
+  offset: 0, 0
+  index: -1
+bt/tx/wuqi2
+  rotate: true
+  xy: 663, 631
+  size: 388, 244
+  orig: 388, 244
+  offset: 0, 0
+  index: -1
+bt/tx/xiaotuiy
+  rotate: false
+  xy: 667, 311
+  size: 158, 191
+  orig: 158, 191
+  offset: 0, 0
+  index: -1
+bt/tx/yaodai
+  rotate: false
+  xy: 827, 157
+  size: 187, 245
+  orig: 187, 245
+  offset: 0, 0
+  index: -1
+gx/bs/djjjb11
+  rotate: false
+  xy: 448, 3
+  size: 109, 109
+  orig: 110, 110
+  offset: 1, 0
+  index: -1
+gx/bs/djjjb2
+  rotate: false
+  xy: 819, 2
+  size: 163, 153
+  orig: 176, 180
+  offset: 10, 14
+  index: -1
+gx/bs/djjjb3
+  rotate: true
+  xy: 665, 144
+  size: 165, 152
+  orig: 176, 180
+  offset: 10, 15
+  index: -1
+gx/bs/djjjb4
+  rotate: false
+  xy: 665, 6
+  size: 151, 136
+  orig: 176, 180
+  offset: 17, 22
+  index: -1
+gx/bs/yb
+  rotate: false
+  xy: 559, 9
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+heidian
+  rotate: false
+  xy: 663, 500
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+
+effice_11089312.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bt/tx/dabiz
+  rotate: false
+  xy: 2, 2
+  size: 83, 53
+  orig: 83, 53
+  offset: 0, 0
+  index: -1
+bt/tx/jiaoz
+  rotate: false
+  xy: 463, 406
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+bt/tx/shouy
+  rotate: false
+  xy: 209, 169
+  size: 84, 93
+  orig: 84, 93
+  offset: 0, 0
+  index: -1
+bt/tx/wuqi
+  rotate: false
+  xy: 2, 510
+  size: 569, 512
+  orig: 569, 512
+  offset: 0, 0
+  index: -1
+bt/tx/wuqi3
+  rotate: false
+  xy: 2, 264
+  size: 254, 244
+  orig: 254, 244
+  offset: 0, 0
+  index: -1
+bt/tx/xiaobiy
+  rotate: false
+  xy: 946, 864
+  size: 54, 158
+  orig: 54, 158
+  offset: 0, 0
+  index: -1
+bt/tx/xiaotuiz
+  rotate: true
+  xy: 463, 301
+  size: 103, 94
+  orig: 103, 94
+  offset: 0, 0
+  index: -1
+gx/bs/00_002
+  rotate: false
+  xy: 209, 76
+  size: 90, 91
+  orig: 90, 91
+  offset: 0, 0
+  index: -1
+gx/bs/djjjb1
+  rotate: false
+  xy: 780, 859
+  size: 164, 163
+  orig: 176, 180
+  offset: 10, 9
+  index: -1
+gx/bs/djjjb10
+  rotate: false
+  xy: 573, 650
+  size: 164, 164
+  orig: 164, 164
+  offset: 0, 0
+  index: -1
+gx/bs/djjjb5
+  rotate: true
+  xy: 567, 351
+  size: 144, 145
+  orig: 176, 180
+  offset: 21, 18
+  index: -1
+gx/bs/djjjb6
+  rotate: true
+  xy: 573, 497
+  size: 151, 164
+  orig: 176, 180
+  offset: 17, 9
+  index: -1
+gx/bs/djjjb7
+  rotate: false
+  xy: 573, 816
+  size: 205, 206
+  orig: 206, 206
+  offset: 1, 0
+  index: -1
+gx/bs/djjjb8
+  rotate: false
+  xy: 2, 57
+  size: 205, 205
+  orig: 206, 206
+  offset: 1, 0
+  index: -1
+gx/bs/djjjb9
+  rotate: false
+  xy: 258, 306
+  size: 203, 202
+  orig: 204, 202
+  offset: 1, 0
+  index: -1

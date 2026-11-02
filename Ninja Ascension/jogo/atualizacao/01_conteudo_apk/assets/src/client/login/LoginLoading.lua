@@ -221,32 +221,12 @@ function LoginLoading:init(  )
 	-- 	self:onInit()
 	-- end
 
-	-- 新账号选择了“做教程”后才进入教程首战。choice/skipped/completed/legacy
-	-- 必须走正常登录加载；强行打开 FightLoading 会在没有 battleData 时卡在 100%。
-	if self:shouldEnterInitialBattle() then
-		self._unload = true
-		app.load("client.cells.utils.sm_item_icon_cell")
-		app.load("client.home.Menu")
-		app.load("client.battle.landscape.FightLoading")
-
-		app.load("client.utils.texture_cache")
-		-- cacher.removeAllTextures()
-		app.load("configs.csb.config")
-
-		-- self:loadingActivity()
-		-- self:loadingFormation()
-
-		local fightLoadingCell = FightLoadingCell:new():init(0)
-		fightLoadingCell:onAddLoginLoading()
-		fwin:open(fightLoadingCell, fwin._windows)
-		fwin._current_music = nil
-		fwin._stop_music = true
-		playBgm(formatMusicFile("background", 3))
-	else
-		local currHomeBgm = readKey("m_curr_home_bgm")
-		playBgm(formatMusicFile("background", tonumber(currHomeBgm)))
-		self:onInit()
-	end
+	-- Login nao pode criar FightLoading antes da solicitacao de batalha: o
+	-- parser 182 ainda nao populou _ED.battleData nesse ponto. O estado
+	-- "playing" inicia o pedido no gate de tutorial abaixo.
+	local currHomeBgm = readKey("m_curr_home_bgm")
+	playBgm(formatMusicFile("background", tonumber(currHomeBgm)))
+	self:onInit()
 	return self
 end
 
@@ -437,6 +417,14 @@ function LoginLoading:checkLoginLoading( baseWindow, loginIn )
 				state_machine.excute("login_loading_change_name", 0, baseWindow)
 			elseif _ED.nr_initial_tutorial == "choice" then
 				self:openInitialTutorialChoice(baseWindow)
+			elseif _ED.nr_initial_tutorial == "playing" then
+				local ok, started = pcall(function()
+					app.load("client.mission.TutorialSkip")
+					return TutorialSkip.resumeInitialBattle(baseWindow)
+				end)
+				baseWindow._unload = ok and started == true
+				loginLoadingTutorialTrace(ok and (started and "resuming tutorial battle" or "tutorial battle already starting")
+					or ("tutorial battle start error: " .. tostring(started)))
 			else
 				local ok, started = pcall(executeMissionExt, mission_mould_tuition, nil, nil, nil, true,
 					"l".._ED.user_info.user_grade.."e".._ED.user_info.user_experience, true)

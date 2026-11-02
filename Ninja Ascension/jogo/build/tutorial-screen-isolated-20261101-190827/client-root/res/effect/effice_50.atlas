@@ -1,0 +1,13 @@
+
+effice_50.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+angry
+  rotate: false
+  xy: 2, 2
+  size: 42, 45
+  orig: 54, 54
+  offset: 5, 4
+  index: -1

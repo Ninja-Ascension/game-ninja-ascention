@@ -1,0 +1,48 @@
+
+effice_100.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhanji_0
+  rotate: false
+  xy: 2, 9
+  size: 97, 54
+  orig: 221, 180
+  offset: 62, 63
+  index: -1
+zhanji_1
+  rotate: false
+  xy: 114, 79
+  size: 103, 81
+  orig: 221, 180
+  offset: 59, 49
+  index: -1
+zhanji_2
+  rotate: false
+  xy: 114, 162
+  size: 108, 86
+  orig: 221, 180
+  offset: 56, 47
+  index: -1
+zhanji_3
+  rotate: false
+  xy: 2, 65
+  size: 110, 90
+  orig: 221, 180
+  offset: 55, 45
+  index: -1
+zhanji_4
+  rotate: false
+  xy: 2, 157
+  size: 110, 91
+  orig: 221, 180
+  offset: 55, 44
+  index: -1
+zhanji_5
+  rotate: true
+  xy: 114, 2
+  size: 75, 91
+  orig: 221, 180
+  offset: 73, 44
+  index: -1

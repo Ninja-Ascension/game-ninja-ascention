@@ -1,0 +1,279 @@
+
+effect_107111.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gx/bj1
+  rotate: false
+  xy: 834, 184
+  size: 35, 45
+  orig: 95, 80
+  offset: 3, 3
+  index: -1
+gx/bj2
+  rotate: true
+  xy: 970, 870
+  size: 79, 52
+  orig: 95, 80
+  offset: 5, 2
+  index: -1
+gx/bj3
+  rotate: false
+  xy: 736, 12
+  size: 79, 62
+  orig: 95, 80
+  offset: 8, 0
+  index: -1
+gx/bj4
+  rotate: false
+  xy: 823, 281
+  size: 79, 61
+  orig: 95, 80
+  offset: 10, 7
+  index: -1
+gx/bj5
+  rotate: false
+  xy: 951, 951
+  size: 71, 71
+  orig: 95, 80
+  offset: 20, 9
+  index: -1
+gx/fbao_0
+  rotate: true
+  xy: 504, 14
+  size: 85, 138
+  orig: 114, 140
+  offset: 14, 0
+  index: -1
+gx/fbao_1
+  rotate: true
+  xy: 644, 12
+  size: 111, 90
+  orig: 114, 140
+  offset: 0, 29
+  index: -1
+gx/fbao_2
+  rotate: false
+  xy: 736, 177
+  size: 96, 100
+  orig: 114, 140
+  offset: 17, 29
+  index: -1
+gx/fbao_3
+  rotate: true
+  xy: 731, 279
+  size: 107, 90
+  orig: 114, 140
+  offset: 7, 23
+  index: -1
+gx/fbao_4
+  rotate: false
+  xy: 843, 344
+  size: 85, 82
+  orig: 114, 140
+  offset: 19, 32
+  index: -1
+gx/fbao_5
+  rotate: false
+  xy: 834, 231
+  size: 65, 48
+  orig: 114, 140
+  offset: 40, 62
+  index: -1
+gx/gong_0
+  rotate: false
+  xy: 930, 368
+  size: 29, 58
+  orig: 134, 153
+  offset: 0, 28
+  index: -1
+gx/gong_1
+  rotate: false
+  xy: 819, 871
+  size: 130, 151
+  orig: 134, 153
+  offset: 4, 0
+  index: -1
+gx/gong_2
+  rotate: false
+  xy: 504, 101
+  size: 120, 145
+  orig: 134, 153
+  offset: 11, 7
+  index: -1
+gx/gong_3
+  rotate: true
+  xy: 823, 533
+  size: 117, 145
+  orig: 134, 153
+  offset: 9, 8
+  index: -1
+gx/gong_4
+  rotate: false
+  xy: 843, 428
+  size: 117, 103
+  orig: 134, 153
+  offset: 5, 50
+  index: -1
+gx/paobugonggong_newAnimation_0
+  rotate: false
+  xy: 277, 450
+  size: 255, 141
+  orig: 412, 237
+  offset: 88, 43
+  index: -1
+gx/paobugonggong_newAnimation_1
+  rotate: false
+  xy: 242, 302
+  size: 267, 146
+  orig: 412, 237
+  offset: 76, 43
+  index: -1
+gx/paobugonggong_newAnimation_2
+  rotate: true
+  xy: 176, 4
+  size: 277, 156
+  orig: 412, 237
+  offset: 64, 41
+  index: -1
+gx/paobugonggong_newAnimation_3
+  rotate: false
+  xy: 539, 524
+  size: 282, 161
+  orig: 412, 237
+  offset: 56, 41
+  index: -1
+gx/paobugonggong_newAnimation_4
+  rotate: false
+  xy: 527, 857
+  size: 290, 165
+  orig: 412, 237
+  offset: 49, 41
+  index: -1
+gx/paobugonggong_newAnimation_5
+  rotate: false
+  xy: 539, 687
+  size: 285, 168
+  orig: 412, 237
+  offset: 51, 43
+  index: -1
+gx/paobugonggong_newAnimation_6
+  rotate: true
+  xy: 334, 19
+  size: 281, 168
+  orig: 412, 237
+  offset: 52, 44
+  index: -1
+gx/paobugonggong_newAnimation_7
+  rotate: true
+  xy: 2, 9
+  size: 272, 172
+  orig: 412, 237
+  offset: 59, 44
+  index: -1
+gx/paobugonggong_newAnimation_8
+  rotate: false
+  xy: 277, 593
+  size: 260, 175
+  orig: 412, 237
+  offset: 69, 44
+  index: -1
+gx/qq-beiji_newAnimation_00
+  rotate: false
+  xy: 277, 770
+  size: 248, 252
+  orig: 368, 329
+  offset: 62, 47
+  index: -1
+gx/qq-beiji_newAnimation_01
+  rotate: false
+  xy: 2, 283
+  size: 238, 246
+  orig: 368, 329
+  offset: 67, 48
+  index: -1
+gx/qq-beiji_newAnimation_02
+  rotate: false
+  xy: 2, 776
+  size: 273, 246
+  orig: 368, 329
+  offset: 52, 48
+  index: -1
+gx/qq-beiji_newAnimation_03
+  rotate: false
+  xy: 2, 531
+  size: 273, 243
+  orig: 368, 329
+  offset: 52, 49
+  index: -1
+gx/qq-beiji_newAnimation_04
+  rotate: false
+  xy: 534, 388
+  size: 230, 134
+  orig: 368, 329
+  offset: 96, 117
+  index: -1
+gx/qq-beiji_newAnimation_05
+  rotate: false
+  xy: 534, 388
+  size: 230, 134
+  orig: 368, 329
+  offset: 96, 117
+  index: -1
+gx/qq-beiji_newAnimation_06
+  rotate: true
+  xy: 826, 652
+  size: 217, 135
+  orig: 368, 329
+  offset: 95, 119
+  index: -1
+gx/qq-beiji_newAnimation_07
+  rotate: true
+  xy: 826, 652
+  size: 217, 135
+  orig: 368, 329
+  offset: 95, 119
+  index: -1
+gx/qq-beiji_newAnimation_08
+  rotate: false
+  xy: 511, 248
+  size: 218, 138
+  orig: 368, 329
+  offset: 92, 119
+  index: -1
+gx/qq-beiji_newAnimation_09
+  rotate: false
+  xy: 511, 248
+  size: 218, 138
+  orig: 368, 329
+  offset: 92, 119
+  index: -1
+gx/zhan
+  rotate: false
+  xy: 242, 464
+  size: 31, 65
+  orig: 122, 120
+  offset: 0, 14
+  index: -1
+gx/zhan1
+  rotate: true
+  xy: 626, 125
+  size: 121, 108
+  orig: 122, 120
+  offset: 1, 1
+  index: -1
+gx/zhan2
+  rotate: false
+  xy: 766, 402
+  size: 75, 120
+  orig: 122, 120
+  offset: 47, 0
+  index: -1
+gx/zhan3
+  rotate: false
+  xy: 736, 76
+  size: 98, 99
+  orig: 122, 120
+  offset: 22, 21
+  index: -1

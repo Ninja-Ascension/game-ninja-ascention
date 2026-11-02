@@ -1,0 +1,118 @@
+
+effect_huohuli.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+datuiy
+  rotate: false
+  xy: 130, 57
+  size: 12, 22
+  orig: 12, 22
+  offset: 0, 0
+  index: -1
+datuiz
+  rotate: false
+  xy: 48, 15
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+erduo1
+  rotate: true
+  xy: 74, 77
+  size: 49, 52
+  orig: 49, 52
+  offset: 0, 0
+  index: -1
+erduo2
+  rotate: true
+  xy: 61, 51
+  size: 24, 52
+  orig: 24, 52
+  offset: 0, 0
+  index: -1
+mao1
+  rotate: false
+  xy: 181, 86
+  size: 48, 40
+  orig: 48, 40
+  offset: 0, 0
+  index: -1
+mao2
+  rotate: false
+  xy: 231, 88
+  size: 23, 38
+  orig: 23, 38
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 90
+  size: 70, 36
+  orig: 70, 36
+  offset: 0, 0
+  index: -1
+shangbiy
+  rotate: false
+  xy: 159, 59
+  size: 10, 20
+  orig: 10, 20
+  offset: 0, 0
+  index: -1
+shangbiz
+  rotate: false
+  xy: 144, 58
+  size: 13, 21
+  orig: 13, 21
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 7
+  size: 44, 34
+  orig: 44, 34
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 43
+  size: 57, 45
+  orig: 57, 45
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 128, 81
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+xiaobiy
+  rotate: true
+  xy: 48, 2
+  size: 11, 19
+  orig: 11, 19
+  offset: 0, 0
+  index: -1
+xiaobiz
+  rotate: false
+  xy: 171, 61
+  size: 9, 18
+  orig: 9, 18
+  offset: 0, 0
+  index: -1
+xiaotuiy
+  rotate: false
+  xy: 182, 68
+  size: 9, 16
+  orig: 9, 16
+  offset: 0, 0
+  index: -1
+xiaotuiz
+  rotate: false
+  xy: 115, 51
+  size: 13, 24
+  orig: 13, 24
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,137 @@
+----------------------------------------------------------------------------------------------------
+-- 说明:一键探索完成
+----------------------------------------------------------------------------------------------------
+ExplorationAllFinishPKOneCell = class("ExplorationAllFinishPKOneCellClass", Window)
+ExplorationAllFinishPKOneCell.__size = nil
+
+function ExplorationAllFinishPKOneCell:ctor()
+    self.super:ctor()
+	self.roots = {}
+
+    app.load("client.l_digital.campaign.exploration.ExplorationAllFinishPKOneListCell")
+    app.load("client.l_digital.campaign.exploration.ExplorationAllFinish")
+	local function init_exploration_all_finish_pk_one_cell_terminal()
+		-- -- 点击cell
+		local exploration_all_finish_window_goto_next_terminal = {
+            _name = "exploration_all_finish_window_goto_next",
+            _init = function (terminal) 
+            end,
+            _inited = false,
+            _instance = self,
+            _state = 0,
+            _invoke = function(terminal, instance, params)
+                function showConfirmTip(instance,n)
+                    if n == 0 then
+                        local function callback(response)
+                            if response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS >= 0 then
+                                state_machine.excute("exploration_window_all_finish_update", 0, {0, 1})
+                            end
+                        end
+        
+                        local data = {}
+                        for i,v in ipairs(_ED.pokemonEventIds[instance.id]) do
+                            data[i] = {}
+                            data[i].resultIndex = v.index
+                        end
+                        local req = json.encode(data)
+                        protocol_command.pokemon_explore_single_challenge_cancel.param_list = req
+                        NetworkManager:register(protocol_command.pokemon_explore_single_challenge_cancel.code, nil, nil, nil, nil, callback, false, nil)
+                    end
+                end
+                app.load("client.utils.ConfirmTip")
+                local tip = ConfirmTip:new()
+                tip:init(instance, showConfirmTip, tipStringInfo_file_island_tips[4])
+                fwin:open(tip, fwin._ui)
+                return true
+            end,
+            _terminal = nil,
+            _terminals = nil
+        }
+
+		state_machine.add(exploration_all_finish_window_goto_next_terminal)
+        state_machine.init()
+	end
+
+	init_exploration_all_finish_pk_one_cell_terminal()
+end
+
+function ExplorationAllFinishPKOneCell:onUpdateDraw()
+    local root = self.roots[1]
+    local img_2 = ccui.Helper:seekWidgetByName(root, "Image_37_2_0")
+    local img_3 = ccui.Helper:seekWidgetByName(root, "Image_37_2_0_0")
+    local img_4 = ccui.Helper:seekWidgetByName(root, "Image_37_2_0_0_2")
+    local img_5 = ccui.Helper:seekWidgetByName(root, "Image_37_2_0_0_1")
+    local imgs = {img_2, img_3, img_4, img_5}
+    
+    -- local img_arrow_1 = ccui.Helper:seekWidgetByName(root, "Image_37_2_1")
+    -- local img_arrow_2 = ccui.Helper:seekWidgetByName(root, "Image_37_2_1_0")
+    -- local img_arrow_3 = ccui.Helper:seekWidgetByName(root, "Image_37_2_1_0_0")
+    -- local img_arrows = {img_arrow_1, img_arrow_2, img_arrow_3}
+
+    local paths = {
+        [1] = {"images/ui/text/exploration/event_bar_4.png", "images/ui/text/exploration/event_bar_3.png"}, 
+        [6] = {"images/ui/text/exploration/event_bar_10.png", "images/ui/text/exploration/event_bar_9.png"}, 
+        [4] = {"images/ui/text/exploration/event_bar_6.png", "images/ui/text/exploration/event_bar_5.png"}, 
+        [5] = {"images/ui/text/exploration/event_bar_8.png", "images/ui/text/exploration/event_bar_7.png"}, 
+    }
+    
+    for i = 1, 4 do
+        local img = imgs[i]
+        if self.ids[i] then
+            local pic_index = (tonumber(self.id) == tonumber(self.ids[i])) and 2 or 1
+            img:loadTexture(paths[tonumber(self.ids[i])][pic_index])
+            img:setVisible(true)
+            -- img_arrows[i - 1]:setVisible(true)
+        else
+            img:setVisible(false)
+            -- img_arrows[i - 1]:setVisible(false)
+        end
+    end
+
+    local ListView_3 = ccui.Helper:seekWidgetByName(root, "ListView_3")
+    ListView_3:removeAllItems()
+    for i,v in ipairs(_ED.pokemonEventIds[self.id]) do
+        local cell = state_machine.excute("exploration_one_pk_list_cell_create", 0, {i, v})
+        ListView_3:addChild(cell)
+    end
+
+    -- ccui.Helper:seekWidgetByName(root, "Panel_explore_single_challenge_jl"):setVisible(self.is_all)
+end
+
+function ExplorationAllFinishPKOneCell:onInit()
+    local csbNode = csb.createNode("campaign/exploration/exploration_event_challenge_tab.csb")
+	local root = csbNode:getChildByName("root")
+	table.insert(self.roots, root)
+    self:addChild(csbNode)
+
+    ccui.Helper:seekWidgetByName(root, "Button_sure"):setVisible(true)
+    fwin:addTouchEventListener(ccui.Helper:seekWidgetByName(root, "Button_sure"), nil, 
+    {
+        terminal_name = "exploration_all_finish_window_goto_next", 
+        isPressedActionEnabled = true
+    },
+    nil, 0)
+
+    self:onUpdateDraw()
+end
+
+function ExplorationAllFinishPKOneCell:clearUIInfo()
+end
+
+function ExplorationAllFinishPKOneCell:initData()
+end
+
+function ExplorationAllFinishPKOneCell:init(params)
+    self.id= params[1]
+    self.ids = params[2]
+    self.is_all = params[3]
+    self:onInit()
+end
+
+function ExplorationAllFinishPKOneCell:createCell()
+	local cell = ExplorationAllFinishPKOneCell:new()
+	cell:registerOnNodeEvent(cell)
+	return cell
+end
+
+

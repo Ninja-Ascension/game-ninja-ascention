@@ -1,0 +1,125 @@
+
+sprite_heisechilun.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chilun_1
+  rotate: false
+  xy: 445, 776
+  size: 192, 75
+  orig: 193, 76
+  offset: 1, 0
+  index: -1
+chilun_2
+  rotate: false
+  xy: 639, 771
+  size: 188, 74
+  orig: 188, 74
+  offset: 0, 0
+  index: -1
+dark_smoke1
+  rotate: true
+  xy: 2, 445
+  size: 297, 238
+  orig: 297, 251
+  offset: 0, 7
+  index: -1
+dark_smoke2
+  rotate: false
+  xy: 2, 744
+  size: 279, 263
+  orig: 293, 278
+  offset: 0, 15
+  index: -1
+kls_txl_1
+  rotate: false
+  xy: 2, 20
+  size: 33, 29
+  orig: 36, 33
+  offset: 2, 1
+  index: -1
+red_l1
+  rotate: false
+  xy: 242, 556
+  size: 82, 186
+  orig: 92, 210
+  offset: 5, 11
+  index: -1
+red_l2
+  rotate: false
+  xy: 252, 366
+  size: 95, 88
+  orig: 105, 99
+  offset: 5, 4
+  index: -1
+touying
+  rotate: true
+  xy: 165, 247
+  size: 196, 85
+  orig: 202, 92
+  offset: 3, 3
+  index: -1
+yy_tx01
+  rotate: true
+  xy: 242, 456
+  size: 98, 114
+  orig: 102, 126
+  offset: 2, 10
+  index: -1
+yy_tx02
+  rotate: true
+  xy: 829, 675
+  size: 136, 167
+  orig: 140, 180
+  offset: 2, 10
+  index: -1
+yy_tx03
+  rotate: false
+  xy: 165, 53
+  size: 146, 192
+  orig: 153, 204
+  offset: 4, 10
+  index: -1
+yy_tx04
+  rotate: true
+  xy: 445, 853
+  size: 154, 202
+  orig: 159, 216
+  offset: 3, 10
+  index: -1
+yy_tx05
+  rotate: false
+  xy: 283, 807
+  size: 160, 200
+  orig: 165, 209
+  offset: 3, 6
+  index: -1
+yy_tx06
+  rotate: false
+  xy: 2, 51
+  size: 161, 194
+  orig: 165, 197
+  offset: 3, 1
+  index: -1
+yy_tx07
+  rotate: false
+  xy: 846, 813
+  size: 161, 194
+  orig: 166, 202
+  offset: 3, 1
+  index: -1
+yy_tx08
+  rotate: false
+  xy: 2, 247
+  size: 161, 196
+  orig: 166, 206
+  offset: 3, 1
+  index: -1
+yy_tx09
+  rotate: true
+  xy: 649, 847
+  size: 160, 195
+  orig: 166, 208
+  offset: 3, 4
+  index: -1

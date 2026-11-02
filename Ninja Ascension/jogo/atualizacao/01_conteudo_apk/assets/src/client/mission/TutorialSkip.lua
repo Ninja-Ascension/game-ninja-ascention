@@ -86,6 +86,78 @@ function TutorialSkip.openWhenLoaded()
     fwin:open(TutorialSkipWindow:new():init(), fwin._screen)
 end
 
+local function openTutorialBattle(loginWindow)
+    if TutorialSkip.battleStarting then return false end
+    TutorialSkip.battleStarting = true
+
+    local scene, npc, difficulty = "1", "1196", "1"
+    local sender = "2,1,1,2"
+    _ED._current_scene_id = scene
+    _ED._scene_npc_id = npc
+    _ED._npc_difficulty_index = difficulty
+    _ED._battle_init_type = "0"
+    _ED._npc_addition_params = nil
+
+    local formationInfo = ""
+    for _, shipId in pairs(_ED.user_formetion_status or {}) do
+        local ship = _ED.user_ship and _ED.user_ship[tostring(shipId)]
+        if ship ~= nil then
+            local item = table.concat({tostring(ship.ship_template_id or 0),
+                tostring(ship.ship_grade or 0), tostring(ship.StarRating or 0),
+                tostring(ship.Order or 0)}, ",")
+            formationInfo = formationInfo == "" and item or formationInfo .. "|" .. item
+        elseif formationInfo == "" then
+            formationInfo = "0,0,0,0"
+        else
+            formationInfo = formationInfo .. "|0,0,0,0"
+        end
+    end
+
+    app.load("client.battle.fight.FightEnum")
+    protocol_command.battle_result_start.param_list = table.concat({
+        tostring(_enum_fight_type._fight_type_0), scene, npc, difficulty, sender, formationInfo
+    }, "\r\n")
+    print("HOST_TUTORIAL_BATTLE request scene=" .. scene .. " npc=" .. npc .. " difficulty=" .. difficulty)
+    NetworkManager:register(protocol_command.battle_result_start.code, nil, nil, nil, nil, function(response)
+        if not (response.RESPONSE_SUCCESS and (tonumber(response.PROTOCOL_STATUS) or -1) >= 0) then
+            TutorialSkip.battleStarting = false
+            if loginWindow ~= nil then loginWindow._unload = false end
+            print("HOST_TUTORIAL_BATTLE rejected stage=battle_result_start status=" .. tostring(response.PROTOCOL_STATUS))
+            return
+        end
+
+        local ok, err = pcall(function()
+            app.load("client.battle.report.BattleReport")
+            if _ED._fightModule == nil then _ED._fightModule = FightModule:new() end
+            _ED.attackData = { roundCount = _ED._fightModule.totalRound, roundData = {} }
+            _ED._fightModule:initFight(npc, difficulty, 0, {})
+            local orderList = {}
+            _ED._fightModule:initFightOrder(_ED.user_info, orderList)
+            assert(type(_ED.battleData) == "table", "battle_result_start nao inicializou battleData")
+            assert(tonumber(_ED.battleData.battle_total_count) and tonumber(_ED.battleData.battle_total_count) > 0,
+                "battleData sem rodadas")
+            app.load("client.battle.BattleStartEffect")
+            local effect = BattleStartEffect:new()
+            effect:init(1)
+            fwin:open(effect, fwin._windows)
+            if loginWindow ~= nil then fwin:close(loginWindow) end
+            print("HOST_TUTORIAL_BATTLE ready npc=" .. npc .. " waves=" .. tostring(_ED.battleData.battle_total_count))
+        end)
+        TutorialSkip.battleStarting = false
+        if not ok then
+            if loginWindow ~= nil then loginWindow._unload = false end
+            print("HOST_TUTORIAL_BATTLE failed stage=local_init error=" .. tostring(err))
+        end
+    end, false, nil)
+    return true
+end
+
+function TutorialSkip.resumeInitialBattle(loginWindow)
+    if _ED.nr_initial_tutorial ~= "playing" then return false end
+    app.load("client.mission.TutorialSkip")
+    return openTutorialBattle(loginWindow)
+end
+
 function TutorialSkip.newbie()
     if TutorialSkip.busy then return end
     TutorialSkip.busy=true
@@ -93,21 +165,17 @@ function TutorialSkip.newbie()
         TutorialSkip.busy=false
         if not (response.RESPONSE_SUCCESS and response.PROTOCOL_STATUS>=0) then return end
         TutorialSkip.decidedFor=tostring(_ED.user_info.user_id)
+        _ED.nr_initial_tutorial = "playing"
         local w=fwin:find('TutorialSkipWindowClass')
         if w~=nil then fwin:close(w) end
         local args=TutorialSkip.pending
         TutorialSkip.pending=nil
         if args~=nil then
-            local initial=require('initial_tutorial')
-            if initial.state=='playing' then
-                -- A escolha "fazer tutorial" usa o roteiro original de batalha
-                -- (1196v1: Itachi e depois Pain), em vez da antiga sequência
-                -- tuition que prendia o jogador no Recruit obrigatório.
-                local result=TutorialSkip.original(mission_mould_battle,nil,nil,nil,true,'1196v1',true)
-                print('HOST_TUTORIAL_ROUTE state=playing mission=1196v1 result='..tostring(result))
-            else
-                TutorialSkip.original(unpack(args,1,7))
-            end
+            -- Inicializa a batalha pelas mesmas etapas da entrada normal de
+            -- PVE antes que FightLoading execute o roteiro 1196v1.
+            local loginWindow=fwin:find("LoginLoadingClass")
+            if loginWindow ~= nil then loginWindow._unload = true end
+            TutorialSkip.resumeInitialBattle(loginWindow)
         end
     end,false,nil)
 end

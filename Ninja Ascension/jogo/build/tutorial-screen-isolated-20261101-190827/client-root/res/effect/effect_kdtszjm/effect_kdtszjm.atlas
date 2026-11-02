@@ -1,0 +1,237 @@
+
+effect_kdtszjm.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+iamge/_0000_shueihua2_0011
+  rotate: false
+  xy: 713, 419
+  size: 72, 47
+  orig: 72, 47
+  offset: 0, 0
+  index: -1
+iamge/_0000_skill1_shui_zhu_0032
+  rotate: true
+  xy: 384, 206
+  size: 29, 110
+  orig: 29, 110
+  offset: 0, 0
+  index: -1
+iamge/_0001_shueihua2_0010
+  rotate: false
+  xy: 401, 157
+  size: 71, 47
+  orig: 71, 47
+  offset: 0, 0
+  index: -1
+iamge/_0001_skill1_shui_zhu_0031
+  rotate: true
+  xy: 384, 237
+  size: 29, 112
+  orig: 29, 112
+  offset: 0, 0
+  index: -1
+iamge/_0002_shueihua2_0009
+  rotate: true
+  xy: 353, 104
+  size: 85, 46
+  orig: 85, 46
+  offset: 0, 0
+  index: -1
+iamge/_0002_skill1_shui_zhu_0030
+  rotate: false
+  xy: 353, 191
+  size: 29, 113
+  orig: 29, 113
+  offset: 0, 0
+  index: -1
+iamge/_0003_shueihua2_0008
+  rotate: true
+  xy: 957, 736
+  size: 83, 47
+  orig: 83, 47
+  offset: 0, 0
+  index: -1
+iamge/_0003_skill1_shui_zhu_0029
+  rotate: true
+  xy: 384, 268
+  size: 29, 113
+  orig: 29, 113
+  offset: 0, 0
+  index: -1
+iamge/_0004_shueihua2_0007
+  rotate: true
+  xy: 743, 520
+  size: 83, 47
+  orig: 83, 47
+  offset: 0, 0
+  index: -1
+iamge/_0005_shueihua2_0006
+  rotate: false
+  xy: 309, 306
+  size: 83, 50
+  orig: 83, 50
+  offset: 0, 0
+  index: -1
+iamge/_0006_shueihua2_0005
+  rotate: false
+  xy: 704, 468
+  size: 80, 50
+  orig: 80, 50
+  offset: 0, 0
+  index: -1
+iamge/_0007_shueihua2_0004
+  rotate: false
+  xy: 401, 106
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: -1
+iamge/_0008_shueihua2_0003
+  rotate: false
+  xy: 513, 324
+  size: 66, 49
+  orig: 66, 49
+  offset: 0, 0
+  index: -1
+iamge/_0009_shueihua2_0002
+  rotate: false
+  xy: 645, 360
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1
+iamge/_0010_shueihua2_0001
+  rotate: false
+  xy: 635, 315
+  size: 49, 43
+  orig: 49, 43
+  offset: 0, 0
+  index: -1
+iamge/bw
+  rotate: false
+  xy: 511, 375
+  size: 132, 29
+  orig: 132, 29
+  offset: 0, 0
+  index: -1
+iamge/dao2
+  rotate: false
+  xy: 2, 111
+  size: 200, 193
+  orig: 200, 193
+  offset: 0, 0
+  index: -1
+iamge/dao2bw
+  rotate: true
+  xy: 957, 821
+  size: 200, 65
+  orig: 200, 65
+  offset: 0, 0
+  index: -1
+iamge/dao3
+  rotate: false
+  xy: 309, 358
+  size: 200, 87
+  orig: 200, 87
+  offset: 0, 0
+  index: -1
+iamge/dao3bw
+  rotate: false
+  xy: 511, 406
+  size: 200, 54
+  orig: 200, 87
+  offset: 0, 15
+  index: -1
+iamge/dao4
+  rotate: true
+  xy: 204, 104
+  size: 200, 147
+  orig: 200, 147
+  offset: 0, 0
+  index: -1
+iamge/dao4bw
+  rotate: false
+  xy: 2, 2
+  size: 196, 107
+  orig: 196, 107
+  offset: 0, 0
+  index: -1
+iamge/hai
+  rotate: false
+  xy: 2, 814
+  size: 803, 207
+  orig: 803, 207
+  offset: 0, 0
+  index: -1
+iamge/j
+  rotate: false
+  xy: 394, 299
+  size: 117, 57
+  orig: 117, 57
+  offset: 0, 0
+  index: -1
+iamge/sj
+  rotate: true
+  xy: 807, 562
+  size: 146, 200
+  orig: 146, 200
+  offset: 0, 0
+  index: -1
+iamge/sl
+  rotate: false
+  xy: 200, 6
+  size: 185, 96
+  orig: 185, 97
+  offset: 0, 0
+  index: -1
+iamge/tk
+  rotate: false
+  xy: 581, 321
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+iamge/wl
+  rotate: false
+  xy: 2, 605
+  size: 803, 207
+  orig: 803, 207
+  offset: 0, 0
+  index: -1
+iamge/yun1
+  rotate: false
+  xy: 2, 447
+  size: 439, 156
+  orig: 439, 156
+  offset: 0, 0
+  index: -1
+iamge/yun2
+  rotate: false
+  xy: 2, 306
+  size: 305, 139
+  orig: 305, 139
+  offset: 0, 0
+  index: -1
+iamge/yun3
+  rotate: true
+  xy: 807, 710
+  size: 311, 148
+  orig: 311, 148
+  offset: 0, 0
+  index: -1
+iamge/yun4
+  rotate: false
+  xy: 443, 462
+  size: 259, 56
+  orig: 259, 56
+  offset: 0, 0
+  index: -1
+iamge/yun5
+  rotate: false
+  xy: 443, 520
+  size: 298, 83
+  orig: 298, 83
+  offset: 0, 0
+  index: -1

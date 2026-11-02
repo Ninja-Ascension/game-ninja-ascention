@@ -1,0 +1,1 @@
+{"skeleton":{"hash":"p8wLJq3r6neiefdjddpi7kaaPSg","spine":"2.1.27","width":110,"height":84,"images":"./tu/"},"bones":[{"name":"root"},{"name":"bone","parent":"root","y":34.77}],"slots":[{"name":"zc_icon_32","bone":"bone","attachment":"zc_icon_32"}],"skins":{"default":{"zc_icon_32":{"zc_icon_32":{"width":110,"height":84}}}},"animations":{"animation":{}}}

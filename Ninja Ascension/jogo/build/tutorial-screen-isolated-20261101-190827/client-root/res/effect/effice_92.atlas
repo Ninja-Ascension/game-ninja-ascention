@@ -1,0 +1,90 @@
+
+effice_92.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangxiao/1316_1
+  rotate: true
+  xy: 2, 2
+  size: 52, 90
+  orig: 52, 90
+  offset: 0, 0
+  index: -1
+guangxiao/1316_10
+  rotate: true
+  xy: 92, 283
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+guangxiao/1316_11
+  rotate: true
+  xy: 186, 286
+  size: 100, 88
+  orig: 100, 88
+  offset: 0, 0
+  index: -1
+guangxiao/1316_12
+  rotate: false
+  xy: 276, 328
+  size: 49, 64
+  orig: 49, 64
+  offset: 0, 0
+  index: -1
+guangxiao/1316_2
+  rotate: false
+  xy: 2, 271
+  size: 88, 112
+  orig: 88, 112
+  offset: 0, 0
+  index: -1
+guangxiao/1316_3
+  rotate: false
+  xy: 299, 395
+  size: 99, 104
+  orig: 99, 104
+  offset: 0, 0
+  index: -1
+guangxiao/1316_4
+  rotate: false
+  xy: 99, 388
+  size: 96, 111
+  orig: 96, 111
+  offset: 0, 0
+  index: -1
+guangxiao/1316_5
+  rotate: false
+  xy: 2, 385
+  size: 95, 114
+  orig: 95, 114
+  offset: 0, 0
+  index: -1
+guangxiao/1316_6
+  rotate: true
+  xy: 2, 162
+  size: 107, 86
+  orig: 107, 86
+  offset: 0, 0
+  index: -1
+guangxiao/1316_7
+  rotate: true
+  xy: 2, 56
+  size: 104, 85
+  orig: 104, 85
+  offset: 0, 0
+  index: -1
+guangxiao/1316_8
+  rotate: false
+  xy: 197, 394
+  size: 100, 105
+  orig: 100, 105
+  offset: 0, 0
+  index: -1
+guangxiao/1316_9
+  rotate: false
+  xy: 400, 395
+  size: 91, 104
+  orig: 91, 104
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+{
+"skeleton": { "hash": "uZo10EJF8lIir8AnWRIYU2EuivU", "spine": "2.1.27", "width": 2, "height": 2, "images": "./images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "heidian", "bone": "root", "color": "ffffff00", "attachment": "heidian" }
+],
+"skins": {
+	"default": {
+		"heidian": {
+			"heidian": { "width": 2, "height": 2 }
+		}
+	}
+},
+"events": {
+	"effice_108931": {}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"heidian": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 7.8666, "color": "ffffff00" }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0666 },
+			{ "time": 0.5333 },
+			{ "time": 0.7333 }
+		],
+		"events": [
+			{ "time": 0, "name": "effice_108931" },
+			{ "time": 0.7, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 1.9, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 2.0666, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 2.2333, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 5.8, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 6.0333, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 6.2666, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 6.5, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 6.6333, "name": "effice_108931", "string": "kill" },
+			{ "time": 6.7333, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 6.9666, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 7.2, "name": "effice_108931", "string": "hurt_after_fly_shake" },
+			{ "time": 7.4, "name": "effice_108931", "string": "hurt_after_repel_shake" },
+			{ "time": 7.4333, "name": "effice_108931", "string": "next" },
+			{ "time": 7.6333, "name": "effice_108931", "string": "unkill" },
+			{ "time": 7.8666, "name": "effice_108931" }
+		]
+	}
+}
+}

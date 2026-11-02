@@ -1,0 +1,13 @@
+
+effice_777.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effice_777bz_9
+  rotate: false
+  xy: 2, 2
+  size: 280, 280
+  orig: 280, 280
+  offset: 0, 0
+  index: -1

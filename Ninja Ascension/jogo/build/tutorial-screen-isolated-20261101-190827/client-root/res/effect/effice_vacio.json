@@ -1,0 +1,1 @@
+{"skeleton":{"hash":"vacio","spine":"2.1.27","width":0,"height":0},"bones":[{"name":"root"}],"slots":[{"name":"v","bone":"root","attachment":"v"}],"skins":{"default":{"v":{"v":{"x":0,"y":0,"width":2,"height":2}}}},"animations":{"animation":{"slots":{"v":{"color":[{"time":0,"color":"ffffff00"},{"time":0.1,"color":"ffffff00"}]}}}}}

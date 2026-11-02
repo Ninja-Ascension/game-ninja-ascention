@@ -1,0 +1,425 @@
+
+spirte_107301.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bt/images/dabiy0
+  rotate: true
+  xy: 882, 316
+  size: 169, 78
+  orig: 169, 78
+  offset: 0, 0
+  index: -1
+bt/images/dabiz0
+  rotate: true
+  xy: 664, 116
+  size: 76, 154
+  orig: 76, 154
+  offset: 0, 0
+  index: -1
+bt/images/datuiy0
+  rotate: false
+  xy: 540, 608
+  size: 203, 173
+  orig: 203, 173
+  offset: 0, 0
+  index: -1
+bt/images/datuiz0
+  rotate: false
+  xy: 339, 413
+  size: 193, 184
+  orig: 193, 184
+  offset: 0, 0
+  index: -1
+bt/images/datuiz1
+  rotate: false
+  xy: 331, 599
+  size: 207, 197
+  orig: 207, 197
+  offset: 0, 0
+  index: -1
+bt/images/jiaoy0
+  rotate: false
+  xy: 753, 13
+  size: 139, 93
+  orig: 139, 93
+  offset: 0, 0
+  index: -1
+bt/images/jiaoz0
+  rotate: true
+  xy: 732, 481
+  size: 125, 130
+  orig: 125, 130
+  offset: 0, 0
+  index: -1
+bt/images/jiaoz1
+  rotate: true
+  xy: 820, 108
+  size: 82, 159
+  orig: 82, 159
+  offset: 0, 0
+  index: -1
+bt/images/kua0
+  rotate: false
+  xy: 712, 318
+  size: 168, 161
+  orig: 168, 161
+  offset: 0, 0
+  index: -1
+bt/images/kua1
+  rotate: false
+  xy: 363, 177
+  size: 171, 169
+  orig: 171, 169
+  offset: 0, 0
+  index: -1
+bt/images/liuhai0
+  rotate: false
+  xy: 745, 608
+  size: 115, 173
+  orig: 115, 173
+  offset: 0, 0
+  index: -1
+bt/images/liuhaiy2
+  rotate: false
+  xy: 271, 356
+  size: 66, 214
+  orig: 66, 214
+  offset: 0, 0
+  index: -1
+bt/images/liuhaiz2
+  rotate: true
+  xy: 339, 348
+  size: 63, 197
+  orig: 63, 197
+  offset: 0, 0
+  index: -1
+bt/images/liuhaiz4
+  rotate: true
+  xy: 363, 122
+  size: 53, 163
+  orig: 53, 163
+  offset: 0, 0
+  index: -1
+bt/images/qugan0
+  rotate: false
+  xy: 2, 333
+  size: 267, 237
+  orig: 267, 237
+  offset: 0, 0
+  index: -1
+bt/images/qugan1
+  rotate: true
+  xy: 331, 798
+  size: 224, 263
+  orig: 224, 263
+  offset: 0, 0
+  index: -1
+bt/images/tou0
+  rotate: true
+  xy: 329, 5
+  size: 115, 150
+  orig: 115, 150
+  offset: 0, 0
+  index: -1
+bt/images/tou1
+  rotate: true
+  xy: 540, 487
+  size: 119, 190
+  orig: 119, 190
+  offset: 0, 0
+  index: -1
+bt/images/tou2
+  rotate: false
+  xy: 536, 192
+  size: 126, 153
+  orig: 126, 153
+  offset: 0, 0
+  index: -1
+bt/images/tou4
+  rotate: true
+  xy: 823, 192
+  size: 122, 151
+  orig: 122, 151
+  offset: 0, 0
+  index: -1
+bt/images/toufa0
+  rotate: false
+  xy: 2, 572
+  size: 320, 214
+  orig: 320, 214
+  offset: 0, 0
+  index: -1
+bt/images/toufa1
+  rotate: false
+  xy: 2, 788
+  size: 327, 234
+  orig: 327, 234
+  offset: 0, 0
+  index: -1
+bt/images/toufa2
+  rotate: true
+  xy: 2, 11
+  size: 320, 147
+  orig: 320, 147
+  offset: 0, 0
+  index: -1
+bt/images/toufa5
+  rotate: false
+  xy: 538, 347
+  size: 172, 138
+  orig: 172, 138
+  offset: 0, 0
+  index: -1
+bt/images/xiaobiy0
+  rotate: false
+  xy: 664, 194
+  size: 157, 122
+  orig: 157, 122
+  offset: 0, 0
+  index: -1
+bt/images/xiaobiz0
+  rotate: false
+  xy: 602, 19
+  size: 149, 95
+  orig: 149, 95
+  offset: 0, 0
+  index: -1
+bt/images/xiaobiz3
+  rotate: false
+  xy: 481, 6
+  size: 119, 114
+  orig: 119, 114
+  offset: 0, 0
+  index: -1
+bt/images/xiaotuiy0
+  rotate: true
+  xy: 596, 892
+  size: 130, 278
+  orig: 130, 278
+  offset: 0, 0
+  index: -1
+bt/images/xiaotuiy1
+  rotate: false
+  xy: 151, 71
+  size: 117, 260
+  orig: 117, 260
+  offset: 0, 0
+  index: -1
+bt/images/xiaotuiz0
+  rotate: false
+  xy: 596, 783
+  size: 243, 107
+  orig: 243, 107
+  offset: 0, 0
+  index: -1
+bt/images/xiaotuiz1
+  rotate: false
+  xy: 862, 665
+  size: 115, 182
+  orig: 115, 182
+  offset: 0, 0
+  index: -1
+dabiz
+  rotate: false
+  xy: 979, 678
+  size: 27, 75
+  orig: 27, 75
+  offset: 0, 0
+  index: -1
+datuiy
+  rotate: true
+  xy: 536, 122
+  size: 68, 126
+  orig: 68, 126
+  offset: 0, 0
+  index: -1
+datuiz
+  rotate: false
+  xy: 962, 396
+  size: 56, 120
+  orig: 56, 120
+  offset: 0, 0
+  index: -1
+images/shouy3
+  rotate: false
+  xy: 985, 20
+  size: 26, 60
+  orig: 26, 60
+  offset: 0, 0
+  index: -1
+jiaoy
+  rotate: false
+  xy: 981, 160
+  size: 39, 58
+  orig: 39, 58
+  offset: 0, 0
+  index: -1
+jiaoz
+  rotate: true
+  xy: 976, 266
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: -1
+kua
+  rotate: true
+  xy: 894, 9
+  size: 97, 89
+  orig: 97, 89
+  offset: 0, 0
+  index: -1
+lingziy
+  rotate: true
+  xy: 985, 82
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+liuhai1
+  rotate: false
+  xy: 841, 799
+  size: 19, 91
+  orig: 19, 91
+  offset: 0, 0
+  index: -1
+liuhai2
+  rotate: false
+  xy: 979, 755
+  size: 35, 92
+  orig: 35, 92
+  offset: 0, 0
+  index: -1
+qugan
+  rotate: true
+  xy: 876, 923
+  size: 99, 146
+  orig: 99, 146
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 882, 849
+  size: 140, 72
+  orig: 140, 72
+  offset: 0, 0
+  index: -1
+shouy
+  rotate: true
+  xy: 976, 220
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 962, 324
+  size: 52, 70
+  orig: 52, 70
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: true
+  xy: 151, 2
+  size: 67, 176
+  orig: 67, 176
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 864, 487
+  size: 95, 176
+  orig: 95, 176
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: false
+  xy: 270, 145
+  size: 91, 186
+  orig: 91, 186
+  offset: 0, 0
+  index: -1
+xiaobiy
+  rotate: true
+  xy: 981, 112
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: -1
+xiaobiz
+  rotate: false
+  xy: 270, 75
+  size: 57, 68
+  orig: 57, 68
+  offset: 0, 0
+  index: -1
+xiaotuiz
+  rotate: false
+  xy: 961, 518
+  size: 44, 145
+  orig: 44, 145
+  offset: 0, 0
+  index: -1
+
+spirte_1073012.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bt/images/jiaoy1
+  rotate: false
+  xy: 2, 6
+  size: 76, 107
+  orig: 76, 107
+  offset: 0, 0
+  index: -1
+bt/images/liuhaiy4
+  rotate: true
+  xy: 98, 192
+  size: 62, 154
+  orig: 62, 154
+  offset: 0, 0
+  index: -1
+bt/images/shouy0
+  rotate: false
+  xy: 143, 67
+  size: 65, 53
+  orig: 65, 53
+  offset: 0, 0
+  index: -1
+bt/images/shouz0
+  rotate: true
+  xy: 80, 42
+  size: 71, 61
+  orig: 71, 61
+  offset: 0, 0
+  index: -1
+bt/images/xiaobiy3
+  rotate: false
+  xy: 2, 115
+  size: 94, 139
+  orig: 94, 139
+  offset: 0, 0
+  index: -1
+dabiy
+  rotate: true
+  xy: 210, 70
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+shouz
+  rotate: false
+  xy: 80, 11
+  size: 34, 29
+  orig: 34, 29
+  offset: 0, 0
+  index: -1
+xiaotuiy
+  rotate: true
+  xy: 98, 122
+  size: 68, 148
+  orig: 68, 148
+  offset: 0, 0
+  index: -1

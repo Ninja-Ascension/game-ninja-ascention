@@ -1,0 +1,90 @@
+
+sprite_chuansong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lizi_0001
+  rotate: false
+  xy: 2, 848
+  size: 165, 173
+  orig: 169, 178
+  offset: 2, 2
+  index: -1
+qiu_0001
+  rotate: true
+  xy: 169, 781
+  size: 89, 92
+  orig: 113, 122
+  offset: 12, 15
+  index: -1
+xuanfeng_0001
+  rotate: true
+  xy: 2, 500
+  size: 166, 157
+  orig: 170, 164
+  offset: 1, 3
+  index: -1
+xuanfeng_0003
+  rotate: false
+  xy: 2, 2
+  size: 163, 154
+  orig: 172, 162
+  offset: 5, 4
+  index: -1
+xuanfeng_0005
+  rotate: true
+  xy: 2, 668
+  size: 178, 157
+  orig: 181, 167
+  offset: 0, 5
+  index: -1
+xuanfeng_0007
+  rotate: false
+  xy: 169, 872
+  size: 184, 149
+  orig: 185, 157
+  offset: 1, 5
+  index: -1
+xuanfeng_0009
+  rotate: false
+  xy: 696, 874
+  size: 165, 147
+  orig: 172, 154
+  offset: 5, 4
+  index: -1
+xuanfeng_0011
+  rotate: false
+  xy: 355, 873
+  size: 165, 148
+  orig: 170, 156
+  offset: 1, 4
+  index: -1
+xuanfeng_0013
+  rotate: false
+  xy: 522, 880
+  size: 172, 141
+  orig: 177, 149
+  offset: 1, 4
+  index: -1
+xuanfeng_0015
+  rotate: true
+  xy: 863, 856
+  size: 165, 146
+  orig: 170, 154
+  offset: 1, 5
+  index: -1
+xuanfeng_0017
+  rotate: true
+  xy: 2, 325
+  size: 173, 150
+  orig: 177, 159
+  offset: 0, 4
+  index: -1
+xuanfeng_0019
+  rotate: true
+  xy: 2, 158
+  size: 165, 157
+  orig: 172, 164
+  offset: 3, 3
+  index: -1

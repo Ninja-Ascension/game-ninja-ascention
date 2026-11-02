@@ -1,0 +1,48 @@
+
+effect_nuqitexie.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangxiao/dt_1
+  rotate: false
+  xy: 2, 376
+  size: 485, 127
+  orig: 542, 143
+  offset: 35, 8
+  index: -1
+guangxiao/f
+  rotate: true
+  xy: 489, 431
+  size: 72, 14
+  orig: 72, 14
+  offset: 0, 0
+  index: -1
+guangxiao/gx
+  rotate: false
+  xy: 2, 309
+  size: 245, 65
+  orig: 266, 65
+  offset: 7, 0
+  index: -1
+guangxiao/quan
+  rotate: false
+  xy: 2, 78
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+guangxiao/x
+  rotate: false
+  xy: 2, 157
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+guangxiao/yxa
+  rotate: false
+  xy: 249, 354
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

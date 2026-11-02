@@ -1,0 +1,49 @@
+1	Nhận EXP	Nhận EXP Hằng Ngày	3002	25	1	8-0,90!6-68,6	1	999	-1	0	-1
+2	Nâng Cấp Ninja	Nâng cấp 3 Ninja	4003	9	3	8-0,60!1-0,6000	1	999	285	0	-1
+3	Tiến Giai Ninja	Tiến Giai Ninja 1X	4003	27	1	8-0,60!1-0,6000	1	999	286	0	-1
+4	Nâng Kỹ Năng	Nâng Cấp Kỹ Năng 3X	4003	28	3	8-0,60!1-0,6000	1	999	287	0	-1
+5	Chiến Binh Vĩ Đại	Khiêu Chiến Phó Bản Chính 10X	4003	0	10	8-0,250!1-0,8000	1	999	288	0	-1
+6	Thử Thách Tinh Anh	Khiêu Chiến Phó Bản Tinh Anh 3X	4003	24	3	8-0,250!1-0,8000	1	999	289	0	-1
+7	Chiến Binh Vĩ Đại-II	Khiêu Chiến Đại Nhẫn Giả 1X	4003	29	1	8-0,100!1-0,6000	1	999	290	0	-1
+8	Chiêu Mộ Ninja	Chiêu Mộ 1X	4003	15	1	8-0,100!1-0,12000	1	999	291	0	-1
+9	Cây Ryo	Lắc 1X	4003	30	1	8-0,100!1-0,6000	1	999	292	0	-1
+10	Mua Thể Lực	Mua Thể Lực 1X	4003	31	1	8-0,100!1-0,6000	1	999	293	0	-1
+11	Hoàn Trả Tiêu Phí	Mỗi ngày tiêu hao 300 Vàng	4001	26	300	8-0,180!1-0,50000	1	999	-1	0	-1
+12	Chiến Đấu Trường	Chiến Đấu Trường 3X	4003	4	3	8-0,200!1-0,10000	1	999	297	0	-1
+13	Thử Thách Ninja	Thử Thách Ninja 1X	4003	32	1	8-0,200!6-2327,1!1-0,10000	24	999	298	0	-1
+14	Đội Quân Zetsu Trắng	Khiêu Chiến Đạo Quân Zetsu Trắng 1X	4003	33	1	8-0,20!6-2382,2	32	999	299	0	-1
+15	Quyên Góp Bang Hội	Quyên Góp Gia Tộc 1X	4013	34	1	1-0,2000!28-0,60	1	999	300	0	-1
+16	Chìa Khóa Rương Vũ Khí	Nhận Chìa Khóa Rương Vũ Khí	3041	25	1	6-240,1	1	999	367	0	-1
+17	Nhận Điểm Thiên Phú	Nhận Điểm Thiên Phú	4008	25	1	34-0,1	1	999	368	0	-1
+18	Khế Ước Pháp Sư 	Nhận Khế Ước Pháp Sư 	3001	25	1	6-242,20	1	999	369	0	-1
+19	Nhận Mảnh X	Nhận Mảnh-X 	3043	25	1	6-1000,1	1	999	370	0	-1
+20	Nhận Mảnh X	Nhận Mảnh-X 	3146	25	1	6-1000,2	1	999	371	0	-1
+21	Hoàn Trả Lớn	Tiêu Tích Lũy 880 Vàng	4001	26	880	8-0,180!2-0,100	1	999	366	0	-1
+22	Quà Trực Tuyến	Trực tuyến để nhận	3156	25	1	63-0,10	1	999	-1	1	-1
+23	Tích Lũy Trực Tuyến	Thời Gian Trực Tuyến Tích Lũy	3156	35	30	63-0,5	1	999	-1	1	24
+24	Tích Lũy Trực Tuyến	Thời Gian Trực Tuyến Tích Lũy	3156	35	60	63-0,10	1	999	-1	1	-1
+25	Quà Thể Lực	Tặng Thể Lực cho Bạn Bè 	4005	36	1	63-0,5	1	999	377	1	-1
+26	Tiêu Hao Thể Lực	Thể Lực Đã Tiêu	4005	37	120	63-0,5	1	999	378	1	27
+27	Tiêu Hao Thể Lực	Thể Lực Đã Tiêu	4005	37	360	63-0,10	1	999	378	1	-1
+28	Rương Thử Thách	Mở Rương Thử Thách Ninja	3145	38	4	63-0,5	1	999	379	1	29
+29	Rương Thử Thách	Mở Rương Thử Thách Ninja	3145	38	8	63-0,5	1	999	379	1	30
+30	Rương Thử Thách	Mở Rương Thử Thách Ninja	3145	38	12	63-0,10	1	999	379	1	-1
+31	Nhận Ryo	Đã nhận Ryo	4002	39	1000000	63-0,5	1	999	380	1	32
+32	Nhận Ryo	Đã nhận Ryo	4002	39	2000000	63-0,10	1	999	380	1	-1
+33	Nâng Cấp Ấn Chú	Nâng Cấp Ấn Chú	3144	40	1	63-0,5	50	999	381	1	34
+34	Nâng Cấp Ấn Chú	Nâng Cấp Ấn Chú	3144	40	10	63-0,5	50	999	381	1	-1
+35	Tặng Quà	Tặng Quà Theo Tinh Thần Đồng Đội	3036	41	1	63-0,5	1	999	382	1	36
+36	Tặng Quà	Tặng Quà Theo Tinh Thần Đồng Đội	3036	41	10	63-0,10	1	999	382	1	-1
+37	Giúp Thành Viên	Giúp Thành Viên Gia Tộc Trong Phòng Luyện Tập	4003	42	1	63-0,5	1	999	383	1	-1
+38	Luyện Tập Pháp Sư	Luyện Tập Pháp Sư	3043	43	3	63-0,5	1	999	384	1	39
+39	Luyện Tập Pháp Sư	Luyện Tập Pháp Sư	3043	43	10	63-0,10	1	999	384	1	-1
+40	Rương Vũ Khí	Mở Rương Vũ Khí	3024	44	1	63-0,5	1	999	385	1	41
+41	Rương Vũ Khí	Mở Rương Vũ Khí	3024	44	10	63-0,10	1	999	385	1	-1
+42	Số Trận Thắng Đấu Trường	Số Trận Thắng Đấu Trường	4004	45	1	63-0,5	1	999	386	1	-1
+43	Bái Lạy Đấu Trường 	Bái Lạy Đấu Trường 	4004	46	1	63-0,5	1	999	387	1	-1
+44	Cửa Hàng Bí Mật	Mua trong Cửa Hàng Bí Mật	3160	47	1	63-0,5	25	999	388	1	45
+45	Cửa Hàng Bí Mật	Mua trong Cửa Hàng Bí Mật	3160	47	3	63-0,5	25	999	388	1	-1
+46	Chia Sẻ với Bạn Bè	Chia sẻ 1 lần mỗi ngày	4003	48	1	8-0,60!6-359,1	999	999	365	0	-1
+47	Rút Ấn bằng Ryo	Mỗi ngày dùng Ryo rút Ấn một lần	4067	49	1	8-0,60!67-0,50	42	999	373	0	-1
+48	Đội Quân Zetsu Trắng	Khiêu chiến Đội Quân Zetsu Trắng 3 lần	4003	33	3	8-0,20!6-2383,4	28	999	299	0	-1
+49	Xem Quảng Cáo là lịch sự	Đã xem quảng cáo thành công	4003	50	1	8-0,20!6-2383,4	20	999	600	0	-1

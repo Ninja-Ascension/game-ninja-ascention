@@ -1,0 +1,20 @@
+
+sprite_zhaomubg_2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yan
+  rotate: false
+  xy: 2, 2
+  size: 141, 147
+  orig: 165, 165
+  offset: 9, 15
+  index: -1
+yan1
+  rotate: false
+  xy: 2, 151
+  size: 188, 190
+  orig: 221, 221
+  offset: 7, 28
+  index: -1

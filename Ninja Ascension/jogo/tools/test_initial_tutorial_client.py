@@ -82,14 +82,18 @@ script+=r'''
 assert(LoginLoading:shouldEnterInitialBattle()==false,
     'choice/completed/legacy profiles must enter normal login instead of the legacy battle loader')
 initial.apply('playing')
+assert(LoginLoading:shouldEnterInitialBattle()==false,
+    'playing state without parsed battleData must not create an empty FightLoading')
+_ED.battleData={battle_total_count=2}
 assert(LoginLoading:shouldEnterInitialBattle()==true,
-    'the active first tutorial battle must still use its tutorial loader')
+    'the battle loader may run only after the battle parser has supplied battleData')
+_ED.battleData=nil
 initial.apply('skipped')
 assert(LoginLoading:shouldEnterInitialBattle()==false,
     'skipped profiles must not reopen the legacy first battle')
 _ED.user_info.user_id=''
-assert(LoginLoading:shouldEnterInitialBattle()==true,
-    'the original character-creation path must remain available without a user id')
+assert(LoginLoading:shouldEnterInitialBattle()==false,
+    'character creation must not be routed to an uninitialized battle loader')
 _ED.user_info.user_id='77'
 '''
 gate_start=login_loading.index('function LoginLoading:checkLoginLoading')
@@ -116,6 +120,15 @@ executeMissionExt=function() error('simulated tutorial dispatch error') end
 LoginLoading.checkLoginLoading(failedLoader,failedFight,false)
 assert(failedLoader.totalNum==9 and failedFight._unload==false,
     'A tutorial dispatch error must leave the battle loader recoverable')
+local resumeLoader={totalNum=8}
+local resumeFight={_unload=false}
+local resumeCount=0
+initial.apply('playing')
+app={load=function(module) assert(module=='client.mission.TutorialSkip') end}
+TutorialSkip={resumeInitialBattle=function(window) resumeCount=resumeCount+1;assert(window==resumeFight);return true end}
+LoginLoading.checkLoginLoading(resumeLoader,resumeFight,false)
+assert(resumeFight._unload==true and resumeCount==1,
+    'a playing tutorial must resume through the initialized battle route, not tuition or empty FightLoading')
 local choiceLoader={totalNum=8,isBeginLoad=true,_unload=false,basePosX=0,
     loadingBar={getContentSize=function() return {width=100} end,setPercent=function() end},
     Panel_loading_ing={setPositionX=function() end},Text_loading_02={setString=function() end}}
@@ -128,6 +141,10 @@ TutorialSkip={install=function() end,openWhenLoaded=function()
 end}
 fwin={find=function(_,name) return name=='TutorialSkipWindowClass' and choiceShown and {} or nil end}
 initial.apply('choice')
+TutorialSkip={install=function() end,openWhenLoaded=function()
+    choiceShown=true
+    assert(TutorialSkip.pending[1]==mission_mould_tuition and TutorialSkip.pending[6]=='l1e0')
+end}
 LoginLoading.onUpdate(choiceLoader,0)
 assert(choiceLoader._unload==true and choiceLoader.totalNum==9 and choiceShown,
     'normal login must directly show the tutorial choice at 8%, independent of mission-over state')
@@ -142,6 +159,13 @@ script+=r'''
 local replayed,route=0,nil
 TutorialSkip.pending={'pending',nil,nil,nil,nil,'l1e0',true}
 TutorialSkip.original=function(...) replayed=replayed+1;route={...};assert(select('#',...)==7) end
+local resumeCalls=0
+local resumeInitialBattle=TutorialSkip.resumeInitialBattle
+TutorialSkip.resumeInitialBattle=function(loginWindow)
+    resumeCalls=resumeCalls+1
+    assert(loginWindow~=nil)
+    return true
+end
 TutorialSkip.newbie()
 assert(requested==9992 and TutorialSkip.busy and replayed==0 and closed==0)
 callback({RESPONSE_SUCCESS=false,PROTOCOL_STATUS=-1})
@@ -149,8 +173,36 @@ assert(not TutorialSkip.busy and TutorialSkip.pending and closed==0)
 TutorialSkip.newbie()
 initial.apply('playing')
 callback({RESPONSE_SUCCESS=true,PROTOCOL_STATUS=0})
-assert(replayed==1 and closed==1 and TutorialSkip.pending==nil and not TutorialSkip.busy)
-assert(route[1]=='battle' and route[5]==true and route[6]=='1196v1' and route[7]==true)
+assert(replayed==0 and resumeCalls==1 and closed==1 and TutorialSkip.pending==nil and not TutorialSkip.busy)
+assert(_ED.nr_initial_tutorial=='playing','accepted tutorial choice was not reflected in client state')
+TutorialSkip.resumeInitialBattle=resumeInitialBattle
+local loginWindow={_unload=true}
+local openedEffect,loginClosed
+requested=nil
+callback=nil
+_ED.nr_initial_tutorial='playing'
+_ED.user_info={user_id='77',user_grade='1',user_experience='0'}
+_ED.user_formetion_status={}
+_ED.user_ship={}
+protocol_command.battle_result_start={code=328,param_list=''}
+_enum_fight_type={_fight_type_0=0}
+NetworkManager={register=function(_,code,_,_,_,_,cb) requested=code;callback=cb end}
+app={load=function() end}
+fwin={find=function(_,name) return name=='LoginLoadingClass' and loginWindow or nil end,
+    close=function(_,window) if window==loginWindow then loginClosed=true end end,
+    open=function(_,effect) openedEffect=effect end,_windows={}}
+FightModule={new=function() return {
+    initFight=function() _ED.battleData={battle_total_count=2} end,
+    initFightOrder=function() end
+} end}
+BattleStartEffect={new=function() return {init=function(self,kind) self.kind=kind end} end}
+assert(TutorialSkip.resumeInitialBattle(loginWindow)==true and requested==328,
+    'tutorial did not start through the normal battle_result_start protocol')
+assert(protocol_command.battle_result_start.param_list:find('0\r\n1\r\n1196\r\n1\r\n2,1,1,2',1,true),
+    'tutorial battle request did not use the Itachi/Pain story encounter')
+callback({RESPONSE_SUCCESS=true,PROTOCOL_STATUS=0})
+assert(_ED.battleData.battle_total_count==2 and openedEffect~=nil and openedEffect.kind==1 and loginClosed,
+    'tutorial did not build battleData and open the normal PVE battle start flow')
 local realOpen=io.open
 io.open=function() return {write=function() end,close=function() end} end
 app={load=function() end}

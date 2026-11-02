@@ -1,0 +1,20 @@
+
+effect_jinglingmibao.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/233
+  rotate: true
+  xy: 94, 2
+  size: 54, 55
+  orig: 92, 68
+  offset: 19, 11
+  index: -1
+images/2333
+  rotate: false
+  xy: 2, 16
+  size: 90, 40
+  orig: 90, 40
+  offset: 0, 0
+  index: -1

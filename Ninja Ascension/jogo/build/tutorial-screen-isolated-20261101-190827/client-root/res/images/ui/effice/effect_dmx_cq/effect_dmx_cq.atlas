@@ -1,0 +1,27 @@
+
+effect_dmx_cq.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bu
+  rotate: false
+  xy: 2, 2
+  size: 191, 198
+  orig: 191, 200
+  offset: 0, 1
+  index: -1
+jd
+  rotate: true
+  xy: 195, 3
+  size: 197, 142
+  orig: 200, 148
+  offset: 2, 3
+  index: -1
+st
+  rotate: true
+  xy: 339, 50
+  size: 150, 154
+  orig: 154, 158
+  offset: 2, 2
+  index: -1

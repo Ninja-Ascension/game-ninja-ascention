@@ -1,0 +1,76 @@
+
+sprite_wzzz_jxz.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cjb1
+  rotate: false
+  xy: 63, 75
+  size: 29, 67
+  orig: 34, 75
+  offset: 2, 4
+  index: -1
+hjg
+  rotate: false
+  xy: 2, 144
+  size: 100, 101
+  orig: 122, 128
+  offset: 11, 14
+  index: -1
+kjsc2
+  rotate: true
+  xy: 2, 10
+  size: 132, 59
+  orig: 132, 59
+  offset: 0, 0
+  index: -1
+kjsc3
+  rotate: false
+  xy: 104, 186
+  size: 132, 59
+  orig: 132, 59
+  offset: 0, 0
+  index: -1
+lg1
+  rotate: false
+  xy: 196, 123
+  size: 34, 61
+  orig: 44, 74
+  offset: 5, 7
+  index: -1
+lizi1
+  rotate: true
+  xy: 94, 70
+  size: 23, 25
+  orig: 27, 30
+  offset: 2, 2
+  index: -1
+lizi2
+  rotate: true
+  xy: 121, 70
+  size: 23, 25
+  orig: 27, 30
+  offset: 2, 2
+  index: -1
+zdz_dq
+  rotate: false
+  xy: 104, 95
+  size: 90, 89
+  orig: 94, 92
+  offset: 2, 1
+  index: -1
+zdz_wq1
+  rotate: false
+  xy: 196, 72
+  size: 49, 49
+  orig: 55, 54
+  offset: 2, 3
+  index: -1
+zdz_z
+  rotate: true
+  xy: 63, 6
+  size: 67, 28
+  orig: 68, 29
+  offset: 1, 1
+  index: -1
