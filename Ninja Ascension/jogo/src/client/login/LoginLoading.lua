@@ -1,5 +1,18 @@
 LoginLoading = class("LoginLoadingClass", Window)
 
+local function loginLoadingTutorialTrace(status)
+	local message = "LOGIN_ENTRY_TUTORIAL_GATE " .. tostring(status)
+	pcall(print, message)
+	pcall(function()
+		local path = cc.FileUtils:getInstance():getWritablePath() .. "login-entry-trace.log"
+		local file = io.open(path, "a")
+		if file then
+			file:write(os.date("%Y-%m-%d %H:%M:%S") .. " " .. message .. "\n")
+			file:close()
+		end
+	end)
+end
+
 function LoginLoading:ctor()
     self.super:ctor()
 	self.roots = {}
@@ -208,8 +221,9 @@ function LoginLoading:init(  )
 	-- 	self:onInit()
 	-- end
 
-	-- 进入首战
-	if _ED.user_info.user_id == "" or tonumber(_ED.user_info.user_id) == 0 or ("l".._ED.user_info.user_grade.."e".._ED.user_info.user_experience == "l1e0") then
+	-- 新账号选择了“做教程”后才进入教程首战。choice/skipped/completed/legacy
+	-- 必须走正常登录加载；强行打开 FightLoading 会在没有 battleData 时卡在 100%。
+	if self:shouldEnterInitialBattle() then
 		self._unload = true
 		app.load("client.cells.utils.sm_item_icon_cell")
 		app.load("client.home.Menu")
@@ -234,6 +248,31 @@ function LoginLoading:init(  )
 		self:onInit()
 	end
 	return self
+end
+
+function LoginLoading:shouldEnterInitialBattle()
+	local userId = _ED.user_info.user_id
+	if userId == "" or tonumber(userId) == 0 then
+		return true
+	end
+	return "l".._ED.user_info.user_grade.."e".._ED.user_info.user_experience == "l1e0"
+		and _ED.nr_initial_tutorial == "playing"
+end
+
+function LoginLoading:openInitialTutorialChoice(baseWindow)
+	if baseWindow == nil or _ED.nr_initial_tutorial ~= "choice" then return false end
+	local ok, shown = pcall(function()
+		app.load("client.mission.TutorialSkip")
+		assert(TutorialSkip and type(TutorialSkip.install) == "function", "TutorialSkip module unavailable")
+		TutorialSkip.install()
+		assert(type(TutorialSkip.openWhenLoaded) == "function", "TutorialSkip window unavailable")
+		TutorialSkip.pending = { mission_mould_tuition, nil, nil, nil, true, "l1e0", true }
+		TutorialSkip.openWhenLoaded()
+		return fwin:find("TutorialSkipWindowClass") ~= nil
+	end)
+	baseWindow._unload = ok and shown == true
+	loginLoadingTutorialTrace(ok and (shown and "choice displayed" or "choice window missing") or ("choice error: " .. tostring(shown)))
+	return baseWindow._unload
 end
 
 function LoginLoading:onInit( ... )
@@ -370,6 +409,10 @@ function LoginLoading:onUpdate( dt )
 	if self.totalNum >= 100 then
 		self:loadingSuccess()
 		return
+	elseif self.totalNum == 8 then
+		-- No caminho normal de login, disparar a escolha inicial no mesmo ponto
+		-- em que o antigo FightLoading consultava o tutorial, sem iniciar a luta antiga.
+		self:checkLoginLoading(self, false)
 	else
 		self:checkLoginLoading(nil, true)
 	end
@@ -382,14 +425,28 @@ function LoginLoading:onUpdate( dt )
 end
 
 function LoginLoading:checkLoginLoading( baseWindow, loginIn )
+	if self.totalNum == 8 and loginIn == false and baseWindow ~= nil then
+		loginLoadingTutorialTrace("gate state=" .. tostring(_ED.nr_initial_tutorial)
+			.. " grade=" .. tostring(_ED.user_info.user_grade)
+			.. " exp=" .. tostring(_ED.user_info.user_experience))
+	end
 	if self.totalNum == 8 and loginIn == false then
 		if nil ~= baseWindow then
-			baseWindow._unload = true
 			if _ED.user_info.user_id == "" or tonumber(_ED.user_info.user_id) == 0 then
+				baseWindow._unload = true
 				state_machine.excute("login_loading_change_name", 0, baseWindow)
+			elseif _ED.nr_initial_tutorial == "choice" then
+				self:openInitialTutorialChoice(baseWindow)
 			else
-				if executeMissionExt(mission_mould_tuition, nil, nil, nil, true, "l".._ED.user_info.user_grade.."e".._ED.user_info.user_experience, true) == false then
-
+				local ok, started = pcall(executeMissionExt, mission_mould_tuition, nil, nil, nil, true,
+					"l".._ED.user_info.user_grade.."e".._ED.user_info.user_experience, true)
+				baseWindow._unload = ok and started == true
+				if not ok then
+					loginLoadingTutorialTrace("error; loader continues")
+				elseif started == true then
+					loginLoadingTutorialTrace("started; battle loader paused for mission")
+				else
+					loginLoadingTutorialTrace("rejected; battle loader continues")
 				end
 			end
 		end
